@@ -1,0 +1,88 @@
+{
+  "contract_version": "execution-contract-v1",
+  "status": "incomplete",
+  "last_compiled_from": "启动合同.md",
+  "exam": {
+    "exam_date": null,
+    "startup_day_0_date": null,
+    "syllabus_versions": {
+      "MATH1": null,
+      "CS408": null
+    }
+  },
+  "score_targets": {
+    "MATH1": {
+      "floor_score": 118,
+      "target_score": 126
+    },
+    "CS408": {
+      "floor_score": 100,
+      "target_score": 105
+    }
+  },
+  "time_budget": {
+    "reported_weekly_hours_before_politics_and_english_deduction": 50,
+    "net_weekly_hours": null,
+    "reported_daily_hours": {
+      "monday": 8,
+      "tuesday": 6,
+      "wednesday": 8,
+      "thursday": 6,
+      "friday": 8,
+      "saturday": 8,
+      "sunday": 6
+    },
+    "initial_weekly_allocation": {
+      "MATH1": null,
+      "CS408": null
+    },
+    "minimum_weekly_hours": {
+      "MATH1": 15,
+      "CS408": 20
+    },
+    "known_interruptions": []
+  },
+  "primary_resources": {
+    "MATH1": null,
+    "CS408": null,
+    "authoritative_past_papers": null,
+    "authoritative_answers": null,
+    "authoritative_solutions": null
+  },
+  "defaults": {
+    "learning_block_minutes": 45,
+    "startup_max_effective_hours": 25,
+    "startup_max_calendar_days": 5,
+    "system_maintenance_share_limit": 0.1,
+    "fixed_audit_day": "sunday"
+  },
+  "startup_scope": {
+    "anchor_candidate_cap_interpretation": null
+  },
+  "exposure_inventory": {
+    "questions_or_papers_already_seen_by_student": null,
+    "questions_or_papers_already_seen_by_teacher": null
+  },
+  "missing_required_fields": [
+    "exam.exam_date",
+    "exam.startup_day_0_date",
+    "exam.syllabus_versions.MATH1",
+    "exam.syllabus_versions.CS408",
+    "time_budget.net_weekly_hours",
+    "time_budget.initial_weekly_allocation.MATH1",
+    "time_budget.initial_weekly_allocation.CS408",
+    "primary_resources.MATH1",
+    "primary_resources.CS408",
+    "primary_resources.authoritative_past_papers",
+    "primary_resources.authoritative_answers",
+    "primary_resources.authoritative_solutions",
+    "startup_scope.anchor_candidate_cap_interpretation",
+    "exposure_inventory.questions_or_papers_already_seen_by_student",
+    "exposure_inventory.questions_or_papers_already_seen_by_teacher"
+  ],
+  "notes": [
+    "原《启动合同.md》的50小时尚未扣除政治、英语，因此不能直接当作每周净学习时间。",
+    "两科最低保障已填写，但初始总分配尚未填写；不得由AI用剩余时数自动猜测。",
+    "在确定FIXED_AUDIT和SEALED名单前，必须先核对学生与Teacher已经见过哪些卷。"
+  ]
+}

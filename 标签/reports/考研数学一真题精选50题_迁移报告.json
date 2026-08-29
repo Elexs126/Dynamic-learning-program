@@ -1,0 +1,31 @@
+{
+  "report_version": "l3-v1-migration-report-v1.0.0",
+  "generated_at": "2026-08-29T16:32:50+00:00",
+  "input": "/home/elexs/My Material/project/Dynamic-learning-program/考研数学一真题精选50题_L3标注结果.json",
+  "output": "/home/elexs/My Material/project/Dynamic-learning-program/migrations/考研数学一真题精选50题_annotations_v1_迁移候选.json",
+  "input_schema_version": "l3-v1",
+  "output_record_schema_version": "question-annotation-v1.0.0",
+  "input_items": 50,
+  "output_records": 50,
+  "unique_question_ids": 50,
+  "counters": {
+    "multi_score_unit": 11,
+    "unresolved_points": 11,
+    "difficulty_remap": 6,
+    "review_flagged": 34,
+    "completeness_flagged": 32,
+    "dependency_note_unresolved": 11,
+    "teaching_diagnosis_excluded": 50,
+    "canonical_source_relinked": 50
+  },
+  "global_decisions": [
+    "旧文件只读保留，不覆盖。",
+    "全部迁移记录保持 needs_review，不把 prototype QA 等同于最新版 schema 审核。",
+    "L1 由旧 L2 反向回填并标记 legacy_migration。",
+    "未知来源可靠度保持 unknown。",
+    "未知子题分值保持 null，不自动拆题或编分。",
+    "prototype 教学诊断与扩展结构字段不进入正式核心 annotation。",
+    "50题派生精选来源已重链到对应 canonical 年份卷，并保存题块 SHA-256。",
+    "只有题干、公式、符号、选项、配图等摄取风险影响 question_completeness；纯评分不确定性不影响。"
+  ]
+}

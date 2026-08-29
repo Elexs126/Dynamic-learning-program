@@ -37,3 +37,14 @@
 
 ### 📁 04_题库与数据构建 (`04_题库与数据构建/`)
 收录真题解析、各章节经典习题、选择题与综合大题的构建与转换历史脚本。
+
+---
+
+### 📁 05_标注与规范校验 (`05_标注与规范校验/`)
+负责题目元数据标注、JSON Schema 结构校验、仓库规范审计与数据迁移：
+- `validate_annotations.py`: 题目多级元数据标注与 Schema 规则校验引擎
+- `validate_usage_roles.py`: 试卷与题目使用场景（训练/测试/诊断）角色校验
+- `json_schema_runtime.py`: 轻量无依赖 JSON Schema 校验运行时
+- `audit_repository.py`: 全库真题唯一编号（ID）、元数据完整性与图片引用审计引擎
+- `migrate_l3_v1.py`: 历史标注数据向标准 Schema 格式迁移引擎
+

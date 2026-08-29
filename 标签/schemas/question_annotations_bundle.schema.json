@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dynamic-learning-program:schema:question-annotations-bundle:1.0.0",
+  "title": "题目标注记录集合",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "generated_at",
+    "source_file",
+    "source_schema_version",
+    "record_count",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {"const": "question-annotations-bundle-v1.0.0"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "source_file": {"type": "string", "minLength": 1},
+    "source_schema_version": {"type": "string", "minLength": 1},
+    "record_count": {"type": "integer", "minimum": 0},
+    "records": {
+      "type": "array",
+      "items": {"$ref": "question_annotation.schema.json"}
+    }
+  }
+}

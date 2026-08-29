@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dynamic-learning-program:schema:usage-roles-bundle:1.0.0",
+  "title": "试卷与题目使用角色历史集合",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "generated_at",
+    "paper_events",
+    "question_events"
+  ],
+  "properties": {
+    "schema_version": {"const": "usage-roles-bundle-v1.0.0"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "paper_events": {
+      "type": "array",
+      "items": {"$ref": "paper_usage_role.schema.json"}
+    },
+    "question_events": {
+      "type": "array",
+      "items": {"$ref": "question_usage_role.schema.json"}
+    }
+  }
+}

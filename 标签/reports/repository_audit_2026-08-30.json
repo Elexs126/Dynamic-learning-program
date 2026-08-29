@@ -1,0 +1,188 @@
+{
+  "report_version": "repository-audit-v1.0.0",
+  "audit_scope": "canonical ID inventory, per-source counts, duplicate-path identity, and derived-set ID containment",
+  "project_root": "/home/elexs/My Material/project/Dynamic-learning-program",
+  "manifest": "/home/elexs/My Material/project/Dynamic-learning-program/config/canonical_sources_v1.json",
+  "canonical_id_markers": 8024,
+  "canonical_unique_ids": 8024,
+  "expected_unique_ids": 8024,
+  "cross_source_duplicate_ids": [],
+  "target_prior_eligible_records": 1277,
+  "core_l2_records": 2153,
+  "sources": [
+    {
+      "source_id": "MATH1_PAST_PAPERS",
+      "canonical_path": "核心真题/数学一",
+      "markdown_files": 20,
+      "id_markers": 431,
+      "unique_ids": 431,
+      "expected_records": 431,
+      "duplicate_ids": [],
+      "metadata_field_counts": {
+        "题型": 431,
+        "科目": 431,
+        "分值": 431,
+        "年份": 431,
+        "考点": 431
+      },
+      "target_question_block_checks": {
+        "question_blocks_checked": 431,
+        "missing_body_ids": [],
+        "marker_mismatch_ids": [],
+        "metadata_issues": [],
+        "missing_image_refs": [],
+        "status": "PASS"
+      }
+    },
+    {
+      "source_id": "CS408_PAST_PAPERS",
+      "canonical_path": "核心真题/408",
+      "markdown_files": 19,
+      "id_markers": 846,
+      "unique_ids": 846,
+      "expected_records": 846,
+      "duplicate_ids": [],
+      "metadata_field_counts": {
+        "题型": 846,
+        "科目": 846,
+        "分值": 846,
+        "年份": 846,
+        "考点": 846
+      },
+      "target_question_block_checks": {
+        "question_blocks_checked": 846,
+        "missing_body_ids": [],
+        "marker_mismatch_ids": [],
+        "metadata_issues": [],
+        "missing_image_refs": [],
+        "status": "PASS"
+      }
+    },
+    {
+      "source_id": "ZHANGYU_BASIC_30",
+      "canonical_path": "配套习题/张宇基础30讲",
+      "markdown_files": 32,
+      "id_markers": 876,
+      "unique_ids": 876,
+      "expected_records": 876,
+      "duplicate_ids": [],
+      "metadata_field_counts": {
+        "题型": 0,
+        "科目": 876,
+        "分值": 0,
+        "年份": 0,
+        "考点": 0
+      },
+      "target_question_block_checks": null
+    },
+    {
+      "source_id": "MATH2_PAST_PAPERS",
+      "canonical_path": "delightful-salk/数学二",
+      "markdown_files": 20,
+      "id_markers": 431,
+      "unique_ids": 431,
+      "expected_records": 431,
+      "duplicate_ids": [],
+      "metadata_field_counts": {
+        "题型": 431,
+        "科目": 431,
+        "分值": 431,
+        "年份": 431,
+        "考点": 431
+      },
+      "target_question_block_checks": null
+    },
+    {
+      "source_id": "MATH3_PAST_PAPERS",
+      "canonical_path": "delightful-salk/数学三",
+      "markdown_files": 20,
+      "id_markers": 431,
+      "unique_ids": 431,
+      "expected_records": 431,
+      "duplicate_ids": [],
+      "metadata_field_counts": {
+        "题型": 431,
+        "科目": 431,
+        "分值": 431,
+        "年份": 431,
+        "考点": 431
+      },
+      "target_question_block_checks": null
+    },
+    {
+      "source_id": "ZHANGYU_1000",
+      "canonical_path": "配套习题/张宇1000题",
+      "markdown_files": 72,
+      "id_markers": 1041,
+      "unique_ids": 1041,
+      "expected_records": 1041,
+      "duplicate_ids": [],
+      "metadata_field_counts": {
+        "题型": 0,
+        "科目": 788,
+        "分值": 0,
+        "年份": 0,
+        "考点": 0
+      },
+      "target_question_block_checks": null
+    },
+    {
+      "source_id": "WANGDAO_408",
+      "canonical_path": "配套习题/王道计算机考研408",
+      "markdown_files": 53,
+      "id_markers": 2897,
+      "unique_ids": 2897,
+      "expected_records": 2897,
+      "duplicate_ids": [],
+      "metadata_field_counts": {
+        "题型": 0,
+        "科目": 0,
+        "分值": 0,
+        "年份": 0,
+        "考点": 0
+      },
+      "target_question_block_checks": null
+    },
+    {
+      "source_id": "CS408_CLASSIC_EXERCISES",
+      "canonical_path": "配套习题/408/408经典练习题",
+      "markdown_files": 25,
+      "id_markers": 1071,
+      "unique_ids": 1071,
+      "expected_records": 1071,
+      "duplicate_ids": [],
+      "metadata_field_counts": {
+        "题型": 0,
+        "科目": 1071,
+        "分值": 0,
+        "年份": 0,
+        "考点": 0
+      },
+      "target_question_block_checks": null
+    }
+  ],
+  "duplicate_tree_check": {
+    "canonical_path": "配套习题/408/408经典练习题",
+    "excluded_path": "delightful-salk/408经典练习题",
+    "identical": true,
+    "canonical_files": 58,
+    "excluded_files": 58
+  },
+  "derived_set_check": {
+    "path": "考研数学一真题精选50题_23章节全覆盖.md",
+    "id_markers": 50,
+    "unique_ids": 50,
+    "all_ids_exist_in_math1_canonical": true,
+    "extra_ids": []
+  },
+  "warning_count": 0,
+  "warnings": [],
+  "error_count": 0,
+  "errors": [],
+  "status": "PASS",
+  "limitations": [
+    "PASS不等于题干/OCR/公式/图片/答案或原子化结构均正确。",
+    "metadata_field_counts是按canonical文件统计的字段出现次数，不替代逐题语义审核。",
+    "1277表示可进入目标统计的候选全集；FIXED_AUDIT/SEALED退役前仍须从Teacher可见TARGET_PRIOR中排除。"
+  ]
+}

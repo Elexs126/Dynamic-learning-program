@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dynamic-learning-program:schema:question-usage-role:1.0.0",
+  "title": "题目使用角色历史事件",
+  "description": "角色是可并存、可退役的视图成员关系；不得写回永久知识标签。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "event_id",
+    "question_id",
+    "paper_id",
+    "role",
+    "assigned_at",
+    "retired_at",
+    "teacher_visible",
+    "student_seen",
+    "sealed",
+    "reason"
+  ],
+  "properties": {
+    "schema_version": {"const": "question-usage-role-v1.0.0"},
+    "event_id": {"type": "string", "minLength": 1},
+    "question_id": {"type": "string", "minLength": 1},
+    "paper_id": {
+      "oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]
+    },
+    "role": {
+      "enum": [
+        "RAW",
+        "TARGET_PRIOR",
+        "STARTUP_TRAINING_ONLY",
+        "TRAIN",
+        "ADAPTIVE_DIAGNOSTIC",
+        "FIXED_AUDIT",
+        "SEALED",
+        "AUX_OFFPOLICY"
+      ]
+    },
+    "assigned_at": {"type": "string", "format": "date-time"},
+    "retired_at": {
+      "oneOf": [
+        {"type": "string", "format": "date-time"},
+        {"type": "null"}
+      ]
+    },
+    "teacher_visible": {"type": "boolean"},
+    "student_seen": {"type": "boolean"},
+    "sealed": {"type": "boolean"},
+    "reason": {"type": "string", "minLength": 1},
+    "supersedes_event_id": {
+      "oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "role": {
+            "enum": ["ADAPTIVE_DIAGNOSTIC", "FIXED_AUDIT", "SEALED"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "teacher_visible": {"const": false},
+          "sealed": {"const": true}
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "role": {
+            "enum": ["ADAPTIVE_DIAGNOSTIC", "FIXED_AUDIT", "SEALED"]
+          },
+          "retired_at": {"type": "null"}
+        }
+      },
+      "then": {
+        "properties": {"student_seen": {"const": false}}
+      }
+    },
+    {
+      "if": {"properties": {"role": {"const": "SEALED"}}},
+      "then": {"properties": {"paper_id": {"type": "string", "minLength": 1}}}
+    },
+    {
+      "if": {
+        "properties": {"role": {"const": "STARTUP_TRAINING_ONLY"}}
+      },
+      "then": {
+        "properties": {"sealed": {"const": false}}
+      }
+    }
+  ]
+}

@@ -1,0 +1,704 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dynamic-learning-program:schema:question-annotation:1.0.0",
+  "title": "数学一＋408 自适应备考系统：题目标注记录",
+  "description": "正式 L0-L3 累积标注记录。题目使用角色和学生作答不得写入本记录。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "question_id",
+    "annotation_depth",
+    "record_status",
+    "l0",
+    "l1",
+    "l2",
+    "l3",
+    "review_flags"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "question-annotation-v1.0.0"
+    },
+    "question_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "全局唯一题目记录 ID；原子化完成后应指向可独立判分的最小小问。"
+    },
+    "annotation_depth": {
+      "enum": ["L0", "L1", "L2", "L3"],
+      "description": "标注深度，不是学生做题提示等级。"
+    },
+    "record_status": {
+      "$ref": "#/$defs/review_status"
+    },
+    "l0": {
+      "$ref": "#/$defs/l0"
+    },
+    "l1": {
+      "oneOf": [
+        {"type": "null"},
+        {"$ref": "#/$defs/l1"}
+      ]
+    },
+    "l2": {
+      "oneOf": [
+        {"type": "null"},
+        {"$ref": "#/$defs/l2"}
+      ]
+    },
+    "l3": {
+      "oneOf": [
+        {"type": "null"},
+        {"$ref": "#/$defs/l3"}
+      ]
+    },
+    "review_flags": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "migration_metadata": {
+      "$ref": "#/$defs/migration_metadata"
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"annotation_depth": {"const": "L0"}}},
+      "then": {
+        "properties": {
+          "l1": {"type": "null"},
+          "l2": {"type": "null"},
+          "l3": {"type": "null"}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"annotation_depth": {"const": "L1"}}},
+      "then": {
+        "properties": {
+          "l1": {"$ref": "#/$defs/l1"},
+          "l2": {"type": "null"},
+          "l3": {"type": "null"}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"annotation_depth": {"const": "L2"}}},
+      "then": {
+        "properties": {
+          "l1": {"$ref": "#/$defs/l1"},
+          "l2": {"$ref": "#/$defs/l2"},
+          "l3": {"type": "null"}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"annotation_depth": {"const": "L3"}}},
+      "then": {
+        "properties": {
+          "l1": {"$ref": "#/$defs/l1"},
+          "l2": {"$ref": "#/$defs/l2"},
+          "l3": {"$ref": "#/$defs/l3"}
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "l0": {
+            "properties": {
+              "question_type": {"enum": ["choice", "fill"]}
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "l2": {
+            "properties": {
+              "secondary_knowledge": {"maxItems": 1}
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "l0": {
+            "properties": {
+              "question_type": {"const": "analytical"}
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "l2": {
+            "properties": {
+              "secondary_knowledge": {"maxItems": 2}
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "review_status": {
+      "enum": ["candidate", "verified", "needs_review", "not_applicable"]
+    },
+    "confidence": {
+      "enum": ["high", "medium", "low", "unknown"]
+    },
+    "l0_field_review_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "exam_track",
+        "subject_area",
+        "question_source",
+        "source_reliability",
+        "paper_id",
+        "year",
+        "question_number",
+        "question_type",
+        "original_points",
+        "original_section",
+        "source_file",
+        "source_locator",
+        "question_hash_sha256",
+        "question_completeness"
+      ],
+      "properties": {
+        "exam_track": {"$ref": "#/$defs/review_status"},
+        "subject_area": {"$ref": "#/$defs/review_status"},
+        "question_source": {"$ref": "#/$defs/review_status"},
+        "source_reliability": {"$ref": "#/$defs/review_status"},
+        "paper_id": {"$ref": "#/$defs/review_status"},
+        "year": {"$ref": "#/$defs/review_status"},
+        "question_number": {"$ref": "#/$defs/review_status"},
+        "question_type": {"$ref": "#/$defs/review_status"},
+        "original_points": {"$ref": "#/$defs/review_status"},
+        "original_section": {"$ref": "#/$defs/review_status"},
+        "source_file": {"$ref": "#/$defs/review_status"},
+        "source_locator": {"$ref": "#/$defs/review_status"},
+        "question_hash_sha256": {"$ref": "#/$defs/review_status"},
+        "question_completeness": {"$ref": "#/$defs/review_status"}
+      }
+    },
+    "l1_field_confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "official_scope_coarse",
+        "label_provenance",
+        "candidate_main_knowledge",
+        "duplicate_candidate"
+      ],
+      "properties": {
+        "official_scope_coarse": {"$ref": "#/$defs/confidence"},
+        "official_scope_precise": {"$ref": "#/$defs/confidence"},
+        "label_provenance": {"$ref": "#/$defs/confidence"},
+        "candidate_main_knowledge": {"$ref": "#/$defs/confidence"},
+        "duplicate_candidate": {"$ref": "#/$defs/confidence"}
+      }
+    },
+    "l1_field_review_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "official_scope_coarse",
+        "label_provenance",
+        "candidate_main_knowledge",
+        "duplicate_candidate"
+      ],
+      "properties": {
+        "official_scope_coarse": {"$ref": "#/$defs/review_status"},
+        "official_scope_precise": {"$ref": "#/$defs/review_status"},
+        "label_provenance": {"$ref": "#/$defs/review_status"},
+        "candidate_main_knowledge": {"$ref": "#/$defs/review_status"},
+        "duplicate_candidate": {"$ref": "#/$defs/review_status"}
+      }
+    },
+    "l2_field_confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "main_knowledge",
+        "assessed_construct",
+        "secondary_knowledge",
+        "primary_method",
+        "prerequisites",
+        "difficulty_band"
+      ],
+      "properties": {
+        "main_knowledge": {"$ref": "#/$defs/confidence"},
+        "assessed_construct": {"$ref": "#/$defs/confidence"},
+        "secondary_knowledge": {"$ref": "#/$defs/confidence"},
+        "primary_method": {"$ref": "#/$defs/confidence"},
+        "prerequisites": {"$ref": "#/$defs/confidence"},
+        "difficulty_band": {"$ref": "#/$defs/confidence"}
+      }
+    },
+    "l2_field_review_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "main_knowledge",
+        "assessed_construct",
+        "secondary_knowledge",
+        "primary_method",
+        "prerequisites",
+        "difficulty_band"
+      ],
+      "properties": {
+        "main_knowledge": {"$ref": "#/$defs/review_status"},
+        "assessed_construct": {"$ref": "#/$defs/review_status"},
+        "secondary_knowledge": {"$ref": "#/$defs/review_status"},
+        "primary_method": {"$ref": "#/$defs/review_status"},
+        "prerequisites": {"$ref": "#/$defs/review_status"},
+        "difficulty_band": {"$ref": "#/$defs/review_status"}
+      }
+    },
+    "l3_field_confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "score_units",
+        "score_attribution",
+        "evidence_steps",
+        "alternative_methods",
+        "inter_question_dependency",
+        "isomorphic_relation"
+      ],
+      "properties": {
+        "score_units": {"$ref": "#/$defs/confidence"},
+        "score_attribution": {"$ref": "#/$defs/confidence"},
+        "evidence_steps": {"$ref": "#/$defs/confidence"},
+        "alternative_methods": {"$ref": "#/$defs/confidence"},
+        "inter_question_dependency": {"$ref": "#/$defs/confidence"},
+        "isomorphic_relation": {"$ref": "#/$defs/confidence"}
+      }
+    },
+    "l3_field_review_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "score_units",
+        "score_attribution",
+        "evidence_steps",
+        "alternative_methods",
+        "inter_question_dependency",
+        "isomorphic_relation"
+      ],
+      "properties": {
+        "score_units": {"$ref": "#/$defs/review_status"},
+        "score_attribution": {"$ref": "#/$defs/review_status"},
+        "evidence_steps": {"$ref": "#/$defs/review_status"},
+        "alternative_methods": {"$ref": "#/$defs/review_status"},
+        "inter_question_dependency": {"$ref": "#/$defs/review_status"},
+        "isomorphic_relation": {"$ref": "#/$defs/review_status"}
+      }
+    },
+    "knowledge_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "name": {"type": "string", "minLength": 1},
+        "definition": {"type": "string"},
+        "role": {"type": "string"},
+        "confidence": {"$ref": "#/$defs/confidence"}
+      }
+    },
+    "method_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "name": {"type": "string", "minLength": 1},
+        "conditions": {"type": "string"},
+        "confidence": {"$ref": "#/$defs/confidence"}
+      }
+    },
+    "l0": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "exam_track",
+        "subject_area",
+        "question_source",
+        "source_reliability",
+        "paper_id",
+        "year",
+        "question_number",
+        "question_type",
+        "original_points",
+        "original_section",
+        "source_file",
+        "source_locator",
+        "question_hash_sha256",
+        "question_completeness",
+        "locked",
+        "review_status_by_field"
+      ],
+      "properties": {
+        "exam_track": {
+          "enum": ["MATH1", "MATH2", "MATH3", "CS408"]
+        },
+        "subject_area": {
+          "enum": [
+            "calculus",
+            "linear_algebra",
+            "probability",
+            "data_structure",
+            "computer_organization",
+            "operating_system",
+            "computer_network"
+          ]
+        },
+        "question_source": {"type": "string", "minLength": 1},
+        "source_reliability": {
+          "enum": ["high", "medium", "low", "unknown"]
+        },
+        "paper_id": {"type": "string", "minLength": 1},
+        "year": {
+          "oneOf": [
+            {"type": "integer", "minimum": 1900, "maximum": 2200},
+            {"const": "not_applicable"}
+          ]
+        },
+        "question_number": {
+          "oneOf": [
+            {"type": "integer", "minimum": 1},
+            {"type": "string", "minLength": 1}
+          ]
+        },
+        "question_type": {
+          "enum": ["choice", "fill", "analytical"]
+        },
+        "original_points": {
+          "oneOf": [
+            {"type": "number", "exclusiveMinimum": 0},
+            {"type": "null"}
+          ]
+        },
+        "original_section": {"type": "string"},
+        "source_file": {
+          "type": "string",
+          "minLength": 1,
+          "description": "仓库相对路径，不保存已经失效的机器绝对路径。"
+        },
+        "source_locator": {
+          "type": "string",
+          "minLength": 1,
+          "description": "原始文件内的稳定定位符，通常为题目唯一编号。"
+        },
+        "question_hash_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$",
+          "description": "canonical 原题块的 SHA-256，用于检测原始事实变化。"
+        },
+        "question_completeness": {
+          "enum": ["complete", "incomplete", "needs_review"]
+        },
+        "locked": {"const": true},
+        "review_status_by_field": {"$ref": "#/$defs/l0_field_review_status"}
+      }
+    },
+    "duplicate_candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["is_candidate", "possible_duplicate_ids", "basis", "status"],
+      "properties": {
+        "is_candidate": {
+          "oneOf": [{"type": "boolean"}, {"type": "null"}]
+        },
+        "possible_duplicate_ids": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "basis": {
+          "oneOf": [{"type": "string"}, {"type": "null"}]
+        },
+        "status": {"$ref": "#/$defs/review_status"}
+      }
+    },
+    "l1": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "official_scope_coarse",
+        "label_provenance",
+        "candidate_main_knowledge",
+        "confidence_by_field",
+        "duplicate_candidate",
+        "review_status_by_field"
+      ],
+      "properties": {
+        "official_scope_coarse": {"type": "string", "minLength": 1},
+        "official_scope_precise": {"type": "string", "minLength": 1},
+        "label_provenance": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "official_syllabus",
+              "primary_textbook",
+              "question_semantics",
+              "scoring_evidence",
+              "unofficial_index",
+              "ai_inference",
+              "human_review",
+              "legacy_migration"
+            ]
+          }
+        },
+        "candidate_main_knowledge": {"$ref": "#/$defs/knowledge_ref"},
+        "confidence_by_field": {"$ref": "#/$defs/l1_field_confidence"},
+        "duplicate_candidate": {"$ref": "#/$defs/duplicate_candidate"},
+        "review_status_by_field": {"$ref": "#/$defs/l1_field_review_status"}
+      }
+    },
+    "prerequisites": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hard_prerequisite", "soft_prerequisite"],
+      "properties": {
+        "hard_prerequisite": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/knowledge_ref"}
+        },
+        "soft_prerequisite": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/knowledge_ref"}
+        }
+      }
+    },
+    "l2": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "main_knowledge",
+        "assessed_construct",
+        "secondary_knowledge",
+        "primary_method",
+        "prerequisites",
+        "difficulty_band",
+        "confidence_by_field",
+        "review_status_by_field"
+      ],
+      "properties": {
+        "main_knowledge": {"$ref": "#/$defs/knowledge_ref"},
+        "assessed_construct": {"type": "string", "minLength": 1},
+        "secondary_knowledge": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/knowledge_ref"},
+          "maxItems": 2
+        },
+        "primary_method": {"$ref": "#/$defs/method_ref"},
+        "prerequisites": {"$ref": "#/$defs/prerequisites"},
+        "difficulty_band": {
+          "enum": ["basic", "intermediate", "advanced", "very_advanced"]
+        },
+        "confidence_by_field": {"$ref": "#/$defs/l2_field_confidence"},
+        "review_status_by_field": {"$ref": "#/$defs/l2_field_review_status"}
+      }
+    },
+    "score_unit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "unit_id",
+        "points",
+        "point_status",
+        "description",
+        "source_evidence",
+        "confidence"
+      ],
+      "properties": {
+        "unit_id": {"type": "string", "minLength": 1},
+        "points": {
+          "oneOf": [
+            {"type": "number", "minimum": 0},
+            {"type": "null"}
+          ]
+        },
+        "point_status": {
+          "enum": ["explicit", "explicit_total_single_unit", "unresolved"]
+        },
+        "description": {"type": "string", "minLength": 1},
+        "source_evidence": {"type": "string", "minLength": 1},
+        "confidence": {"$ref": "#/$defs/confidence"}
+      }
+    },
+    "score_attribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unit_id", "category", "target_knowledge_ids", "status"],
+      "properties": {
+        "unit_id": {"type": "string", "minLength": 1},
+        "category": {
+          "enum": [
+            "main_knowledge",
+            "secondary_knowledge",
+            "method_operation",
+            "integrated_target",
+            "undetermined"
+          ]
+        },
+        "target_knowledge_ids": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "status": {"$ref": "#/$defs/review_status"}
+      }
+    },
+    "evidence_step": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unit_id", "steps", "basis"],
+      "properties": {
+        "unit_id": {"type": "string", "minLength": 1},
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "basis": {"type": "string", "minLength": 1}
+      }
+    },
+    "inter_question_dependency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["relations", "unresolved_legacy_note"],
+      "properties": {
+        "relations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "from_question_id",
+              "to_question_id",
+              "description",
+              "status"
+            ],
+            "properties": {
+              "from_question_id": {"type": "string", "minLength": 1},
+              "to_question_id": {"type": "string", "minLength": 1},
+              "description": {"type": "string", "minLength": 1},
+              "status": {"$ref": "#/$defs/review_status"}
+            }
+          }
+        },
+        "unresolved_legacy_note": {
+          "oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]
+        }
+      }
+    },
+    "isomorphic_relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cluster_id",
+        "structural_invariant",
+        "transfer_axis",
+        "related_question_ids",
+        "status"
+      ],
+      "properties": {
+        "cluster_id": {"type": "string", "minLength": 1},
+        "structural_invariant": {
+          "oneOf": [{"type": "string", "minLength": 1}, {"type": "null"}]
+        },
+        "transfer_axis": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        },
+        "related_question_ids": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "status": {"$ref": "#/$defs/review_status"}
+      }
+    },
+    "l3": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "score_units",
+        "score_attribution",
+        "evidence_steps",
+        "alternative_methods",
+        "inter_question_dependency",
+        "isomorphic_relation",
+        "confidence_by_field",
+        "review_status_by_field"
+      ],
+      "properties": {
+        "score_units": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/score_unit"}
+        },
+        "score_attribution": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/score_attribution"}
+        },
+        "evidence_steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/evidence_step"}
+        },
+        "alternative_methods": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/method_ref"}
+        },
+        "inter_question_dependency": {
+          "$ref": "#/$defs/inter_question_dependency"
+        },
+        "isomorphic_relation": {
+          "oneOf": [
+            {"type": "null"},
+            {"$ref": "#/$defs/isomorphic_relation"}
+          ]
+        },
+        "confidence_by_field": {"$ref": "#/$defs/l3_field_confidence"},
+        "review_status_by_field": {"$ref": "#/$defs/l3_field_review_status"}
+      }
+    },
+    "migration_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_schema_version",
+        "source_item_id",
+        "migrated_at",
+        "transformations",
+        "unresolved"
+      ],
+      "properties": {
+        "source_schema_version": {"type": "string", "minLength": 1},
+        "source_item_id": {"type": "string", "minLength": 1},
+        "migrated_at": {"type": "string", "format": "date-time"},
+        "transformations": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        },
+        "unresolved": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

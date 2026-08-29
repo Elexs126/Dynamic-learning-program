@@ -1,0 +1,123 @@
+{
+  "manifest_version": "canonical-sources-v1.0.0",
+  "generated_from_repository_state": "2026-08-30",
+  "counting_unit": "unique_id_marker",
+  "id_marker": "【唯一编号】",
+  "expected_unique_question_records": 8024,
+  "target_prior_eligible_records": 1277,
+  "core_l2_expected_records": 2153,
+  "sources": [
+    {
+      "source_id": "MATH1_PAST_PAPERS",
+      "canonical_path": "核心真题/数学一",
+      "expected_records": 431,
+      "exam_track": "MATH1",
+      "annotation_priority": "CORE_L2",
+      "eligible_for_target_prior": true,
+      "initial_usage_roles": ["RAW"],
+      "eligible_usage_roles": [
+        "RAW",
+        "TARGET_PRIOR",
+        "STARTUP_TRAINING_ONLY",
+        "TRAIN",
+        "ADAPTIVE_DIAGNOSTIC",
+        "FIXED_AUDIT",
+        "SEALED"
+      ]
+    },
+    {
+      "source_id": "CS408_PAST_PAPERS",
+      "canonical_path": "核心真题/408",
+      "expected_records": 846,
+      "exam_track": "CS408",
+      "annotation_priority": "CORE_L2",
+      "eligible_for_target_prior": true,
+      "initial_usage_roles": ["RAW"],
+      "eligible_usage_roles": [
+        "RAW",
+        "TARGET_PRIOR",
+        "STARTUP_TRAINING_ONLY",
+        "TRAIN",
+        "ADAPTIVE_DIAGNOSTIC",
+        "FIXED_AUDIT",
+        "SEALED"
+      ]
+    },
+    {
+      "source_id": "ZHANGYU_BASIC_30",
+      "canonical_path": "配套习题/张宇基础30讲",
+      "expected_records": 876,
+      "exam_track": "MATH1",
+      "annotation_priority": "CORE_L2",
+      "eligible_for_target_prior": false,
+      "initial_usage_roles": ["RAW"],
+      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+    },
+    {
+      "source_id": "MATH2_PAST_PAPERS",
+      "canonical_path": "delightful-salk/数学二",
+      "expected_records": 431,
+      "exam_track": "MATH2",
+      "annotation_priority": "L1_FIRST",
+      "eligible_for_target_prior": false,
+      "initial_usage_roles": ["RAW"],
+      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+    },
+    {
+      "source_id": "MATH3_PAST_PAPERS",
+      "canonical_path": "delightful-salk/数学三",
+      "expected_records": 431,
+      "exam_track": "MATH3",
+      "annotation_priority": "L1_FIRST",
+      "eligible_for_target_prior": false,
+      "initial_usage_roles": ["RAW"],
+      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+    },
+    {
+      "source_id": "ZHANGYU_1000",
+      "canonical_path": "配套习题/张宇1000题",
+      "expected_records": 1041,
+      "exam_track": "MATH1",
+      "annotation_priority": "L1_FIRST",
+      "eligible_for_target_prior": false,
+      "initial_usage_roles": ["RAW"],
+      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+    },
+    {
+      "source_id": "WANGDAO_408",
+      "canonical_path": "配套习题/王道计算机考研408",
+      "expected_records": 2897,
+      "exam_track": "CS408",
+      "annotation_priority": "L1_FIRST",
+      "eligible_for_target_prior": false,
+      "initial_usage_roles": ["RAW"],
+      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+    },
+    {
+      "source_id": "CS408_CLASSIC_EXERCISES",
+      "canonical_path": "配套习题/408/408经典练习题",
+      "expected_records": 1071,
+      "exam_track": "CS408",
+      "annotation_priority": "L1_FIRST",
+      "eligible_for_target_prior": false,
+      "initial_usage_roles": ["RAW"],
+      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+    }
+  ],
+  "excluded_duplicate_or_derived_paths": [
+    {
+      "path": "delightful-salk/408经典练习题",
+      "reason": "与配套习题/408/408经典练习题逐文件一致；扫描时排除，防止重复计入 1071 条。"
+    },
+    {
+      "path": "考研数学一真题精选50题_23章节全覆盖.md",
+      "reason": "由核心真题抽取的派生精选集；50 个 ID 已存在于核心真题。"
+    }
+  ],
+  "known_inventory_discrepancy": {
+    "handoff_estimate": 8125,
+    "repository_unique_records": 8024,
+    "difference": -101,
+    "cause": "交接估计王道408为2998；当前仓库实际为2897。未发现可补足的101条记录，因此以实库8024为当前基线。"
+  }
+}
