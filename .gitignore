@@ -37,3 +37,8 @@ env/
 Thumbs.db
 *.tmp
 *.log
+
+# Large binary textbooks & materials
+*.pdf
+教材/
+
