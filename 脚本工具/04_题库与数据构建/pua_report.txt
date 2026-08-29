@@ -1,0 +1,6 @@
+Total unique PUA characters: 5
+PUA 0xf001 (count: 2023): ['===  目 录 第1 章计算机系统概述\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001', '==  目 录 第1 章计算机系统概述\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001', '=  目 录 第1 章计算机系统概述\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001\uf001']
+PUA 0xf0e0 (count: 2): ['合P = P0,P1,P2,P3,P4 \uf0e0\uf0e1\uf0e2 \uf0e0\uf0e1\uf0e2 系统中有三类资源A,B,C', ' P0,P1,P2,P3,P4 \uf0e0\uf0e1\uf0e2 \uf0e0\uf0e1\uf0e2 系统中有三类资源A,B,C, 假设']
+PUA 0xf0e1 (count: 2): ['P = P0,P1,P2,P3,P4 \uf0e0\uf0e1\uf0e2 \uf0e0\uf0e1\uf0e2 系统中有三类资源A,B,C,', 'P0,P1,P2,P3,P4 \uf0e0\uf0e1\uf0e2 \uf0e0\uf0e1\uf0e2 系统中有三类资源A,B,C, 假设在']
+PUA 0xf0e2 (count: 2): [' = P0,P1,P2,P3,P4 \uf0e0\uf0e1\uf0e2 \uf0e0\uf0e1\uf0e2 系统中有三类资源A,B,C, ', '0,P1,P2,P3,P4 \uf0e0\uf0e1\uf0e2 \uf0e0\uf0e1\uf0e2 系统中有三类资源A,B,C, 假设在某']
+PUA 0xf0ee (count: 34): ['上有一个箱子, 其中有N 个位置N≥3 \uf0ee \uf0ee , 每个位置可存放一个车架或一个车', '一个箱子, 其中有N 个位置N≥3 \uf0ee \uf0ee , 每个位置可存放一个车架或一个车轮;', 'P2,P3 互斥使用一个包含N N>0 \uf0ee \uf0ee 个单元的缓冲区, P1 每次用 p']

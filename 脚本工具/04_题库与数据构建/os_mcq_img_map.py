@@ -1,0 +1,1 @@
+os_mcq_page_images = {52: ['p52_img1.jpeg'], 53: ['p53_img1.jpeg'], 54: ['p54_img1.jpeg'], 55: ['p55_img1.jpeg'], 56: ['p56_img1.jpeg'], 58: ['p58_img1.jpeg', 'p58_img2.jpeg'], 59: ['p59_img1.jpeg'], 67: ['p67_img1.jpeg', 'p67_img2.jpeg'], 76: ['p76_img1.jpeg'], 77: ['p77_img1.jpeg'], 104: ['p104_img1.jpeg']}
