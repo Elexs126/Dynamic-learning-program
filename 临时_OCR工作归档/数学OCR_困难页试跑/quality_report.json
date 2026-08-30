@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-08-30T10:06:04+00:00",
+  "script_version": "3.0.0",
+  "source": "教材.pdf",
+  "status": "pass",
+  "summary": {
+    "planned_chunks": 17,
+    "successful_chunks": 17,
+    "failed_chunks": 0,
+    "formula_records_in_middle_json": 354,
+    "copied_assets": 12,
+    "missing_assets": 0,
+    "bare_tex_command_count": 0,
+    "private_use_character_count": 0,
+    "suspicious_lambda_as_chinese_count": 0,
+    "structural_math_problem_count": 0
+  },
+  "failed_chunk_details": {},
+  "missing_asset_details": [],
+  "markdown_reports": [
+    {
+      "formula_span_count": 354,
+      "delimiter_problems": [],
+      "brace_problems": [],
+      "environment_problems": [],
+      "bare_tex_command_count": 0,
+      "bare_tex_commands": [],
+      "private_use_character_count": 0,
+      "private_use_characters": [],
+      "suspicious_lambda_as_chinese_count": 0,
+      "file": "线代（基础）.md"
+    }
+  ],
+  "limitations": [
+    "自动检查通过不代表公式语义正确。",
+    "负号、指数、上下标、矩阵元素、转置、逆矩阵和伴随矩阵仍需抽查。",
+    "题干、选项、定理条件与最终答案是最高优先级人工复核区域。"
+  ]
+}

@@ -1,0 +1,116 @@
+[
+    {
+        "type": "text",
+        "text": "例11 (2023,经联)已知 $\\left| \\textbf{\\em A} \\right| = \\left| \\begin{matrix} 1 & 2 & - 1 & 1 \\\\ 0 & 2 & t & 1 \\\\ 3 & - 1 & 2 & 2 \\\\ - 1 & 3 & 2 & 1 \\end{matrix} \\right|$ $,A_{ij}$ 为元 素 $a_{ij}$ 的代数余子式，若 $A_{31} - A_{32} + 2A_{33} - A_{34} = 0$ ,则t =",
+        "bbox": [
+            99,
+            84,
+            684,
+            197
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "练习区域",
+        "bbox": [
+            115,
+            205,
+            144,
+            268
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "答案见 19 页",
+        "bbox": [
+            557,
+            462,
+            653,
+            478
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/63becda26da731fcc2b263fe02dee59b97dbb7d8105a20ef1e55c79be1d2b0f7.jpg",
+        "text": "$$\n\\begin{aligned} &\\begin{vmatrix}\\\\ &x & -m & -1 & 0 \\\\&0 & -x & m & 1 \\\\&-1 & 0 & x & -m \\\\&m & 1 & 0 & -x\\\\ &\\end{vmatrix}= a_{4}x^{4} + a_{3}x^{3} + a_{2}x^{2} + a_{1}x + a_{0},\\\\ \\end{aligned}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            139,
+            518,
+            642,
+            607
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "练习区域",
+        "bbox": [
+            115,
+            642,
+            142,
+            703
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9135c3c7c579507229264cdd3826ac38325d75542a9a06538479c47327751b6b.jpg",
+        "text": "$$\na_{4} + a_{3} + a_{2} + a_{1} + a_{0} =\n$$",
+        "text_format": "latex",
+        "bbox": [
+            122,
+            613,
+            341,
+            629
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "答案见 20 页",
+        "bbox": [
+            557,
+            898,
+            655,
+            913
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "aside_text",
+        "text": "行列式区",
+        "bbox": [
+            909,
+            103,
+            936,
+            164
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "线性代数基础·学习册第一章行列式",
+        "bbox": [
+            593,
+            45,
+            873,
+            61
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+            472,
+            939,
+            500,
+            953
+        ],
+        "page_idx": 0
+    }
+]

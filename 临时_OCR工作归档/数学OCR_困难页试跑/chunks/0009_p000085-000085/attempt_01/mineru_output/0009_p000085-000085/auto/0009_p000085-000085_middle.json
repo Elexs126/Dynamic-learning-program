@@ -1,0 +1,1200 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.8678,
+                    "bbox": [
+                        165,
+                        71,
+                        498,
+                        186
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                189,
+                                71,
+                                497,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        189,
+                                        89,
+                                        223,
+                                        109
+                                    ],
+                                    "type": "text",
+                                    "content": "例19",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        232,
+                                        92,
+                                        354,
+                                        105
+                                    ],
+                                    "type": "text",
+                                    "content": "(2003,数三）设三阶矩阵",
+                                    "score": 0.924
+                                },
+                                {
+                                    "bbox": [
+                                        355,
+                                        71,
+                                        432,
+                                        126
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\begin{bmatrix} a & b & b \\\\ b & a & b \\\\ b & b & a \\end{bmatrix}",
+                                    "score": 0.9573
+                                },
+                                {
+                                    "bbox": [
+                                        433,
+                                        91,
+                                        497,
+                                        106
+                                    ],
+                                    "type": "text",
+                                    "content": ",若A的伴随",
+                                    "score": 0.935
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                167,
+                                132,
+                                293,
+                                144
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        167,
+                                        132,
+                                        293,
+                                        144
+                                    ],
+                                    "type": "text",
+                                    "content": "矩阵A”的秩为1,则必有",
+                                    "score": 0.959
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                190,
+                                149,
+                                456,
+                                165
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        190,
+                                        150,
+                                        253,
+                                        164
+                                    ],
+                                    "type": "text",
+                                    "content": "(A)a = b 或",
+                                    "score": 0.908
+                                },
+                                {
+                                    "bbox": [
+                                        254,
+                                        150,
+                                        311,
+                                        164
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a + 2b = 0.",
+                                    "score": 0.629
+                                },
+                                {
+                                    "bbox": [
+                                        338,
+                                        149,
+                                        356,
+                                        165
+                                    ],
+                                    "type": "text",
+                                    "content": "(B)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        356,
+                                        150,
+                                        387,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a = b",
+                                    "score": 0.5214
+                                },
+                                {
+                                    "bbox": [
+                                        387,
+                                        150,
+                                        399,
+                                        165
+                                    ],
+                                    "type": "text",
+                                    "content": "或",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        400,
+                                        150,
+                                        456,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a + 2b \\ne 0.",
+                                    "score": 0.6943
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                188,
+                                169,
+                                457,
+                                185
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        169,
+                                        207,
+                                        185
+                                    ],
+                                    "type": "text",
+                                    "content": "(C)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        207,
+                                        170,
+                                        239,
+                                        183
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a \\ne b",
+                                    "score": 0.6329
+                                },
+                                {
+                                    "bbox": [
+                                        239,
+                                        169,
+                                        252,
+                                        185
+                                    ],
+                                    "type": "text",
+                                    "content": "且",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        252,
+                                        169,
+                                        309,
+                                        183
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a + 2b = 0.",
+                                    "score": 0.682
+                                },
+                                {
+                                    "bbox": [
+                                        339,
+                                        169,
+                                        356,
+                                        184
+                                    ],
+                                    "type": "text",
+                                    "content": "(D)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        357,
+                                        169,
+                                        387,
+                                        183
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a \\ne b",
+                                    "score": 0.7813
+                                },
+                                {
+                                    "bbox": [
+                                        388,
+                                        169,
+                                        400,
+                                        184
+                                    ],
+                                    "type": "text",
+                                    "content": "且",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        401,
+                                        169,
+                                        457,
+                                        183
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a + 2b \\ne 0.",
+                                    "score": 0.8422
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        188,
+                        453,
+                        222,
+                        474
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.552,
+                            "bbox": [
+                                188,
+                                453,
+                                222,
+                                474
+                            ],
+                            "index": 3,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        453,
+                                        222,
+                                        474
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                188,
+                                                453,
+                                                222,
+                                                474
+                                            ],
+                                            "type": "image",
+                                            "image_path": "a58a5b1abf1755cac087896f8e7cfa966c75149630104409a785c08ee086c7e6.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.552
+                },
+                {
+                    "score": 0.7423,
+                    "bbox": [
+                        428,
+                        430,
+                        484,
+                        443
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                429,
+                                432,
+                                484,
+                                443
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        432,
+                                        484,
+                                        443
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 81 页",
+                                    "score": 0.909
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.4936,
+                    "bbox": [
+                        186,
+                        477,
+                        420,
+                        551
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                240,
+                                479,
+                                416,
+                                493
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        240,
+                                        479,
+                                        258,
+                                        493
+                                    ],
+                                    "type": "text",
+                                    "content": "(I",
+                                    "score": 0.962
+                                },
+                                {
+                                    "bbox": [
+                                        258,
+                                        479,
+                                        324,
+                                        492
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}",
+                                    "score": 0.8569
+                                },
+                                {
+                                    "bbox": [
+                                        324,
+                                        479,
+                                        354,
+                                        493
+                                    ],
+                                    "type": "text",
+                                    "content": "和(Ⅱ",
+                                    "score": 0.951
+                                },
+                                {
+                                    "bbox": [
+                                        355,
+                                        479,
+                                        416,
+                                        493
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{\\beta}_{1}, \\boldsymbol{\\beta}_{2}, \\cdots, \\boldsymbol{\\beta}_{t}",
+                                    "score": 0.8502
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                190,
+                                500,
+                                346,
+                                510
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        190,
+                                        500,
+                                        346,
+                                        510
+                                    ],
+                                    "type": "text",
+                                    "content": "若（I）可由（Ⅱ）线性表示.证明",
+                                    "score": 0.941
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                188,
+                                516,
+                                276,
+                                532
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        517,
+                                        205,
+                                        532
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)",
+                                    "score": 0.995
+                                },
+                                {
+                                    "bbox": [
+                                        205,
+                                        516,
+                                        276,
+                                        531
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r(\\mathbb{I}) \\leqslant r(\\mathbb{I})",
+                                    "score": 0.4852
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                189,
+                                537,
+                                350,
+                                551
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        189,
+                                        537,
+                                        222,
+                                        551
+                                    ],
+                                    "type": "text",
+                                    "content": "(2) 若",
+                                    "score": 0.965
+                                },
+                                {
+                                    "bbox": [
+                                        222,
+                                        537,
+                                        251,
+                                        550
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "s \\geq t ,",
+                                    "score": 0.6756
+                                },
+                                {
+                                    "bbox": [
+                                        252,
+                                        538,
+                                        350,
+                                        549
+                                    ],
+                                    "type": "text",
+                                    "content": "则（Ⅰ）必线性相关.",
+                                    "score": 0.92
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5366,
+                    "bbox": [
+                        429,
+                        755,
+                        484,
+                        768
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                429,
+                                757,
+                                484,
+                                768
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        757,
+                                        484,
+                                        768
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 82 页",
+                                    "score": 0.922
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.6113,
+                    "bbox": [
+                        59,
+                        32,
+                        176,
+                        50
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                33,
+                                176,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        33,
+                                        138,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "考研数学复习全书",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        141,
+                                        33,
+                                        176,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "基础篇",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8812,
+                    "bbox": [
+                        266,
+                        789,
+                        283,
+                        801
+                    ],
+                    "index": 7,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                268,
+                                790,
+                                281,
+                                803
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        268,
+                                        790,
+                                        281,
+                                        803
+                                    ],
+                                    "type": "text",
+                                    "content": "70",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.8678,
+                    "bbox": [
+                        165,
+                        71,
+                        498,
+                        186
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                189,
+                                71,
+                                497,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        189,
+                                        89,
+                                        223,
+                                        109
+                                    ],
+                                    "type": "text",
+                                    "content": "例19",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        232,
+                                        92,
+                                        354,
+                                        105
+                                    ],
+                                    "type": "text",
+                                    "content": "(2003,数三）设三阶矩阵",
+                                    "score": 0.924
+                                },
+                                {
+                                    "bbox": [
+                                        355,
+                                        71,
+                                        432,
+                                        126
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\begin{bmatrix} a & b & b \\\\ b & a & b \\\\ b & b & a \\end{bmatrix}",
+                                    "score": 0.9573
+                                },
+                                {
+                                    "bbox": [
+                                        433,
+                                        91,
+                                        497,
+                                        106
+                                    ],
+                                    "type": "text",
+                                    "content": ",若A的伴随",
+                                    "score": 0.935
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                167,
+                                132,
+                                293,
+                                144
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        167,
+                                        132,
+                                        293,
+                                        144
+                                    ],
+                                    "type": "text",
+                                    "content": "矩阵A”的秩为1,则必有",
+                                    "score": 0.959
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                190,
+                                149,
+                                456,
+                                165
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        190,
+                                        150,
+                                        253,
+                                        164
+                                    ],
+                                    "type": "text",
+                                    "content": "(A)a = b 或",
+                                    "score": 0.908
+                                },
+                                {
+                                    "bbox": [
+                                        254,
+                                        150,
+                                        311,
+                                        164
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a + 2b = 0.",
+                                    "score": 0.629
+                                },
+                                {
+                                    "bbox": [
+                                        338,
+                                        149,
+                                        356,
+                                        165
+                                    ],
+                                    "type": "text",
+                                    "content": "(B)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        356,
+                                        150,
+                                        387,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a = b",
+                                    "score": 0.5214
+                                },
+                                {
+                                    "bbox": [
+                                        387,
+                                        150,
+                                        399,
+                                        165
+                                    ],
+                                    "type": "text",
+                                    "content": "或",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        400,
+                                        150,
+                                        456,
+                                        163
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a + 2b \\ne 0.",
+                                    "score": 0.6943
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                188,
+                                169,
+                                457,
+                                185
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        169,
+                                        207,
+                                        185
+                                    ],
+                                    "type": "text",
+                                    "content": "(C)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        207,
+                                        170,
+                                        239,
+                                        183
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a \\ne b",
+                                    "score": 0.6329
+                                },
+                                {
+                                    "bbox": [
+                                        239,
+                                        169,
+                                        252,
+                                        185
+                                    ],
+                                    "type": "text",
+                                    "content": "且",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        252,
+                                        169,
+                                        309,
+                                        183
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a + 2b = 0.",
+                                    "score": 0.682
+                                },
+                                {
+                                    "bbox": [
+                                        339,
+                                        169,
+                                        356,
+                                        184
+                                    ],
+                                    "type": "text",
+                                    "content": "(D)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        357,
+                                        169,
+                                        387,
+                                        183
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a \\ne b",
+                                    "score": 0.7813
+                                },
+                                {
+                                    "bbox": [
+                                        388,
+                                        169,
+                                        400,
+                                        184
+                                    ],
+                                    "type": "text",
+                                    "content": "且",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        401,
+                                        169,
+                                        457,
+                                        183
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a + 2b \\ne 0.",
+                                    "score": 0.8422
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        167,
+                        71,
+                        497,
+                        185
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        188,
+                        453,
+                        222,
+                        474
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.552,
+                            "bbox": [
+                                188,
+                                453,
+                                222,
+                                474
+                            ],
+                            "index": 3,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        453,
+                                        222,
+                                        474
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                188,
+                                                453,
+                                                222,
+                                                474
+                                            ],
+                                            "type": "image",
+                                            "image_path": "a58a5b1abf1755cac087896f8e7cfa966c75149630104409a785c08ee086c7e6.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.552
+                },
+                {
+                    "score": 0.7423,
+                    "bbox": [
+                        428,
+                        430,
+                        484,
+                        443
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                429,
+                                432,
+                                484,
+                                443
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        432,
+                                        484,
+                                        443
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 81 页",
+                                    "score": 0.909
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        429,
+                        432,
+                        484,
+                        443
+                    ]
+                },
+                {
+                    "score": 0.4936,
+                    "bbox": [
+                        186,
+                        477,
+                        420,
+                        551
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                240,
+                                479,
+                                416,
+                                493
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        240,
+                                        479,
+                                        258,
+                                        493
+                                    ],
+                                    "type": "text",
+                                    "content": "(I",
+                                    "score": 0.962
+                                },
+                                {
+                                    "bbox": [
+                                        258,
+                                        479,
+                                        324,
+                                        492
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}",
+                                    "score": 0.8569
+                                },
+                                {
+                                    "bbox": [
+                                        324,
+                                        479,
+                                        354,
+                                        493
+                                    ],
+                                    "type": "text",
+                                    "content": "和(Ⅱ",
+                                    "score": 0.951
+                                },
+                                {
+                                    "bbox": [
+                                        355,
+                                        479,
+                                        416,
+                                        493
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{\\beta}_{1}, \\boldsymbol{\\beta}_{2}, \\cdots, \\boldsymbol{\\beta}_{t}",
+                                    "score": 0.8502
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                190,
+                                500,
+                                346,
+                                510
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        190,
+                                        500,
+                                        346,
+                                        510
+                                    ],
+                                    "type": "text",
+                                    "content": "若（I）可由（Ⅱ）线性表示.证明",
+                                    "score": 0.941
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                188,
+                                516,
+                                276,
+                                532
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        517,
+                                        205,
+                                        532
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)",
+                                    "score": 0.995
+                                },
+                                {
+                                    "bbox": [
+                                        205,
+                                        516,
+                                        276,
+                                        531
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r(\\mathbb{I}) \\leqslant r(\\mathbb{I})",
+                                    "score": 0.4852
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                189,
+                                537,
+                                350,
+                                551
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        189,
+                                        537,
+                                        222,
+                                        551
+                                    ],
+                                    "type": "text",
+                                    "content": "(2) 若",
+                                    "score": 0.965
+                                },
+                                {
+                                    "bbox": [
+                                        222,
+                                        537,
+                                        251,
+                                        550
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "s \\geq t ,",
+                                    "score": 0.6756
+                                },
+                                {
+                                    "bbox": [
+                                        252,
+                                        538,
+                                        350,
+                                        549
+                                    ],
+                                    "type": "text",
+                                    "content": "则（Ⅰ）必线性相关.",
+                                    "score": 0.92
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        188,
+                        479,
+                        416,
+                        551
+                    ]
+                },
+                {
+                    "score": 0.5366,
+                    "bbox": [
+                        429,
+                        755,
+                        484,
+                        768
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                429,
+                                757,
+                                484,
+                                768
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        757,
+                                        484,
+                                        768
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 82 页",
+                                    "score": 0.922
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        429,
+                        757,
+                        484,
+                        768
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.5"
+}

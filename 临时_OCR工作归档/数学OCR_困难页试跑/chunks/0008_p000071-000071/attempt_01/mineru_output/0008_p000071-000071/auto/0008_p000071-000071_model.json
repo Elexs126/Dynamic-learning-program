@@ -1,0 +1,1306 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7807,
+                "bbox": [
+                    193,
+                    97,
+                    517,
+                    142
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.5112,
+                "bbox": [
+                    519,
+                    90,
+                    573,
+                    155
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 13,
+                "label": "header_image",
+                "score": 0.5473,
+                "bbox": [
+                    175,
+                    209,
+                    292,
+                    242
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9284,
+                "bbox": [
+                    505,
+                    221,
+                    726,
+                    262
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9641,
+                "bbox": [
+                    557,
+                    304,
+                    1040,
+                    348
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9542,
+                "bbox": [
+                    558,
+                    392,
+                    1168,
+                    431
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9328,
+                "bbox": [
+                    731,
+                    397,
+                    903,
+                    428
+                ],
+                "index": 7,
+                "latex": "a_{1},a_{2},\\cdots,a_{n}"
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.7108,
+                "bbox": [
+                    29,
+                    774,
+                    119,
+                    1040
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8335,
+                "bbox": [
+                    657,
+                    448,
+                    1258,
+                    489
+                ],
+                "index": 9,
+                "latex": "\\boldsymbol{\\alpha} = (a_{1}, a_{2}, \\cdots, a_{n})^{\\mathrm{T}}  或  \\boldsymbol{\\alpha} = (a_{1}, a_{2}, \\cdots, a_{n})"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9332,
+                "bbox": [
+                    763,
+                    511,
+                    932,
+                    543
+                ],
+                "index": 10,
+                "latex": "a_{1}, a_{2}, \\cdots, a_{n}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9783,
+                "bbox": [
+                    489,
+                    505,
+                    1422,
+                    602
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.86,
+                "bbox": [
+                    635,
+                    622,
+                    829,
+                    657
+                ],
+                "index": 12,
+                "latex": "\\alpha = \\beta \\Leftrightarrow \\alpha,\\beta"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9523,
+                "bbox": [
+                    553,
+                    618,
+                    1387,
+                    658
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9332,
+                "bbox": [
+                    1075,
+                    621,
+                    1380,
+                    653
+                ],
+                "index": 14,
+                "latex": "a_{i}=b_{i},i=1,2,\\cdots,n"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.929,
+                "bbox": [
+                    555,
+                    677,
+                    783,
+                    714
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9468,
+                "bbox": [
+                    554,
+                    730,
+                    1166,
+                    770
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9323,
+                "bbox": [
+                    633,
+                    732,
+                    1156,
+                    768
+                ],
+                "index": 17,
+                "latex": "\\boldsymbol{\\alpha} + \\boldsymbol{\\beta} = (a_{1} + b_{1}, a_{2} + b_{2}, \\cdots, a_{n} + b_{n})"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9457,
+                "bbox": [
+                    554,
+                    786,
+                    975,
+                    824
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9323,
+                "bbox": [
+                    634,
+                    788,
+                    965,
+                    822
+                ],
+                "index": 19,
+                "latex": "k \\boldsymbol{\\alpha} = (k a_{1}, k a_{2}, \\cdots, k a_{n})"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9784,
+                "bbox": [
+                    491,
+                    841,
+                    1426,
+                    934
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5561,
+                "bbox": [
+                    555,
+                    958,
+                    726,
+                    989
+                ],
+                "index": 21,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{r}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8149,
+                "bbox": [
+                    765,
+                    957,
+                    1028,
+                    989
+                ],
+                "index": 22,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{r}, \\cdots, \\alpha_{s}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9653,
+                "bbox": [
+                    489,
+                    955,
+                    1426,
+                    1048
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9248,
+                "bbox": [
+                    532,
+                    1014,
+                    700,
+                    1043
+                ],
+                "index": 24,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9104,
+                "bbox": [
+                    1111,
+                    956,
+                    1195,
+                    991
+                ],
+                "index": 25,
+                "latex": "s \\geqslant r )"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9331,
+                "bbox": [
+                    1247,
+                    962,
+                    1420,
+                    991
+                ],
+                "index": 26,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{r}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9096,
+                "bbox": [
+                    847,
+                    1016,
+                    1019,
+                    1045
+                ],
+                "index": 27,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9259,
+                "bbox": [
+                    556,
+                    1062,
+                    657,
+                    1098
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8815,
+                "bbox": [
+                    550,
+                    1115,
+                    1271,
+                    1160
+                ],
+                "index": 29,
+                "latex": "\\boldsymbol { \\alpha } _ { 1 } = \\left[ a _ { 1 1 } , a _ { 2 1 } , \\cdots , a _ { r 1 } \\right] ^ { \\mathrm { T } } , \\boldsymbol { \\alpha } _ { 2 } = \\left[ a _ { 1 2 } , a _ { 2 2 } , \\cdots , a _ { r 2 } \\right] ^ { \\mathrm { T } } , \\cdots ,"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.826,
+                "bbox": [
+                    552,
+                    1171,
+                    896,
+                    1214
+                ],
+                "index": 30,
+                "latex": "\\boldsymbol{a}_{m}=[a_{1m}, a_{2m}, \\cdots, a_{m}]^{\\mathrm{T}}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9082,
+                "bbox": [
+                    491,
+                    1230,
+                    531,
+                    1265
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8976,
+                "bbox": [
+                    549,
+                    1279,
+                    1419,
+                    1326
+                ],
+                "index": 32,
+                "latex": "\\tilde { \\boldsymbol { \\alpha } } _ { 1 } = [ a _ { 1 1 } , a _ { 2 1 } , \\cdots , a _ { r 1 } , \\cdots , a _ { r 1 } ] ^ { \\mathrm { T } } , \\tilde { \\boldsymbol { \\alpha } } _ { 2 } = [ a _ { 1 2 } , a _ { 2 2 } , \\cdots , a _ { r 2 } , \\cdots , a _ { r 2 } ] ^ { \\mathrm { T } } ,"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8153,
+                "bbox": [
+                    491,
+                    1343,
+                    994,
+                    1387
+                ],
+                "index": 33,
+                "latex": "\\cdots , \\boldsymbol { \\alpha } _ { m } = [ a _ { 1 m } , a _ { 2 m } , \\cdots , a _ { m } , \\cdots , a _ { m } ] ^ { \\mathrm { T } } ,"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8967,
+                "bbox": [
+                    564,
+                    1413,
+                    646,
+                    1447
+                ],
+                "index": 34,
+                "latex": "s \\geqslant r ,"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9414,
+                "bbox": [
+                    714,
+                    1405,
+                    892,
+                    1447
+                ],
+                "index": 35,
+                "latex": "\\widetilde{\\boldsymbol{\\alpha}}_{1}, \\widetilde{\\boldsymbol{\\alpha}}_{2}, \\cdots, \\widetilde{\\boldsymbol{\\alpha}}_{m}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9716,
+                "bbox": [
+                    489,
+                    1407,
+                    1426,
+                    1513
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8127,
+                "bbox": [
+                    493,
+                    1480,
+                    670,
+                    1509
+                ],
+                "index": 37,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7608,
+                "bbox": [
+                    704,
+                    1467,
+                    886,
+                    1510
+                ],
+                "index": 38,
+                "latex": "\\tilde{\\alpha}_{1}, \\tilde{\\alpha}_{2}, \\cdots, \\tilde{\\alpha}_{m}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9177,
+                "bbox": [
+                    1029,
+                    1418,
+                    1207,
+                    1448
+                ],
+                "index": 39,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9625,
+                "bbox": [
+                    554,
+                    1552,
+                    926,
+                    1597
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9267,
+                "bbox": [
+                    557,
+                    1639,
+                    1425,
+                    1677
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9205,
+                "bbox": [
+                    824,
+                    1645,
+                    1002,
+                    1675
+                ],
+                "index": 42,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9305,
+                "bbox": [
+                    1139,
+                    1641,
+                    1311,
+                    1675
+                ],
+                "index": 43,
+                "latex": "k_{1},k_{2},\\cdots,k_{m}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9431,
+                "bbox": [
+                    785,
+                    1697,
+                    1129,
+                    1733
+                ],
+                "index": 44,
+                "latex": "k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2} + \\cdots + k_{m} \\boldsymbol{\\alpha}_{m}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9739,
+                "bbox": [
+                    489,
+                    1749,
+                    1426,
+                    1841
+                ],
+                "index": 45
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9373,
+                "bbox": [
+                    627,
+                    1756,
+                    804,
+                    1785
+                ],
+                "index": 46,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9103,
+                "bbox": [
+                    1045,
+                    1754,
+                    1220,
+                    1787
+                ],
+                "index": 47,
+                "latex": "k_{1},k_{2},\\cdots,k_{m}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5235,
+                "bbox": [
+                    593,
+                    1862,
+                    621,
+                    1897
+                ],
+                "index": 48,
+                "latex": "\\pmb { \\beta }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9561,
+                "bbox": [
+                    552,
+                    1860,
+                    1151,
+                    1898
+                ],
+                "index": 49
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9308,
+                "bbox": [
+                    753,
+                    1866,
+                    930,
+                    1895
+                ],
+                "index": 50,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9399,
+                "bbox": [
+                    744,
+                    1916,
+                    1168,
+                    1953
+                ],
+                "index": 51,
+                "latex": "\\boldsymbol { \\beta } = k _ { 1 } \\boldsymbol { \\alpha } _ { 1 } + k _ { 2 } \\boldsymbol { \\alpha } _ { 2 } + \\cdots + k _ { m } \\boldsymbol { \\alpha } _ { m }   ,"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.54,
+                "bbox": [
+                    562,
+                    1971,
+                    589,
+                    2006
+                ],
+                "index": 52,
+                "latex": "\\beta"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.956,
+                "bbox": [
+                    492,
+                    1968,
+                    982,
+                    2007
+                ],
+                "index": 53
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9202,
+                "bbox": [
+                    658,
+                    1976,
+                    835,
+                    2005
+                ],
+                "index": 54,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9221,
+                "bbox": [
+                    877,
+                    2031,
+                    1058,
+                    2060
+                ],
+                "index": 55,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9701,
+                "bbox": [
+                    489,
+                    2024,
+                    1419,
+                    2114
+                ],
+                "index": 56
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7686,
+                "bbox": [
+                    1375,
+                    2028,
+                    1405,
+                    2059
+                ],
+                "index": 57,
+                "latex": "k_{1}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9391,
+                "bbox": [
+                    494,
+                    2079,
+                    621,
+                    2112
+                ],
+                "index": 58,
+                "latex": "k_{2},\\cdots,k_{m}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9493,
+                "bbox": [
+                    751,
+                    2133,
+                    1165,
+                    2170
+                ],
+                "index": 59,
+                "latex": "k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2} + \\cdots + k_{m} \\boldsymbol{\\alpha}_{m} = \\boldsymbol{0}"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8916,
+                "bbox": [
+                    778,
+                    2212,
+                    822,
+                    2242
+                ],
+                "index": 60
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    192,
+                    102,
+                    416,
+                    137
+                ],
+                "score": 1.0,
+                "text": "考研数学复习全书"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    424,
+                    97,
+                    519,
+                    141
+                ],
+                "score": 1.0,
+                "text": "基础篇"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    175,
+                    210,
+                    292,
+                    243
+                ],
+                "score": 1.0,
+                "text": "学习笔记"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    502,
+                    218,
+                    727,
+                    264
+                ],
+                "score": 1.0,
+                "text": "知识梳理与例题"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    565,
+                    308,
+                    1034,
+                    346
+                ],
+                "score": 1.0,
+                "text": "一、向量的概念、向量组的概念"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    560,
+                    393,
+                    730,
+                    431
+                ],
+                "score": 1.0,
+                "text": "定义n个数"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    913,
+                    394,
+                    1162,
+                    427
+                ],
+                "score": 1.0,
+                "text": "所组成的有序数组"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    499,
+                    510,
+                    759,
+                    541
+                ],
+                "score": 0.985,
+                "text": "叫做n维向量，其中"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    940,
+                    510,
+                    1416,
+                    541
+                ],
+                "score": 0.969,
+                "text": "叫做向量α的分量(或坐标)，前一个"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    498,
+                    567,
+                    997,
+                    598
+                ],
+                "score": 0.973,
+                "text": "表示式称为列向量，后者称为行向量."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    553,
+                    614,
+                    631,
+                    664
+                ],
+                "score": 1.0,
+                "text": "相等"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    835,
+                    622,
+                    1070,
+                    654
+                ],
+                "score": 1.0,
+                "text": "同维，且对应分量"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    560,
+                    679,
+                    781,
+                    717
+                ],
+                "score": 1.0,
+                "text": "向量的基本运算"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    556,
+                    728,
+                    627,
+                    775
+                ],
+                "score": 1.0,
+                "text": "加法"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    556,
+                    786,
+                    626,
+                    828
+                ],
+                "score": 1.0,
+                "text": "数乘"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    845,
+                    1421,
+                    876
+                ],
+                "score": 0.975,
+                "text": "若干个同维数的行向量(或同维数的列向量）所组成的集合叫做"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    494,
+                    900,
+                    604,
+                    936
+                ],
+                "score": 1.0,
+                "text": "向量组."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    727,
+                    949,
+                    764,
+                    997
+                ],
+                "score": 1.0,
+                "text": "及"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1029,
+                    948,
+                    1110,
+                    1001
+                ],
+                "score": 0.995,
+                "text": "(其中"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1196,
+                    952,
+                    1246,
+                    999
+                ],
+                "score": 0.934,
+                "text": ",称"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    489,
+                    1007,
+                    531,
+                    1051
+                ],
+                "score": 1.0,
+                "text": "是"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    707,
+                    1006,
+                    846,
+                    1050
+                ],
+                "score": 0.944,
+                "text": "的部分组，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1022,
+                    1008,
+                    1166,
+                    1054
+                ],
+                "score": 1.0,
+                "text": "是整体组."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    556,
+                    1061,
+                    657,
+                    1104
+                ],
+                "score": 1.0,
+                "text": "向量组"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    492,
+                    1231,
+                    532,
+                    1271
+                ],
+                "score": 1.0,
+                "text": "及"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    487,
+                    1404,
+                    563,
+                    1455
+                ],
+                "score": 1.0,
+                "text": "其中"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    647,
+                    1405,
+                    713,
+                    1455
+                ],
+                "score": 1.0,
+                "text": "则称"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    896,
+                    1410,
+                    1028,
+                    1452
+                ],
+                "score": 1.0,
+                "text": "为向量组"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1216,
+                    1413,
+                    1424,
+                    1449
+                ],
+                "score": 0.985,
+                "text": "的延伸组(或称"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    671,
+                    1470,
+                    703,
+                    1517
+                ],
+                "score": 1.0,
+                "text": "是"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    894,
+                    1475,
+                    1046,
+                    1513
+                ],
+                "score": 0.978,
+                "text": "的缩短组)."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    560,
+                    1556,
+                    921,
+                    1595
+                ],
+                "score": 1.0,
+                "text": "二、线性表出、线性相关"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    560,
+                    1639,
+                    823,
+                    1678
+                ],
+                "score": 1.0,
+                "text": "定义m个n维向量"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1004,
+                    1636,
+                    1138,
+                    1682
+                ],
+                "score": 1.0,
+                "text": "及m个数"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1312,
+                    1635,
+                    1428,
+                    1682
+                ],
+                "score": 0.942,
+                "text": ",则向量"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    490,
+                    1745,
+                    626,
+                    1791
+                ],
+                "score": 1.0,
+                "text": "称为向量"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    813,
+                    1753,
+                    1044,
+                    1787
+                ],
+                "score": 1.0,
+                "text": "的一个线性组合"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1229,
+                    1753,
+                    1424,
+                    1788
+                ],
+                "score": 1.0,
+                "text": "称为这个线性"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    494,
+                    1804,
+                    665,
+                    1842
+                ],
+                "score": 1.0,
+                "text": "组合的系数."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    556,
+                    1860,
+                    592,
+                    1897
+                ],
+                "score": 1.0,
+                "text": "若"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    622,
+                    1860,
+                    749,
+                    1897
+                ],
+                "score": 1.0,
+                "text": "能表示成"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    940,
+                    1863,
+                    1146,
+                    1899
+                ],
+                "score": 1.0,
+                "text": "的线性组合，即"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    492,
+                    1964,
+                    561,
+                    2009
+                ],
+                "score": 1.0,
+                "text": "则称"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    590,
+                    1964,
+                    657,
+                    2009
+                ],
+                "score": 1.0,
+                "text": "能由"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    846,
+                    1971,
+                    982,
+                    2006
+                ],
+                "score": 1.0,
+                "text": "线性表出."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    563,
+                    2026,
+                    872,
+                    2060
+                ],
+                "score": 1.0,
+                "text": "定义对m个n维向量"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1059,
+                    2026,
+                    1374,
+                    2059
+                ],
+                "score": 0.982,
+                "text": "，若存在不全为零的数"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    622,
+                    2074,
+                    706,
+                    2119
+                ],
+                "score": 0.97,
+                "text": ",使得"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    781,
+                    2213,
+                    819,
+                    2244
+                ],
+                "score": 1.0,
+                "text": "56"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1653,
+            "height": 2337
+        }
+    }
+]

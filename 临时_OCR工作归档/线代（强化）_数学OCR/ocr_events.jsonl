@@ -1,0 +1,5 @@
+{"time": "2026-08-30T10:12:51+00:00", "event": "task_created"}
+{"time": "2026-08-30T10:12:51+00:00", "event": "chunk_started", "chunk_id": "0001_p000001-000128", "start_page": 1, "end_page": 128}
+{"time": "2026-08-30T10:16:01+00:00", "event": "chunk_done", "chunk_id": "0001_p000001-000128", "elapsed_seconds": 189.336}
+{"time": "2026-08-30T10:16:01+00:00", "event": "chunk_started", "chunk_id": "0002_p000129-000211", "start_page": 129, "end_page": 211}
+{"time": "2026-08-30T10:18:21+00:00", "event": "chunk_done", "chunk_id": "0002_p000129-000211", "elapsed_seconds": 140.281}

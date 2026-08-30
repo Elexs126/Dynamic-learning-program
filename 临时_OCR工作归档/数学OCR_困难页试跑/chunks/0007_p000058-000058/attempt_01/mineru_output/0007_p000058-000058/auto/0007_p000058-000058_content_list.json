@@ -1,0 +1,57 @@
+[
+    {
+        "type": "text",
+        "text": "例 20设 A,B 均为 n 阶矩阵， $\\left| \\boldsymbol{A} \\right| = 2, \\left| \\boldsymbol{B} \\right| = - 3$ ，则一 $2\\boldsymbol{A}^{\\prime} \\boldsymbol{B}^{-1} \\mid =$",
+        "bbox": [
+            90,
+            80,
+            670,
+            129
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例21 设A是四阶矩阵，如果 $\\left| \\boldsymbol{A} \\right| = - \\frac{2}{3}$ ,则 $\\left| 3 \\boldsymbol{A}^{*} + 4 \\boldsymbol{A}^{-1} \\right| =$",
+        "bbox": [
+            127,
+            493,
+            667,
+            552
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "答案见 53 页",
+        "bbox": [
+            547,
+            466,
+            647,
+            480
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "线性代数基础·学习册”第二章 矩阵",
+        "bbox": [
+            596,
+            41,
+            868,
+            58
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "43",
+        "bbox": [
+            463,
+            934,
+            492,
+            947
+        ],
+        "page_idx": 0
+    }
+]

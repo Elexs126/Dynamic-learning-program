@@ -1,0 +1,487 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "知识梳理与例题"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                173,
+                85,
+                305,
+                103
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "学习笔记"
+                    }
+                ]
+            },
+            "bbox": [
+                754,
+                80,
+                825,
+                95
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "一、基本概念"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                201,
+                120,
+                331,
+                139
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "我们称"
+                    }
+                ]
+            },
+            "bbox": [
+                203,
+                156,
+                268,
+                173
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{aligned}\\left\\{ \\begin{aligned}a_{11}x_{1} + a_{12}x_{2} + \\cdots + a_{1n}x_{n} = b_{1}, \\\\a_{21}x_{1} + a_{22}x_{2} + \\cdots + a_{2n}x_{n} = b_{2}, \\\\\\cdots \\\\a_{m1}x_{1} + a_{m2}x_{2} + \\cdots + a_{mn}x_{n} = b_{m}\\end{aligned} \\right.\\end{aligned}\\tag{I}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/24ce228061ceb3bc1287b7b70a7a38c68889793ce5e36a547b726447315fe7a1.jpg"
+                }
+            },
+            "bbox": [
+                304,
+                178,
+                588,
+                279
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "是n个未知数m个方程的非齐次线性方程组，其中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1},x_{2},\\cdots,x_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "代表"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "个未知数，而 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_{1},b_{2},\\cdots,b_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是不全为0的常数."
+                    }
+                ]
+            },
+            "bbox": [
+                163,
+                284,
+                722,
+                324
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "利用矩阵乘法，方程组（Ⅰ）可表示为："
+                    }
+                ]
+            },
+            "bbox": [
+                201,
+                331,
+                517,
+                348
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{bmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{m1} & a_{m2} & \\cdots & a_{mn} \\end{bmatrix} \\begin{bmatrix} x_1 \\\\ x_2 \\\\ \\vdots \\\\ x_n \\end{bmatrix} = \\begin{bmatrix} b_1 \\\\ b_2 \\\\ \\vdots \\\\ b_m \\end{bmatrix}.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b7754763bd6c8babbc8839b97d32cfb2c523a84644526c14b50012844d1904d8.jpg"
+                }
+            },
+            "bbox": [
+                302,
+                353,
+                588,
+                445
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "于是方程组（Ⅰ）的矩阵形式为："
+                    }
+                ]
+            },
+            "bbox": [
+                203,
+                450,
+                470,
+                467
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "Ax = b,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d7e57d7dbe8e7f974e0d2ce0d4ac85f8a87f380ca7e456099ae39caa9bca543a.jpg"
+                }
+            },
+            "bbox": [
+                405,
+                475,
+                482,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "称A为方程组（I）的系数矩阵."
+                    }
+                ]
+            },
+            "bbox": [
+                163,
+                498,
+                431,
+                514
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对矩阵A按列分块，记 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{A} = ( \\boldsymbol{\\alpha}_{1} , \\boldsymbol{\\alpha}_{2} , \\cdots , \\boldsymbol{\\alpha}_{n} )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则方程组（Ⅰ）有向量形式"
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                521,
+                722,
+                562
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x_{1}\\boldsymbol{\\alpha}_{1} + x_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + x_{n}\\boldsymbol{\\alpha}_{n} = \\boldsymbol{\\beta},",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2b59652a178765bd8bc127fb6a91452188bbc9b8dba34b51b1ae8e9b7d499264.jpg"
+                }
+            },
+            "bbox": [
+                317,
+                569,
+                569,
+                587
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "其中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{\\alpha}_{j}=(a_{1j},a_{2j},\\cdots,a_{nj})^{\\mathrm{T}},j=1,2,\\cdots,n,\\boldsymbol{\\beta}=(b_{1},b_{2},\\cdots,b_{m})^{\\mathrm{T}}."
+                    }
+                ]
+            },
+            "bbox": [
+                164,
+                592,
+                699,
+                611
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "如果 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\forall j = 1,2,\\cdots,m"
+                    },
+                    {
+                        "type": "text",
+                        "content": "恒有 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "b_{j} = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",则称"
+                    }
+                ]
+            },
+            "bbox": [
+                201,
+                615,
+                536,
+                632
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left\\{ \\begin{aligned} a_{11}x_{1} + a_{12}x_{2} + \\cdots + a_{1n}x_{n} = 0, \\\\ a_{21}x_{1} + a_{22}x_{2} + \\cdots + a_{2n}x_{n} = 0, \\\\ \\cdots \\\\ a_{m1}x_{1} + a_{m2}x_{2} + \\cdots + a_{mn}x_{n} = 0. \\end{aligned} \\right.\\tag{Ⅱ}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/aa95d9be287e79068289ddda337b0f1e85961e570d751486a5f8a9529b18940d.jpg"
+                }
+            },
+            "bbox": [
+                305,
+                638,
+                584,
+                730
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "为齐次线性方程组(也称(Ⅱ）是(Ⅰ）的导出组).其矩阵形式为："
+                    }
+                ]
+            },
+            "bbox": [
+                163,
+                734,
+                690,
+                752
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "Ax = 0.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/97dc79534046013d50d11369128b41be32e9c45a4cc6d4b2c16dfcb605be8a77.jpg"
+                }
+            },
+            "bbox": [
+                405,
+                759,
+                478,
+                775
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "而齐次方程组（Ⅱ）的向量形式,则是"
+                    }
+                ]
+            },
+            "bbox": [
+                203,
+                782,
+                509,
+                799
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x_{1}\\boldsymbol{\\alpha}_{1} + x_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + x_{n}\\boldsymbol{\\alpha}_{n} = \\boldsymbol{0}.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/59ca421682050f2ef896316bfa164eb1ab327bc00d64b121772d231192e1b101.jpg"
+                }
+            },
+            "bbox": [
+                317,
+                807,
+                568,
+                824
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "若用一组数 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "c_{1},c_{2},\\cdots,c_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "分别代替方程组(Ⅰ)(或(Ⅱ))中的 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{1}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x_{2},\\cdots,x_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",使(Ⅰ)(或(Ⅱ))中m个等式都成立，则称 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(c_1, c_2, \\cdots, c_n)^{\\mathrm{T}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是方程组(Ⅰ)(或(Ⅱ))的一个解."
+                    }
+                ]
+            },
+            "bbox": [
+                163,
+                829,
+                722,
+                896
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解方程组就是要求出方程组的所有解."
+                    }
+                ]
+            },
+            "bbox": [
+                203,
+                902,
+                519,
+                920
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "线性代数基础·学习册第四章线性方程组"
+                    }
+                ]
+            },
+            "bbox": [
+                608,
+                40,
+                907,
+                57
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "85"
+                    }
+                ]
+            },
+            "bbox": [
+                526,
+                936,
+                552,
+                951
+            ]
+        }
+    ]
+]

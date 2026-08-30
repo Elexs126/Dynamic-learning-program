@@ -1,0 +1,2390 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7227,
+                "bbox": [
+                    1015,
+                    92,
+                    1282,
+                    128
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6384,
+                "bbox": [
+                    1293,
+                    90,
+                    1478,
+                    126
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8441,
+                "bbox": [
+                    209,
+                    193,
+                    429,
+                    233
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6962,
+                "bbox": [
+                    1212,
+                    184,
+                    1333,
+                    216
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9601,
+                "bbox": [
+                    254,
+                    276,
+                    621,
+                    320
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.903,
+                "bbox": [
+                    255,
+                    363,
+                    871,
+                    402
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9605,
+                "bbox": [
+                    209,
+                    419,
+                    1134,
+                    583
+                ],
+                "index": 7,
+                "latex": "\\begin{aligned}f\\left( x_{1},x_{2},\\cdots,x_{n} \\right) = a_{11}x_{1}^{2} + 2a_{12}x_{1}x_{2} + 2a_{13}x_{1}x_{3} + \\cdots + 2a_{1n}x_{1}x_{n} \\\\+ a_{22}x_{2}^{2} + 2a_{23}x_{2}x_{3} + \\cdots + 2a_{2n}x_{2}x_{n} \\\\+ \\cdots + a_{m}x_{n}^{2}\\end{aligned}"
+            },
+            {
+                "cls_id": 11,
+                "label": "formula_number",
+                "score": 0.8619,
+                "bbox": [
+                    1118,
+                    603,
+                    1152,
+                    638
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9367,
+                "bbox": [
+                    187,
+                    658,
+                    1062,
+                    697
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9349,
+                "bbox": [
+                    319,
+                    719,
+                    528,
+                    755
+                ],
+                "index": 10,
+                "latex": "a_{ij} = a_{ji}, i < j"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9436,
+                "bbox": [
+                    581,
+                    720,
+                    964,
+                    757
+                ],
+                "index": 11,
+                "latex": "2a_{ij}x_{i}x_{j}=a_{ij}x_{i}x_{j}+a_{ji}x_{j}x"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9693,
+                "bbox": [
+                    185,
+                    716,
+                    1156,
+                    814
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9739,
+                "bbox": [
+                    183,
+                    835,
+                    1050,
+                    1207
+                ],
+                "index": 13,
+                "latex": "\\begin{aligned}f(x_{1},x_{2},\\cdots,x_{n}) &= \\sum_{i=1}^{n} \\sum_{j=1}^{n} a_{ij}x_{i}x_{j} \\\\&= \\left[ x_{1},x_{2},\\cdots,x_{n} \\right] \\begin{bmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{n1} & a_{n2} & \\cdots & a_{nn} \\end{bmatrix} \\begin{bmatrix} x_{1} \\\\ x_{2} \\\\ \\vdots \\\\ x_{n} \\end{bmatrix} \\\\&= x^{\\mathrm{T}}Ax   ,\\end{aligned}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.955,
+                "bbox": [
+                    181,
+                    1229,
+                    855,
+                    1267
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8682,
+                "bbox": [
+                    249,
+                    1285,
+                    1147,
+                    1327
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9296,
+                "bbox": [
+                    336,
+                    1287,
+                    1144,
+                    1325
+                ],
+                "index": 16,
+                "latex": "f\\left(x_{1},x_{2},x_{3}\\right)=x_{1}^{2}+2x_{2}^{2}+x_{3}^{2}+2x_{1}x_{2}+4x_{1}x_{3}+6x_{2}x_{3}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9658,
+                "bbox": [
+                    530,
+                    1348,
+                    1090,
+                    1501
+                ],
+                "index": 17,
+                "latex": "\\left[ \\begin{aligned} x_{1} &, x_{2} , x_{3} \\end{aligned} \\right] \\left[ \\begin{aligned} 1 & \\quad 1 \\quad 2 \\\\ 1 & \\quad 2 \\quad 3 \\\\ 2 & \\quad 3 \\quad 1 \\end{aligned} \\right] \\left[ \\begin{aligned} x_{1} \\\\ x_{2} \\\\ x_{3} \\end{aligned} \\right] = \\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}."
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8897,
+                "bbox": [
+                    182,
+                    1524,
+                    784,
+                    1679
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6536,
+                "bbox": [
+                    258,
+                    1525,
+                    782,
+                    1678
+                ],
+                "index": 19,
+                "latex": "\\boldsymbol{A} = \\begin{bmatrix} 1 & 1 & 2 \\\\ 1 & 2 & 3 \\\\ 2 & 3 & 1 \\end{bmatrix}, \\boldsymbol{A}^{\\mathrm{T}} = \\boldsymbol{A}, \\boldsymbol{x} = \\begin{bmatrix} x_{1} \\\\ x_{2} \\\\ x_{3} \\end{bmatrix}."
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9452,
+                "bbox": [
+                    690,
+                    1703,
+                    1047,
+                    1739
+                ],
+                "index": 20,
+                "latex": "f(x_{1},x_{2},\\cdots,x_{n}) = \\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9733,
+                "bbox": [
+                    180,
+                    1702,
+                    1156,
+                    1799
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9401,
+                "bbox": [
+                    475,
+                    1822,
+                    711,
+                    1858
+                ],
+                "index": 22,
+                "latex": "f(x_{1},x_{2},\\cdots,x_{n})"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9755,
+                "bbox": [
+                    179,
+                    1819,
+                    1157,
+                    1918
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9506,
+                "bbox": [
+                    275,
+                    1935,
+                    1058,
+                    1978
+                ],
+                "index": 24,
+                "latex": "f\\left(x_{1}, x_{2}, \\cdots, x_{n}\\right)=\\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}=a_{1} x_{1}^{2}+a_{2} x_{2}^{2}+\\cdots+a_{n} x_{n}^{2},"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9496,
+                "bbox": [
+                    181,
+                    1996,
+                    697,
+                    2035
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9063,
+                "bbox": [
+                    242,
+                    2054,
+                    1094,
+                    2094
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6604,
+                "bbox": [
+                    802,
+                    2063,
+                    836,
+                    2092
+                ],
+                "index": 27,
+                "latex": "a_{i}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9431,
+                "bbox": [
+                    187,
+                    2112,
+                    1147,
+                    2157
+                ],
+                "index": 28,
+                "latex": "f\\left( x_{1},x_{2},\\cdots,x_{n} \\right) = \\boldsymbol{x}^{\\mathrm{T}}\\boldsymbol{A}\\boldsymbol{x} = x_{1}^{2} + x_{2}^{2} + \\cdots + x_{p}^{2} - x_{p + 1}^{2} - \\cdots - x_{p + q}^{2},"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.9092,
+                "bbox": [
+                    802,
+                    2198,
+                    864,
+                    2230
+                ],
+                "index": 29
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1013,
+                    90,
+                    1284,
+                    129
+                ],
+                "score": 1.0,
+                "text": "线性代数基础·学习册"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1287,
+                    84,
+                    1479,
+                    131
+                ],
+                "score": 1.0,
+                "text": "第六章二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    208,
+                    192,
+                    429,
+                    234
+                ],
+                "score": 0.999,
+                "text": "知识梳理与例题"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1213,
+                    185,
+                    1333,
+                    218
+                ],
+                "score": 1.0,
+                "text": "学习笔记"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    261,
+                    279,
+                    614,
+                    319
+                ],
+                "score": 1.0,
+                "text": "一、二次型及其标准形"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    262,
+                    364,
+                    864,
+                    402
+                ],
+                "score": 0.999,
+                "text": "定义含有n个变量的一个二次齐次多项式"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    605,
+                    1150,
+                    653
+                ],
+                "score": 0.932,
+                "text": "①"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    194,
+                    661,
+                    1056,
+                    695
+                ],
+                "score": 0.996,
+                "text": "称为n个变量的二次型，系数均为实数时，称为n元实二次型."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    245,
+                    712,
+                    318,
+                    762
+                ],
+                "score": 1.0,
+                "text": "若令"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    529,
+                    713,
+                    580,
+                    762
+                ],
+                "score": 0.948,
+                "text": ",则"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    965,
+                    721,
+                    1154,
+                    757
+                ],
+                "score": 0.967,
+                "text": "，那么二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    192,
+                    776,
+                    508,
+                    814
+                ],
+                "score": 0.998,
+                "text": "①可以写成矩阵形式："
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    192,
+                    1234,
+                    849,
+                    1263
+                ],
+                "score": 0.999,
+                "text": "其中A是对称矩阵，称为二次型f的对应矩阵."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    252,
+                    1283,
+                    335,
+                    1333
+                ],
+                "score": 1.0,
+                "text": "例如："
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    183,
+                    1577,
+                    257,
+                    1628
+                ],
+                "score": 1.0,
+                "text": "其中"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    257,
+                    1707,
+                    685,
+                    1738
+                ],
+                "score": 1.0,
+                "text": "注意当A是对称阵时，二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1049,
+                    1702,
+                    1156,
+                    1743
+                ],
+                "score": 1.0,
+                "text": "和A一"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    185,
+                    1760,
+                    303,
+                    1803
+                ],
+                "score": 1.0,
+                "text": "一对应."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    255,
+                    1822,
+                    470,
+                    1859
+                ],
+                "score": 1.0,
+                "text": "定义若二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    726,
+                    1824,
+                    1151,
+                    1855
+                ],
+                "score": 0.99,
+                "text": "只有平方项，没有混合项(即混"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    189,
+                    1883,
+                    516,
+                    1915
+                ],
+                "score": 0.988,
+                "text": "合项的系数全为零)，即"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    193,
+                    2004,
+                    689,
+                    2030
+                ],
+                "score": 0.99,
+                "text": "则称二次型为标准形(又称平方和)."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    255,
+                    2060,
+                    801,
+                    2089
+                ],
+                "score": 1.0,
+                "text": "在二次型的标准形中，若平方项的系数"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    837,
+                    2060,
+                    1086,
+                    2089
+                ],
+                "score": 0.896,
+                "text": "只是1，一1,0，即"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    806,
+                    2199,
+                    862,
+                    2236
+                ],
+                "score": 1.0,
+                "text": "131"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1653,
+            "height": 2337
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6615,
+                "bbox": [
+                    171,
+                    97,
+                    504,
+                    140
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5847,
+                "bbox": [
+                    1061,
+                    210,
+                    1147,
+                    246
+                ],
+                "index": 2,
+                "latex": "p,-1"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9633,
+                "bbox": [
+                    475,
+                    207,
+                    1430,
+                    306
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5704,
+                "bbox": [
+                    1279,
+                    211,
+                    1331,
+                    246
+                ],
+                "index": 4,
+                "latex": "q , 0"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7255,
+                "bbox": [
+                    518,
+                    267,
+                    692,
+                    304
+                ],
+                "index": 5,
+                "latex": "n - (p + q)"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8544,
+                "bbox": [
+                    762,
+                    325,
+                    841,
+                    359
+                ],
+                "index": 6,
+                "latex": "\\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9657,
+                "bbox": [
+                    475,
+                    322,
+                    1430,
+                    423
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9259,
+                "bbox": [
+                    542,
+                    438,
+                    1222,
+                    480
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9102,
+                "bbox": [
+                    730,
+                    440,
+                    806,
+                    475
+                ],
+                "index": 9,
+                "latex": "x^{\\mathrm{T}} A x"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7348,
+                "bbox": [
+                    540,
+                    498,
+                    1262,
+                    653
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9353,
+                "bbox": [
+                    721,
+                    500,
+                    1207,
+                    651
+                ],
+                "index": 11,
+                "latex": "f = (x_{1},x_{2},x_{3}) \\begin{bmatrix} 1 & 3 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 4 & -1 \\end{bmatrix} \\begin{bmatrix} x_{1} \\\\ x_{2} \\\\ x_{3} \\end{bmatrix}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8622,
+                "bbox": [
+                    606,
+                    676,
+                    1184,
+                    892
+                ],
+                "index": 12,
+                "latex": "\\begin{aligned}f &= (x_{1} + x_{2}, 3x_{1} + 4x_{3}, - x_{3}) \\begin{bmatrix} x_{1} \\\\ x_{2} \\\\ x_{3} \\end{bmatrix} \\\\&= (x_{1} + x_{2})x_{1} + (3x_{1} + 4x_{3})x_{2} - x_{3}^{2},\\end{aligned}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9242,
+                "bbox": [
+                    521,
+                    909,
+                    935,
+                    948
+                ],
+                "index": 13,
+                "latex": "f = x_{1}^{2} - x_{3}^{2} + 4x_{1}x_{2} + 4x_{2}x_{3}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6021,
+                "bbox": [
+                    1360,
+                    911,
+                    1424,
+                    945
+                ],
+                "index": 14,
+                "latex": "A ="
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9566,
+                "bbox": [
+                    489,
+                    967,
+                    666,
+                    1116
+                ],
+                "index": 15,
+                "latex": "\\begin{bmatrix} 1 & 2 & 0 \\\\ 2 & 0 & 2 \\\\ 0 & 2 & - 1 \\end{bmatrix}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9201,
+                "bbox": [
+                    482,
+                    905,
+                    1429,
+                    1118
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7319,
+                "bbox": [
+                    720,
+                    1022,
+                    972,
+                    1062
+                ],
+                "index": 17,
+                "latex": "r(f) = r(\\boldsymbol{A}) = 2."
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9503,
+                "bbox": [
+                    585,
+                    1139,
+                    822,
+                    1289
+                ],
+                "index": 18,
+                "latex": "\\boldsymbol{x}^{\\mathrm{T}}\\begin{bmatrix}1&3&0\\\\1&0&0\\\\0&4&-1\\end{bmatrix}\\boldsymbol{x}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7094,
+                "bbox": [
+                    510,
+                    1135,
+                    1430,
+                    1297
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9591,
+                "bbox": [
+                    1079,
+                    1139,
+                    1259,
+                    1291
+                ],
+                "index": 20,
+                "latex": "\\begin{bmatrix} 1 & 3 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 4 & - 1 \\end{bmatrix}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5512,
+                "bbox": [
+                    478,
+                    1309,
+                    902,
+                    1350
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9046,
+                "bbox": [
+                    474,
+                    1367,
+                    1428,
+                    1465
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7787,
+                "bbox": [
+                    481,
+                    1423,
+                    634,
+                    1459
+                ],
+                "index": 23,
+                "latex": "C^{\\mathrm{T}} A C = B"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5447,
+                "bbox": [
+                    957,
+                    1426,
+                    1056,
+                    1460
+                ],
+                "index": 24,
+                "latex": "A \\simeq \\mathbf { \\bar { B } } ."
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9203,
+                "bbox": [
+                    541,
+                    1482,
+                    860,
+                    1522
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9237,
+                "bbox": [
+                    542,
+                    1539,
+                    807,
+                    1578
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5395,
+                "bbox": [
+                    697,
+                    1542,
+                    799,
+                    1576
+                ],
+                "index": 27,
+                "latex": "A \\simeq A ."
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9195,
+                "bbox": [
+                    542,
+                    1595,
+                    992,
+                    1635
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6094,
+                "bbox": [
+                    738,
+                    1598,
+                    837,
+                    1632
+                ],
+                "index": 29,
+                "latex": "A \\simeq \\pmb { B }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5926,
+                "bbox": [
+                    886,
+                    1598,
+                    983,
+                    1631
+                ],
+                "index": 30,
+                "latex": "\\mathbf { \\mathit { B } } \\simeq \\mathbf { \\mathit { A } } ,"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9192,
+                "bbox": [
+                    542,
+                    1652,
+                    1096,
+                    1692
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7113,
+                "bbox": [
+                    738,
+                    1654,
+                    942,
+                    1688
+                ],
+                "index": 32,
+                "latex": "A \\simeq B, B \\simeq C"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6309,
+                "bbox": [
+                    990,
+                    1654,
+                    1087,
+                    1687
+                ],
+                "index": 33,
+                "latex": "A \\simeq \\mathbf { C } ."
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9302,
+                "bbox": [
+                    541,
+                    1708,
+                    1167,
+                    1749
+                ],
+                "index": 34
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9244,
+                "bbox": [
+                    780,
+                    1711,
+                    1079,
+                    1747
+                ],
+                "index": 35,
+                "latex": "f(x_{1},x_{2},x_{3}) = \\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9014,
+                "bbox": [
+                    671,
+                    1769,
+                    1079,
+                    1927
+                ],
+                "index": 36,
+                "latex": "\\begin{cases}x_{1} = c_{11}y_{1} + c_{12}y_{2} + c_{13}y_{3}, \\\\x_{2} = c_{21}y_{1} + c_{22}y_{2} + c_{23}y_{3}, \\\\x_{3} = c_{31}y_{1} + c_{32}y_{2} + c_{33}y_{3},\\end{cases}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.533,
+                "bbox": [
+                    1166,
+                    1827,
+                    1235,
+                    1862
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8038,
+                "bbox": [
+                    480,
+                    2001,
+                    554,
+                    2042
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9166,
+                "bbox": [
+                    754,
+                    1942,
+                    1152,
+                    2102
+                ],
+                "index": 39,
+                "latex": "\\left| \\textbf{\\em C} \\right| = \\left| \\begin{matrix} c_{11} & c_{12} & c_{13} \\\\ c_{21} & c_{22} & c_{23} \\\\ c_{31} & c_{32} & c_{33} \\end{matrix} \\right| \\neq 0   ,"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9358,
+                "bbox": [
+                    690,
+                    2119,
+                    936,
+                    2155
+                ],
+                "index": 40,
+                "latex": "\\boldsymbol{x} = (x_{1}, x_{2}, x_{3})^{\\mathrm{T}}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9223,
+                "bbox": [
+                    479,
+                    2116,
+                    1402,
+                    2158
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9366,
+                "bbox": [
+                    980,
+                    2118,
+                    1223,
+                    2155
+                ],
+                "index": 42,
+                "latex": "\\boldsymbol{y} = (y_1, y_2, y_3)^{\\mathrm{T}}"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.9147,
+                "bbox": [
+                    762,
+                    2199,
+                    824,
+                    2230
+                ],
+                "index": 43
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    174,
+                    101,
+                    399,
+                    134
+                ],
+                "score": 1.0,
+                "text": "考研数学复习全书"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    411,
+                    101,
+                    501,
+                    136
+                ],
+                "score": 0.999,
+                "text": "基础篇"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    487,
+                    214,
+                    1058,
+                    242
+                ],
+                "score": 0.995,
+                "text": "则称为二次型的规范形(系数中1的个数是"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1151,
+                    211,
+                    1278,
+                    245
+                ],
+                "score": 1.0,
+                "text": "的个数是"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1332,
+                    211,
+                    1425,
+                    245
+                ],
+                "score": 1.0,
+                "text": "的个数"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    477,
+                    265,
+                    517,
+                    308
+                ],
+                "score": 1.0,
+                "text": "是"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    551,
+                    329,
+                    760,
+                    361
+                ],
+                "score": 1.0,
+                "text": "定义在二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    846,
+                    329,
+                    1422,
+                    357
+                ],
+                "score": 0.996,
+                "text": "的标准形中，正平方项的个数p称为二次"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    484,
+                    387,
+                    1348,
+                    415
+                ],
+                "score": 0.984,
+                "text": "型的正惯性指数，负平方项的个数q称为二次型的负惯性指数."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    549,
+                    444,
+                    726,
+                    479
+                ],
+                "score": 1.0,
+                "text": "定义二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    812,
+                    444,
+                    1215,
+                    473
+                ],
+                "score": 1.0,
+                "text": "矩阵A的秩称为二次型的秩."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    543,
+                    558,
+                    719,
+                    599
+                ],
+                "score": 1.0,
+                "text": "【注】对于"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1208,
+                    552,
+                    1261,
+                    598
+                ],
+                "score": 0.896,
+                "text": ",有"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    481,
+                    908,
+                    520,
+                    951
+                ],
+                "score": 1.0,
+                "text": "故"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    936,
+                    913,
+                    1357,
+                    945
+                ],
+                "score": 0.999,
+                "text": "，为三元二次型，其二次型矩阵"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    667,
+                    1022,
+                    719,
+                    1067
+                ],
+                "score": 0.799,
+                "text": ",秩"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    546,
+                    1196,
+                    583,
+                    1235
+                ],
+                "score": 1.0,
+                "text": "虽"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    823,
+                    1197,
+                    1076,
+                    1236
+                ],
+                "score": 1.0,
+                "text": "是二次型，但矩阵"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1260,
+                    1196,
+                    1427,
+                    1239
+                ],
+                "score": 1.0,
+                "text": "不是二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    486,
+                    1313,
+                    897,
+                    1348
+                ],
+                "score": 0.982,
+                "text": "矩阵，其秩也不是二次型的秩."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    551,
+                    1372,
+                    1423,
+                    1405
+                ],
+                "score": 0.94,
+                "text": "定义（合同）设A,B是两个n阶方阵，若存在可逆阵C，使得"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    1427,
+                    953,
+                    1461
+                ],
+                "score": 0.975,
+                "text": "，则称A合同于B，记成"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    550,
+                    1488,
+                    853,
+                    1521
+                ],
+                "score": 1.0,
+                "text": "合同矩阵有如下性质："
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    548,
+                    1539,
+                    696,
+                    1581
+                ],
+                "score": 1.0,
+                "text": "①反身性."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    550,
+                    1599,
+                    736,
+                    1636
+                ],
+                "score": 1.0,
+                "text": "②对称性.若"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    838,
+                    1594,
+                    885,
+                    1640
+                ],
+                "score": 0.934,
+                "text": ",则"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    549,
+                    1653,
+                    736,
+                    1695
+                ],
+                "score": 1.0,
+                "text": "③传递性.若"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    943,
+                    1648,
+                    989,
+                    1698
+                ],
+                "score": 0.928,
+                "text": ",则"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    549,
+                    1712,
+                    775,
+                    1751
+                ],
+                "score": 1.0,
+                "text": "对于三元二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1080,
+                    1704,
+                    1167,
+                    1755
+                ],
+                "score": 0.975,
+                "text": ",如果"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1161,
+                    1828,
+                    1237,
+                    1874
+                ],
+                "score": 0.937,
+                "text": "(*)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    482,
+                    2003,
+                    554,
+                    2046
+                ],
+                "score": 0.985,
+                "text": "满足"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    487,
+                    2120,
+                    686,
+                    2158
+                ],
+                "score": 0.823,
+                "text": "则称(*）是由"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    937,
+                    2116,
+                    979,
+                    2161
+                ],
+                "score": 1.0,
+                "text": "到"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1231,
+                    2119,
+                    1400,
+                    2157
+                ],
+                "score": 1.0,
+                "text": "的坐标变换."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    767,
+                    2199,
+                    821,
+                    2235
+                ],
+                "score": 1.0,
+                "text": "132"
+            }
+        ],
+        "page_info": {
+            "page_no": 1,
+            "width": 1653,
+            "height": 2337
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6037,
+                "bbox": [
+                    969,
+                    85,
+                    1436,
+                    123
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9432,
+                "bbox": [
+                    207,
+                    178,
+                    544,
+                    216
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.752,
+                "bbox": [
+                    425,
+                    181,
+                    531,
+                    213
+                ],
+                "index": 3,
+                "latex": "x = Cy"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9398,
+                "bbox": [
+                    331,
+                    235,
+                    579,
+                    271
+                ],
+                "index": 4,
+                "latex": "\\boldsymbol{x} = (x_{1}, x_{2}, x_{3})^{\\mathrm{T}}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8764,
+                "bbox": [
+                    850,
+                    238,
+                    927,
+                    272
+                ],
+                "index": 5,
+                "latex": "x^{\\top}Ax"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7725,
+                "bbox": [
+                    147,
+                    297,
+                    246,
+                    331
+                ],
+                "index": 6,
+                "latex": "x = C y"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9694,
+                "bbox": [
+                    141,
+                    234,
+                    1113,
+                    393
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9354,
+                "bbox": [
+                    413,
+                    293,
+                    652,
+                    332
+                ],
+                "index": 8,
+                "latex": "\\boldsymbol{y} = (y_1, y_2, y_3)^{\\mathrm{T}}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8883,
+                "bbox": [
+                    148,
+                    352,
+                    268,
+                    387
+                ],
+                "index": 9,
+                "latex": "= C^{\\mathrm{T}} A C"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8556,
+                "bbox": [
+                    922,
+                    296,
+                    996,
+                    332
+                ],
+                "index": 10,
+                "latex": "y^{\\mathrm{T}} \\boldsymbol{B} y"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9532,
+                "bbox": [
+                    140,
+                    409,
+                    1109,
+                    510
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.935,
+                "bbox": [
+                    691,
+                    411,
+                    1056,
+                    449
+                ],
+                "index": 12,
+                "latex": "f\\left(x_{1}, x_{2}, \\cdots, x_{n}\\right) = \\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.4906,
+                "bbox": [
+                    341,
+                    469,
+                    448,
+                    504
+                ],
+                "index": 13,
+                "latex": "x = Qy"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8885,
+                "bbox": [
+                    333,
+                    525,
+                    982,
+                    645
+                ],
+                "index": 14,
+                "latex": "f\\left( x_{1},x_{2},\\cdots,x_{n} \\right) = \\boldsymbol{x}^{\\mathrm{T}}\\boldsymbol{A}\\boldsymbol{x} \\xlongequal{x = Qy} \\boldsymbol{y}^{\\mathrm{T}}\\boldsymbol{Q}^{\\mathrm{T}}\\boldsymbol{A}Q\\boldsymbol{y} \\\\= \\lambda_{1}y_{1}^{2} + \\lambda_{2}y_{2}^{2} + \\cdots + \\lambda_{n}y_{n}^{2},"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8605,
+                "bbox": [
+                    214,
+                    663,
+                    384,
+                    698
+                ],
+                "index": 15,
+                "latex": "\\lambda_{1}, \\lambda_{2}, \\cdots, \\lambda_{n}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9175,
+                "bbox": [
+                    140,
+                    658,
+                    679,
+                    700
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9536,
+                "bbox": [
+                    139,
+                    717,
+                    1110,
+                    815
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.855,
+                "bbox": [
+                    462,
+                    829,
+                    785,
+                    873
+                ],
+                "index": 18,
+                "latex": "Q^{-1}AQ = Q^{\\mathrm{T}}AQ = \\Lambda,"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6804,
+                "bbox": [
+                    212,
+                    889,
+                    796,
+                    1102
+                ],
+                "index": 19,
+                "latex": "\\boldsymbol{A} = \\begin{bmatrix} \\lambda_{1} & 0 & \\cdots & 0 \\\\ 0 & \\lambda_{2} & \\cdots & 0 \\\\ \\vdots & \\vdots & & \\vdots \\\\ 0 & 0 & \\cdots & \\lambda_{n} \\end{bmatrix}, \\lambda_{i} (i = 1,2,\\cdots,n)"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9549,
+                "bbox": [
+                    138,
+                    886,
+                    1112,
+                    1105
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6877,
+                "bbox": [
+                    140,
+                    1121,
+                    484,
+                    1162
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9652,
+                "bbox": [
+                    140,
+                    1179,
+                    1109,
+                    1277
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9331,
+                "bbox": [
+                    660,
+                    1295,
+                    1023,
+                    1332
+                ],
+                "index": 23,
+                "latex": "f\\left(x_{1}, x_{2}, \\cdots, x_{n}\\right) = \\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6035,
+                "bbox": [
+                    589,
+                    1354,
+                    696,
+                    1388
+                ],
+                "index": 24,
+                "latex": "x = Cy"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9711,
+                "bbox": [
+                    140,
+                    1293,
+                    1112,
+                    1451
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9435,
+                "bbox": [
+                    334,
+                    1468,
+                    991,
+                    1585
+                ],
+                "index": 26,
+                "latex": "f\\left(x_{1}, x_{2}, \\cdots, x_{n}\\right)=x^{\\mathrm{T}} A x \\xlongequal{x=C y} y^{\\mathrm{T}} C^{\\mathrm{T}} A C y \\\\=d_{1} y_{1}^{2}+d_{2} y_{2}^{2}+\\cdots+d_{n} y_{n}^{2}."
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8801,
+                "bbox": [
+                    329,
+                    1657,
+                    482,
+                    1693
+                ],
+                "index": 27,
+                "latex": "C^{\\mathrm{T}} A C = \\Lambda"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9644,
+                "bbox": [
+                    138,
+                    1600,
+                    1109,
+                    1699
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9655,
+                "bbox": [
+                    439,
+                    1714,
+                    802,
+                    1929
+                ],
+                "index": 29,
+                "latex": "\\boldsymbol{\\varLambda} = \\begin{bmatrix} d_{1} & 0 & \\cdots & 0 \\\\ 0 & d_{2} & \\cdots & 0 \\\\ \\vdots & \\vdots & & \\vdots \\\\ 0 & 0 & \\cdots & d_{n} \\end{bmatrix}."
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8795,
+                "bbox": [
+                    729,
+                    1949,
+                    806,
+                    1982
+                ],
+                "index": 30,
+                "latex": "x^{\\mathrm{T}} A x"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9649,
+                "bbox": [
+                    137,
+                    1948,
+                    1111,
+                    2047
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.7051,
+                "bbox": [
+                    1493,
+                    1835,
+                    1619,
+                    2142
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.9006,
+                "bbox": [
+                    757,
+                    2193,
+                    821,
+                    2224
+                ],
+                "index": 33
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    967,
+                    84,
+                    1435,
+                    123
+                ],
+                "score": 1.0,
+                "text": "线性代数基础·学习册第六章二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    214,
+                    180,
+                    424,
+                    216
+                ],
+                "score": 0.998,
+                "text": "用矩阵描述为："
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    208,
+                    236,
+                    330,
+                    277
+                ],
+                "score": 1.0,
+                "text": "注意以"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    585,
+                    238,
+                    846,
+                    273
+                ],
+                "score": 1.0,
+                "text": "为自变量的二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    928,
+                    242,
+                    1105,
+                    273
+                ],
+                "score": 0.995,
+                "text": "，经坐标变换"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    252,
+                    297,
+                    412,
+                    330
+                ],
+                "score": 1.0,
+                "text": "后将成为以"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    656,
+                    297,
+                    920,
+                    332
+                ],
+                "score": 1.0,
+                "text": "为自变量的二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    997,
+                    295,
+                    1109,
+                    335
+                ],
+                "score": 0.894,
+                "text": ",其中 B"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    269,
+                    354,
+                    926,
+                    391
+                ],
+                "score": 0.978,
+                "text": "可见经坐标变换二次型矩阵A和B 是合同的."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    215,
+                    415,
+                    688,
+                    446
+                ],
+                "score": 0.978,
+                "text": "定理6.1 对任意一个n元二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1057,
+                    407,
+                    1113,
+                    455
+                ],
+                "score": 0.948,
+                "text": ",必"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    148,
+                    471,
+                    340,
+                    507
+                ],
+                "score": 1.0,
+                "text": "存在正交变换"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    449,
+                    471,
+                    1034,
+                    505
+                ],
+                "score": 0.999,
+                "text": "，其中Q是正交阵.化二次型为标准形，即"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    140,
+                    656,
+                    213,
+                    709
+                ],
+                "score": 1.0,
+                "text": "其中"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    393,
+                    660,
+                    671,
+                    698
+                ],
+                "score": 0.956,
+                "text": "是A的n 个特征值."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    214,
+                    721,
+                    1103,
+                    754
+                ],
+                "score": 0.999,
+                "text": "用矩阵的语言表达，即对任意一个n阶实对称阵A，必存在正交"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    145,
+                    776,
+                    293,
+                    814
+                ],
+                "score": 0.931,
+                "text": "阵Q,使得"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    138,
+                    974,
+                    211,
+                    1021
+                ],
+                "score": 1.0,
+                "text": "其中"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    802,
+                    981,
+                    1105,
+                    1014
+                ],
+                "score": 0.998,
+                "text": "是A的特征值，即A必"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    147,
+                    1126,
+                    476,
+                    1157
+                ],
+                "score": 1.0,
+                "text": "既相似又合同于对角阵。"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    210,
+                    1183,
+                    1104,
+                    1217
+                ],
+                "score": 0.987,
+                "text": "【注】正交变换法只能化二次型为标准形，平方项的系数即是"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    143,
+                    1237,
+                    261,
+                    1277
+                ],
+                "score": 1.0,
+                "text": "特征值."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    216,
+                    1299,
+                    655,
+                    1329
+                ],
+                "score": 0.964,
+                "text": "定理6.2 对任一个 n元二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1024,
+                    1295,
+                    1106,
+                    1334
+                ],
+                "score": 0.91,
+                "text": ",都可"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    150,
+                    1357,
+                    582,
+                    1387
+                ],
+                "score": 0.964,
+                "text": "以通过（配方法）可逆线性变换"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    701,
+                    1355,
+                    1104,
+                    1388
+                ],
+                "score": 0.993,
+                "text": "，其中C是可逆阵.化成标准"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    146,
+                    1411,
+                    233,
+                    1450
+                ],
+                "score": 0.93,
+                "text": "形，即"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    216,
+                    1605,
+                    1102,
+                    1635
+                ],
+                "score": 1.0,
+                "text": "用矩阵的语言表达，即对任意一个n阶实对称阵A，一定存在可"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    146,
+                    1663,
+                    323,
+                    1695
+                ],
+                "score": 0.934,
+                "text": "逆阵C,使得"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    483,
+                    1658,
+                    569,
+                    1700
+                ],
+                "score": 0.876,
+                "text": ". 其中"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    217,
+                    1955,
+                    726,
+                    1981
+                ],
+                "score": 0.987,
+                "text": "定理6.3（惯性定理）对一个二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    811,
+                    1954,
+                    1103,
+                    1982
+                ],
+                "score": 1.0,
+                "text": "经坐标变换化为标准"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    147,
+                    2011,
+                    828,
+                    2039
+                ],
+                "score": 0.997,
+                "text": "形，其正惯性指数和负惯性指数都是唯一确定的."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    761,
+                    2193,
+                    818,
+                    2229
+                ],
+                "score": 1.0,
+                "text": "133"
+            }
+        ],
+        "page_info": {
+            "page_no": 2,
+            "width": 1653,
+            "height": 2337
+        }
+    }
+]

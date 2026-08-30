@@ -1,0 +1,252 @@
+[
+    {
+        "type": "equation",
+        "img_path": "images/6e1c82cca0aaa77bfbad5aa6b6dd7c73afb89be703ca767f0800eccbfaeed630.jpg",
+        "text": "$$\nA\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            541,
+            89,
+            623,
+            103
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "成立，则称λ是矩阵A的一个特征值，称非零向量α是矩阵A属于特征值λ的一个特征向量.",
+        "bbox": [
+            290,
+            111,
+            872,
+            153
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "由定义 $A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} , \\boldsymbol{\\alpha} \\neq \\boldsymbol{0}$ ,即 $\\left( \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right) \\boldsymbol{\\alpha} = \\boldsymbol{0}, \\boldsymbol{\\alpha} \\neq \\boldsymbol{0}$ 可知特征向量$\\pmb { \\alpha }$ 是齐次方程组 $\\left( \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right) \\boldsymbol{x} = \\boldsymbol{0}$ 的非零解.",
+        "bbox": [
+            289,
+            159,
+            872,
+            200
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "定义设 $A = \\left[ a_{ij} \\right]$ 为一个n阶矩阵，则行列式",
+        "bbox": [
+            332,
+            206,
+            729,
+            224
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/44c73cf752d6a6843799203a62b2ff76a013143ecb81f018878a0f55d27bffac.jpg",
+        "text": "$$\n\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = \\left| \\begin{matrix} \\lambda - a_{11} & - a_{12} & \\cdots & - a_{1n} \\\\ - a_{21} & \\lambda - a_{22} & \\cdots & - a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ - a_{n1} & - a_{n2} & \\cdots & \\lambda - a_{nn} \\end{matrix} \\right|\n$$",
+        "text_format": "latex",
+        "bbox": [
+            388,
+            230,
+            776,
+            321
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "称为矩阵A的特征多项式， $\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = 0$ 称为A的特征方程.",
+        "bbox": [
+            290,
+            326,
+            828,
+            343
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "求特征值，特征向量的方法：",
+        "bbox": [
+            331,
+            350,
+            574,
+            367
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1）先利用 $\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = 0$ 求矩阵A的特征值 $\\lambda_{i}$ (共n个). 再利用 $\\lambda_{1}E$ $-A)x = 0$ 求基础解系，即矩阵A属于特征值 $\\lambda_{i}$ 的线性无关的特征向量.",
+        "bbox": [
+            289,
+            373,
+            873,
+            414
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) 用定义 $A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha}$ 推理分析.",
+        "bbox": [
+            334,
+            420,
+            600,
+            438
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "定理 5.1 如果 $\\lambda_{1}, \\lambda_{2}, \\cdots, \\lambda_{m}$ 是矩阵A的互不相同的特征值： $, \\boldsymbol{a}_{1}$ ，$\\alpha_{2},\\cdots,\\alpha_{m}$ 分别是与之对应的特征向量，则 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}$ 线性无关.",
+        "bbox": [
+            290,
+            444,
+            872,
+            486
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "定理 5.2 设A 是 n 阶矩阵 $\\lambda_{1}, \\lambda_{2}, \\cdots, \\lambda_{n}$ 是矩阵A的特征值，则",
+        "bbox": [
+            334,
+            491,
+            872,
+            508
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(1) $\\sum \\lambda_{i} = \\sum a_{i i}$",
+        "bbox": [
+            332,
+            516,
+            495,
+            538
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) $\\mid \\boldsymbol{A} \\mid = \\prod \\lambda_{i}.$",
+        "bbox": [
+            332,
+            546,
+            489,
+            568
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "【注】如果 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{t}$ 都是矩阵A属于特征值λ的特征向量，那么当 $k_{1}\\boldsymbol{\\alpha}_{1} + k_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + k_{l}\\boldsymbol{\\alpha}_{l}$ 非零时， $k_{1}\\boldsymbol{\\alpha}_{1} + k_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + k_{t}\\boldsymbol{\\alpha}_{t}$ 仍是矩阵A属于特征值λ的特征向量.",
+        "bbox": [
+            290,
+            575,
+            872,
+            642
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "如 $A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} , \\boldsymbol{\\alpha} \\neq \\boldsymbol{0} , \\forall k \\neq 0 ,  有  k\\boldsymbol{\\alpha} \\neq \\boldsymbol{0}$ ,则",
+        "bbox": [
+            332,
+            646,
+            699,
+            664
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/954c2e16948c503039303c60ca40fdf1c8fc67cf5f8039a0b8079e8997625cd3.jpg",
+        "text": "$$\nA \\left( k \\boldsymbol { \\alpha } \\right) = k A \\boldsymbol { \\alpha } = k \\left( \\lambda \\boldsymbol { \\alpha } \\right) = \\lambda \\left( k \\boldsymbol { \\alpha } \\right) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            435,
+            670,
+            722,
+            687
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "即若α是矩阵A对应于特征值入的特征向量，那么 $k\\boldsymbol{\\alpha} (k \\neq 0$ 时）仍是 A对应于λ的特征向量.",
+        "bbox": [
+            289,
+            693,
+            872,
+            734
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "类似地，如 $A\\boldsymbol{\\alpha}_{1} = \\lambda\\boldsymbol{\\alpha}_{1}, A\\boldsymbol{\\alpha}_{2} = \\lambda\\boldsymbol{\\alpha}_{2}$ 且 $\\boldsymbol{\\alpha}_{1} \\neq \\boldsymbol{0}, \\boldsymbol{\\alpha}_{2} \\neq \\boldsymbol{0}$ ,那么 $\\forall   k_{1}$ $k_{2}$ ,若 $k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2} \\neq \\boldsymbol{0}$ ,有",
+        "bbox": [
+            290,
+            740,
+            868,
+            781
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/79790419667c5ee315b2c099b314078bcef124485ad1f6dbfc240ced1b2bf5fe.jpg",
+        "text": "$$\n\\begin{aligned}\\boldsymbol{A}(k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}) &= \\boldsymbol{A}(k_{1} \\boldsymbol{\\alpha}_{1}) + \\boldsymbol{A}(k_{2} \\boldsymbol{\\alpha}_{2}) \\\\&= k_{1} \\boldsymbol{A} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{A} \\boldsymbol{\\alpha}_{2} \\\\&= k_{1}(\\lambda \\boldsymbol{\\alpha}_{1}) + k_{2}(\\lambda \\boldsymbol{\\alpha}_{2}) \\\\&= \\lambda (k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}) ,\\end{aligned}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            785,
+            660,
+            875
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "即 $k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}$ 仍是A对应于λ的特征向量.",
+        "bbox": [
+            294,
+            879,
+            670,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "考研数学复习全书 基础篇",
+        "bbox": [
+            107,
+            41,
+            309,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "106",
+        "bbox": [
+            467,
+            938,
+            504,
+            951
+        ],
+        "page_idx": 0
+    }
+]

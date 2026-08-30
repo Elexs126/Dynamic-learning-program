@@ -1,42 +1,45 @@
 # 考研动态学习项目 - 脚本工具集中管理仓库
 
-本目录集中收录与管理本项目所有自动化脚本与工程引擎，根目录下不再保留任何零散 `.py` 脚本文件。
+本目录集中收录与管理本项目所有现代自动化流水线、OCR 引擎、讲义分章排版与语法质量审计工具。
 
 ---
 
 ## 目录与功能分类
 
-### 📁 01_讲义提取与OCR (`01_讲义提取与OCR/`)
-负责针对考研数学与 408 计算机教材 PDF 执行硬件加速 OCR 识别与增量缓存：
-- `extract_gaoshu_18jiang.py`: 《高等数学》全自动提取与公式排版引擎
-- `extract_liyongle_basic_linear_algebra.py`: 《线性代数》（基础篇）提取与标准化引擎
-- `extract_liyongle_linear_algebra.py`: 《线性代数》（强化篇）提取与标准化引擎
-- `extract_probability_book.py`: 《概率论与数理统计》（基础+强化）提取与双篇章生成引擎
-- `extract_wangdao_operating_system.py`: 《操作系统》提取与 C 代码块化引擎
-- `extract_wangdao_computer_organization.py`: 《计算机组成原理》提取与汇编/硬件参数引擎
-- `extract_wangdao_data_structures.py`: 《数据结构》提取与 C/C++ 算法/结构体代码块引擎
-- `extract_wangdao_computer_networks.py`: 《计算机网络》提取与网络协议/信道容量公式引擎
+### 📁 01_GPU流水线OCR引擎 (`01_GPU流水线OCR引擎/`)
+基于 MinerU (PP-DocLayoutV2 + PP-FormulaNet_plus-M + PaddleOCR) 的全自动化 GPU 推理引擎：
+- `数学文档OCR_v3.py`：
+  - 支持多线程/流水线（Pipeline）本地 GPU 加速
+  - 自动分块调度（单块最多 128 页）与断点续传机制（`ocr_state.json`）
+  - 内存与显存自适应管理（RTX 3080 Ti 16GB 显存，推理速度 30~50 页/秒）
+  - 提取全量公式坐标、置信度索引（`formula_audit.jsonl`）与高清插图（`assets/`）
+  - 自动执行定界符/花括号闭合修复与质量报告构建（`quality_report.md`）
 
 ---
 
-### 📁 02_格式化与排版 (`02_格式化与排版/`)
-负责二次微调、板块重构与特定专业课（代码/选择题/Callout）排版：
-- `format_wangdao_os_master.py`: 操作系统主格式化与代码高亮引擎
-- `format_wangdao_co_master.py`: 计算机组成原理主格式化与原码/补码/浮点数引擎
-- `format_wangdao_ds_master.py`: 数据结构主格式化与算法伪代码块引擎
+### 📁 02_讲义分章与排版构建 (`02_讲义分章与排版构建/`)
+负责将整本 PDF 的 OCR Markdown 成果精准切分为多学科、多篇章的独立讲义：
+- `split_books_to_lectures.py`：
+  - 支持考研数学（高等数学 18 讲 + 6 附录、线性代数基础+强化、概率论与数理统计基础+强化）与 408 专业课（计算机网络、数据结构、计算机组成原理、操作系统）共 8 本大体量教材
+  - 自动按章节边界精准拆分并输出至 `配套讲义/` 标准目录体系
+  - 自动扫描各章节引用的图片资源，精准复制迁移至对应 `assets/` 并校正相对路径
 
 ---
 
-### 📁 03_质量审计与数学引擎 (`03_质量审计与数学引擎/`)
-负责全库 Markdown 语法校验、LaTeX 规范性检测与 0 裸 TeX 严格审计：
-- `math_quality_engine.py`: 考研数学与专业课核心 LaTeX 语法修复与定界引擎
-- `run_math_audit.py`: 全库 Markdown 讲义行级质量审计脚本
-- `regenerate_all_books_math_grade.py`: 全套数学/专业课讲义一键批量重构与质量校验引擎
+### 📁 03_质量审计与语法核验 (`03_质量审计与语法核验/`)
+全库 Markdown 语法校验、LaTeX 嵌套闭合检测与 0 裸 TeX / 0 乱码严格质检：
+- `math_syntax_linter.py`：
+  - 栈式（Stack-based）环境闭合检测器（支持 `aligned`, `array`, `matrix`, `cases` 等多层嵌套）
+  - 数学定界符配对平衡性扫描（`$`, `$$`, `\(`, `\[`）
+  - 私有区（PUA）乱码字符（`\uE000-\uF8FF`, `\uFFF0-\uFFFF`）扫描
+  - 裸 TeX 语法命令遗漏在公式外部扫描
+  - 本地插图引用物理存在性校验（0 缺失图片）
+  - 支持单文件核验与全目录递归批量审计（命令行 `python math_syntax_linter.py <路径>`）
 
 ---
 
 ### 📁 04_题库与数据构建 (`04_题库与数据构建/`)
-收录真题解析、各章节经典习题、选择题与综合大题的构建与转换历史脚本。
+收录考研真题与经典习题库构建、选择题/大题转换与自动化题目数据生成脚本。
 
 ---
 
@@ -47,4 +50,3 @@
 - `json_schema_runtime.py`: 轻量无依赖 JSON Schema 校验运行时
 - `audit_repository.py`: 全库真题唯一编号（ID）、元数据完整性与图片引用审计引擎
 - `migrate_l3_v1.py`: 历史标注数据向标准 Schema 格式迁移引擎
-

@@ -1,0 +1,990 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7411,
+                "bbox": [
+                    1053,
+                    99,
+                    1491,
+                    137
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9474,
+                "bbox": [
+                    297,
+                    190,
+                    915,
+                    232
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9433,
+                "bbox": [
+                    349,
+                    247,
+                    1122,
+                    353
+                ],
+                "index": 3,
+                "latex": "\\left\\{ \\begin{aligned} 4 - t ^ { 2 } = ( 2 - t ) ( 2 + t ) > 0 , \\quad t \\in ( - 2 , 2 ) , \\\\ - 4 t ^ { 2 } - 4 t + 8 = - 4 ( t - 1 ) ( t + 2 ) > 0 , \\quad t \\in ( - 2 , 1 ) , \\end{aligned} \\right."
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.69,
+                "bbox": [
+                    328,
+                    371,
+                    494,
+                    408
+                ],
+                "index": 4,
+                "latex": "t \\in (-2,1)"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.931,
+                "bbox": [
+                    293,
+                    368,
+                    748,
+                    410
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5936,
+                "bbox": [
+                    351,
+                    489,
+                    959,
+                    539
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7369,
+                "bbox": [
+                    864,
+                    497,
+                    950,
+                    532
+                ],
+                "index": 7,
+                "latex": "\\lambda > 0."
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9704,
+                "bbox": [
+                    348,
+                    557,
+                    1155,
+                    776
+                ],
+                "index": 8,
+                "latex": "\\begin{aligned}\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| &=\\left| \\begin{matrix}\\lambda & -1 & -1 \\\\-1 & \\lambda - 2 & -1 \\\\-1 & -1 & \\lambda\\end{matrix} \\right|= \\left| \\begin{matrix}\\lambda + 1 & 0 & -\\lambda - 1 \\\\-1 & \\lambda - 2 & -1 \\\\-1 & -1 & \\lambda\\end{matrix} \\right| \\\\&= \\lambda (\\lambda + 1) (\\lambda - 3)  .\\end{aligned}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9264,
+                "bbox": [
+                    347,
+                    795,
+                    679,
+                    835
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.4785,
+                "bbox": [
+                    544,
+                    798,
+                    668,
+                    833
+                ],
+                "index": 10,
+                "latex": ";0,-1,3"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.912,
+                "bbox": [
+                    347,
+                    853,
+                    821,
+                    893
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.689,
+                "bbox": [
+                    615,
+                    854,
+                    811,
+                    891
+                ],
+                "index": 12,
+                "latex": "k,k-1,k+3."
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.4676,
+                "bbox": [
+                    352,
+                    971,
+                    454,
+                    1009
+                ],
+                "index": 13,
+                "latex": "\\boldsymbol{A} + k\\boldsymbol{E}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9137,
+                "bbox": [
+                    348,
+                    912,
+                    899,
+                    1069
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7423,
+                "bbox": [
+                    522,
+                    915,
+                    892,
+                    1067
+                ],
+                "index": 15,
+                "latex": "\\Leftrightarrow \\begin{cases} k > 0   , \\\\ k - 1 > 0   , \\\\ k + 3 > 0 \\end{cases} \\Leftrightarrow     k > 1."
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6555,
+                "bbox": [
+                    350,
+                    1148,
+                    1104,
+                    1198
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8578,
+                "bbox": [
+                    696,
+                    1154,
+                    868,
+                    1190
+                ],
+                "index": 17,
+                "latex": "\\Rightarrow A^{\\mathrm{T}} = A, A"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8769,
+                "bbox": [
+                    972,
+                    1153,
+                    1095,
+                    1191
+                ],
+                "index": 18,
+                "latex": "\\mid \\boldsymbol{A} \\mid > 0."
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8955,
+                "bbox": [
+                    388,
+                    1220,
+                    757,
+                    1258
+                ],
+                "index": 19,
+                "latex": "\\left( \\boldsymbol{A}^{*} \\right)^{\\mathrm{T}} = \\left( \\boldsymbol{A}^{\\mathrm{T}} \\right)^{*} = \\boldsymbol{A}^{*} \\Rightarrow \\boldsymbol{A}^{*}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9119,
+                "bbox": [
+                    351,
+                    1219,
+                    936,
+                    1260
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6629,
+                "bbox": [
+                    333,
+                    1339,
+                    409,
+                    1376
+                ],
+                "index": 21,
+                "latex": "y \\ne \\mathbf{0}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9656,
+                "bbox": [
+                    293,
+                    1279,
+                    1190,
+                    1380
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6123,
+                "bbox": [
+                    760,
+                    1283,
+                    854,
+                    1317
+                ],
+                "index": 23,
+                "latex": "x = A y"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.727,
+                "bbox": [
+                    484,
+                    1339,
+                    585,
+                    1376
+                ],
+                "index": 24,
+                "latex": "\\forall x \\neq 0"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7739,
+                "bbox": [
+                    1052,
+                    1280,
+                    1153,
+                    1316
+                ],
+                "index": 25,
+                "latex": "\\forall x \\neq 0"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9201,
+                "bbox": [
+                    331,
+                    1400,
+                    1143,
+                    1455
+                ],
+                "index": 26,
+                "latex": "x^{\\mathrm{T}} A^{*} x = \\left( A y \\right)^{\\mathrm{T}} A^{*} \\left( A y \\right) = y^{\\mathrm{T}} \\left( \\left| A \\right| A \\right) y = \\left| A \\right| y^{\\mathrm{T}} A y,"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9173,
+                "bbox": [
+                    440,
+                    1472,
+                    692,
+                    1511
+                ],
+                "index": 27,
+                "latex": "\\left| \\boldsymbol{A} \\right| > 0, \\boldsymbol{y}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{y} > 0"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6183,
+                "bbox": [
+                    360,
+                    1532,
+                    405,
+                    1566
+                ],
+                "index": 28,
+                "latex": "A^{\\bullet}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9439,
+                "bbox": [
+                    772,
+                    1471,
+                    1183,
+                    1511
+                ],
+                "index": 29,
+                "latex": "\\forall x \\ne 0, x^{\\mathrm{T}} A^{*} x = | A | y^{\\mathrm{T}} A y >"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8293,
+                "bbox": [
+                    288,
+                    1468,
+                    1188,
+                    1570
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9285,
+                "bbox": [
+                    351,
+                    1588,
+                    978,
+                    1628
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9027,
+                "bbox": [
+                    664,
+                    1591,
+                    899,
+                    1626
+                ],
+                "index": 32,
+                "latex": "A^{*} \\boldsymbol{\\alpha} = \\lambda \\boldsymbol{\\alpha} , \\boldsymbol{\\alpha} \\neq \\mathbf{0}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.771,
+                "bbox": [
+                    520,
+                    1647,
+                    948,
+                    1686
+                ],
+                "index": 33,
+                "latex": "\\boldsymbol{A}\\boldsymbol{A}^{*} \\boldsymbol{\\alpha} = \\lambda \\boldsymbol{A}\\boldsymbol{\\alpha} ,  即  \\lambda \\boldsymbol{A}\\boldsymbol{\\alpha} = \\left| \\boldsymbol{A} \\right|\\boldsymbol{\\alpha}."
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5756,
+                "bbox": [
+                    517,
+                    1707,
+                    562,
+                    1741
+                ],
+                "index": 34,
+                "latex": "A^{*}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9162,
+                "bbox": [
+                    355,
+                    1703,
+                    1007,
+                    1744
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5592,
+                "bbox": [
+                    739,
+                    1707,
+                    782,
+                    1740
+                ],
+                "index": 36,
+                "latex": "A^{*}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8862,
+                "bbox": [
+                    917,
+                    1706,
+                    998,
+                    1741
+                ],
+                "index": 37,
+                "latex": "\\lambda \\ne 0"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9469,
+                "bbox": [
+                    455,
+                    1762,
+                    627,
+                    1834
+                ],
+                "index": 38,
+                "latex": "A\\boldsymbol{\\alpha} = \\frac{\\left |  A\\right | }{\\lambda }\\boldsymbol{\\alpha}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9407,
+                "bbox": [
+                    354,
+                    1759,
+                    945,
+                    1838
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9323,
+                "bbox": [
+                    672,
+                    1763,
+                    737,
+                    1834
+                ],
+                "index": 40,
+                "latex": "\\frac{\\left| \\begin{array}{c}  A  \\end{array} \\right|}{\\lambda}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.951,
+                "bbox": [
+                    527,
+                    1861,
+                    673,
+                    1930
+                ],
+                "index": 41,
+                "latex": "\\frac{1}{\\lambda} \\left| \\boldsymbol{A} \\right| > 0"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9299,
+                "bbox": [
+                    353,
+                    1857,
+                    1179,
+                    1932
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8045,
+                "bbox": [
+                    723,
+                    1874,
+                    832,
+                    1913
+                ],
+                "index": 43,
+                "latex": "|A|>0"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.666,
+                "bbox": [
+                    937,
+                    1877,
+                    1012,
+                    1911
+                ],
+                "index": 44,
+                "latex": "\\lambda > 0"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7356,
+                "bbox": [
+                    1056,
+                    1877,
+                    1099,
+                    1911
+                ],
+                "index": 45,
+                "latex": "A^{*}"
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.5009,
+                "bbox": [
+                    1547,
+                    1833,
+                    1652,
+                    2132
+                ],
+                "index": 46
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.9047,
+                "bbox": [
+                    856,
+                    2181,
+                    916,
+                    2216
+                ],
+                "index": 47
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1051,
+                    98,
+                    1489,
+                    137
+                ],
+                "score": 1.0,
+                "text": "线性代数基础·学习册第六章二次型"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    306,
+                    198,
+                    907,
+                    228
+                ],
+                "score": 0.998,
+                "text": "正定的充分必要条件是顺序主子式全大于0，故"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    293,
+                    371,
+                    327,
+                    415
+                ],
+                "score": 1.0,
+                "text": "故"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    500,
+                    372,
+                    742,
+                    410
+                ],
+                "score": 0.997,
+                "text": "时，二次型f正定."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    351,
+                    490,
+                    863,
+                    541
+                ],
+                "score": 0.997,
+                "text": "例16【分析】A正定⇔A的特征值"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    355,
+                    802,
+                    543,
+                    833
+                ],
+                "score": 0.942,
+                "text": "A 的特征值为"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    355,
+                    859,
+                    608,
+                    892
+                ],
+                "score": 0.958,
+                "text": "A+E的特征值为"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    455,
+                    968,
+                    521,
+                    1016
+                ],
+                "score": 1.0,
+                "text": "正定"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    354,
+                    1148,
+                    695,
+                    1203
+                ],
+                "score": 1.0,
+                "text": "例17【证】因A正定"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    869,
+                    1151,
+                    969,
+                    1197
+                ],
+                "score": 1.0,
+                "text": "可逆且"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    355,
+                    1222,
+                    387,
+                    1265
+                ],
+                "score": 1.0,
+                "text": "由"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    768,
+                    1223,
+                    933,
+                    1260
+                ],
+                "score": 1.0,
+                "text": "是对称矩阵."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    356,
+                    1282,
+                    759,
+                    1321
+                ],
+                "score": 0.963,
+                "text": "方法一用定义.因A可逆,故"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    857,
+                    1282,
+                    1046,
+                    1318
+                ],
+                "score": 0.979,
+                "text": "是坐标变换，且"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1154,
+                    1279,
+                    1191,
+                    1322
+                ],
+                "score": 1.0,
+                "text": "必"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    294,
+                    1339,
+                    332,
+                    1381
+                ],
+                "score": 1.0,
+                "text": "有"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    410,
+                    1339,
+                    481,
+                    1383
+                ],
+                "score": 0.995,
+                "text": ",那么"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    294,
+                    1469,
+                    438,
+                    1515
+                ],
+                "score": 1.0,
+                "text": "因A正定，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    693,
+                    1471,
+                    771,
+                    1518
+                ],
+                "score": 0.965,
+                "text": ",从而"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    290,
+                    1525,
+                    359,
+                    1577
+                ],
+                "score": 0.99,
+                "text": "0,故"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    406,
+                    1525,
+                    490,
+                    1577
+                ],
+                "score": 1.0,
+                "text": "正定."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    357,
+                    1588,
+                    663,
+                    1632
+                ],
+                "score": 0.951,
+                "text": "方法二 用特征值.设"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    900,
+                    1588,
+                    977,
+                    1633
+                ],
+                "score": 0.952,
+                "text": ",于是"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    362,
+                    1706,
+                    516,
+                    1743
+                ],
+                "score": 0.998,
+                "text": "由A可逆知"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    565,
+                    1709,
+                    738,
+                    1743
+                ],
+                "score": 0.997,
+                "text": "必可逆，那么"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    788,
+                    1706,
+                    916,
+                    1744
+                ],
+                "score": 1.0,
+                "text": "的特征值"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    356,
+                    1776,
+                    454,
+                    1822
+                ],
+                "score": 1.0,
+                "text": "从而有"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    628,
+                    1778,
+                    671,
+                    1824
+                ],
+                "score": 0.883,
+                "text": ",即"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    741,
+                    1783,
+                    941,
+                    1816
+                ],
+                "score": 1.0,
+                "text": "是A的特征值."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    359,
+                    1874,
+                    526,
+                    1914
+                ],
+                "score": 0.996,
+                "text": "因A正定，得"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    674,
+                    1872,
+                    722,
+                    1921
+                ],
+                "score": 0.866,
+                "text": ",而"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    833,
+                    1872,
+                    936,
+                    1919
+                ],
+                "score": 0.942,
+                "text": ",故必有"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1013,
+                    1872,
+                    1055,
+                    1921
+                ],
+                "score": 0.877,
+                "text": ",故"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1100,
+                    1872,
+                    1181,
+                    1921
+                ],
+                "score": 1.0,
+                "text": "正定."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    861,
+                    2184,
+                    914,
+                    2221
+                ],
+                "score": 1.0,
+                "text": "153"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1653,
+            "height": 2337
+        }
+    }
+]

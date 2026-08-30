@@ -1,0 +1,222 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.4808,
+                "bbox": [
+                    987,
+                    98,
+                    1437,
+                    137
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8884,
+                "bbox": [
+                    151,
+                    190,
+                    1111,
+                    304
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5728,
+                "bbox": [
+                    169,
+                    259,
+                    349,
+                    296
+                ],
+                "index": 3,
+                "latex": "2\\boldsymbol{A}^{\\prime} \\boldsymbol{B}^{-1} \\mid ="
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5632,
+                "bbox": [
+                    706,
+                    198,
+                    1048,
+                    237
+                ],
+                "index": 4,
+                "latex": "\\left| \\boldsymbol{A} \\right| = 2, \\left| \\boldsymbol{B} \\right| = - 3"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9257,
+                "bbox": [
+                    657,
+                    1160,
+                    815,
+                    1229
+                ],
+                "index": 5,
+                "latex": "\\left| \\boldsymbol{A} \\right| = - \\frac{2}{3}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5949,
+                "bbox": [
+                    212,
+                    1155,
+                    1105,
+                    1292
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5884,
+                "bbox": [
+                    907,
+                    1089,
+                    1070,
+                    1124
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8424,
+                "bbox": [
+                    867,
+                    1169,
+                    1101,
+                    1214
+                ],
+                "index": 8,
+                "latex": "\\left| 3 \\boldsymbol{A}^{*} + 4 \\boldsymbol{A}^{-1} \\right| ="
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.886,
+                "bbox": [
+                    767,
+                    2184,
+                    816,
+                    2216
+                ],
+                "index": 9
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    984,
+                    92,
+                    1436,
+                    140
+                ],
+                "score": 0.974,
+                "text": "线性代数基础·学习册”第二章 矩阵"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    207,
+                    187,
+                    701,
+                    251
+                ],
+                "score": 0.884,
+                "text": "例 20设 A,B 均为 n 阶矩阵，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1049,
+                    195,
+                    1109,
+                    245
+                ],
+                "score": 1.0,
+                "text": "，则"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    145,
+                    261,
+                    168,
+                    298
+                ],
+                "score": 0.984,
+                "text": "一"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    213,
+                    1168,
+                    324,
+                    1229
+                ],
+                "score": 0.995,
+                "text": "例21"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    336,
+                    1176,
+                    652,
+                    1216
+                ],
+                "score": 0.997,
+                "text": "设A是四阶矩阵，如果"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    816,
+                    1171,
+                    866,
+                    1220
+                ],
+                "score": 0.915,
+                "text": ",则"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    909,
+                    1093,
+                    1067,
+                    1125
+                ],
+                "score": 0.935,
+                "text": "答案见 53 页"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    771,
+                    2184,
+                    811,
+                    2224
+                ],
+                "score": 1.0,
+                "text": "43"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1653,
+            "height": 2337
+        }
+    }
+]

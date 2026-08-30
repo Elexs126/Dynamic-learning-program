@@ -1,0 +1,1208 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.777,
+                "bbox": [
+                    180,
+                    98,
+                    513,
+                    142
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.7611,
+                "bbox": [
+                    897,
+                    211,
+                    1032,
+                    244
+                ],
+                "index": 2,
+                "latex": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9185,
+                "bbox": [
+                    481,
+                    263,
+                    1443,
+                    359
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8308,
+                "bbox": [
+                    658,
+                    377,
+                    884,
+                    412
+                ],
+                "index": 4,
+                "latex": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} , \\boldsymbol{\\alpha} \\neq \\boldsymbol{0}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7452,
+                "bbox": [
+                    932,
+                    376,
+                    1241,
+                    410
+                ],
+                "index": 5,
+                "latex": "\\left( \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right) \\boldsymbol{\\alpha} = \\boldsymbol{0}, \\boldsymbol{\\alpha} \\neq \\boldsymbol{0}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8964,
+                "bbox": [
+                    479,
+                    373,
+                    1444,
+                    470
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5112,
+                "bbox": [
+                    486,
+                    436,
+                    516,
+                    466
+                ],
+                "index": 7,
+                "latex": "\\pmb { \\alpha }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6491,
+                "bbox": [
+                    716,
+                    432,
+                    921,
+                    465
+                ],
+                "index": 8,
+                "latex": "\\left( \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right) \\boldsymbol{x} = \\boldsymbol{0}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9222,
+                "bbox": [
+                    674,
+                    485,
+                    818,
+                    525
+                ],
+                "index": 9,
+                "latex": "A = \\left[ a_{ij} \\right]"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8316,
+                "bbox": [
+                    552,
+                    484,
+                    1206,
+                    526
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.7712,
+                "bbox": [
+                    642,
+                    540,
+                    1284,
+                    751
+                ],
+                "index": 11,
+                "latex": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = \\left| \\begin{matrix} \\lambda - a_{11} & - a_{12} & \\cdots & - a_{1n} \\\\ - a_{21} & \\lambda - a_{22} & \\cdots & - a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ - a_{n1} & - a_{n2} & \\cdots & \\lambda - a_{nn} \\end{matrix} \\right|"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7902,
+                "bbox": [
+                    482,
+                    764,
+                    1371,
+                    805
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7976,
+                "bbox": [
+                    878,
+                    766,
+                    1084,
+                    802
+                ],
+                "index": 13,
+                "latex": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = 0"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8126,
+                "bbox": [
+                    549,
+                    820,
+                    952,
+                    861
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.735,
+                "bbox": [
+                    715,
+                    878,
+                    888,
+                    913
+                ],
+                "index": 15,
+                "latex": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = 0"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8102,
+                "bbox": [
+                    480,
+                    873,
+                    1446,
+                    970
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7722,
+                "bbox": [
+                    1132,
+                    879,
+                    1160,
+                    912
+                ],
+                "index": 17,
+                "latex": "\\lambda_{i}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.675,
+                "bbox": [
+                    1387,
+                    876,
+                    1442,
+                    911
+                ],
+                "index": 18,
+                "latex": "\\lambda_{1}E"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6812,
+                "bbox": [
+                    488,
+                    932,
+                    636,
+                    965
+                ],
+                "index": 19,
+                "latex": "-A)x = 0"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8115,
+                "bbox": [
+                    1085,
+                    935,
+                    1116,
+                    968
+                ],
+                "index": 20,
+                "latex": "\\lambda_{i}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6694,
+                "bbox": [
+                    553,
+                    985,
+                    993,
+                    1025
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6708,
+                "bbox": [
+                    715,
+                    989,
+                    842,
+                    1022
+                ],
+                "index": 22,
+                "latex": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.927,
+                "bbox": [
+                    771,
+                    1044,
+                    944,
+                    1079
+                ],
+                "index": 23,
+                "latex": "\\lambda_{1}, \\lambda_{2}, \\cdots, \\lambda_{m}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8221,
+                "bbox": [
+                    481,
+                    1039,
+                    1442,
+                    1138
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8109,
+                "bbox": [
+                    1389,
+                    1048,
+                    1426,
+                    1076
+                ],
+                "index": 25,
+                "latex": ", \\boldsymbol{a}_{1}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9085,
+                "bbox": [
+                    488,
+                    1103,
+                    625,
+                    1134
+                ],
+                "index": 26,
+                "latex": "\\alpha_{2},\\cdots,\\alpha_{m}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9191,
+                "bbox": [
+                    1075,
+                    1101,
+                    1260,
+                    1133
+                ],
+                "index": 27,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7248,
+                "bbox": [
+                    554,
+                    1149,
+                    1442,
+                    1191
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.916,
+                "bbox": [
+                    939,
+                    1154,
+                    1116,
+                    1188
+                ],
+                "index": 29,
+                "latex": "\\lambda_{1}, \\lambda_{2}, \\cdots, \\lambda_{n}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6539,
+                "bbox": [
+                    552,
+                    1206,
+                    822,
+                    1259
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9127,
+                "bbox": [
+                    606,
+                    1207,
+                    810,
+                    1258
+                ],
+                "index": 31,
+                "latex": "\\sum \\lambda_{i} = \\sum a_{i i}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.675,
+                "bbox": [
+                    552,
+                    1280,
+                    810,
+                    1328
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8911,
+                "bbox": [
+                    611,
+                    1281,
+                    801,
+                    1327
+                ],
+                "index": 33,
+                "latex": "\\mid \\boldsymbol{A} \\mid = \\prod \\lambda_{i}."
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9189,
+                "bbox": [
+                    729,
+                    1355,
+                    905,
+                    1387
+                ],
+                "index": 34,
+                "latex": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{t}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9121,
+                "bbox": [
+                    482,
+                    1347,
+                    1444,
+                    1500
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9304,
+                "bbox": [
+                    592,
+                    1405,
+                    919,
+                    1443
+                ],
+                "index": 36,
+                "latex": "k_{1}\\boldsymbol{\\alpha}_{1} + k_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + k_{l}\\boldsymbol{\\alpha}_{l}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9238,
+                "bbox": [
+                    1038,
+                    1405,
+                    1367,
+                    1442
+                ],
+                "index": 37,
+                "latex": "k_{1}\\boldsymbol{\\alpha}_{1} + k_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + k_{t}\\boldsymbol{\\alpha}_{t}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.643,
+                "bbox": [
+                    592,
+                    1515,
+                    1108,
+                    1551
+                ],
+                "index": 38,
+                "latex": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} , \\boldsymbol{\\alpha} \\neq \\boldsymbol{0} , \\forall k \\neq 0 ,  有  k\\boldsymbol{\\alpha} \\neq \\boldsymbol{0}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.613,
+                "bbox": [
+                    550,
+                    1513,
+                    1157,
+                    1553
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.6536,
+                "bbox": [
+                    722,
+                    1569,
+                    1195,
+                    1608
+                ],
+                "index": 40,
+                "latex": "A \\left( k \\boldsymbol { \\alpha } \\right) = k A \\boldsymbol { \\alpha } = k \\left( \\lambda \\boldsymbol { \\alpha } \\right) = \\lambda \\left( k \\boldsymbol { \\alpha } \\right) ."
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8512,
+                "bbox": [
+                    480,
+                    1622,
+                    1442,
+                    1717
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6202,
+                "bbox": [
+                    1186,
+                    1626,
+                    1320,
+                    1661
+                ],
+                "index": 42,
+                "latex": "k\\boldsymbol{\\alpha} (k \\neq 0"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8967,
+                "bbox": [
+                    708,
+                    1736,
+                    1020,
+                    1770
+                ],
+                "index": 43,
+                "latex": "A\\boldsymbol{\\alpha}_{1} = \\lambda\\boldsymbol{\\alpha}_{1}, A\\boldsymbol{\\alpha}_{2} = \\lambda\\boldsymbol{\\alpha}_{2}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8261,
+                "bbox": [
+                    481,
+                    1731,
+                    1438,
+                    1826
+                ],
+                "index": 44
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8661,
+                "bbox": [
+                    488,
+                    1790,
+                    522,
+                    1822
+                ],
+                "index": 45,
+                "latex": "k_{2}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9174,
+                "bbox": [
+                    1063,
+                    1736,
+                    1277,
+                    1770
+                ],
+                "index": 46,
+                "latex": "\\boldsymbol{\\alpha}_{1} \\neq \\boldsymbol{0}, \\boldsymbol{\\alpha}_{2} \\neq \\boldsymbol{0}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9355,
+                "bbox": [
+                    574,
+                    1788,
+                    807,
+                    1822
+                ],
+                "index": 47,
+                "latex": "k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2} \\neq \\boldsymbol{0}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8713,
+                "bbox": [
+                    1368,
+                    1736,
+                    1426,
+                    1771
+                ],
+                "index": 48,
+                "latex": "\\forall   k_{1}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8143,
+                "bbox": [
+                    547,
+                    1837,
+                    1093,
+                    2045
+                ],
+                "index": 49,
+                "latex": "\\begin{aligned}\\boldsymbol{A}(k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}) &= \\boldsymbol{A}(k_{1} \\boldsymbol{\\alpha}_{1}) + \\boldsymbol{A}(k_{2} \\boldsymbol{\\alpha}_{2}) \\\\&= k_{1} \\boldsymbol{A} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{A} \\boldsymbol{\\alpha}_{2} \\\\&= k_{1}(\\lambda \\boldsymbol{\\alpha}_{1}) + k_{2}(\\lambda \\boldsymbol{\\alpha}_{2}) \\\\&= \\lambda (k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}) ,\\end{aligned}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9251,
+                "bbox": [
+                    529,
+                    2062,
+                    694,
+                    2096
+                ],
+                "index": 50,
+                "latex": "k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8775,
+                "bbox": [
+                    487,
+                    2058,
+                    1110,
+                    2099
+                ],
+                "index": 51
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8995,
+                "bbox": [
+                    773,
+                    2192,
+                    835,
+                    2224
+                ],
+                "index": 52
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    178,
+                    99,
+                    410,
+                    140
+                ],
+                "score": 1.0,
+                "text": "考研数学复习全书"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    421,
+                    103,
+                    510,
+                    140
+                ],
+                "score": 1.0,
+                "text": "基础篇"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    494,
+                    268,
+                    1438,
+                    299
+                ],
+                "score": 0.999,
+                "text": "成立，则称λ是矩阵A的一个特征值，称非零向量α是矩阵A属于特"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    493,
+                    322,
+                    825,
+                    355
+                ],
+                "score": 0.997,
+                "text": "征值λ的一个特征向量."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    551,
+                    372,
+                    657,
+                    418
+                ],
+                "score": 1.0,
+                "text": "由定义"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    885,
+                    372,
+                    931,
+                    419
+                ],
+                "score": 0.872,
+                "text": ",即"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1245,
+                    375,
+                    1440,
+                    413
+                ],
+                "score": 1.0,
+                "text": "可知特征向量"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    517,
+                    432,
+                    713,
+                    470
+                ],
+                "score": 1.0,
+                "text": "是齐次方程组"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    926,
+                    433,
+                    1068,
+                    470
+                ],
+                "score": 1.0,
+                "text": "的非零解."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    556,
+                    485,
+                    673,
+                    529
+                ],
+                "score": 1.0,
+                "text": "定义设"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    824,
+                    490,
+                    1196,
+                    522
+                ],
+                "score": 0.997,
+                "text": "为一个n阶矩阵，则行列式"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    491,
+                    768,
+                    868,
+                    802
+                ],
+                "score": 1.0,
+                "text": "称为矩阵A的特征多项式，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1091,
+                    768,
+                    1366,
+                    801
+                ],
+                "score": 1.0,
+                "text": "称为A的特征方程."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    558,
+                    825,
+                    943,
+                    857
+                ],
+                "score": 1.0,
+                "text": "求特征值，特征向量的方法："
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    558,
+                    879,
+                    709,
+                    911
+                ],
+                "score": 0.851,
+                "text": "(1）先利用"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    882,
+                    1131,
+                    906
+                ],
+                "score": 1.0,
+                "text": "求矩阵A的特征值"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1161,
+                    882,
+                    1384,
+                    906
+                ],
+                "score": 0.963,
+                "text": "(共n个). 再利用"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    640,
+                    937,
+                    1084,
+                    963
+                ],
+                "score": 0.993,
+                "text": "求基础解系，即矩阵A属于特征值"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1117,
+                    937,
+                    1433,
+                    963
+                ],
+                "score": 0.999,
+                "text": "的线性无关的特征向量."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    556,
+                    986,
+                    712,
+                    1028
+                ],
+                "score": 0.978,
+                "text": "(2) 用定义"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    845,
+                    986,
+                    990,
+                    1028
+                ],
+                "score": 1.0,
+                "text": "推理分析."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    1045,
+                    767,
+                    1077
+                ],
+                "score": 0.922,
+                "text": "定理 5.1 如果"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    950,
+                    1045,
+                    1388,
+                    1074
+                ],
+                "score": 0.974,
+                "text": "是矩阵A的互不相同的特征值："
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1427,
+                    1045,
+                    1439,
+                    1074
+                ],
+                "score": 0.875,
+                "text": "，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    632,
+                    1102,
+                    1068,
+                    1130
+                ],
+                "score": 1.0,
+                "text": "分别是与之对应的特征向量，则"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1264,
+                    1098,
+                    1408,
+                    1131
+                ],
+                "score": 1.0,
+                "text": "线性无关."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    562,
+                    1154,
+                    935,
+                    1188
+                ],
+                "score": 0.889,
+                "text": "定理 5.2 设A 是 n 阶矩阵"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1126,
+                    1153,
+                    1436,
+                    1187
+                ],
+                "score": 0.998,
+                "text": "是矩阵A的特征值，则"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    556,
+                    1216,
+                    605,
+                    1257
+                ],
+                "score": 0.995,
+                "text": "(1)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    555,
+                    1288,
+                    608,
+                    1327
+                ],
+                "score": 1.0,
+                "text": "(2)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    551,
+                    1347,
+                    728,
+                    1389
+                ],
+                "score": 1.0,
+                "text": "【注】如果"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    910,
+                    1352,
+                    1439,
+                    1386
+                ],
+                "score": 0.993,
+                "text": "都是矩阵A属于特征值λ的特征向量，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    490,
+                    1404,
+                    591,
+                    1445
+                ],
+                "score": 1.0,
+                "text": "那么当"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    923,
+                    1405,
+                    1037,
+                    1445
+                ],
+                "score": 0.989,
+                "text": "非零时，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1368,
+                    1403,
+                    1444,
+                    1445
+                ],
+                "score": 1.0,
+                "text": "仍是"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    492,
+                    1461,
+                    961,
+                    1497
+                ],
+                "score": 0.993,
+                "text": "矩阵A属于特征值λ的特征向量."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    551,
+                    1515,
+                    590,
+                    1554
+                ],
+                "score": 1.0,
+                "text": "如"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1109,
+                    1513,
+                    1155,
+                    1559
+                ],
+                "score": 0.755,
+                "text": ",则"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    493,
+                    1624,
+                    1178,
+                    1661
+                ],
+                "score": 0.98,
+                "text": "即若α是矩阵A对应于特征值入的特征向量，那么"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1322,
+                    1625,
+                    1442,
+                    1665
+                ],
+                "score": 0.989,
+                "text": "时）仍是"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    490,
+                    1680,
+                    823,
+                    1713
+                ],
+                "score": 0.997,
+                "text": "A对应于λ的特征向量."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    553,
+                    1728,
+                    707,
+                    1774
+                ],
+                "score": 1.0,
+                "text": "类似地，如"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1023,
+                    1733,
+                    1062,
+                    1772
+                ],
+                "score": 1.0,
+                "text": "且"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1278,
+                    1733,
+                    1367,
+                    1776
+                ],
+                "score": 0.93,
+                "text": ",那么"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    523,
+                    1783,
+                    573,
+                    1829
+                ],
+                "score": 0.928,
+                "text": ",若"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    808,
+                    1787,
+                    860,
+                    1830
+                ],
+                "score": 0.955,
+                "text": ",有"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    490,
+                    2060,
+                    525,
+                    2101
+                ],
+                "score": 1.0,
+                "text": "即"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    705,
+                    2062,
+                    1105,
+                    2096
+                ],
+                "score": 1.0,
+                "text": "仍是A对应于λ的特征向量."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    777,
+                    2194,
+                    831,
+                    2230
+                ],
+                "score": 1.0,
+                "text": "106"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1653,
+            "height": 2337
+        }
+    }
+]

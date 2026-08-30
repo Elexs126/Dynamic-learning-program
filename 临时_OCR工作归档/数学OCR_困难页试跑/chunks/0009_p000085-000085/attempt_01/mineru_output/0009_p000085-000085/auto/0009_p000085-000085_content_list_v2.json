@@ -1,0 +1,214 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例19 (2003,数三）设三阶矩阵 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{A} = \\begin{bmatrix} a & b & b \\\\ b & a & b \\\\ b & b & a \\end{bmatrix}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",若A的伴随矩阵A”的秩为1,则必有(A)a = b 或 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a + 2b = 0."
+                    },
+                    {
+                        "type": "text",
+                        "content": "(B) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a = b"
+                    },
+                    {
+                        "type": "text",
+                        "content": "或 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a + 2b \\ne 0."
+                    },
+                    {
+                        "type": "text",
+                        "content": "(C) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a \\ne b"
+                    },
+                    {
+                        "type": "text",
+                        "content": "且 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a + 2b = 0."
+                    },
+                    {
+                        "type": "text",
+                        "content": "(D) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a \\ne b"
+                    },
+                    {
+                        "type": "text",
+                        "content": "且 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a + 2b \\ne 0."
+                    }
+                ]
+            },
+            "bbox": [
+                277,
+                84,
+                836,
+                221
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/a58a5b1abf1755cac087896f8e7cfa966c75149630104409a785c08ee086c7e6.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                315,
+                538,
+                373,
+                563
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "答案见 81 页"
+                    }
+                ]
+            },
+            "bbox": [
+                719,
+                511,
+                813,
+                526
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(I "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和(Ⅱ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{\\beta}_{1}, \\boldsymbol{\\beta}_{2}, \\cdots, \\boldsymbol{\\beta}_{t}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "若（I）可由（Ⅱ）线性表示.证明(1) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(\\mathbb{I}) \\leqslant r(\\mathbb{I})"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(2) 若 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s \\geq t ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "则（Ⅰ）必线性相关."
+                    }
+                ]
+            },
+            "bbox": [
+                312,
+                567,
+                705,
+                655
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "答案见 82 页"
+                    }
+                ]
+            },
+            "bbox": [
+                721,
+                897,
+                813,
+                913
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "考研数学复习全书 基础篇"
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                38,
+                295,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "70"
+                    }
+                ]
+            },
+            "bbox": [
+                447,
+                938,
+                475,
+                952
+            ]
+        }
+    ]
+]

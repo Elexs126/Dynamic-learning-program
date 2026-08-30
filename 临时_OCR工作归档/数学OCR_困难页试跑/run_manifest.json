@@ -1,0 +1,176 @@
+{
+  "generated_at": "2026-08-30T10:05:12+00:00",
+  "source": {
+    "path": "/home/elexs/Dynamic-learning-program/线代（基础）.pdf",
+    "name": "线代（基础）.pdf",
+    "size": 95802447,
+    "mtime_ns": 1788025997415598300,
+    "sha256": "db2d5f03fe309b59ccab457dfa520ca659255d4d0a386b610629a4db0d1bb684",
+    "pages": 171
+  },
+  "config": {
+    "script_version": "3.0.0",
+    "mineru_version": "mineru, version 3.4.5",
+    "backend": "pipeline",
+    "method": "auto",
+    "effort": "high",
+    "language": "ch",
+    "chunk_pages": 128,
+    "chunk_input_mode": "materialized",
+    "start_page": 1,
+    "end_page": 171,
+    "selected_pages": [
+      17,
+      22,
+      26,
+      38,
+      45,
+      53,
+      58,
+      71,
+      85,
+      97,
+      100,
+      114,
+      121,
+      144,
+      146,
+      147,
+      148,
+      153,
+      154,
+      155,
+      168
+    ],
+    "chapters": [
+      {
+        "key": "selection_001",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 17,
+        "end_page": 17
+      },
+      {
+        "key": "selection_002",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 22,
+        "end_page": 22
+      },
+      {
+        "key": "selection_003",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 26,
+        "end_page": 26
+      },
+      {
+        "key": "selection_004",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 38,
+        "end_page": 38
+      },
+      {
+        "key": "selection_005",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 45,
+        "end_page": 45
+      },
+      {
+        "key": "selection_006",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 53,
+        "end_page": 53
+      },
+      {
+        "key": "selection_007",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 58,
+        "end_page": 58
+      },
+      {
+        "key": "selection_008",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 71,
+        "end_page": 71
+      },
+      {
+        "key": "selection_009",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 85,
+        "end_page": 85
+      },
+      {
+        "key": "selection_010",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 97,
+        "end_page": 97
+      },
+      {
+        "key": "selection_011",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 100,
+        "end_page": 100
+      },
+      {
+        "key": "selection_012",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 114,
+        "end_page": 114
+      },
+      {
+        "key": "selection_013",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 121,
+        "end_page": 121
+      },
+      {
+        "key": "selection_014",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 144,
+        "end_page": 144
+      },
+      {
+        "key": "selection_015",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 146,
+        "end_page": 148
+      },
+      {
+        "key": "selection_016",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 153,
+        "end_page": 155
+      },
+      {
+        "key": "selection_017",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 168,
+        "end_page": 168
+      }
+    ],
+    "formula": true,
+    "table": true,
+    "image_analysis": false
+  },
+  "outputs": [
+    "线代（基础）.md"
+  ],
+  "formula_audit": "formula_audit.jsonl",
+  "quality_report": "quality_report.md",
+  "quality_status": "fail"
+}

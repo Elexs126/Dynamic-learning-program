@@ -1,0 +1,81 @@
+[
+    {
+        "type": "text",
+        "text": "例19 (2003,数三）设三阶矩阵 $\\boldsymbol{A} = \\begin{bmatrix} a & b & b \\\\ b & a & b \\\\ b & b & a \\end{bmatrix}$ ,若A的伴随矩阵A”的秩为1,则必有(A)a = b 或 $a + 2b = 0.$ (B) $a = b$ 或 $a + 2b \\ne 0.$ (C) $a \\ne b$ 且 $a + 2b = 0.$ (D) $a \\ne b$ 且 $a + 2b \\ne 0.$",
+        "bbox": [
+            277,
+            84,
+            836,
+            221
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/a58a5b1abf1755cac087896f8e7cfa966c75149630104409a785c08ee086c7e6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            315,
+            538,
+            373,
+            563
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "答案见 81 页",
+        "bbox": [
+            719,
+            511,
+            813,
+            526
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(I $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}$ 和(Ⅱ $\\boldsymbol{\\beta}_{1}, \\boldsymbol{\\beta}_{2}, \\cdots, \\boldsymbol{\\beta}_{t}$ 若（I）可由（Ⅱ）线性表示.证明(1) $r(\\mathbb{I}) \\leqslant r(\\mathbb{I})$ (2) 若 $s \\geq t ,$ 则（Ⅰ）必线性相关.",
+        "bbox": [
+            312,
+            567,
+            705,
+            655
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "答案见 82 页",
+        "bbox": [
+            721,
+            897,
+            813,
+            913
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "考研数学复习全书 基础篇",
+        "bbox": [
+            99,
+            38,
+            295,
+            59
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "70",
+        "bbox": [
+            447,
+            938,
+            475,
+            952
+        ],
+        "page_idx": 0
+    }
+]

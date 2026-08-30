@@ -1,0 +1,200 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例11 (2023,经联)已知 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left| \\textbf{\\em A} \\right| = \\left| \\begin{matrix} 1 & 2 & - 1 & 1 \\\\ 0 & 2 & t & 1 \\\\ 3 & - 1 & 2 & 2 \\\\ - 1 & 3 & 2 & 1 \\end{matrix} \\right|"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": ",A_{ij}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为元 素 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{ij}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的代数余子式，若 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A_{31} - A_{32} + 2A_{33} - A_{34} = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",则t ="
+                    }
+                ]
+            },
+            "bbox": [
+                99,
+                84,
+                684,
+                197
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "练习区域"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                205,
+                144,
+                268
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "答案见 19 页"
+                    }
+                ]
+            },
+            "bbox": [
+                557,
+                462,
+                653,
+                478
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{aligned} &\\begin{vmatrix}\\\\ &x & -m & -1 & 0 \\\\&0 & -x & m & 1 \\\\&-1 & 0 & x & -m \\\\&m & 1 & 0 & -x\\\\ &\\end{vmatrix}= a_{4}x^{4} + a_{3}x^{3} + a_{2}x^{2} + a_{1}x + a_{0},\\\\ \\end{aligned}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/63becda26da731fcc2b263fe02dee59b97dbb7d8105a20ef1e55c79be1d2b0f7.jpg"
+                }
+            },
+            "bbox": [
+                139,
+                518,
+                642,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "练习区域"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                642,
+                142,
+                703
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "a_{4} + a_{3} + a_{2} + a_{1} + a_{0} =",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9135c3c7c579507229264cdd3826ac38325d75542a9a06538479c47327751b6b.jpg"
+                }
+            },
+            "bbox": [
+                122,
+                613,
+                341,
+                629
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "答案见 20 页"
+                    }
+                ]
+            },
+            "bbox": [
+                557,
+                898,
+                655,
+                913
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "行列式区"
+                    }
+                ]
+            },
+            "bbox": [
+                909,
+                103,
+                936,
+                164
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "线性代数基础·学习册第一章行列式"
+                    }
+                ]
+            },
+            "bbox": [
+                593,
+                45,
+                873,
+                61
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11"
+                    }
+                ]
+            },
+            "bbox": [
+                472,
+                939,
+                500,
+                953
+            ]
+        }
+    ]
+]

@@ -1,0 +1,375 @@
+[
+    {
+        "type": "text",
+        "text": "知识梳理与例题",
+        "text_level": 2,
+        "bbox": [
+            304,
+            93,
+            438,
+            111
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "一、向量的概念、向量组的概念",
+        "text_level": 2,
+        "bbox": [
+            336,
+            129,
+            628,
+            148
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "定义n个数 $a_{1},a_{2},\\cdots,a_{n}$ 所组成的有序数组",
+        "bbox": [
+            336,
+            167,
+            705,
+            184
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/1cea390f5652a295a5f837218a158b0446c003a9721f6ef96474404a698426e1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            16,
+            330,
+            70,
+            444
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/461f90aa58c267e4be3b1c4434973f90576db248c4d0757b155d2d11664f9894.jpg",
+        "text": "$$\n\\boldsymbol{\\alpha} = (a_{1}, a_{2}, \\cdots, a_{n})^{\\mathrm{T}}  或  \\boldsymbol{\\alpha} = (a_{1}, a_{2}, \\cdots, a_{n})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            396,
+            191,
+            759,
+            209
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "叫做n维向量，其中 $a_{1}, a_{2}, \\cdots, a_{n}$ 叫做向量α的分量(或坐标)，前一个表示式称为列向量，后者称为行向量.",
+        "bbox": [
+            295,
+            215,
+            858,
+            256
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "相等 $\\alpha = \\beta \\Leftrightarrow \\alpha,\\beta$ 同维，且对应分量 $a_{i}=b_{i},i=1,2,\\cdots,n$",
+        "bbox": [
+            334,
+            263,
+            838,
+            280
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "向量的基本运算",
+        "bbox": [
+            334,
+            288,
+            472,
+            305
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "加法 $\\boldsymbol{\\alpha} + \\boldsymbol{\\beta} = (a_{1} + b_{1}, a_{2} + b_{2}, \\cdots, a_{n} + b_{n})$",
+        "bbox": [
+            334,
+            311,
+            704,
+            329
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "数乘 $k \\boldsymbol{\\alpha} = (k a_{1}, k a_{2}, \\cdots, k a_{n})$",
+        "bbox": [
+            334,
+            335,
+            589,
+            351
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "若干个同维数的行向量(或同维数的列向量）所组成的集合叫做 向量组.",
+        "bbox": [
+            295,
+            359,
+            862,
+            399
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{r}$ 及 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{r}, \\cdots, \\alpha_{s}$ (其中 $s \\geqslant r )$ ,称 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{r}$ 是 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}$ 的部分组， $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}$ 是整体组.",
+        "bbox": [
+            295,
+            407,
+            862,
+            448
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "向量组",
+        "bbox": [
+            336,
+            454,
+            396,
+            469
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/c98f874ae45e6ebd9be6b4071bf2ee484f5b777789d451b73b5689767826346e.jpg",
+        "text": "$$\n\\boldsymbol { \\alpha } _ { 1 } = \\left[ a _ { 1 1 } , a _ { 2 1 } , \\cdots , a _ { r 1 } \\right] ^ { \\mathrm { T } } , \\boldsymbol { \\alpha } _ { 2 } = \\left[ a _ { 1 2 } , a _ { 2 2 } , \\cdots , a _ { r 2 } \\right] ^ { \\mathrm { T } } , \\cdots ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            332,
+            476,
+            768,
+            495
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e5ee4db67083075c07ff5152e7d98703b20ef581c65e0b8b697b3a942d4e64c6.jpg",
+        "text": "$$\n\\boldsymbol{a}_{m}=[a_{1m}, a_{2m}, \\cdots, a_{m}]^{\\mathrm{T}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            332,
+            500,
+            541,
+            519
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "及",
+        "bbox": [
+            295,
+            525,
+            321,
+            541
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/737a83b30cf3b7ff01608e1e055abb55d34baee188fd36e4a59ae27feb9abe8b.jpg",
+        "text": "$$\n\\tilde { \\boldsymbol { \\alpha } } _ { 1 } = [ a _ { 1 1 } , a _ { 2 1 } , \\cdots , a _ { r 1 } , \\cdots , a _ { r 1 } ] ^ { \\mathrm { T } } , \\tilde { \\boldsymbol { \\alpha } } _ { 2 } = [ a _ { 1 2 } , a _ { 2 2 } , \\cdots , a _ { r 2 } , \\cdots , a _ { r 2 } ] ^ { \\mathrm { T } } ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            331,
+            546,
+            857,
+            567
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b5c416baab067263a37387a8863fd71e64d13d86ad3a5dc382d5617931c16e49.jpg",
+        "text": "$$\n\\cdots , \\boldsymbol { \\alpha } _ { m } = [ a _ { 1 m } , a _ { 2 m } , \\cdots , a _ { m } , \\cdots , a _ { m } ] ^ { \\mathrm { T } } ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            295,
+            574,
+            600,
+            593
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "其中 $s \\geqslant r ,$ 则称 $\\widetilde{\\boldsymbol{\\alpha}}_{1}, \\widetilde{\\boldsymbol{\\alpha}}_{2}, \\cdots, \\widetilde{\\boldsymbol{\\alpha}}_{m}$ 为向量组 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}$ 的延伸组(或称$\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}$ 是 $\\tilde{\\alpha}_{1}, \\tilde{\\alpha}_{2}, \\cdots, \\tilde{\\alpha}_{m}$ 的缩短组).",
+        "bbox": [
+            295,
+            601,
+            862,
+            646
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "二、线性表出、线性相关",
+        "text_level": 2,
+        "bbox": [
+            334,
+            663,
+            559,
+            682
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "定义m个n维向量 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}$ 及m个数 $k_{1},k_{2},\\cdots,k_{m}$ ,则向量",
+        "bbox": [
+            336,
+            701,
+            862,
+            717
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/e62bd0a84ab717195f3614fd5894c7e16f936890a9b9358a89c25f81c01a9fc0.jpg",
+        "text": "$$\nk_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2} + \\cdots + k_{m} \\boldsymbol{\\alpha}_{m}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            473,
+            725,
+            682,
+            740
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "称为向量 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}$ 的一个线性组合 $k_{1},k_{2},\\cdots,k_{m}$ 称为这个线性组合的系数.",
+        "bbox": [
+            295,
+            747,
+            862,
+            787
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "若 $\\pmb { \\beta }$ 能表示成 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}$ 的线性组合，即",
+        "bbox": [
+            332,
+            795,
+            695,
+            812
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9bba6e43e647abdee5b94971d4a7c6037f6f48c00feaf1bea3164ad3cf05d82d.jpg",
+        "text": "$$\n\\boldsymbol { \\beta } = k _ { 1 } \\boldsymbol { \\alpha } _ { 1 } + k _ { 2 } \\boldsymbol { \\alpha } _ { 2 } + \\cdots + k _ { m } \\boldsymbol { \\alpha } _ { m }   ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            448,
+            819,
+            705,
+            835
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "则称 $\\beta$ 能由 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}$ 线性表出.",
+        "bbox": [
+            297,
+            841,
+            593,
+            858
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "定义对m个n维向量 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}$ ，若存在不全为零的数 $k_{1}$ $k_{2},\\cdots,k_{m}$ ,使得",
+        "bbox": [
+            295,
+            865,
+            857,
+            904
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/9f25bb792e6faf6a4a762d3b19394cc5152a632451a744412cc7891a104abc2e.jpg",
+        "text": "$$\nk_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2} + \\cdots + k_{m} \\boldsymbol{\\alpha}_{m} = \\boldsymbol{0}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            453,
+            912,
+            704,
+            928
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "考研数学复习全书 基础篇",
+        "bbox": [
+            115,
+            40,
+            312,
+            60
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            312,
+            38,
+            346,
+            65
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "学习笔记",
+        "bbox": [
+            105,
+            89,
+            176,
+            103
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "56",
+        "bbox": [
+            470,
+            946,
+            495,
+            959
+        ],
+        "page_idx": 0
+    }
+]

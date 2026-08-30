@@ -1,0 +1,845 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.9397,
+                    "bbox": [
+                        59,
+                        71,
+                        407,
+                        166
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                72,
+                                405,
+                                146
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        98,
+                                        120,
+                                        117
+                                    ],
+                                    "type": "text",
+                                    "content": "例11",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        127,
+                                        101,
+                                        218,
+                                        115
+                                    ],
+                                    "type": "text",
+                                    "content": "(2023,经联)已知",
+                                    "score": 0.932
+                                },
+                                {
+                                    "bbox": [
+                                        220,
+                                        72,
+                                        357,
+                                        146
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\textbf{\\em A} \\right| = \\left| \\begin{matrix} 1 & 2 & - 1 & 1 \\\\ 0 & 2 & t & 1 \\\\ 3 & - 1 & 2 & 2 \\\\ - 1 & 3 & 2 & 1 \\end{matrix} \\right|",
+                                    "score": 0.9416
+                                },
+                                {
+                                    "bbox": [
+                                        362,
+                                        102,
+                                        378,
+                                        118
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": ",A_{ij}",
+                                    "score": 0.7327
+                                },
+                                {
+                                    "bbox": [
+                                        379,
+                                        101,
+                                        405,
+                                        117
+                                    ],
+                                    "type": "text",
+                                    "content": "为元",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                61,
+                                149,
+                                344,
+                                165
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        149,
+                                        74,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "素",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        151,
+                                        87,
+                                        164
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a_{ij}",
+                                    "score": 0.8416
+                                },
+                                {
+                                    "bbox": [
+                                        87,
+                                        149,
+                                        172,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "的代数余子式，若",
+                                    "score": 0.996
+                                },
+                                {
+                                    "bbox": [
+                                        173,
+                                        150,
+                                        306,
+                                        164
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A_{31} - A_{32} + 2A_{33} - A_{34} = 0",
+                                    "score": 0.9034
+                                },
+                                {
+                                    "bbox": [
+                                        306,
+                                        150,
+                                        344,
+                                        165
+                                    ],
+                                    "type": "text",
+                                    "content": ",则t =",
+                                    "score": 0.959
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5535,
+                    "bbox": [
+                        69,
+                        173,
+                        86,
+                        226
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                174,
+                                84,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        174,
+                                        84,
+                                        226
+                                    ],
+                                    "type": "text",
+                                    "content": "练习区域",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.76,
+                    "bbox": [
+                        332,
+                        389,
+                        389,
+                        402
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                333,
+                                390,
+                                389,
+                                402
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        333,
+                                        390,
+                                        389,
+                                        402
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 19 页",
+                                    "score": 0.91
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.75,
+                    "bbox": [
+                        83,
+                        436,
+                        382,
+                        511
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                436,
+                                382,
+                                511
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        436,
+                                        382,
+                                        511
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned} &\\begin{vmatrix}\\\\ &x & -m & -1 & 0 \\\\&0 & -x & m & 1 \\\\&-1 & 0 & x & -m \\\\&m & 1 & 0 & -x\\\\ &\\end{vmatrix}= a_{4}x^{4} + a_{3}x^{3} + a_{2}x^{2} + a_{1}x + a_{0},\\\\ \\end{aligned}",
+                                    "image_path": "63becda26da731fcc2b263fe02dee59b97dbb7d8105a20ef1e55c79be1d2b0f7.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5078,
+                    "bbox": [
+                        69,
+                        540,
+                        85,
+                        592
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                541,
+                                84,
+                                592
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        541,
+                                        84,
+                                        592
+                                    ],
+                                    "type": "text",
+                                    "content": "练习区域",
+                                    "score": 0.996
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8562,
+                    "bbox": [
+                        73,
+                        516,
+                        203,
+                        529
+                    ],
+                    "index": 8,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                73,
+                                516,
+                                203,
+                                529
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        73,
+                                        516,
+                                        203,
+                                        529
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "a_{4} + a_{3} + a_{2} + a_{1} + a_{0} =",
+                                    "image_path": "9135c3c7c579507229264cdd3826ac38325d75542a9a06538479c47327751b6b.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5167,
+                    "bbox": [
+                        332,
+                        756,
+                        390,
+                        768
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                333,
+                                757,
+                                389,
+                                770
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        333,
+                                        757,
+                                        389,
+                                        770
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 20 页",
+                                    "score": 0.923
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.4724,
+                    "bbox": [
+                        541,
+                        87,
+                        557,
+                        138
+                    ],
+                    "index": 1,
+                    "type": "aside_text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                539,
+                                86,
+                                558,
+                                140
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        539,
+                                        86,
+                                        558,
+                                        140
+                                    ],
+                                    "type": "text",
+                                    "content": "行列式区",
+                                    "score": 0.876
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6258,
+                    "bbox": [
+                        353,
+                        38,
+                        520,
+                        52
+                    ],
+                    "index": 2,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                352,
+                                38,
+                                519,
+                                52
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        352,
+                                        38,
+                                        519,
+                                        52
+                                    ],
+                                    "type": "text",
+                                    "content": "线性代数基础·学习册第一章行列式",
+                                    "score": 0.999
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8808,
+                    "bbox": [
+                        281,
+                        790,
+                        298,
+                        802
+                    ],
+                    "index": 10,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                283,
+                                791,
+                                296,
+                                804
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        283,
+                                        791,
+                                        296,
+                                        804
+                                    ],
+                                    "type": "text",
+                                    "content": "11",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.9397,
+                    "bbox": [
+                        59,
+                        71,
+                        407,
+                        166
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                85,
+                                72,
+                                405,
+                                146
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        85,
+                                        98,
+                                        120,
+                                        117
+                                    ],
+                                    "type": "text",
+                                    "content": "例11",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        127,
+                                        101,
+                                        218,
+                                        115
+                                    ],
+                                    "type": "text",
+                                    "content": "(2023,经联)已知",
+                                    "score": 0.932
+                                },
+                                {
+                                    "bbox": [
+                                        220,
+                                        72,
+                                        357,
+                                        146
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\textbf{\\em A} \\right| = \\left| \\begin{matrix} 1 & 2 & - 1 & 1 \\\\ 0 & 2 & t & 1 \\\\ 3 & - 1 & 2 & 2 \\\\ - 1 & 3 & 2 & 1 \\end{matrix} \\right|",
+                                    "score": 0.9416
+                                },
+                                {
+                                    "bbox": [
+                                        362,
+                                        102,
+                                        378,
+                                        118
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": ",A_{ij}",
+                                    "score": 0.7327
+                                },
+                                {
+                                    "bbox": [
+                                        379,
+                                        101,
+                                        405,
+                                        117
+                                    ],
+                                    "type": "text",
+                                    "content": "为元",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                61,
+                                149,
+                                344,
+                                165
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        149,
+                                        74,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "素",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        74,
+                                        151,
+                                        87,
+                                        164
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a_{ij}",
+                                    "score": 0.8416
+                                },
+                                {
+                                    "bbox": [
+                                        87,
+                                        149,
+                                        172,
+                                        163
+                                    ],
+                                    "type": "text",
+                                    "content": "的代数余子式，若",
+                                    "score": 0.996
+                                },
+                                {
+                                    "bbox": [
+                                        173,
+                                        150,
+                                        306,
+                                        164
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A_{31} - A_{32} + 2A_{33} - A_{34} = 0",
+                                    "score": 0.9034
+                                },
+                                {
+                                    "bbox": [
+                                        306,
+                                        150,
+                                        344,
+                                        165
+                                    ],
+                                    "type": "text",
+                                    "content": ",则t =",
+                                    "score": 0.959
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        61,
+                        72,
+                        405,
+                        165
+                    ]
+                },
+                {
+                    "score": 0.5535,
+                    "bbox": [
+                        69,
+                        173,
+                        86,
+                        226
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                174,
+                                84,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        174,
+                                        84,
+                                        226
+                                    ],
+                                    "type": "text",
+                                    "content": "练习区域",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        69,
+                        174,
+                        84,
+                        226
+                    ]
+                },
+                {
+                    "score": 0.76,
+                    "bbox": [
+                        332,
+                        389,
+                        389,
+                        402
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                333,
+                                390,
+                                389,
+                                402
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        333,
+                                        390,
+                                        389,
+                                        402
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 19 页",
+                                    "score": 0.91
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        333,
+                        390,
+                        389,
+                        402
+                    ]
+                },
+                {
+                    "score": 0.75,
+                    "bbox": [
+                        83,
+                        436,
+                        382,
+                        511
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                436,
+                                382,
+                                511
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        436,
+                                        382,
+                                        511
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned} &\\begin{vmatrix}\\\\ &x & -m & -1 & 0 \\\\&0 & -x & m & 1 \\\\&-1 & 0 & x & -m \\\\&m & 1 & 0 & -x\\\\ &\\end{vmatrix}= a_{4}x^{4} + a_{3}x^{3} + a_{2}x^{2} + a_{1}x + a_{0},\\\\ \\end{aligned}",
+                                    "image_path": "63becda26da731fcc2b263fe02dee59b97dbb7d8105a20ef1e55c79be1d2b0f7.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5078,
+                    "bbox": [
+                        69,
+                        540,
+                        85,
+                        592
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                541,
+                                84,
+                                592
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        541,
+                                        84,
+                                        592
+                                    ],
+                                    "type": "text",
+                                    "content": "练习区域",
+                                    "score": 0.996
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        70,
+                        541,
+                        84,
+                        592
+                    ]
+                },
+                {
+                    "score": 0.8562,
+                    "bbox": [
+                        73,
+                        516,
+                        203,
+                        529
+                    ],
+                    "index": 8,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                73,
+                                516,
+                                203,
+                                529
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        73,
+                                        516,
+                                        203,
+                                        529
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "a_{4} + a_{3} + a_{2} + a_{1} + a_{0} =",
+                                    "image_path": "9135c3c7c579507229264cdd3826ac38325d75542a9a06538479c47327751b6b.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5167,
+                    "bbox": [
+                        332,
+                        756,
+                        390,
+                        768
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                333,
+                                757,
+                                389,
+                                770
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        333,
+                                        757,
+                                        389,
+                                        770
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 20 页",
+                                    "score": 0.923
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        333,
+                        757,
+                        389,
+                        770
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.5"
+}

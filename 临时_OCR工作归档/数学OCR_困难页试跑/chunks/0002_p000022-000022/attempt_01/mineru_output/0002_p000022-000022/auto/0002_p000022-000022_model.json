@@ -1,0 +1,579 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7334,
+                "bbox": [
+                    979,
+                    109,
+                    1454,
+                    150
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9544,
+                "bbox": [
+                    214,
+                    224,
+                    748,
+                    270
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.938,
+                "bbox": [
+                    215,
+                    310,
+                    429,
+                    350
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.971,
+                "bbox": [
+                    449,
+                    360,
+                    818,
+                    574
+                ],
+                "index": 4,
+                "latex": "\\begin{aligned} &D = \\begin{vmatrix}\\\\ &a_{11} & a_{12} & \\cdots & a_{1n} \\\\&a_{21} & a_{22} & \\cdots & a_{2n} \\\\&\\vdots & \\vdots & & \\vdots \\\\&a_{n1} & a_{n2} & \\cdots & a_{nn}\\\\ &\\end{vmatrix}\\\\ \\end{aligned}"
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.5648,
+                "bbox": [
+                    1505,
+                    220,
+                    1607,
+                    520
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8853,
+                "bbox": [
+                    259,
+                    591,
+                    297,
+                    620
+                ],
+                "index": 6,
+                "latex": "\\alpha_{ij}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.974,
+                "bbox": [
+                    149,
+                    582,
+                    1123,
+                    675
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9723,
+                "bbox": [
+                    337,
+                    687,
+                    941,
+                    1014
+                ],
+                "index": 8,
+                "latex": "\\begin{aligned}\\left| \\begin{array}{ccccc}\\alpha_{11} & \\cdots & \\alpha_{1,j-1} & \\alpha_{1,j+1} & \\cdots & \\alpha_{1n} \\\\\\vdots &  & \\vdots & \\vdots &  & \\vdots \\\\\\alpha_{i-1,1} & \\cdots & \\alpha_{i-1,j-1} & \\alpha_{i-1,j+1} & \\cdots & \\alpha_{i-1,n} \\\\\\alpha_{i+1,1} & \\cdots & \\alpha_{i+1,j-1} & \\alpha_{i+1,j+1} & \\cdots & \\alpha_{i+1,n} \\\\\\vdots &  & \\vdots & \\vdots &  & \\vdots \\\\\\alpha_{n1} & \\cdots & \\alpha_{n,j-1} & \\alpha_{n,j+1} & \\cdots & \\alpha_{nn} \\\\\\end{array} \\right|,\\end{aligned}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8769,
+                "bbox": [
+                    259,
+                    1031,
+                    297,
+                    1060
+                ],
+                "index": 9,
+                "latex": "a_{ij}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8882,
+                "bbox": [
+                    192,
+                    1074,
+                    238,
+                    1108
+                ],
+                "index": 10,
+                "latex": "A_{ij}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8943,
+                "bbox": [
+                    526,
+                    1025,
+                    574,
+                    1060
+                ],
+                "index": 11,
+                "latex": "M_{ij}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9137,
+                "bbox": [
+                    625,
+                    1025,
+                    782,
+                    1061
+                ],
+                "index": 12,
+                "latex": "(-1)^{i+j}M_{ij}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9656,
+                "bbox": [
+                    147,
+                    1021,
+                    1124,
+                    1111
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8705,
+                "bbox": [
+                    825,
+                    1033,
+                    863,
+                    1062
+                ],
+                "index": 14,
+                "latex": "\\alpha_{ij}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9352,
+                "bbox": [
+                    496,
+                    1121,
+                    772,
+                    1163
+                ],
+                "index": 15,
+                "latex": "A _ { i j } = ( - 1 ) ^ { i + j } M _ { i j }   ."
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9749,
+                "bbox": [
+                    147,
+                    1174,
+                    1123,
+                    1268
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.7728,
+                "bbox": [
+                    173,
+                    1283,
+                    1091,
+                    1372
+                ],
+                "index": 17,
+                "latex": "\\left| \\boldsymbol{A} \\right| = a_{i1}A_{i1} + a_{i2}A_{i2} + \\cdots + a_{in}A_{in} = \\sum_{k = 1}^{n}a_{ik}A_{ik}, i = 1,2,\\cdots,n."
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.7123,
+                "bbox": [
+                    166,
+                    1381,
+                    1100,
+                    1461
+                ],
+                "index": 18,
+                "latex": "\\left| \\boldsymbol { A } \\right| = a _ { 1 j } A _ { 1 j } + a _ { 2 j } A _ { 2 j } + \\cdots + a _ { n j } A _ { n j } = \\sum _ { k = 1 } ^ { n } a _ { k j } A _ { k j } , j = 1 , 2 , \\cdots , n."
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9738,
+                "bbox": [
+                    150,
+                    1466,
+                    1124,
+                    1562
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9738,
+                "bbox": [
+                    145,
+                    1574,
+                    1125,
+                    1669
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.922,
+                "bbox": [
+                    254,
+                    1683,
+                    1013,
+                    1772
+                ],
+                "index": 21,
+                "latex": "\\sum_{k = 1}^{n}a_{ik}A_{jk} = a_{i1}A_{j1} + a_{i2}A_{j2} + \\cdots + a_{in}A_{jn} = 0, i \\neq j."
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8937,
+                "bbox": [
+                    254,
+                    1778,
+                    1014,
+                    1864
+                ],
+                "index": 22,
+                "latex": "\\sum_{k = 1}^{n}a_{ki}A_{kj} = a_{1i}A_{1j} + a_{2i}A_{2j} + \\cdots + a_{ni}A_{nj} = 0, i \\neq j."
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9451,
+                "bbox": [
+                    213,
+                    1868,
+                    1045,
+                    1909
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9483,
+                "bbox": [
+                    214,
+                    1922,
+                    1029,
+                    1962
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9682,
+                "bbox": [
+                    310,
+                    1973,
+                    958,
+                    2161
+                ],
+                "index": 25,
+                "latex": "\\begin{vmatrix}a_{_{11}} & a_{_{12}} \\cdots a_{_{1n}} \\\\a_{_{22}} \\cdots a_{_{2n}} \\\\\\bigvee & \\ddots & \\vdots \\\\a_{_{nn}}\\end{vmatrix}=\\begin{vmatrix}a_{_{11}} &  &  \\\\a_{_{21}} & a_{_{22}} \\\\\\vdots & \\vdots & \\ddots \\\\a_{_{n1}} & a_{_{n2}} \\cdots a_{_{nn}}\\end{vmatrix}= a_{_{11}} a_{_{22}} \\cdots a_{_{nn}} ."
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8637,
+                "bbox": [
+                    783,
+                    2202,
+                    819,
+                    2233
+                ],
+                "index": 26
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    977,
+                    106,
+                    1453,
+                    153
+                ],
+                "score": 0.971,
+                "text": "线性代数基础·学习册第一章 行列式"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    222,
+                    227,
+                    742,
+                    269
+                ],
+                "score": 0.962,
+                "text": "三、行列式按行(或列）展开公式"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    222,
+                    312,
+                    422,
+                    350
+                ],
+                "score": 1.0,
+                "text": "在n阶行列式"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    156,
+                    585,
+                    258,
+                    621
+                ],
+                "score": 1.0,
+                "text": "中划去"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    298,
+                    585,
+                    1117,
+                    621
+                ],
+                "score": 0.999,
+                "text": "所在的第i行、第j列的元素，由剩下的元素按原来的位置"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    158,
+                    641,
+                    642,
+                    670
+                ],
+                "score": 0.981,
+                "text": "排法构成的一个n一1阶的行列式"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    151,
+                    1020,
+                    258,
+                    1063
+                ],
+                "score": 1.0,
+                "text": "称其为"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    298,
+                    1020,
+                    525,
+                    1063
+                ],
+                "score": 0.947,
+                "text": "的余子式，记为"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    575,
+                    1020,
+                    624,
+                    1063
+                ],
+                "score": 0.955,
+                "text": ";称"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    788,
+                    1024,
+                    824,
+                    1061
+                ],
+                "score": 1.0,
+                "text": "为"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    864,
+                    1024,
+                    1118,
+                    1061
+                ],
+                "score": 0.987,
+                "text": "的代数余子式，记"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    150,
+                    1071,
+                    191,
+                    1112
+                ],
+                "score": 1.0,
+                "text": "为"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    239,
+                    1071,
+                    291,
+                    1112
+                ],
+                "score": 0.813,
+                "text": ",即"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    226,
+                    1180,
+                    1116,
+                    1209
+                ],
+                "score": 0.987,
+                "text": "定理1.1 n阶行列式等于它的任何一行(列)元素与其对应的代"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    158,
+                    1233,
+                    468,
+                    1262
+                ],
+                "score": 1.0,
+                "text": "数余子式乘积之和，即"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    222,
+                    1472,
+                    1117,
+                    1502
+                ],
+                "score": 0.987,
+                "text": "前一个公式称|A|是按第i行展开的展开式，后一个公式称"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    156,
+                    1526,
+                    605,
+                    1556
+                ],
+                "score": 0.948,
+                "text": "|A|是按第j列展开的展开式."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    223,
+                    1579,
+                    1118,
+                    1611
+                ],
+                "score": 0.946,
+                "text": "定理1.2 行列式的任一行(列）元素与另一行(列）元素的代数"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    155,
+                    1635,
+                    491,
+                    1664
+                ],
+                "score": 0.98,
+                "text": "余子式乘积之和为0,即"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    221,
+                    1873,
+                    1038,
+                    1904
+                ],
+                "score": 0.985,
+                "text": "在用展开公式的时候，还要注意下面几个特殊情况的配合."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    223,
+                    1928,
+                    1022,
+                    1957
+                ],
+                "score": 0.971,
+                "text": "（1）上（下）三角形行列式的值等于主对角线元素的乘积."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    787,
+                    2206,
+                    813,
+                    2241
+                ],
+                "score": 1.0,
+                "text": "7"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1653,
+            "height": 2337
+        }
+    }
+]

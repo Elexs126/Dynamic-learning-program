@@ -1,0 +1,113 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 20设 A,B 均为 n 阶矩阵， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left| \\boldsymbol{A} \\right| = 2, \\left| \\boldsymbol{B} \\right| = - 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则一 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2\\boldsymbol{A}^{\\prime} \\boldsymbol{B}^{-1} \\mid ="
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                80,
+                670,
+                129
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例21 设A是四阶矩阵，如果 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left| \\boldsymbol{A} \\right| = - \\frac{2}{3}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",则 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left| 3 \\boldsymbol{A}^{*} + 4 \\boldsymbol{A}^{-1} \\right| ="
+                    }
+                ]
+            },
+            "bbox": [
+                127,
+                493,
+                667,
+                552
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "答案见 53 页"
+                    }
+                ]
+            },
+            "bbox": [
+                547,
+                466,
+                647,
+                480
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "线性代数基础·学习册”第二章 矩阵"
+                    }
+                ]
+            },
+            "bbox": [
+                596,
+                41,
+                868,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "43"
+                    }
+                ]
+            },
+            "bbox": [
+                463,
+                934,
+                492,
+                947
+            ]
+        }
+    ]
+]

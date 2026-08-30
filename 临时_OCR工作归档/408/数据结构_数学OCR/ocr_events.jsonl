@@ -1,0 +1,9 @@
+{"time": "2026-08-30T10:56:05+00:00", "event": "task_created"}
+{"time": "2026-08-30T10:56:05+00:00", "event": "chunk_started", "chunk_id": "0001_p000001-000128", "start_page": 1, "end_page": 128}
+{"time": "2026-08-30T10:58:23+00:00", "event": "chunk_done", "chunk_id": "0001_p000001-000128", "elapsed_seconds": 137.515}
+{"time": "2026-08-30T10:58:23+00:00", "event": "chunk_started", "chunk_id": "0002_p000129-000256", "start_page": 129, "end_page": 256}
+{"time": "2026-08-30T11:00:15+00:00", "event": "chunk_done", "chunk_id": "0002_p000129-000256", "elapsed_seconds": 111.541}
+{"time": "2026-08-30T11:00:15+00:00", "event": "chunk_started", "chunk_id": "0003_p000257-000384", "start_page": 257, "end_page": 384}
+{"time": "2026-08-30T11:02:14+00:00", "event": "chunk_done", "chunk_id": "0003_p000257-000384", "elapsed_seconds": 119.457}
+{"time": "2026-08-30T11:02:14+00:00", "event": "chunk_started", "chunk_id": "0004_p000385-000404", "start_page": 385, "end_page": 404}
+{"time": "2026-08-30T11:02:49+00:00", "event": "chunk_done", "chunk_id": "0004_p000385-000404", "elapsed_seconds": 35.156}

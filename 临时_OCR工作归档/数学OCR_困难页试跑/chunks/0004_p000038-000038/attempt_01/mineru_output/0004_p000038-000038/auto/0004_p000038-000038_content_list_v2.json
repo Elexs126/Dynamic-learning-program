@@ -1,0 +1,504 @@
+[
+    [
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{bmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{m1} & a_{m2} & \\cdots & a_{mn} \\end{bmatrix},",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c2bac911e58536ab523d93c98195f08ff76736a4c17d7cf6412fceec509bbcdf.jpg"
+                }
+            },
+            "bbox": [
+                292,
+                83,
+                484,
+                174
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "称为一个 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "m \\times n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "矩阵，当 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "m = n"
+                    },
+                    {
+                        "type": "text",
+                        "content": "时，矩阵A称为n阶矩阵或叫n阶方阵."
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                180,
+                677,
+                198
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "如果一个矩阵的所有元素都是0，即"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                204,
+                443,
+                221
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{bmatrix} 0 & 0 & \\cdots & 0 \\\\ 0 & 0 & \\cdots & 0 \\\\ \\vdots & \\vdots & & \\vdots \\\\ 0 & 0 & \\cdots & 0 \\end{bmatrix},",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fccc5bcbb23c56bc823f2cfa66d0e6145e26c0a22613fd693d319a18566feddf.jpg"
+                }
+            },
+            "bbox": [
+                302,
+                228,
+                475,
+                315
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/7ebac3a4add88db396ad3b4bf15295c264371a987c6c860aeb01aa1cb286994d.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                914,
+                209,
+                971,
+                321
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则称这个矩阵是零矩阵，可简记为0."
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                322,
+                411,
+                338
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "两个矩阵 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{m \\times n}, \\boldsymbol{B} = \\left[ b_{ij} \\right]_{s \\times v}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",如果 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "m = s , n = t"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则称A与 B是同型矩阵."
+                    }
+                ]
+            },
+            "bbox": [
+                90,
+                344,
+                680,
+                385
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "两个同型矩阵 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{m \\times n}, \\boldsymbol{B} = \\left[ b_{ij} \\right]_{m \\times n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，如果对应的元素都相等，即"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                392,
+                682,
+                410
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "a_{ij} = b_{ij} \\left( i = 1,2,\\cdots,m; j = 1,2,\\cdots,n \\right),",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f268f2fcab8a051389d3b64a9290b7babdd1b25bbaa867da9ad6d5387c12c4ce.jpg"
+                }
+            },
+            "bbox": [
+                208,
+                416,
+                561,
+                432
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则称矩阵A与B相等，记作 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{A} = \\boldsymbol{B}."
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                438,
+                401,
+                455
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "n阶方阵 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{n \\times n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的元素所构成的行列式"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                461,
+                529,
+                479
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{bmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{n1} & a_{n2} & \\cdots & a_{nn} \\end{bmatrix}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/915321c98ef8448358f837edef9d729fa5b0815b30bf9a169bb5103456ca9083.jpg"
+                }
+            },
+            "bbox": [
+                302,
+                483,
+                473,
+                575
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "称为n阶矩阵A的行列式，记成 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left| A \\right|"
+                    },
+                    {
+                        "type": "text",
+                        "content": "或 detA."
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                580,
+                478,
+                598
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "【注】矩阵A是一个表格，而行列式A是一个数，这里的概念与符号不要混淆. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A = \\boldsymbol{O}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "与 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left| \\textbf{A} \\right| = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是不同的，不能搞错.当 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A \\ne 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "时可能有 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left| \\textbf{A} \\right| = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，当然也可能有 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left| \\boldsymbol{A} \\right| \\neq 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": ".这些基本常识要想清楚."
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                604,
+                684,
+                669
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2. 矩阵的运算"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                132,
+                686,
+                273,
+                703
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "定义（加法）两个同型矩阵(行数与列数分别相等）可以相加，且"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                722,
+                677,
+                739
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol{A} + \\boldsymbol{B} = \\left[ a_{ij} \\right]_{m \\times n} + \\left[ b_{ij} \\right]_{m \\times n} = \\left[ a_{ij} + b_{ij} \\right]_{m \\times n}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a7ebe09500099868585ad257d7c685403c79c640046fd6092eec09874ec28eba.jpg"
+                }
+            },
+            "bbox": [
+                189,
+                744,
+                578,
+                762
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "定义（数量乘法，简称数乘）设k是数 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{m \\times n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是矩阵，则定义数与矩阵的乘法为"
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                768,
+                680,
+                807
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k \\boldsymbol{A} = k \\left[ a_{ij} \\right]_{m \\times n} = \\left[ k a_{ij} \\right]_{m \\times n}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0b7d47d0ee6cfe4893e271b7c4bfbffdf6ecd2e65b6f35e2960925a05c5dac98.jpg"
+                }
+            },
+            "bbox": [
+                262,
+                813,
+                509,
+                832
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例如 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\begin{aligned}, \\boldsymbol{A} = \\begin{bmatrix} 1 & 3 & - 2 \\\\ & & \\\\ 0 & - 4 & 5 \\end{bmatrix}, \\boldsymbol{B} = \\begin{bmatrix} 8 & 3 & 5 \\\\ & & \\\\ 1 & 2 & - 6 \\end{bmatrix}\\end{aligned}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",则"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                837,
+                561,
+                875
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol{A} + \\boldsymbol{B} = \\begin{bmatrix} 1 + 8 & 3 + 3 & - 2 + 5 \\\\ 0 + 1 & - 4 + 2 & 5 + ( - 6 ) \\end{bmatrix} = \\begin{bmatrix} 9 & 6 & 3 \\\\ 1 & - 2 & - 1 \\end{bmatrix},",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d6c4d883b83d9a70ef427c56db5d5e6c541077b8e9904d73f186fed30c6cc954.jpg"
+                }
+            },
+            "bbox": [
+                114,
+                882,
+                630,
+                922
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "线性代数基础-学习册第二章矩阵"
+                    }
+                ]
+            },
+            "bbox": [
+                611,
+                43,
+                880,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "23"
+                    }
+                ]
+            },
+            "bbox": [
+                473,
+                941,
+                502,
+                954
+            ]
+        }
+    ]
+]

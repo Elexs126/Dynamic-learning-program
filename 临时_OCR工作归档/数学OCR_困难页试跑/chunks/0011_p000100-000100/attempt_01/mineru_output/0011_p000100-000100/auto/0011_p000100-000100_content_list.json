@@ -1,0 +1,282 @@
+[
+    {
+        "type": "text",
+        "text": "知识梳理与例题",
+        "text_level": 2,
+        "bbox": [
+            173,
+            85,
+            305,
+            103
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "学习笔记",
+        "bbox": [
+            754,
+            80,
+            825,
+            95
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "一、基本概念",
+        "text_level": 2,
+        "bbox": [
+            201,
+            120,
+            331,
+            139
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "我们称",
+        "bbox": [
+            203,
+            156,
+            268,
+            173
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/24ce228061ceb3bc1287b7b70a7a38c68889793ce5e36a547b726447315fe7a1.jpg",
+        "text": "$$\n\\begin{aligned}\\left\\{ \\begin{aligned}a_{11}x_{1} + a_{12}x_{2} + \\cdots + a_{1n}x_{n} = b_{1}, \\\\a_{21}x_{1} + a_{22}x_{2} + \\cdots + a_{2n}x_{n} = b_{2}, \\\\\\cdots \\\\a_{m1}x_{1} + a_{m2}x_{2} + \\cdots + a_{mn}x_{n} = b_{m}\\end{aligned} \\right.\\end{aligned}\\tag{I}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            304,
+            178,
+            588,
+            279
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "是n个未知数m个方程的非齐次线性方程组，其中 $x_{1},x_{2},\\cdots,x_{n}$ 代表$n$ 个未知数，而 $b_{1},b_{2},\\cdots,b_{m}$ 是不全为0的常数.",
+        "bbox": [
+            163,
+            284,
+            722,
+            324
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "利用矩阵乘法，方程组（Ⅰ）可表示为：",
+        "bbox": [
+            201,
+            331,
+            517,
+            348
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b7754763bd6c8babbc8839b97d32cfb2c523a84644526c14b50012844d1904d8.jpg",
+        "text": "$$\n\\begin{bmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{m1} & a_{m2} & \\cdots & a_{mn} \\end{bmatrix} \\begin{bmatrix} x_1 \\\\ x_2 \\\\ \\vdots \\\\ x_n \\end{bmatrix} = \\begin{bmatrix} b_1 \\\\ b_2 \\\\ \\vdots \\\\ b_m \\end{bmatrix}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            302,
+            353,
+            588,
+            445
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "于是方程组（Ⅰ）的矩阵形式为：",
+        "bbox": [
+            203,
+            450,
+            470,
+            467
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/d7e57d7dbe8e7f974e0d2ce0d4ac85f8a87f380ca7e456099ae39caa9bca543a.jpg",
+        "text": "$$\nAx = b,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            405,
+            475,
+            482,
+            489
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "称A为方程组（I）的系数矩阵.",
+        "bbox": [
+            163,
+            498,
+            431,
+            514
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "对矩阵A按列分块，记 $\\boldsymbol{A} = ( \\boldsymbol{\\alpha}_{1} , \\boldsymbol{\\alpha}_{2} , \\cdots , \\boldsymbol{\\alpha}_{n} )$ ，则方程组（Ⅰ）有向量形式",
+        "bbox": [
+            164,
+            521,
+            722,
+            562
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2b59652a178765bd8bc127fb6a91452188bbc9b8dba34b51b1ae8e9b7d499264.jpg",
+        "text": "$$\nx_{1}\\boldsymbol{\\alpha}_{1} + x_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + x_{n}\\boldsymbol{\\alpha}_{n} = \\boldsymbol{\\beta},\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            569,
+            569,
+            587
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "其中 $\\boldsymbol{\\alpha}_{j}=(a_{1j},a_{2j},\\cdots,a_{nj})^{\\mathrm{T}},j=1,2,\\cdots,n,\\boldsymbol{\\beta}=(b_{1},b_{2},\\cdots,b_{m})^{\\mathrm{T}}.$",
+        "bbox": [
+            164,
+            592,
+            699,
+            611
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "如果 $\\forall j = 1,2,\\cdots,m$ 恒有 $b_{j} = 0$ ,则称",
+        "bbox": [
+            201,
+            615,
+            536,
+            632
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/aa95d9be287e79068289ddda337b0f1e85961e570d751486a5f8a9529b18940d.jpg",
+        "text": "$$\n\\left\\{ \\begin{aligned} a_{11}x_{1} + a_{12}x_{2} + \\cdots + a_{1n}x_{n} = 0, \\\\ a_{21}x_{1} + a_{22}x_{2} + \\cdots + a_{2n}x_{n} = 0, \\\\ \\cdots \\\\ a_{m1}x_{1} + a_{m2}x_{2} + \\cdots + a_{mn}x_{n} = 0. \\end{aligned} \\right.\\tag{Ⅱ}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            305,
+            638,
+            584,
+            730
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "为齐次线性方程组(也称(Ⅱ）是(Ⅰ）的导出组).其矩阵形式为：",
+        "bbox": [
+            163,
+            734,
+            690,
+            752
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/97dc79534046013d50d11369128b41be32e9c45a4cc6d4b2c16dfcb605be8a77.jpg",
+        "text": "$$\nAx = 0.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            405,
+            759,
+            478,
+            775
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "而齐次方程组（Ⅱ）的向量形式,则是",
+        "bbox": [
+            203,
+            782,
+            509,
+            799
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/59ca421682050f2ef896316bfa164eb1ab327bc00d64b121772d231192e1b101.jpg",
+        "text": "$$\nx_{1}\\boldsymbol{\\alpha}_{1} + x_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + x_{n}\\boldsymbol{\\alpha}_{n} = \\boldsymbol{0}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            317,
+            807,
+            568,
+            824
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "若用一组数 $c_{1},c_{2},\\cdots,c_{n}$ 分别代替方程组(Ⅰ)(或(Ⅱ))中的 $x_{1}$ $x_{2},\\cdots,x_{n}$ ,使(Ⅰ)(或(Ⅱ))中m个等式都成立，则称 $(c_1, c_2, \\cdots, c_n)^{\\mathrm{T}}$ 是方程组(Ⅰ)(或(Ⅱ))的一个解.",
+        "bbox": [
+            163,
+            829,
+            722,
+            896
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "解方程组就是要求出方程组的所有解.",
+        "bbox": [
+            203,
+            902,
+            519,
+            920
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "线性代数基础·学习册第四章线性方程组",
+        "bbox": [
+            608,
+            40,
+            907,
+            57
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "85",
+        "bbox": [
+            526,
+            936,
+            552,
+            951
+        ],
+        "page_idx": 0
+    }
+]

@@ -1,0 +1,1646 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.9524,
+                    "bbox": [
+                        203,
+                        78,
+                        339,
+                        95
+                    ],
+                    "index": 2,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                81,
+                                335,
+                                94
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        81,
+                                        335,
+                                        94
+                                    ],
+                                    "type": "text",
+                                    "content": "二、伴随矩阵、可逆矩阵",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        7,
+                        166,
+                        48,
+                        264
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.6226,
+                            "bbox": [
+                                7,
+                                166,
+                                48,
+                                264
+                            ],
+                            "index": 3,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        7,
+                                        166,
+                                        48,
+                                        264
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                7,
+                                                166,
+                                                48,
+                                                264
+                                            ],
+                                            "type": "image",
+                                            "image_path": "38244e486fdea1e092afaad83d766ce790b86f8e93d50452fb1aeb548d9804f2.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.6226
+                },
+                {
+                    "score": 0.9498,
+                    "bbox": [
+                        203,
+                        119,
+                        343,
+                        134
+                    ],
+                    "index": 4,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                121,
+                                340,
+                                133
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        121,
+                                        340,
+                                        133
+                                    ],
+                                    "type": "text",
+                                    "content": "1. 伴随矩阵的概念与公式",
+                                    "score": 0.97
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9755,
+                    "bbox": [
+                        180,
+                        149,
+                        518,
+                        183
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                151,
+                                515,
+                                161
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        151,
+                                        515,
+                                        161
+                                    ],
+                                    "type": "text",
+                                    "content": "伴随矩阵：由矩阵A的行列式|A所有的代数余子式所构成的",
+                                    "score": 0.982
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                180,
+                                169,
+                                207,
+                                184
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        180,
+                                        169,
+                                        207,
+                                        184
+                                    ],
+                                    "type": "text",
+                                    "content": "形如",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9711,
+                    "bbox": [
+                        296,
+                        187,
+                        403,
+                        265
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                296,
+                                187,
+                                403,
+                                265
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        296,
+                                        187,
+                                        403,
+                                        265
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{bmatrix} A_{11} & A_{21} & \\cdots & A_{n1} \\\\ A_{12} & A_{22} & \\cdots & A_{n2} \\\\ \\vdots & \\vdots & & \\vdots \\\\ A_{1n} & A_{2n} & \\cdots & A_{nn} \\end{bmatrix}",
+                                    "image_path": "abbde845eab8f086fb007da8fa947cb7a6bab9b99329fc012110e913bac98a27.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9455,
+                    "bbox": [
+                        181,
+                        270,
+                        385,
+                        284
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                184,
+                                271,
+                                378,
+                                283
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        184,
+                                        271,
+                                        362,
+                                        283
+                                    ],
+                                    "type": "text",
+                                    "content": "的矩阵称为矩阵A的伴随矩阵，记为",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        362,
+                                        271,
+                                        378,
+                                        283
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{*}",
+                                    "score": 0.7036
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9771,
+                    "bbox": [
+                        203,
+                        290,
+                        440,
+                        344
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                204,
+                                290,
+                                438,
+                                343
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        204,
+                                        309,
+                                        231,
+                                        325
+                                    ],
+                                    "type": "text",
+                                    "content": "例如",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        231,
+                                        290,
+                                        334,
+                                        343
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mathbf{0}\\boldsymbol{A} = \\begin{bmatrix} 2 & 1 & 2 \\\\ -1 & 0 & 3 \\\\ 1 & -2 & 1 \\end{bmatrix}",
+                                    "score": 0.9618
+                                },
+                                {
+                                    "bbox": [
+                                        336,
+                                        311,
+                                        438,
+                                        323
+                                    ],
+                                    "type": "text",
+                                    "content": ",计算代数余子式，得",
+                                    "score": 0.964
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9701,
+                    "bbox": [
+                        202,
+                        348,
+                        429,
+                        384
+                    ],
+                    "index": 9,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                348,
+                                429,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        348,
+                                        429,
+                                        384
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{11} = \\begin{vmatrix} 0 & 3 \\\\ -2 & 1 \\end{vmatrix} = 6, A_{12} = - \\begin{vmatrix} -1 & 3 \\\\ 1 & 1 \\end{vmatrix} = 4,",
+                                    "image_path": "c37bc5146497b2f0219771b3fe4923a34141b6751bbe584889b1a95b826142cc.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9615,
+                    "bbox": [
+                        202,
+                        388,
+                        325,
+                        423
+                    ],
+                    "index": 10,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                388,
+                                325,
+                                423
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        388,
+                                        325,
+                                        423
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{13} = \\begin{vmatrix} -1 & 0 \\\\ 1 & -2 \\end{vmatrix} = 2  ,",
+                                    "image_path": "0514e7ea05764c00a8c46d737696c6718e63b21dbb9943e17f8f1b9dd9c51d70.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9673,
+                    "bbox": [
+                        202,
+                        426,
+                        426,
+                        463
+                    ],
+                    "index": 11,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                426,
+                                426,
+                                463
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        426,
+                                        426,
+                                        463
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{21} = - \\begin{vmatrix} 1 & 2 \\\\ - 2 & 1 \\end{vmatrix} = - 5, A_{22} = \\begin{vmatrix} 2 & 2 \\\\ 1 & 1 \\end{vmatrix} = 0,",
+                                    "image_path": "0ebb63b2a09b94655e55213f59842af0f9a369d26a7c7b5c0160571cabfac80e.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9639,
+                    "bbox": [
+                        202,
+                        467,
+                        321,
+                        502
+                    ],
+                    "index": 12,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                467,
+                                321,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        467,
+                                        321,
+                                        502
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{^{23}} = - \\begin{vmatrix} 2 & 1 \\\\ 1 & - 2 \\end{vmatrix} = 5 ,",
+                                    "image_path": "0d9cfeff2e45936ecc641db9dce7793cc8eaf35f7f5fc8f3fafd73f3e3b9bc28.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9691,
+                    "bbox": [
+                        202,
+                        505,
+                        426,
+                        541
+                    ],
+                    "index": 13,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                505,
+                                426,
+                                541
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        505,
+                                        426,
+                                        541
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{31} = \\begin{vmatrix} 1 & 2 \\\\ 0 & 3 \\end{vmatrix} = 3, A_{32} = - \\begin{vmatrix} 2 & 2 \\\\ -1 & 3 \\end{vmatrix} = - 8,",
+                                    "image_path": "80d4db137ad6a2176820398b8598015d1069cc478bc1af62dbd5ced79e4a4a47.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.964,
+                    "bbox": [
+                        202,
+                        545,
+                        313,
+                        581
+                    ],
+                    "index": 14,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                545,
+                                313,
+                                581
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        545,
+                                        313,
+                                        581
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{33} = \\begin{vmatrix} 2 & 1 \\\\ -1 & 0 \\end{vmatrix} = 1  ,",
+                                    "image_path": "ea5fdbadb924e5fedfe90319b579c12fe47ed7dc4fd8f8487070c6ce3e5e7e0f.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9651,
+                    "bbox": [
+                        202,
+                        586,
+                        354,
+                        640
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                203,
+                                586,
+                                352,
+                                639
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        203,
+                                        604,
+                                        239,
+                                        621
+                                    ],
+                                    "type": "text",
+                                    "content": "按定义",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        240,
+                                        586,
+                                        352,
+                                        639
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A}^{*} = \\begin{bmatrix} 6 & -5 & 3 \\\\ 4 & 0 & -8 \\\\ 2 & 5 & 1 \\end{bmatrix}",
+                                    "score": 0.951
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9435,
+                    "bbox": [
+                        202,
+                        645,
+                        291,
+                        659
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                648,
+                                289,
+                                658
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        648,
+                                        289,
+                                        658
+                                    ],
+                                    "type": "text",
+                                    "content": "伴随矩阵的公式：",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9144,
+                    "bbox": [
+                        248,
+                        665,
+                        369,
+                        680
+                    ],
+                    "index": 17,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                248,
+                                665,
+                                369,
+                                680
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        248,
+                                        665,
+                                        369,
+                                        680
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\boldsymbol{A}\\boldsymbol{A}^{*} = \\boldsymbol{A}^{*} \\boldsymbol{A} = \\left| \\boldsymbol{A} \\right| \\boldsymbol{E}.",
+                                    "image_path": "a28c680553e4b2a5c68c9eead40dff2708af4c245fc2e24ac19d1aa93099e4a2.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9511,
+                    "bbox": [
+                        248,
+                        686,
+                        464,
+                        713
+                    ],
+                    "index": 18,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                248,
+                                686,
+                                464,
+                                713
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        248,
+                                        686,
+                                        464,
+                                        713
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left( \\boldsymbol{A}^{*} \\right)^{-1} = \\left( \\boldsymbol{A}^{-1} \\right)^{*} = \\frac{1}{\\left| \\boldsymbol{A} \\right|} \\boldsymbol{A} \\quad \\left( \\left| \\boldsymbol{A} \\right| \\neq 0 \\right).",
+                                    "image_path": "ae2eb6634739531d18e0a537c83e049c0e0eff8ce12d24e794c8022e7570b744.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8696,
+                    "bbox": [
+                        249,
+                        718,
+                        339,
+                        733
+                    ],
+                    "index": 19,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                249,
+                                718,
+                                339,
+                                733
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        249,
+                                        718,
+                                        339,
+                                        733
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "(k\\boldsymbol{A})^{*} = k^{n - 1}\\boldsymbol{A}^{*}",
+                                    "image_path": "393cf9d3fc68de29c743664abe89581cf53836c844cec3bd11544692bab9ea4d.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8686,
+                    "bbox": [
+                        249,
+                        737,
+                        339,
+                        753
+                    ],
+                    "index": 20,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                249,
+                                737,
+                                339,
+                                753
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        249,
+                                        737,
+                                        339,
+                                        753
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left( \\boldsymbol{A}^{*} \\right)^{\\mathrm{T}} = \\left( \\boldsymbol{A}^{\\mathrm{T}} \\right)^{*}",
+                                    "image_path": "fffa4d5f463c6c6bec57f294df5d6fe939a2fbf85e338e55c5207cfe8702bc47.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.881,
+                    "bbox": [
+                        249,
+                        757,
+                        338,
+                        773
+                    ],
+                    "index": 21,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                249,
+                                757,
+                                338,
+                                773
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        249,
+                                        757,
+                                        338,
+                                        773
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left| \\boldsymbol{A}^{*} \\right| = \\left| \\boldsymbol{A} \\right|^{n - 1}",
+                                    "image_path": "e6a9b79bf4c036f353f05deb4771b85dc9c85d0b9d5652db5b8b8655e9729cfa.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.6626,
+                    "bbox": [
+                        74,
+                        32,
+                        190,
+                        48
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                32,
+                                190,
+                                47
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        33,
+                                        155,
+                                        45
+                                    ],
+                                    "type": "text",
+                                    "content": "考研数学复习全书",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        156,
+                                        32,
+                                        190,
+                                        47
+                                    ],
+                                    "type": "text",
+                                    "content": "基础篇",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8798,
+                    "bbox": [
+                        283,
+                        788,
+                        300,
+                        799
+                    ],
+                    "index": 22,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                284,
+                                789,
+                                298,
+                                802
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        284,
+                                        789,
+                                        298,
+                                        802
+                                    ],
+                                    "type": "text",
+                                    "content": "30",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.9524,
+                    "bbox": [
+                        203,
+                        78,
+                        339,
+                        95
+                    ],
+                    "index": 2,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                81,
+                                335,
+                                94
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        81,
+                                        335,
+                                        94
+                                    ],
+                                    "type": "text",
+                                    "content": "二、伴随矩阵、可逆矩阵",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        7,
+                        166,
+                        48,
+                        264
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.6226,
+                            "bbox": [
+                                7,
+                                166,
+                                48,
+                                264
+                            ],
+                            "index": 3,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        7,
+                                        166,
+                                        48,
+                                        264
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                7,
+                                                166,
+                                                48,
+                                                264
+                                            ],
+                                            "type": "image",
+                                            "image_path": "38244e486fdea1e092afaad83d766ce790b86f8e93d50452fb1aeb548d9804f2.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "score": 0.6226
+                },
+                {
+                    "score": 0.9498,
+                    "bbox": [
+                        203,
+                        119,
+                        343,
+                        134
+                    ],
+                    "index": 4,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                121,
+                                340,
+                                133
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        121,
+                                        340,
+                                        133
+                                    ],
+                                    "type": "text",
+                                    "content": "1. 伴随矩阵的概念与公式",
+                                    "score": 0.97
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9755,
+                    "bbox": [
+                        180,
+                        149,
+                        518,
+                        183
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                151,
+                                515,
+                                161
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        151,
+                                        515,
+                                        161
+                                    ],
+                                    "type": "text",
+                                    "content": "伴随矩阵：由矩阵A的行列式|A所有的代数余子式所构成的",
+                                    "score": 0.982
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                180,
+                                169,
+                                207,
+                                184
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        180,
+                                        169,
+                                        207,
+                                        184
+                                    ],
+                                    "type": "text",
+                                    "content": "形如",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        180,
+                        151,
+                        515,
+                        184
+                    ]
+                },
+                {
+                    "score": 0.9711,
+                    "bbox": [
+                        296,
+                        187,
+                        403,
+                        265
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                296,
+                                187,
+                                403,
+                                265
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        296,
+                                        187,
+                                        403,
+                                        265
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{bmatrix} A_{11} & A_{21} & \\cdots & A_{n1} \\\\ A_{12} & A_{22} & \\cdots & A_{n2} \\\\ \\vdots & \\vdots & & \\vdots \\\\ A_{1n} & A_{2n} & \\cdots & A_{nn} \\end{bmatrix}",
+                                    "image_path": "abbde845eab8f086fb007da8fa947cb7a6bab9b99329fc012110e913bac98a27.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9455,
+                    "bbox": [
+                        181,
+                        270,
+                        385,
+                        284
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                184,
+                                271,
+                                378,
+                                283
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        184,
+                                        271,
+                                        362,
+                                        283
+                                    ],
+                                    "type": "text",
+                                    "content": "的矩阵称为矩阵A的伴随矩阵，记为",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        362,
+                                        271,
+                                        378,
+                                        283
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{*}",
+                                    "score": 0.7036
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        184,
+                        271,
+                        378,
+                        283
+                    ]
+                },
+                {
+                    "score": 0.9771,
+                    "bbox": [
+                        203,
+                        290,
+                        440,
+                        344
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                204,
+                                290,
+                                438,
+                                343
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        204,
+                                        309,
+                                        231,
+                                        325
+                                    ],
+                                    "type": "text",
+                                    "content": "例如",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        231,
+                                        290,
+                                        334,
+                                        343
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mathbf{0}\\boldsymbol{A} = \\begin{bmatrix} 2 & 1 & 2 \\\\ -1 & 0 & 3 \\\\ 1 & -2 & 1 \\end{bmatrix}",
+                                    "score": 0.9618
+                                },
+                                {
+                                    "bbox": [
+                                        336,
+                                        311,
+                                        438,
+                                        323
+                                    ],
+                                    "type": "text",
+                                    "content": ",计算代数余子式，得",
+                                    "score": 0.964
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        204,
+                        290,
+                        438,
+                        343
+                    ]
+                },
+                {
+                    "score": 0.9701,
+                    "bbox": [
+                        202,
+                        348,
+                        429,
+                        384
+                    ],
+                    "index": 9,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                348,
+                                429,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        348,
+                                        429,
+                                        384
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{11} = \\begin{vmatrix} 0 & 3 \\\\ -2 & 1 \\end{vmatrix} = 6, A_{12} = - \\begin{vmatrix} -1 & 3 \\\\ 1 & 1 \\end{vmatrix} = 4,",
+                                    "image_path": "c37bc5146497b2f0219771b3fe4923a34141b6751bbe584889b1a95b826142cc.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9615,
+                    "bbox": [
+                        202,
+                        388,
+                        325,
+                        423
+                    ],
+                    "index": 10,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                388,
+                                325,
+                                423
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        388,
+                                        325,
+                                        423
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{13} = \\begin{vmatrix} -1 & 0 \\\\ 1 & -2 \\end{vmatrix} = 2  ,",
+                                    "image_path": "0514e7ea05764c00a8c46d737696c6718e63b21dbb9943e17f8f1b9dd9c51d70.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9673,
+                    "bbox": [
+                        202,
+                        426,
+                        426,
+                        463
+                    ],
+                    "index": 11,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                426,
+                                426,
+                                463
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        426,
+                                        426,
+                                        463
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{21} = - \\begin{vmatrix} 1 & 2 \\\\ - 2 & 1 \\end{vmatrix} = - 5, A_{22} = \\begin{vmatrix} 2 & 2 \\\\ 1 & 1 \\end{vmatrix} = 0,",
+                                    "image_path": "0ebb63b2a09b94655e55213f59842af0f9a369d26a7c7b5c0160571cabfac80e.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9639,
+                    "bbox": [
+                        202,
+                        467,
+                        321,
+                        502
+                    ],
+                    "index": 12,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                467,
+                                321,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        467,
+                                        321,
+                                        502
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{^{23}} = - \\begin{vmatrix} 2 & 1 \\\\ 1 & - 2 \\end{vmatrix} = 5 ,",
+                                    "image_path": "0d9cfeff2e45936ecc641db9dce7793cc8eaf35f7f5fc8f3fafd73f3e3b9bc28.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9691,
+                    "bbox": [
+                        202,
+                        505,
+                        426,
+                        541
+                    ],
+                    "index": 13,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                505,
+                                426,
+                                541
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        505,
+                                        426,
+                                        541
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{31} = \\begin{vmatrix} 1 & 2 \\\\ 0 & 3 \\end{vmatrix} = 3, A_{32} = - \\begin{vmatrix} 2 & 2 \\\\ -1 & 3 \\end{vmatrix} = - 8,",
+                                    "image_path": "80d4db137ad6a2176820398b8598015d1069cc478bc1af62dbd5ced79e4a4a47.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.964,
+                    "bbox": [
+                        202,
+                        545,
+                        313,
+                        581
+                    ],
+                    "index": 14,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                545,
+                                313,
+                                581
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        545,
+                                        313,
+                                        581
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A_{33} = \\begin{vmatrix} 2 & 1 \\\\ -1 & 0 \\end{vmatrix} = 1  ,",
+                                    "image_path": "ea5fdbadb924e5fedfe90319b579c12fe47ed7dc4fd8f8487070c6ce3e5e7e0f.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9651,
+                    "bbox": [
+                        202,
+                        586,
+                        354,
+                        640
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                203,
+                                586,
+                                352,
+                                639
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        203,
+                                        604,
+                                        239,
+                                        621
+                                    ],
+                                    "type": "text",
+                                    "content": "按定义",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        240,
+                                        586,
+                                        352,
+                                        639
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A}^{*} = \\begin{bmatrix} 6 & -5 & 3 \\\\ 4 & 0 & -8 \\\\ 2 & 5 & 1 \\end{bmatrix}",
+                                    "score": 0.951
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        203,
+                        586,
+                        352,
+                        639
+                    ]
+                },
+                {
+                    "score": 0.9435,
+                    "bbox": [
+                        202,
+                        645,
+                        291,
+                        659
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                648,
+                                289,
+                                658
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        648,
+                                        289,
+                                        658
+                                    ],
+                                    "type": "text",
+                                    "content": "伴随矩阵的公式：",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        205,
+                        648,
+                        289,
+                        658
+                    ]
+                },
+                {
+                    "score": 0.9144,
+                    "bbox": [
+                        248,
+                        665,
+                        369,
+                        680
+                    ],
+                    "index": 17,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                248,
+                                665,
+                                369,
+                                680
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        248,
+                                        665,
+                                        369,
+                                        680
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\boldsymbol{A}\\boldsymbol{A}^{*} = \\boldsymbol{A}^{*} \\boldsymbol{A} = \\left| \\boldsymbol{A} \\right| \\boldsymbol{E}.",
+                                    "image_path": "a28c680553e4b2a5c68c9eead40dff2708af4c245fc2e24ac19d1aa93099e4a2.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9511,
+                    "bbox": [
+                        248,
+                        686,
+                        464,
+                        713
+                    ],
+                    "index": 18,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                248,
+                                686,
+                                464,
+                                713
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        248,
+                                        686,
+                                        464,
+                                        713
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left( \\boldsymbol{A}^{*} \\right)^{-1} = \\left( \\boldsymbol{A}^{-1} \\right)^{*} = \\frac{1}{\\left| \\boldsymbol{A} \\right|} \\boldsymbol{A} \\quad \\left( \\left| \\boldsymbol{A} \\right| \\neq 0 \\right).",
+                                    "image_path": "ae2eb6634739531d18e0a537c83e049c0e0eff8ce12d24e794c8022e7570b744.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8696,
+                    "bbox": [
+                        249,
+                        718,
+                        339,
+                        733
+                    ],
+                    "index": 19,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                249,
+                                718,
+                                339,
+                                733
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        249,
+                                        718,
+                                        339,
+                                        733
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "(k\\boldsymbol{A})^{*} = k^{n - 1}\\boldsymbol{A}^{*}",
+                                    "image_path": "393cf9d3fc68de29c743664abe89581cf53836c844cec3bd11544692bab9ea4d.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8686,
+                    "bbox": [
+                        249,
+                        737,
+                        339,
+                        753
+                    ],
+                    "index": 20,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                249,
+                                737,
+                                339,
+                                753
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        249,
+                                        737,
+                                        339,
+                                        753
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left( \\boldsymbol{A}^{*} \\right)^{\\mathrm{T}} = \\left( \\boldsymbol{A}^{\\mathrm{T}} \\right)^{*}",
+                                    "image_path": "fffa4d5f463c6c6bec57f294df5d6fe939a2fbf85e338e55c5207cfe8702bc47.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.881,
+                    "bbox": [
+                        249,
+                        757,
+                        338,
+                        773
+                    ],
+                    "index": 21,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                249,
+                                757,
+                                338,
+                                773
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        249,
+                                        757,
+                                        338,
+                                        773
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left| \\boldsymbol{A}^{*} \\right| = \\left| \\boldsymbol{A} \\right|^{n - 1}",
+                                    "image_path": "e6a9b79bf4c036f353f05deb4771b85dc9c85d0b9d5652db5b8b8655e9729cfa.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.5"
+}

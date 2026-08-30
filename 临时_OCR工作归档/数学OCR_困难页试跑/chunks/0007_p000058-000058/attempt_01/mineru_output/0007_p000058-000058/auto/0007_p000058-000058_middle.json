@@ -1,0 +1,505 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.8884,
+                    "bbox": [
+                        54,
+                        68,
+                        399,
+                        109
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                67,
+                                399,
+                                90
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        67,
+                                        252,
+                                        90
+                                    ],
+                                    "type": "text",
+                                    "content": "例 20设 A,B 均为 n 阶矩阵，",
+                                    "score": 0.884
+                                },
+                                {
+                                    "bbox": [
+                                        254,
+                                        71,
+                                        377,
+                                        85
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\boldsymbol{A} \\right| = 2, \\left| \\boldsymbol{B} \\right| = - 3",
+                                    "score": 0.5632
+                                },
+                                {
+                                    "bbox": [
+                                        377,
+                                        70,
+                                        399,
+                                        88
+                                    ],
+                                    "type": "text",
+                                    "content": "，则",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                52,
+                                93,
+                                125,
+                                107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        52,
+                                        93,
+                                        60,
+                                        107
+                                    ],
+                                    "type": "text",
+                                    "content": "一",
+                                    "score": 0.984
+                                },
+                                {
+                                    "bbox": [
+                                        60,
+                                        93,
+                                        125,
+                                        106
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "2\\boldsymbol{A}^{\\prime} \\boldsymbol{B}^{-1} \\mid =",
+                                    "score": 0.5728
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5949,
+                    "bbox": [
+                        76,
+                        415,
+                        397,
+                        465
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                76,
+                                417,
+                                396,
+                                442
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        420,
+                                        116,
+                                        442
+                                    ],
+                                    "type": "text",
+                                    "content": "例21",
+                                    "score": 0.995
+                                },
+                                {
+                                    "bbox": [
+                                        120,
+                                        423,
+                                        234,
+                                        437
+                                    ],
+                                    "type": "text",
+                                    "content": "设A是四阶矩阵，如果",
+                                    "score": 0.997
+                                },
+                                {
+                                    "bbox": [
+                                        236,
+                                        417,
+                                        293,
+                                        442
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\boldsymbol{A} \\right| = - \\frac{2}{3}",
+                                    "score": 0.9257
+                                },
+                                {
+                                    "bbox": [
+                                        293,
+                                        421,
+                                        311,
+                                        439
+                                    ],
+                                    "type": "text",
+                                    "content": ",则",
+                                    "score": 0.915
+                                },
+                                {
+                                    "bbox": [
+                                        312,
+                                        420,
+                                        396,
+                                        437
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| 3 \\boldsymbol{A}^{*} + 4 \\boldsymbol{A}^{-1} \\right| =",
+                                    "score": 0.8424
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5884,
+                    "bbox": [
+                        326,
+                        392,
+                        385,
+                        404
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                327,
+                                393,
+                                384,
+                                405
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        327,
+                                        393,
+                                        384,
+                                        405
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 53 页",
+                                    "score": 0.935
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.4808,
+                    "bbox": [
+                        355,
+                        35,
+                        517,
+                        49
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                354,
+                                33,
+                                516,
+                                50
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        354,
+                                        33,
+                                        516,
+                                        50
+                                    ],
+                                    "type": "text",
+                                    "content": "线性代数基础·学习册”第二章 矩阵",
+                                    "score": 0.974
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.886,
+                    "bbox": [
+                        276,
+                        786,
+                        293,
+                        797
+                    ],
+                    "index": 5,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                277,
+                                786,
+                                291,
+                                800
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        277,
+                                        786,
+                                        291,
+                                        800
+                                    ],
+                                    "type": "text",
+                                    "content": "43",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.8884,
+                    "bbox": [
+                        54,
+                        68,
+                        399,
+                        109
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                67,
+                                399,
+                                90
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        67,
+                                        252,
+                                        90
+                                    ],
+                                    "type": "text",
+                                    "content": "例 20设 A,B 均为 n 阶矩阵，",
+                                    "score": 0.884
+                                },
+                                {
+                                    "bbox": [
+                                        254,
+                                        71,
+                                        377,
+                                        85
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\boldsymbol{A} \\right| = 2, \\left| \\boldsymbol{B} \\right| = - 3",
+                                    "score": 0.5632
+                                },
+                                {
+                                    "bbox": [
+                                        377,
+                                        70,
+                                        399,
+                                        88
+                                    ],
+                                    "type": "text",
+                                    "content": "，则",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                52,
+                                93,
+                                125,
+                                107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        52,
+                                        93,
+                                        60,
+                                        107
+                                    ],
+                                    "type": "text",
+                                    "content": "一",
+                                    "score": 0.984
+                                },
+                                {
+                                    "bbox": [
+                                        60,
+                                        93,
+                                        125,
+                                        106
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "2\\boldsymbol{A}^{\\prime} \\boldsymbol{B}^{-1} \\mid =",
+                                    "score": 0.5728
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        52,
+                        67,
+                        399,
+                        107
+                    ]
+                },
+                {
+                    "score": 0.5949,
+                    "bbox": [
+                        76,
+                        415,
+                        397,
+                        465
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                76,
+                                417,
+                                396,
+                                442
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        420,
+                                        116,
+                                        442
+                                    ],
+                                    "type": "text",
+                                    "content": "例21",
+                                    "score": 0.995
+                                },
+                                {
+                                    "bbox": [
+                                        120,
+                                        423,
+                                        234,
+                                        437
+                                    ],
+                                    "type": "text",
+                                    "content": "设A是四阶矩阵，如果",
+                                    "score": 0.997
+                                },
+                                {
+                                    "bbox": [
+                                        236,
+                                        417,
+                                        293,
+                                        442
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\boldsymbol{A} \\right| = - \\frac{2}{3}",
+                                    "score": 0.9257
+                                },
+                                {
+                                    "bbox": [
+                                        293,
+                                        421,
+                                        311,
+                                        439
+                                    ],
+                                    "type": "text",
+                                    "content": ",则",
+                                    "score": 0.915
+                                },
+                                {
+                                    "bbox": [
+                                        312,
+                                        420,
+                                        396,
+                                        437
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| 3 \\boldsymbol{A}^{*} + 4 \\boldsymbol{A}^{-1} \\right| =",
+                                    "score": 0.8424
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        76,
+                        417,
+                        396,
+                        442
+                    ]
+                },
+                {
+                    "score": 0.5884,
+                    "bbox": [
+                        326,
+                        392,
+                        385,
+                        404
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                327,
+                                393,
+                                384,
+                                405
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        327,
+                                        393,
+                                        384,
+                                        405
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 53 页",
+                                    "score": 0.935
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        327,
+                        393,
+                        384,
+                        405
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.5"
+}

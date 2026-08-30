@@ -1,0 +1,463 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "必有 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a \\neq b"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，此时 A 中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\begin{vmatrix} a & b \\\\ b & a \\end{vmatrix} \\neq 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",而"
+                    }
+                ]
+            },
+            "bbox": [
+                322,
+                83,
+                631,
+                126
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left| \\boldsymbol{A} \\right| = \\left| \\begin{aligned} \\boldsymbol{a} \\quad \\boldsymbol{b} \\quad \\boldsymbol{b} \\\\ \\boldsymbol{b} \\quad \\boldsymbol{a} \\quad \\boldsymbol{b} \\\\ \\boldsymbol{b} \\quad \\boldsymbol{b} \\quad \\boldsymbol{a} \\end{aligned} \\right| = (\\boldsymbol{a} + 2\\boldsymbol{b})(\\boldsymbol{a} - \\boldsymbol{b})^{2} = 0,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/206b0a8de89aeb3c143d3ecde65631180ec7742bca0d8822eb62854dbebacdb3.jpg"
+                }
+            },
+            "bbox": [
+                379,
+                135,
+                752,
+                203
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8bb46df3147f519aeffb835545304694d3e4783bf98bf85207c636269dd29d3f.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                0,
+                323,
+                68,
+                443
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "故应选(C)."
+                    }
+                ]
+            },
+            "bbox": [
+                285,
+                211,
+                384,
+                228
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例20【证】（1）因（I）可由（Ⅱ）线性表出，设"
+                    }
+                ]
+            },
+            "bbox": [
+                324,
+                265,
+                737,
+                285
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol { \\alpha } _ { 1 } = c _ { 1 1 } \\boldsymbol { \\beta } _ { 1 } + c _ { 2 1 } \\boldsymbol { \\beta } _ { 2 } + \\cdots + c _ { t 1 } \\boldsymbol { \\beta } _ { t } ,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/443369051ffa834a6827f9d2bb661bf4a3042d0b18ff526b3164945fb063616f.jpg"
+                }
+            },
+            "bbox": [
+                458,
+                294,
+                719,
+                331
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol { \\alpha } _ { s } = c _ { 1 s } \\boldsymbol { \\beta } _ { 1 } + c _ { 2 s } \\boldsymbol { \\beta } _ { 2 } + \\cdots + c _ { s } \\boldsymbol { \\beta } _ { t } ,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b2b68b8338c5695f6b1a5ec35d24786ad6a226cd4b47e2ab55ee58687fdbb0d9.jpg"
+                }
+            },
+            "bbox": [
+                458,
+                342,
+                712,
+                360
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "即存在矩阵 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "C = \\left[ c_{ij} \\right]"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",使"
+                    }
+                ]
+            },
+            "bbox": [
+                324,
+                365,
+                534,
+                382
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "那么"
+                    }
+                ]
+            },
+            "bbox": [
+                322,
+                413,
+                366,
+                430
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{aligned}\\left( \\boldsymbol { \\alpha } _ { 1 } , \\boldsymbol { \\alpha } _ { 2 } , \\cdots , \\boldsymbol { \\alpha } _ { s } \\right) &= \\left( \\boldsymbol { \\beta } _ { 1 } , \\boldsymbol { \\beta } _ { 2 } , \\cdots , \\boldsymbol { \\beta } _ { t } \\right) \\boldsymbol { C } , \\\\r \\left( \\boldsymbol { \\alpha } _ { 1 } , \\boldsymbol { \\alpha } _ { 2 } , \\cdots , \\boldsymbol { \\alpha } _ { s } \\right) &= r \\left[ \\left( \\boldsymbol { \\beta } _ { 1 } , \\boldsymbol { \\beta } _ { 2 } , \\cdots , \\boldsymbol { \\beta } _ { t } \\right) \\boldsymbol { C } \\right] \\\\& \\leqslant r \\left( \\boldsymbol { \\beta } _ { 1 } , \\boldsymbol { \\beta } _ { 2 } , \\cdots , \\boldsymbol { \\beta } _ { t } \\right) ,\\end{aligned}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a08d6970eb9a1202b688373133292e2d7934fe3e69afcf4a4ff6ce76ad7ca7ef.jpg"
+                }
+            },
+            "bbox": [
+                423,
+                390,
+                757,
+                456
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "即 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r(\\mathbb{I}) \\leqslant r(\\mathbb{I})"
+                    }
+                ]
+            },
+            "bbox": [
+                322,
+                461,
+                477,
+                478
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2) 若 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s \\geq t"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",则"
+                    }
+                ]
+            },
+            "bbox": [
+                324,
+                485,
+                457,
+                500
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "r ( \\mathrm { I } ) \\leqslant r ( \\mathrm { I I } ) = r ( \\beta _ { 1 } , \\beta _ { 2 } , \\cdots , \\beta _ { t } ) \\leqslant t < s ,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4ae8b8bdc6cee491e58b18080483bcdea8e589e1888a9cde89987c68647f28cf.jpg"
+                }
+            },
+            "bbox": [
+                386,
+                507,
+                741,
+                525
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "必线性相关."
+                    }
+                ]
+            },
+            "bbox": [
+                322,
+                532,
+                576,
+                549
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "四、正交规范化、正交矩阵"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                324,
+                589,
+                568,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例21【分析】设 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{\\alpha} = (x_{1}, x_{2}, x_{3})^{\\mathrm{T}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "与 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "都正交，则"
+                    }
+                ]
+            },
+            "bbox": [
+                322,
+                626,
+                806,
+                648
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left\\{ \\begin{aligned} \\left( \\boldsymbol{\\alpha}, \\boldsymbol{\\alpha}_{1} \\right) &= x_{1} + 3x_{2} + 2x_{3} = 0, \\\\ \\left( \\boldsymbol{\\alpha}, \\boldsymbol{\\alpha}_{2} \\right) &= x_{1} + x_{2} - 2x_{3} = 0, \\end{aligned} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0b3bccbc0fe72581a16fddf5e16192d69895d778b034c4d3bb9560250b3892e3.jpg"
+                }
+            },
+            "bbox": [
+                426,
+                658,
+                694,
+                700
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "{ 1 \\quad 3 \\quad 2 \\atop 1 \\quad 1 \\quad -   2 } { \\Big ] } { \\rightarrow } { 1 \\quad 3 \\quad 2 \\atop 0 \\quad 1 \\quad 2 } { \\Big ] } { \\rightarrow } { 1 \\quad 0 \\quad -   4 \\quad \\Big ] } ,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f5ef9070d06017e81fff9af12c14d44cf379ad8f8d7f12614726df7760e7f220.jpg"
+                }
+            },
+            "bbox": [
+                381,
+                708,
+                744,
+                747
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "得 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{\\alpha} = (4, -2, 1)^{\\mathrm{T}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",再单位化有 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pm \\frac{1}{\\sqrt{21}}(4, -2, 1)^{\\mathrm{T}}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为所求."
+                    }
+                ]
+            },
+            "bbox": [
+                287,
+                758,
+                783,
+                794
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例22【解】先正交化"
+                    }
+                ]
+            },
+            "bbox": [
+                322,
+                827,
+                534,
+                848
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\pmb { \\beta } _ { 1 } = \\pmb { \\alpha } _ { 1 } = \\begin{bmatrix} 1 \\\\ 1 \\\\ 1 \\end{bmatrix},",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4c4948faa110c27e7c4a85347ca367fb48dd0daf7d7047b952318d14541063be.jpg"
+                }
+            },
+            "bbox": [
+                322,
+                859,
+                460,
+                922
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "考研数学复习全书 基础篇"
+                    }
+                ]
+            },
+            "bbox": [
+                95,
+                33,
+                334,
+                61
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "82"
+                    }
+                ]
+            },
+            "bbox": [
+                455,
+                939,
+                484,
+                953
+            ]
+        }
+    ]
+]

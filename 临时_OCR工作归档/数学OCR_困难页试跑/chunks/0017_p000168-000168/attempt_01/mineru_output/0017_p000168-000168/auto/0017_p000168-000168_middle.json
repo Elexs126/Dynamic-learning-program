@@ -1,0 +1,2517 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.9474,
+                    "bbox": [
+                        106,
+                        68,
+                        329,
+                        83
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                71,
+                                326,
+                                82
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        71,
+                                        326,
+                                        82
+                                    ],
+                                    "type": "text",
+                                    "content": "正定的充分必要条件是顺序主子式全大于0，故",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9433,
+                    "bbox": [
+                        125,
+                        88,
+                        403,
+                        127
+                    ],
+                    "index": 3,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                125,
+                                88,
+                                403,
+                                127
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        125,
+                                        88,
+                                        403,
+                                        127
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left\\{ \\begin{aligned} 4 - t ^ { 2 } = ( 2 - t ) ( 2 + t ) > 0 , \\quad t \\in ( - 2 , 2 ) , \\\\ - 4 t ^ { 2 } - 4 t + 8 = - 4 ( t - 1 ) ( t + 2 ) > 0 , \\quad t \\in ( - 2 , 1 ) , \\end{aligned} \\right.",
+                                    "image_path": "ef94aca84b896bb9b9a4685660a831ebf9a5db7648bb78100dc6a38e069e6bc6.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.931,
+                    "bbox": [
+                        105,
+                        132,
+                        269,
+                        147
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                105,
+                                133,
+                                267,
+                                149
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        133,
+                                        117,
+                                        149
+                                    ],
+                                    "type": "text",
+                                    "content": "故",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        118,
+                                        133,
+                                        177,
+                                        146
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "t \\in (-2,1)",
+                                    "score": 0.69
+                                },
+                                {
+                                    "bbox": [
+                                        180,
+                                        133,
+                                        267,
+                                        147
+                                    ],
+                                    "type": "text",
+                                    "content": "时，二次型f正定.",
+                                    "score": 0.997
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5936,
+                    "bbox": [
+                        126,
+                        176,
+                        345,
+                        194
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                126,
+                                176,
+                                342,
+                                194
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        126,
+                                        176,
+                                        310,
+                                        194
+                                    ],
+                                    "type": "text",
+                                    "content": "例16【分析】A正定⇔A的特征值",
+                                    "score": 0.997
+                                },
+                                {
+                                    "bbox": [
+                                        311,
+                                        178,
+                                        342,
+                                        191
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda > 0.",
+                                    "score": 0.7369
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9704,
+                    "bbox": [
+                        125,
+                        200,
+                        415,
+                        279
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                125,
+                                200,
+                                415,
+                                279
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        125,
+                                        200,
+                                        415,
+                                        279
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned}\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| &=\\left| \\begin{matrix}\\lambda & -1 & -1 \\\\-1 & \\lambda - 2 & -1 \\\\-1 & -1 & \\lambda\\end{matrix} \\right|= \\left| \\begin{matrix}\\lambda + 1 & 0 & -\\lambda - 1 \\\\-1 & \\lambda - 2 & -1 \\\\-1 & -1 & \\lambda\\end{matrix} \\right| \\\\&= \\lambda (\\lambda + 1) (\\lambda - 3)  .\\end{aligned}",
+                                    "image_path": "708d0f9a4dd33d3ade97ca4726802c3ffcfc5cc45e69da2d37a1e323131fb8de.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9264,
+                    "bbox": [
+                        124,
+                        286,
+                        244,
+                        300
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                287,
+                                240,
+                                299
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        288,
+                                        195,
+                                        299
+                                    ],
+                                    "type": "text",
+                                    "content": "A 的特征值为",
+                                    "score": 0.942
+                                },
+                                {
+                                    "bbox": [
+                                        195,
+                                        287,
+                                        240,
+                                        299
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": ";0,-1,3",
+                                    "score": 0.4785
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.912,
+                    "bbox": [
+                        124,
+                        307,
+                        295,
+                        321
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                307,
+                                291,
+                                321
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        309,
+                                        218,
+                                        321
+                                    ],
+                                    "type": "text",
+                                    "content": "A+E的特征值为",
+                                    "score": 0.958
+                                },
+                                {
+                                    "bbox": [
+                                        221,
+                                        307,
+                                        291,
+                                        320
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k,k-1,k+3.",
+                                    "score": 0.689
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9137,
+                    "bbox": [
+                        125,
+                        328,
+                        323,
+                        384
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                126,
+                                329,
+                                321,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        126,
+                                        349,
+                                        163,
+                                        363
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} + k\\boldsymbol{E}",
+                                    "score": 0.4676
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        348,
+                                        187,
+                                        365
+                                    ],
+                                    "type": "text",
+                                    "content": "正定",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        187,
+                                        329,
+                                        321,
+                                        384
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Leftrightarrow \\begin{cases} k > 0   , \\\\ k - 1 > 0   , \\\\ k + 3 > 0 \\end{cases} \\Leftrightarrow     k > 1.",
+                                    "score": 0.7423
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6555,
+                    "bbox": [
+                        126,
+                        413,
+                        397,
+                        431
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                413,
+                                394,
+                                433
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        413,
+                                        250,
+                                        433
+                                    ],
+                                    "type": "text",
+                                    "content": "例17【证】因A正定",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        250,
+                                        415,
+                                        312,
+                                        428
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Rightarrow A^{\\mathrm{T}} = A, A",
+                                    "score": 0.8578
+                                },
+                                {
+                                    "bbox": [
+                                        312,
+                                        414,
+                                        348,
+                                        430
+                                    ],
+                                    "type": "text",
+                                    "content": "可逆且",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        349,
+                                        415,
+                                        394,
+                                        428
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mid \\boldsymbol{A} \\mid > 0.",
+                                    "score": 0.8769
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9119,
+                    "bbox": [
+                        126,
+                        438,
+                        336,
+                        453
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                439,
+                                335,
+                                455
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        439,
+                                        139,
+                                        455
+                                    ],
+                                    "type": "text",
+                                    "content": "由",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        139,
+                                        439,
+                                        272,
+                                        452
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left( \\boldsymbol{A}^{*} \\right)^{\\mathrm{T}} = \\left( \\boldsymbol{A}^{\\mathrm{T}} \\right)^{*} = \\boldsymbol{A}^{*} \\Rightarrow \\boldsymbol{A}^{*}",
+                                    "score": 0.8955
+                                },
+                                {
+                                    "bbox": [
+                                        276,
+                                        440,
+                                        335,
+                                        453
+                                    ],
+                                    "type": "text",
+                                    "content": "是对称矩阵.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9656,
+                    "bbox": [
+                        105,
+                        460,
+                        428,
+                        496
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                128,
+                                460,
+                                428,
+                                475
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        128,
+                                        461,
+                                        273,
+                                        475
+                                    ],
+                                    "type": "text",
+                                    "content": "方法一用定义.因A可逆,故",
+                                    "score": 0.963
+                                },
+                                {
+                                    "bbox": [
+                                        273,
+                                        461,
+                                        307,
+                                        474
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x = A y",
+                                    "score": 0.6123
+                                },
+                                {
+                                    "bbox": [
+                                        308,
+                                        461,
+                                        376,
+                                        474
+                                    ],
+                                    "type": "text",
+                                    "content": "是坐标变换，且",
+                                    "score": 0.979
+                                },
+                                {
+                                    "bbox": [
+                                        378,
+                                        460,
+                                        415,
+                                        473
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall x \\neq 0",
+                                    "score": 0.7739
+                                },
+                                {
+                                    "bbox": [
+                                        415,
+                                        460,
+                                        428,
+                                        475
+                                    ],
+                                    "type": "text",
+                                    "content": "必",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                105,
+                                482,
+                                210,
+                                497
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        482,
+                                        119,
+                                        497
+                                    ],
+                                    "type": "text",
+                                    "content": "有",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        119,
+                                        482,
+                                        147,
+                                        495
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y \\ne \\mathbf{0}",
+                                    "score": 0.6629
+                                },
+                                {
+                                    "bbox": [
+                                        147,
+                                        482,
+                                        173,
+                                        497
+                                    ],
+                                    "type": "text",
+                                    "content": ",那么",
+                                    "score": 0.995
+                                },
+                                {
+                                    "bbox": [
+                                        174,
+                                        482,
+                                        210,
+                                        495
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall x \\neq 0",
+                                    "score": 0.727
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9201,
+                    "bbox": [
+                        119,
+                        504,
+                        411,
+                        523
+                    ],
+                    "index": 13,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                504,
+                                411,
+                                523
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        504,
+                                        411,
+                                        523
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "x^{\\mathrm{T}} A^{*} x = \\left( A y \\right)^{\\mathrm{T}} A^{*} \\left( A y \\right) = y^{\\mathrm{T}} \\left( \\left| A \\right| A \\right) y = \\left| A \\right| y^{\\mathrm{T}} A y,",
+                                    "image_path": "f4ec5770298c6b7ffce474c09ab389e52535206b1a08e87027a50199c5769e48.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8293,
+                    "bbox": [
+                        103,
+                        528,
+                        427,
+                        565
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                105,
+                                528,
+                                425,
+                                546
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        528,
+                                        157,
+                                        545
+                                    ],
+                                    "type": "text",
+                                    "content": "因A正定，",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        158,
+                                        529,
+                                        249,
+                                        543
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\boldsymbol{A} \\right| > 0, \\boldsymbol{y}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{y} > 0",
+                                    "score": 0.9173
+                                },
+                                {
+                                    "bbox": [
+                                        249,
+                                        529,
+                                        277,
+                                        546
+                                    ],
+                                    "type": "text",
+                                    "content": ",从而",
+                                    "score": 0.965
+                                },
+                                {
+                                    "bbox": [
+                                        277,
+                                        529,
+                                        425,
+                                        543
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall x \\ne 0, x^{\\mathrm{T}} A^{*} x = | A | y^{\\mathrm{T}} A y >",
+                                    "score": 0.9439
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                104,
+                                549,
+                                176,
+                                567
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        104,
+                                        549,
+                                        129,
+                                        567
+                                    ],
+                                    "type": "text",
+                                    "content": "0,故",
+                                    "score": 0.99
+                                },
+                                {
+                                    "bbox": [
+                                        129,
+                                        551,
+                                        145,
+                                        563
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{\\bullet}",
+                                    "score": 0.6183
+                                },
+                                {
+                                    "bbox": [
+                                        146,
+                                        549,
+                                        176,
+                                        567
+                                    ],
+                                    "type": "text",
+                                    "content": "正定.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9285,
+                    "bbox": [
+                        126,
+                        571,
+                        352,
+                        586
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                128,
+                                571,
+                                351,
+                                587
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        128,
+                                        571,
+                                        238,
+                                        587
+                                    ],
+                                    "type": "text",
+                                    "content": "方法二 用特征值.设",
+                                    "score": 0.951
+                                },
+                                {
+                                    "bbox": [
+                                        239,
+                                        572,
+                                        323,
+                                        585
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{*} \\boldsymbol{\\alpha} = \\lambda \\boldsymbol{\\alpha} , \\boldsymbol{\\alpha} \\neq \\mathbf{0}",
+                                    "score": 0.9027
+                                },
+                                {
+                                    "bbox": [
+                                        324,
+                                        571,
+                                        351,
+                                        587
+                                    ],
+                                    "type": "text",
+                                    "content": ",于是",
+                                    "score": 0.952
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.771,
+                    "bbox": [
+                        187,
+                        592,
+                        341,
+                        606
+                    ],
+                    "index": 16,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                187,
+                                592,
+                                341,
+                                606
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        187,
+                                        592,
+                                        341,
+                                        606
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\boldsymbol{A}\\boldsymbol{A}^{*} \\boldsymbol{\\alpha} = \\lambda \\boldsymbol{A}\\boldsymbol{\\alpha} ,  即  \\lambda \\boldsymbol{A}\\boldsymbol{\\alpha} = \\left| \\boldsymbol{A} \\right|\\boldsymbol{\\alpha}.",
+                                    "image_path": "8a7de3adfbfca185d68d8b3635b666e5e589a6171957cb3cf11d580eaafc5164.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9162,
+                    "bbox": [
+                        127,
+                        613,
+                        362,
+                        627
+                    ],
+                    "index": 17,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                130,
+                                614,
+                                359,
+                                627
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        130,
+                                        614,
+                                        185,
+                                        627
+                                    ],
+                                    "type": "text",
+                                    "content": "由A可逆知",
+                                    "score": 0.998
+                                },
+                                {
+                                    "bbox": [
+                                        186,
+                                        614,
+                                        202,
+                                        626
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{*}",
+                                    "score": 0.5756
+                                },
+                                {
+                                    "bbox": [
+                                        203,
+                                        615,
+                                        265,
+                                        627
+                                    ],
+                                    "type": "text",
+                                    "content": "必可逆，那么",
+                                    "score": 0.997
+                                },
+                                {
+                                    "bbox": [
+                                        266,
+                                        614,
+                                        281,
+                                        626
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{*}",
+                                    "score": 0.5592
+                                },
+                                {
+                                    "bbox": [
+                                        283,
+                                        614,
+                                        329,
+                                        627
+                                    ],
+                                    "type": "text",
+                                    "content": "的特征值",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        330,
+                                        614,
+                                        359,
+                                        626
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda \\ne 0",
+                                    "score": 0.8862
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9407,
+                    "bbox": [
+                        127,
+                        633,
+                        340,
+                        661
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                128,
+                                634,
+                                338,
+                                660
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        128,
+                                        639,
+                                        163,
+                                        655
+                                    ],
+                                    "type": "text",
+                                    "content": "从而有",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        634,
+                                        225,
+                                        660
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A\\boldsymbol{\\alpha} = \\frac{\\left |  A\\right | }{\\lambda }\\boldsymbol{\\alpha}",
+                                    "score": 0.9469
+                                },
+                                {
+                                    "bbox": [
+                                        226,
+                                        640,
+                                        241,
+                                        656
+                                    ],
+                                    "type": "text",
+                                    "content": ",即",
+                                    "score": 0.883
+                                },
+                                {
+                                    "bbox": [
+                                        241,
+                                        634,
+                                        265,
+                                        660
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\frac{\\left| \\begin{array}{c}  A  \\end{array} \\right|}{\\lambda}",
+                                    "score": 0.9323
+                                },
+                                {
+                                    "bbox": [
+                                        266,
+                                        641,
+                                        338,
+                                        653
+                                    ],
+                                    "type": "text",
+                                    "content": "是A的特征值.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9299,
+                    "bbox": [
+                        127,
+                        668,
+                        424,
+                        695
+                    ],
+                    "index": 19,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                129,
+                                669,
+                                425,
+                                694
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        129,
+                                        674,
+                                        189,
+                                        689
+                                    ],
+                                    "type": "text",
+                                    "content": "因A正定，得",
+                                    "score": 0.996
+                                },
+                                {
+                                    "bbox": [
+                                        189,
+                                        669,
+                                        242,
+                                        694
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\frac{1}{\\lambda} \\left| \\boldsymbol{A} \\right| > 0",
+                                    "score": 0.951
+                                },
+                                {
+                                    "bbox": [
+                                        242,
+                                        673,
+                                        259,
+                                        691
+                                    ],
+                                    "type": "text",
+                                    "content": ",而",
+                                    "score": 0.866
+                                },
+                                {
+                                    "bbox": [
+                                        260,
+                                        674,
+                                        299,
+                                        688
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "|A|>0",
+                                    "score": 0.8045
+                                },
+                                {
+                                    "bbox": [
+                                        299,
+                                        673,
+                                        336,
+                                        690
+                                    ],
+                                    "type": "text",
+                                    "content": ",故必有",
+                                    "score": 0.942
+                                },
+                                {
+                                    "bbox": [
+                                        337,
+                                        675,
+                                        364,
+                                        687
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda > 0",
+                                    "score": 0.666
+                                },
+                                {
+                                    "bbox": [
+                                        364,
+                                        673,
+                                        379,
+                                        691
+                                    ],
+                                    "type": "text",
+                                    "content": ",故",
+                                    "score": 0.877
+                                },
+                                {
+                                    "bbox": [
+                                        380,
+                                        675,
+                                        395,
+                                        687
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{*}",
+                                    "score": 0.7356
+                                },
+                                {
+                                    "bbox": [
+                                        396,
+                                        673,
+                                        425,
+                                        691
+                                    ],
+                                    "type": "text",
+                                    "content": "正定.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        556,
+                        659,
+                        594,
+                        767
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.5009,
+                            "bbox": [
+                                556,
+                                659,
+                                594,
+                                767
+                            ],
+                            "index": 20,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        556,
+                                        659,
+                                        594,
+                                        767
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                556,
+                                                659,
+                                                594,
+                                                767
+                                            ],
+                                            "type": "image",
+                                            "image_path": "2e92f6aed15627523742ca4b325ef72e89e2faaaa7636a2c91a56573a269bd33.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "score": 0.5009
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.7411,
+                    "bbox": [
+                        379,
+                        35,
+                        536,
+                        49
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                378,
+                                35,
+                                536,
+                                49
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        378,
+                                        35,
+                                        536,
+                                        49
+                                    ],
+                                    "type": "text",
+                                    "content": "线性代数基础·学习册第六章二次型",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9047,
+                    "bbox": [
+                        308,
+                        785,
+                        329,
+                        797
+                    ],
+                    "index": 21,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                309,
+                                786,
+                                329,
+                                799
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        309,
+                                        786,
+                                        329,
+                                        799
+                                    ],
+                                    "type": "text",
+                                    "content": "153",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.9474,
+                    "bbox": [
+                        106,
+                        68,
+                        329,
+                        83
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                71,
+                                326,
+                                82
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        71,
+                                        326,
+                                        82
+                                    ],
+                                    "type": "text",
+                                    "content": "正定的充分必要条件是顺序主子式全大于0，故",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        110,
+                        71,
+                        326,
+                        82
+                    ]
+                },
+                {
+                    "score": 0.9433,
+                    "bbox": [
+                        125,
+                        88,
+                        403,
+                        127
+                    ],
+                    "index": 3,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                125,
+                                88,
+                                403,
+                                127
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        125,
+                                        88,
+                                        403,
+                                        127
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left\\{ \\begin{aligned} 4 - t ^ { 2 } = ( 2 - t ) ( 2 + t ) > 0 , \\quad t \\in ( - 2 , 2 ) , \\\\ - 4 t ^ { 2 } - 4 t + 8 = - 4 ( t - 1 ) ( t + 2 ) > 0 , \\quad t \\in ( - 2 , 1 ) , \\end{aligned} \\right.",
+                                    "image_path": "ef94aca84b896bb9b9a4685660a831ebf9a5db7648bb78100dc6a38e069e6bc6.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.931,
+                    "bbox": [
+                        105,
+                        132,
+                        269,
+                        147
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                105,
+                                133,
+                                267,
+                                149
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        133,
+                                        117,
+                                        149
+                                    ],
+                                    "type": "text",
+                                    "content": "故",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        118,
+                                        133,
+                                        177,
+                                        146
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "t \\in (-2,1)",
+                                    "score": 0.69
+                                },
+                                {
+                                    "bbox": [
+                                        180,
+                                        133,
+                                        267,
+                                        147
+                                    ],
+                                    "type": "text",
+                                    "content": "时，二次型f正定.",
+                                    "score": 0.997
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        105,
+                        133,
+                        267,
+                        149
+                    ]
+                },
+                {
+                    "score": 0.5936,
+                    "bbox": [
+                        126,
+                        176,
+                        345,
+                        194
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                126,
+                                176,
+                                342,
+                                194
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        126,
+                                        176,
+                                        310,
+                                        194
+                                    ],
+                                    "type": "text",
+                                    "content": "例16【分析】A正定⇔A的特征值",
+                                    "score": 0.997
+                                },
+                                {
+                                    "bbox": [
+                                        311,
+                                        178,
+                                        342,
+                                        191
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda > 0.",
+                                    "score": 0.7369
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        126,
+                        176,
+                        342,
+                        194
+                    ]
+                },
+                {
+                    "score": 0.9704,
+                    "bbox": [
+                        125,
+                        200,
+                        415,
+                        279
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                125,
+                                200,
+                                415,
+                                279
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        125,
+                                        200,
+                                        415,
+                                        279
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned}\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| &=\\left| \\begin{matrix}\\lambda & -1 & -1 \\\\-1 & \\lambda - 2 & -1 \\\\-1 & -1 & \\lambda\\end{matrix} \\right|= \\left| \\begin{matrix}\\lambda + 1 & 0 & -\\lambda - 1 \\\\-1 & \\lambda - 2 & -1 \\\\-1 & -1 & \\lambda\\end{matrix} \\right| \\\\&= \\lambda (\\lambda + 1) (\\lambda - 3)  .\\end{aligned}",
+                                    "image_path": "708d0f9a4dd33d3ade97ca4726802c3ffcfc5cc45e69da2d37a1e323131fb8de.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9264,
+                    "bbox": [
+                        124,
+                        286,
+                        244,
+                        300
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                287,
+                                240,
+                                299
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        288,
+                                        195,
+                                        299
+                                    ],
+                                    "type": "text",
+                                    "content": "A 的特征值为",
+                                    "score": 0.942
+                                },
+                                {
+                                    "bbox": [
+                                        195,
+                                        287,
+                                        240,
+                                        299
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": ";0,-1,3",
+                                    "score": 0.4785
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        127,
+                        287,
+                        240,
+                        299
+                    ]
+                },
+                {
+                    "score": 0.912,
+                    "bbox": [
+                        124,
+                        307,
+                        295,
+                        321
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                307,
+                                291,
+                                321
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        309,
+                                        218,
+                                        321
+                                    ],
+                                    "type": "text",
+                                    "content": "A+E的特征值为",
+                                    "score": 0.958
+                                },
+                                {
+                                    "bbox": [
+                                        221,
+                                        307,
+                                        291,
+                                        320
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k,k-1,k+3.",
+                                    "score": 0.689
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        127,
+                        307,
+                        291,
+                        321
+                    ]
+                },
+                {
+                    "score": 0.9137,
+                    "bbox": [
+                        125,
+                        328,
+                        323,
+                        384
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                126,
+                                329,
+                                321,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        126,
+                                        349,
+                                        163,
+                                        363
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} + k\\boldsymbol{E}",
+                                    "score": 0.4676
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        348,
+                                        187,
+                                        365
+                                    ],
+                                    "type": "text",
+                                    "content": "正定",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        187,
+                                        329,
+                                        321,
+                                        384
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Leftrightarrow \\begin{cases} k > 0   , \\\\ k - 1 > 0   , \\\\ k + 3 > 0 \\end{cases} \\Leftrightarrow     k > 1.",
+                                    "score": 0.7423
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        126,
+                        329,
+                        321,
+                        384
+                    ]
+                },
+                {
+                    "score": 0.6555,
+                    "bbox": [
+                        126,
+                        413,
+                        397,
+                        431
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                413,
+                                394,
+                                433
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        413,
+                                        250,
+                                        433
+                                    ],
+                                    "type": "text",
+                                    "content": "例17【证】因A正定",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        250,
+                                        415,
+                                        312,
+                                        428
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Rightarrow A^{\\mathrm{T}} = A, A",
+                                    "score": 0.8578
+                                },
+                                {
+                                    "bbox": [
+                                        312,
+                                        414,
+                                        348,
+                                        430
+                                    ],
+                                    "type": "text",
+                                    "content": "可逆且",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        349,
+                                        415,
+                                        394,
+                                        428
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mid \\boldsymbol{A} \\mid > 0.",
+                                    "score": 0.8769
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        127,
+                        413,
+                        394,
+                        433
+                    ]
+                },
+                {
+                    "score": 0.9119,
+                    "bbox": [
+                        126,
+                        438,
+                        336,
+                        453
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                439,
+                                335,
+                                455
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        439,
+                                        139,
+                                        455
+                                    ],
+                                    "type": "text",
+                                    "content": "由",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        139,
+                                        439,
+                                        272,
+                                        452
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left( \\boldsymbol{A}^{*} \\right)^{\\mathrm{T}} = \\left( \\boldsymbol{A}^{\\mathrm{T}} \\right)^{*} = \\boldsymbol{A}^{*} \\Rightarrow \\boldsymbol{A}^{*}",
+                                    "score": 0.8955
+                                },
+                                {
+                                    "bbox": [
+                                        276,
+                                        440,
+                                        335,
+                                        453
+                                    ],
+                                    "type": "text",
+                                    "content": "是对称矩阵.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        127,
+                        439,
+                        335,
+                        455
+                    ]
+                },
+                {
+                    "score": 0.9656,
+                    "bbox": [
+                        105,
+                        460,
+                        428,
+                        496
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                128,
+                                460,
+                                428,
+                                475
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        128,
+                                        461,
+                                        273,
+                                        475
+                                    ],
+                                    "type": "text",
+                                    "content": "方法一用定义.因A可逆,故",
+                                    "score": 0.963
+                                },
+                                {
+                                    "bbox": [
+                                        273,
+                                        461,
+                                        307,
+                                        474
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x = A y",
+                                    "score": 0.6123
+                                },
+                                {
+                                    "bbox": [
+                                        308,
+                                        461,
+                                        376,
+                                        474
+                                    ],
+                                    "type": "text",
+                                    "content": "是坐标变换，且",
+                                    "score": 0.979
+                                },
+                                {
+                                    "bbox": [
+                                        378,
+                                        460,
+                                        415,
+                                        473
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall x \\neq 0",
+                                    "score": 0.7739
+                                },
+                                {
+                                    "bbox": [
+                                        415,
+                                        460,
+                                        428,
+                                        475
+                                    ],
+                                    "type": "text",
+                                    "content": "必",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                105,
+                                482,
+                                210,
+                                497
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        482,
+                                        119,
+                                        497
+                                    ],
+                                    "type": "text",
+                                    "content": "有",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        119,
+                                        482,
+                                        147,
+                                        495
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "y \\ne \\mathbf{0}",
+                                    "score": 0.6629
+                                },
+                                {
+                                    "bbox": [
+                                        147,
+                                        482,
+                                        173,
+                                        497
+                                    ],
+                                    "type": "text",
+                                    "content": ",那么",
+                                    "score": 0.995
+                                },
+                                {
+                                    "bbox": [
+                                        174,
+                                        482,
+                                        210,
+                                        495
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall x \\neq 0",
+                                    "score": 0.727
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        105,
+                        460,
+                        428,
+                        497
+                    ]
+                },
+                {
+                    "score": 0.9201,
+                    "bbox": [
+                        119,
+                        504,
+                        411,
+                        523
+                    ],
+                    "index": 13,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                504,
+                                411,
+                                523
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        504,
+                                        411,
+                                        523
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "x^{\\mathrm{T}} A^{*} x = \\left( A y \\right)^{\\mathrm{T}} A^{*} \\left( A y \\right) = y^{\\mathrm{T}} \\left( \\left| A \\right| A \\right) y = \\left| A \\right| y^{\\mathrm{T}} A y,",
+                                    "image_path": "f4ec5770298c6b7ffce474c09ab389e52535206b1a08e87027a50199c5769e48.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8293,
+                    "bbox": [
+                        103,
+                        528,
+                        427,
+                        565
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                105,
+                                528,
+                                425,
+                                546
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        528,
+                                        157,
+                                        545
+                                    ],
+                                    "type": "text",
+                                    "content": "因A正定，",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        158,
+                                        529,
+                                        249,
+                                        543
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\boldsymbol{A} \\right| > 0, \\boldsymbol{y}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{y} > 0",
+                                    "score": 0.9173
+                                },
+                                {
+                                    "bbox": [
+                                        249,
+                                        529,
+                                        277,
+                                        546
+                                    ],
+                                    "type": "text",
+                                    "content": ",从而",
+                                    "score": 0.965
+                                },
+                                {
+                                    "bbox": [
+                                        277,
+                                        529,
+                                        425,
+                                        543
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall x \\ne 0, x^{\\mathrm{T}} A^{*} x = | A | y^{\\mathrm{T}} A y >",
+                                    "score": 0.9439
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                104,
+                                549,
+                                176,
+                                567
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        104,
+                                        549,
+                                        129,
+                                        567
+                                    ],
+                                    "type": "text",
+                                    "content": "0,故",
+                                    "score": 0.99
+                                },
+                                {
+                                    "bbox": [
+                                        129,
+                                        551,
+                                        145,
+                                        563
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{\\bullet}",
+                                    "score": 0.6183
+                                },
+                                {
+                                    "bbox": [
+                                        146,
+                                        549,
+                                        176,
+                                        567
+                                    ],
+                                    "type": "text",
+                                    "content": "正定.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        104,
+                        528,
+                        425,
+                        567
+                    ]
+                },
+                {
+                    "score": 0.9285,
+                    "bbox": [
+                        126,
+                        571,
+                        352,
+                        586
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                128,
+                                571,
+                                351,
+                                587
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        128,
+                                        571,
+                                        238,
+                                        587
+                                    ],
+                                    "type": "text",
+                                    "content": "方法二 用特征值.设",
+                                    "score": 0.951
+                                },
+                                {
+                                    "bbox": [
+                                        239,
+                                        572,
+                                        323,
+                                        585
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{*} \\boldsymbol{\\alpha} = \\lambda \\boldsymbol{\\alpha} , \\boldsymbol{\\alpha} \\neq \\mathbf{0}",
+                                    "score": 0.9027
+                                },
+                                {
+                                    "bbox": [
+                                        324,
+                                        571,
+                                        351,
+                                        587
+                                    ],
+                                    "type": "text",
+                                    "content": ",于是",
+                                    "score": 0.952
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        128,
+                        571,
+                        351,
+                        587
+                    ]
+                },
+                {
+                    "score": 0.771,
+                    "bbox": [
+                        187,
+                        592,
+                        341,
+                        606
+                    ],
+                    "index": 16,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                187,
+                                592,
+                                341,
+                                606
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        187,
+                                        592,
+                                        341,
+                                        606
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\boldsymbol{A}\\boldsymbol{A}^{*} \\boldsymbol{\\alpha} = \\lambda \\boldsymbol{A}\\boldsymbol{\\alpha} ,  即  \\lambda \\boldsymbol{A}\\boldsymbol{\\alpha} = \\left| \\boldsymbol{A} \\right|\\boldsymbol{\\alpha}.",
+                                    "image_path": "8a7de3adfbfca185d68d8b3635b666e5e589a6171957cb3cf11d580eaafc5164.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9162,
+                    "bbox": [
+                        127,
+                        613,
+                        362,
+                        627
+                    ],
+                    "index": 17,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                130,
+                                614,
+                                359,
+                                627
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        130,
+                                        614,
+                                        185,
+                                        627
+                                    ],
+                                    "type": "text",
+                                    "content": "由A可逆知",
+                                    "score": 0.998
+                                },
+                                {
+                                    "bbox": [
+                                        186,
+                                        614,
+                                        202,
+                                        626
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{*}",
+                                    "score": 0.5756
+                                },
+                                {
+                                    "bbox": [
+                                        203,
+                                        615,
+                                        265,
+                                        627
+                                    ],
+                                    "type": "text",
+                                    "content": "必可逆，那么",
+                                    "score": 0.997
+                                },
+                                {
+                                    "bbox": [
+                                        266,
+                                        614,
+                                        281,
+                                        626
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{*}",
+                                    "score": 0.5592
+                                },
+                                {
+                                    "bbox": [
+                                        283,
+                                        614,
+                                        329,
+                                        627
+                                    ],
+                                    "type": "text",
+                                    "content": "的特征值",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        330,
+                                        614,
+                                        359,
+                                        626
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda \\ne 0",
+                                    "score": 0.8862
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        130,
+                        614,
+                        359,
+                        627
+                    ]
+                },
+                {
+                    "score": 0.9407,
+                    "bbox": [
+                        127,
+                        633,
+                        340,
+                        661
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                128,
+                                634,
+                                338,
+                                660
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        128,
+                                        639,
+                                        163,
+                                        655
+                                    ],
+                                    "type": "text",
+                                    "content": "从而有",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        163,
+                                        634,
+                                        225,
+                                        660
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A\\boldsymbol{\\alpha} = \\frac{\\left |  A\\right | }{\\lambda }\\boldsymbol{\\alpha}",
+                                    "score": 0.9469
+                                },
+                                {
+                                    "bbox": [
+                                        226,
+                                        640,
+                                        241,
+                                        656
+                                    ],
+                                    "type": "text",
+                                    "content": ",即",
+                                    "score": 0.883
+                                },
+                                {
+                                    "bbox": [
+                                        241,
+                                        634,
+                                        265,
+                                        660
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\frac{\\left| \\begin{array}{c}  A  \\end{array} \\right|}{\\lambda}",
+                                    "score": 0.9323
+                                },
+                                {
+                                    "bbox": [
+                                        266,
+                                        641,
+                                        338,
+                                        653
+                                    ],
+                                    "type": "text",
+                                    "content": "是A的特征值.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        128,
+                        634,
+                        338,
+                        660
+                    ]
+                },
+                {
+                    "score": 0.9299,
+                    "bbox": [
+                        127,
+                        668,
+                        424,
+                        695
+                    ],
+                    "index": 19,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                129,
+                                669,
+                                425,
+                                694
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        129,
+                                        674,
+                                        189,
+                                        689
+                                    ],
+                                    "type": "text",
+                                    "content": "因A正定，得",
+                                    "score": 0.996
+                                },
+                                {
+                                    "bbox": [
+                                        189,
+                                        669,
+                                        242,
+                                        694
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\frac{1}{\\lambda} \\left| \\boldsymbol{A} \\right| > 0",
+                                    "score": 0.951
+                                },
+                                {
+                                    "bbox": [
+                                        242,
+                                        673,
+                                        259,
+                                        691
+                                    ],
+                                    "type": "text",
+                                    "content": ",而",
+                                    "score": 0.866
+                                },
+                                {
+                                    "bbox": [
+                                        260,
+                                        674,
+                                        299,
+                                        688
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "|A|>0",
+                                    "score": 0.8045
+                                },
+                                {
+                                    "bbox": [
+                                        299,
+                                        673,
+                                        336,
+                                        690
+                                    ],
+                                    "type": "text",
+                                    "content": ",故必有",
+                                    "score": 0.942
+                                },
+                                {
+                                    "bbox": [
+                                        337,
+                                        675,
+                                        364,
+                                        687
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda > 0",
+                                    "score": 0.666
+                                },
+                                {
+                                    "bbox": [
+                                        364,
+                                        673,
+                                        379,
+                                        691
+                                    ],
+                                    "type": "text",
+                                    "content": ",故",
+                                    "score": 0.877
+                                },
+                                {
+                                    "bbox": [
+                                        380,
+                                        675,
+                                        395,
+                                        687
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A^{*}",
+                                    "score": 0.7356
+                                },
+                                {
+                                    "bbox": [
+                                        396,
+                                        673,
+                                        425,
+                                        691
+                                    ],
+                                    "type": "text",
+                                    "content": "正定.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        129,
+                        669,
+                        425,
+                        694
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        556,
+                        659,
+                        594,
+                        767
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.5009,
+                            "bbox": [
+                                556,
+                                659,
+                                594,
+                                767
+                            ],
+                            "index": 20,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        556,
+                                        659,
+                                        594,
+                                        767
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                556,
+                                                659,
+                                                594,
+                                                767
+                                            ],
+                                            "type": "image",
+                                            "image_path": "2e92f6aed15627523742ca4b325ef72e89e2faaaa7636a2c91a56573a269bd33.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "score": 0.5009
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.5"
+}

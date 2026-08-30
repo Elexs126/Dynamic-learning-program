@@ -1,0 +1,423 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "【注】注意和例8的区别.例8中不能求出A的具体特征值."
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                79,
+                658,
+                97
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例20【解】（1）因A中有二阶子式非零，于是"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                128,
+                556,
+                148
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "r(\\boldsymbol{A}) = 2 \\Leftrightarrow \\left| \\boldsymbol{A} \\right| = 0,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/23e8bf77bd54f0f0e9225c299836e7f0195c2176c41779ad8dd7dcc7cbcf90ab.jpg"
+                }
+            },
+            "bbox": [
+                284,
+                156,
+                484,
+                174
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "而 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\begin{vmatrix} 1 & a & - 1 \\\\ a & 3 & 1 \\\\ - 1 & 1 & 1 \\end{vmatrix} = - (a + 1)^{2}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",所以 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a = -1"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                179,
+                529,
+                244
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)由A的特征多项式"
+                    }
+                ]
+            },
+            "bbox": [
+                132,
+                252,
+                334,
+                268
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = \\left| \\begin{matrix} \\lambda - 1 & 1 & 1 \\\\ 1 & \\lambda - 3 & - 1 \\\\ 1 & - 1 & \\lambda - 1 \\end{matrix} \\right| = \\lambda (\\lambda - 1) (\\lambda - 4)   ,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/cabeb5168b31cc40654d05cc52ed9afb32bc782fb2cdbc2c14daab3c03c9d6c6.jpg"
+                }
+            },
+            "bbox": [
+                139,
+                275,
+                628,
+                341
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "得到A的特征值：1,4,0."
+                    }
+                ]
+            },
+            "bbox": [
+                129,
+                347,
+                344,
+                363
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda_{1} = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",由 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(E - A)x = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "得特征向量 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{a}_{1} = (-1, -1, 1)^{\\mathrm{T}}"
+                    }
+                ]
+            },
+            "bbox": [
+                129,
+                370,
+                657,
+                388
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda_{2} = 4"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",由 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(4E - A)x = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "得特征向量 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{a}_{2}=(-1,2,1)^{\\mathrm{T}}"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                395,
+                643,
+                412
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lambda_{3} = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",由 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\left( 0 \\boldsymbol{E} - \\boldsymbol{A} \\right) \\boldsymbol{x} = \\boldsymbol{0}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "得特征向量 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{\\alpha}_{3} = (1,0,1)^{\\mathrm{T}}"
+                    }
+                ]
+            },
+            "bbox": [
+                129,
+                419,
+                625,
+                436
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "因实对称矩阵的特征值不同，特征向量已相互正交，单位化后有"
+                    }
+                ]
+            },
+            "bbox": [
+                131,
+                443,
+                675,
+                461
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\gamma_{1}=\\frac{1}{\\sqrt{3}}\\left[\\begin{aligned}-1 \\\\ -1 \\\\ 1\\end{aligned}\\right], \\gamma_{2}=\\frac{1}{\\sqrt{6}}\\left[\\begin{aligned}-1 \\\\ 2 \\\\ 1\\end{aligned}\\right], \\gamma_{3}=\\frac{1}{\\sqrt{2}}\\left[\\begin{aligned}1 \\\\ 0 \\\\ 1\\end{aligned}\\right].",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ac6df65354f89d9c4d64e67b806fd75b0c8414408ddd605a55dc91d77bd5f44e.jpg"
+                }
+            },
+            "bbox": [
+                188,
+                467,
+                576,
+                532
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{Q}=\\left(\\boldsymbol{\\gamma}_{1}, \\boldsymbol{\\gamma}_{2}, \\boldsymbol{\\gamma}_{3}\\right)=\\left[\\begin{aligned}&-\\frac{1}{\\sqrt{3}} & -\\frac{1}{\\sqrt{6}} & \\frac{1}{\\sqrt{2}} \\\\&-\\frac{1}{\\sqrt{3}} & \\frac{2}{\\sqrt{6}} & 0 \\\\&\\frac{1}{\\sqrt{3}} & \\frac{1}{\\sqrt{6}} & \\frac{1}{\\sqrt{2}}\\end{aligned}\\right]"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",则 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "Q^{-1}AQ = \\boldsymbol{\\Lambda} = \\begin{bmatrix} 1 & & \\\\ & 4 & \\\\ & & 0 \\end{bmatrix}."
+                    }
+                ]
+            },
+            "bbox": [
+                95,
+                538,
+                675,
+                665
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "本章作业超链接 《基础过关660题》优选"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                121,
+                695,
+                514,
+                714
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/c9d3c8b7daffe7d67514d3df14f0f7387668dd0d2f8d28c968dcb508982b7b97.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>数学一</td><td>405</td><td>407</td><td>410</td><td>412</td><td>413</td><td>414</td><td>417</td><td>489</td><td>490</td><td>492</td><td>495</td></tr><tr><td>数学二</td><td>498</td><td>500</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>522</td><td>524</td><td>527</td><td>529</td><td>530</td><td>531</td><td>534</td><td>632</td><td>633</td><td>635</td><td>638</td></tr><tr><td>数学三</td><td>641 405</td><td>643</td><td>410</td><td></td><td>413</td><td></td><td>414417</td><td></td><td>490</td><td>492</td><td></td></tr><tr><td></td><td></td><td>407</td><td></td><td>412</td><td></td><td></td><td></td><td>489</td><td></td><td></td><td>495</td></tr><tr><td></td><td>498</td><td>500</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                115,
+                730,
+                744,
+                868
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/b9347c517597cf33ab99ca7262807736b12e1c9601152bf6f006c85d068ad743.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                769,
+                762,
+                842,
+                827
+            ]
+        },
+        {
+            "type": "page_aside_text",
+            "content": {
+                "page_aside_text_content": [
+                    {
+                        "type": "text",
+                        "content": "特征值和特征向量区"
+                    }
+                ]
+            },
+            "bbox": [
+                917,
+                562,
+                947,
+                751
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "线性代数基础·学习册"
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                40,
+                670,
+                55
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "第五章特征值和特征向量"
+                    }
+                ]
+            },
+            "bbox": [
+                680,
+                41,
+                877,
+                55
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "129"
+                    }
+                ]
+            },
+            "bbox": [
+                463,
+                940,
+                502,
+                954
+            ]
+        }
+    ]
+]

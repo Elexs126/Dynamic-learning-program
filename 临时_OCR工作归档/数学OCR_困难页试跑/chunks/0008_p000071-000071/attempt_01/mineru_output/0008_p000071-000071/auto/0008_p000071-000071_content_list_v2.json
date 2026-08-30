@@ -1,0 +1,741 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "知识梳理与例题"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                304,
+                93,
+                438,
+                111
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "一、向量的概念、向量组的概念"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                336,
+                129,
+                628,
+                148
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "定义n个数 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{1},a_{2},\\cdots,a_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "所组成的有序数组"
+                    }
+                ]
+            },
+            "bbox": [
+                336,
+                167,
+                705,
+                184
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1cea390f5652a295a5f837218a158b0446c003a9721f6ef96474404a698426e1.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                16,
+                330,
+                70,
+                444
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol{\\alpha} = (a_{1}, a_{2}, \\cdots, a_{n})^{\\mathrm{T}}  或  \\boldsymbol{\\alpha} = (a_{1}, a_{2}, \\cdots, a_{n})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/461f90aa58c267e4be3b1c4434973f90576db248c4d0757b155d2d11664f9894.jpg"
+                }
+            },
+            "bbox": [
+                396,
+                191,
+                759,
+                209
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "叫做n维向量，其中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{1}, a_{2}, \\cdots, a_{n}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "叫做向量α的分量(或坐标)，前一个表示式称为列向量，后者称为行向量."
+                    }
+                ]
+            },
+            "bbox": [
+                295,
+                215,
+                858,
+                256
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "相等 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha = \\beta \\Leftrightarrow \\alpha,\\beta"
+                    },
+                    {
+                        "type": "text",
+                        "content": "同维，且对应分量 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "a_{i}=b_{i},i=1,2,\\cdots,n"
+                    }
+                ]
+            },
+            "bbox": [
+                334,
+                263,
+                838,
+                280
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "向量的基本运算"
+                    }
+                ]
+            },
+            "bbox": [
+                334,
+                288,
+                472,
+                305
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "加法 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{\\alpha} + \\boldsymbol{\\beta} = (a_{1} + b_{1}, a_{2} + b_{2}, \\cdots, a_{n} + b_{n})"
+                    }
+                ]
+            },
+            "bbox": [
+                334,
+                311,
+                704,
+                329
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "数乘 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k \\boldsymbol{\\alpha} = (k a_{1}, k a_{2}, \\cdots, k a_{n})"
+                    }
+                ]
+            },
+            "bbox": [
+                334,
+                335,
+                589,
+                351
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "若干个同维数的行向量(或同维数的列向量）所组成的集合叫做 向量组."
+                    }
+                ]
+            },
+            "bbox": [
+                295,
+                359,
+                862,
+                399
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{r}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "及 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{r}, \\cdots, \\alpha_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(其中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s \\geqslant r )"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",称 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{r}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的部分组， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是整体组."
+                    }
+                ]
+            },
+            "bbox": [
+                295,
+                407,
+                862,
+                448
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "向量组"
+                    }
+                ]
+            },
+            "bbox": [
+                336,
+                454,
+                396,
+                469
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol { \\alpha } _ { 1 } = \\left[ a _ { 1 1 } , a _ { 2 1 } , \\cdots , a _ { r 1 } \\right] ^ { \\mathrm { T } } , \\boldsymbol { \\alpha } _ { 2 } = \\left[ a _ { 1 2 } , a _ { 2 2 } , \\cdots , a _ { r 2 } \\right] ^ { \\mathrm { T } } , \\cdots ,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c98f874ae45e6ebd9be6b4071bf2ee484f5b777789d451b73b5689767826346e.jpg"
+                }
+            },
+            "bbox": [
+                332,
+                476,
+                768,
+                495
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol{a}_{m}=[a_{1m}, a_{2m}, \\cdots, a_{m}]^{\\mathrm{T}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e5ee4db67083075c07ff5152e7d98703b20ef581c65e0b8b697b3a942d4e64c6.jpg"
+                }
+            },
+            "bbox": [
+                332,
+                500,
+                541,
+                519
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "及"
+                    }
+                ]
+            },
+            "bbox": [
+                295,
+                525,
+                321,
+                541
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\tilde { \\boldsymbol { \\alpha } } _ { 1 } = [ a _ { 1 1 } , a _ { 2 1 } , \\cdots , a _ { r 1 } , \\cdots , a _ { r 1 } ] ^ { \\mathrm { T } } , \\tilde { \\boldsymbol { \\alpha } } _ { 2 } = [ a _ { 1 2 } , a _ { 2 2 } , \\cdots , a _ { r 2 } , \\cdots , a _ { r 2 } ] ^ { \\mathrm { T } } ,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/737a83b30cf3b7ff01608e1e055abb55d34baee188fd36e4a59ae27feb9abe8b.jpg"
+                }
+            },
+            "bbox": [
+                331,
+                546,
+                857,
+                567
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\cdots , \\boldsymbol { \\alpha } _ { m } = [ a _ { 1 m } , a _ { 2 m } , \\cdots , a _ { m } , \\cdots , a _ { m } ] ^ { \\mathrm { T } } ,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b5c416baab067263a37387a8863fd71e64d13d86ad3a5dc382d5617931c16e49.jpg"
+                }
+            },
+            "bbox": [
+                295,
+                574,
+                600,
+                593
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "其中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s \\geqslant r ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "则称 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\widetilde{\\boldsymbol{\\alpha}}_{1}, \\widetilde{\\boldsymbol{\\alpha}}_{2}, \\cdots, \\widetilde{\\boldsymbol{\\alpha}}_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "为向量组 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的延伸组(或称"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\tilde{\\alpha}_{1}, \\tilde{\\alpha}_{2}, \\cdots, \\tilde{\\alpha}_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的缩短组)."
+                    }
+                ]
+            },
+            "bbox": [
+                295,
+                601,
+                862,
+                646
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "二、线性表出、线性相关"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                334,
+                663,
+                559,
+                682
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "定义m个n维向量 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "及m个数 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{1},k_{2},\\cdots,k_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",则向量"
+                    }
+                ]
+            },
+            "bbox": [
+                336,
+                701,
+                862,
+                717
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2} + \\cdots + k_{m} \\boldsymbol{\\alpha}_{m}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e62bd0a84ab717195f3614fd5894c7e16f936890a9b9358a89c25f81c01a9fc0.jpg"
+                }
+            },
+            "bbox": [
+                473,
+                725,
+                682,
+                740
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "称为向量 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的一个线性组合 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{1},k_{2},\\cdots,k_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "称为这个线性组合的系数."
+                    }
+                ]
+            },
+            "bbox": [
+                295,
+                747,
+                862,
+                787
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "若 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pmb { \\beta }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "能表示成 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的线性组合，即"
+                    }
+                ]
+            },
+            "bbox": [
+                332,
+                795,
+                695,
+                812
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol { \\beta } = k _ { 1 } \\boldsymbol { \\alpha } _ { 1 } + k _ { 2 } \\boldsymbol { \\alpha } _ { 2 } + \\cdots + k _ { m } \\boldsymbol { \\alpha } _ { m }   ,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9bba6e43e647abdee5b94971d4a7c6037f6f48c00feaf1bea3164ad3cf05d82d.jpg"
+                }
+            },
+            "bbox": [
+                448,
+                819,
+                705,
+                835
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则称 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\beta"
+                    },
+                    {
+                        "type": "text",
+                        "content": "能由 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "线性表出."
+                    }
+                ]
+            },
+            "bbox": [
+                297,
+                841,
+                593,
+                858
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "定义对m个n维向量 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，若存在不全为零的数 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{1}"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "k_{2},\\cdots,k_{m}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",使得"
+                    }
+                ]
+            },
+            "bbox": [
+                295,
+                865,
+                857,
+                904
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2} + \\cdots + k_{m} \\boldsymbol{\\alpha}_{m} = \\boldsymbol{0}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9f25bb792e6faf6a4a762d3b19394cc5152a632451a744412cc7891a104abc2e.jpg"
+                }
+            },
+            "bbox": [
+                453,
+                912,
+                704,
+                928
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "考研数学复习全书 基础篇"
+                    }
+                ]
+            },
+            "bbox": [
+                115,
+                40,
+                312,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                312,
+                38,
+                346,
+                65
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "学习笔记"
+                    }
+                ]
+            },
+            "bbox": [
+                105,
+                89,
+                176,
+                103
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "56"
+                    }
+                ]
+            },
+            "bbox": [
+                470,
+                946,
+                495,
+                959
+            ]
+        }
+    ]
+]

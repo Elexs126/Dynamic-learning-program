@@ -1,0 +1,399 @@
+{
+  "schema_version": 1,
+  "script_version": "3.0.0",
+  "created_at": "2026-08-30T09:58:54+00:00",
+  "updated_at": "2026-08-30T10:05:12+00:00",
+  "source": {
+    "path": "/home/elexs/Dynamic-learning-program/线代（基础）.pdf",
+    "name": "线代（基础）.pdf",
+    "size": 95802447,
+    "mtime_ns": 1788025997415598300,
+    "sha256": "db2d5f03fe309b59ccab457dfa520ca659255d4d0a386b610629a4db0d1bb684",
+    "pages": 171
+  },
+  "config": {
+    "script_version": "3.0.0",
+    "mineru_version": "mineru, version 3.4.5",
+    "backend": "pipeline",
+    "method": "auto",
+    "effort": "high",
+    "language": "ch",
+    "chunk_pages": 128,
+    "chunk_input_mode": "materialized",
+    "start_page": 1,
+    "end_page": 171,
+    "selected_pages": [
+      17,
+      22,
+      26,
+      38,
+      45,
+      53,
+      58,
+      71,
+      85,
+      97,
+      100,
+      114,
+      121,
+      144,
+      146,
+      147,
+      148,
+      153,
+      154,
+      155,
+      168
+    ],
+    "chapters": [
+      {
+        "key": "selection_001",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 17,
+        "end_page": 17
+      },
+      {
+        "key": "selection_002",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 22,
+        "end_page": 22
+      },
+      {
+        "key": "selection_003",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 26,
+        "end_page": 26
+      },
+      {
+        "key": "selection_004",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 38,
+        "end_page": 38
+      },
+      {
+        "key": "selection_005",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 45,
+        "end_page": 45
+      },
+      {
+        "key": "selection_006",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 53,
+        "end_page": 53
+      },
+      {
+        "key": "selection_007",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 58,
+        "end_page": 58
+      },
+      {
+        "key": "selection_008",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 71,
+        "end_page": 71
+      },
+      {
+        "key": "selection_009",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 85,
+        "end_page": 85
+      },
+      {
+        "key": "selection_010",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 97,
+        "end_page": 97
+      },
+      {
+        "key": "selection_011",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 100,
+        "end_page": 100
+      },
+      {
+        "key": "selection_012",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 114,
+        "end_page": 114
+      },
+      {
+        "key": "selection_013",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 121,
+        "end_page": 121
+      },
+      {
+        "key": "selection_014",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 144,
+        "end_page": 144
+      },
+      {
+        "key": "selection_015",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 146,
+        "end_page": 148
+      },
+      {
+        "key": "selection_016",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 153,
+        "end_page": 155
+      },
+      {
+        "key": "selection_017",
+        "file": "",
+        "title": "抽选页",
+        "start_page": 168,
+        "end_page": 168
+      }
+    ],
+    "formula": true,
+    "table": true,
+    "image_analysis": false
+  },
+  "config_hash": "60e768523975d172e4cb4fb8e5ec4beee40a3a61cb9308afdaf8e25c298c32a2",
+  "planned_chunk_ids": [
+    "0001_p000017-000017",
+    "0002_p000022-000022",
+    "0003_p000026-000026",
+    "0004_p000038-000038",
+    "0005_p000045-000045",
+    "0006_p000053-000053",
+    "0007_p000058-000058",
+    "0008_p000071-000071",
+    "0009_p000085-000085",
+    "0010_p000097-000097",
+    "0011_p000100-000100",
+    "0012_p000114-000114",
+    "0013_p000121-000121",
+    "0014_p000144-000144",
+    "0015_p000146-000148",
+    "0016_p000153-000155",
+    "0017_p000168-000168"
+  ],
+  "chunks": {
+    "0001_p000017-000017": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 17,
+      "end_page": 17,
+      "chapter_key": "selection_001",
+      "markdown": "chunks/0001_p000017-000017/attempt_01/mineru_output/0001_p000017-000017/auto/0001_p000017-000017.md",
+      "middle_json": "chunks/0001_p000017-000017/attempt_01/mineru_output/0001_p000017-000017/auto/0001_p000017-000017_middle.json",
+      "attempt_dir": "chunks/0001_p000017-000017/attempt_01",
+      "elapsed_seconds": 23.654,
+      "completed_at": "2026-08-30T09:59:18+00:00"
+    },
+    "0002_p000022-000022": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 22,
+      "end_page": 22,
+      "chapter_key": "selection_002",
+      "markdown": "chunks/0002_p000022-000022/attempt_01/mineru_output/0002_p000022-000022/auto/0002_p000022-000022.md",
+      "middle_json": "chunks/0002_p000022-000022/attempt_01/mineru_output/0002_p000022-000022/auto/0002_p000022-000022_middle.json",
+      "attempt_dir": "chunks/0002_p000022-000022/attempt_01",
+      "elapsed_seconds": 21.382,
+      "completed_at": "2026-08-30T09:59:39+00:00"
+    },
+    "0003_p000026-000026": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 26,
+      "end_page": 26,
+      "chapter_key": "selection_003",
+      "markdown": "chunks/0003_p000026-000026/attempt_01/mineru_output/0003_p000026-000026/auto/0003_p000026-000026.md",
+      "middle_json": "chunks/0003_p000026-000026/attempt_01/mineru_output/0003_p000026-000026/auto/0003_p000026-000026_middle.json",
+      "attempt_dir": "chunks/0003_p000026-000026/attempt_01",
+      "elapsed_seconds": 21.133,
+      "completed_at": "2026-08-30T10:00:00+00:00"
+    },
+    "0004_p000038-000038": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 38,
+      "end_page": 38,
+      "chapter_key": "selection_004",
+      "markdown": "chunks/0004_p000038-000038/attempt_01/mineru_output/0004_p000038-000038/auto/0004_p000038-000038.md",
+      "middle_json": "chunks/0004_p000038-000038/attempt_01/mineru_output/0004_p000038-000038/auto/0004_p000038-000038_middle.json",
+      "attempt_dir": "chunks/0004_p000038-000038/attempt_01",
+      "elapsed_seconds": 21.114,
+      "completed_at": "2026-08-30T10:00:21+00:00"
+    },
+    "0005_p000045-000045": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 45,
+      "end_page": 45,
+      "chapter_key": "selection_005",
+      "markdown": "chunks/0005_p000045-000045/attempt_01/mineru_output/0005_p000045-000045/auto/0005_p000045-000045.md",
+      "middle_json": "chunks/0005_p000045-000045/attempt_01/mineru_output/0005_p000045-000045/auto/0005_p000045-000045_middle.json",
+      "attempt_dir": "chunks/0005_p000045-000045/attempt_01",
+      "elapsed_seconds": 20.836,
+      "completed_at": "2026-08-30T10:00:42+00:00"
+    },
+    "0006_p000053-000053": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 53,
+      "end_page": 53,
+      "chapter_key": "selection_006",
+      "markdown": "chunks/0006_p000053-000053/attempt_01/mineru_output/0006_p000053-000053/auto/0006_p000053-000053.md",
+      "middle_json": "chunks/0006_p000053-000053/attempt_01/mineru_output/0006_p000053-000053/auto/0006_p000053-000053_middle.json",
+      "attempt_dir": "chunks/0006_p000053-000053/attempt_01",
+      "elapsed_seconds": 20.512,
+      "completed_at": "2026-08-30T10:01:03+00:00"
+    },
+    "0007_p000058-000058": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 58,
+      "end_page": 58,
+      "chapter_key": "selection_007",
+      "markdown": "chunks/0007_p000058-000058/attempt_01/mineru_output/0007_p000058-000058/auto/0007_p000058-000058.md",
+      "middle_json": "chunks/0007_p000058-000058/attempt_01/mineru_output/0007_p000058-000058/auto/0007_p000058-000058_middle.json",
+      "attempt_dir": "chunks/0007_p000058-000058/attempt_01",
+      "elapsed_seconds": 19.414,
+      "completed_at": "2026-08-30T10:01:22+00:00"
+    },
+    "0008_p000071-000071": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 71,
+      "end_page": 71,
+      "chapter_key": "selection_008",
+      "markdown": "chunks/0008_p000071-000071/attempt_01/mineru_output/0008_p000071-000071/auto/0008_p000071-000071.md",
+      "middle_json": "chunks/0008_p000071-000071/attempt_01/mineru_output/0008_p000071-000071/auto/0008_p000071-000071_middle.json",
+      "attempt_dir": "chunks/0008_p000071-000071/attempt_01",
+      "elapsed_seconds": 23.663,
+      "completed_at": "2026-08-30T10:01:46+00:00"
+    },
+    "0009_p000085-000085": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 85,
+      "end_page": 85,
+      "chapter_key": "selection_009",
+      "markdown": "chunks/0009_p000085-000085/attempt_01/mineru_output/0009_p000085-000085/auto/0009_p000085-000085.md",
+      "middle_json": "chunks/0009_p000085-000085/attempt_01/mineru_output/0009_p000085-000085/auto/0009_p000085-000085_middle.json",
+      "attempt_dir": "chunks/0009_p000085-000085/attempt_01",
+      "elapsed_seconds": 20.543,
+      "completed_at": "2026-08-30T10:02:07+00:00"
+    },
+    "0010_p000097-000097": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 97,
+      "end_page": 97,
+      "chapter_key": "selection_010",
+      "markdown": "chunks/0010_p000097-000097/attempt_01/mineru_output/0010_p000097-000097/auto/0010_p000097-000097.md",
+      "middle_json": "chunks/0010_p000097-000097/attempt_01/mineru_output/0010_p000097-000097/auto/0010_p000097-000097_middle.json",
+      "attempt_dir": "chunks/0010_p000097-000097/attempt_01",
+      "elapsed_seconds": 23.539,
+      "completed_at": "2026-08-30T10:02:30+00:00"
+    },
+    "0011_p000100-000100": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 100,
+      "end_page": 100,
+      "chapter_key": "selection_011",
+      "markdown": "chunks/0011_p000100-000100/attempt_01/mineru_output/0011_p000100-000100/auto/0011_p000100-000100.md",
+      "middle_json": "chunks/0011_p000100-000100/attempt_01/mineru_output/0011_p000100-000100/auto/0011_p000100-000100_middle.json",
+      "attempt_dir": "chunks/0011_p000100-000100/attempt_01",
+      "elapsed_seconds": 23.586,
+      "completed_at": "2026-08-30T10:02:54+00:00"
+    },
+    "0012_p000114-000114": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 114,
+      "end_page": 114,
+      "chapter_key": "selection_012",
+      "markdown": "chunks/0012_p000114-000114/attempt_01/mineru_output/0012_p000114-000114/auto/0012_p000114-000114.md",
+      "middle_json": "chunks/0012_p000114-000114/attempt_01/mineru_output/0012_p000114-000114/auto/0012_p000114-000114_middle.json",
+      "attempt_dir": "chunks/0012_p000114-000114/attempt_01",
+      "elapsed_seconds": 25.176,
+      "completed_at": "2026-08-30T10:03:19+00:00"
+    },
+    "0013_p000121-000121": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 121,
+      "end_page": 121,
+      "chapter_key": "selection_013",
+      "markdown": "chunks/0013_p000121-000121/attempt_01/mineru_output/0013_p000121-000121/auto/0013_p000121-000121.md",
+      "middle_json": "chunks/0013_p000121-000121/attempt_01/mineru_output/0013_p000121-000121/auto/0013_p000121-000121_middle.json",
+      "attempt_dir": "chunks/0013_p000121-000121/attempt_01",
+      "elapsed_seconds": 21.509,
+      "completed_at": "2026-08-30T10:03:40+00:00"
+    },
+    "0014_p000144-000144": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 144,
+      "end_page": 144,
+      "chapter_key": "selection_014",
+      "markdown": "chunks/0014_p000144-000144/attempt_01/mineru_output/0014_p000144-000144/auto/0014_p000144-000144.md",
+      "middle_json": "chunks/0014_p000144-000144/attempt_01/mineru_output/0014_p000144-000144/auto/0014_p000144-000144_middle.json",
+      "attempt_dir": "chunks/0014_p000144-000144/attempt_01",
+      "elapsed_seconds": 22.555,
+      "completed_at": "2026-08-30T10:04:03+00:00"
+    },
+    "0015_p000146-000148": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 146,
+      "end_page": 148,
+      "chapter_key": "selection_015",
+      "markdown": "chunks/0015_p000146-000148/attempt_01/mineru_output/0015_p000146-000148/auto/0015_p000146-000148.md",
+      "middle_json": "chunks/0015_p000146-000148/attempt_01/mineru_output/0015_p000146-000148/auto/0015_p000146-000148_middle.json",
+      "attempt_dir": "chunks/0015_p000146-000148/attempt_01",
+      "elapsed_seconds": 24.552,
+      "completed_at": "2026-08-30T10:04:28+00:00"
+    },
+    "0016_p000153-000155": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 153,
+      "end_page": 155,
+      "chapter_key": "selection_016",
+      "markdown": "chunks/0016_p000153-000155/attempt_01/mineru_output/0016_p000153-000155/auto/0016_p000153-000155.md",
+      "middle_json": "chunks/0016_p000153-000155/attempt_01/mineru_output/0016_p000153-000155/auto/0016_p000153-000155_middle.json",
+      "attempt_dir": "chunks/0016_p000153-000155/attempt_01",
+      "elapsed_seconds": 22.515,
+      "completed_at": "2026-08-30T10:04:50+00:00"
+    },
+    "0017_p000168-000168": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 168,
+      "end_page": 168,
+      "chapter_key": "selection_017",
+      "markdown": "chunks/0017_p000168-000168/attempt_01/mineru_output/0017_p000168-000168/auto/0017_p000168-000168.md",
+      "middle_json": "chunks/0017_p000168-000168/attempt_01/mineru_output/0017_p000168-000168/auto/0017_p000168-000168_middle.json",
+      "attempt_dir": "chunks/0017_p000168-000168/attempt_01",
+      "elapsed_seconds": 21.573,
+      "completed_at": "2026-08-30T10:05:12+00:00"
+    }
+  }
+}

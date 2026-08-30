@@ -1,0 +1,1817 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.9591,
+                    "bbox": [
+                        78,
+                        67,
+                        392,
+                        82
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                81,
+                                68,
+                                390,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        81,
+                                        68,
+                                        390,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "【注】注意和例8的区别.例8中不能求出A的具体特征值.",
+                                    "score": 0.989
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7856,
+                    "bbox": [
+                        79,
+                        108,
+                        331,
+                        125
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                106,
+                                331,
+                                127
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        106,
+                                        331,
+                                        127
+                                    ],
+                                    "type": "text",
+                                    "content": "例20【解】（1）因A中有二阶子式非零，于是",
+                                    "score": 0.991
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.921,
+                    "bbox": [
+                        169,
+                        132,
+                        288,
+                        147
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                169,
+                                132,
+                                288,
+                                147
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        169,
+                                        132,
+                                        288,
+                                        147
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "r(\\boldsymbol{A}) = 2 \\Leftrightarrow \\left| \\boldsymbol{A} \\right| = 0,",
+                                    "image_path": "23e8bf77bd54f0f0e9225c299836e7f0195c2176c41779ad8dd7dcc7cbcf90ab.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9664,
+                    "bbox": [
+                        79,
+                        151,
+                        315,
+                        206
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                152,
+                                309,
+                                206
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        173,
+                                        93,
+                                        187
+                                    ],
+                                    "type": "text",
+                                    "content": "而",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        93,
+                                        152,
+                                        238,
+                                        206
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\begin{vmatrix} 1 & a & - 1 \\\\ a & 3 & 1 \\\\ - 1 & 1 & 1 \\end{vmatrix} = - (a + 1)^{2}",
+                                    "score": 0.9579
+                                },
+                                {
+                                    "bbox": [
+                                        239,
+                                        173,
+                                        268,
+                                        188
+                                    ],
+                                    "type": "text",
+                                    "content": ",所以",
+                                    "score": 0.922
+                                },
+                                {
+                                    "bbox": [
+                                        268,
+                                        173,
+                                        309,
+                                        185
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a = -1",
+                                    "score": 0.5962
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.955,
+                    "bbox": [
+                        79,
+                        212,
+                        199,
+                        226
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                81,
+                                213,
+                                197,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        81,
+                                        213,
+                                        197,
+                                        226
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)由A的特征多项式",
+                                    "score": 0.932
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9671,
+                    "bbox": [
+                        83,
+                        232,
+                        374,
+                        287
+                    ],
+                    "index": 9,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                232,
+                                374,
+                                287
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        232,
+                                        374,
+                                        287
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = \\left| \\begin{matrix} \\lambda - 1 & 1 & 1 \\\\ 1 & \\lambda - 3 & - 1 \\\\ 1 & - 1 & \\lambda - 1 \\end{matrix} \\right| = \\lambda (\\lambda - 1) (\\lambda - 4)   ,",
+                                    "image_path": "cabeb5168b31cc40654d05cc52ed9afb32bc782fb2cdbc2c14daab3c03c9d6c6.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9569,
+                    "bbox": [
+                        77,
+                        292,
+                        205,
+                        306
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                293,
+                                203,
+                                306
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        293,
+                                        203,
+                                        306
+                                    ],
+                                    "type": "text",
+                                    "content": "得到A的特征值：1,4,0.",
+                                    "score": 0.983
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8823,
+                    "bbox": [
+                        77,
+                        312,
+                        391,
+                        327
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                311,
+                                388,
+                                329
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        312,
+                                        92,
+                                        329
+                                    ],
+                                    "type": "text",
+                                    "content": "对",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        92,
+                                        313,
+                                        128,
+                                        326
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{1} = 1",
+                                    "score": 0.7656
+                                },
+                                {
+                                    "bbox": [
+                                        128,
+                                        311,
+                                        146,
+                                        329
+                                    ],
+                                    "type": "text",
+                                    "content": ",由",
+                                    "score": 0.919
+                                },
+                                {
+                                    "bbox": [
+                                        146,
+                                        313,
+                                        219,
+                                        326
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "(E - A)x = 0",
+                                    "score": 0.5829
+                                },
+                                {
+                                    "bbox": [
+                                        220,
+                                        313,
+                                        281,
+                                        328
+                                    ],
+                                    "type": "text",
+                                    "content": "得特征向量",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        282,
+                                        313,
+                                        388,
+                                        326
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{a}_{1} = (-1, -1, 1)^{\\mathrm{T}}",
+                                    "score": 0.8411
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8725,
+                    "bbox": [
+                        78,
+                        333,
+                        383,
+                        347
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                77,
+                                331,
+                                379,
+                                350
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        332,
+                                        92,
+                                        350
+                                    ],
+                                    "type": "text",
+                                    "content": "对",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        92,
+                                        334,
+                                        128,
+                                        346
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{2} = 4",
+                                    "score": 0.8426
+                                },
+                                {
+                                    "bbox": [
+                                        129,
+                                        331,
+                                        146,
+                                        350
+                                    ],
+                                    "type": "text",
+                                    "content": ",由",
+                                    "score": 0.894
+                                },
+                                {
+                                    "bbox": [
+                                        146,
+                                        333,
+                                        225,
+                                        346
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "(4E - A)x = 0",
+                                    "score": 0.6068
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        334,
+                                        287,
+                                        348
+                                    ],
+                                    "type": "text",
+                                    "content": "得特征向量",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        288,
+                                        333,
+                                        379,
+                                        347
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{a}_{2}=(-1,2,1)^{\\mathrm{T}}",
+                                    "score": 0.9359
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9057,
+                    "bbox": [
+                        77,
+                        353,
+                        372,
+                        367
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                352,
+                                367,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        353,
+                                        92,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "对",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        92,
+                                        354,
+                                        128,
+                                        366
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{3} = 0",
+                                    "score": 0.7365
+                                },
+                                {
+                                    "bbox": [
+                                        129,
+                                        352,
+                                        146,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": ",由",
+                                    "score": 0.882
+                                },
+                                {
+                                    "bbox": [
+                                        146,
+                                        353,
+                                        225,
+                                        366
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left( 0 \\boldsymbol{E} - \\boldsymbol{A} \\right) \\boldsymbol{x} = \\boldsymbol{0}",
+                                    "score": 0.5746
+                                },
+                                {
+                                    "bbox": [
+                                        226,
+                                        353,
+                                        288,
+                                        369
+                                    ],
+                                    "type": "text",
+                                    "content": "得特征向量",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        288,
+                                        353,
+                                        367,
+                                        367
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{\\alpha}_{3} = (1,0,1)^{\\mathrm{T}}",
+                                    "score": 0.9452
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9481,
+                    "bbox": [
+                        78,
+                        373,
+                        402,
+                        388
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                81,
+                                375,
+                                400,
+                                387
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        81,
+                                        375,
+                                        400,
+                                        387
+                                    ],
+                                    "type": "text",
+                                    "content": "因实对称矩阵的特征值不同，特征向量已相互正交，单位化后有",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.976,
+                    "bbox": [
+                        112,
+                        393,
+                        343,
+                        448
+                    ],
+                    "index": 15,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                112,
+                                393,
+                                343,
+                                448
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        112,
+                                        393,
+                                        343,
+                                        448
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\gamma_{1}=\\frac{1}{\\sqrt{3}}\\left[\\begin{aligned}-1 \\\\ -1 \\\\ 1\\end{aligned}\\right], \\gamma_{2}=\\frac{1}{\\sqrt{6}}\\left[\\begin{aligned}-1 \\\\ 2 \\\\ 1\\end{aligned}\\right], \\gamma_{3}=\\frac{1}{\\sqrt{2}}\\left[\\begin{aligned}1 \\\\ 0 \\\\ 1\\end{aligned}\\right].",
+                                    "image_path": "ac6df65354f89d9c4d64e67b806fd75b0c8414408ddd605a55dc91d77bd5f44e.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.934,
+                    "bbox": [
+                        57,
+                        453,
+                        402,
+                        560
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                454,
+                                400,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        454,
+                                        254,
+                                        559
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{Q}=\\left(\\boldsymbol{\\gamma}_{1}, \\boldsymbol{\\gamma}_{2}, \\boldsymbol{\\gamma}_{3}\\right)=\\left[\\begin{aligned}&-\\frac{1}{\\sqrt{3}} & -\\frac{1}{\\sqrt{6}} & \\frac{1}{\\sqrt{2}} \\\\&-\\frac{1}{\\sqrt{3}} & \\frac{2}{\\sqrt{6}} & 0 \\\\&\\frac{1}{\\sqrt{3}} & \\frac{1}{\\sqrt{6}} & \\frac{1}{\\sqrt{2}}\\end{aligned}\\right]",
+                                    "score": 0.9212
+                                },
+                                {
+                                    "bbox": [
+                                        255,
+                                        498,
+                                        273,
+                                        516
+                                    ],
+                                    "type": "text",
+                                    "content": ",则",
+                                    "score": 0.955
+                                },
+                                {
+                                    "bbox": [
+                                        273,
+                                        479,
+                                        400,
+                                        534
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "Q^{-1}AQ = \\boldsymbol{\\Lambda} = \\begin{bmatrix} 1 & & \\\\ & 4 & \\\\ & & 0 \\end{bmatrix}.",
+                                    "score": 0.9612
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9427,
+                    "bbox": [
+                        72,
+                        585,
+                        306,
+                        601
+                    ],
+                    "index": 17,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                586,
+                                305,
+                                600
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        586,
+                                        154,
+                                        600
+                                    ],
+                                    "type": "text",
+                                    "content": "本章作业超链接",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        172,
+                                        586,
+                                        305,
+                                        600
+                                    ],
+                                    "type": "text",
+                                    "content": "《基础过关660题》优选",
+                                    "score": 0.975
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        69,
+                        614,
+                        443,
+                        730
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9411,
+                            "bbox": [
+                                69,
+                                614,
+                                443,
+                                730
+                            ],
+                            "index": 18,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        614,
+                                        443,
+                                        730
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                69,
+                                                614,
+                                                443,
+                                                730
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>数学一</td><td>405</td><td>407</td><td>410</td><td>412</td><td>413</td><td>414</td><td>417</td><td>489</td><td>490</td><td>492</td><td>495</td></tr><tr><td>数学二</td><td>498</td><td>500</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>522</td><td>524</td><td>527</td><td>529</td><td>530</td><td>531</td><td>534</td><td>632</td><td>633</td><td>635</td><td>638</td></tr><tr><td>数学三</td><td>641 405</td><td>643</td><td>410</td><td></td><td>413</td><td></td><td>414417</td><td></td><td>490</td><td>492</td><td></td></tr><tr><td></td><td></td><td>407</td><td></td><td>412</td><td></td><td></td><td></td><td>489</td><td></td><td></td><td>495</td></tr><tr><td></td><td>498</td><td>500</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                                            "image_path": "c9d3c8b7daffe7d67514d3df14f0f7387668dd0d2f8d28c968dcb508982b7b97.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "score": 0.9411
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        458,
+                        641,
+                        501,
+                        696
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9194,
+                            "bbox": [
+                                458,
+                                641,
+                                501,
+                                696
+                            ],
+                            "index": 19,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        458,
+                                        641,
+                                        501,
+                                        696
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                458,
+                                                641,
+                                                501,
+                                                696
+                                            ],
+                                            "type": "image",
+                                            "image_path": "b9347c517597cf33ab99ca7262807736b12e1c9601152bf6f006c85d068ad743.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "score": 0.9194
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.4796,
+                    "bbox": [
+                        546,
+                        473,
+                        564,
+                        632
+                    ],
+                    "index": 1,
+                    "type": "aside_text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                547,
+                                478,
+                                562,
+                                590
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        547,
+                                        478,
+                                        562,
+                                        590
+                                    ],
+                                    "type": "text",
+                                    "content": "特征值和特征向量区",
+                                    "score": 0.938
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9001,
+                    "bbox": [
+                        302,
+                        34,
+                        399,
+                        47
+                    ],
+                    "index": 2,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                301,
+                                33,
+                                400,
+                                47
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        301,
+                                        33,
+                                        400,
+                                        47
+                                    ],
+                                    "type": "text",
+                                    "content": "线性代数基础·学习册",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.927,
+                    "bbox": [
+                        405,
+                        35,
+                        522,
+                        47
+                    ],
+                    "index": 3,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                403,
+                                34,
+                                522,
+                                47
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        403,
+                                        34,
+                                        522,
+                                        47
+                                    ],
+                                    "type": "text",
+                                    "content": "第五章特征值和特征向量",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9213,
+                    "bbox": [
+                        276,
+                        791,
+                        299,
+                        803
+                    ],
+                    "index": 20,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                278,
+                                792,
+                                298,
+                                804
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        278,
+                                        792,
+                                        298,
+                                        804
+                                    ],
+                                    "type": "text",
+                                    "content": "129",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.9591,
+                    "bbox": [
+                        78,
+                        67,
+                        392,
+                        82
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                81,
+                                68,
+                                390,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        81,
+                                        68,
+                                        390,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "【注】注意和例8的区别.例8中不能求出A的具体特征值.",
+                                    "score": 0.989
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        81,
+                        68,
+                        390,
+                        81
+                    ]
+                },
+                {
+                    "score": 0.7856,
+                    "bbox": [
+                        79,
+                        108,
+                        331,
+                        125
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                106,
+                                331,
+                                127
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        106,
+                                        331,
+                                        127
+                                    ],
+                                    "type": "text",
+                                    "content": "例20【解】（1）因A中有二阶子式非零，于是",
+                                    "score": 0.991
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        78,
+                        106,
+                        331,
+                        127
+                    ]
+                },
+                {
+                    "score": 0.921,
+                    "bbox": [
+                        169,
+                        132,
+                        288,
+                        147
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                169,
+                                132,
+                                288,
+                                147
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        169,
+                                        132,
+                                        288,
+                                        147
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "r(\\boldsymbol{A}) = 2 \\Leftrightarrow \\left| \\boldsymbol{A} \\right| = 0,",
+                                    "image_path": "23e8bf77bd54f0f0e9225c299836e7f0195c2176c41779ad8dd7dcc7cbcf90ab.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9664,
+                    "bbox": [
+                        79,
+                        151,
+                        315,
+                        206
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                152,
+                                309,
+                                206
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        173,
+                                        93,
+                                        187
+                                    ],
+                                    "type": "text",
+                                    "content": "而",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        93,
+                                        152,
+                                        238,
+                                        206
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\begin{vmatrix} 1 & a & - 1 \\\\ a & 3 & 1 \\\\ - 1 & 1 & 1 \\end{vmatrix} = - (a + 1)^{2}",
+                                    "score": 0.9579
+                                },
+                                {
+                                    "bbox": [
+                                        239,
+                                        173,
+                                        268,
+                                        188
+                                    ],
+                                    "type": "text",
+                                    "content": ",所以",
+                                    "score": 0.922
+                                },
+                                {
+                                    "bbox": [
+                                        268,
+                                        173,
+                                        309,
+                                        185
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a = -1",
+                                    "score": 0.5962
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        80,
+                        152,
+                        309,
+                        206
+                    ]
+                },
+                {
+                    "score": 0.955,
+                    "bbox": [
+                        79,
+                        212,
+                        199,
+                        226
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                81,
+                                213,
+                                197,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        81,
+                                        213,
+                                        197,
+                                        226
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)由A的特征多项式",
+                                    "score": 0.932
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        81,
+                        213,
+                        197,
+                        226
+                    ]
+                },
+                {
+                    "score": 0.9671,
+                    "bbox": [
+                        83,
+                        232,
+                        374,
+                        287
+                    ],
+                    "index": 9,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                232,
+                                374,
+                                287
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        232,
+                                        374,
+                                        287
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = \\left| \\begin{matrix} \\lambda - 1 & 1 & 1 \\\\ 1 & \\lambda - 3 & - 1 \\\\ 1 & - 1 & \\lambda - 1 \\end{matrix} \\right| = \\lambda (\\lambda - 1) (\\lambda - 4)   ,",
+                                    "image_path": "cabeb5168b31cc40654d05cc52ed9afb32bc782fb2cdbc2c14daab3c03c9d6c6.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9569,
+                    "bbox": [
+                        77,
+                        292,
+                        205,
+                        306
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                293,
+                                203,
+                                306
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        293,
+                                        203,
+                                        306
+                                    ],
+                                    "type": "text",
+                                    "content": "得到A的特征值：1,4,0.",
+                                    "score": 0.983
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        80,
+                        293,
+                        203,
+                        306
+                    ]
+                },
+                {
+                    "score": 0.8823,
+                    "bbox": [
+                        77,
+                        312,
+                        391,
+                        327
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                311,
+                                388,
+                                329
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        312,
+                                        92,
+                                        329
+                                    ],
+                                    "type": "text",
+                                    "content": "对",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        92,
+                                        313,
+                                        128,
+                                        326
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{1} = 1",
+                                    "score": 0.7656
+                                },
+                                {
+                                    "bbox": [
+                                        128,
+                                        311,
+                                        146,
+                                        329
+                                    ],
+                                    "type": "text",
+                                    "content": ",由",
+                                    "score": 0.919
+                                },
+                                {
+                                    "bbox": [
+                                        146,
+                                        313,
+                                        219,
+                                        326
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "(E - A)x = 0",
+                                    "score": 0.5829
+                                },
+                                {
+                                    "bbox": [
+                                        220,
+                                        313,
+                                        281,
+                                        328
+                                    ],
+                                    "type": "text",
+                                    "content": "得特征向量",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        282,
+                                        313,
+                                        388,
+                                        326
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{a}_{1} = (-1, -1, 1)^{\\mathrm{T}}",
+                                    "score": 0.8411
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        78,
+                        311,
+                        388,
+                        329
+                    ]
+                },
+                {
+                    "score": 0.8725,
+                    "bbox": [
+                        78,
+                        333,
+                        383,
+                        347
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                77,
+                                331,
+                                379,
+                                350
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        77,
+                                        332,
+                                        92,
+                                        350
+                                    ],
+                                    "type": "text",
+                                    "content": "对",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        92,
+                                        334,
+                                        128,
+                                        346
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{2} = 4",
+                                    "score": 0.8426
+                                },
+                                {
+                                    "bbox": [
+                                        129,
+                                        331,
+                                        146,
+                                        350
+                                    ],
+                                    "type": "text",
+                                    "content": ",由",
+                                    "score": 0.894
+                                },
+                                {
+                                    "bbox": [
+                                        146,
+                                        333,
+                                        225,
+                                        346
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "(4E - A)x = 0",
+                                    "score": 0.6068
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        334,
+                                        287,
+                                        348
+                                    ],
+                                    "type": "text",
+                                    "content": "得特征向量",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        288,
+                                        333,
+                                        379,
+                                        347
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{a}_{2}=(-1,2,1)^{\\mathrm{T}}",
+                                    "score": 0.9359
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        77,
+                        331,
+                        379,
+                        350
+                    ]
+                },
+                {
+                    "score": 0.9057,
+                    "bbox": [
+                        77,
+                        353,
+                        372,
+                        367
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                352,
+                                367,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        353,
+                                        92,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "对",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        92,
+                                        354,
+                                        128,
+                                        366
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{3} = 0",
+                                    "score": 0.7365
+                                },
+                                {
+                                    "bbox": [
+                                        129,
+                                        352,
+                                        146,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": ",由",
+                                    "score": 0.882
+                                },
+                                {
+                                    "bbox": [
+                                        146,
+                                        353,
+                                        225,
+                                        366
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left( 0 \\boldsymbol{E} - \\boldsymbol{A} \\right) \\boldsymbol{x} = \\boldsymbol{0}",
+                                    "score": 0.5746
+                                },
+                                {
+                                    "bbox": [
+                                        226,
+                                        353,
+                                        288,
+                                        369
+                                    ],
+                                    "type": "text",
+                                    "content": "得特征向量",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        288,
+                                        353,
+                                        367,
+                                        367
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{\\alpha}_{3} = (1,0,1)^{\\mathrm{T}}",
+                                    "score": 0.9452
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        78,
+                        352,
+                        367,
+                        370
+                    ]
+                },
+                {
+                    "score": 0.9481,
+                    "bbox": [
+                        78,
+                        373,
+                        402,
+                        388
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                81,
+                                375,
+                                400,
+                                387
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        81,
+                                        375,
+                                        400,
+                                        387
+                                    ],
+                                    "type": "text",
+                                    "content": "因实对称矩阵的特征值不同，特征向量已相互正交，单位化后有",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        81,
+                        375,
+                        400,
+                        387
+                    ]
+                },
+                {
+                    "score": 0.976,
+                    "bbox": [
+                        112,
+                        393,
+                        343,
+                        448
+                    ],
+                    "index": 15,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                112,
+                                393,
+                                343,
+                                448
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        112,
+                                        393,
+                                        343,
+                                        448
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\gamma_{1}=\\frac{1}{\\sqrt{3}}\\left[\\begin{aligned}-1 \\\\ -1 \\\\ 1\\end{aligned}\\right], \\gamma_{2}=\\frac{1}{\\sqrt{6}}\\left[\\begin{aligned}-1 \\\\ 2 \\\\ 1\\end{aligned}\\right], \\gamma_{3}=\\frac{1}{\\sqrt{2}}\\left[\\begin{aligned}1 \\\\ 0 \\\\ 1\\end{aligned}\\right].",
+                                    "image_path": "ac6df65354f89d9c4d64e67b806fd75b0c8414408ddd605a55dc91d77bd5f44e.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.934,
+                    "bbox": [
+                        57,
+                        453,
+                        402,
+                        560
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                454,
+                                400,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        454,
+                                        254,
+                                        559
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{Q}=\\left(\\boldsymbol{\\gamma}_{1}, \\boldsymbol{\\gamma}_{2}, \\boldsymbol{\\gamma}_{3}\\right)=\\left[\\begin{aligned}&-\\frac{1}{\\sqrt{3}} & -\\frac{1}{\\sqrt{6}} & \\frac{1}{\\sqrt{2}} \\\\&-\\frac{1}{\\sqrt{3}} & \\frac{2}{\\sqrt{6}} & 0 \\\\&\\frac{1}{\\sqrt{3}} & \\frac{1}{\\sqrt{6}} & \\frac{1}{\\sqrt{2}}\\end{aligned}\\right]",
+                                    "score": 0.9212
+                                },
+                                {
+                                    "bbox": [
+                                        255,
+                                        498,
+                                        273,
+                                        516
+                                    ],
+                                    "type": "text",
+                                    "content": ",则",
+                                    "score": 0.955
+                                },
+                                {
+                                    "bbox": [
+                                        273,
+                                        479,
+                                        400,
+                                        534
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "Q^{-1}AQ = \\boldsymbol{\\Lambda} = \\begin{bmatrix} 1 & & \\\\ & 4 & \\\\ & & 0 \\end{bmatrix}.",
+                                    "score": 0.9612
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        70,
+                        454,
+                        400,
+                        559
+                    ]
+                },
+                {
+                    "score": 0.9427,
+                    "bbox": [
+                        72,
+                        585,
+                        306,
+                        601
+                    ],
+                    "index": 17,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                586,
+                                305,
+                                600
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        586,
+                                        154,
+                                        600
+                                    ],
+                                    "type": "text",
+                                    "content": "本章作业超链接",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        172,
+                                        586,
+                                        305,
+                                        600
+                                    ],
+                                    "type": "text",
+                                    "content": "《基础过关660题》优选",
+                                    "score": 0.975
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        69,
+                        614,
+                        443,
+                        730
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9411,
+                            "bbox": [
+                                69,
+                                614,
+                                443,
+                                730
+                            ],
+                            "index": 18,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        614,
+                                        443,
+                                        730
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                69,
+                                                614,
+                                                443,
+                                                730
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>数学一</td><td>405</td><td>407</td><td>410</td><td>412</td><td>413</td><td>414</td><td>417</td><td>489</td><td>490</td><td>492</td><td>495</td></tr><tr><td>数学二</td><td>498</td><td>500</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>522</td><td>524</td><td>527</td><td>529</td><td>530</td><td>531</td><td>534</td><td>632</td><td>633</td><td>635</td><td>638</td></tr><tr><td>数学三</td><td>641 405</td><td>643</td><td>410</td><td></td><td>413</td><td></td><td>414417</td><td></td><td>490</td><td>492</td><td></td></tr><tr><td></td><td></td><td>407</td><td></td><td>412</td><td></td><td></td><td></td><td>489</td><td></td><td></td><td>495</td></tr><tr><td></td><td>498</td><td>500</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                                            "image_path": "c9d3c8b7daffe7d67514d3df14f0f7387668dd0d2f8d28c968dcb508982b7b97.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "score": 0.9411
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        458,
+                        641,
+                        501,
+                        696
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9194,
+                            "bbox": [
+                                458,
+                                641,
+                                501,
+                                696
+                            ],
+                            "index": 19,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        458,
+                                        641,
+                                        501,
+                                        696
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                458,
+                                                641,
+                                                501,
+                                                696
+                                            ],
+                                            "type": "image",
+                                            "image_path": "b9347c517597cf33ab99ca7262807736b12e1c9601152bf6f006c85d068ad743.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "score": 0.9194
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.5"
+}

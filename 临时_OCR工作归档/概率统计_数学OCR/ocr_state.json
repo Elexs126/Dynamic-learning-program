@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "script_version": "3.0.0",
+  "created_at": "2026-08-30T10:35:49+00:00",
+  "updated_at": "2026-08-30T10:42:08+00:00",
+  "source": {
+    "path": "/home/elexs/Dynamic-learning-program/01.27考研数学-概率论与数理统计-辅导讲义-基础强化一本通【数一二三通用.pdf",
+    "name": "01.27考研数学-概率论与数理统计-辅导讲义-基础强化一本通【数一二三通用.pdf",
+    "size": 411483480,
+    "mtime_ns": 1788025964680636300,
+    "sha256": "75874d77eedbb70b4691207d21a966d747614d9f95c8c27d51bacb26b85f0c59",
+    "pages": 249
+  },
+  "config": {
+    "script_version": "3.0.0",
+    "mineru_version": "mineru, version 3.4.5",
+    "backend": "pipeline",
+    "method": "auto",
+    "effort": "high",
+    "language": "ch",
+    "chunk_pages": 128,
+    "chunk_input_mode": "materialized",
+    "start_page": 1,
+    "end_page": 249,
+    "selected_pages": null,
+    "chapters": [
+      {
+        "key": "book",
+        "file": "",
+        "title": "全文",
+        "start_page": 1,
+        "end_page": 249
+      }
+    ],
+    "formula": true,
+    "table": true,
+    "image_analysis": false
+  },
+  "config_hash": "e0a29dbbac718760b95fc2febe3834245a66146aa14ca131710409b120d352b5",
+  "planned_chunk_ids": [
+    "0001_p000001-000128",
+    "0002_p000129-000249"
+  ],
+  "chunks": {
+    "0001_p000001-000128": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 1,
+      "end_page": 128,
+      "chapter_key": "book",
+      "markdown": "chunks/0001_p000001-000128/attempt_01/mineru_output/0001_p000001-000128/auto/0001_p000001-000128.md",
+      "middle_json": "chunks/0001_p000001-000128/attempt_01/mineru_output/0001_p000001-000128/auto/0001_p000001-000128_middle.json",
+      "attempt_dir": "chunks/0001_p000001-000128/attempt_01",
+      "elapsed_seconds": 168.133,
+      "completed_at": "2026-08-30T10:38:38+00:00"
+    },
+    "0002_p000129-000249": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 129,
+      "end_page": 249,
+      "chapter_key": "book",
+      "markdown": "chunks/0002_p000129-000249/attempt_01/mineru_output/0002_p000129-000249/auto/0002_p000129-000249.md",
+      "middle_json": "chunks/0002_p000129-000249/attempt_01/mineru_output/0002_p000129-000249/auto/0002_p000129-000249_middle.json",
+      "attempt_dir": "chunks/0002_p000129-000249/attempt_01",
+      "elapsed_seconds": 210.081,
+      "completed_at": "2026-08-30T10:42:08+00:00"
+    }
+  }
+}

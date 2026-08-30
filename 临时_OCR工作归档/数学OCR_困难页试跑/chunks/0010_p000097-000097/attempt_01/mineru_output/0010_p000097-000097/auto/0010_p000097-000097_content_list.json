@@ -1,0 +1,274 @@
+[
+    {
+        "type": "text",
+        "text": "必有 $a \\neq b$ ，此时 A 中 $\\begin{vmatrix} a & b \\\\ b & a \\end{vmatrix} \\neq 0$ ,而",
+        "bbox": [
+            322,
+            83,
+            631,
+            126
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/206b0a8de89aeb3c143d3ecde65631180ec7742bca0d8822eb62854dbebacdb3.jpg",
+        "text": "$$\n\\left| \\boldsymbol{A} \\right| = \\left| \\begin{aligned} \\boldsymbol{a} \\quad \\boldsymbol{b} \\quad \\boldsymbol{b} \\\\ \\boldsymbol{b} \\quad \\boldsymbol{a} \\quad \\boldsymbol{b} \\\\ \\boldsymbol{b} \\quad \\boldsymbol{b} \\quad \\boldsymbol{a} \\end{aligned} \\right| = (\\boldsymbol{a} + 2\\boldsymbol{b})(\\boldsymbol{a} - \\boldsymbol{b})^{2} = 0,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            379,
+            135,
+            752,
+            203
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/8bb46df3147f519aeffb835545304694d3e4783bf98bf85207c636269dd29d3f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            0,
+            323,
+            68,
+            443
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "故应选(C).",
+        "bbox": [
+            285,
+            211,
+            384,
+            228
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例20【证】（1）因（I）可由（Ⅱ）线性表出，设",
+        "bbox": [
+            324,
+            265,
+            737,
+            285
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/443369051ffa834a6827f9d2bb661bf4a3042d0b18ff526b3164945fb063616f.jpg",
+        "text": "$$\n\\boldsymbol { \\alpha } _ { 1 } = c _ { 1 1 } \\boldsymbol { \\beta } _ { 1 } + c _ { 2 1 } \\boldsymbol { \\beta } _ { 2 } + \\cdots + c _ { t 1 } \\boldsymbol { \\beta } _ { t } ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            458,
+            294,
+            719,
+            331
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/b2b68b8338c5695f6b1a5ec35d24786ad6a226cd4b47e2ab55ee58687fdbb0d9.jpg",
+        "text": "$$\n\\boldsymbol { \\alpha } _ { s } = c _ { 1 s } \\boldsymbol { \\beta } _ { 1 } + c _ { 2 s } \\boldsymbol { \\beta } _ { 2 } + \\cdots + c _ { s } \\boldsymbol { \\beta } _ { t } ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            458,
+            342,
+            712,
+            360
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "即存在矩阵 $C = \\left[ c_{ij} \\right]$ ,使",
+        "bbox": [
+            324,
+            365,
+            534,
+            382
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "那么",
+        "bbox": [
+            322,
+            413,
+            366,
+            430
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a08d6970eb9a1202b688373133292e2d7934fe3e69afcf4a4ff6ce76ad7ca7ef.jpg",
+        "text": "$$\n\\begin{aligned}\\left( \\boldsymbol { \\alpha } _ { 1 } , \\boldsymbol { \\alpha } _ { 2 } , \\cdots , \\boldsymbol { \\alpha } _ { s } \\right) &= \\left( \\boldsymbol { \\beta } _ { 1 } , \\boldsymbol { \\beta } _ { 2 } , \\cdots , \\boldsymbol { \\beta } _ { t } \\right) \\boldsymbol { C } , \\\\r \\left( \\boldsymbol { \\alpha } _ { 1 } , \\boldsymbol { \\alpha } _ { 2 } , \\cdots , \\boldsymbol { \\alpha } _ { s } \\right) &= r \\left[ \\left( \\boldsymbol { \\beta } _ { 1 } , \\boldsymbol { \\beta } _ { 2 } , \\cdots , \\boldsymbol { \\beta } _ { t } \\right) \\boldsymbol { C } \\right] \\\\& \\leqslant r \\left( \\boldsymbol { \\beta } _ { 1 } , \\boldsymbol { \\beta } _ { 2 } , \\cdots , \\boldsymbol { \\beta } _ { t } \\right) ,\\end{aligned}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            423,
+            390,
+            757,
+            456
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "即 $r(\\mathbb{I}) \\leqslant r(\\mathbb{I})$",
+        "bbox": [
+            322,
+            461,
+            477,
+            478
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(2) 若 $s \\geq t$ ,则",
+        "bbox": [
+            324,
+            485,
+            457,
+            500
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4ae8b8bdc6cee491e58b18080483bcdea8e589e1888a9cde89987c68647f28cf.jpg",
+        "text": "$$\nr ( \\mathrm { I } ) \\leqslant r ( \\mathrm { I I } ) = r ( \\beta _ { 1 } , \\beta _ { 2 } , \\cdots , \\beta _ { t } ) \\leqslant t < s ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            507,
+            741,
+            525
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "所以 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{s}$ 必线性相关.",
+        "bbox": [
+            322,
+            532,
+            576,
+            549
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "四、正交规范化、正交矩阵",
+        "text_level": 2,
+        "bbox": [
+            324,
+            589,
+            568,
+            607
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例21【分析】设 $\\boldsymbol{\\alpha} = (x_{1}, x_{2}, x_{3})^{\\mathrm{T}}$ 与 $\\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}$ 都正交，则",
+        "bbox": [
+            322,
+            626,
+            806,
+            648
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0b3bccbc0fe72581a16fddf5e16192d69895d778b034c4d3bb9560250b3892e3.jpg",
+        "text": "$$\n\\left\\{ \\begin{aligned} \\left( \\boldsymbol{\\alpha}, \\boldsymbol{\\alpha}_{1} \\right) &= x_{1} + 3x_{2} + 2x_{3} = 0, \\\\ \\left( \\boldsymbol{\\alpha}, \\boldsymbol{\\alpha}_{2} \\right) &= x_{1} + x_{2} - 2x_{3} = 0, \\end{aligned} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            426,
+            658,
+            694,
+            700
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f5ef9070d06017e81fff9af12c14d44cf379ad8f8d7f12614726df7760e7f220.jpg",
+        "text": "$$\n{ 1 \\quad 3 \\quad 2 \\atop 1 \\quad 1 \\quad -   2 } { \\Big ] } { \\rightarrow } { 1 \\quad 3 \\quad 2 \\atop 0 \\quad 1 \\quad 2 } { \\Big ] } { \\rightarrow } { 1 \\quad 0 \\quad -   4 \\quad \\Big ] } ,\n$$",
+        "text_format": "latex",
+        "bbox": [
+            381,
+            708,
+            744,
+            747
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "得 $\\boldsymbol{\\alpha} = (4, -2, 1)^{\\mathrm{T}}$ ,再单位化有 $\\pm \\frac{1}{\\sqrt{21}}(4, -2, 1)^{\\mathrm{T}}$ 为所求.",
+        "bbox": [
+            287,
+            758,
+            783,
+            794
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例22【解】先正交化",
+        "bbox": [
+            322,
+            827,
+            534,
+            848
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/4c4948faa110c27e7c4a85347ca367fb48dd0daf7d7047b952318d14541063be.jpg",
+        "text": "$$\n\\pmb { \\beta } _ { 1 } = \\pmb { \\alpha } _ { 1 } = \\begin{bmatrix} 1 \\\\ 1 \\\\ 1 \\end{bmatrix},\n$$",
+        "text_format": "latex",
+        "bbox": [
+            322,
+            859,
+            460,
+            922
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "考研数学复习全书 基础篇",
+        "bbox": [
+            95,
+            33,
+            334,
+            61
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "82",
+        "bbox": [
+            455,
+            939,
+            484,
+            953
+        ],
+        "page_idx": 0
+    }
+]

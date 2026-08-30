@@ -1,0 +1,1859 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.9544,
+                    "bbox": [
+                        77,
+                        80,
+                        269,
+                        97
+                    ],
+                    "index": 2,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                79,
+                                81,
+                                267,
+                                96
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        81,
+                                        267,
+                                        96
+                                    ],
+                                    "type": "text",
+                                    "content": "三、行列式按行(或列）展开公式",
+                                    "score": 0.962
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.938,
+                    "bbox": [
+                        77,
+                        111,
+                        154,
+                        126
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                79,
+                                112,
+                                151,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        112,
+                                        151,
+                                        126
+                                    ],
+                                    "type": "text",
+                                    "content": "在n阶行列式",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.971,
+                    "bbox": [
+                        161,
+                        129,
+                        294,
+                        206
+                    ],
+                    "index": 4,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                161,
+                                129,
+                                294,
+                                206
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        161,
+                                        129,
+                                        294,
+                                        206
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned} &D = \\begin{vmatrix}\\\\ &a_{11} & a_{12} & \\cdots & a_{1n} \\\\&a_{21} & a_{22} & \\cdots & a_{2n} \\\\&\\vdots & \\vdots & & \\vdots \\\\&a_{n1} & a_{n2} & \\cdots & a_{nn}\\\\ &\\end{vmatrix}\\\\ \\end{aligned}",
+                                    "image_path": "8c46447cd9dd50d529884c7211c5b07e3f3857afc038712e9c7a40c1bd88808e.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        541,
+                        79,
+                        578,
+                        187
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.5648,
+                            "bbox": [
+                                541,
+                                79,
+                                578,
+                                187
+                            ],
+                            "index": 5,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        541,
+                                        79,
+                                        578,
+                                        187
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                541,
+                                                79,
+                                                578,
+                                                187
+                                            ],
+                                            "type": "image",
+                                            "image_path": "81f98bc9f89e24784512b2c6acac95109d7ac5dd0ba2f39961a2d8ed3bb60289.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "score": 0.5648
+                },
+                {
+                    "score": 0.974,
+                    "bbox": [
+                        53,
+                        209,
+                        404,
+                        243
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                210,
+                                402,
+                                223
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        210,
+                                        92,
+                                        223
+                                    ],
+                                    "type": "text",
+                                    "content": "中划去",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        93,
+                                        212,
+                                        106,
+                                        223
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{ij}",
+                                    "score": 0.8853
+                                },
+                                {
+                                    "bbox": [
+                                        107,
+                                        210,
+                                        402,
+                                        223
+                                    ],
+                                    "type": "text",
+                                    "content": "所在的第i行、第j列的元素，由剩下的元素按原来的位置",
+                                    "score": 0.999
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                56,
+                                230,
+                                231,
+                                241
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        230,
+                                        231,
+                                        241
+                                    ],
+                                    "type": "text",
+                                    "content": "排法构成的一个n一1阶的行列式",
+                                    "score": 0.981
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9723,
+                    "bbox": [
+                        121,
+                        247,
+                        338,
+                        365
+                    ],
+                    "index": 7,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                121,
+                                247,
+                                338,
+                                365
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        121,
+                                        247,
+                                        338,
+                                        365
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned}\\left| \\begin{array}{ccccc}\\alpha_{11} & \\cdots & \\alpha_{1,j-1} & \\alpha_{1,j+1} & \\cdots & \\alpha_{1n} \\\\\\vdots &  & \\vdots & \\vdots &  & \\vdots \\\\\\alpha_{i-1,1} & \\cdots & \\alpha_{i-1,j-1} & \\alpha_{i-1,j+1} & \\cdots & \\alpha_{i-1,n} \\\\\\alpha_{i+1,1} & \\cdots & \\alpha_{i+1,j-1} & \\alpha_{i+1,j+1} & \\cdots & \\alpha_{i+1,n} \\\\\\vdots &  & \\vdots & \\vdots &  & \\vdots \\\\\\alpha_{n1} & \\cdots & \\alpha_{n,j-1} & \\alpha_{n,j+1} & \\cdots & \\alpha_{nn} \\\\\\end{array} \\right|,\\end{aligned}",
+                                    "image_path": "8a5144e30747bc2ac4e0e525c509433986707a1a4a682c2f03434007681de0a1.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9656,
+                    "bbox": [
+                        52,
+                        367,
+                        404,
+                        399
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                367,
+                                402,
+                                382
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        367,
+                                        92,
+                                        382
+                                    ],
+                                    "type": "text",
+                                    "content": "称其为",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        93,
+                                        371,
+                                        106,
+                                        381
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a_{ij}",
+                                    "score": 0.8769
+                                },
+                                {
+                                    "bbox": [
+                                        107,
+                                        367,
+                                        189,
+                                        382
+                                    ],
+                                    "type": "text",
+                                    "content": "的余子式，记为",
+                                    "score": 0.947
+                                },
+                                {
+                                    "bbox": [
+                                        189,
+                                        369,
+                                        206,
+                                        381
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "M_{ij}",
+                                    "score": 0.8943
+                                },
+                                {
+                                    "bbox": [
+                                        207,
+                                        367,
+                                        224,
+                                        382
+                                    ],
+                                    "type": "text",
+                                    "content": ";称",
+                                    "score": 0.955
+                                },
+                                {
+                                    "bbox": [
+                                        225,
+                                        369,
+                                        281,
+                                        381
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "(-1)^{i+j}M_{ij}",
+                                    "score": 0.9137
+                                },
+                                {
+                                    "bbox": [
+                                        283,
+                                        368,
+                                        296,
+                                        381
+                                    ],
+                                    "type": "text",
+                                    "content": "为",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        297,
+                                        371,
+                                        310,
+                                        382
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{ij}",
+                                    "score": 0.8705
+                                },
+                                {
+                                    "bbox": [
+                                        311,
+                                        368,
+                                        402,
+                                        381
+                                    ],
+                                    "type": "text",
+                                    "content": "的代数余子式，记",
+                                    "score": 0.987
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                385,
+                                104,
+                                400
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        385,
+                                        68,
+                                        400
+                                    ],
+                                    "type": "text",
+                                    "content": "为",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        69,
+                                        386,
+                                        85,
+                                        398
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A_{ij}",
+                                    "score": 0.8882
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        385,
+                                        104,
+                                        400
+                                    ],
+                                    "type": "text",
+                                    "content": ",即",
+                                    "score": 0.813
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9352,
+                    "bbox": [
+                        178,
+                        403,
+                        277,
+                        418
+                    ],
+                    "index": 9,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                178,
+                                403,
+                                277,
+                                418
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        178,
+                                        403,
+                                        277,
+                                        418
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A _ { i j } = ( - 1 ) ^ { i + j } M _ { i j }   .",
+                                    "image_path": "f82ed5e3208f58277272d5585951f719967011acf823cdf7fafacfc934558ed8.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9749,
+                    "bbox": [
+                        52,
+                        422,
+                        404,
+                        456
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                81,
+                                424,
+                                401,
+                                435
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        81,
+                                        424,
+                                        401,
+                                        435
+                                    ],
+                                    "type": "text",
+                                    "content": "定理1.1 n阶行列式等于它的任何一行(列)元素与其对应的代",
+                                    "score": 0.987
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                56,
+                                443,
+                                168,
+                                454
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        443,
+                                        168,
+                                        454
+                                    ],
+                                    "type": "text",
+                                    "content": "数余子式乘积之和，即",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7728,
+                    "bbox": [
+                        62,
+                        461,
+                        392,
+                        493
+                    ],
+                    "index": 11,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                62,
+                                461,
+                                392,
+                                493
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        62,
+                                        461,
+                                        392,
+                                        493
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left| \\boldsymbol{A} \\right| = a_{i1}A_{i1} + a_{i2}A_{i2} + \\cdots + a_{in}A_{in} = \\sum_{k = 1}^{n}a_{ik}A_{ik}, i = 1,2,\\cdots,n.",
+                                    "image_path": "f993bc7f22246289c0450ccf65e17457498739bf4541ef4e904017df342dce7f.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7123,
+                    "bbox": [
+                        59,
+                        497,
+                        396,
+                        525
+                    ],
+                    "index": 12,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                497,
+                                396,
+                                525
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        497,
+                                        396,
+                                        525
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left| \\boldsymbol { A } \\right| = a _ { 1 j } A _ { 1 j } + a _ { 2 j } A _ { 2 j } + \\cdots + a _ { n j } A _ { n j } = \\sum _ { k = 1 } ^ { n } a _ { k j } A _ { k j } , j = 1 , 2 , \\cdots , n.",
+                                    "image_path": "2e39df5ff9890330b8b5511d3d3ffd681a757e73cd45ed0a8ca9fa0c5b89ff2c.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9738,
+                    "bbox": [
+                        54,
+                        527,
+                        404,
+                        562
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                79,
+                                529,
+                                402,
+                                540
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        529,
+                                        402,
+                                        540
+                                    ],
+                                    "type": "text",
+                                    "content": "前一个公式称|A|是按第i行展开的展开式，后一个公式称",
+                                    "score": 0.987
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                56,
+                                549,
+                                217,
+                                560
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        549,
+                                        217,
+                                        560
+                                    ],
+                                    "type": "text",
+                                    "content": "|A|是按第j列展开的展开式.",
+                                    "score": 0.948
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9738,
+                    "bbox": [
+                        52,
+                        566,
+                        405,
+                        600
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                568,
+                                402,
+                                579
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        568,
+                                        402,
+                                        579
+                                    ],
+                                    "type": "text",
+                                    "content": "定理1.2 行列式的任一行(列）元素与另一行(列）元素的代数",
+                                    "score": 0.946
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                55,
+                                588,
+                                176,
+                                599
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        588,
+                                        176,
+                                        599
+                                    ],
+                                    "type": "text",
+                                    "content": "余子式乘积之和为0,即",
+                                    "score": 0.98
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.922,
+                    "bbox": [
+                        91,
+                        605,
+                        364,
+                        637
+                    ],
+                    "index": 15,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                91,
+                                605,
+                                364,
+                                637
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        91,
+                                        605,
+                                        364,
+                                        637
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\sum_{k = 1}^{n}a_{ik}A_{jk} = a_{i1}A_{j1} + a_{i2}A_{j2} + \\cdots + a_{in}A_{jn} = 0, i \\neq j.",
+                                    "image_path": "db5af89684a312085e52256ae4876f9b41f6cc0a37f2cf211cc5d6a57c4ce2e3.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8937,
+                    "bbox": [
+                        91,
+                        640,
+                        365,
+                        671
+                    ],
+                    "index": 16,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                91,
+                                640,
+                                365,
+                                671
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        91,
+                                        640,
+                                        365,
+                                        671
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\sum_{k = 1}^{n}a_{ki}A_{kj} = a_{1i}A_{1j} + a_{2i}A_{2j} + \\cdots + a_{ni}A_{nj} = 0, i \\neq j.",
+                                    "image_path": "fad07674417560b65ac21934d0c79dbda09d5494979b89d97555fe152da7cca2.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9451,
+                    "bbox": [
+                        76,
+                        672,
+                        376,
+                        687
+                    ],
+                    "index": 17,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                79,
+                                674,
+                                373,
+                                685
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        674,
+                                        373,
+                                        685
+                                    ],
+                                    "type": "text",
+                                    "content": "在用展开公式的时候，还要注意下面几个特殊情况的配合.",
+                                    "score": 0.985
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9483,
+                    "bbox": [
+                        77,
+                        691,
+                        370,
+                        706
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                694,
+                                367,
+                                704
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        694,
+                                        367,
+                                        704
+                                    ],
+                                    "type": "text",
+                                    "content": "（1）上（下）三角形行列式的值等于主对角线元素的乘积.",
+                                    "score": 0.971
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9682,
+                    "bbox": [
+                        111,
+                        710,
+                        344,
+                        777
+                    ],
+                    "index": 19,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                710,
+                                344,
+                                777
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        710,
+                                        344,
+                                        777
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{vmatrix}a_{_{11}} & a_{_{12}} \\cdots a_{_{1n}} \\\\a_{_{22}} \\cdots a_{_{2n}} \\\\\\bigvee & \\ddots & \\vdots \\\\a_{_{nn}}\\end{vmatrix}=\\begin{vmatrix}a_{_{11}} &  &  \\\\a_{_{21}} & a_{_{22}} \\\\\\vdots & \\vdots & \\ddots \\\\a_{_{n1}} & a_{_{n2}} \\cdots a_{_{nn}}\\end{vmatrix}= a_{_{11}} a_{_{22}} \\cdots a_{_{nn}} .",
+                                    "image_path": "bd8abbcb154316700f87191d8cbd8af8e5ceee7dc1e06e794690317e522369e7.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.7334,
+                    "bbox": [
+                        352,
+                        39,
+                        523,
+                        54
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                351,
+                                38,
+                                523,
+                                55
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        351,
+                                        38,
+                                        523,
+                                        55
+                                    ],
+                                    "type": "text",
+                                    "content": "线性代数基础·学习册第一章 行列式",
+                                    "score": 0.971
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8637,
+                    "bbox": [
+                        281,
+                        792,
+                        294,
+                        803
+                    ],
+                    "index": 20,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                283,
+                                794,
+                                292,
+                                806
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        283,
+                                        794,
+                                        292,
+                                        806
+                                    ],
+                                    "type": "text",
+                                    "content": "7",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.9544,
+                    "bbox": [
+                        77,
+                        80,
+                        269,
+                        97
+                    ],
+                    "index": 2,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                79,
+                                81,
+                                267,
+                                96
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        81,
+                                        267,
+                                        96
+                                    ],
+                                    "type": "text",
+                                    "content": "三、行列式按行(或列）展开公式",
+                                    "score": 0.962
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.938,
+                    "bbox": [
+                        77,
+                        111,
+                        154,
+                        126
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                79,
+                                112,
+                                151,
+                                126
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        112,
+                                        151,
+                                        126
+                                    ],
+                                    "type": "text",
+                                    "content": "在n阶行列式",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        79,
+                        112,
+                        151,
+                        126
+                    ]
+                },
+                {
+                    "score": 0.971,
+                    "bbox": [
+                        161,
+                        129,
+                        294,
+                        206
+                    ],
+                    "index": 4,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                161,
+                                129,
+                                294,
+                                206
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        161,
+                                        129,
+                                        294,
+                                        206
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned} &D = \\begin{vmatrix}\\\\ &a_{11} & a_{12} & \\cdots & a_{1n} \\\\&a_{21} & a_{22} & \\cdots & a_{2n} \\\\&\\vdots & \\vdots & & \\vdots \\\\&a_{n1} & a_{n2} & \\cdots & a_{nn}\\\\ &\\end{vmatrix}\\\\ \\end{aligned}",
+                                    "image_path": "8c46447cd9dd50d529884c7211c5b07e3f3857afc038712e9c7a40c1bd88808e.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        541,
+                        79,
+                        578,
+                        187
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.5648,
+                            "bbox": [
+                                541,
+                                79,
+                                578,
+                                187
+                            ],
+                            "index": 5,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        541,
+                                        79,
+                                        578,
+                                        187
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                541,
+                                                79,
+                                                578,
+                                                187
+                                            ],
+                                            "type": "image",
+                                            "image_path": "81f98bc9f89e24784512b2c6acac95109d7ac5dd0ba2f39961a2d8ed3bb60289.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "score": 0.5648
+                },
+                {
+                    "score": 0.974,
+                    "bbox": [
+                        53,
+                        209,
+                        404,
+                        243
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                210,
+                                402,
+                                223
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        210,
+                                        92,
+                                        223
+                                    ],
+                                    "type": "text",
+                                    "content": "中划去",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        93,
+                                        212,
+                                        106,
+                                        223
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{ij}",
+                                    "score": 0.8853
+                                },
+                                {
+                                    "bbox": [
+                                        107,
+                                        210,
+                                        402,
+                                        223
+                                    ],
+                                    "type": "text",
+                                    "content": "所在的第i行、第j列的元素，由剩下的元素按原来的位置",
+                                    "score": 0.999
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                56,
+                                230,
+                                231,
+                                241
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        230,
+                                        231,
+                                        241
+                                    ],
+                                    "type": "text",
+                                    "content": "排法构成的一个n一1阶的行列式",
+                                    "score": 0.981
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        56,
+                        210,
+                        402,
+                        241
+                    ]
+                },
+                {
+                    "score": 0.9723,
+                    "bbox": [
+                        121,
+                        247,
+                        338,
+                        365
+                    ],
+                    "index": 7,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                121,
+                                247,
+                                338,
+                                365
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        121,
+                                        247,
+                                        338,
+                                        365
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned}\\left| \\begin{array}{ccccc}\\alpha_{11} & \\cdots & \\alpha_{1,j-1} & \\alpha_{1,j+1} & \\cdots & \\alpha_{1n} \\\\\\vdots &  & \\vdots & \\vdots &  & \\vdots \\\\\\alpha_{i-1,1} & \\cdots & \\alpha_{i-1,j-1} & \\alpha_{i-1,j+1} & \\cdots & \\alpha_{i-1,n} \\\\\\alpha_{i+1,1} & \\cdots & \\alpha_{i+1,j-1} & \\alpha_{i+1,j+1} & \\cdots & \\alpha_{i+1,n} \\\\\\vdots &  & \\vdots & \\vdots &  & \\vdots \\\\\\alpha_{n1} & \\cdots & \\alpha_{n,j-1} & \\alpha_{n,j+1} & \\cdots & \\alpha_{nn} \\\\\\end{array} \\right|,\\end{aligned}",
+                                    "image_path": "8a5144e30747bc2ac4e0e525c509433986707a1a4a682c2f03434007681de0a1.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9656,
+                    "bbox": [
+                        52,
+                        367,
+                        404,
+                        399
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                367,
+                                402,
+                                382
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        367,
+                                        92,
+                                        382
+                                    ],
+                                    "type": "text",
+                                    "content": "称其为",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        93,
+                                        371,
+                                        106,
+                                        381
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a_{ij}",
+                                    "score": 0.8769
+                                },
+                                {
+                                    "bbox": [
+                                        107,
+                                        367,
+                                        189,
+                                        382
+                                    ],
+                                    "type": "text",
+                                    "content": "的余子式，记为",
+                                    "score": 0.947
+                                },
+                                {
+                                    "bbox": [
+                                        189,
+                                        369,
+                                        206,
+                                        381
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "M_{ij}",
+                                    "score": 0.8943
+                                },
+                                {
+                                    "bbox": [
+                                        207,
+                                        367,
+                                        224,
+                                        382
+                                    ],
+                                    "type": "text",
+                                    "content": ";称",
+                                    "score": 0.955
+                                },
+                                {
+                                    "bbox": [
+                                        225,
+                                        369,
+                                        281,
+                                        381
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "(-1)^{i+j}M_{ij}",
+                                    "score": 0.9137
+                                },
+                                {
+                                    "bbox": [
+                                        283,
+                                        368,
+                                        296,
+                                        381
+                                    ],
+                                    "type": "text",
+                                    "content": "为",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        297,
+                                        371,
+                                        310,
+                                        382
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{ij}",
+                                    "score": 0.8705
+                                },
+                                {
+                                    "bbox": [
+                                        311,
+                                        368,
+                                        402,
+                                        381
+                                    ],
+                                    "type": "text",
+                                    "content": "的代数余子式，记",
+                                    "score": 0.987
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                54,
+                                385,
+                                104,
+                                400
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        385,
+                                        68,
+                                        400
+                                    ],
+                                    "type": "text",
+                                    "content": "为",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        69,
+                                        386,
+                                        85,
+                                        398
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A_{ij}",
+                                    "score": 0.8882
+                                },
+                                {
+                                    "bbox": [
+                                        86,
+                                        385,
+                                        104,
+                                        400
+                                    ],
+                                    "type": "text",
+                                    "content": ",即",
+                                    "score": 0.813
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        54,
+                        367,
+                        402,
+                        400
+                    ]
+                },
+                {
+                    "score": 0.9352,
+                    "bbox": [
+                        178,
+                        403,
+                        277,
+                        418
+                    ],
+                    "index": 9,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                178,
+                                403,
+                                277,
+                                418
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        178,
+                                        403,
+                                        277,
+                                        418
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A _ { i j } = ( - 1 ) ^ { i + j } M _ { i j }   .",
+                                    "image_path": "f82ed5e3208f58277272d5585951f719967011acf823cdf7fafacfc934558ed8.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9749,
+                    "bbox": [
+                        52,
+                        422,
+                        404,
+                        456
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                81,
+                                424,
+                                401,
+                                435
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        81,
+                                        424,
+                                        401,
+                                        435
+                                    ],
+                                    "type": "text",
+                                    "content": "定理1.1 n阶行列式等于它的任何一行(列)元素与其对应的代",
+                                    "score": 0.987
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                56,
+                                443,
+                                168,
+                                454
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        443,
+                                        168,
+                                        454
+                                    ],
+                                    "type": "text",
+                                    "content": "数余子式乘积之和，即",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        56,
+                        424,
+                        401,
+                        454
+                    ]
+                },
+                {
+                    "score": 0.7728,
+                    "bbox": [
+                        62,
+                        461,
+                        392,
+                        493
+                    ],
+                    "index": 11,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                62,
+                                461,
+                                392,
+                                493
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        62,
+                                        461,
+                                        392,
+                                        493
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left| \\boldsymbol{A} \\right| = a_{i1}A_{i1} + a_{i2}A_{i2} + \\cdots + a_{in}A_{in} = \\sum_{k = 1}^{n}a_{ik}A_{ik}, i = 1,2,\\cdots,n.",
+                                    "image_path": "f993bc7f22246289c0450ccf65e17457498739bf4541ef4e904017df342dce7f.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7123,
+                    "bbox": [
+                        59,
+                        497,
+                        396,
+                        525
+                    ],
+                    "index": 12,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                497,
+                                396,
+                                525
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        497,
+                                        396,
+                                        525
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left| \\boldsymbol { A } \\right| = a _ { 1 j } A _ { 1 j } + a _ { 2 j } A _ { 2 j } + \\cdots + a _ { n j } A _ { n j } = \\sum _ { k = 1 } ^ { n } a _ { k j } A _ { k j } , j = 1 , 2 , \\cdots , n.",
+                                    "image_path": "2e39df5ff9890330b8b5511d3d3ffd681a757e73cd45ed0a8ca9fa0c5b89ff2c.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9738,
+                    "bbox": [
+                        54,
+                        527,
+                        404,
+                        562
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                79,
+                                529,
+                                402,
+                                540
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        529,
+                                        402,
+                                        540
+                                    ],
+                                    "type": "text",
+                                    "content": "前一个公式称|A|是按第i行展开的展开式，后一个公式称",
+                                    "score": 0.987
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                56,
+                                549,
+                                217,
+                                560
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        549,
+                                        217,
+                                        560
+                                    ],
+                                    "type": "text",
+                                    "content": "|A|是按第j列展开的展开式.",
+                                    "score": 0.948
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        56,
+                        529,
+                        402,
+                        560
+                    ]
+                },
+                {
+                    "score": 0.9738,
+                    "bbox": [
+                        52,
+                        566,
+                        405,
+                        600
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                568,
+                                402,
+                                579
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        568,
+                                        402,
+                                        579
+                                    ],
+                                    "type": "text",
+                                    "content": "定理1.2 行列式的任一行(列）元素与另一行(列）元素的代数",
+                                    "score": 0.946
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                55,
+                                588,
+                                176,
+                                599
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        588,
+                                        176,
+                                        599
+                                    ],
+                                    "type": "text",
+                                    "content": "余子式乘积之和为0,即",
+                                    "score": 0.98
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        55,
+                        568,
+                        402,
+                        599
+                    ]
+                },
+                {
+                    "score": 0.922,
+                    "bbox": [
+                        91,
+                        605,
+                        364,
+                        637
+                    ],
+                    "index": 15,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                91,
+                                605,
+                                364,
+                                637
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        91,
+                                        605,
+                                        364,
+                                        637
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\sum_{k = 1}^{n}a_{ik}A_{jk} = a_{i1}A_{j1} + a_{i2}A_{j2} + \\cdots + a_{in}A_{jn} = 0, i \\neq j.",
+                                    "image_path": "db5af89684a312085e52256ae4876f9b41f6cc0a37f2cf211cc5d6a57c4ce2e3.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8937,
+                    "bbox": [
+                        91,
+                        640,
+                        365,
+                        671
+                    ],
+                    "index": 16,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                91,
+                                640,
+                                365,
+                                671
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        91,
+                                        640,
+                                        365,
+                                        671
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\sum_{k = 1}^{n}a_{ki}A_{kj} = a_{1i}A_{1j} + a_{2i}A_{2j} + \\cdots + a_{ni}A_{nj} = 0, i \\neq j.",
+                                    "image_path": "fad07674417560b65ac21934d0c79dbda09d5494979b89d97555fe152da7cca2.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9451,
+                    "bbox": [
+                        76,
+                        672,
+                        376,
+                        687
+                    ],
+                    "index": 17,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                79,
+                                674,
+                                373,
+                                685
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        674,
+                                        373,
+                                        685
+                                    ],
+                                    "type": "text",
+                                    "content": "在用展开公式的时候，还要注意下面几个特殊情况的配合.",
+                                    "score": 0.985
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        79,
+                        674,
+                        373,
+                        685
+                    ]
+                },
+                {
+                    "score": 0.9483,
+                    "bbox": [
+                        77,
+                        691,
+                        370,
+                        706
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                694,
+                                367,
+                                704
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        694,
+                                        367,
+                                        704
+                                    ],
+                                    "type": "text",
+                                    "content": "（1）上（下）三角形行列式的值等于主对角线元素的乘积.",
+                                    "score": 0.971
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        80,
+                        694,
+                        367,
+                        704
+                    ]
+                },
+                {
+                    "score": 0.9682,
+                    "bbox": [
+                        111,
+                        710,
+                        344,
+                        777
+                    ],
+                    "index": 19,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                710,
+                                344,
+                                777
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        710,
+                                        344,
+                                        777
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{vmatrix}a_{_{11}} & a_{_{12}} \\cdots a_{_{1n}} \\\\a_{_{22}} \\cdots a_{_{2n}} \\\\\\bigvee & \\ddots & \\vdots \\\\a_{_{nn}}\\end{vmatrix}=\\begin{vmatrix}a_{_{11}} &  &  \\\\a_{_{21}} & a_{_{22}} \\\\\\vdots & \\vdots & \\ddots \\\\a_{_{n1}} & a_{_{n2}} \\cdots a_{_{nn}}\\end{vmatrix}= a_{_{11}} a_{_{22}} \\cdots a_{_{nn}} .",
+                                    "image_path": "bd8abbcb154316700f87191d8cbd8af8e5ceee7dc1e06e794690317e522369e7.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.5"
+}

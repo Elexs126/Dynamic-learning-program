@@ -1,0 +1,2017 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.9439,
+                    "bbox": [
+                        118,
+                        67,
+                        191,
+                        82
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                120,
+                                69,
+                                188,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        120,
+                                        69,
+                                        188,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "得同解方程组",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9626,
+                    "bbox": [
+                        188,
+                        86,
+                        335,
+                        141
+                    ],
+                    "index": 3,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                188,
+                                86,
+                                335,
+                                141
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        86,
+                                        335,
+                                        141
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned}\\left\\{ \\begin{aligned}x_{1} + 2x_{3} + 12x_{5} &= 10, \\\\x_{2} - x_{3} \\quad - 8x_{5} &= - 6, \\\\x_{4} - 3x_{5} &= - 2.\\end{aligned} \\right.\\end{aligned}\\tag{*}",
+                                    "image_path": "0b2f882c30bef9d1570076356ab4ccbce01286d9ae00b03e91bcb44fe99df730.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9347,
+                    "bbox": [
+                        118,
+                        145,
+                        357,
+                        160
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                122,
+                                145,
+                                356,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        122,
+                                        145,
+                                        131,
+                                        160
+                                    ],
+                                    "type": "text",
+                                    "content": "令",
+                                    "score": 0.529
+                                },
+                                {
+                                    "bbox": [
+                                        133,
+                                        146,
+                                        208,
+                                        159
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{3} = 0 , x_{5} = 0",
+                                    "score": 0.9127
+                                },
+                                {
+                                    "bbox": [
+                                        208,
+                                        146,
+                                        258,
+                                        161
+                                    ],
+                                    "type": "text",
+                                    "content": ",得方程组",
+                                    "score": 0.982
+                                },
+                                {
+                                    "bbox": [
+                                        259,
+                                        146,
+                                        298,
+                                        159
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "Ax = \\boldsymbol{b}",
+                                    "score": 0.5669
+                                },
+                                {
+                                    "bbox": [
+                                        298,
+                                        145,
+                                        356,
+                                        162
+                                    ],
+                                    "type": "text",
+                                    "content": "的一个特解",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9333,
+                    "bbox": [
+                        194,
+                        165,
+                        328,
+                        180
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                194,
+                                165,
+                                328,
+                                180
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        194,
+                                        165,
+                                        328,
+                                        180
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\boldsymbol{\\alpha} = (10, -6, 0, -2, 0)^{\\mathrm{T}},",
+                                    "image_path": "12fb42c6326d6c13d495e5fe047b7cc6beb018faaff47b771f9c326af055bdf8.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9431,
+                    "bbox": [
+                        118,
+                        185,
+                        225,
+                        199
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                122,
+                                187,
+                                221,
+                                198
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        122,
+                                        187,
+                                        221,
+                                        198
+                                    ],
+                                    "type": "text",
+                                    "content": "对应的齐次方程组为",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.965,
+                    "bbox": [
+                        196,
+                        204,
+                        327,
+                        259
+                    ],
+                    "index": 8,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                196,
+                                204,
+                                327,
+                                259
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        196,
+                                        204,
+                                        327,
+                                        259
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left\\{ \\begin{aligned} x_{1} + 2x_{3} + 12x_{5} &= 0, \\\\ x_{2} - x_{3} &= 8x_{5} = 0, \\\\ x_{4} - 3x_{5} &= 0, \\end{aligned} \\right.",
+                                    "image_path": "f136d2905f1df2e7a77c48ac04e46276c871cbbc1aa202e32d9919aded21aee1.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9389,
+                    "bbox": [
+                        96,
+                        263,
+                        221,
+                        277
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                97,
+                                264,
+                                218,
+                                279
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        264,
+                                        110,
+                                        279
+                                    ],
+                                    "type": "text",
+                                    "content": "得",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        111,
+                                        264,
+                                        150,
+                                        276
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "Ax = \\mathbf{0}",
+                                    "score": 0.5702
+                                },
+                                {
+                                    "bbox": [
+                                        151,
+                                        264,
+                                        218,
+                                        277
+                                    ],
+                                    "type": "text",
+                                    "content": "的同解方程组",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9647,
+                    "bbox": [
+                        210,
+                        283,
+                        313,
+                        337
+                    ],
+                    "index": 10,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                210,
+                                283,
+                                313,
+                                337
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        210,
+                                        283,
+                                        313,
+                                        337
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{cases}x_{1} = - 2x_{3} - 12x_{5}, \\\\x_{2} = \\quad x_{3} + 8x_{5}, \\\\x_{4} = \\quad 3x_{5},\\end{cases}",
+                                    "image_path": "61796cdd94a00cf7d8ec4510c1e243beacd5d9b56edfd36ce1282f9fe65a6723.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9117,
+                    "bbox": [
+                        95,
+                        342,
+                        412,
+                        357
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                342,
+                                410,
+                                359
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        342,
+                                        133,
+                                        358
+                                    ],
+                                    "type": "text",
+                                    "content": "分别令",
+                                    "score": 0.995
+                                },
+                                {
+                                    "bbox": [
+                                        133,
+                                        344,
+                                        208,
+                                        356
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{3} = 1 , x_{5} = 0",
+                                    "score": 0.8398
+                                },
+                                {
+                                    "bbox": [
+                                        208,
+                                        343,
+                                        223,
+                                        358
+                                    ],
+                                    "type": "text",
+                                    "content": "和",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        223,
+                                        344,
+                                        297,
+                                        356
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{3} = 0 , x_{5} = 1",
+                                    "score": 0.8863
+                                },
+                                {
+                                    "bbox": [
+                                        297,
+                                        343,
+                                        314,
+                                        359
+                                    ],
+                                    "type": "text",
+                                    "content": ",得",
+                                    "score": 0.948
+                                },
+                                {
+                                    "bbox": [
+                                        314,
+                                        343,
+                                        353,
+                                        355
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "Ax = \\mathbf{0}",
+                                    "score": 0.5661
+                                },
+                                {
+                                    "bbox": [
+                                        354,
+                                        344,
+                                        410,
+                                        356
+                                    ],
+                                    "type": "text",
+                                    "content": "的基础解系",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9047,
+                    "bbox": [
+                        144,
+                        362,
+                        372,
+                        377
+                    ],
+                    "index": 12,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                144,
+                                362,
+                                372,
+                                377
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        144,
+                                        362,
+                                        372,
+                                        377
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\eta_{1} = (-2,1,1,0,0)^{\\mathrm{T}}, \\eta_{2} = (-12,8,0,3,1)^{\\mathrm{T}}.",
+                                    "image_path": "f06ffba49cf91e2fd96460cf014b7b5cd0abc505c94697c607acb9fa23734bf6.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9358,
+                    "bbox": [
+                        95,
+                        381,
+                        208,
+                        396
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                99,
+                                383,
+                                205,
+                                395
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        99,
+                                        383,
+                                        205,
+                                        395
+                                    ],
+                                    "type": "text",
+                                    "content": "所以方程组的通解为：",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9107,
+                    "bbox": [
+                        119,
+                        400,
+                        423,
+                        415
+                    ],
+                    "index": 14,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                400,
+                                423,
+                                415
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        400,
+                                        423,
+                                        415
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "(10,-6,0,-2,0)^{\\mathrm{T}} + k_{1}(-2,1,1,0,0)^{\\mathrm{T}} + k_{2}(-12,8,0,3,1)^{\\mathrm{T}}",
+                                    "image_path": "a6014d38064ddcaf1fa4b4dbeba145d17950c0845a06503defffb37cf0f16b0c.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8753,
+                    "bbox": [
+                        95,
+                        420,
+                        189,
+                        435
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                421,
+                                186,
+                                434
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        421,
+                                        124,
+                                        434
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{1},k_{2}",
+                                    "score": 0.8887
+                                },
+                                {
+                                    "bbox": [
+                                        127,
+                                        422,
+                                        186,
+                                        434
+                                    ],
+                                    "type": "text",
+                                    "content": "为任意常数.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9333,
+                    "bbox": [
+                        118,
+                        441,
+                        342,
+                        455
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                122,
+                                439,
+                                342,
+                                456
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        122,
+                                        442,
+                                        238,
+                                        454
+                                    ],
+                                    "type": "text",
+                                    "content": "或对同解方程组(*)，令",
+                                    "score": 0.932
+                                },
+                                {
+                                    "bbox": [
+                                        240,
+                                        442,
+                                        313,
+                                        454
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{3} = t, x_{5} = u",
+                                    "score": 0.8878
+                                },
+                                {
+                                    "bbox": [
+                                        314,
+                                        439,
+                                        342,
+                                        456
+                                    ],
+                                    "type": "text",
+                                    "content": ",解出",
+                                    "score": 0.91
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9679,
+                    "bbox": [
+                        207,
+                        459,
+                        315,
+                        554
+                    ],
+                    "index": 17,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                459,
+                                315,
+                                554
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        459,
+                                        315,
+                                        554
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{cases}x_{1} = 10 - 2t - 12u, \\\\x_{2} = -6 + t + 8u, \\\\x_{3} = t, \\\\x_{4} = -2 + 3u, \\\\x_{5} = u.\\end{cases}",
+                                    "image_path": "0419b08efe2285e9316dcbb02d09326986644080ea2e6d84cdf9cb6aa0660b4f.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9516,
+                    "bbox": [
+                        95,
+                        559,
+                        426,
+                        593
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                97,
+                                559,
+                                423,
+                                574
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        559,
+                                        143,
+                                        574
+                                    ],
+                                    "type": "text",
+                                    "content": "亦得通解",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        143,
+                                        559,
+                                        423,
+                                        573
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x = ( 1 0 , - 6 , 0 , - 2 , 0 ) ^ { \\mathrm { T } } + t ( - 2 , 1 , 1 , 0 , 0 ) ^ { \\mathrm { T } } + u ( - 1 2 , 8 , 0 ,",
+                                    "score": 0.8829
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                97,
+                                578,
+                                205,
+                                592
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        578,
+                                        146,
+                                        591
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "3,1)^{\\mathrm{T}},t,u",
+                                    "score": 0.8022
+                                },
+                                {
+                                    "bbox": [
+                                        147,
+                                        579,
+                                        205,
+                                        592
+                                    ],
+                                    "type": "text",
+                                    "content": "为任意常数.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7749,
+                    "bbox": [
+                        119,
+                        618,
+                        340,
+                        635
+                    ],
+                    "index": 19,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                118,
+                                615,
+                                339,
+                                636
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        118,
+                                        615,
+                                        339,
+                                        636
+                                    ],
+                                    "type": "text",
+                                    "content": "例9【解】对增广矩阵作初等行变换，有",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9613,
+                    "bbox": [
+                        117,
+                        641,
+                        336,
+                        696
+                    ],
+                    "index": 20,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                117,
+                                641,
+                                336,
+                                696
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        117,
+                                        641,
+                                        336,
+                                        696
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\overline{\\boldsymbol{A}} = \\begin{bmatrix} \\lambda & 1 & 1 \\vdots \\lambda - 3 \\\\ 1 & \\lambda & 1 \\vdots - 2 \\\\ 1 & 1 & \\lambda \\vdots - 2 \\end{bmatrix} \\rightarrow \\begin{bmatrix} 1 & 1 & \\lambda \\vdots - 2 \\\\ 1 & \\lambda & 1 \\vdots - 2 \\\\ \\lambda & 1 & 1 \\vdots \\lambda - 3 \\end{bmatrix}",
+                                    "image_path": "3fc6bf5579d662a8741682099bfcf05ea92c00a86d903b020e06406e0fea9754.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9319,
+                    "bbox": [
+                        127,
+                        700,
+                        340,
+                        755
+                    ],
+                    "index": 21,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                700,
+                                340,
+                                755
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        700,
+                                        340,
+                                        755
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\rightarrow \\begin{bmatrix} 1 & 1 & \\lambda & \\vdots & - 2 \\\\ 0 & \\lambda - 1 & 1 - \\lambda & \\vdots & 0 \\\\ 0 & 0 & (\\lambda + 2)(\\lambda - 1) \\vdots & 3(1 - \\lambda) \\end{bmatrix}.",
+                                    "image_path": "37b9d2b8c559e6a21efe7f39bfb2eb64f81323885b68c5ea76aa000f3be1029b.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9429,
+                    "bbox": [
+                        118,
+                        758,
+                        354,
+                        773
+                    ],
+                    "index": 22,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                759,
+                                352,
+                                775
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        759,
+                                        132,
+                                        775
+                                    ],
+                                    "type": "text",
+                                    "content": "当",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        133,
+                                        759,
+                                        172,
+                                        772
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda = - 2",
+                                    "score": 0.468
+                                },
+                                {
+                                    "bbox": [
+                                        172,
+                                        759,
+                                        187,
+                                        775
+                                    ],
+                                    "type": "text",
+                                    "content": "时",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        187,
+                                        759,
+                                        288,
+                                        772
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r(\\boldsymbol{A}) = 2, r(\\overline{\\boldsymbol{A}}) = 3",
+                                    "score": 0.8174
+                                },
+                                {
+                                    "bbox": [
+                                        288,
+                                        760,
+                                        352,
+                                        772
+                                    ],
+                                    "type": "text",
+                                    "content": ",方程组无解.",
+                                    "score": 0.927
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.4748,
+                    "bbox": [
+                        358,
+                        34,
+                        538,
+                        49
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                357,
+                                33,
+                                537,
+                                50
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        357,
+                                        33,
+                                        537,
+                                        50
+                                    ],
+                                    "type": "text",
+                                    "content": "线性代数基础·学习册“第四章线性方程组",
+                                    "score": 0.994
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9011,
+                    "bbox": [
+                        308,
+                        788,
+                        325,
+                        799
+                    ],
+                    "index": 23,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                311,
+                                789,
+                                323,
+                                802
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        311,
+                                        789,
+                                        323,
+                                        802
+                                    ],
+                                    "type": "text",
+                                    "content": "99",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.9439,
+                    "bbox": [
+                        118,
+                        67,
+                        191,
+                        82
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                120,
+                                69,
+                                188,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        120,
+                                        69,
+                                        188,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "得同解方程组",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        120,
+                        69,
+                        188,
+                        81
+                    ]
+                },
+                {
+                    "score": 0.9626,
+                    "bbox": [
+                        188,
+                        86,
+                        335,
+                        141
+                    ],
+                    "index": 3,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                188,
+                                86,
+                                335,
+                                141
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        86,
+                                        335,
+                                        141
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned}\\left\\{ \\begin{aligned}x_{1} + 2x_{3} + 12x_{5} &= 10, \\\\x_{2} - x_{3} \\quad - 8x_{5} &= - 6, \\\\x_{4} - 3x_{5} &= - 2.\\end{aligned} \\right.\\end{aligned}\\tag{*}",
+                                    "image_path": "0b2f882c30bef9d1570076356ab4ccbce01286d9ae00b03e91bcb44fe99df730.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9347,
+                    "bbox": [
+                        118,
+                        145,
+                        357,
+                        160
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                122,
+                                145,
+                                356,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        122,
+                                        145,
+                                        131,
+                                        160
+                                    ],
+                                    "type": "text",
+                                    "content": "令",
+                                    "score": 0.529
+                                },
+                                {
+                                    "bbox": [
+                                        133,
+                                        146,
+                                        208,
+                                        159
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{3} = 0 , x_{5} = 0",
+                                    "score": 0.9127
+                                },
+                                {
+                                    "bbox": [
+                                        208,
+                                        146,
+                                        258,
+                                        161
+                                    ],
+                                    "type": "text",
+                                    "content": ",得方程组",
+                                    "score": 0.982
+                                },
+                                {
+                                    "bbox": [
+                                        259,
+                                        146,
+                                        298,
+                                        159
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "Ax = \\boldsymbol{b}",
+                                    "score": 0.5669
+                                },
+                                {
+                                    "bbox": [
+                                        298,
+                                        145,
+                                        356,
+                                        162
+                                    ],
+                                    "type": "text",
+                                    "content": "的一个特解",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        122,
+                        145,
+                        356,
+                        162
+                    ]
+                },
+                {
+                    "score": 0.9333,
+                    "bbox": [
+                        194,
+                        165,
+                        328,
+                        180
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                194,
+                                165,
+                                328,
+                                180
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        194,
+                                        165,
+                                        328,
+                                        180
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\boldsymbol{\\alpha} = (10, -6, 0, -2, 0)^{\\mathrm{T}},",
+                                    "image_path": "12fb42c6326d6c13d495e5fe047b7cc6beb018faaff47b771f9c326af055bdf8.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9431,
+                    "bbox": [
+                        118,
+                        185,
+                        225,
+                        199
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                122,
+                                187,
+                                221,
+                                198
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        122,
+                                        187,
+                                        221,
+                                        198
+                                    ],
+                                    "type": "text",
+                                    "content": "对应的齐次方程组为",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        122,
+                        187,
+                        221,
+                        198
+                    ]
+                },
+                {
+                    "score": 0.965,
+                    "bbox": [
+                        196,
+                        204,
+                        327,
+                        259
+                    ],
+                    "index": 8,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                196,
+                                204,
+                                327,
+                                259
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        196,
+                                        204,
+                                        327,
+                                        259
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left\\{ \\begin{aligned} x_{1} + 2x_{3} + 12x_{5} &= 0, \\\\ x_{2} - x_{3} &= 8x_{5} = 0, \\\\ x_{4} - 3x_{5} &= 0, \\end{aligned} \\right.",
+                                    "image_path": "f136d2905f1df2e7a77c48ac04e46276c871cbbc1aa202e32d9919aded21aee1.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9389,
+                    "bbox": [
+                        96,
+                        263,
+                        221,
+                        277
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                97,
+                                264,
+                                218,
+                                279
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        264,
+                                        110,
+                                        279
+                                    ],
+                                    "type": "text",
+                                    "content": "得",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        111,
+                                        264,
+                                        150,
+                                        276
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "Ax = \\mathbf{0}",
+                                    "score": 0.5702
+                                },
+                                {
+                                    "bbox": [
+                                        151,
+                                        264,
+                                        218,
+                                        277
+                                    ],
+                                    "type": "text",
+                                    "content": "的同解方程组",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        97,
+                        264,
+                        218,
+                        279
+                    ]
+                },
+                {
+                    "score": 0.9647,
+                    "bbox": [
+                        210,
+                        283,
+                        313,
+                        337
+                    ],
+                    "index": 10,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                210,
+                                283,
+                                313,
+                                337
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        210,
+                                        283,
+                                        313,
+                                        337
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{cases}x_{1} = - 2x_{3} - 12x_{5}, \\\\x_{2} = \\quad x_{3} + 8x_{5}, \\\\x_{4} = \\quad 3x_{5},\\end{cases}",
+                                    "image_path": "61796cdd94a00cf7d8ec4510c1e243beacd5d9b56edfd36ce1282f9fe65a6723.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9117,
+                    "bbox": [
+                        95,
+                        342,
+                        412,
+                        357
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                342,
+                                410,
+                                359
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        342,
+                                        133,
+                                        358
+                                    ],
+                                    "type": "text",
+                                    "content": "分别令",
+                                    "score": 0.995
+                                },
+                                {
+                                    "bbox": [
+                                        133,
+                                        344,
+                                        208,
+                                        356
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{3} = 1 , x_{5} = 0",
+                                    "score": 0.8398
+                                },
+                                {
+                                    "bbox": [
+                                        208,
+                                        343,
+                                        223,
+                                        358
+                                    ],
+                                    "type": "text",
+                                    "content": "和",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        223,
+                                        344,
+                                        297,
+                                        356
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{3} = 0 , x_{5} = 1",
+                                    "score": 0.8863
+                                },
+                                {
+                                    "bbox": [
+                                        297,
+                                        343,
+                                        314,
+                                        359
+                                    ],
+                                    "type": "text",
+                                    "content": ",得",
+                                    "score": 0.948
+                                },
+                                {
+                                    "bbox": [
+                                        314,
+                                        343,
+                                        353,
+                                        355
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "Ax = \\mathbf{0}",
+                                    "score": 0.5661
+                                },
+                                {
+                                    "bbox": [
+                                        354,
+                                        344,
+                                        410,
+                                        356
+                                    ],
+                                    "type": "text",
+                                    "content": "的基础解系",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        96,
+                        342,
+                        410,
+                        359
+                    ]
+                },
+                {
+                    "score": 0.9047,
+                    "bbox": [
+                        144,
+                        362,
+                        372,
+                        377
+                    ],
+                    "index": 12,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                144,
+                                362,
+                                372,
+                                377
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        144,
+                                        362,
+                                        372,
+                                        377
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\eta_{1} = (-2,1,1,0,0)^{\\mathrm{T}}, \\eta_{2} = (-12,8,0,3,1)^{\\mathrm{T}}.",
+                                    "image_path": "f06ffba49cf91e2fd96460cf014b7b5cd0abc505c94697c607acb9fa23734bf6.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9358,
+                    "bbox": [
+                        95,
+                        381,
+                        208,
+                        396
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                99,
+                                383,
+                                205,
+                                395
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        99,
+                                        383,
+                                        205,
+                                        395
+                                    ],
+                                    "type": "text",
+                                    "content": "所以方程组的通解为：",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        99,
+                        383,
+                        205,
+                        395
+                    ]
+                },
+                {
+                    "score": 0.9107,
+                    "bbox": [
+                        119,
+                        400,
+                        423,
+                        415
+                    ],
+                    "index": 14,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                400,
+                                423,
+                                415
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        400,
+                                        423,
+                                        415
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "(10,-6,0,-2,0)^{\\mathrm{T}} + k_{1}(-2,1,1,0,0)^{\\mathrm{T}} + k_{2}(-12,8,0,3,1)^{\\mathrm{T}}",
+                                    "image_path": "a6014d38064ddcaf1fa4b4dbeba145d17950c0845a06503defffb37cf0f16b0c.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8753,
+                    "bbox": [
+                        95,
+                        420,
+                        189,
+                        435
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                421,
+                                186,
+                                434
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        421,
+                                        124,
+                                        434
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{1},k_{2}",
+                                    "score": 0.8887
+                                },
+                                {
+                                    "bbox": [
+                                        127,
+                                        422,
+                                        186,
+                                        434
+                                    ],
+                                    "type": "text",
+                                    "content": "为任意常数.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        96,
+                        421,
+                        186,
+                        434
+                    ]
+                },
+                {
+                    "score": 0.9333,
+                    "bbox": [
+                        118,
+                        441,
+                        342,
+                        455
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                122,
+                                439,
+                                342,
+                                456
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        122,
+                                        442,
+                                        238,
+                                        454
+                                    ],
+                                    "type": "text",
+                                    "content": "或对同解方程组(*)，令",
+                                    "score": 0.932
+                                },
+                                {
+                                    "bbox": [
+                                        240,
+                                        442,
+                                        313,
+                                        454
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x_{3} = t, x_{5} = u",
+                                    "score": 0.8878
+                                },
+                                {
+                                    "bbox": [
+                                        314,
+                                        439,
+                                        342,
+                                        456
+                                    ],
+                                    "type": "text",
+                                    "content": ",解出",
+                                    "score": 0.91
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        122,
+                        439,
+                        342,
+                        456
+                    ]
+                },
+                {
+                    "score": 0.9679,
+                    "bbox": [
+                        207,
+                        459,
+                        315,
+                        554
+                    ],
+                    "index": 17,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                459,
+                                315,
+                                554
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        459,
+                                        315,
+                                        554
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{cases}x_{1} = 10 - 2t - 12u, \\\\x_{2} = -6 + t + 8u, \\\\x_{3} = t, \\\\x_{4} = -2 + 3u, \\\\x_{5} = u.\\end{cases}",
+                                    "image_path": "0419b08efe2285e9316dcbb02d09326986644080ea2e6d84cdf9cb6aa0660b4f.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9516,
+                    "bbox": [
+                        95,
+                        559,
+                        426,
+                        593
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                97,
+                                559,
+                                423,
+                                574
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        559,
+                                        143,
+                                        574
+                                    ],
+                                    "type": "text",
+                                    "content": "亦得通解",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        143,
+                                        559,
+                                        423,
+                                        573
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "x = ( 1 0 , - 6 , 0 , - 2 , 0 ) ^ { \\mathrm { T } } + t ( - 2 , 1 , 1 , 0 , 0 ) ^ { \\mathrm { T } } + u ( - 1 2 , 8 , 0 ,",
+                                    "score": 0.8829
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                97,
+                                578,
+                                205,
+                                592
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        578,
+                                        146,
+                                        591
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "3,1)^{\\mathrm{T}},t,u",
+                                    "score": 0.8022
+                                },
+                                {
+                                    "bbox": [
+                                        147,
+                                        579,
+                                        205,
+                                        592
+                                    ],
+                                    "type": "text",
+                                    "content": "为任意常数.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        97,
+                        559,
+                        423,
+                        592
+                    ]
+                },
+                {
+                    "score": 0.7749,
+                    "bbox": [
+                        119,
+                        618,
+                        340,
+                        635
+                    ],
+                    "index": 19,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                118,
+                                615,
+                                339,
+                                636
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        118,
+                                        615,
+                                        339,
+                                        636
+                                    ],
+                                    "type": "text",
+                                    "content": "例9【解】对增广矩阵作初等行变换，有",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        118,
+                        615,
+                        339,
+                        636
+                    ]
+                },
+                {
+                    "score": 0.9613,
+                    "bbox": [
+                        117,
+                        641,
+                        336,
+                        696
+                    ],
+                    "index": 20,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                117,
+                                641,
+                                336,
+                                696
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        117,
+                                        641,
+                                        336,
+                                        696
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\overline{\\boldsymbol{A}} = \\begin{bmatrix} \\lambda & 1 & 1 \\vdots \\lambda - 3 \\\\ 1 & \\lambda & 1 \\vdots - 2 \\\\ 1 & 1 & \\lambda \\vdots - 2 \\end{bmatrix} \\rightarrow \\begin{bmatrix} 1 & 1 & \\lambda \\vdots - 2 \\\\ 1 & \\lambda & 1 \\vdots - 2 \\\\ \\lambda & 1 & 1 \\vdots \\lambda - 3 \\end{bmatrix}",
+                                    "image_path": "3fc6bf5579d662a8741682099bfcf05ea92c00a86d903b020e06406e0fea9754.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9319,
+                    "bbox": [
+                        127,
+                        700,
+                        340,
+                        755
+                    ],
+                    "index": 21,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                127,
+                                700,
+                                340,
+                                755
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        127,
+                                        700,
+                                        340,
+                                        755
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\rightarrow \\begin{bmatrix} 1 & 1 & \\lambda & \\vdots & - 2 \\\\ 0 & \\lambda - 1 & 1 - \\lambda & \\vdots & 0 \\\\ 0 & 0 & (\\lambda + 2)(\\lambda - 1) \\vdots & 3(1 - \\lambda) \\end{bmatrix}.",
+                                    "image_path": "37b9d2b8c559e6a21efe7f39bfb2eb64f81323885b68c5ea76aa000f3be1029b.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9429,
+                    "bbox": [
+                        118,
+                        758,
+                        354,
+                        773
+                    ],
+                    "index": 22,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                119,
+                                759,
+                                352,
+                                775
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        119,
+                                        759,
+                                        132,
+                                        775
+                                    ],
+                                    "type": "text",
+                                    "content": "当",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        133,
+                                        759,
+                                        172,
+                                        772
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda = - 2",
+                                    "score": 0.468
+                                },
+                                {
+                                    "bbox": [
+                                        172,
+                                        759,
+                                        187,
+                                        775
+                                    ],
+                                    "type": "text",
+                                    "content": "时",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        187,
+                                        759,
+                                        288,
+                                        772
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "r(\\boldsymbol{A}) = 2, r(\\overline{\\boldsymbol{A}}) = 3",
+                                    "score": 0.8174
+                                },
+                                {
+                                    "bbox": [
+                                        288,
+                                        760,
+                                        352,
+                                        772
+                                    ],
+                                    "type": "text",
+                                    "content": ",方程组无解.",
+                                    "score": 0.927
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        119,
+                        759,
+                        352,
+                        775
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.5"
+}

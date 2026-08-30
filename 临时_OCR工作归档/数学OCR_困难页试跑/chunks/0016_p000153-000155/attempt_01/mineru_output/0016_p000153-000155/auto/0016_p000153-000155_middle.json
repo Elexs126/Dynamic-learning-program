@@ -1,0 +1,4345 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.9009,
+                    "bbox": [
+                        199,
+                        101,
+                        500,
+                        117
+                    ],
+                    "index": 3,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                199,
+                                101,
+                                500,
+                                117
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        199,
+                                        101,
+                                        500,
+                                        117
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "f(x_{1},x_{2},x_{3})=5x_{1}^{2}+5x_{2}^{2}+cx_{3}^{2}-2x_{1}x_{2}+6x_{1}x_{3}-6x_{2}x_{3}",
+                                    "image_path": "127b93e4e3d20b992e1a1c67cc954fdbf498eb41deb8da8992a8eb4c1cd3d7e0.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8345,
+                    "bbox": [
+                        176,
+                        124,
+                        227,
+                        138
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                177,
+                                123,
+                                227,
+                                139
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        123,
+                                        227,
+                                        139
+                                    ],
+                                    "type": "text",
+                                    "content": "的秩为2.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8623,
+                    "bbox": [
+                        200,
+                        144,
+                        273,
+                        159
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                145,
+                                272,
+                                159
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        145,
+                                        272,
+                                        159
+                                    ],
+                                    "type": "text",
+                                    "content": "(1) 求 c 的值.",
+                                    "score": 0.88
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9109,
+                    "bbox": [
+                        200,
+                        165,
+                        422,
+                        181
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                204,
+                                169,
+                                419,
+                                178
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        204,
+                                        169,
+                                        419,
+                                        178
+                                    ],
+                                    "type": "text",
+                                    "content": "（2）求该二次型的正惯性指数、负惯性指数.",
+                                    "score": 0.971
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.4835,
+                    "bbox": [
+                        199,
+                        483,
+                        500,
+                        503
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                196,
+                                479,
+                                453,
+                                507
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        196,
+                                        479,
+                                        284,
+                                        507
+                                    ],
+                                    "type": "text",
+                                    "content": "例10 二次型",
+                                    "score": 0.943
+                                },
+                                {
+                                    "bbox": [
+                                        284,
+                                        486,
+                                        384,
+                                        500
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x} = x_{1}^{2} - 4 x_{2} x_{3}",
+                                    "score": 0.9141
+                                },
+                                {
+                                    "bbox": [
+                                        387,
+                                        483,
+                                        453,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "的规范形是",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6104,
+                    "bbox": [
+                        447,
+                        455,
+                        510,
+                        467
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                448,
+                                456,
+                                509,
+                                467
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        448,
+                                        456,
+                                        509,
+                                        467
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 150 页",
+                                    "score": 0.942
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.4737,
+                    "bbox": [
+                        23,
+                        681,
+                        38,
+                        729
+                    ],
+                    "index": 1,
+                    "type": "aside_text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                680,
+                                38,
+                                729
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        680,
+                                        38,
+                                        729
+                                    ],
+                                    "type": "text",
+                                    "content": "二次型",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6423,
+                    "bbox": [
+                        65,
+                        34,
+                        186,
+                        52
+                    ],
+                    "index": 2,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                66,
+                                35,
+                                186,
+                                50
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        66,
+                                        36,
+                                        147,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "考研数学复习全书",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        151,
+                                        35,
+                                        186,
+                                        50
+                                    ],
+                                    "type": "text",
+                                    "content": "基础篇",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5703,
+                    "bbox": [
+                        448,
+                        756,
+                        511,
+                        768
+                    ],
+                    "index": 9,
+                    "type": "footer",
+                    "lines": [
+                        {
+                            "bbox": [
+                                450,
+                                758,
+                                510,
+                                768
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        450,
+                                        758,
+                                        510,
+                                        768
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 150 页",
+                                    "score": 0.92
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8915,
+                    "bbox": [
+                        279,
+                        788,
+                        302,
+                        801
+                    ],
+                    "index": 10,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                281,
+                                789,
+                                300,
+                                802
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        281,
+                                        789,
+                                        300,
+                                        802
+                                    ],
+                                    "type": "text",
+                                    "content": "138",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.9009,
+                    "bbox": [
+                        199,
+                        101,
+                        500,
+                        117
+                    ],
+                    "index": 3,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                199,
+                                101,
+                                500,
+                                117
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        199,
+                                        101,
+                                        500,
+                                        117
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "f(x_{1},x_{2},x_{3})=5x_{1}^{2}+5x_{2}^{2}+cx_{3}^{2}-2x_{1}x_{2}+6x_{1}x_{3}-6x_{2}x_{3}",
+                                    "image_path": "127b93e4e3d20b992e1a1c67cc954fdbf498eb41deb8da8992a8eb4c1cd3d7e0.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8345,
+                    "bbox": [
+                        176,
+                        124,
+                        227,
+                        138
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                177,
+                                123,
+                                227,
+                                139
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        123,
+                                        227,
+                                        139
+                                    ],
+                                    "type": "text",
+                                    "content": "的秩为2.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        177,
+                        123,
+                        227,
+                        139
+                    ]
+                },
+                {
+                    "score": 0.8623,
+                    "bbox": [
+                        200,
+                        144,
+                        273,
+                        159
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                145,
+                                272,
+                                159
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        145,
+                                        272,
+                                        159
+                                    ],
+                                    "type": "text",
+                                    "content": "(1) 求 c 的值.",
+                                    "score": 0.88
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        202,
+                        145,
+                        272,
+                        159
+                    ]
+                },
+                {
+                    "score": 0.9109,
+                    "bbox": [
+                        200,
+                        165,
+                        422,
+                        181
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                204,
+                                169,
+                                419,
+                                178
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        204,
+                                        169,
+                                        419,
+                                        178
+                                    ],
+                                    "type": "text",
+                                    "content": "（2）求该二次型的正惯性指数、负惯性指数.",
+                                    "score": 0.971
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        204,
+                        169,
+                        419,
+                        178
+                    ]
+                },
+                {
+                    "score": 0.4835,
+                    "bbox": [
+                        199,
+                        483,
+                        500,
+                        503
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                196,
+                                479,
+                                453,
+                                507
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        196,
+                                        479,
+                                        284,
+                                        507
+                                    ],
+                                    "type": "text",
+                                    "content": "例10 二次型",
+                                    "score": 0.943
+                                },
+                                {
+                                    "bbox": [
+                                        284,
+                                        486,
+                                        384,
+                                        500
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x} = x_{1}^{2} - 4 x_{2} x_{3}",
+                                    "score": 0.9141
+                                },
+                                {
+                                    "bbox": [
+                                        387,
+                                        483,
+                                        453,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "的规范形是",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        196,
+                        479,
+                        453,
+                        507
+                    ]
+                },
+                {
+                    "score": 0.6104,
+                    "bbox": [
+                        447,
+                        455,
+                        510,
+                        467
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                448,
+                                456,
+                                509,
+                                467
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        448,
+                                        456,
+                                        509,
+                                        467
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 150 页",
+                                    "score": 0.942
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        448,
+                        456,
+                        509,
+                        467
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.809,
+                    "bbox": [
+                        107,
+                        66,
+                        342,
+                        123
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                108,
+                                67,
+                                339,
+                                122
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        108,
+                                        82,
+                                        144,
+                                        108
+                                    ],
+                                    "type": "text",
+                                    "content": "例11",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        153,
+                                        87,
+                                        190,
+                                        104
+                                    ],
+                                    "type": "text",
+                                    "content": "与矩阵",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        191,
+                                        67,
+                                        270,
+                                        122
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\begin{bmatrix} 1 & 2 & 0 \\\\ 2 & 1 & 0 \\\\ 0 & 0 & 2 \\end{bmatrix}",
+                                    "score": 0.9593
+                                },
+                                {
+                                    "bbox": [
+                                        270,
+                                        87,
+                                        339,
+                                        102
+                                    ],
+                                    "type": "text",
+                                    "content": "合同的矩阵是",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5479,
+                    "bbox": [
+                        109,
+                        128,
+                        189,
+                        184
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                129,
+                                187,
+                                184
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        151,
+                                        131,
+                                        166
+                                    ],
+                                    "type": "text",
+                                    "content": "(A)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        131,
+                                        129,
+                                        187,
+                                        184
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left[ \\begin{matrix} { 1 } & { } & { } \\\\ { } & { 1 } & { } \\\\ { } & { } & { 0 } \\\\ \\end{matrix} \\right] .",
+                                    "score": 0.9408
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.4726,
+                    "bbox": [
+                        282,
+                        127,
+                        372,
+                        183
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                283,
+                                128,
+                                370,
+                                183
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        283,
+                                        148,
+                                        303,
+                                        165
+                                    ],
+                                    "type": "text",
+                                    "content": "(B)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        303,
+                                        128,
+                                        370,
+                                        183
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\begin{bmatrix} 1 & & \\\\ & 1 & \\\\ & & -1 \\end{bmatrix}.",
+                                    "score": 0.9466
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5942,
+                    "bbox": [
+                        109,
+                        189,
+                        210,
+                        246
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                109,
+                                190,
+                                208,
+                                245
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        109,
+                                        211,
+                                        130,
+                                        228
+                                    ],
+                                    "type": "text",
+                                    "content": "(C)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        130,
+                                        190,
+                                        208,
+                                        245
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\begin{bmatrix} 1 & & \\\\ & -1 & \\\\ & & -1 \\end{bmatrix}.",
+                                    "score": 0.9543
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7043,
+                    "bbox": [
+                        97,
+                        258,
+                        112,
+                        310
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                97,
+                                258,
+                                111,
+                                310
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        258,
+                                        111,
+                                        310
+                                    ],
+                                    "type": "text",
+                                    "content": "练习区域",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.539,
+                    "bbox": [
+                        283,
+                        188,
+                        372,
+                        245
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                283,
+                                189,
+                                369,
+                                245
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        283,
+                                        210,
+                                        303,
+                                        227
+                                    ],
+                                    "type": "text",
+                                    "content": "(D)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        304,
+                                        189,
+                                        369,
+                                        245
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\begin{bmatrix} 1 & & \\\\ & -1 & \\\\ & & 0 \\end{bmatrix}",
+                                    "score": 0.9537
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6074,
+                    "bbox": [
+                        99,
+                        552,
+                        114,
+                        604
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                99,
+                                553,
+                                114,
+                                605
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        99,
+                                        553,
+                                        114,
+                                        605
+                                    ],
+                                    "type": "text",
+                                    "content": "练习区域",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9066,
+                    "bbox": [
+                        89,
+                        461,
+                        425,
+                        541
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                462,
+                                423,
+                                518
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        480,
+                                        178,
+                                        503
+                                    ],
+                                    "type": "text",
+                                    "content": "例12 已知",
+                                    "score": 0.92
+                                },
+                                {
+                                    "bbox": [
+                                        179,
+                                        462,
+                                        287,
+                                        518
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\begin{bmatrix} 1 & - 2 & 0 \\\\ - 2 & 2 & 2 \\\\ 0 & 2 & - 2 \\end{bmatrix}",
+                                    "score": 0.9576
+                                },
+                                {
+                                    "bbox": [
+                                        288,
+                                        484,
+                                        394,
+                                        497
+                                    ],
+                                    "type": "text",
+                                    "content": "，C是三阶可逆矩阵，且",
+                                    "score": 0.963
+                                },
+                                {
+                                    "bbox": [
+                                        396,
+                                        483,
+                                        423,
+                                        498
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "C^{\\mathrm{T}}AC",
+                                    "score": 0.801
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                91,
+                                527,
+                                154,
+                                539
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        91,
+                                        527,
+                                        154,
+                                        539
+                                    ],
+                                    "type": "text",
+                                    "content": "= A,则C =",
+                                    "score": 0.872
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8271,
+                    "bbox": [
+                        349,
+                        437,
+                        409,
+                        450
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                350,
+                                439,
+                                408,
+                                450
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        350,
+                                        439,
+                                        408,
+                                        450
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 151 页",
+                                    "score": 0.942
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 1,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.7191,
+                    "bbox": [
+                        372,
+                        34,
+                        536,
+                        49
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                371,
+                                34,
+                                535,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        371,
+                                        34,
+                                        535,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "线性代数基础·学习册第六章二次型",
+                                    "score": 0.996
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6775,
+                    "bbox": [
+                        349,
+                        753,
+                        409,
+                        766
+                    ],
+                    "index": 11,
+                    "type": "footer",
+                    "lines": [
+                        {
+                            "bbox": [
+                                349,
+                                754,
+                                409,
+                                767
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        349,
+                                        754,
+                                        409,
+                                        767
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 151 页",
+                                    "score": 0.915
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9018,
+                    "bbox": [
+                        300,
+                        786,
+                        323,
+                        799
+                    ],
+                    "index": 12,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                302,
+                                788,
+                                321,
+                                801
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        302,
+                                        788,
+                                        321,
+                                        801
+                                    ],
+                                    "type": "text",
+                                    "content": "139",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.809,
+                    "bbox": [
+                        107,
+                        66,
+                        342,
+                        123
+                    ],
+                    "index": 2,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                108,
+                                67,
+                                339,
+                                122
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        108,
+                                        82,
+                                        144,
+                                        108
+                                    ],
+                                    "type": "text",
+                                    "content": "例11",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        153,
+                                        87,
+                                        190,
+                                        104
+                                    ],
+                                    "type": "text",
+                                    "content": "与矩阵",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        191,
+                                        67,
+                                        270,
+                                        122
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\begin{bmatrix} 1 & 2 & 0 \\\\ 2 & 1 & 0 \\\\ 0 & 0 & 2 \\end{bmatrix}",
+                                    "score": 0.9593
+                                },
+                                {
+                                    "bbox": [
+                                        270,
+                                        87,
+                                        339,
+                                        102
+                                    ],
+                                    "type": "text",
+                                    "content": "合同的矩阵是",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        108,
+                        67,
+                        339,
+                        122
+                    ]
+                },
+                {
+                    "score": 0.5479,
+                    "bbox": [
+                        109,
+                        128,
+                        189,
+                        184
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                129,
+                                187,
+                                184
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        151,
+                                        131,
+                                        166
+                                    ],
+                                    "type": "text",
+                                    "content": "(A)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        131,
+                                        129,
+                                        187,
+                                        184
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left[ \\begin{matrix} { 1 } & { } & { } \\\\ { } & { 1 } & { } \\\\ { } & { } & { 0 } \\\\ \\end{matrix} \\right] .",
+                                    "score": 0.9408
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        110,
+                        129,
+                        187,
+                        184
+                    ]
+                },
+                {
+                    "score": 0.4726,
+                    "bbox": [
+                        282,
+                        127,
+                        372,
+                        183
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                283,
+                                128,
+                                370,
+                                183
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        283,
+                                        148,
+                                        303,
+                                        165
+                                    ],
+                                    "type": "text",
+                                    "content": "(B)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        303,
+                                        128,
+                                        370,
+                                        183
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\begin{bmatrix} 1 & & \\\\ & 1 & \\\\ & & -1 \\end{bmatrix}.",
+                                    "score": 0.9466
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        283,
+                        128,
+                        370,
+                        183
+                    ]
+                },
+                {
+                    "score": 0.5942,
+                    "bbox": [
+                        109,
+                        189,
+                        210,
+                        246
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                109,
+                                190,
+                                208,
+                                245
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        109,
+                                        211,
+                                        130,
+                                        228
+                                    ],
+                                    "type": "text",
+                                    "content": "(C)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        130,
+                                        190,
+                                        208,
+                                        245
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\begin{bmatrix} 1 & & \\\\ & -1 & \\\\ & & -1 \\end{bmatrix}.",
+                                    "score": 0.9543
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        109,
+                        190,
+                        208,
+                        245
+                    ]
+                },
+                {
+                    "score": 0.7043,
+                    "bbox": [
+                        97,
+                        258,
+                        112,
+                        310
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                97,
+                                258,
+                                111,
+                                310
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        258,
+                                        111,
+                                        310
+                                    ],
+                                    "type": "text",
+                                    "content": "练习区域",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        97,
+                        258,
+                        111,
+                        310
+                    ]
+                },
+                {
+                    "score": 0.539,
+                    "bbox": [
+                        283,
+                        188,
+                        372,
+                        245
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                283,
+                                189,
+                                369,
+                                245
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        283,
+                                        210,
+                                        303,
+                                        227
+                                    ],
+                                    "type": "text",
+                                    "content": "(D)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        304,
+                                        189,
+                                        369,
+                                        245
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\begin{bmatrix} 1 & & \\\\ & -1 & \\\\ & & 0 \\end{bmatrix}",
+                                    "score": 0.9537
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        283,
+                        189,
+                        369,
+                        245
+                    ]
+                },
+                {
+                    "score": 0.6074,
+                    "bbox": [
+                        99,
+                        552,
+                        114,
+                        604
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                99,
+                                553,
+                                114,
+                                605
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        99,
+                                        553,
+                                        114,
+                                        605
+                                    ],
+                                    "type": "text",
+                                    "content": "练习区域",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        99,
+                        553,
+                        114,
+                        605
+                    ]
+                },
+                {
+                    "score": 0.9066,
+                    "bbox": [
+                        89,
+                        461,
+                        425,
+                        541
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                462,
+                                423,
+                                518
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        480,
+                                        178,
+                                        503
+                                    ],
+                                    "type": "text",
+                                    "content": "例12 已知",
+                                    "score": 0.92
+                                },
+                                {
+                                    "bbox": [
+                                        179,
+                                        462,
+                                        287,
+                                        518
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\begin{bmatrix} 1 & - 2 & 0 \\\\ - 2 & 2 & 2 \\\\ 0 & 2 & - 2 \\end{bmatrix}",
+                                    "score": 0.9576
+                                },
+                                {
+                                    "bbox": [
+                                        288,
+                                        484,
+                                        394,
+                                        497
+                                    ],
+                                    "type": "text",
+                                    "content": "，C是三阶可逆矩阵，且",
+                                    "score": 0.963
+                                },
+                                {
+                                    "bbox": [
+                                        396,
+                                        483,
+                                        423,
+                                        498
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "C^{\\mathrm{T}}AC",
+                                    "score": 0.801
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                91,
+                                527,
+                                154,
+                                539
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        91,
+                                        527,
+                                        154,
+                                        539
+                                    ],
+                                    "type": "text",
+                                    "content": "= A,则C =",
+                                    "score": 0.872
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        91,
+                        462,
+                        423,
+                        539
+                    ]
+                },
+                {
+                    "score": 0.8271,
+                    "bbox": [
+                        349,
+                        437,
+                        409,
+                        450
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                350,
+                                439,
+                                408,
+                                450
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        350,
+                                        439,
+                                        408,
+                                        450
+                                    ],
+                                    "type": "text",
+                                    "content": "答案见 151 页",
+                                    "score": 0.942
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        350,
+                        439,
+                        408,
+                        450
+                    ]
+                }
+            ]
+        },
+        {
+            "preproc_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        0,
+                        666,
+                        43,
+                        773
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.5182,
+                            "bbox": [
+                                0,
+                                666,
+                                43,
+                                773
+                            ],
+                            "index": 2,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        0,
+                                        666,
+                                        43,
+                                        773
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                0,
+                                                666,
+                                                43,
+                                                773
+                                            ],
+                                            "type": "image",
+                                            "image_path": "3366a3ecb570d262fd432d64a8ad14e6483fa77826121a90c2e22973591f9de9.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.5182
+                },
+                {
+                    "score": 0.9515,
+                    "bbox": [
+                        204,
+                        81,
+                        298,
+                        98
+                    ],
+                    "index": 3,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                82,
+                                295,
+                                97
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        82,
+                                        295,
+                                        97
+                                    ],
+                                    "type": "text",
+                                    "content": "二、正定二次型",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9076,
+                    "bbox": [
+                        204,
+                        113,
+                        532,
+                        128
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                113,
+                                531,
+                                130
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        115,
+                                        398,
+                                        127
+                                    ],
+                                    "type": "text",
+                                    "content": "定义（正定）若对于任意的非零向量",
+                                    "score": 0.982
+                                },
+                                {
+                                    "bbox": [
+                                        399,
+                                        113,
+                                        501,
+                                        126
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{x} = (x_{1}, x_{2}, \\cdots, x_{n})^{\\mathrm{T}}",
+                                    "score": 0.9384
+                                },
+                                {
+                                    "bbox": [
+                                        502,
+                                        113,
+                                        531,
+                                        130
+                                    ],
+                                    "type": "text",
+                                    "content": ",恒有",
+                                    "score": 0.943
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8329,
+                    "bbox": [
+                        229,
+                        135,
+                        481,
+                        167
+                    ],
+                    "index": 5,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                135,
+                                481,
+                                167
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        135,
+                                        481,
+                                        167
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "f\\left( x_{1},x_{2},\\cdots,x_{n} \\right) = \\sum_{i = 1}^{n}{\\sum_{j = 1}^{n}{a_{ij}x_{i}x_{j}}} = \\boldsymbol{x}^{\\mathrm{T}}\\boldsymbol{A}\\boldsymbol{x} > 0,",
+                                    "image_path": "3562c767240a9145a7992e0614988bf65b5cbc3111a21ca1c1120099f1681cab.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8758,
+                    "bbox": [
+                        180,
+                        169,
+                        446,
+                        185
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                183,
+                                172,
+                                443,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        172,
+                                        443,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": "则称二次型f为正定二次型，对应矩阵为正定矩阵.",
+                                    "score": 0.999
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8899,
+                    "bbox": [
+                        203,
+                        190,
+                        468,
+                        205
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                190,
+                                461,
+                                205
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        191,
+                                        295,
+                                        205
+                                    ],
+                                    "type": "text",
+                                    "content": "例如：三元二次型",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        295,
+                                        190,
+                                        461,
+                                        204
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f\\left(x_{1},x_{2},x_{3}\\right)=x_{1}^{2}+3x_{2}^{2}+5x_{3}^{2}",
+                                    "score": 0.9375
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9183,
+                    "bbox": [
+                        215,
+                        212,
+                        497,
+                        266
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                217,
+                                213,
+                                492,
+                                266
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        217,
+                                        213,
+                                        295,
+                                        266
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall   x = \\begin{bmatrix} t \\\\ u \\\\ v \\end{bmatrix} \\neq \\mathbf{0}",
+                                    "score": 0.9523
+                                },
+                                {
+                                    "bbox": [
+                                        295,
+                                        230,
+                                        325,
+                                        247
+                                    ],
+                                    "type": "text",
+                                    "content": ",恒有",
+                                    "score": 0.907
+                                },
+                                {
+                                    "bbox": [
+                                        325,
+                                        230,
+                                        492,
+                                        246
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f(t,u,v)=t^{2}+3u^{2}+5v^{2}>0",
+                                    "score": 0.9197
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9379,
+                    "bbox": [
+                        179,
+                        272,
+                        441,
+                        327
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                183,
+                                273,
+                                438,
+                                326
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        295,
+                                        307,
+                                        306
+                                    ],
+                                    "type": "text",
+                                    "content": "所以二次型f正定，矩阵",
+                                    "score": 0.999
+                                },
+                                {
+                                    "bbox": [
+                                        307,
+                                        273,
+                                        374,
+                                        326
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\begin{bmatrix} 1 &  \\\\  & 3 \\\\  &  & 5 \\end{bmatrix}",
+                                    "score": 0.9529
+                                },
+                                {
+                                    "bbox": [
+                                        375,
+                                        295,
+                                        438,
+                                        307
+                                    ],
+                                    "type": "text",
+                                    "content": "是正定矩阵.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9573,
+                    "bbox": [
+                        179,
+                        333,
+                        530,
+                        389
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                334,
+                                529,
+                                348
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        336,
+                                        288,
+                                        347
+                                    ],
+                                    "type": "text",
+                                    "content": "又如三元二次型",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        290,
+                                        334,
+                                        456,
+                                        348
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f(x_{1},x_{2},x_{3})=x_{1}^{2}+4x_{3}^{2}+5x_{1}x_{2}",
+                                    "score": 0.9423
+                                },
+                                {
+                                    "bbox": [
+                                        458,
+                                        336,
+                                        529,
+                                        348
+                                    ],
+                                    "type": "text",
+                                    "content": "不是正定二次",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                182,
+                                354,
+                                531,
+                                371
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        182,
+                                        356,
+                                        236,
+                                        369
+                                    ],
+                                    "type": "text",
+                                    "content": "型，因为当",
+                                    "score": 0.997
+                                },
+                                {
+                                    "bbox": [
+                                        237,
+                                        354,
+                                        308,
+                                        368
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{x} = (0,1,0)^{\\mathrm{T}}",
+                                    "score": 0.8459
+                                },
+                                {
+                                    "bbox": [
+                                        309,
+                                        355,
+                                        326,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "时，",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        327,
+                                        355,
+                                        400,
+                                        368
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f(0,1,0) = 0",
+                                    "score": 0.7183
+                                },
+                                {
+                                    "bbox": [
+                                        401,
+                                        354,
+                                        439,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "不满足",
+                                    "score": 0.992
+                                },
+                                {
+                                    "bbox": [
+                                        440,
+                                        355,
+                                        516,
+                                        369
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall x \\ne 0, f > 0",
+                                    "score": 0.9205
+                                },
+                                {
+                                    "bbox": [
+                                        516,
+                                        355,
+                                        531,
+                                        371
+                                    ],
+                                    "type": "text",
+                                    "content": "的",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                181,
+                                375,
+                                212,
+                                390
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        181,
+                                        375,
+                                        212,
+                                        390
+                                    ],
+                                    "type": "text",
+                                    "content": "要求.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8859,
+                    "bbox": [
+                        204,
+                        396,
+                        455,
+                        410
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                208,
+                                397,
+                                452,
+                                409
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        397,
+                                        452,
+                                        409
+                                    ],
+                                    "type": "text",
+                                    "content": "定理6.4 可逆线性变换不改变二次型的正定性.",
+                                    "score": 0.986
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9506,
+                    "bbox": [
+                        179,
+                        416,
+                        530,
+                        452
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                418,
+                                528,
+                                429
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        418,
+                                        528,
+                                        429
+                                    ],
+                                    "type": "text",
+                                    "content": "由定理可知，对一般的二次型（或对称阵）应设法作可逆线性变",
+                                    "score": 0.988
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                183,
+                                438,
+                                516,
+                                450
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        438,
+                                        343,
+                                        450
+                                    ],
+                                    "type": "text",
+                                    "content": "换化成标准形(或规范形)，根据",
+                                    "score": 0.973
+                                },
+                                {
+                                    "bbox": [
+                                        344,
+                                        438,
+                                        356,
+                                        450
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "d_{i}",
+                                    "score": 0.8385
+                                },
+                                {
+                                    "bbox": [
+                                        357,
+                                        438,
+                                        516,
+                                        450
+                                    ],
+                                    "type": "text",
+                                    "content": "是否均大于零来判别其正定性.",
+                                    "score": 0.994
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7568,
+                    "bbox": [
+                        204,
+                        457,
+                        356,
+                        471
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                208,
+                                459,
+                                352,
+                                471
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        459,
+                                        352,
+                                        471
+                                    ],
+                                    "type": "text",
+                                    "content": "定理6.5f正定的充要条件",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6151,
+                    "bbox": [
+                        214,
+                        476,
+                        376,
+                        492
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                216,
+                                477,
+                                375,
+                                493
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        477,
+                                        348,
+                                        492
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f\\left(x_{1}, x_{2}, \\cdots, x_{n}\\right) = \\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}",
+                                    "score": 0.9084
+                                },
+                                {
+                                    "bbox": [
+                                        349,
+                                        477,
+                                        375,
+                                        493
+                                    ],
+                                    "type": "text",
+                                    "content": "正定",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7043,
+                    "bbox": [
+                        204,
+                        498,
+                        338,
+                        512
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                499,
+                                336,
+                                512
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        500,
+                                        299,
+                                        511
+                                    ],
+                                    "type": "text",
+                                    "content": "⇒A的正惯性指数",
+                                    "score": 0.924
+                                },
+                                {
+                                    "bbox": [
+                                        300,
+                                        499,
+                                        336,
+                                        512
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "p = n",
+                                    "score": 0.6226
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6601,
+                    "bbox": [
+                        203,
+                        518,
+                        428,
+                        533
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                518,
+                                426,
+                                532
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        519,
+                                        253,
+                                        531
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Leftrightarrow \\boldsymbol{A} \\simeq \\boldsymbol{E}",
+                                    "score": 0.6515
+                                },
+                                {
+                                    "bbox": [
+                                        253,
+                                        519,
+                                        367,
+                                        532
+                                    ],
+                                    "type": "text",
+                                    "content": "，即存在可逆阵C,使得",
+                                    "score": 0.939
+                                },
+                                {
+                                    "bbox": [
+                                        370,
+                                        518,
+                                        426,
+                                        531
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "C^{\\mathrm{T}} A C = E",
+                                    "score": 0.8667
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6698,
+                    "bbox": [
+                        203,
+                        538,
+                        361,
+                        552
+                    ],
+                    "index": 17,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                538,
+                                358,
+                                553
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        538,
+                                        268,
+                                        551
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Leftrightarrow \\boldsymbol{A} = \\boldsymbol{D}^{\\mathrm{T}} \\boldsymbol{D}",
+                                    "score": 0.8887
+                                },
+                                {
+                                    "bbox": [
+                                        268,
+                                        539,
+                                        358,
+                                        553
+                                    ],
+                                    "type": "text",
+                                    "content": ",其中 D是可逆阵",
+                                    "score": 0.936
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7639,
+                    "bbox": [
+                        203,
+                        559,
+                        414,
+                        573
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                559,
+                                412,
+                                573
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        559,
+                                        299,
+                                        572
+                                    ],
+                                    "type": "text",
+                                    "content": "⇔A的全部特征值",
+                                    "score": 0.959
+                                },
+                                {
+                                    "bbox": [
+                                        300,
+                                        559,
+                                        412,
+                                        573
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{i} > 0, i = 1, 2, \\cdots, n",
+                                    "score": 0.9133
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7661,
+                    "bbox": [
+                        203,
+                        579,
+                        379,
+                        594
+                    ],
+                    "index": 19,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                579,
+                                376,
+                                593
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        579,
+                                        227,
+                                        592
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Leftrightarrow \\boldsymbol{A}",
+                                    "score": 0.5248
+                                },
+                                {
+                                    "bbox": [
+                                        229,
+                                        580,
+                                        376,
+                                        593
+                                    ],
+                                    "type": "text",
+                                    "content": "的全部顺序主子式大于零，即",
+                                    "score": 0.996
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9396,
+                    "bbox": [
+                        179,
+                        601,
+                        525,
+                        677
+                    ],
+                    "index": 20,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                180,
+                                601,
+                                523,
+                                677
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        180,
+                                        630,
+                                        198,
+                                        647
+                                    ],
+                                    "type": "text",
+                                    "content": "若",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        198,
+                                        601,
+                                        314,
+                                        677
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\begin{bmatrix}a_{11} & a_{12} & \\cdots & a_{1n} \\\\a_{21} & a_{22} & \\cdots & a_{2n} \\\\\\vdots & \\vdots & & \\vdots \\\\a_{n1} & a_{n2} & \\cdots & a_{nn}\\end{bmatrix}",
+                                    "score": 0.9401
+                                },
+                                {
+                                    "bbox": [
+                                        315,
+                                        631,
+                                        338,
+                                        646
+                                    ],
+                                    "type": "text",
+                                    "content": "正定",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        339,
+                                        620,
+                                        523,
+                                        657
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Leftrightarrow a_{11} > 0,\\left| \\begin{matrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{matrix} \\right| > 0,\\cdots,\\left| \\begin{matrix} A \\\\  \\end{matrix} \\right| > 0.",
+                                    "score": 0.9271
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7583,
+                    "bbox": [
+                        204,
+                        683,
+                        400,
+                        698
+                    ],
+                    "index": 21,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                684,
+                                398,
+                                699
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        684,
+                                        253,
+                                        699
+                                    ],
+                                    "type": "text",
+                                    "content": "定理6.6",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        258,
+                                        684,
+                                        312,
+                                        696
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f = \\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}",
+                                    "score": 0.8962
+                                },
+                                {
+                                    "bbox": [
+                                        315,
+                                        685,
+                                        398,
+                                        698
+                                    ],
+                                    "type": "text",
+                                    "content": "正定的必要条件",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.874,
+                    "bbox": [
+                        203,
+                        703,
+                        433,
+                        718
+                    ],
+                    "index": 22,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                204,
+                                701,
+                                433,
+                                721
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        204,
+                                        702,
+                                        255,
+                                        720
+                                    ],
+                                    "type": "text",
+                                    "content": "若二次型",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        255,
+                                        704,
+                                        387,
+                                        717
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f(x_{1},x_{2},\\cdots,x_{n}) = \\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}",
+                                    "score": 0.9393
+                                },
+                                {
+                                    "bbox": [
+                                        388,
+                                        701,
+                                        433,
+                                        721
+                                    ],
+                                    "type": "text",
+                                    "content": "正定，则",
+                                    "score": 0.985
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8299,
+                    "bbox": [
+                        204,
+                        724,
+                        349,
+                        738
+                    ],
+                    "index": 23,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                725,
+                                345,
+                                737
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        725,
+                                        305,
+                                        737
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)A的主对角元素",
+                                    "score": 0.998
+                                },
+                                {
+                                    "bbox": [
+                                        307,
+                                        725,
+                                        345,
+                                        737
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a_{\\ddot{a}} > 0",
+                                    "score": 0.9053
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.836,
+                    "bbox": [
+                        205,
+                        744,
+                        337,
+                        758
+                    ],
+                    "index": 24,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                744,
+                                333,
+                                758
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        744,
+                                        282,
+                                        758
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)A 的行列式",
+                                    "score": 0.982
+                                },
+                                {
+                                    "bbox": [
+                                        285,
+                                        744,
+                                        333,
+                                        758
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mid \\boldsymbol{A} \\mid > 0.",
+                                    "score": 0.8817
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 2,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.5963,
+                    "bbox": [
+                        60,
+                        29,
+                        211,
+                        54
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                69,
+                                32,
+                                190,
+                                47
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        69,
+                                        33,
+                                        151,
+                                        45
+                                    ],
+                                    "type": "text",
+                                    "content": "考研数学复习全书",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        156,
+                                        32,
+                                        190,
+                                        47
+                                    ],
+                                    "type": "text",
+                                    "content": "基础篇",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9084,
+                    "bbox": [
+                        284,
+                        792,
+                        308,
+                        804
+                    ],
+                    "index": 25,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                286,
+                                793,
+                                306,
+                                807
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        286,
+                                        793,
+                                        306,
+                                        807
+                                    ],
+                                    "type": "text",
+                                    "content": "140",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "type": "image",
+                    "bbox": [
+                        0,
+                        666,
+                        43,
+                        773
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.5182,
+                            "bbox": [
+                                0,
+                                666,
+                                43,
+                                773
+                            ],
+                            "index": 2,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        0,
+                                        666,
+                                        43,
+                                        773
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                0,
+                                                666,
+                                                43,
+                                                773
+                                            ],
+                                            "type": "image",
+                                            "image_path": "3366a3ecb570d262fd432d64a8ad14e6483fa77826121a90c2e22973591f9de9.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "score": 0.5182
+                },
+                {
+                    "score": 0.9515,
+                    "bbox": [
+                        204,
+                        81,
+                        298,
+                        98
+                    ],
+                    "index": 3,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                82,
+                                295,
+                                97
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        82,
+                                        295,
+                                        97
+                                    ],
+                                    "type": "text",
+                                    "content": "二、正定二次型",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9076,
+                    "bbox": [
+                        204,
+                        113,
+                        532,
+                        128
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                113,
+                                531,
+                                130
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        115,
+                                        398,
+                                        127
+                                    ],
+                                    "type": "text",
+                                    "content": "定义（正定）若对于任意的非零向量",
+                                    "score": 0.982
+                                },
+                                {
+                                    "bbox": [
+                                        399,
+                                        113,
+                                        501,
+                                        126
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{x} = (x_{1}, x_{2}, \\cdots, x_{n})^{\\mathrm{T}}",
+                                    "score": 0.9384
+                                },
+                                {
+                                    "bbox": [
+                                        502,
+                                        113,
+                                        531,
+                                        130
+                                    ],
+                                    "type": "text",
+                                    "content": ",恒有",
+                                    "score": 0.943
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        207,
+                        113,
+                        531,
+                        130
+                    ]
+                },
+                {
+                    "score": 0.8329,
+                    "bbox": [
+                        229,
+                        135,
+                        481,
+                        167
+                    ],
+                    "index": 5,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                135,
+                                481,
+                                167
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        135,
+                                        481,
+                                        167
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "f\\left( x_{1},x_{2},\\cdots,x_{n} \\right) = \\sum_{i = 1}^{n}{\\sum_{j = 1}^{n}{a_{ij}x_{i}x_{j}}} = \\boldsymbol{x}^{\\mathrm{T}}\\boldsymbol{A}\\boldsymbol{x} > 0,",
+                                    "image_path": "3562c767240a9145a7992e0614988bf65b5cbc3111a21ca1c1120099f1681cab.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8758,
+                    "bbox": [
+                        180,
+                        169,
+                        446,
+                        185
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                183,
+                                172,
+                                443,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        172,
+                                        443,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": "则称二次型f为正定二次型，对应矩阵为正定矩阵.",
+                                    "score": 0.999
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        183,
+                        172,
+                        443,
+                        182
+                    ]
+                },
+                {
+                    "score": 0.8899,
+                    "bbox": [
+                        203,
+                        190,
+                        468,
+                        205
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                190,
+                                461,
+                                205
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        191,
+                                        295,
+                                        205
+                                    ],
+                                    "type": "text",
+                                    "content": "例如：三元二次型",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        295,
+                                        190,
+                                        461,
+                                        204
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f\\left(x_{1},x_{2},x_{3}\\right)=x_{1}^{2}+3x_{2}^{2}+5x_{3}^{2}",
+                                    "score": 0.9375
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        205,
+                        190,
+                        461,
+                        205
+                    ]
+                },
+                {
+                    "score": 0.9183,
+                    "bbox": [
+                        215,
+                        212,
+                        497,
+                        266
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                217,
+                                213,
+                                492,
+                                266
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        217,
+                                        213,
+                                        295,
+                                        266
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall   x = \\begin{bmatrix} t \\\\ u \\\\ v \\end{bmatrix} \\neq \\mathbf{0}",
+                                    "score": 0.9523
+                                },
+                                {
+                                    "bbox": [
+                                        295,
+                                        230,
+                                        325,
+                                        247
+                                    ],
+                                    "type": "text",
+                                    "content": ",恒有",
+                                    "score": 0.907
+                                },
+                                {
+                                    "bbox": [
+                                        325,
+                                        230,
+                                        492,
+                                        246
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f(t,u,v)=t^{2}+3u^{2}+5v^{2}>0",
+                                    "score": 0.9197
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        217,
+                        213,
+                        492,
+                        266
+                    ]
+                },
+                {
+                    "score": 0.9379,
+                    "bbox": [
+                        179,
+                        272,
+                        441,
+                        327
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                183,
+                                273,
+                                438,
+                                326
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        295,
+                                        307,
+                                        306
+                                    ],
+                                    "type": "text",
+                                    "content": "所以二次型f正定，矩阵",
+                                    "score": 0.999
+                                },
+                                {
+                                    "bbox": [
+                                        307,
+                                        273,
+                                        374,
+                                        326
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\begin{bmatrix} 1 &  \\\\  & 3 \\\\  &  & 5 \\end{bmatrix}",
+                                    "score": 0.9529
+                                },
+                                {
+                                    "bbox": [
+                                        375,
+                                        295,
+                                        438,
+                                        307
+                                    ],
+                                    "type": "text",
+                                    "content": "是正定矩阵.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        183,
+                        273,
+                        438,
+                        326
+                    ]
+                },
+                {
+                    "score": 0.9573,
+                    "bbox": [
+                        179,
+                        333,
+                        530,
+                        389
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                334,
+                                529,
+                                348
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        336,
+                                        288,
+                                        347
+                                    ],
+                                    "type": "text",
+                                    "content": "又如三元二次型",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        290,
+                                        334,
+                                        456,
+                                        348
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f(x_{1},x_{2},x_{3})=x_{1}^{2}+4x_{3}^{2}+5x_{1}x_{2}",
+                                    "score": 0.9423
+                                },
+                                {
+                                    "bbox": [
+                                        458,
+                                        336,
+                                        529,
+                                        348
+                                    ],
+                                    "type": "text",
+                                    "content": "不是正定二次",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                182,
+                                354,
+                                531,
+                                371
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        182,
+                                        356,
+                                        236,
+                                        369
+                                    ],
+                                    "type": "text",
+                                    "content": "型，因为当",
+                                    "score": 0.997
+                                },
+                                {
+                                    "bbox": [
+                                        237,
+                                        354,
+                                        308,
+                                        368
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{x} = (0,1,0)^{\\mathrm{T}}",
+                                    "score": 0.8459
+                                },
+                                {
+                                    "bbox": [
+                                        309,
+                                        355,
+                                        326,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "时，",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        327,
+                                        355,
+                                        400,
+                                        368
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f(0,1,0) = 0",
+                                    "score": 0.7183
+                                },
+                                {
+                                    "bbox": [
+                                        401,
+                                        354,
+                                        439,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "不满足",
+                                    "score": 0.992
+                                },
+                                {
+                                    "bbox": [
+                                        440,
+                                        355,
+                                        516,
+                                        369
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall x \\ne 0, f > 0",
+                                    "score": 0.9205
+                                },
+                                {
+                                    "bbox": [
+                                        516,
+                                        355,
+                                        531,
+                                        371
+                                    ],
+                                    "type": "text",
+                                    "content": "的",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                181,
+                                375,
+                                212,
+                                390
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        181,
+                                        375,
+                                        212,
+                                        390
+                                    ],
+                                    "type": "text",
+                                    "content": "要求.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        181,
+                        334,
+                        531,
+                        390
+                    ]
+                },
+                {
+                    "score": 0.8859,
+                    "bbox": [
+                        204,
+                        396,
+                        455,
+                        410
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                208,
+                                397,
+                                452,
+                                409
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        397,
+                                        452,
+                                        409
+                                    ],
+                                    "type": "text",
+                                    "content": "定理6.4 可逆线性变换不改变二次型的正定性.",
+                                    "score": 0.986
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        208,
+                        397,
+                        452,
+                        409
+                    ]
+                },
+                {
+                    "score": 0.9506,
+                    "bbox": [
+                        179,
+                        416,
+                        530,
+                        452
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                418,
+                                528,
+                                429
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        418,
+                                        528,
+                                        429
+                                    ],
+                                    "type": "text",
+                                    "content": "由定理可知，对一般的二次型（或对称阵）应设法作可逆线性变",
+                                    "score": 0.988
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                183,
+                                438,
+                                516,
+                                450
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        183,
+                                        438,
+                                        343,
+                                        450
+                                    ],
+                                    "type": "text",
+                                    "content": "换化成标准形(或规范形)，根据",
+                                    "score": 0.973
+                                },
+                                {
+                                    "bbox": [
+                                        344,
+                                        438,
+                                        356,
+                                        450
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "d_{i}",
+                                    "score": 0.8385
+                                },
+                                {
+                                    "bbox": [
+                                        357,
+                                        438,
+                                        516,
+                                        450
+                                    ],
+                                    "type": "text",
+                                    "content": "是否均大于零来判别其正定性.",
+                                    "score": 0.994
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        183,
+                        418,
+                        528,
+                        450
+                    ]
+                },
+                {
+                    "score": 0.7568,
+                    "bbox": [
+                        204,
+                        457,
+                        356,
+                        471
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                208,
+                                459,
+                                352,
+                                471
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        459,
+                                        352,
+                                        471
+                                    ],
+                                    "type": "text",
+                                    "content": "定理6.5f正定的充要条件",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        208,
+                        459,
+                        352,
+                        471
+                    ]
+                },
+                {
+                    "score": 0.6151,
+                    "bbox": [
+                        214,
+                        476,
+                        376,
+                        492
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                216,
+                                477,
+                                375,
+                                493
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        477,
+                                        348,
+                                        492
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f\\left(x_{1}, x_{2}, \\cdots, x_{n}\\right) = \\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}",
+                                    "score": 0.9084
+                                },
+                                {
+                                    "bbox": [
+                                        349,
+                                        477,
+                                        375,
+                                        493
+                                    ],
+                                    "type": "text",
+                                    "content": "正定",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        216,
+                        477,
+                        375,
+                        493
+                    ]
+                },
+                {
+                    "score": 0.7043,
+                    "bbox": [
+                        204,
+                        498,
+                        338,
+                        512
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                499,
+                                336,
+                                512
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        500,
+                                        299,
+                                        511
+                                    ],
+                                    "type": "text",
+                                    "content": "⇒A的正惯性指数",
+                                    "score": 0.924
+                                },
+                                {
+                                    "bbox": [
+                                        300,
+                                        499,
+                                        336,
+                                        512
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "p = n",
+                                    "score": 0.6226
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        207,
+                        499,
+                        336,
+                        512
+                    ]
+                },
+                {
+                    "score": 0.6601,
+                    "bbox": [
+                        203,
+                        518,
+                        428,
+                        533
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                518,
+                                426,
+                                532
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        519,
+                                        253,
+                                        531
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Leftrightarrow \\boldsymbol{A} \\simeq \\boldsymbol{E}",
+                                    "score": 0.6515
+                                },
+                                {
+                                    "bbox": [
+                                        253,
+                                        519,
+                                        367,
+                                        532
+                                    ],
+                                    "type": "text",
+                                    "content": "，即存在可逆阵C,使得",
+                                    "score": 0.939
+                                },
+                                {
+                                    "bbox": [
+                                        370,
+                                        518,
+                                        426,
+                                        531
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "C^{\\mathrm{T}} A C = E",
+                                    "score": 0.8667
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        205,
+                        518,
+                        426,
+                        532
+                    ]
+                },
+                {
+                    "score": 0.6698,
+                    "bbox": [
+                        203,
+                        538,
+                        361,
+                        552
+                    ],
+                    "index": 17,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                538,
+                                358,
+                                553
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        538,
+                                        268,
+                                        551
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Leftrightarrow \\boldsymbol{A} = \\boldsymbol{D}^{\\mathrm{T}} \\boldsymbol{D}",
+                                    "score": 0.8887
+                                },
+                                {
+                                    "bbox": [
+                                        268,
+                                        539,
+                                        358,
+                                        553
+                                    ],
+                                    "type": "text",
+                                    "content": ",其中 D是可逆阵",
+                                    "score": 0.936
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        205,
+                        538,
+                        358,
+                        553
+                    ]
+                },
+                {
+                    "score": 0.7639,
+                    "bbox": [
+                        203,
+                        559,
+                        414,
+                        573
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                559,
+                                412,
+                                573
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        559,
+                                        299,
+                                        572
+                                    ],
+                                    "type": "text",
+                                    "content": "⇔A的全部特征值",
+                                    "score": 0.959
+                                },
+                                {
+                                    "bbox": [
+                                        300,
+                                        559,
+                                        412,
+                                        573
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{i} > 0, i = 1, 2, \\cdots, n",
+                                    "score": 0.9133
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        206,
+                        559,
+                        412,
+                        573
+                    ]
+                },
+                {
+                    "score": 0.7661,
+                    "bbox": [
+                        203,
+                        579,
+                        379,
+                        594
+                    ],
+                    "index": 19,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                579,
+                                376,
+                                593
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        579,
+                                        227,
+                                        592
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Leftrightarrow \\boldsymbol{A}",
+                                    "score": 0.5248
+                                },
+                                {
+                                    "bbox": [
+                                        229,
+                                        580,
+                                        376,
+                                        593
+                                    ],
+                                    "type": "text",
+                                    "content": "的全部顺序主子式大于零，即",
+                                    "score": 0.996
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        205,
+                        579,
+                        376,
+                        593
+                    ]
+                },
+                {
+                    "score": 0.9396,
+                    "bbox": [
+                        179,
+                        601,
+                        525,
+                        677
+                    ],
+                    "index": 20,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                180,
+                                601,
+                                523,
+                                677
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        180,
+                                        630,
+                                        198,
+                                        647
+                                    ],
+                                    "type": "text",
+                                    "content": "若",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        198,
+                                        601,
+                                        314,
+                                        677
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\begin{bmatrix}a_{11} & a_{12} & \\cdots & a_{1n} \\\\a_{21} & a_{22} & \\cdots & a_{2n} \\\\\\vdots & \\vdots & & \\vdots \\\\a_{n1} & a_{n2} & \\cdots & a_{nn}\\end{bmatrix}",
+                                    "score": 0.9401
+                                },
+                                {
+                                    "bbox": [
+                                        315,
+                                        631,
+                                        338,
+                                        646
+                                    ],
+                                    "type": "text",
+                                    "content": "正定",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        339,
+                                        620,
+                                        523,
+                                        657
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\Leftrightarrow a_{11} > 0,\\left| \\begin{matrix} a_{11} & a_{12} \\\\ a_{21} & a_{22} \\end{matrix} \\right| > 0,\\cdots,\\left| \\begin{matrix} A \\\\  \\end{matrix} \\right| > 0.",
+                                    "score": 0.9271
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        180,
+                        601,
+                        523,
+                        677
+                    ]
+                },
+                {
+                    "score": 0.7583,
+                    "bbox": [
+                        204,
+                        683,
+                        400,
+                        698
+                    ],
+                    "index": 21,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                684,
+                                398,
+                                699
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        684,
+                                        253,
+                                        699
+                                    ],
+                                    "type": "text",
+                                    "content": "定理6.6",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        258,
+                                        684,
+                                        312,
+                                        696
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f = \\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}",
+                                    "score": 0.8962
+                                },
+                                {
+                                    "bbox": [
+                                        315,
+                                        685,
+                                        398,
+                                        698
+                                    ],
+                                    "type": "text",
+                                    "content": "正定的必要条件",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        206,
+                        684,
+                        398,
+                        699
+                    ]
+                },
+                {
+                    "score": 0.874,
+                    "bbox": [
+                        203,
+                        703,
+                        433,
+                        718
+                    ],
+                    "index": 22,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                204,
+                                701,
+                                433,
+                                721
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        204,
+                                        702,
+                                        255,
+                                        720
+                                    ],
+                                    "type": "text",
+                                    "content": "若二次型",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        255,
+                                        704,
+                                        387,
+                                        717
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "f(x_{1},x_{2},\\cdots,x_{n}) = \\boldsymbol{x}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{x}",
+                                    "score": 0.9393
+                                },
+                                {
+                                    "bbox": [
+                                        388,
+                                        701,
+                                        433,
+                                        721
+                                    ],
+                                    "type": "text",
+                                    "content": "正定，则",
+                                    "score": 0.985
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        204,
+                        701,
+                        433,
+                        721
+                    ]
+                },
+                {
+                    "score": 0.8299,
+                    "bbox": [
+                        204,
+                        724,
+                        349,
+                        738
+                    ],
+                    "index": 23,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                725,
+                                345,
+                                737
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        725,
+                                        305,
+                                        737
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)A的主对角元素",
+                                    "score": 0.998
+                                },
+                                {
+                                    "bbox": [
+                                        307,
+                                        725,
+                                        345,
+                                        737
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "a_{\\ddot{a}} > 0",
+                                    "score": 0.9053
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        207,
+                        725,
+                        345,
+                        737
+                    ]
+                },
+                {
+                    "score": 0.836,
+                    "bbox": [
+                        205,
+                        744,
+                        337,
+                        758
+                    ],
+                    "index": 24,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                744,
+                                333,
+                                758
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        744,
+                                        282,
+                                        758
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)A 的行列式",
+                                    "score": 0.982
+                                },
+                                {
+                                    "bbox": [
+                                        285,
+                                        744,
+                                        333,
+                                        758
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mid \\boldsymbol{A} \\mid > 0.",
+                                    "score": 0.8817
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        207,
+                        744,
+                        333,
+                        758
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.5"
+}

@@ -1,0 +1,3034 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.7611,
+                    "bbox": [
+                        322,
+                        75,
+                        371,
+                        87
+                    ],
+                    "index": 2,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                322,
+                                75,
+                                371,
+                                87
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        322,
+                                        75,
+                                        371,
+                                        87
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha}",
+                                    "image_path": "6e1c82cca0aaa77bfbad5aa6b6dd7c73afb89be703ca767f0800eccbfaeed630.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9185,
+                    "bbox": [
+                        173,
+                        94,
+                        519,
+                        129
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                177,
+                                96,
+                                517,
+                                107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        96,
+                                        517,
+                                        107
+                                    ],
+                                    "type": "text",
+                                    "content": "成立，则称λ是矩阵A的一个特征值，称非零向量α是矩阵A属于特",
+                                    "score": 0.999
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                177,
+                                115,
+                                297,
+                                127
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        115,
+                                        297,
+                                        127
+                                    ],
+                                    "type": "text",
+                                    "content": "征值λ的一个特征向量.",
+                                    "score": 0.997
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8964,
+                    "bbox": [
+                        172,
+                        134,
+                        519,
+                        169
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                198,
+                                133,
+                                518,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        198,
+                                        133,
+                                        236,
+                                        150
+                                    ],
+                                    "type": "text",
+                                    "content": "由定义",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        236,
+                                        135,
+                                        318,
+                                        148
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} , \\boldsymbol{\\alpha} \\neq \\boldsymbol{0}",
+                                    "score": 0.8308
+                                },
+                                {
+                                    "bbox": [
+                                        318,
+                                        133,
+                                        335,
+                                        150
+                                    ],
+                                    "type": "text",
+                                    "content": ",即",
+                                    "score": 0.872
+                                },
+                                {
+                                    "bbox": [
+                                        335,
+                                        135,
+                                        446,
+                                        147
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left( \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right) \\boldsymbol{\\alpha} = \\boldsymbol{0}, \\boldsymbol{\\alpha} \\neq \\boldsymbol{0}",
+                                    "score": 0.7452
+                                },
+                                {
+                                    "bbox": [
+                                        448,
+                                        135,
+                                        518,
+                                        148
+                                    ],
+                                    "type": "text",
+                                    "content": "可知特征向量",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                174,
+                                155,
+                                384,
+                                169
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        174,
+                                        156,
+                                        185,
+                                        167
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\pmb { \\alpha }",
+                                    "score": 0.5112
+                                },
+                                {
+                                    "bbox": [
+                                        186,
+                                        155,
+                                        256,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": "是齐次方程组",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        257,
+                                        155,
+                                        331,
+                                        167
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left( \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right) \\boldsymbol{x} = \\boldsymbol{0}",
+                                    "score": 0.6491
+                                },
+                                {
+                                    "bbox": [
+                                        333,
+                                        155,
+                                        384,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": "的非零解.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8316,
+                    "bbox": [
+                        198,
+                        174,
+                        434,
+                        189
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                174,
+                                430,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        174,
+                                        242,
+                                        190
+                                    ],
+                                    "type": "text",
+                                    "content": "定义设",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        242,
+                                        174,
+                                        294,
+                                        189
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A = \\left[ a_{ij} \\right]",
+                                    "score": 0.9222
+                                },
+                                {
+                                    "bbox": [
+                                        296,
+                                        176,
+                                        430,
+                                        187
+                                    ],
+                                    "type": "text",
+                                    "content": "为一个n阶矩阵，则行列式",
+                                    "score": 0.997
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7712,
+                    "bbox": [
+                        231,
+                        194,
+                        462,
+                        270
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                231,
+                                194,
+                                462,
+                                270
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        231,
+                                        194,
+                                        462,
+                                        270
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = \\left| \\begin{matrix} \\lambda - a_{11} & - a_{12} & \\cdots & - a_{1n} \\\\ - a_{21} & \\lambda - a_{22} & \\cdots & - a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ - a_{n1} & - a_{n2} & \\cdots & \\lambda - a_{nn} \\end{matrix} \\right|",
+                                    "image_path": "44c73cf752d6a6843799203a62b2ff76a013143ecb81f018878a0f55d27bffac.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7902,
+                    "bbox": [
+                        173,
+                        275,
+                        493,
+                        289
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                176,
+                                275,
+                                491,
+                                288
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        176,
+                                        276,
+                                        312,
+                                        288
+                                    ],
+                                    "type": "text",
+                                    "content": "称为矩阵A的特征多项式，",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        316,
+                                        275,
+                                        390,
+                                        288
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = 0",
+                                    "score": 0.7976
+                                },
+                                {
+                                    "bbox": [
+                                        392,
+                                        276,
+                                        491,
+                                        288
+                                    ],
+                                    "type": "text",
+                                    "content": "称为A的特征方程.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8126,
+                    "bbox": [
+                        197,
+                        295,
+                        342,
+                        309
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                297,
+                                339,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        297,
+                                        339,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "求特征值，特征向量的方法：",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8102,
+                    "bbox": [
+                        172,
+                        314,
+                        520,
+                        349
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                315,
+                                519,
+                                328
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        316,
+                                        255,
+                                        327
+                                    ],
+                                    "type": "text",
+                                    "content": "(1）先利用",
+                                    "score": 0.851
+                                },
+                                {
+                                    "bbox": [
+                                        257,
+                                        316,
+                                        319,
+                                        328
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = 0",
+                                    "score": 0.735
+                                },
+                                {
+                                    "bbox": [
+                                        320,
+                                        317,
+                                        407,
+                                        326
+                                    ],
+                                    "type": "text",
+                                    "content": "求矩阵A的特征值",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        407,
+                                        316,
+                                        417,
+                                        328
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{i}",
+                                    "score": 0.7722
+                                },
+                                {
+                                    "bbox": [
+                                        417,
+                                        317,
+                                        498,
+                                        326
+                                    ],
+                                    "type": "text",
+                                    "content": "(共n个). 再利用",
+                                    "score": 0.963
+                                },
+                                {
+                                    "bbox": [
+                                        499,
+                                        315,
+                                        519,
+                                        327
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{1}E",
+                                    "score": 0.675
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                175,
+                                335,
+                                515,
+                                348
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        175,
+                                        335,
+                                        228,
+                                        347
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "-A)x = 0",
+                                    "score": 0.6812
+                                },
+                                {
+                                    "bbox": [
+                                        230,
+                                        337,
+                                        390,
+                                        346
+                                    ],
+                                    "type": "text",
+                                    "content": "求基础解系，即矩阵A属于特征值",
+                                    "score": 0.993
+                                },
+                                {
+                                    "bbox": [
+                                        390,
+                                        336,
+                                        401,
+                                        348
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{i}",
+                                    "score": 0.8115
+                                },
+                                {
+                                    "bbox": [
+                                        402,
+                                        337,
+                                        515,
+                                        346
+                                    ],
+                                    "type": "text",
+                                    "content": "的线性无关的特征向量.",
+                                    "score": 0.999
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6694,
+                    "bbox": [
+                        199,
+                        354,
+                        357,
+                        369
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                354,
+                                356,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        354,
+                                        256,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "(2) 用定义",
+                                    "score": 0.978
+                                },
+                                {
+                                    "bbox": [
+                                        257,
+                                        356,
+                                        303,
+                                        367
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha}",
+                                    "score": 0.6708
+                                },
+                                {
+                                    "bbox": [
+                                        304,
+                                        354,
+                                        356,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "推理分析.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8221,
+                    "bbox": [
+                        173,
+                        374,
+                        519,
+                        409
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                201,
+                                375,
+                                518,
+                                388
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        376,
+                                        276,
+                                        387
+                                    ],
+                                    "type": "text",
+                                    "content": "定理 5.1 如果",
+                                    "score": 0.922
+                                },
+                                {
+                                    "bbox": [
+                                        277,
+                                        375,
+                                        339,
+                                        388
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{1}, \\lambda_{2}, \\cdots, \\lambda_{m}",
+                                    "score": 0.927
+                                },
+                                {
+                                    "bbox": [
+                                        342,
+                                        376,
+                                        499,
+                                        386
+                                    ],
+                                    "type": "text",
+                                    "content": "是矩阵A的互不相同的特征值：",
+                                    "score": 0.974
+                                },
+                                {
+                                    "bbox": [
+                                        500,
+                                        377,
+                                        513,
+                                        387
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": ", \\boldsymbol{a}_{1}",
+                                    "score": 0.8109
+                                },
+                                {
+                                    "bbox": [
+                                        513,
+                                        376,
+                                        518,
+                                        386
+                                    ],
+                                    "type": "text",
+                                    "content": "，",
+                                    "score": 0.875
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                175,
+                                395,
+                                506,
+                                408
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        175,
+                                        397,
+                                        225,
+                                        408
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{2},\\cdots,\\alpha_{m}",
+                                    "score": 0.9085
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        396,
+                                        384,
+                                        406
+                                    ],
+                                    "type": "text",
+                                    "content": "分别是与之对应的特征向量，则",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        387,
+                                        396,
+                                        453,
+                                        407
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}",
+                                    "score": 0.9191
+                                },
+                                {
+                                    "bbox": [
+                                        455,
+                                        395,
+                                        506,
+                                        407
+                                    ],
+                                    "type": "text",
+                                    "content": "线性无关.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7248,
+                    "bbox": [
+                        199,
+                        413,
+                        519,
+                        428
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                415,
+                                516,
+                                427
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        415,
+                                        336,
+                                        427
+                                    ],
+                                    "type": "text",
+                                    "content": "定理 5.2 设A 是 n 阶矩阵",
+                                    "score": 0.889
+                                },
+                                {
+                                    "bbox": [
+                                        338,
+                                        415,
+                                        401,
+                                        427
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{1}, \\lambda_{2}, \\cdots, \\lambda_{n}",
+                                    "score": 0.916
+                                },
+                                {
+                                    "bbox": [
+                                        405,
+                                        415,
+                                        516,
+                                        427
+                                    ],
+                                    "type": "text",
+                                    "content": "是矩阵A的特征值，则",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6539,
+                    "bbox": [
+                        198,
+                        434,
+                        295,
+                        453
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                434,
+                                291,
+                                452
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        437,
+                                        217,
+                                        452
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)",
+                                    "score": 0.995
+                                },
+                                {
+                                    "bbox": [
+                                        218,
+                                        434,
+                                        291,
+                                        452
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\sum \\lambda_{i} = \\sum a_{i i}",
+                                    "score": 0.9127
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.675,
+                    "bbox": [
+                        198,
+                        460,
+                        291,
+                        478
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                199,
+                                461,
+                                288,
+                                477
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        199,
+                                        463,
+                                        218,
+                                        477
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        219,
+                                        461,
+                                        288,
+                                        477
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mid \\boldsymbol{A} \\mid = \\prod \\lambda_{i}.",
+                                    "score": 0.8911
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9121,
+                    "bbox": [
+                        173,
+                        484,
+                        519,
+                        540
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                198,
+                                484,
+                                518,
+                                500
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        198,
+                                        484,
+                                        262,
+                                        500
+                                    ],
+                                    "type": "text",
+                                    "content": "【注】如果",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        262,
+                                        487,
+                                        325,
+                                        499
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{t}",
+                                    "score": 0.9189
+                                },
+                                {
+                                    "bbox": [
+                                        327,
+                                        486,
+                                        518,
+                                        498
+                                    ],
+                                    "type": "text",
+                                    "content": "都是矩阵A属于特征值λ的特征向量，",
+                                    "score": 0.993
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                176,
+                                505,
+                                519,
+                                520
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        176,
+                                        505,
+                                        212,
+                                        520
+                                    ],
+                                    "type": "text",
+                                    "content": "那么当",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        213,
+                                        505,
+                                        330,
+                                        519
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{1}\\boldsymbol{\\alpha}_{1} + k_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + k_{l}\\boldsymbol{\\alpha}_{l}",
+                                    "score": 0.9304
+                                },
+                                {
+                                    "bbox": [
+                                        332,
+                                        505,
+                                        373,
+                                        520
+                                    ],
+                                    "type": "text",
+                                    "content": "非零时，",
+                                    "score": 0.989
+                                },
+                                {
+                                    "bbox": [
+                                        373,
+                                        505,
+                                        492,
+                                        519
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{1}\\boldsymbol{\\alpha}_{1} + k_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + k_{t}\\boldsymbol{\\alpha}_{t}",
+                                    "score": 0.9238
+                                },
+                                {
+                                    "bbox": [
+                                        492,
+                                        505,
+                                        519,
+                                        520
+                                    ],
+                                    "type": "text",
+                                    "content": "仍是",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                177,
+                                525,
+                                345,
+                                538
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        525,
+                                        345,
+                                        538
+                                    ],
+                                    "type": "text",
+                                    "content": "矩阵A属于特征值λ的特征向量.",
+                                    "score": 0.993
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.613,
+                    "bbox": [
+                        198,
+                        544,
+                        416,
+                        559
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                198,
+                                544,
+                                415,
+                                561
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        198,
+                                        545,
+                                        212,
+                                        559
+                                    ],
+                                    "type": "text",
+                                    "content": "如",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        213,
+                                        545,
+                                        398,
+                                        558
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} , \\boldsymbol{\\alpha} \\neq \\boldsymbol{0} , \\forall k \\neq 0 ,  有  k\\boldsymbol{\\alpha} \\neq \\boldsymbol{0}",
+                                    "score": 0.643
+                                },
+                                {
+                                    "bbox": [
+                                        399,
+                                        544,
+                                        415,
+                                        561
+                                    ],
+                                    "type": "text",
+                                    "content": ",则",
+                                    "score": 0.755
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6536,
+                    "bbox": [
+                        259,
+                        564,
+                        430,
+                        578
+                    ],
+                    "index": 17,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                259,
+                                564,
+                                430,
+                                578
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        259,
+                                        564,
+                                        430,
+                                        578
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A \\left( k \\boldsymbol { \\alpha } \\right) = k A \\boldsymbol { \\alpha } = k \\left( \\lambda \\boldsymbol { \\alpha } \\right) = \\lambda \\left( k \\boldsymbol { \\alpha } \\right) .",
+                                    "image_path": "954c2e16948c503039303c60ca40fdf1c8fc67cf5f8039a0b8079e8997625cd3.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8512,
+                    "bbox": [
+                        172,
+                        583,
+                        519,
+                        618
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                177,
+                                584,
+                                519,
+                                599
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        584,
+                                        424,
+                                        597
+                                    ],
+                                    "type": "text",
+                                    "content": "即若α是矩阵A对应于特征值入的特征向量，那么",
+                                    "score": 0.98
+                                },
+                                {
+                                    "bbox": [
+                                        426,
+                                        585,
+                                        475,
+                                        597
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k\\boldsymbol{\\alpha} (k \\neq 0",
+                                    "score": 0.6202
+                                },
+                                {
+                                    "bbox": [
+                                        475,
+                                        585,
+                                        519,
+                                        599
+                                    ],
+                                    "type": "text",
+                                    "content": "时）仍是",
+                                    "score": 0.989
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                176,
+                                604,
+                                296,
+                                616
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        176,
+                                        604,
+                                        296,
+                                        616
+                                    ],
+                                    "type": "text",
+                                    "content": "A对应于λ的特征向量.",
+                                    "score": 0.997
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8261,
+                    "bbox": [
+                        173,
+                        623,
+                        517,
+                        657
+                    ],
+                    "index": 19,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                199,
+                                622,
+                                513,
+                                639
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        199,
+                                        622,
+                                        254,
+                                        638
+                                    ],
+                                    "type": "text",
+                                    "content": "类似地，如",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        254,
+                                        624,
+                                        367,
+                                        637
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A\\boldsymbol{\\alpha}_{1} = \\lambda\\boldsymbol{\\alpha}_{1}, A\\boldsymbol{\\alpha}_{2} = \\lambda\\boldsymbol{\\alpha}_{2}",
+                                    "score": 0.8967
+                                },
+                                {
+                                    "bbox": [
+                                        368,
+                                        623,
+                                        382,
+                                        637
+                                    ],
+                                    "type": "text",
+                                    "content": "且",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        382,
+                                        624,
+                                        459,
+                                        637
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{\\alpha}_{1} \\neq \\boldsymbol{0}, \\boldsymbol{\\alpha}_{2} \\neq \\boldsymbol{0}",
+                                    "score": 0.9174
+                                },
+                                {
+                                    "bbox": [
+                                        460,
+                                        623,
+                                        492,
+                                        639
+                                    ],
+                                    "type": "text",
+                                    "content": ",那么",
+                                    "score": 0.93
+                                },
+                                {
+                                    "bbox": [
+                                        492,
+                                        624,
+                                        513,
+                                        637
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall   k_{1}",
+                                    "score": 0.8713
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                175,
+                                641,
+                                309,
+                                658
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        175,
+                                        644,
+                                        187,
+                                        655
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{2}",
+                                    "score": 0.8661
+                                },
+                                {
+                                    "bbox": [
+                                        188,
+                                        641,
+                                        206,
+                                        658
+                                    ],
+                                    "type": "text",
+                                    "content": ",若",
+                                    "score": 0.928
+                                },
+                                {
+                                    "bbox": [
+                                        206,
+                                        643,
+                                        290,
+                                        655
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2} \\neq \\boldsymbol{0}",
+                                    "score": 0.9355
+                                },
+                                {
+                                    "bbox": [
+                                        290,
+                                        643,
+                                        309,
+                                        658
+                                    ],
+                                    "type": "text",
+                                    "content": ",有",
+                                    "score": 0.955
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8143,
+                    "bbox": [
+                        196,
+                        661,
+                        393,
+                        736
+                    ],
+                    "index": 20,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                196,
+                                661,
+                                393,
+                                736
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        196,
+                                        661,
+                                        393,
+                                        736
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned}\\boldsymbol{A}(k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}) &= \\boldsymbol{A}(k_{1} \\boldsymbol{\\alpha}_{1}) + \\boldsymbol{A}(k_{2} \\boldsymbol{\\alpha}_{2}) \\\\&= k_{1} \\boldsymbol{A} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{A} \\boldsymbol{\\alpha}_{2} \\\\&= k_{1}(\\lambda \\boldsymbol{\\alpha}_{1}) + k_{2}(\\lambda \\boldsymbol{\\alpha}_{2}) \\\\&= \\lambda (k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}) ,\\end{aligned}",
+                                    "image_path": "79790419667c5ee315b2c099b314078bcef124485ad1f6dbfc240ced1b2bf5fe.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8775,
+                    "bbox": [
+                        175,
+                        740,
+                        399,
+                        755
+                    ],
+                    "index": 21,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                176,
+                                741,
+                                397,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        176,
+                                        741,
+                                        189,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "即",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        190,
+                                        742,
+                                        249,
+                                        754
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}",
+                                    "score": 0.9251
+                                },
+                                {
+                                    "bbox": [
+                                        253,
+                                        742,
+                                        397,
+                                        754
+                                    ],
+                                    "type": "text",
+                                    "content": "仍是A对应于λ的特征向量.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.777,
+                    "bbox": [
+                        64,
+                        35,
+                        184,
+                        51
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                64,
+                                35,
+                                183,
+                                50
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        64,
+                                        35,
+                                        147,
+                                        50
+                                    ],
+                                    "type": "text",
+                                    "content": "考研数学复习全书",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        151,
+                                        37,
+                                        183,
+                                        50
+                                    ],
+                                    "type": "text",
+                                    "content": "基础篇",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8995,
+                    "bbox": [
+                        278,
+                        789,
+                        300,
+                        800
+                    ],
+                    "index": 22,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                279,
+                                789,
+                                299,
+                                802
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        279,
+                                        789,
+                                        299,
+                                        802
+                                    ],
+                                    "type": "text",
+                                    "content": "106",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.7611,
+                    "bbox": [
+                        322,
+                        75,
+                        371,
+                        87
+                    ],
+                    "index": 2,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                322,
+                                75,
+                                371,
+                                87
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        322,
+                                        75,
+                                        371,
+                                        87
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha}",
+                                    "image_path": "6e1c82cca0aaa77bfbad5aa6b6dd7c73afb89be703ca767f0800eccbfaeed630.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9185,
+                    "bbox": [
+                        173,
+                        94,
+                        519,
+                        129
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                177,
+                                96,
+                                517,
+                                107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        96,
+                                        517,
+                                        107
+                                    ],
+                                    "type": "text",
+                                    "content": "成立，则称λ是矩阵A的一个特征值，称非零向量α是矩阵A属于特",
+                                    "score": 0.999
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                177,
+                                115,
+                                297,
+                                127
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        115,
+                                        297,
+                                        127
+                                    ],
+                                    "type": "text",
+                                    "content": "征值λ的一个特征向量.",
+                                    "score": 0.997
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        177,
+                        96,
+                        517,
+                        127
+                    ]
+                },
+                {
+                    "score": 0.8964,
+                    "bbox": [
+                        172,
+                        134,
+                        519,
+                        169
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                198,
+                                133,
+                                518,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        198,
+                                        133,
+                                        236,
+                                        150
+                                    ],
+                                    "type": "text",
+                                    "content": "由定义",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        236,
+                                        135,
+                                        318,
+                                        148
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} , \\boldsymbol{\\alpha} \\neq \\boldsymbol{0}",
+                                    "score": 0.8308
+                                },
+                                {
+                                    "bbox": [
+                                        318,
+                                        133,
+                                        335,
+                                        150
+                                    ],
+                                    "type": "text",
+                                    "content": ",即",
+                                    "score": 0.872
+                                },
+                                {
+                                    "bbox": [
+                                        335,
+                                        135,
+                                        446,
+                                        147
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left( \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right) \\boldsymbol{\\alpha} = \\boldsymbol{0}, \\boldsymbol{\\alpha} \\neq \\boldsymbol{0}",
+                                    "score": 0.7452
+                                },
+                                {
+                                    "bbox": [
+                                        448,
+                                        135,
+                                        518,
+                                        148
+                                    ],
+                                    "type": "text",
+                                    "content": "可知特征向量",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                174,
+                                155,
+                                384,
+                                169
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        174,
+                                        156,
+                                        185,
+                                        167
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\pmb { \\alpha }",
+                                    "score": 0.5112
+                                },
+                                {
+                                    "bbox": [
+                                        186,
+                                        155,
+                                        256,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": "是齐次方程组",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        257,
+                                        155,
+                                        331,
+                                        167
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left( \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right) \\boldsymbol{x} = \\boldsymbol{0}",
+                                    "score": 0.6491
+                                },
+                                {
+                                    "bbox": [
+                                        333,
+                                        155,
+                                        384,
+                                        169
+                                    ],
+                                    "type": "text",
+                                    "content": "的非零解.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        174,
+                        133,
+                        518,
+                        169
+                    ]
+                },
+                {
+                    "score": 0.8316,
+                    "bbox": [
+                        198,
+                        174,
+                        434,
+                        189
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                174,
+                                430,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        174,
+                                        242,
+                                        190
+                                    ],
+                                    "type": "text",
+                                    "content": "定义设",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        242,
+                                        174,
+                                        294,
+                                        189
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A = \\left[ a_{ij} \\right]",
+                                    "score": 0.9222
+                                },
+                                {
+                                    "bbox": [
+                                        296,
+                                        176,
+                                        430,
+                                        187
+                                    ],
+                                    "type": "text",
+                                    "content": "为一个n阶矩阵，则行列式",
+                                    "score": 0.997
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        200,
+                        174,
+                        430,
+                        190
+                    ]
+                },
+                {
+                    "score": 0.7712,
+                    "bbox": [
+                        231,
+                        194,
+                        462,
+                        270
+                    ],
+                    "index": 6,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                231,
+                                194,
+                                462,
+                                270
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        231,
+                                        194,
+                                        462,
+                                        270
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = \\left| \\begin{matrix} \\lambda - a_{11} & - a_{12} & \\cdots & - a_{1n} \\\\ - a_{21} & \\lambda - a_{22} & \\cdots & - a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ - a_{n1} & - a_{n2} & \\cdots & \\lambda - a_{nn} \\end{matrix} \\right|",
+                                    "image_path": "44c73cf752d6a6843799203a62b2ff76a013143ecb81f018878a0f55d27bffac.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7902,
+                    "bbox": [
+                        173,
+                        275,
+                        493,
+                        289
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                176,
+                                275,
+                                491,
+                                288
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        176,
+                                        276,
+                                        312,
+                                        288
+                                    ],
+                                    "type": "text",
+                                    "content": "称为矩阵A的特征多项式，",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        316,
+                                        275,
+                                        390,
+                                        288
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = 0",
+                                    "score": 0.7976
+                                },
+                                {
+                                    "bbox": [
+                                        392,
+                                        276,
+                                        491,
+                                        288
+                                    ],
+                                    "type": "text",
+                                    "content": "称为A的特征方程.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        176,
+                        275,
+                        491,
+                        288
+                    ]
+                },
+                {
+                    "score": 0.8126,
+                    "bbox": [
+                        197,
+                        295,
+                        342,
+                        309
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                297,
+                                339,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        297,
+                                        339,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": "求特征值，特征向量的方法：",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        200,
+                        297,
+                        339,
+                        308
+                    ]
+                },
+                {
+                    "score": 0.8102,
+                    "bbox": [
+                        172,
+                        314,
+                        520,
+                        349
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                315,
+                                519,
+                                328
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        316,
+                                        255,
+                                        327
+                                    ],
+                                    "type": "text",
+                                    "content": "(1）先利用",
+                                    "score": 0.851
+                                },
+                                {
+                                    "bbox": [
+                                        257,
+                                        316,
+                                        319,
+                                        328
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\lambda \\boldsymbol{E} - \\boldsymbol{A} \\right| = 0",
+                                    "score": 0.735
+                                },
+                                {
+                                    "bbox": [
+                                        320,
+                                        317,
+                                        407,
+                                        326
+                                    ],
+                                    "type": "text",
+                                    "content": "求矩阵A的特征值",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        407,
+                                        316,
+                                        417,
+                                        328
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{i}",
+                                    "score": 0.7722
+                                },
+                                {
+                                    "bbox": [
+                                        417,
+                                        317,
+                                        498,
+                                        326
+                                    ],
+                                    "type": "text",
+                                    "content": "(共n个). 再利用",
+                                    "score": 0.963
+                                },
+                                {
+                                    "bbox": [
+                                        499,
+                                        315,
+                                        519,
+                                        327
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{1}E",
+                                    "score": 0.675
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                175,
+                                335,
+                                515,
+                                348
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        175,
+                                        335,
+                                        228,
+                                        347
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "-A)x = 0",
+                                    "score": 0.6812
+                                },
+                                {
+                                    "bbox": [
+                                        230,
+                                        337,
+                                        390,
+                                        346
+                                    ],
+                                    "type": "text",
+                                    "content": "求基础解系，即矩阵A属于特征值",
+                                    "score": 0.993
+                                },
+                                {
+                                    "bbox": [
+                                        390,
+                                        336,
+                                        401,
+                                        348
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{i}",
+                                    "score": 0.8115
+                                },
+                                {
+                                    "bbox": [
+                                        402,
+                                        337,
+                                        515,
+                                        346
+                                    ],
+                                    "type": "text",
+                                    "content": "的线性无关的特征向量.",
+                                    "score": 0.999
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        175,
+                        315,
+                        519,
+                        348
+                    ]
+                },
+                {
+                    "score": 0.6694,
+                    "bbox": [
+                        199,
+                        354,
+                        357,
+                        369
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                354,
+                                356,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        354,
+                                        256,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "(2) 用定义",
+                                    "score": 0.978
+                                },
+                                {
+                                    "bbox": [
+                                        257,
+                                        356,
+                                        303,
+                                        367
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha}",
+                                    "score": 0.6708
+                                },
+                                {
+                                    "bbox": [
+                                        304,
+                                        354,
+                                        356,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "推理分析.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        200,
+                        354,
+                        356,
+                        370
+                    ]
+                },
+                {
+                    "score": 0.8221,
+                    "bbox": [
+                        173,
+                        374,
+                        519,
+                        409
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                201,
+                                375,
+                                518,
+                                388
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        201,
+                                        376,
+                                        276,
+                                        387
+                                    ],
+                                    "type": "text",
+                                    "content": "定理 5.1 如果",
+                                    "score": 0.922
+                                },
+                                {
+                                    "bbox": [
+                                        277,
+                                        375,
+                                        339,
+                                        388
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{1}, \\lambda_{2}, \\cdots, \\lambda_{m}",
+                                    "score": 0.927
+                                },
+                                {
+                                    "bbox": [
+                                        342,
+                                        376,
+                                        499,
+                                        386
+                                    ],
+                                    "type": "text",
+                                    "content": "是矩阵A的互不相同的特征值：",
+                                    "score": 0.974
+                                },
+                                {
+                                    "bbox": [
+                                        500,
+                                        377,
+                                        513,
+                                        387
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": ", \\boldsymbol{a}_{1}",
+                                    "score": 0.8109
+                                },
+                                {
+                                    "bbox": [
+                                        513,
+                                        376,
+                                        518,
+                                        386
+                                    ],
+                                    "type": "text",
+                                    "content": "，",
+                                    "score": 0.875
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                175,
+                                395,
+                                506,
+                                408
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        175,
+                                        397,
+                                        225,
+                                        408
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{2},\\cdots,\\alpha_{m}",
+                                    "score": 0.9085
+                                },
+                                {
+                                    "bbox": [
+                                        227,
+                                        396,
+                                        384,
+                                        406
+                                    ],
+                                    "type": "text",
+                                    "content": "分别是与之对应的特征向量，则",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        387,
+                                        396,
+                                        453,
+                                        407
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}",
+                                    "score": 0.9191
+                                },
+                                {
+                                    "bbox": [
+                                        455,
+                                        395,
+                                        506,
+                                        407
+                                    ],
+                                    "type": "text",
+                                    "content": "线性无关.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        175,
+                        375,
+                        518,
+                        408
+                    ]
+                },
+                {
+                    "score": 0.7248,
+                    "bbox": [
+                        199,
+                        413,
+                        519,
+                        428
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                202,
+                                415,
+                                516,
+                                427
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        202,
+                                        415,
+                                        336,
+                                        427
+                                    ],
+                                    "type": "text",
+                                    "content": "定理 5.2 设A 是 n 阶矩阵",
+                                    "score": 0.889
+                                },
+                                {
+                                    "bbox": [
+                                        338,
+                                        415,
+                                        401,
+                                        427
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\lambda_{1}, \\lambda_{2}, \\cdots, \\lambda_{n}",
+                                    "score": 0.916
+                                },
+                                {
+                                    "bbox": [
+                                        405,
+                                        415,
+                                        516,
+                                        427
+                                    ],
+                                    "type": "text",
+                                    "content": "是矩阵A的特征值，则",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        202,
+                        415,
+                        516,
+                        427
+                    ]
+                },
+                {
+                    "score": 0.6539,
+                    "bbox": [
+                        198,
+                        434,
+                        295,
+                        453
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                200,
+                                434,
+                                291,
+                                452
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        200,
+                                        437,
+                                        217,
+                                        452
+                                    ],
+                                    "type": "text",
+                                    "content": "(1)",
+                                    "score": 0.995
+                                },
+                                {
+                                    "bbox": [
+                                        218,
+                                        434,
+                                        291,
+                                        452
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\sum \\lambda_{i} = \\sum a_{i i}",
+                                    "score": 0.9127
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        200,
+                        434,
+                        291,
+                        452
+                    ]
+                },
+                {
+                    "score": 0.675,
+                    "bbox": [
+                        198,
+                        460,
+                        291,
+                        478
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                199,
+                                461,
+                                288,
+                                477
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        199,
+                                        463,
+                                        218,
+                                        477
+                                    ],
+                                    "type": "text",
+                                    "content": "(2)",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        219,
+                                        461,
+                                        288,
+                                        477
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\mid \\boldsymbol{A} \\mid = \\prod \\lambda_{i}.",
+                                    "score": 0.8911
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        199,
+                        461,
+                        288,
+                        477
+                    ]
+                },
+                {
+                    "score": 0.9121,
+                    "bbox": [
+                        173,
+                        484,
+                        519,
+                        540
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                198,
+                                484,
+                                518,
+                                500
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        198,
+                                        484,
+                                        262,
+                                        500
+                                    ],
+                                    "type": "text",
+                                    "content": "【注】如果",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        262,
+                                        487,
+                                        325,
+                                        499
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{t}",
+                                    "score": 0.9189
+                                },
+                                {
+                                    "bbox": [
+                                        327,
+                                        486,
+                                        518,
+                                        498
+                                    ],
+                                    "type": "text",
+                                    "content": "都是矩阵A属于特征值λ的特征向量，",
+                                    "score": 0.993
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                176,
+                                505,
+                                519,
+                                520
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        176,
+                                        505,
+                                        212,
+                                        520
+                                    ],
+                                    "type": "text",
+                                    "content": "那么当",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        213,
+                                        505,
+                                        330,
+                                        519
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{1}\\boldsymbol{\\alpha}_{1} + k_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + k_{l}\\boldsymbol{\\alpha}_{l}",
+                                    "score": 0.9304
+                                },
+                                {
+                                    "bbox": [
+                                        332,
+                                        505,
+                                        373,
+                                        520
+                                    ],
+                                    "type": "text",
+                                    "content": "非零时，",
+                                    "score": 0.989
+                                },
+                                {
+                                    "bbox": [
+                                        373,
+                                        505,
+                                        492,
+                                        519
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{1}\\boldsymbol{\\alpha}_{1} + k_{2}\\boldsymbol{\\alpha}_{2} + \\cdots + k_{t}\\boldsymbol{\\alpha}_{t}",
+                                    "score": 0.9238
+                                },
+                                {
+                                    "bbox": [
+                                        492,
+                                        505,
+                                        519,
+                                        520
+                                    ],
+                                    "type": "text",
+                                    "content": "仍是",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                177,
+                                525,
+                                345,
+                                538
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        525,
+                                        345,
+                                        538
+                                    ],
+                                    "type": "text",
+                                    "content": "矩阵A属于特征值λ的特征向量.",
+                                    "score": 0.993
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        176,
+                        484,
+                        519,
+                        538
+                    ]
+                },
+                {
+                    "score": 0.613,
+                    "bbox": [
+                        198,
+                        544,
+                        416,
+                        559
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                198,
+                                544,
+                                415,
+                                561
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        198,
+                                        545,
+                                        212,
+                                        559
+                                    ],
+                                    "type": "text",
+                                    "content": "如",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        213,
+                                        545,
+                                        398,
+                                        558
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A\\boldsymbol{\\alpha} = \\lambda\\boldsymbol{\\alpha} , \\boldsymbol{\\alpha} \\neq \\boldsymbol{0} , \\forall k \\neq 0 ,  有  k\\boldsymbol{\\alpha} \\neq \\boldsymbol{0}",
+                                    "score": 0.643
+                                },
+                                {
+                                    "bbox": [
+                                        399,
+                                        544,
+                                        415,
+                                        561
+                                    ],
+                                    "type": "text",
+                                    "content": ",则",
+                                    "score": 0.755
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        198,
+                        544,
+                        415,
+                        561
+                    ]
+                },
+                {
+                    "score": 0.6536,
+                    "bbox": [
+                        259,
+                        564,
+                        430,
+                        578
+                    ],
+                    "index": 17,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                259,
+                                564,
+                                430,
+                                578
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        259,
+                                        564,
+                                        430,
+                                        578
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "A \\left( k \\boldsymbol { \\alpha } \\right) = k A \\boldsymbol { \\alpha } = k \\left( \\lambda \\boldsymbol { \\alpha } \\right) = \\lambda \\left( k \\boldsymbol { \\alpha } \\right) .",
+                                    "image_path": "954c2e16948c503039303c60ca40fdf1c8fc67cf5f8039a0b8079e8997625cd3.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8512,
+                    "bbox": [
+                        172,
+                        583,
+                        519,
+                        618
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                177,
+                                584,
+                                519,
+                                599
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        177,
+                                        584,
+                                        424,
+                                        597
+                                    ],
+                                    "type": "text",
+                                    "content": "即若α是矩阵A对应于特征值入的特征向量，那么",
+                                    "score": 0.98
+                                },
+                                {
+                                    "bbox": [
+                                        426,
+                                        585,
+                                        475,
+                                        597
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k\\boldsymbol{\\alpha} (k \\neq 0",
+                                    "score": 0.6202
+                                },
+                                {
+                                    "bbox": [
+                                        475,
+                                        585,
+                                        519,
+                                        599
+                                    ],
+                                    "type": "text",
+                                    "content": "时）仍是",
+                                    "score": 0.989
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                176,
+                                604,
+                                296,
+                                616
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        176,
+                                        604,
+                                        296,
+                                        616
+                                    ],
+                                    "type": "text",
+                                    "content": "A对应于λ的特征向量.",
+                                    "score": 0.997
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        176,
+                        584,
+                        519,
+                        616
+                    ]
+                },
+                {
+                    "score": 0.8261,
+                    "bbox": [
+                        173,
+                        623,
+                        517,
+                        657
+                    ],
+                    "index": 19,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                199,
+                                622,
+                                513,
+                                639
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        199,
+                                        622,
+                                        254,
+                                        638
+                                    ],
+                                    "type": "text",
+                                    "content": "类似地，如",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        254,
+                                        624,
+                                        367,
+                                        637
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A\\boldsymbol{\\alpha}_{1} = \\lambda\\boldsymbol{\\alpha}_{1}, A\\boldsymbol{\\alpha}_{2} = \\lambda\\boldsymbol{\\alpha}_{2}",
+                                    "score": 0.8967
+                                },
+                                {
+                                    "bbox": [
+                                        368,
+                                        623,
+                                        382,
+                                        637
+                                    ],
+                                    "type": "text",
+                                    "content": "且",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        382,
+                                        624,
+                                        459,
+                                        637
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{\\alpha}_{1} \\neq \\boldsymbol{0}, \\boldsymbol{\\alpha}_{2} \\neq \\boldsymbol{0}",
+                                    "score": 0.9174
+                                },
+                                {
+                                    "bbox": [
+                                        460,
+                                        623,
+                                        492,
+                                        639
+                                    ],
+                                    "type": "text",
+                                    "content": ",那么",
+                                    "score": 0.93
+                                },
+                                {
+                                    "bbox": [
+                                        492,
+                                        624,
+                                        513,
+                                        637
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\forall   k_{1}",
+                                    "score": 0.8713
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                175,
+                                641,
+                                309,
+                                658
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        175,
+                                        644,
+                                        187,
+                                        655
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{2}",
+                                    "score": 0.8661
+                                },
+                                {
+                                    "bbox": [
+                                        188,
+                                        641,
+                                        206,
+                                        658
+                                    ],
+                                    "type": "text",
+                                    "content": ",若",
+                                    "score": 0.928
+                                },
+                                {
+                                    "bbox": [
+                                        206,
+                                        643,
+                                        290,
+                                        655
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2} \\neq \\boldsymbol{0}",
+                                    "score": 0.9355
+                                },
+                                {
+                                    "bbox": [
+                                        290,
+                                        643,
+                                        309,
+                                        658
+                                    ],
+                                    "type": "text",
+                                    "content": ",有",
+                                    "score": 0.955
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        175,
+                        622,
+                        513,
+                        658
+                    ]
+                },
+                {
+                    "score": 0.8143,
+                    "bbox": [
+                        196,
+                        661,
+                        393,
+                        736
+                    ],
+                    "index": 20,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                196,
+                                661,
+                                393,
+                                736
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        196,
+                                        661,
+                                        393,
+                                        736
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{aligned}\\boldsymbol{A}(k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}) &= \\boldsymbol{A}(k_{1} \\boldsymbol{\\alpha}_{1}) + \\boldsymbol{A}(k_{2} \\boldsymbol{\\alpha}_{2}) \\\\&= k_{1} \\boldsymbol{A} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{A} \\boldsymbol{\\alpha}_{2} \\\\&= k_{1}(\\lambda \\boldsymbol{\\alpha}_{1}) + k_{2}(\\lambda \\boldsymbol{\\alpha}_{2}) \\\\&= \\lambda (k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}) ,\\end{aligned}",
+                                    "image_path": "79790419667c5ee315b2c099b314078bcef124485ad1f6dbfc240ced1b2bf5fe.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8775,
+                    "bbox": [
+                        175,
+                        740,
+                        399,
+                        755
+                    ],
+                    "index": 21,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                176,
+                                741,
+                                397,
+                                756
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        176,
+                                        741,
+                                        189,
+                                        756
+                                    ],
+                                    "type": "text",
+                                    "content": "即",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        190,
+                                        742,
+                                        249,
+                                        754
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "k_{1} \\boldsymbol{\\alpha}_{1} + k_{2} \\boldsymbol{\\alpha}_{2}",
+                                    "score": 0.9251
+                                },
+                                {
+                                    "bbox": [
+                                        253,
+                                        742,
+                                        397,
+                                        754
+                                    ],
+                                    "type": "text",
+                                    "content": "仍是A对应于λ的特征向量.",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        176,
+                        741,
+                        397,
+                        756
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.5"
+}

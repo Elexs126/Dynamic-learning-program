@@ -1,0 +1,35 @@
+{"time": "2026-08-30T09:58:54+00:00", "event": "task_created"}
+{"time": "2026-08-30T09:58:54+00:00", "event": "chunk_started", "chunk_id": "0001_p000017-000017", "start_page": 17, "end_page": 17}
+{"time": "2026-08-30T09:59:18+00:00", "event": "chunk_done", "chunk_id": "0001_p000017-000017", "elapsed_seconds": 23.654}
+{"time": "2026-08-30T09:59:18+00:00", "event": "chunk_started", "chunk_id": "0002_p000022-000022", "start_page": 22, "end_page": 22}
+{"time": "2026-08-30T09:59:39+00:00", "event": "chunk_done", "chunk_id": "0002_p000022-000022", "elapsed_seconds": 21.382}
+{"time": "2026-08-30T09:59:39+00:00", "event": "chunk_started", "chunk_id": "0003_p000026-000026", "start_page": 26, "end_page": 26}
+{"time": "2026-08-30T10:00:00+00:00", "event": "chunk_done", "chunk_id": "0003_p000026-000026", "elapsed_seconds": 21.133}
+{"time": "2026-08-30T10:00:00+00:00", "event": "chunk_started", "chunk_id": "0004_p000038-000038", "start_page": 38, "end_page": 38}
+{"time": "2026-08-30T10:00:21+00:00", "event": "chunk_done", "chunk_id": "0004_p000038-000038", "elapsed_seconds": 21.114}
+{"time": "2026-08-30T10:00:22+00:00", "event": "chunk_started", "chunk_id": "0005_p000045-000045", "start_page": 45, "end_page": 45}
+{"time": "2026-08-30T10:00:42+00:00", "event": "chunk_done", "chunk_id": "0005_p000045-000045", "elapsed_seconds": 20.836}
+{"time": "2026-08-30T10:00:42+00:00", "event": "chunk_started", "chunk_id": "0006_p000053-000053", "start_page": 53, "end_page": 53}
+{"time": "2026-08-30T10:01:03+00:00", "event": "chunk_done", "chunk_id": "0006_p000053-000053", "elapsed_seconds": 20.512}
+{"time": "2026-08-30T10:01:03+00:00", "event": "chunk_started", "chunk_id": "0007_p000058-000058", "start_page": 58, "end_page": 58}
+{"time": "2026-08-30T10:01:22+00:00", "event": "chunk_done", "chunk_id": "0007_p000058-000058", "elapsed_seconds": 19.414}
+{"time": "2026-08-30T10:01:22+00:00", "event": "chunk_started", "chunk_id": "0008_p000071-000071", "start_page": 71, "end_page": 71}
+{"time": "2026-08-30T10:01:46+00:00", "event": "chunk_done", "chunk_id": "0008_p000071-000071", "elapsed_seconds": 23.663}
+{"time": "2026-08-30T10:01:46+00:00", "event": "chunk_started", "chunk_id": "0009_p000085-000085", "start_page": 85, "end_page": 85}
+{"time": "2026-08-30T10:02:07+00:00", "event": "chunk_done", "chunk_id": "0009_p000085-000085", "elapsed_seconds": 20.543}
+{"time": "2026-08-30T10:02:07+00:00", "event": "chunk_started", "chunk_id": "0010_p000097-000097", "start_page": 97, "end_page": 97}
+{"time": "2026-08-30T10:02:30+00:00", "event": "chunk_done", "chunk_id": "0010_p000097-000097", "elapsed_seconds": 23.539}
+{"time": "2026-08-30T10:02:30+00:00", "event": "chunk_started", "chunk_id": "0011_p000100-000100", "start_page": 100, "end_page": 100}
+{"time": "2026-08-30T10:02:54+00:00", "event": "chunk_done", "chunk_id": "0011_p000100-000100", "elapsed_seconds": 23.586}
+{"time": "2026-08-30T10:02:54+00:00", "event": "chunk_started", "chunk_id": "0012_p000114-000114", "start_page": 114, "end_page": 114}
+{"time": "2026-08-30T10:03:19+00:00", "event": "chunk_done", "chunk_id": "0012_p000114-000114", "elapsed_seconds": 25.176}
+{"time": "2026-08-30T10:03:19+00:00", "event": "chunk_started", "chunk_id": "0013_p000121-000121", "start_page": 121, "end_page": 121}
+{"time": "2026-08-30T10:03:40+00:00", "event": "chunk_done", "chunk_id": "0013_p000121-000121", "elapsed_seconds": 21.509}
+{"time": "2026-08-30T10:03:40+00:00", "event": "chunk_started", "chunk_id": "0014_p000144-000144", "start_page": 144, "end_page": 144}
+{"time": "2026-08-30T10:04:03+00:00", "event": "chunk_done", "chunk_id": "0014_p000144-000144", "elapsed_seconds": 22.555}
+{"time": "2026-08-30T10:04:03+00:00", "event": "chunk_started", "chunk_id": "0015_p000146-000148", "start_page": 146, "end_page": 148}
+{"time": "2026-08-30T10:04:28+00:00", "event": "chunk_done", "chunk_id": "0015_p000146-000148", "elapsed_seconds": 24.552}
+{"time": "2026-08-30T10:04:28+00:00", "event": "chunk_started", "chunk_id": "0016_p000153-000155", "start_page": 153, "end_page": 155}
+{"time": "2026-08-30T10:04:50+00:00", "event": "chunk_done", "chunk_id": "0016_p000153-000155", "elapsed_seconds": 22.515}
+{"time": "2026-08-30T10:04:50+00:00", "event": "chunk_started", "chunk_id": "0017_p000168-000168", "start_page": 168, "end_page": 168}
+{"time": "2026-08-30T10:05:12+00:00", "event": "chunk_done", "chunk_id": "0017_p000168-000168", "elapsed_seconds": 21.573}

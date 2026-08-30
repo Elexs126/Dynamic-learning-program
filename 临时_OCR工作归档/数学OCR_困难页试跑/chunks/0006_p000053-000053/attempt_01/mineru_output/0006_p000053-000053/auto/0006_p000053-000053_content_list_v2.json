@@ -1,0 +1,332 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "如由 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A \\xrightarrow{ 行 } B"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",即 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{1} \\cdots P_{2} P_{1} A = B."
+                    },
+                    {
+                        "type": "text",
+                        "content": "记 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P = P_{1} \\cdots P_{2}P_{1}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "有 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "PA = B,"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{1} \\cdots P_{2} P_{1} A = B"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{1} \\cdots P_{2} P_{1} E = P"
+                    },
+                    {
+                        "type": "text",
+                        "content": "表明当A經行变换得到B时，E在同样的行变换下得到P，即 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "(A \\mid E) \\to (B \\mid P)"
+                    }
+                ]
+            },
+            "bbox": [
+                314,
+                93,
+                862,
+                167
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/4c2ceb1bc4058f94e9312e94177534ab8654baed4b20f046a20e4e5f5d6616e0.jpg"
+                },
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                10,
+                204,
+                72,
+                318
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 14（1995，数一）设 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{A} = \\begin{bmatrix} a_{11} & a_{12} & a_{13} \\\\ & & \\\\ a_{21} & a_{22} & a_{23} \\\\ & & \\\\ a_{31} & a_{32} & a_{33} \\end{bmatrix}"
+                    }
+                ]
+            },
+            "bbox": [
+                339,
+                218,
+                737,
+                284
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol{B} = \\begin{bmatrix} a_{21} & a_{22} & a_{23} \\\\ & & \\\\ a_{11} & a_{12} & a_{13} \\\\ & & \\\\ a_{31} + a_{11} & a_{32} + a_{12} & a_{33} + a_{13} \\end{bmatrix}, \\boldsymbol{P}_{1} = \\begin{bmatrix} 0 & 1 & 0 \\\\ 1 & 0 & 0 \\\\ & & \\\\ 0 & 0 & 1 \\end{bmatrix}, \\boldsymbol{P}_{2} = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ & & \\\\ 1 & 0 & 1 \\end{bmatrix}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2652511a9427a2ba38e255e9eaf7be1847ba7606c1650d74727e7d11da647725.jpg"
+                }
+            },
+            "bbox": [
+                302,
+                292,
+                855,
+                359
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "必有"
+                    }
+                ]
+            },
+            "bbox": [
+                302,
+                367,
+                344,
+                382
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol{A} \\boldsymbol{P}_{1} \\boldsymbol{P}_{2} = \\boldsymbol{B}.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c1d75882ca98932173ec67d39682e83258af650b8529fd0d5cff87d8a5652c64.jpg"
+                }
+            },
+            "bbox": [
+                373,
+                392,
+                478,
+                409
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(B) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{A} \\boldsymbol{P}_{2} \\boldsymbol{P}_{1} = \\boldsymbol{B}."
+                    }
+                ]
+            },
+            "bbox": [
+                638,
+                390,
+                776,
+                407
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(C) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{P}_{1} \\boldsymbol{P}_{2} \\boldsymbol{A} = \\boldsymbol{B}."
+                    }
+                ]
+            },
+            "bbox": [
+                342,
+                417,
+                478,
+                434
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(D) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "P_{2}P_{1}A = B."
+                    }
+                ]
+            },
+            "bbox": [
+                638,
+                414,
+                776,
+                434
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例15 已知A是三阶矩阵，将矩阵A的第1，3两行互换得到B，"
+                    }
+                ]
+            },
+            "bbox": [
+                341,
+                620,
+                877,
+                642
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "答案见 50 页"
+                    }
+                ]
+            },
+            "bbox": [
+                761,
+                586,
+                857,
+                601
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "再将B的第2列的一1倍加到第3列，得到 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol{C} = \\begin{bmatrix} 7 & 8 & 1 \\\\ 4 & 5 & 1 \\\\ 1 & 2 & 1 \\end{bmatrix}"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",则 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A ="
+                    }
+                ]
+            },
+            "bbox": [
+                302,
+                650,
+                878,
+                717
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "答案见 51 页"
+                    }
+                ]
+            },
+            "bbox": [
+                763,
+                892,
+                857,
+                908
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "考研数学复习全书 基础篇"
+                    }
+                ]
+            },
+            "bbox": [
+                110,
+                33,
+                352,
+                60
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "38"
+                    }
+                ]
+            },
+            "bbox": [
+                478,
+                933,
+                507,
+                947
+            ]
+        }
+    ]
+]

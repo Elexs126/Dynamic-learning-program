@@ -1,0 +1,2397 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.9743,
+                    "bbox": [
+                        174,
+                        70,
+                        288,
+                        147
+                    ],
+                    "index": 2,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                174,
+                                70,
+                                288,
+                                147
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        174,
+                                        70,
+                                        288,
+                                        147
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{bmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{m1} & a_{m2} & \\cdots & a_{mn} \\end{bmatrix},",
+                                    "image_path": "c2bac911e58536ab523d93c98195f08ff76736a4c17d7cf6412fceec509bbcdf.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.945,
+                    "bbox": [
+                        55,
+                        152,
+                        403,
+                        167
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                151,
+                                401,
+                                167
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        151,
+                                        105,
+                                        167
+                                    ],
+                                    "type": "text",
+                                    "content": "称为一个",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        105,
+                                        153,
+                                        136,
+                                        164
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "m \\times n",
+                                    "score": 0.5653
+                                },
+                                {
+                                    "bbox": [
+                                        136,
+                                        151,
+                                        177,
+                                        167
+                                    ],
+                                    "type": "text",
+                                    "content": "矩阵，当",
+                                    "score": 0.989
+                                },
+                                {
+                                    "bbox": [
+                                        177,
+                                        154,
+                                        210,
+                                        165
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "m = n",
+                                    "score": 0.5346
+                                },
+                                {
+                                    "bbox": [
+                                        210,
+                                        154,
+                                        401,
+                                        166
+                                    ],
+                                    "type": "text",
+                                    "content": "时，矩阵A称为n阶矩阵或叫n阶方阵.",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9362,
+                    "bbox": [
+                        79,
+                        172,
+                        264,
+                        186
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                172,
+                                261,
+                                186
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        172,
+                                        261,
+                                        186
+                                    ],
+                                    "type": "text",
+                                    "content": "如果一个矩阵的所有元素都是0，即",
+                                    "score": 0.987
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9737,
+                    "bbox": [
+                        180,
+                        192,
+                        283,
+                        265
+                    ],
+                    "index": 5,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                180,
+                                192,
+                                283,
+                                265
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        180,
+                                        192,
+                                        283,
+                                        265
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{bmatrix} 0 & 0 & \\cdots & 0 \\\\ 0 & 0 & \\cdots & 0 \\\\ \\vdots & \\vdots & & \\vdots \\\\ 0 & 0 & \\cdots & 0 \\end{bmatrix},",
+                                    "image_path": "fccc5bcbb23c56bc823f2cfa66d0e6145e26c0a22613fd693d319a18566feddf.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        544,
+                        176,
+                        578,
+                        270
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.5589,
+                            "bbox": [
+                                544,
+                                176,
+                                578,
+                                270
+                            ],
+                            "index": 6,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        544,
+                                        176,
+                                        578,
+                                        270
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                544,
+                                                176,
+                                                578,
+                                                270
+                                            ],
+                                            "type": "image",
+                                            "image_path": "7ebac3a4add88db396ad3b4bf15295c264371a987c6c860aeb01aa1cb286994d.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "score": 0.5589
+                },
+                {
+                    "score": 0.9568,
+                    "bbox": [
+                        55,
+                        271,
+                        245,
+                        285
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                272,
+                                243,
+                                285
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        272,
+                                        243,
+                                        285
+                                    ],
+                                    "type": "text",
+                                    "content": "则称这个矩阵是零矩阵，可简记为0.",
+                                    "score": 0.996
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9703,
+                    "bbox": [
+                        54,
+                        290,
+                        405,
+                        324
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                290,
+                                404,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        290,
+                                        129,
+                                        306
+                                    ],
+                                    "type": "text",
+                                    "content": "两个矩阵",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        130,
+                                        291,
+                                        256,
+                                        305
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{m \\times n}, \\boldsymbol{B} = \\left[ b_{ij} \\right]_{s \\times v}",
+                                    "score": 0.9404
+                                },
+                                {
+                                    "bbox": [
+                                        256,
+                                        290,
+                                        287,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": ",如果",
+                                    "score": 0.93
+                                },
+                                {
+                                    "bbox": [
+                                        287,
+                                        293,
+                                        351,
+                                        304
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "m = s , n = t",
+                                    "score": 0.741
+                                },
+                                {
+                                    "bbox": [
+                                        352,
+                                        291,
+                                        404,
+                                        306
+                                    ],
+                                    "type": "text",
+                                    "content": "，则称A与",
+                                    "score": 0.924
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                56,
+                                312,
+                                132,
+                                324
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        312,
+                                        132,
+                                        324
+                                    ],
+                                    "type": "text",
+                                    "content": "B是同型矩阵.",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9462,
+                    "bbox": [
+                        78,
+                        330,
+                        406,
+                        345
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                81,
+                                330,
+                                404,
+                                344
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        81,
+                                        330,
+                                        150,
+                                        344
+                                    ],
+                                    "type": "text",
+                                    "content": "两个同型矩阵",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        150,
+                                        330,
+                                        269,
+                                        344
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{m \\times n}, \\boldsymbol{B} = \\left[ b_{ij} \\right]_{m \\times n}",
+                                    "score": 0.9465
+                                },
+                                {
+                                    "bbox": [
+                                        271,
+                                        333,
+                                        404,
+                                        343
+                                    ],
+                                    "type": "text",
+                                    "content": "，如果对应的元素都相等，即",
+                                    "score": 0.967
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.927,
+                    "bbox": [
+                        124,
+                        350,
+                        334,
+                        364
+                    ],
+                    "index": 10,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                124,
+                                350,
+                                334,
+                                364
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        124,
+                                        350,
+                                        334,
+                                        364
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "a_{ij} = b_{ij} \\left( i = 1,2,\\cdots,m; j = 1,2,\\cdots,n \\right),",
+                                    "image_path": "f268f2fcab8a051389d3b64a9290b7babdd1b25bbaa867da9ad6d5387c12c4ce.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9437,
+                    "bbox": [
+                        55,
+                        369,
+                        239,
+                        383
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                57,
+                                370,
+                                235,
+                                382
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        370,
+                                        198,
+                                        382
+                                    ],
+                                    "type": "text",
+                                    "content": "则称矩阵A与B相等，记作",
+                                    "score": 0.999
+                                },
+                                {
+                                    "bbox": [
+                                        199,
+                                        370,
+                                        235,
+                                        381
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\boldsymbol{B}.",
+                                    "score": 0.5826
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9514,
+                    "bbox": [
+                        78,
+                        388,
+                        315,
+                        403
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                388,
+                                312,
+                                403
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        388,
+                                        127,
+                                        403
+                                    ],
+                                    "type": "text",
+                                    "content": "n阶方阵",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        127,
+                                        389,
+                                        192,
+                                        402
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{n \\times n}",
+                                    "score": 0.9378
+                                },
+                                {
+                                    "bbox": [
+                                        196,
+                                        390,
+                                        312,
+                                        401
+                                    ],
+                                    "type": "text",
+                                    "content": "的元素所构成的行列式",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9697,
+                    "bbox": [
+                        180,
+                        407,
+                        282,
+                        484
+                    ],
+                    "index": 13,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                180,
+                                407,
+                                282,
+                                484
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        180,
+                                        407,
+                                        282,
+                                        484
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{bmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{n1} & a_{n2} & \\cdots & a_{nn} \\end{bmatrix}",
+                                    "image_path": "915321c98ef8448358f837edef9d729fa5b0815b30bf9a169bb5103456ca9083.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9561,
+                    "bbox": [
+                        55,
+                        488,
+                        285,
+                        503
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                57,
+                                489,
+                                284,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        489,
+                                        221,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "称为n阶矩阵A的行列式，记成",
+                                    "score": 0.997
+                                },
+                                {
+                                    "bbox": [
+                                        222,
+                                        489,
+                                        241,
+                                        502
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| A \\right|",
+                                    "score": 0.6149
+                                },
+                                {
+                                    "bbox": [
+                                        241,
+                                        489,
+                                        284,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "或 detA.",
+                                    "score": 0.941
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9819,
+                    "bbox": [
+                        55,
+                        508,
+                        407,
+                        563
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                510,
+                                404,
+                                522
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        510,
+                                        404,
+                                        522
+                                    ],
+                                    "type": "text",
+                                    "content": "【注】矩阵A是一个表格，而行列式A是一个数，这里的概",
+                                    "score": 0.995
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                57,
+                                528,
+                                406,
+                                543
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        530,
+                                        157,
+                                        542
+                                    ],
+                                    "type": "text",
+                                    "content": "念与符号不要混淆.",
+                                    "score": 0.97
+                                },
+                                {
+                                    "bbox": [
+                                        158,
+                                        529,
+                                        192,
+                                        541
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A = \\boldsymbol{O}",
+                                    "score": 0.6039
+                                },
+                                {
+                                    "bbox": [
+                                        192,
+                                        529,
+                                        205,
+                                        543
+                                    ],
+                                    "type": "text",
+                                    "content": "与",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        207,
+                                        528,
+                                        250,
+                                        541
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\textbf{A} \\right| = 0",
+                                    "score": 0.7607
+                                },
+                                {
+                                    "bbox": [
+                                        251,
+                                        529,
+                                        370,
+                                        542
+                                    ],
+                                    "type": "text",
+                                    "content": "是不同的，不能搞错.当",
+                                    "score": 0.965
+                                },
+                                {
+                                    "bbox": [
+                                        371,
+                                        528,
+                                        406,
+                                        541
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A \\ne 0",
+                                    "score": 0.8549
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                57,
+                                548,
+                                403,
+                                562
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        549,
+                                        106,
+                                        562
+                                    ],
+                                    "type": "text",
+                                    "content": "时可能有",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        108,
+                                        548,
+                                        152,
+                                        561
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\textbf{A} \\right| = 0",
+                                    "score": 0.7295
+                                },
+                                {
+                                    "bbox": [
+                                        153,
+                                        550,
+                                        228,
+                                        562
+                                    ],
+                                    "type": "text",
+                                    "content": "，当然也可能有",
+                                    "score": 0.996
+                                },
+                                {
+                                    "bbox": [
+                                        230,
+                                        548,
+                                        275,
+                                        561
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\boldsymbol{A} \\right| \\neq 0",
+                                    "score": 0.9118
+                                },
+                                {
+                                    "bbox": [
+                                        275,
+                                        550,
+                                        403,
+                                        562
+                                    ],
+                                    "type": "text",
+                                    "content": ".这些基本常识要想清楚.",
+                                    "score": 0.987
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9499,
+                    "bbox": [
+                        79,
+                        577,
+                        163,
+                        592
+                    ],
+                    "index": 16,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                577,
+                                160,
+                                592
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        577,
+                                        160,
+                                        592
+                                    ],
+                                    "type": "text",
+                                    "content": "2. 矩阵的运算",
+                                    "score": 0.99
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9461,
+                    "bbox": [
+                        79,
+                        608,
+                        403,
+                        622
+                    ],
+                    "index": 17,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                610,
+                                401,
+                                620
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        610,
+                                        401,
+                                        620
+                                    ],
+                                    "type": "text",
+                                    "content": "定义（加法）两个同型矩阵(行数与列数分别相等）可以相加，且",
+                                    "score": 0.955
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9467,
+                    "bbox": [
+                        113,
+                        626,
+                        344,
+                        641
+                    ],
+                    "index": 18,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                113,
+                                626,
+                                344,
+                                641
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        113,
+                                        626,
+                                        344,
+                                        641
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\boldsymbol{A} + \\boldsymbol{B} = \\left[ a_{ij} \\right]_{m \\times n} + \\left[ b_{ij} \\right]_{m \\times n} = \\left[ a_{ij} + b_{ij} \\right]_{m \\times n}",
+                                    "image_path": "a7ebe09500099868585ad257d7c685403c79c640046fd6092eec09874ec28eba.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9749,
+                    "bbox": [
+                        55,
+                        646,
+                        405,
+                        679
+                    ],
+                    "index": 19,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                646,
+                                405,
+                                660
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        647,
+                                        291,
+                                        660
+                                    ],
+                                    "type": "text",
+                                    "content": "定义（数量乘法，简称数乘）设k是数",
+                                    "score": 0.959
+                                },
+                                {
+                                    "bbox": [
+                                        292,
+                                        646,
+                                        357,
+                                        660
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{m \\times n}",
+                                    "score": 0.9286
+                                },
+                                {
+                                    "bbox": [
+                                        358,
+                                        646,
+                                        405,
+                                        660
+                                    ],
+                                    "type": "text",
+                                    "content": "是矩阵，",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                57,
+                                667,
+                                188,
+                                678
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        667,
+                                        188,
+                                        678
+                                    ],
+                                    "type": "text",
+                                    "content": "则定义数与矩阵的乘法为",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.953,
+                    "bbox": [
+                        156,
+                        684,
+                        303,
+                        700
+                    ],
+                    "index": 20,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                156,
+                                684,
+                                303,
+                                700
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        156,
+                                        684,
+                                        303,
+                                        700
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "k \\boldsymbol{A} = k \\left[ a_{ij} \\right]_{m \\times n} = \\left[ k a_{ij} \\right]_{m \\times n}",
+                                    "image_path": "0b7d47d0ee6cfe4893e271b7c4bfbffdf6ecd2e65b6f35e2960925a05c5dac98.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.96,
+                    "bbox": [
+                        78,
+                        704,
+                        334,
+                        736
+                    ],
+                    "index": 21,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                79,
+                                704,
+                                334,
+                                736
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        713,
+                                        108,
+                                        729
+                                    ],
+                                    "type": "text",
+                                    "content": "例如",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        108,
+                                        704,
+                                        316,
+                                        736
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\begin{aligned}, \\boldsymbol{A} = \\begin{bmatrix} 1 & 3 & - 2 \\\\ & & \\\\ 0 & - 4 & 5 \\end{bmatrix}, \\boldsymbol{B} = \\begin{bmatrix} 8 & 3 & 5 \\\\ & & \\\\ 1 & 2 & - 6 \\end{bmatrix}\\end{aligned}",
+                                    "score": 0.9573
+                                },
+                                {
+                                    "bbox": [
+                                        316,
+                                        713,
+                                        334,
+                                        730
+                                    ],
+                                    "type": "text",
+                                    "content": ",则",
+                                    "score": 0.928
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9688,
+                    "bbox": [
+                        68,
+                        742,
+                        375,
+                        776
+                    ],
+                    "index": 22,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                742,
+                                375,
+                                776
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        742,
+                                        375,
+                                        776
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\boldsymbol{A} + \\boldsymbol{B} = \\begin{bmatrix} 1 + 8 & 3 + 3 & - 2 + 5 \\\\ 0 + 1 & - 4 + 2 & 5 + ( - 6 ) \\end{bmatrix} = \\begin{bmatrix} 9 & 6 & 3 \\\\ 1 & - 2 & - 1 \\end{bmatrix},",
+                                    "image_path": "d6c4d883b83d9a70ef427c56db5d5e6c541077b8e9904d73f186fed30c6cc954.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                595,
+                841
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.5325,
+                    "bbox": [
+                        364,
+                        37,
+                        524,
+                        51
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                363,
+                                36,
+                                524,
+                                52
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        363,
+                                        36,
+                                        524,
+                                        52
+                                    ],
+                                    "type": "text",
+                                    "content": "线性代数基础-学习册第二章矩阵",
+                                    "score": 0.989
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.903,
+                    "bbox": [
+                        282,
+                        792,
+                        299,
+                        803
+                    ],
+                    "index": 23,
+                    "type": "page_number",
+                    "lines": [
+                        {
+                            "bbox": [
+                                284,
+                                792,
+                                297,
+                                805
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        284,
+                                        792,
+                                        297,
+                                        805
+                                    ],
+                                    "type": "text",
+                                    "content": "23",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.9743,
+                    "bbox": [
+                        174,
+                        70,
+                        288,
+                        147
+                    ],
+                    "index": 2,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                174,
+                                70,
+                                288,
+                                147
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        174,
+                                        70,
+                                        288,
+                                        147
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{bmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{m1} & a_{m2} & \\cdots & a_{mn} \\end{bmatrix},",
+                                    "image_path": "c2bac911e58536ab523d93c98195f08ff76736a4c17d7cf6412fceec509bbcdf.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.945,
+                    "bbox": [
+                        55,
+                        152,
+                        403,
+                        167
+                    ],
+                    "index": 3,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                151,
+                                401,
+                                167
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        151,
+                                        105,
+                                        167
+                                    ],
+                                    "type": "text",
+                                    "content": "称为一个",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        105,
+                                        153,
+                                        136,
+                                        164
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "m \\times n",
+                                    "score": 0.5653
+                                },
+                                {
+                                    "bbox": [
+                                        136,
+                                        151,
+                                        177,
+                                        167
+                                    ],
+                                    "type": "text",
+                                    "content": "矩阵，当",
+                                    "score": 0.989
+                                },
+                                {
+                                    "bbox": [
+                                        177,
+                                        154,
+                                        210,
+                                        165
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "m = n",
+                                    "score": 0.5346
+                                },
+                                {
+                                    "bbox": [
+                                        210,
+                                        154,
+                                        401,
+                                        166
+                                    ],
+                                    "type": "text",
+                                    "content": "时，矩阵A称为n阶矩阵或叫n阶方阵.",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        56,
+                        151,
+                        401,
+                        167
+                    ]
+                },
+                {
+                    "score": 0.9362,
+                    "bbox": [
+                        79,
+                        172,
+                        264,
+                        186
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                172,
+                                261,
+                                186
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        172,
+                                        261,
+                                        186
+                                    ],
+                                    "type": "text",
+                                    "content": "如果一个矩阵的所有元素都是0，即",
+                                    "score": 0.987
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        82,
+                        172,
+                        261,
+                        186
+                    ]
+                },
+                {
+                    "score": 0.9737,
+                    "bbox": [
+                        180,
+                        192,
+                        283,
+                        265
+                    ],
+                    "index": 5,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                180,
+                                192,
+                                283,
+                                265
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        180,
+                                        192,
+                                        283,
+                                        265
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{bmatrix} 0 & 0 & \\cdots & 0 \\\\ 0 & 0 & \\cdots & 0 \\\\ \\vdots & \\vdots & & \\vdots \\\\ 0 & 0 & \\cdots & 0 \\end{bmatrix},",
+                                    "image_path": "fccc5bcbb23c56bc823f2cfa66d0e6145e26c0a22613fd693d319a18566feddf.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "bbox": [
+                        544,
+                        176,
+                        578,
+                        270
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.5589,
+                            "bbox": [
+                                544,
+                                176,
+                                578,
+                                270
+                            ],
+                            "index": 6,
+                            "type": "image_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        544,
+                                        176,
+                                        578,
+                                        270
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                544,
+                                                176,
+                                                578,
+                                                270
+                                            ],
+                                            "type": "image",
+                                            "image_path": "7ebac3a4add88db396ad3b4bf15295c264371a987c6c860aeb01aa1cb286994d.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "score": 0.5589
+                },
+                {
+                    "score": 0.9568,
+                    "bbox": [
+                        55,
+                        271,
+                        245,
+                        285
+                    ],
+                    "index": 7,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                272,
+                                243,
+                                285
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        272,
+                                        243,
+                                        285
+                                    ],
+                                    "type": "text",
+                                    "content": "则称这个矩阵是零矩阵，可简记为0.",
+                                    "score": 0.996
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        58,
+                        272,
+                        243,
+                        285
+                    ]
+                },
+                {
+                    "score": 0.9703,
+                    "bbox": [
+                        54,
+                        290,
+                        405,
+                        324
+                    ],
+                    "index": 8,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                290,
+                                404,
+                                308
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        290,
+                                        129,
+                                        306
+                                    ],
+                                    "type": "text",
+                                    "content": "两个矩阵",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        130,
+                                        291,
+                                        256,
+                                        305
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{m \\times n}, \\boldsymbol{B} = \\left[ b_{ij} \\right]_{s \\times v}",
+                                    "score": 0.9404
+                                },
+                                {
+                                    "bbox": [
+                                        256,
+                                        290,
+                                        287,
+                                        308
+                                    ],
+                                    "type": "text",
+                                    "content": ",如果",
+                                    "score": 0.93
+                                },
+                                {
+                                    "bbox": [
+                                        287,
+                                        293,
+                                        351,
+                                        304
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "m = s , n = t",
+                                    "score": 0.741
+                                },
+                                {
+                                    "bbox": [
+                                        352,
+                                        291,
+                                        404,
+                                        306
+                                    ],
+                                    "type": "text",
+                                    "content": "，则称A与",
+                                    "score": 0.924
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                56,
+                                312,
+                                132,
+                                324
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        312,
+                                        132,
+                                        324
+                                    ],
+                                    "type": "text",
+                                    "content": "B是同型矩阵.",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        56,
+                        290,
+                        404,
+                        324
+                    ]
+                },
+                {
+                    "score": 0.9462,
+                    "bbox": [
+                        78,
+                        330,
+                        406,
+                        345
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                81,
+                                330,
+                                404,
+                                344
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        81,
+                                        330,
+                                        150,
+                                        344
+                                    ],
+                                    "type": "text",
+                                    "content": "两个同型矩阵",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        150,
+                                        330,
+                                        269,
+                                        344
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{m \\times n}, \\boldsymbol{B} = \\left[ b_{ij} \\right]_{m \\times n}",
+                                    "score": 0.9465
+                                },
+                                {
+                                    "bbox": [
+                                        271,
+                                        333,
+                                        404,
+                                        343
+                                    ],
+                                    "type": "text",
+                                    "content": "，如果对应的元素都相等，即",
+                                    "score": 0.967
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        81,
+                        330,
+                        404,
+                        344
+                    ]
+                },
+                {
+                    "score": 0.927,
+                    "bbox": [
+                        124,
+                        350,
+                        334,
+                        364
+                    ],
+                    "index": 10,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                124,
+                                350,
+                                334,
+                                364
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        124,
+                                        350,
+                                        334,
+                                        364
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "a_{ij} = b_{ij} \\left( i = 1,2,\\cdots,m; j = 1,2,\\cdots,n \\right),",
+                                    "image_path": "f268f2fcab8a051389d3b64a9290b7babdd1b25bbaa867da9ad6d5387c12c4ce.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9437,
+                    "bbox": [
+                        55,
+                        369,
+                        239,
+                        383
+                    ],
+                    "index": 11,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                57,
+                                370,
+                                235,
+                                382
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        370,
+                                        198,
+                                        382
+                                    ],
+                                    "type": "text",
+                                    "content": "则称矩阵A与B相等，记作",
+                                    "score": 0.999
+                                },
+                                {
+                                    "bbox": [
+                                        199,
+                                        370,
+                                        235,
+                                        381
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\boldsymbol{B}.",
+                                    "score": 0.5826
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        57,
+                        370,
+                        235,
+                        382
+                    ]
+                },
+                {
+                    "score": 0.9514,
+                    "bbox": [
+                        78,
+                        388,
+                        315,
+                        403
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                388,
+                                312,
+                                403
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        388,
+                                        127,
+                                        403
+                                    ],
+                                    "type": "text",
+                                    "content": "n阶方阵",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        127,
+                                        389,
+                                        192,
+                                        402
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{n \\times n}",
+                                    "score": 0.9378
+                                },
+                                {
+                                    "bbox": [
+                                        196,
+                                        390,
+                                        312,
+                                        401
+                                    ],
+                                    "type": "text",
+                                    "content": "的元素所构成的行列式",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        80,
+                        388,
+                        312,
+                        403
+                    ]
+                },
+                {
+                    "score": 0.9697,
+                    "bbox": [
+                        180,
+                        407,
+                        282,
+                        484
+                    ],
+                    "index": 13,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                180,
+                                407,
+                                282,
+                                484
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        180,
+                                        407,
+                                        282,
+                                        484
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\begin{bmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{n1} & a_{n2} & \\cdots & a_{nn} \\end{bmatrix}",
+                                    "image_path": "915321c98ef8448358f837edef9d729fa5b0815b30bf9a169bb5103456ca9083.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9561,
+                    "bbox": [
+                        55,
+                        488,
+                        285,
+                        503
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                57,
+                                489,
+                                284,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        489,
+                                        221,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "称为n阶矩阵A的行列式，记成",
+                                    "score": 0.997
+                                },
+                                {
+                                    "bbox": [
+                                        222,
+                                        489,
+                                        241,
+                                        502
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| A \\right|",
+                                    "score": 0.6149
+                                },
+                                {
+                                    "bbox": [
+                                        241,
+                                        489,
+                                        284,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "或 detA.",
+                                    "score": 0.941
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        57,
+                        489,
+                        284,
+                        502
+                    ]
+                },
+                {
+                    "score": 0.9819,
+                    "bbox": [
+                        55,
+                        508,
+                        407,
+                        563
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                510,
+                                404,
+                                522
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        510,
+                                        404,
+                                        522
+                                    ],
+                                    "type": "text",
+                                    "content": "【注】矩阵A是一个表格，而行列式A是一个数，这里的概",
+                                    "score": 0.995
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                57,
+                                528,
+                                406,
+                                543
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        530,
+                                        157,
+                                        542
+                                    ],
+                                    "type": "text",
+                                    "content": "念与符号不要混淆.",
+                                    "score": 0.97
+                                },
+                                {
+                                    "bbox": [
+                                        158,
+                                        529,
+                                        192,
+                                        541
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A = \\boldsymbol{O}",
+                                    "score": 0.6039
+                                },
+                                {
+                                    "bbox": [
+                                        192,
+                                        529,
+                                        205,
+                                        543
+                                    ],
+                                    "type": "text",
+                                    "content": "与",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        207,
+                                        528,
+                                        250,
+                                        541
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\textbf{A} \\right| = 0",
+                                    "score": 0.7607
+                                },
+                                {
+                                    "bbox": [
+                                        251,
+                                        529,
+                                        370,
+                                        542
+                                    ],
+                                    "type": "text",
+                                    "content": "是不同的，不能搞错.当",
+                                    "score": 0.965
+                                },
+                                {
+                                    "bbox": [
+                                        371,
+                                        528,
+                                        406,
+                                        541
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "A \\ne 0",
+                                    "score": 0.8549
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                57,
+                                548,
+                                403,
+                                562
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        549,
+                                        106,
+                                        562
+                                    ],
+                                    "type": "text",
+                                    "content": "时可能有",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        108,
+                                        548,
+                                        152,
+                                        561
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\textbf{A} \\right| = 0",
+                                    "score": 0.7295
+                                },
+                                {
+                                    "bbox": [
+                                        153,
+                                        550,
+                                        228,
+                                        562
+                                    ],
+                                    "type": "text",
+                                    "content": "，当然也可能有",
+                                    "score": 0.996
+                                },
+                                {
+                                    "bbox": [
+                                        230,
+                                        548,
+                                        275,
+                                        561
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\left| \\boldsymbol{A} \\right| \\neq 0",
+                                    "score": 0.9118
+                                },
+                                {
+                                    "bbox": [
+                                        275,
+                                        550,
+                                        403,
+                                        562
+                                    ],
+                                    "type": "text",
+                                    "content": ".这些基本常识要想清楚.",
+                                    "score": 0.987
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        57,
+                        510,
+                        406,
+                        562
+                    ]
+                },
+                {
+                    "score": 0.9499,
+                    "bbox": [
+                        79,
+                        577,
+                        163,
+                        592
+                    ],
+                    "index": 16,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                577,
+                                160,
+                                592
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        577,
+                                        160,
+                                        592
+                                    ],
+                                    "type": "text",
+                                    "content": "2. 矩阵的运算",
+                                    "score": 0.99
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9461,
+                    "bbox": [
+                        79,
+                        608,
+                        403,
+                        622
+                    ],
+                    "index": 17,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                610,
+                                401,
+                                620
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        610,
+                                        401,
+                                        620
+                                    ],
+                                    "type": "text",
+                                    "content": "定义（加法）两个同型矩阵(行数与列数分别相等）可以相加，且",
+                                    "score": 0.955
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        83,
+                        610,
+                        401,
+                        620
+                    ]
+                },
+                {
+                    "score": 0.9467,
+                    "bbox": [
+                        113,
+                        626,
+                        344,
+                        641
+                    ],
+                    "index": 18,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                113,
+                                626,
+                                344,
+                                641
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        113,
+                                        626,
+                                        344,
+                                        641
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\boldsymbol{A} + \\boldsymbol{B} = \\left[ a_{ij} \\right]_{m \\times n} + \\left[ b_{ij} \\right]_{m \\times n} = \\left[ a_{ij} + b_{ij} \\right]_{m \\times n}",
+                                    "image_path": "a7ebe09500099868585ad257d7c685403c79c640046fd6092eec09874ec28eba.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9749,
+                    "bbox": [
+                        55,
+                        646,
+                        405,
+                        679
+                    ],
+                    "index": 19,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                82,
+                                646,
+                                405,
+                                660
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        82,
+                                        647,
+                                        291,
+                                        660
+                                    ],
+                                    "type": "text",
+                                    "content": "定义（数量乘法，简称数乘）设k是数",
+                                    "score": 0.959
+                                },
+                                {
+                                    "bbox": [
+                                        292,
+                                        646,
+                                        357,
+                                        660
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\boldsymbol{A} = \\left[ a_{ij} \\right]_{m \\times n}",
+                                    "score": 0.9286
+                                },
+                                {
+                                    "bbox": [
+                                        358,
+                                        646,
+                                        405,
+                                        660
+                                    ],
+                                    "type": "text",
+                                    "content": "是矩阵，",
+                                    "score": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                57,
+                                667,
+                                188,
+                                678
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        667,
+                                        188,
+                                        678
+                                    ],
+                                    "type": "text",
+                                    "content": "则定义数与矩阵的乘法为",
+                                    "score": 1.0
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        57,
+                        646,
+                        405,
+                        678
+                    ]
+                },
+                {
+                    "score": 0.953,
+                    "bbox": [
+                        156,
+                        684,
+                        303,
+                        700
+                    ],
+                    "index": 20,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                156,
+                                684,
+                                303,
+                                700
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        156,
+                                        684,
+                                        303,
+                                        700
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "k \\boldsymbol{A} = k \\left[ a_{ij} \\right]_{m \\times n} = \\left[ k a_{ij} \\right]_{m \\times n}",
+                                    "image_path": "0b7d47d0ee6cfe4893e271b7c4bfbffdf6ecd2e65b6f35e2960925a05c5dac98.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.96,
+                    "bbox": [
+                        78,
+                        704,
+                        334,
+                        736
+                    ],
+                    "index": 21,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                79,
+                                704,
+                                334,
+                                736
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        79,
+                                        713,
+                                        108,
+                                        729
+                                    ],
+                                    "type": "text",
+                                    "content": "例如",
+                                    "score": 1.0
+                                },
+                                {
+                                    "bbox": [
+                                        108,
+                                        704,
+                                        316,
+                                        736
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "\\begin{aligned}, \\boldsymbol{A} = \\begin{bmatrix} 1 & 3 & - 2 \\\\ & & \\\\ 0 & - 4 & 5 \\end{bmatrix}, \\boldsymbol{B} = \\begin{bmatrix} 8 & 3 & 5 \\\\ & & \\\\ 1 & 2 & - 6 \\end{bmatrix}\\end{aligned}",
+                                    "score": 0.9573
+                                },
+                                {
+                                    "bbox": [
+                                        316,
+                                        713,
+                                        334,
+                                        730
+                                    ],
+                                    "type": "text",
+                                    "content": ",则",
+                                    "score": 0.928
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        79,
+                        704,
+                        334,
+                        736
+                    ]
+                },
+                {
+                    "score": 0.9688,
+                    "bbox": [
+                        68,
+                        742,
+                        375,
+                        776
+                    ],
+                    "index": 22,
+                    "type": "interline_equation",
+                    "lines": [
+                        {
+                            "bbox": [
+                                68,
+                                742,
+                                375,
+                                776
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        68,
+                                        742,
+                                        375,
+                                        776
+                                    ],
+                                    "type": "interline_equation",
+                                    "content": "\\boldsymbol{A} + \\boldsymbol{B} = \\begin{bmatrix} 1 + 8 & 3 + 3 & - 2 + 5 \\\\ 0 + 1 & - 4 + 2 & 5 + ( - 6 ) \\end{bmatrix} = \\begin{bmatrix} 9 & 6 & 3 \\\\ 1 & - 2 & - 1 \\end{bmatrix},",
+                                    "image_path": "d6c4d883b83d9a70ef427c56db5d5e6c541077b8e9904d73f186fed30c6cc954.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.5"
+}

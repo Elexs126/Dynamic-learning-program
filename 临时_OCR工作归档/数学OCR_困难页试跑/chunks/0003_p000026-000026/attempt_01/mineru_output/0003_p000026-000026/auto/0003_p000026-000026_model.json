@@ -1,0 +1,328 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 2,
+                "label": "aside_text",
+                "score": 0.4724,
+                "bbox": [
+                    1503,
+                    244,
+                    1549,
+                    386
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6258,
+                "bbox": [
+                    983,
+                    106,
+                    1446,
+                    146
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9397,
+                "bbox": [
+                    165,
+                    198,
+                    1131,
+                    462
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9416,
+                "bbox": [
+                    613,
+                    201,
+                    994,
+                    406
+                ],
+                "index": 4,
+                "latex": "\\left| \\textbf{\\em A} \\right| = \\left| \\begin{matrix} 1 & 2 & - 1 & 1 \\\\ 0 & 2 & t & 1 \\\\ 3 & - 1 & 2 & 2 \\\\ - 1 & 3 & 2 & 1 \\end{matrix} \\right|"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7327,
+                "bbox": [
+                    1008,
+                    285,
+                    1052,
+                    328
+                ],
+                "index": 5,
+                "latex": ",A_{ij}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8416,
+                "bbox": [
+                    207,
+                    422,
+                    243,
+                    456
+                ],
+                "index": 6,
+                "latex": "a_{ij}"
+            },
+            {
+                "cls_id": 23,
+                "label": "vertical_text",
+                "score": 0.5535,
+                "bbox": [
+                    193,
+                    483,
+                    239,
+                    629
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9034,
+                "bbox": [
+                    483,
+                    418,
+                    851,
+                    456
+                ],
+                "index": 8,
+                "latex": "A_{31} - A_{32} + 2A_{33} - A_{34} = 0"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.76,
+                "bbox": [
+                    924,
+                    1082,
+                    1083,
+                    1118
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.75,
+                "bbox": [
+                    231,
+                    1212,
+                    1062,
+                    1422
+                ],
+                "index": 10,
+                "latex": "\\begin{aligned} &\\begin{vmatrix}\\\\ &x & -m & -1 & 0 \\\\&0 & -x & m & 1 \\\\&-1 & 0 & x & -m \\\\&m & 1 & 0 & -x\\\\ &\\end{vmatrix}= a_{4}x^{4} + a_{3}x^{3} + a_{2}x^{2} + a_{1}x + a_{0},\\\\ \\end{aligned}"
+            },
+            {
+                "cls_id": 23,
+                "label": "vertical_text",
+                "score": 0.5078,
+                "bbox": [
+                    193,
+                    1502,
+                    238,
+                    1646
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8562,
+                "bbox": [
+                    203,
+                    1434,
+                    564,
+                    1472
+                ],
+                "index": 12,
+                "latex": "a_{4} + a_{3} + a_{2} + a_{1} + a_{0} ="
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5167,
+                "bbox": [
+                    924,
+                    2101,
+                    1085,
+                    2136
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8808,
+                "bbox": [
+                    781,
+                    2195,
+                    829,
+                    2228
+                ],
+                "index": 14
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1498,
+                    239,
+                    1551,
+                    389
+                ],
+                "score": 0.876,
+                "text": "行列式区"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    980,
+                    106,
+                    1443,
+                    146
+                ],
+                "score": 0.999,
+                "text": "线性代数基础·学习册第一章行列式"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    237,
+                    274,
+                    336,
+                    325
+                ],
+                "score": 1.0,
+                "text": "例11"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    353,
+                    283,
+                    606,
+                    321
+                ],
+                "score": 0.932,
+                "text": "(2023,经联)已知"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1053,
+                    282,
+                    1125,
+                    327
+                ],
+                "score": 1.0,
+                "text": "为元"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    170,
+                    416,
+                    206,
+                    454
+                ],
+                "score": 1.0,
+                "text": "素"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    244,
+                    416,
+                    479,
+                    454
+                ],
+                "score": 0.996,
+                "text": "的代数余子式，若"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    852,
+                    419,
+                    957,
+                    460
+                ],
+                "score": 0.959,
+                "text": ",则t ="
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    194,
+                    485,
+                    236,
+                    629
+                ],
+                "score": 0.998,
+                "text": "练习区域"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    926,
+                    1086,
+                    1081,
+                    1119
+                ],
+                "score": 0.91,
+                "text": "答案见 19 页"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    196,
+                    1503,
+                    235,
+                    1645
+                ],
+                "score": 0.996,
+                "text": "练习区域"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    925,
+                    2103,
+                    1082,
+                    2139
+                ],
+                "score": 0.923,
+                "text": "答案见 20 页"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    787,
+                    2198,
+                    823,
+                    2235
+                ],
+                "score": 1.0,
+                "text": "11"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1653,
+            "height": 2337
+        }
+    }
+]

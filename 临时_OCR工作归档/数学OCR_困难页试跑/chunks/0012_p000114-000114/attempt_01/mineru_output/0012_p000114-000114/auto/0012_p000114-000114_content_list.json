@@ -1,0 +1,262 @@
+[
+    {
+        "type": "text",
+        "text": "得同解方程组",
+        "bbox": [
+            198,
+            79,
+            321,
+            97
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0b2f882c30bef9d1570076356ab4ccbce01286d9ae00b03e91bcb44fe99df730.jpg",
+        "text": "$$\n\\begin{aligned}\\left\\{ \\begin{aligned}x_{1} + 2x_{3} + 12x_{5} &= 10, \\\\x_{2} - x_{3} \\quad - 8x_{5} &= - 6, \\\\x_{4} - 3x_{5} &= - 2.\\end{aligned} \\right.\\end{aligned}\\tag{*}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            315,
+            102,
+            563,
+            167
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "令 $x_{3} = 0 , x_{5} = 0$ ,得方程组 $Ax = \\boldsymbol{b}$ 的一个特解",
+        "bbox": [
+            198,
+            172,
+            600,
+            190
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/12fb42c6326d6c13d495e5fe047b7cc6beb018faaff47b771f9c326af055bdf8.jpg",
+        "text": "$$\n\\boldsymbol{\\alpha} = (10, -6, 0, -2, 0)^{\\mathrm{T}},\n$$",
+        "text_format": "latex",
+        "bbox": [
+            326,
+            196,
+            551,
+            214
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "对应的齐次方程组为",
+        "bbox": [
+            198,
+            219,
+            378,
+            236
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f136d2905f1df2e7a77c48ac04e46276c871cbbc1aa202e32d9919aded21aee1.jpg",
+        "text": "$$\n\\left\\{ \\begin{aligned} x_{1} + 2x_{3} + 12x_{5} &= 0, \\\\ x_{2} - x_{3} &= 8x_{5} = 0, \\\\ x_{4} - 3x_{5} &= 0, \\end{aligned} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            329,
+            242,
+            549,
+            307
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "得 $Ax = \\mathbf{0}$ 的同解方程组",
+        "bbox": [
+            161,
+            312,
+            371,
+            329
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/61796cdd94a00cf7d8ec4510c1e243beacd5d9b56edfd36ce1282f9fe65a6723.jpg",
+        "text": "$$\n\\begin{cases}x_{1} = - 2x_{3} - 12x_{5}, \\\\x_{2} = \\quad x_{3} + 8x_{5}, \\\\x_{4} = \\quad 3x_{5},\\end{cases}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            352,
+            336,
+            526,
+            400
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "分别令 $x_{3} = 1 , x_{5} = 0$ 和 $x_{3} = 0 , x_{5} = 1$ ,得 $Ax = \\mathbf{0}$ 的基础解系",
+        "bbox": [
+            159,
+            406,
+            692,
+            424
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f06ffba49cf91e2fd96460cf014b7b5cd0abc505c94697c607acb9fa23734bf6.jpg",
+        "text": "$$\n\\eta_{1} = (-2,1,1,0,0)^{\\mathrm{T}}, \\eta_{2} = (-12,8,0,3,1)^{\\mathrm{T}}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            242,
+            430,
+            625,
+            448
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "所以方程组的通解为：",
+        "bbox": [
+            159,
+            453,
+            349,
+            470
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/a6014d38064ddcaf1fa4b4dbeba145d17950c0845a06503defffb37cf0f16b0c.jpg",
+        "text": "$$\n(10,-6,0,-2,0)^{\\mathrm{T}} + k_{1}(-2,1,1,0,0)^{\\mathrm{T}} + k_{2}(-12,8,0,3,1)^{\\mathrm{T}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            200,
+            475,
+            710,
+            493
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "$k_{1},k_{2}$ 为任意常数.",
+        "bbox": [
+            159,
+            499,
+            317,
+            517
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "或对同解方程组(\\*)，令 $x_{3} = t, x_{5} = u$ ,解出",
+        "bbox": [
+            198,
+            524,
+            574,
+            541
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/0419b08efe2285e9316dcbb02d09326986644080ea2e6d84cdf9cb6aa0660b4f.jpg",
+        "text": "$$\n\\begin{cases}x_{1} = 10 - 2t - 12u, \\\\x_{2} = -6 + t + 8u, \\\\x_{3} = t, \\\\x_{4} = -2 + 3u, \\\\x_{5} = u.\\end{cases}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            347,
+            545,
+            529,
+            658
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "亦得通解 $x = ( 1 0 , - 6 , 0 , - 2 , 0 ) ^ { \\mathrm { T } } + t ( - 2 , 1 , 1 , 0 , 0 ) ^ { \\mathrm { T } } + u ( - 1 2 , 8 , 0 ,$ $3,1)^{\\mathrm{T}},t,u$ 为任意常数.",
+        "bbox": [
+            159,
+            664,
+            715,
+            705
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "例9【解】对增广矩阵作初等行变换，有",
+        "bbox": [
+            200,
+            734,
+            571,
+            755
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/3fc6bf5579d662a8741682099bfcf05ea92c00a86d903b020e06406e0fea9754.jpg",
+        "text": "$$\n\\overline{\\boldsymbol{A}} = \\begin{bmatrix} \\lambda & 1 & 1 \\vdots \\lambda - 3 \\\\ 1 & \\lambda & 1 \\vdots - 2 \\\\ 1 & 1 & \\lambda \\vdots - 2 \\end{bmatrix} \\rightarrow \\begin{bmatrix} 1 & 1 & \\lambda \\vdots - 2 \\\\ 1 & \\lambda & 1 \\vdots - 2 \\\\ \\lambda & 1 & 1 \\vdots \\lambda - 3 \\end{bmatrix}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            196,
+            762,
+            564,
+            827
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/37b9d2b8c559e6a21efe7f39bfb2eb64f81323885b68c5ea76aa000f3be1029b.jpg",
+        "text": "$$\n\\rightarrow \\begin{bmatrix} 1 & 1 & \\lambda & \\vdots & - 2 \\\\ 0 & \\lambda - 1 & 1 - \\lambda & \\vdots & 0 \\\\ 0 & 0 & (\\lambda + 2)(\\lambda - 1) \\vdots & 3(1 - \\lambda) \\end{bmatrix}.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            213,
+            832,
+            571,
+            897
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "当 $\\lambda = - 2$ 时 $r(\\boldsymbol{A}) = 2, r(\\overline{\\boldsymbol{A}}) = 3$ ,方程组无解.",
+        "bbox": [
+            198,
+            901,
+            594,
+            919
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "线性代数基础·学习册“第四章线性方程组",
+        "bbox": [
+            601,
+            40,
+            904,
+            58
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "99",
+        "bbox": [
+            517,
+            936,
+            546,
+            950
+        ],
+        "page_idx": 0
+    }
+]

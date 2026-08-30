@@ -1,0 +1,417 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8175,
+                "bbox": [
+                    177,
+                    99,
+                    506,
+                    140
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7012,
+                "bbox": [
+                    160,
+                    207,
+                    279,
+                    240
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9355,
+                "bbox": [
+                    495,
+                    222,
+                    719,
+                    263
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9525,
+                "bbox": [
+                    545,
+                    303,
+                    835,
+                    347
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9564,
+                "bbox": [
+                    542,
+                    388,
+                    1328,
+                    429
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9528,
+                "bbox": [
+                    544,
+                    443,
+                    995,
+                    483
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9718,
+                "bbox": [
+                    488,
+                    498,
+                    1436,
+                    654
+                ],
+                "index": 7,
+                "latex": "\\begin{vmatrix} a_{1} & a_{2} & a_{3} \\\\ b_{1} & b_{2} & b_{3} \\\\ c_{1} & c_{2} & c_{3} \\end{vmatrix} = a_{1}b_{2}c_{3} + a_{2}b_{3}c_{1} + a_{3}b_{1}c_{2} - a_{3}b_{2}c_{1} - a_{2}b_{1}c_{3} - a_{1}b_{3}c_{2}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9836,
+                "bbox": [
+                    476,
+                    669,
+                    1443,
+                    823
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9757,
+                "bbox": [
+                    477,
+                    835,
+                    1441,
+                    930
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9574,
+                "bbox": [
+                    537,
+                    941,
+                    1368,
+                    1264
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.606,
+                "bbox": [
+                    1004,
+                    1287,
+                    1056,
+                    1320
+                ],
+                "index": 11,
+                "latex": " \\text{\" }0 \""
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9782,
+                "bbox": [
+                    479,
+                    1284,
+                    1440,
+                    1380
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.7461,
+                "bbox": [
+                    552,
+                    1390,
+                    1444,
+                    1597
+                ],
+                "index": 13,
+                "latex": "\\begin{aligned}\\left| \\begin{matrix}0 & 1 & 2 \\\\3 & 0 & 4 \\\\5 & 6 & 0\\end{matrix} \\right|&= 0 \\times 0 \\times 0 + 1 \\times 4 \\times 5 + 2 \\times 3 \\times 6 - 2 \\times 0 \\times 5 - 1 \\times 3 \\times 6 \\\\&= 0 - 0 \\times 4 \\times 6 = 56,\\end{aligned}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9663,
+                "bbox": [
+                    551,
+                    1612,
+                    1279,
+                    1764
+                ],
+                "index": 14,
+                "latex": "\\begin{aligned} &\\begin{vmatrix}\\\\ &1 & 0 & - 1 \\\\&2 & - 2 & 1 \\\\&0 & - 3 & 4\\\\ &\\end{vmatrix}=-8+0+6-0-0-(-3)=1.\\\\ \\end{aligned}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9787,
+                "bbox": [
+                    479,
+                    1777,
+                    1440,
+                    1873
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.955,
+                "bbox": [
+                    543,
+                    1887,
+                    1267,
+                    1928
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8678,
+                "bbox": [
+                    781,
+                    2193,
+                    815,
+                    2224
+                ],
+                "index": 17
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    175,
+                    95,
+                    507,
+                    139
+                ],
+                "score": 0.963,
+                "text": "考研数学复习全书 基础篇"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    160,
+                    207,
+                    277,
+                    240
+                ],
+                "score": 1.0,
+                "text": "学习笔记"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    492,
+                    219,
+                    719,
+                    265
+                ],
+                "score": 1.0,
+                "text": "知识梳理与例题"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    552,
+                    305,
+                    830,
+                    346
+                ],
+                "score": 1.0,
+                "text": "一、行列式的概念"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    551,
+                    393,
+                    1323,
+                    424
+                ],
+                "score": 1.0,
+                "text": "行列式是一个数，它是不同行不同列元素乘积的代数和."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    554,
+                    448,
+                    987,
+                    481
+                ],
+                "score": 0.983,
+                "text": "例如，大家所熟悉的三阶行列式"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    485,
+                    670,
+                    1436,
+                    707
+                ],
+                "score": 0.979,
+                "text": "其每一项都是3个数的乘积，从字母看a，b，c各有1个，说明这3个数"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    487,
+                    726,
+                    1434,
+                    763
+                ],
+                "score": 0.974,
+                "text": "一个在第1行，一个在第2行，一个在第3行；而从下标看数字1,2，3"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    486,
+                    782,
+                    1305,
+                    817
+                ],
+                "score": 0.997,
+                "text": "各有1个，说明这3个数分别来自第1列、第2列和第3列."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    550,
+                    836,
+                    1435,
+                    874
+                ],
+                "score": 0.997,
+                "text": "在这6项中，有3项带“+”号，3项带“”号，大家可以用对角线"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    487,
+                    892,
+                    662,
+                    926
+                ],
+                "score": 1.0,
+                "text": "方法来记忆："
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    553,
+                    1289,
+                    1003,
+                    1321
+                ],
+                "score": 1.0,
+                "text": "当三阶行列式的元素中有较多的"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1057,
+                    1289,
+                    1434,
+                    1321
+                ],
+                "score": 0.959,
+                "text": "时，用对角线法来计算行列"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    490,
+                    1346,
+                    807,
+                    1374
+                ],
+                "score": 0.999,
+                "text": "式的值是简便的.例如，"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    553,
+                    1783,
+                    1435,
+                    1812
+                ],
+                "score": 1.0,
+                "text": "一般地，我们应当用行列式的性质将其恒等变形化简，再通过展"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    489,
+                    1838,
+                    1023,
+                    1867
+                ],
+                "score": 0.977,
+                "text": "开公式（用降阶法）来计算行列式的值."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    554,
+                    1894,
+                    1261,
+                    1921
+                ],
+                "score": 0.999,
+                "text": "对于n阶行列式的概念，大家要有一个简单的了解."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    786,
+                    2196,
+                    807,
+                    2227
+                ],
+                "score": 1.0,
+                "text": "2"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1653,
+            "height": 2337
+        }
+    }
+]

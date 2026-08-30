@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "script_version": "3.0.0",
+  "created_at": "2026-08-30T10:56:05+00:00",
+  "updated_at": "2026-08-30T11:02:49+00:00",
+  "source": {
+    "path": "/home/elexs/Dynamic-learning-program/408/27王道《数据结构》高清带书签【公众号：研料库，料最全】(1).pdf",
+    "name": "27王道《数据结构》高清带书签【公众号：研料库，料最全】(1).pdf",
+    "size": 211591863,
+    "mtime_ns": 1788042561546538300,
+    "sha256": "739a787511ba17ab1c392d57d5345b2de737b3cfdb05fe7874bdf924857fb2ef",
+    "pages": 404
+  },
+  "config": {
+    "script_version": "3.0.0",
+    "mineru_version": "mineru, version 3.4.5",
+    "backend": "pipeline",
+    "method": "auto",
+    "effort": "high",
+    "language": "ch",
+    "chunk_pages": 128,
+    "chunk_input_mode": "materialized",
+    "start_page": 1,
+    "end_page": 404,
+    "selected_pages": null,
+    "chapters": [
+      {
+        "key": "book",
+        "file": "",
+        "title": "全文",
+        "start_page": 1,
+        "end_page": 404
+      }
+    ],
+    "formula": true,
+    "table": true,
+    "image_analysis": false
+  },
+  "config_hash": "2aa8ea437da5e0d44c75560e0ecfdd568f643a4584b82bf2c565db5ec44c2d21",
+  "planned_chunk_ids": [
+    "0001_p000001-000128",
+    "0002_p000129-000256",
+    "0003_p000257-000384",
+    "0004_p000385-000404"
+  ],
+  "chunks": {
+    "0001_p000001-000128": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 1,
+      "end_page": 128,
+      "chapter_key": "book",
+      "markdown": "chunks/0001_p000001-000128/attempt_01/mineru_output/0001_p000001-000128/auto/0001_p000001-000128.md",
+      "middle_json": "chunks/0001_p000001-000128/attempt_01/mineru_output/0001_p000001-000128/auto/0001_p000001-000128_middle.json",
+      "attempt_dir": "chunks/0001_p000001-000128/attempt_01",
+      "elapsed_seconds": 137.515,
+      "completed_at": "2026-08-30T10:58:23+00:00"
+    },
+    "0002_p000129-000256": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 129,
+      "end_page": 256,
+      "chapter_key": "book",
+      "markdown": "chunks/0002_p000129-000256/attempt_01/mineru_output/0002_p000129-000256/auto/0002_p000129-000256.md",
+      "middle_json": "chunks/0002_p000129-000256/attempt_01/mineru_output/0002_p000129-000256/auto/0002_p000129-000256_middle.json",
+      "attempt_dir": "chunks/0002_p000129-000256/attempt_01",
+      "elapsed_seconds": 111.541,
+      "completed_at": "2026-08-30T11:00:15+00:00"
+    },
+    "0003_p000257-000384": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 257,
+      "end_page": 384,
+      "chapter_key": "book",
+      "markdown": "chunks/0003_p000257-000384/attempt_01/mineru_output/0003_p000257-000384/auto/0003_p000257-000384.md",
+      "middle_json": "chunks/0003_p000257-000384/attempt_01/mineru_output/0003_p000257-000384/auto/0003_p000257-000384_middle.json",
+      "attempt_dir": "chunks/0003_p000257-000384/attempt_01",
+      "elapsed_seconds": 119.457,
+      "completed_at": "2026-08-30T11:02:14+00:00"
+    },
+    "0004_p000385-000404": {
+      "status": "done",
+      "attempt": 1,
+      "start_page": 385,
+      "end_page": 404,
+      "chapter_key": "book",
+      "markdown": "chunks/0004_p000385-000404/attempt_01/mineru_output/0004_p000385-000404/auto/0004_p000385-000404.md",
+      "middle_json": "chunks/0004_p000385-000404/attempt_01/mineru_output/0004_p000385-000404/auto/0004_p000385-000404_middle.json",
+      "attempt_dir": "chunks/0004_p000385-000404/attempt_01",
+      "elapsed_seconds": 35.156,
+      "completed_at": "2026-08-30T11:02:49+00:00"
+    }
+  }
+}

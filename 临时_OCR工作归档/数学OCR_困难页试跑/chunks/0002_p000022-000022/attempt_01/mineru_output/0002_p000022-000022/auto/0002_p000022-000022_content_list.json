@@ -1,0 +1,241 @@
+[
+    {
+        "type": "text",
+        "text": "三、行列式按行(或列）展开公式",
+        "text_level": 2,
+        "bbox": [
+            129,
+            95,
+            452,
+            115
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "在n阶行列式",
+        "bbox": [
+            129,
+            131,
+            258,
+            149
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8c46447cd9dd50d529884c7211c5b07e3f3857afc038712e9c7a40c1bd88808e.jpg",
+        "text": "$$\n\\begin{aligned} &D = \\begin{vmatrix}\\\\ &a_{11} & a_{12} & \\cdots & a_{1n} \\\\&a_{21} & a_{22} & \\cdots & a_{2n} \\\\&\\vdots & \\vdots & & \\vdots \\\\&a_{n1} & a_{n2} & \\cdots & a_{nn}\\\\ &\\end{vmatrix}\\\\ \\end{aligned}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            270,
+            153,
+            494,
+            244
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "images/81f98bc9f89e24784512b2c6acac95109d7ac5dd0ba2f39961a2d8ed3bb60289.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+            909,
+            93,
+            971,
+            222
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中划去 $\\alpha_{ij}$ 所在的第i行、第j列的元素，由剩下的元素按原来的位置排法构成的一个n一1阶的行列式",
+        "bbox": [
+            89,
+            248,
+            678,
+            288
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/8a5144e30747bc2ac4e0e525c509433986707a1a4a682c2f03434007681de0a1.jpg",
+        "text": "$$\n\\begin{aligned}\\left| \\begin{array}{ccccc}\\alpha_{11} & \\cdots & \\alpha_{1,j-1} & \\alpha_{1,j+1} & \\cdots & \\alpha_{1n} \\\\\\vdots &  & \\vdots & \\vdots &  & \\vdots \\\\\\alpha_{i-1,1} & \\cdots & \\alpha_{i-1,j-1} & \\alpha_{i-1,j+1} & \\cdots & \\alpha_{i-1,n} \\\\\\alpha_{i+1,1} & \\cdots & \\alpha_{i+1,j-1} & \\alpha_{i+1,j+1} & \\cdots & \\alpha_{i+1,n} \\\\\\vdots &  & \\vdots & \\vdots &  & \\vdots \\\\\\alpha_{n1} & \\cdots & \\alpha_{n,j-1} & \\alpha_{n,j+1} & \\cdots & \\alpha_{nn} \\\\\\end{array} \\right|,\\end{aligned}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            203,
+            293,
+            568,
+            434
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "称其为 $a_{ij}$ 的余子式，记为 $M_{ij}$ ;称 $(-1)^{i+j}M_{ij}$ 为 $\\alpha_{ij}$ 的代数余子式，记 为 $A_{ij}$ ,即",
+        "bbox": [
+            87,
+            436,
+            678,
+            474
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f82ed5e3208f58277272d5585951f719967011acf823cdf7fafacfc934558ed8.jpg",
+        "text": "$$\nA _ { i j } = ( - 1 ) ^ { i + j } M _ { i j }   .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            299,
+            479,
+            465,
+            497
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "定理1.1 n阶行列式等于它的任何一行(列)元素与其对应的代数余子式乘积之和，即",
+        "bbox": [
+            87,
+            501,
+            678,
+            542
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/f993bc7f22246289c0450ccf65e17457498739bf4541ef4e904017df342dce7f.jpg",
+        "text": "$$\n\\left| \\boldsymbol{A} \\right| = a_{i1}A_{i1} + a_{i2}A_{i2} + \\cdots + a_{in}A_{in} = \\sum_{k = 1}^{n}a_{ik}A_{ik}, i = 1,2,\\cdots,n.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            104,
+            548,
+            658,
+            586
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/2e39df5ff9890330b8b5511d3d3ffd681a757e73cd45ed0a8ca9fa0c5b89ff2c.jpg",
+        "text": "$$\n\\left| \\boldsymbol { A } \\right| = a _ { 1 j } A _ { 1 j } + a _ { 2 j } A _ { 2 j } + \\cdots + a _ { n j } A _ { n j } = \\sum _ { k = 1 } ^ { n } a _ { k j } A _ { k j } , j = 1 , 2 , \\cdots , n.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            99,
+            590,
+            665,
+            624
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "前一个公式称|A|是按第i行展开的展开式，后一个公式称|A|是按第j列展开的展开式.",
+        "bbox": [
+            90,
+            626,
+            678,
+            668
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "定理1.2 行列式的任一行(列）元素与另一行(列）元素的代数余子式乘积之和为0,即",
+        "bbox": [
+            87,
+            673,
+            680,
+            713
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/db5af89684a312085e52256ae4876f9b41f6cc0a37f2cf211cc5d6a57c4ce2e3.jpg",
+        "text": "$$\n\\sum_{k = 1}^{n}a_{ik}A_{jk} = a_{i1}A_{j1} + a_{i2}A_{j2} + \\cdots + a_{in}A_{jn} = 0, i \\neq j.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            152,
+            719,
+            611,
+            757
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/fad07674417560b65ac21934d0c79dbda09d5494979b89d97555fe152da7cca2.jpg",
+        "text": "$$\n\\sum_{k = 1}^{n}a_{ki}A_{kj} = a_{1i}A_{1j} + a_{2i}A_{2j} + \\cdots + a_{ni}A_{nj} = 0, i \\neq j.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            152,
+            760,
+            613,
+            797
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "在用展开公式的时候，还要注意下面几个特殊情况的配合.",
+        "bbox": [
+            127,
+            799,
+            631,
+            816
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "（1）上（下）三角形行列式的值等于主对角线元素的乘积.",
+        "bbox": [
+            129,
+            821,
+            621,
+            839
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "equation",
+        "img_path": "images/bd8abbcb154316700f87191d8cbd8af8e5ceee7dc1e06e794690317e522369e7.jpg",
+        "text": "$$\n\\begin{vmatrix}a_{_{11}} & a_{_{12}} \\cdots a_{_{1n}} \\\\a_{_{22}} \\cdots a_{_{2n}} \\\\\\bigvee & \\ddots & \\vdots \\\\a_{_{nn}}\\end{vmatrix}=\\begin{vmatrix}a_{_{11}} &  &  \\\\a_{_{21}} & a_{_{22}} \\\\\\vdots & \\vdots & \\ddots \\\\a_{_{n1}} & a_{_{n2}} \\cdots a_{_{nn}}\\end{vmatrix}= a_{_{11}} a_{_{22}} \\cdots a_{_{nn}} .\n$$",
+        "text_format": "latex",
+        "bbox": [
+            186,
+            844,
+            578,
+            923
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "线性代数基础·学习册第一章 行列式",
+        "bbox": [
+            591,
+            46,
+            878,
+            64
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+            472,
+            941,
+            494,
+            954
+        ],
+        "page_idx": 0
+    }
+]
