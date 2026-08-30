@@ -1,8 +1,8 @@
 {
   "report_version": "l3-v1-migration-report-v1.0.0",
   "generated_at": "2026-08-29T16:32:50+00:00",
-  "input": "/home/elexs/My Material/project/Dynamic-learning-program/考研数学一真题精选50题_L3标注结果.json",
-  "output": "/home/elexs/My Material/project/Dynamic-learning-program/migrations/考研数学一真题精选50题_annotations_v1_迁移候选.json",
+  "input": "系统文件/标签/考研数学一真题精选50题_L3标注结果.json",
+  "output": "系统文件/迁移记录/考研数学一真题精选50题_annotations_v1_迁移候选.json",
   "input_schema_version": "l3-v1",
   "output_record_schema_version": "question-annotation-v1.0.0",
   "input_items": 50,

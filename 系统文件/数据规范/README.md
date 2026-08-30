@@ -10,9 +10,9 @@
 - `paper_usage_role.schema.json`：整卷使用角色历史事件。
 - `usage_roles_bundle.schema.json`：整卷/题目角色事件集合；需配合跨事件校验器防止泄漏角色并存。
 - `attempt_record.schema.json`：append-only 作答日志的单行记录；答案、题干、作答过程和解析均禁止进入。
-- `../config/canonical_sources_v1.json`：当前仓库唯一题源路径和数量基线。
-- `../config/evaluator_public_contract_v1.json`：Teacher可见的Evaluator接口与不透明池句柄；不包含隐藏题身份。
-- `../../runtime/attempts_v1.jsonl`：正式作答日志，Day 0 为0字节、0条记录。
+- `../配置/canonical_sources_v1.json`：当前仓库唯一题源路径和数量基线。
+- `../配置/evaluator_public_contract_v1.json`：Teacher可见的Evaluator接口与不透明池句柄；不包含隐藏题身份。
+- `../运行记录/attempts_v1.jsonl`：正式作答日志，Day 0 为0字节、0条记录。
 
 ## 已冻结的消歧
 
@@ -47,7 +47,7 @@
 
 交接中的 8125 是估计值；差额来自王道408被估为2998，而实库为2897。除非以后真正导入缺失记录，否则不得为了对齐估计数而制造101条数据。
 
-`delightful-salk/408经典练习题` 与 `配套习题/408/408经典练习题` 内容完全相同；canonical 路径固定为后者。根目录的50题精选也是数学一真题的派生集。两者均必须从全库计数中排除。
+`系统文件/历史归档/重复副本/408经典练习题` 与 `配套习题/408/408经典练习题` 内容完全相同；canonical 路径固定为后者，归档副本不得参与扫描。`系统文件/标签/考研数学一真题精选50题_23章节全覆盖.md` 也是数学一真题的派生集，不能重复计数。
 
 数学一与408的1277题只是**可进入目标统计的候选全集**，不是默认全部对 Teacher 激活 `TARGET_PRIOR`。FIXED_AUDIT、SEALED 和尚未退役的诊断题必须先隔离，退役后才可进入可见统计历史。
 

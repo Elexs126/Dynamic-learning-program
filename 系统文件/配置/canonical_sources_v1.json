@@ -55,7 +55,7 @@
     },
     {
       "source_id": "MATH2_PAST_PAPERS",
-      "canonical_path": "delightful-salk/数学二",
+      "canonical_path": "辅助真题/数学二",
       "expected_records": 431,
       "exam_track": "MATH2",
       "annotation_priority": "L1_FIRST",
@@ -65,7 +65,7 @@
     },
     {
       "source_id": "MATH3_PAST_PAPERS",
-      "canonical_path": "delightful-salk/数学三",
+      "canonical_path": "辅助真题/数学三",
       "expected_records": 431,
       "exam_track": "MATH3",
       "annotation_priority": "L1_FIRST",
@@ -106,8 +106,8 @@
   ],
   "excluded_duplicate_or_derived_paths": [
     {
-      "path": "delightful-salk/408经典练习题",
-      "reason": "与配套习题/408/408经典练习题逐文件一致；扫描时排除，防止重复计入 1071 条。"
+      "path": "系统文件/历史归档/重复副本/408经典练习题",
+      "reason": "旧目录与配套习题/408/408经典练习题逐文件一致，现已归档；扫描时排除，防止重复计入1071条。"
     },
     {
       "path": "考研数学一真题精选50题_23章节全覆盖.md",

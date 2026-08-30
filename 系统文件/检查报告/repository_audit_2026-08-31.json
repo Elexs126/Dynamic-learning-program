@@ -1,8 +1,8 @@
 {
   "report_version": "repository-audit-v1.0.0",
   "audit_scope": "canonical ID inventory, per-source counts, duplicate-path identity, and derived-set ID containment",
-  "project_root": "/home/elexs/My Material/project/Dynamic-learning-program",
-  "manifest": "/home/elexs/My Material/project/Dynamic-learning-program/config/canonical_sources_v1.json",
+  "project_root": "/home/elexs/Dynamic-learning-program",
+  "manifest": "系统文件/配置/canonical_sources_v1.json",
   "canonical_id_markers": 8024,
   "canonical_unique_ids": 8024,
   "expected_unique_ids": 8024,
@@ -77,7 +77,7 @@
     },
     {
       "source_id": "MATH2_PAST_PAPERS",
-      "canonical_path": "delightful-salk/数学二",
+      "canonical_path": "辅助真题/数学二",
       "markdown_files": 20,
       "id_markers": 431,
       "unique_ids": 431,
@@ -94,7 +94,7 @@
     },
     {
       "source_id": "MATH3_PAST_PAPERS",
-      "canonical_path": "delightful-salk/数学三",
+      "canonical_path": "辅助真题/数学三",
       "markdown_files": 20,
       "id_markers": 431,
       "unique_ids": 431,
@@ -163,13 +163,13 @@
   ],
   "duplicate_tree_check": {
     "canonical_path": "配套习题/408/408经典练习题",
-    "excluded_path": "delightful-salk/408经典练习题",
+    "excluded_path": "系统文件/历史归档/重复副本/408经典练习题",
     "identical": true,
     "canonical_files": 58,
     "excluded_files": 58
   },
   "derived_set_check": {
-    "path": "考研数学一真题精选50题_23章节全覆盖.md",
+    "path": "系统文件/标签/考研数学一真题精选50题_23章节全覆盖.md",
     "id_markers": 50,
     "unique_ids": 50,
     "all_ids_exist_in_math1_canonical": true,

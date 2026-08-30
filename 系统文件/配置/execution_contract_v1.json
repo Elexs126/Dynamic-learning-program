@@ -184,7 +184,7 @@
     "teacher": {
       "seen_paper_ids": [],
       "known_exposed_question_set": {
-        "source_file": "标签/migrations/考研数学一真题精选50题_annotations_v1_迁移候选.json",
+        "source_file": "系统文件/迁移记录/考研数学一真题精选50题_annotations_v1_迁移候选.json",
         "question_count": 50,
         "effect": "这些题不得进入FIXED_AUDIT、SEALED或未退役的ADAPTIVE_DIAGNOSTIC"
       },
@@ -198,7 +198,7 @@
   },
   "evaluator_isolation": {
     "status": "blocked_no_teacher_inaccessible_storage_or_process",
-    "public_contract": "标签/config/evaluator_public_contract_v1.json",
+    "public_contract": "系统文件/配置/evaluator_public_contract_v1.json",
     "default_access_policy": "deny",
     "required_before_hidden_role_activation": [
       "在Teacher不可访问的存储与进程中重新选择FIXED_AUDIT和SEALED。",
@@ -206,6 +206,13 @@
       "私有Evaluator完成来源、整卷完整性、历史曝光和题目级闭包审计。",
       "Teacher侧只接收不透明池句柄、计数和聚合测评结果。"
     ]
+  },
+  "runtime_files": {
+    "canonical_sources": "系统文件/配置/canonical_sources_v1.json",
+    "attempt_log": "系统文件/运行记录/attempts_v1.jsonl",
+    "attempt_schema": "系统文件/数据规范/attempt_record.schema.json",
+    "reports_root": "系统文件/检查报告",
+    "migration_records_root": "系统文件/迁移记录"
   },
   "missing_required_fields": [],
   "pending_confirmations": [

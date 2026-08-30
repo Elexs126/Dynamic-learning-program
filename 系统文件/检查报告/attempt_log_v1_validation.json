@@ -1,8 +1,8 @@
 {
   "validator_version": "attempt-log-validator-v1.0.0",
-  "log": "runtime/attempts_v1.jsonl",
+  "log": "系统文件/运行记录/attempts_v1.jsonl",
   "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "schema": "标签/schemas/attempt_record.schema.json",
+  "schema": "系统文件/数据规范/attempt_record.schema.json",
   "schema_sha256": "e9f289eb7cae774667f0e5da26c4e47f5b66d5c7024ed354ed4bd7ce36fe4cff",
   "record_count": 0,
   "schema_error_count": 0,
