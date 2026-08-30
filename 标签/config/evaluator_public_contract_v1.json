@@ -1,0 +1,54 @@
+{
+  "contract_version": "evaluator-public-contract-v1.0.0",
+  "status": "blocked_pending_private_evaluator_runtime",
+  "generated_at": "2026-08-31T00:00:00+08:00",
+  "default_access_policy": "deny",
+  "teacher_visible_startup": {
+    "MATH1": ["M1-2008", "M1-2009", "M1-2010"],
+    "CS408": ["408-2009", "408-2010", "408-2011"],
+    "role": "STARTUP_TRAINING_ONLY",
+    "future_measurement_eligible": false
+  },
+  "hidden_pool_handles": {
+    "MATH1_FIXED_AUDIT_RESERVE_V1": {
+      "role": "FIXED_AUDIT",
+      "selection_unit": "predefined_question_groups_from_two_private_reserve_papers",
+      "activation_status": "unassigned"
+    },
+    "CS408_FIXED_AUDIT_RESERVE_V1": {
+      "role": "FIXED_AUDIT",
+      "selection_unit": "predefined_question_groups_from_two_private_reserve_papers",
+      "activation_status": "unassigned"
+    },
+    "MATH1_SEALED_PAPERS_V1": {
+      "role": "SEALED",
+      "selection_unit": "three_complete_papers",
+      "activation_status": "unassigned"
+    },
+    "CS408_SEALED_PAPERS_V1": {
+      "role": "SEALED",
+      "selection_unit": "three_complete_papers",
+      "activation_status": "unassigned"
+    }
+  },
+  "teacher_request_interface": {
+    "allowed_fields": ["exam_track", "ability_package_id", "difficulty", "question_type", "assessment_purpose"],
+    "forbidden_fields": ["paper_id", "question_id", "year", "source_file", "answer", "solution", "annotation"]
+  },
+  "teacher_result_interface": {
+    "allowed_fields": ["ability_package_id", "score", "elapsed_time", "five_dimension_results", "error_family_summary"],
+    "forbidden_fields_before_retirement": ["paper_id", "question_id", "question_text", "answer", "solution", "source_file"]
+  },
+  "private_activation_requirements": [
+    "运行在Teacher不可读取的独立存储和进程中。",
+    "重新选择隐藏身份，不得复用2026-08-31共享上下文中已经出现过的候选身份。",
+    "排除旧50题prototype及任何其他历史暴露记录。",
+    "验证来源、整卷完整性、预期题数/总分、题目级角色闭包与文件哈希。",
+    "将未分配或校验失败的记录保持default-deny。",
+    "只向共享项目返回不透明池句柄、计数、校验状态和不可逆摘要。"
+  ],
+  "public_limitations": [
+    "本文件只定义接口和不透明句柄，不包含也不证明任何隐藏题目已经完成分配。",
+    "当前Codex共享工作区不能提供协议要求的真实Teacher/Evaluator访问隔离。"
+  ]
+}

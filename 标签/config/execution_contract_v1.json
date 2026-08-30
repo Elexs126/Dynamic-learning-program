@@ -1,29 +1,75 @@
 {
   "contract_version": "execution-contract-v1",
-  "status": "incomplete",
-  "last_compiled_from": "启动合同.md",
+  "status": "provisional_pending_evaluator_isolation",
+  "status_reason": "公开合同、教材、时间和日志边界已就绪；FIXED_AUDIT与SEALED仍需在Teacher不可访问的Evaluator环境内重新选定。",
+  "updated_at": "2026-08-31",
+  "last_compiled_from": "启动合同.md + 用户于2026-08-30确认的启动输入",
   "exam": {
-    "exam_date": null,
-    "startup_day_0_date": null,
+    "exam_date": "2026-12-20",
+    "exam_date_status": "student_estimate_pending_official_confirmation",
+    "target_exam_cycle_label": null,
+    "startup_day_0_date": "2026-09-01",
+    "startup_calendar": {
+      "day_0_role": "启动前置：冻结合同、教材与题目角色，不计入第1—5日",
+      "timed_startup_start": "2026-09-02",
+      "calendar_deadline": "2026-09-06",
+      "planned_hour_cap_point": "2026-09-05完成当日首3个有效小时后",
+      "normal_operation_begins_at": "累计25有效小时与2026-09-06两者中先到者",
+      "first_full_budget_week": "2026-09-07/2026-09-13",
+      "first_formal_fixed_audit_date": "2026-09-13",
+      "september_6_role": "启动收口，不调用正式FIXED_AUDIT",
+      "counting_rule": "按冻结协议的第0日与第1—5日解释；达到25有效小时立即退出STARTUP"
+    },
     "syllabus_versions": {
-      "MATH1": null,
-      "CS408": null
+      "MATH1": {
+        "displayed_year": 2026,
+        "status": "provisional_prior_year_baseline",
+        "source_file": "考试大纲/2026考研数学一考试大纲.md",
+        "source_sha256": "ade3000e2ced1b4207909f451ea523594b71547770d8710de4b0069624fb6c27",
+        "trust_mode": "scope_only",
+        "replace_when_current_outline_released": true
+      },
+      "CS408": {
+        "displayed_year": 2026,
+        "status": "provisional_prior_year_baseline",
+        "source_file": "考试大纲/2026考研408考试大纲.md",
+        "source_sha256": "761298a89fe3264253835660370863edda9fdbb34a33d535d85d6e55b7146ce4",
+        "trust_mode": "scope_only",
+        "replace_when_current_outline_released": true
+      }
+    }
+  },
+  "course_scope": {
+    "anchor_unit_definition": "一门独立课程，不是整张考试科目",
+    "MATH1": {
+      "course_count": 3,
+      "courses": {
+        "calculus": {"name": "高等数学（微积分）", "syllabus_chapter_count": 8},
+        "linear_algebra": {"name": "线性代数", "syllabus_chapter_count": 6},
+        "probability_and_statistics": {"name": "概率论与数理统计", "syllabus_chapter_count": 8}
+      }
+    },
+    "CS408": {
+      "course_count": 4,
+      "courses": {
+        "data_structures": {"name": "数据结构", "syllabus_chapter_count": 7},
+        "computer_organization": {"name": "计算机组成原理", "syllabus_chapter_count": 6},
+        "operating_systems": {"name": "操作系统", "syllabus_chapter_count": 5},
+        "computer_networks": {"name": "计算机网络", "syllabus_chapter_count": 6}
+      }
     }
   },
   "score_targets": {
-    "MATH1": {
-      "floor_score": 118,
-      "target_score": 126
-    },
-    "CS408": {
-      "floor_score": 100,
-      "target_score": 105
-    }
+    "MATH1": {"floor_score": 118, "target_score": 126},
+    "CS408": {"floor_score": 100, "target_score": 105}
   },
   "time_budget": {
-    "reported_weekly_hours_before_politics_and_english_deduction": 50,
-    "net_weekly_hours": null,
-    "reported_daily_hours": {
+    "net_weekly_hours": 50,
+    "net_weekly_hours_scope": "仅数学一与408，已经排除政治和英语",
+    "politics_and_english_weekly_hours_outside_contract": 14,
+    "politics_and_english_internal_allocation": "student_dynamic",
+    "total_reported_weekly_study_hours": 64,
+    "reported_daily_hours_for_math1_and_cs408": {
       "monday": 8,
       "tuesday": 6,
       "wednesday": 8,
@@ -33,21 +79,78 @@
       "sunday": 6
     },
     "initial_weekly_allocation": {
-      "MATH1": null,
-      "CS408": null
+      "MATH1": 25,
+      "CS408": 25,
+      "status": "provisional_neutral_split",
+      "applies_to": "首个完整预算周2026-09-07/2026-09-13",
+      "basis": "两科均为150分且尚无独立基线；先等分一个完整周，只在周日审计后调整"
     },
-    "minimum_weekly_hours": {
-      "MATH1": 15,
-      "CS408": 20
+    "minimum_weekly_hours": {"MATH1": 15, "CS408": 20},
+    "system_maintenance_hours_limit": 5,
+    "system_maintenance_included_in_net_50": true,
+    "system_maintenance_accounting": "按所服务科目计入数学一或408预算，不是额外的第51—55小时",
+    "launch_stub": {
+      "period": "2026-09-01/2026-09-06",
+      "available_math1_cs408_hours_from_daily_schedule": 42,
+      "timed_startup_available_hours_from_september_2": 36,
+      "startup_effective_hour_cap": 25,
+      "normal_learning_after_cap": true,
+      "not_interpreted_as_full_25_25_week": true
     },
     "known_interruptions": []
   },
   "primary_resources": {
-    "MATH1": null,
-    "CS408": null,
-    "authoritative_past_papers": null,
-    "authoritative_answers": null,
-    "authoritative_solutions": null
+    "user_designated_root": "/home/elexs/Dynamic-learning-program/讲义",
+    "project_relative_root": "讲义",
+    "MATH1": {
+      "type": "single_primary_material_collection",
+      "course_directories": {
+        "calculus": "讲义/高等数学",
+        "linear_algebra": "讲义/线性代数",
+        "probability_and_statistics": "讲义/概率论与数理统计"
+      },
+      "variant_rule": "同一课程目录内的基础篇与强化篇是阶段版本，不视为第二套主课程"
+    },
+    "CS408": {
+      "type": "single_primary_material_collection",
+      "course_directories": {
+        "data_structures": "讲义/数据结构",
+        "computer_organization": "讲义/计算机组成原理",
+        "operating_systems": "讲义/操作系统",
+        "computer_networks": "讲义/计算机网络"
+      }
+    },
+    "authoritative_past_papers": {
+      "MATH1": "核心真题/数学一",
+      "CS408": "核心真题/408"
+    },
+    "authoritative_answers": {
+      "custodian": "student",
+      "mode": "external_authoritative_self_check",
+      "teacher_access": false,
+      "ingest_into_system": false
+    },
+    "authoritative_solutions": {
+      "custodian": "student",
+      "mode": "external_authoritative_self_check",
+      "teacher_access": false,
+      "ingest_into_system": false
+    },
+    "attempt_result_interface": {
+      "reported_by_student": [
+        "first_score_pct",
+        "duration_seconds",
+        "highest_hint_level_used",
+        "is_unseen",
+        "is_timed",
+        "is_mixed",
+        "interval_hours",
+        "primary_error_code",
+        "dimensions",
+        "next_review_at"
+      ],
+      "teacher_must_not_generate_or_verify_answer_key": true
+    }
   },
   "defaults": {
     "learning_block_minutes": 45,
@@ -57,32 +160,71 @@
     "fixed_audit_day": "sunday"
   },
   "startup_scope": {
-    "anchor_candidate_cap_interpretation": null
+    "anchor_candidate_cap_interpretation": "per_independent_course",
+    "nominal_candidate_range_per_course": {
+      "lower_planning_bound": 24,
+      "upper_cap": 36,
+      "hard_minimum": 0
+    },
+    "nominal_candidate_ranges": {
+      "MATH1": {"course_count": 3, "lower_planning_bound": 72, "upper_cap": 108},
+      "CS408": {"course_count": 4, "lower_planning_bound": 96, "upper_cap": 144},
+      "TOTAL": {"course_count": 7, "lower_planning_bound": 168, "upper_cap": 252}
+    },
+    "completion_kpi": false,
+    "timebox_overrides_anchor_count": true
   },
   "exposure_inventory": {
-    "questions_or_papers_already_seen_by_student": null,
-    "questions_or_papers_already_seen_by_teacher": null
+    "student": {
+      "seen_paper_ids": [],
+      "seen_question_ids": [],
+      "declaration": "截至2026-08-30未看过任何真题或整卷",
+      "must_reconfirm_at_role_activation": true
+    },
+    "teacher": {
+      "seen_paper_ids": [],
+      "known_exposed_question_set": {
+        "source_file": "标签/migrations/考研数学一真题精选50题_annotations_v1_迁移候选.json",
+        "question_count": 50,
+        "effect": "这些题不得进入FIXED_AUDIT、SEALED或未退役的ADAPTIVE_DIAGNOSTIC"
+      },
+      "structural_scan_policy": "只做ID、元数据、哈希和文件完整性机械扫描，不视为Teacher语义看题",
+      "discarded_hidden_candidate_identity_exposure": {
+        "occurred_on": "2026-08-31",
+        "scope": "曾在共享上下文生成的固定审计与密封候选身份",
+        "effect": "全部作废；不得再次作为正式隐藏池"
+      }
+    }
   },
-  "missing_required_fields": [
-    "exam.exam_date",
-    "exam.startup_day_0_date",
-    "exam.syllabus_versions.MATH1",
-    "exam.syllabus_versions.CS408",
-    "time_budget.net_weekly_hours",
-    "time_budget.initial_weekly_allocation.MATH1",
-    "time_budget.initial_weekly_allocation.CS408",
-    "primary_resources.MATH1",
-    "primary_resources.CS408",
-    "primary_resources.authoritative_past_papers",
-    "primary_resources.authoritative_answers",
-    "primary_resources.authoritative_solutions",
-    "startup_scope.anchor_candidate_cap_interpretation",
-    "exposure_inventory.questions_or_papers_already_seen_by_student",
-    "exposure_inventory.questions_or_papers_already_seen_by_teacher"
+  "evaluator_isolation": {
+    "status": "blocked_no_teacher_inaccessible_storage_or_process",
+    "public_contract": "标签/config/evaluator_public_contract_v1.json",
+    "default_access_policy": "deny",
+    "required_before_hidden_role_activation": [
+      "在Teacher不可访问的存储与进程中重新选择FIXED_AUDIT和SEALED。",
+      "不得复用2026-08-31共享上下文中已经暴露身份的候选卷。",
+      "私有Evaluator完成来源、整卷完整性、历史曝光和题目级闭包审计。",
+      "Teacher侧只接收不透明池句柄、计数和聚合测评结果。"
+    ]
+  },
+  "missing_required_fields": [],
+  "pending_confirmations": [
+    "目标考试的正式考研年度标签；当前只冻结日历日期2026-12-20。",
+    "25/25为无基线中性默认，用户可在2026-09-01 Day 0冻结前覆盖。",
+    "隐藏角色激活时重新确认学生仍未看过相关真题。"
+  ],
+  "operational_blockers": [
+    "当前共享项目没有真正对Teacher不可访问的Evaluator存储/进程，因此FIXED_AUDIT与SEALED不能激活。"
+  ],
+  "provisional_assumptions": [
+    "当前正式大纲未发布，临时使用文件名为2026的上一年度大纲；新大纲发布后只做差异更新。",
+    "用户未指定数学一与408的50小时初始拆分，首个完整周先采用25/25中性分配；Day 0冻结前可覆盖，冻结后只在周日审计调整。",
+    "第0日按冻结协议解释为启动前置，不计入第1—5日的五个日历日。"
   ],
   "notes": [
-    "原《启动合同.md》的50小时尚未扣除政治、英语，因此不能直接当作每周净学习时间。",
-    "两科最低保障已填写，但初始总分配尚未填写；不得由AI用剩余时数自动猜测。",
-    "在确定FIXED_AUDIT和SEALED名单前，必须先核对学生与Teacher已经见过哪些卷。"
+    "政治和英语每周14小时在本合同50小时之外，二者内部如何分配由学生动态决定。",
+    "锚点按七门课程各24—36个作为名义候选规划范围，总池168—252个；硬最低为0，实际库存与时间盒优先。",
+    "线性代数目录含多个基础版本；实际调用前优先做文件级质量选择，但不因此引入第二套主课程。",
+    "学生自行使用其外部绝对正确内容核对答案与正确率；Teacher不生成、保管或校验答案和解题过程。"
   ]
 }

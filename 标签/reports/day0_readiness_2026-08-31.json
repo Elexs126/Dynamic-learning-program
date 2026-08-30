@@ -1,0 +1,51 @@
+{
+  "report_version": "day0-readiness-v1.0.0",
+  "generated_at": "2026-08-31T00:00:00+08:00",
+  "overall_status": "PARTIAL_BLOCKED",
+  "day_0_date": "2026-09-01",
+  "completed": {
+    "execution_contract_public_fields": "PASS",
+    "prior_year_syllabus_hashes_and_course_scope": "PASS",
+    "primary_material_root": "PASS",
+    "weekly_time_budget": "PASS_WITH_PROVISIONAL_25_25_SPLIT",
+    "startup_visible_role": "PASS_OLDEST_THREE_PER_EXAM_TRACK",
+    "attempt_log_schema": "PASS",
+    "attempt_log_initialization": "PASS_ZERO_BYTES_ZERO_RECORDS",
+    "attempt_log_negative_tests": "PASS_REJECTS_SEMANTIC_ERRORS_AND_ANSWER_FIELD"
+  },
+  "blocked": {
+    "FIXED_AUDIT": "没有Teacher不可访问的Evaluator存储/进程，不能安全分配具体题目。",
+    "SEALED": "没有Teacher不可访问的Evaluator存储/进程，不能安全分配具体整卷。"
+  },
+  "invalidated_work": [
+    "2026-08-31曾写入共享项目的详细隐藏候选清单已删除。",
+    "其中出现过的候选身份已视为Teacher侧已知，不得重新用于正式隐藏池。"
+  ],
+  "startup_timebox": {
+    "calendar_window": "2026-09-02/2026-09-06",
+    "effective_hour_cap": 25,
+    "planned_cap_point_if_daily_hours_hold": "2026-09-05完成当日首3个有效小时后",
+    "first_formal_fixed_audit_date": "2026-09-13"
+  },
+  "first_full_week_budget": {
+    "period": "2026-09-07/2026-09-13",
+    "MATH1_hours": 25,
+    "CS408_hours": 25,
+    "system_maintenance_included_in_the_50_hours": true
+  },
+  "anchors": {
+    "interpretation": "每门独立课程的名义候选规划范围",
+    "per_course": "24-36",
+    "hard_minimum": 0,
+    "MATH1_nominal_total": "72-108",
+    "CS408_nominal_total": "96-144",
+    "all_courses_nominal_total": "168-252",
+    "completion_kpi": false
+  },
+  "safe_next_actions": [
+    "在Day 0冻结前由用户确认或覆盖25/25首周中性分配。",
+    "建立真正独立的Evaluator访问域，并在其中重新选择隐藏池。",
+    "隐藏池激活时重新确认学生仍未接触相关真题。",
+    "隔离完成前不打开除STARTUP训练卷之外的目标题正文。"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dynamic-learning-program:schema:attempt-record:1.0.0",
+  "title": "Append-only作答日志记录",
+  "description": "一行JSON代表同一题目原子的一次真实接触；禁止保存题干、答案、作答过程或完整解析。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "attempt_id",
+    "attempted_at",
+    "verified_at",
+    "question_id",
+    "paper_id",
+    "exam_track",
+    "usage_role",
+    "attempt_kind",
+    "target_ability_id",
+    "batch_id",
+    "first_score_pct",
+    "duration_seconds",
+    "highest_hint_level_used",
+    "is_unseen",
+    "is_timed",
+    "is_mixed",
+    "interval_hours",
+    "primary_error_code",
+    "dimensions",
+    "next_review_at",
+    "student_verification",
+    "notes"
+  ],
+  "properties": {
+    "schema_version": {"const": "attempt-record-v1.0.0"},
+    "attempt_id": {"type": "string", "minLength": 1},
+    "attempted_at": {"type": "string", "format": "date-time"},
+    "verified_at": {"type": "string", "format": "date-time"},
+    "question_id": {"type": "string", "minLength": 1},
+    "paper_id": {
+      "oneOf": [
+        {"type": "string", "minLength": 1},
+        {"type": "null"}
+      ]
+    },
+    "exam_track": {"enum": ["MATH1", "CS408"]},
+    "usage_role": {
+      "enum": [
+        "STARTUP_TRAINING_ONLY",
+        "TRAIN",
+        "ADAPTIVE_DIAGNOSTIC",
+        "FIXED_AUDIT",
+        "SEALED",
+        "AUX_OFFPOLICY"
+      ]
+    },
+    "attempt_kind": {
+      "enum": [
+        "initial",
+        "near_variant",
+        "cold_test",
+        "review_probe",
+        "fixed_audit",
+        "sealed_exam"
+      ]
+    },
+    "target_ability_id": {
+      "oneOf": [
+        {"type": "string", "minLength": 1},
+        {"type": "null"}
+      ]
+    },
+    "batch_id": {
+      "oneOf": [
+        {"type": "string", "minLength": 1},
+        {"type": "null"}
+      ]
+    },
+    "first_score_pct": {"type": "number", "minimum": 0, "maximum": 100},
+    "duration_seconds": {"type": "integer", "minimum": 1},
+    "highest_hint_level_used": {"enum": ["L0", "L1", "L2", "L3", "L4"]},
+    "is_unseen": {"type": "boolean"},
+    "is_timed": {"type": "boolean"},
+    "is_mixed": {"type": "boolean"},
+    "interval_hours": {
+      "oneOf": [
+        {"type": "number", "minimum": 0},
+        {"type": "null"}
+      ]
+    },
+    "primary_error_code": {
+      "oneOf": [
+        {"type": "string", "minLength": 1},
+        {"type": "null"}
+      ]
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "independent_recognition",
+        "procedural_execution",
+        "transfer",
+        "timed_fluency",
+        "delayed_retention"
+      ],
+      "properties": {
+        "independent_recognition": {"$ref": "#/$defs/observed_state"},
+        "procedural_execution": {"$ref": "#/$defs/observed_state"},
+        "transfer": {"$ref": "#/$defs/observed_state"},
+        "timed_fluency": {"$ref": "#/$defs/observed_state"},
+        "delayed_retention": {"$ref": "#/$defs/observed_state"}
+      }
+    },
+    "next_review_at": {"type": "string", "format": "date-time"},
+    "student_verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "score_confirmed_by_student",
+        "answer_checked_after_first_pass",
+        "teacher_answer_access"
+      ],
+      "properties": {
+        "mode": {"const": "external_authoritative_self_check"},
+        "score_confirmed_by_student": {"const": true},
+        "answer_checked_after_first_pass": {"const": true},
+        "teacher_answer_access": {"const": false}
+      }
+    },
+    "notes": {"type": "string"}
+  },
+  "$defs": {
+    "observed_state": {
+      "oneOf": [
+        {"enum": ["pass", "partial", "fail"]},
+        {"type": "null"}
+      ]
+    }
+  }
+}
