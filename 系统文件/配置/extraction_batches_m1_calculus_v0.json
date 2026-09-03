@@ -1,0 +1,401 @@
+[
+  {
+    "batch_id": "BATCH_TB_M1_CALC_01A",
+    "included_sections": [
+      "TB_M1_CALC_L01_S01",
+      "TB_M1_CALC_L01_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_01_01"
+    ],
+    "estimated_scope": "第01讲前半部分：函数的概念、表示法、基本性质与基本初等函数/初等函数/分段函数图像。",
+    "notes": "聚焦函数本质特征与图像，不含极限计算。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_01B",
+    "included_sections": [
+      "TB_M1_CALC_L01_S03",
+      "TB_M1_CALC_L01_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_01_02",
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "estimated_scope": "第01讲中段：函数极限的概念、性质、无穷小与无穷大，以及函数极限计算方法（含未定式与泰勒公式）。",
+    "notes": "输入量较密集，包含极限定义、等价代换及各种极限计算题型。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_01C",
+    "included_sections": [
+      "TB_M1_CALC_L01_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_01_03"
+    ],
+    "estimated_scope": "第01讲后半部分：连续点定义、单侧连续性以及第一类与第二类间断点的判别与分类。",
+    "notes": "小节篇幅适中，专属考纲连续性与间断点范围。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_02",
+    "included_sections": [
+      "TB_M1_CALC_L02_S01",
+      "TB_M1_CALC_L02_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_01_02"
+    ],
+    "estimated_scope": "第02讲全讲：数列极限的概念、收敛数列性质，以及海涅定理、夹逼准则与单调有界准则证明与求解。",
+    "notes": "全讲总行数约900行，整体打包为一个批次。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_03",
+    "included_sections": [
+      "TB_M1_CALC_L03_S01",
+      "TB_M1_CALC_L03_S02",
+      "TB_M1_CALC_L03_S03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_02_01"
+    ],
+    "estimated_scope": "第03讲全讲：导数的定义与单侧导数、可导与连续的关系、导数的几何意义（切法线）与微分概念及可微性。",
+    "notes": "全讲约840行，聚焦一元微分学核心概念。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_04",
+    "included_sections": [
+      "TB_M1_CALC_L04_S01",
+      "TB_M1_CALC_L04_S02",
+      "TB_M1_CALC_L04_S03",
+      "TB_M1_CALC_L04_S04",
+      "TB_M1_CALC_L04_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_02_01"
+    ],
+    "estimated_scope": "第04讲全讲：基本初等函数求导公式、复合/反/隐/参数/分段/对数求导法及高阶导数计算。",
+    "notes": "全讲约1080行，结构清晰，聚焦一元求导各类计算法则。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_05A",
+    "included_sections": [
+      "TB_M1_CALC_L05_S01",
+      "TB_M1_CALC_L05_S02",
+      "TB_M1_CALC_L05_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "estimated_scope": "第05讲第一部分：函数单调性与极值的判别、凹凸性与拐点的判别，以及最值与取值范围求解。",
+    "notes": "属于一元导数性态分析的核心大题体系。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_05B",
+    "included_sections": [
+      "TB_M1_CALC_L05_S03",
+      "TB_M1_CALC_L05_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_02_02",
+      "SCOPE_M1_CALC_02_03"
+    ],
+    "estimated_scope": "第05讲第二部分：水平/铅直/斜渐近线的求法，以及曲率、曲率圆与曲率半径计算。",
+    "notes": "曲率部分为数学一与数学二专属考点。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_06",
+    "included_sections": [
+      "TB_M1_CALC_L06_S01",
+      "TB_M1_CALC_L06_S02",
+      "TB_M1_CALC_L06_S03",
+      "TB_M1_CALC_L06_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_01_03",
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "estimated_scope": "第06讲全讲：闭区间连续函数中值定理、四大微分中值定理与泰勒公式、微分等式与微分不等式证明方法。",
+    "notes": "全讲约1100行，中值定理理论证明体系完整打包。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_07",
+    "included_sections": [
+      "TB_M1_CALC_L07_S01"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_02_01",
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "estimated_scope": "第07讲在纲内容：导数的物理意义、相关变化率建模与求解。",
+    "notes": "抽取时严格忽略S02（复利）与S03（经济应用）两个超纲小节。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_08A",
+    "included_sections": [
+      "TB_M1_CALC_L08_S01",
+      "TB_M1_CALC_L08_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_03_01"
+    ],
+    "estimated_scope": "第08讲第一部分：原函数概念与存在定理、定积分的概念、基本性质与定积分中值定理。",
+    "notes": "原函数与定积分基础概念与性质。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_08B",
+    "included_sections": [
+      "TB_M1_CALC_L08_S03",
+      "TB_M1_CALC_L08_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_03_01",
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "estimated_scope": "第08讲第二部分：变上限积分函数的概念、连续可导性质与反常积分概念及审敛法。",
+    "notes": "涵盖变限积分与无穷限/瑕积分审敛。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_09A",
+    "included_sections": [
+      "TB_M1_CALC_L09_S01",
+      "TB_M1_CALC_L09_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_03_01",
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "estimated_scope": "第09讲第一部分：不定积分三大积分法（凑微分、换元、分部）与有理函数积分、定积分的计算（牛顿-莱布尼茨公式与对称性）。",
+    "notes": "一元积分学经典计算体系。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_09B",
+    "included_sections": [
+      "TB_M1_CALC_L09_S03",
+      "TB_M1_CALC_L09_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_03_01",
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "estimated_scope": "第09讲第二部分：复合变限积分求导计算及极限应用、反常积分的计算法与常用公式。",
+    "notes": "聚焦高频计算考点。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_10",
+    "included_sections": [
+      "TB_M1_CALC_L10_S01",
+      "TB_M1_CALC_L10_S02",
+      "TB_M1_CALC_L10_S03",
+      "TB_M1_CALC_L10_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_03_03"
+    ],
+    "estimated_scope": "第10讲全讲：定积分几何应用，平面面积、旋转体体积、平行截面已知立体体积、函数平均值、平面曲线弧长与侧面积。",
+    "notes": "全讲约840行，定积分几何应用整体打包。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_11",
+    "included_sections": [
+      "TB_M1_CALC_L11_S01",
+      "TB_M1_CALC_L11_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_02_02",
+      "SCOPE_M1_CALC_03_01",
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "estimated_scope": "第11讲全讲：积分等式与积分不等式的证明技巧（中值定理、夹逼准则、换元分部、单调性与放缩）。",
+    "notes": "全讲约530行，积分学理论证明专题打包。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_12",
+    "included_sections": [
+      "TB_M1_CALC_L12_S01",
+      "TB_M1_CALC_L12_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_03_03"
+    ],
+    "estimated_scope": "第12讲在纲内容：定积分物理应用，变力做功、抽水做功、水压力、引力，以及平面薄板与曲线的质心/形心计算。",
+    "notes": "抽取时严格忽略S03（经济应用）超纲小节。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_13A",
+    "included_sections": [
+      "TB_M1_CALC_L13_S01",
+      "TB_M1_CALC_L13_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_05_01"
+    ],
+    "estimated_scope": "第13讲第一部分：多元函数概念、极限、连续、偏导数、全微分与可微性分析，以及链式求导、全微分形式不变性与隐函数求导法则。",
+    "notes": "多元微分理论基础与核心求导法则。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_13B",
+    "included_sections": [
+      "TB_M1_CALC_L13_S03",
+      "TB_M1_CALC_L13_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_05_03"
+    ],
+    "estimated_scope": "第13讲第二部分：二元函数二阶泰勒公式（数一）、多元无条件极值、条件极值与拉格朗日乘数法、闭区域最值问题。",
+    "notes": "二元泰勒为数一专有；多元极值与最值为考研大题核心。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_14",
+    "included_sections": [
+      "TB_M1_CALC_L14_S01",
+      "TB_M1_CALC_L14_S02",
+      "TB_M1_CALC_L14_S03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_06_01"
+    ],
+    "estimated_scope": "第14讲全讲：二重积分概念、性质与对称性化简、直角与极坐标计算、换元法与区域D积分次序变换。",
+    "notes": "全讲1550行，结构紧密，围绕二重积分全面展开。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_15A",
+    "included_sections": [
+      "TB_M1_CALC_L15_S01",
+      "TB_M1_CALC_L15_S02",
+      "TB_M1_CALC_L15_S03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_08_01",
+      "SCOPE_M1_CALC_08_02"
+    ],
+    "estimated_scope": "第15讲第一部分：微分方程基本概念、一阶方程（可分离、齐次、一阶线性、伯努利、全微分）及二阶可降阶方程求解。",
+    "notes": "伯努利与全微分方程为数一独有考点。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_15B",
+    "included_sections": [
+      "TB_M1_CALC_L15_S04",
+      "TB_M1_CALC_L15_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_08_03"
+    ],
+    "estimated_scope": "第15讲第二部分：高阶常系数线性微分方程求解、欧拉方程（数一）以及微分方程几何物理应用建模。",
+    "notes": "抽取时严格忽略S06（差分方程）超纲小节。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_16A",
+    "included_sections": [
+      "TB_M1_CALC_L16_S01",
+      "TB_M1_CALC_L16_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_07_01"
+    ],
+    "estimated_scope": "第16讲第一部分：常数项级数的概念、基本性质、收敛必要条件，以及正项级数、交错级数与任意项级数审敛法。",
+    "notes": "常数项级数理论与判敛题型集中。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_16B",
+    "included_sections": [
+      "TB_M1_CALC_L16_S03",
+      "TB_M1_CALC_L16_S04",
+      "TB_M1_CALC_L16_S05",
+      "TB_M1_CALC_L16_S06"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_07_02",
+      "SCOPE_M1_CALC_07_03"
+    ],
+    "estimated_scope": "第16讲第二部分：幂级数收敛域求法、幂级数求和函数、函数展开成幂级数，以及傅里叶级数展开（数一）。",
+    "notes": "傅里叶级数为数学一独有考点。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_17A",
+    "included_sections": [
+      "TB_M1_CALC_L17_S01",
+      "TB_M1_CALC_L17_S02",
+      "TB_M1_CALC_L17_S03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_04_01",
+      "SCOPE_M1_CALC_04_02",
+      "SCOPE_M1_CALC_04_03"
+    ],
+    "estimated_scope": "第17讲第一部分：空间向量代数基础、空间平面方程、空间直线方程、位置关系与距离，以及空间曲线/曲面与二次曲面。",
+    "notes": "完全对齐考纲第四章空间解析几何与向量代数（数一专有）。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_17B",
+    "included_sections": [
+      "TB_M1_CALC_L17_S04",
+      "TB_M1_CALC_L17_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_05_02",
+      "SCOPE_M1_CALC_05_03",
+      "SCOPE_M1_CALC_06_03"
+    ],
+    "estimated_scope": "第17讲第二部分：空间曲线切线与法平面、空间曲面切平面与法线，以及场论初步（方向导数、梯度、散度、旋度）。",
+    "notes": "跨多元微分几何应用、方向导数与高斯/斯托克斯场论概念。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_18A",
+    "included_sections": [
+      "TB_M1_CALC_L18_S01"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_06_01",
+      "SCOPE_M1_CALC_06_03"
+    ],
+    "estimated_scope": "第18讲第一部分：三重积分的概念、性质、普通与轮换对称性化简、直角坐标/柱面坐标/球面坐标计算与几何物理应用。",
+    "notes": "三重积分为数一专有考点。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_18B",
+    "included_sections": [
+      "TB_M1_CALC_L18_S02",
+      "TB_M1_CALC_L18_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_06_02",
+      "SCOPE_M1_CALC_06_03"
+    ],
+    "estimated_scope": "第18讲第二部分：第一型曲线积分（对弧长）与第二型曲线积分（对坐标）、格林公式、路径无关条件与全微分原函数。",
+    "notes": "两类曲线积分及格林公式专题。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_18C",
+    "included_sections": [
+      "TB_M1_CALC_L18_S03",
+      "TB_M1_CALC_L18_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_06_03"
+    ],
+    "estimated_scope": "第18讲第三部分：第一型曲面积分（对面积）与第二型曲面积分（对坐标）、高斯公式与斯托克斯公式（含空间第二型曲线积分）。",
+    "notes": "两类曲面积分与场论核心定理。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_CALC_APP",
+    "included_sections": [
+      "TB_M1_CALC_APP_01",
+      "TB_M1_CALC_APP_02",
+      "TB_M1_CALC_APP_03",
+      "TB_M1_CALC_APP_04",
+      "TB_M1_CALC_APP_05",
+      "TB_M1_CALC_APP_06_01"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_CALC_01_01",
+      "SCOPE_M1_CALC_01_02",
+      "SCOPE_M1_CALC_02_01",
+      "SCOPE_M1_CALC_02_02",
+      "SCOPE_M1_CALC_03_02",
+      "SCOPE_M1_CALC_03_03",
+      "SCOPE_M1_CALC_04_03",
+      "SCOPE_M1_CALC_06_01"
+    ],
+    "estimated_scope": "附录1-6在纲工具集：图像变换、常用平面图形、常用空间图形、初等重要公式、双曲函数与恒等变形/不等式放缩技巧。",
+    "notes": "作为微积分全局运算与几何辅助支撑批次；严格过滤APP_06_02（营销领书）。"
+  }
+]

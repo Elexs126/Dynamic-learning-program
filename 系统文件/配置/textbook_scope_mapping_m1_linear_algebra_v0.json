@@ -1,0 +1,837 @@
+[
+  {
+    "textbook_section_id": "TB_M1_LA_B01_S01",
+    "textbook_section_path": "基础篇 > 第一章 行列式 > 一、行列式的概念",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_01_01"
+    ],
+    "mapping_basis": "对应教材一、行列式的概念（二阶与三阶行列式、n阶全排列、逆序数、奇偶排列与对换定理，及例题解析概念部分），完全对齐考纲行列式概念要求。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "涵盖逆序数与行列式的全展开定义及概念题。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B01_S02",
+    "textbook_section_path": "基础篇 > 第一章 行列式 > 二、行列式的性质",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_01_01"
+    ],
+    "mapping_basis": "对应教材二、行列式的性质（行列式转置不变性、互换两行变号、单行倍乘、单行可加性、两行对应成比例则行列式为零等，及性质例题解析），对齐考纲行列式基本性质。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握行列式各项性质及其在化简中的应用。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B01_S03",
+    "textbook_section_path": "基础篇 > 第一章 行列式 > 三、行列式按行（或列）展开公式与计算",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_01_02"
+    ],
+    "mapping_basis": "对应教材三、行列式按行（或列）展开公式（余子式、代数余子式、拉普拉斯展开定理、异行代数余子式乘积和为零，及例题解析展开公式大题），对齐考纲按行（列）展开与计算定理。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握余子式与代数余子式性质，会用降阶与展开法则计算数字型与抽象型行列式。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B01_S04",
+    "textbook_section_path": "基础篇 > 第一章 行列式 > 四、克拉默法则",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_01_02"
+    ],
+    "mapping_basis": "对应教材四、克拉默法则（克拉默定理及推论、齐次方程组只有零解与有非零解判定、非齐次方程组唯一解公式求解，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【跨章双向映射】克拉默法则在考纲中归属于线性方程组判定定理（SCOPE_M1_LA_04_01），同时作为行列式计算的应用拓展（SCOPE_M1_LA_01_02）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B01_S05",
+    "textbook_section_path": "基础篇 > 第一章 行列式 > 本章作业超链接《基础过关660题》优选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_01_01",
+      "SCOPE_M1_LA_01_02"
+    ],
+    "mapping_basis": "教材第一章末尾配套练习题《基础过关660题》优选题目索引，巩固行列式概念与计算方法。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "课后强化习题索引，覆盖行列式第一章全部考纲内容。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B02_S01",
+    "textbook_section_path": "基础篇 > 第二章 矩阵 > 一、矩阵的概念及运算",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_01"
+    ],
+    "mapping_basis": "对应教材1.矩阵的概念、2.矩阵的运算（线性运算、乘法、方阵的幂、转置）、3.常见矩阵（单位阵、数量阵、对角阵、三角阵、对称与反对称矩阵），及例题解析矩阵运算部分。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "全面覆盖考纲矩阵基本概念与代数运算法则。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B02_S02",
+    "textbook_section_path": "基础篇 > 第二章 矩阵 > 二、伴随矩阵、可逆矩阵",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "mapping_basis": "对应教材二、伴随矩阵、可逆矩阵（伴随定义与公式AA*=A*A=|A|E、可逆充要条件|A|!=0、逆矩阵运算性质、伴随求逆法与初等变换求逆法，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "伴随矩阵与可逆矩阵是考研矩阵核心考点；求逆方法同时涉及初等变换（02_03）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B02_S03",
+    "textbook_section_path": "基础篇 > 第二章 矩阵 > 三、初等变换、初等矩阵",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_03"
+    ],
+    "mapping_basis": "对应教材三、初等变换、初等矩阵（三类初等行/列变换、初等矩阵性质、矩阵等价概念、行阶梯形与行最简形矩阵、初等变换求矩阵的秩与逆，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握初等变换与初等矩阵的乘法对应规律，会用初等变换求矩阵的秩与逆。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B02_S04",
+    "textbook_section_path": "基础篇 > 第二章 矩阵 > 四、分块矩阵",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_03",
+      "SCOPE_M1_LA_01_02"
+    ],
+    "mapping_basis": "对应教材四、分块矩阵（分块矩阵概念、分块加法/数乘/乘法、分块转置、分块对角矩阵求逆、副对角分块及拉普拉斯分块行列式展开，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "分块运算属于 02_03；分块行列式展开关联 01_02。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B02_S05",
+    "textbook_section_path": "基础篇 > 第二章 矩阵 > 五、方阵的行列式",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_01",
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_01_01"
+    ],
+    "mapping_basis": "对应教材五、方阵的行列式（方阵乘积行列式性质|AB|=|A||B|、|kA|=k^n|A|、|A*|=|A|^(n-1)、|A^-1|=1/|A|，及例题解析例23等综合计算）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "方阵行列式运算性质，交汇矩阵代数运算（02_01）、伴随逆矩阵（02_02）与行列式性质（01_01）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B02_S06",
+    "textbook_section_path": "基础篇 > 第二章 矩阵 > 本章作业超链接《基础过关660题》优选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_01",
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "mapping_basis": "教材第二章末尾配套练习题《基础过关660题》优选题目索引，覆盖矩阵全章知识。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "矩阵章节配套巩固训练索引。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B03_S01",
+    "textbook_section_path": "基础篇 > 第三章 向量 > 一、向量的概念、向量组的概念",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_03_01"
+    ],
+    "mapping_basis": "对应教材一、向量的概念、向量组的概念（n维列/行向量定义、向量线性运算、向量组、线性组合与线性表出概念），对齐考纲向量基本概念。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "理解向量组、线性组合与线性表示的定义与本质。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B03_S02",
+    "textbook_section_path": "基础篇 > 第三章 向量 > 二、线性表出、线性相关",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_04_01"
+    ],
+    "mapping_basis": "对应教材二、线性表出、线性相关（线性相关/无关定义、判别定理、部分与整体关系、维数与个数关系、与线性方程组有解/零解充要条件等价性，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "线性相关性与齐次方程组非零解充要条件（SCOPE_M1_LA_04_01）紧密联动。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B03_S03",
+    "textbook_section_path": "基础篇 > 第三章 向量 > 三、向量组的秩、矩阵的秩",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "mapping_basis": "对应教材三、向量组的秩、矩阵的秩（极大线性无关组定义与求法、向量组的秩、等价向量组概念、矩阵行秩与列秩等于矩阵的秩、矩阵秩的重要不等式，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "极大无关组与向量组秩归属 03_01；矩阵的秩及其不等式归属 02_03。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B03_S04",
+    "textbook_section_path": "基础篇 > 第三章 向量 > 四、正交规范化、正交矩阵",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_03_02"
+    ],
+    "mapping_basis": "对应教材四、正交规范化、正交矩阵（向量内积、柯西-施瓦茨不等式、长度、正交性、施密特正交化步骤、规范正交基定义、正交矩阵定义与充要性质，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "完全对应考纲内积、施密特正交化与正交矩阵概念性质（SCOPE_M1_LA_03_02）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B03_S05",
+    "textbook_section_path": "基础篇 > 第三章 向量 > 本章作业超链接《基础过关660题》优选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_03_02"
+    ],
+    "mapping_basis": "教材第三章末尾配套练习题《基础过关660题》优选题目索引，覆盖向量相关性、秩与正交化。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "向量章节配套巩固训练索引。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B04_S01",
+    "textbook_section_path": "基础篇 > 第四章 线性方程组 > 一、基本概念",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "对应教材一、基本概念（线性方程组的一般形式、矩阵形式与向量形式，增广矩阵，解向量、相容与不相容方程组概念）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "线性方程组基础定义与矩阵表示。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B04_S02",
+    "textbook_section_path": "基础篇 > 第四章 线性方程组 > 二、齐次线性方程组",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "对应教材二、齐次线性方程组（仅有零解与有非零解判定定理r(A)=n与r(A)<n、基础解系概念与存在定理、基础解系向量个数n-r(A)、齐次通解结构与初等行变换求法，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "有非零解判定属于 04_01，基础解系与通解求解属于 04_02。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B04_S03",
+    "textbook_section_path": "基础篇 > 第四章 线性方程组 > 三、非齐次线性方程组",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "对应教材三、非齐次线性方程组（有解判定定理r(A)=r(A,b)、无解/唯一解/无穷多解充要条件、解的结构定理：特解+齐次通解、通解求解步骤，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "非齐次有解判定属于 04_01，解的结构与通解求解属于 04_02。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B04_S04",
+    "textbook_section_path": "基础篇 > 第四章 线性方程组 > 四、公共解、同解",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "对应教材四、公共解、同解（公共解定义与联立方程组求法、同解方程组概念、两方程组同解的充要条件判定定理）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "公共解与同解方程组是考研高频综合考查点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B04_S05",
+    "textbook_section_path": "基础篇 > 第四章 线性方程组 > 五、方程组的应用",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_02",
+      "SCOPE_M1_LA_03_01"
+    ],
+    "mapping_basis": "对应教材五、方程组的应用（由基础解系反求齐次方程组、AB=O零矩阵方程转化为齐次方程组解向量、空间几何应用等，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "方程组求解与矩阵核空间、向量极大无关组的跨考点综合应用。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B04_S06",
+    "textbook_section_path": "基础篇 > 第四章 线性方程组 > 本章作业超链接《基础过关660题》优选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "教材第四章末尾配套练习题《基础过关660题》优选题目索引，覆盖方程组全章知识。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "线性方程组配套巩固训练索引。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B05_S01",
+    "textbook_section_path": "基础篇 > 第五章 特征值和特征向量 > 一、特征值、特征向量",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_05_01"
+    ],
+    "mapping_basis": "对应教材一、特征值、特征向量（定义式A alpha=lambda alpha、特征方程与特征多项式求法、特征值和特征向量基本性质、迹等于特征值和、行列式等于特征值积、矩阵多项式及伴随阵逆阵特征值，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "完全对应考纲特征值与特征向量的概念与性质（SCOPE_M1_LA_05_01）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B05_S02",
+    "textbook_section_path": "基础篇 > 第五章 特征值和特征向量 > 二、相似矩阵",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_05_02"
+    ],
+    "mapping_basis": "对应教材二、相似矩阵（相似矩阵定义P^-1 AP=B、相似的必要性质：同秩同迹同行列式同特征值、矩阵可相似对角化充要条件：n个线性无关特征向量/几何重数等于代数重数、化相似对角阵方法与步骤，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "矩阵相似与对角化是线性代数核心考点（SCOPE_M1_LA_05_02）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B05_S03",
+    "textbook_section_path": "基础篇 > 第五章 特征值和特征向量 > 三、实对称矩阵",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_05_02",
+      "SCOPE_M1_LA_03_02"
+    ],
+    "mapping_basis": "对应教材三、实对称矩阵（实对称矩阵性质：特征值全为实数、不同特征值特征向量正交、必可相似对角化；用正交矩阵化实对称矩阵为对角矩阵的步骤：Schmidt正交化与单位化构造正交矩阵Q，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "实对称矩阵正交相似对角化，交汇 05_02 与正交规范化 03_02。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B05_S04",
+    "textbook_section_path": "基础篇 > 第五章 特征值和特征向量 > 本章作业超链接《基础过关660题》优选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_05_01",
+      "SCOPE_M1_LA_05_02"
+    ],
+    "mapping_basis": "教材第五章末尾配套练习题《基础过关660题》优选题目索引，覆盖特征值与相似对角化。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "特征值与相似对角化配套巩固训练索引。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B06_S01",
+    "textbook_section_path": "基础篇 > 第六章 二次型 > 一、二次型及其标准形",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_06_01"
+    ],
+    "mapping_basis": "对应教材一、二次型及其标准形（二次型概念与对称矩阵表示f=x^T Ax、合同变换定义C^T AC=B、二次型的秩、标准形与规范形概念、惯性定理、配方法化标准形、正交变换化标准形，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "完全对应考纲二次型及其标准形与合同变换（SCOPE_M1_LA_06_01）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B06_S02",
+    "textbook_section_path": "基础篇 > 第六章 二次型 > 二、正定二次型",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_06_02"
+    ],
+    "mapping_basis": "对应教材二、正定二次型（正定二次型与正定矩阵定义、正定判别充要条件：顺序主子式全大于零、特征值全大于零、正惯性指数为n、合同于单位矩阵，半正定与负定概念及判别，及例题解析）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "完全对应考纲正定二次型与正定矩阵（SCOPE_M1_LA_06_02）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B06_S03",
+    "textbook_section_path": "基础篇 > 第六章 二次型 > 本章作业超链接《基础过关660题》优选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_06_01",
+      "SCOPE_M1_LA_06_02"
+    ],
+    "mapping_basis": "教材第六章末尾配套练习题《基础过关660题》优选题目索引，覆盖二次型全章。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "二次型配套巩固训练索引。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_B06_S04",
+    "textbook_section_path": "基础篇 > 第六章 二次型 > 作者寄语与图书宣传广告",
+    "mapped_scope_ids": [],
+    "mapping_basis": "教材行1173至1381内容，包含作者寄语、考研数学满分高效复习5段论、上岸学习包使用建议、金榜时代考研数学系列书目及总策划人员信息，属于纯商业与出版推广页面。",
+    "confidence": "high",
+    "scope_status": "out_of_scope_candidate",
+    "notes": "【明确超纲】纯商业与图书宣传推广内容，非考纲考试内容，抽取批次中安全剔除。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A01_S01",
+    "textbook_section_path": "强化篇 > 第一章 行列式 > 一、知识结构网络图与二、基本内容与重要结论",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_01_01",
+      "SCOPE_M1_LA_01_02",
+      "SCOPE_M1_LA_04_01"
+    ],
+    "mapping_basis": "知识结构网络图、基本内容（基础知识、定义1.1/1.2、重要定理、主要公式、方阵行列式性质、克拉默法则）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "强化篇行列式全章基础理论框架与网络架构回顾。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A01_T01",
+    "textbook_section_path": "强化篇 > 第一章 行列式 > 三、典型例题分析选讲 > 【题型一 行列式的概念和计算】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_01_01",
+      "SCOPE_M1_LA_01_02"
+    ],
+    "mapping_basis": "1.数字型行列式化简计算（爪型、三对角、范德蒙德、加边升阶法）、2.抽象型行列式计算（用矩阵乘积行列式、伴随行列式、特征值之积及初等变换）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "覆盖考研行列式计算题型高频解法与技巧。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A01_T02",
+    "textbook_section_path": "强化篇 > 第一章 行列式 > 三、典型例题分析选讲 > 【题型二 行列式的应用】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_01_02",
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_05_01",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "mapping_basis": "行列式在特征多项式（05_01）、克拉默法则解方程组（04_01）、矩阵秩的概念判别（02_03）以及关于|A|=0判断矩阵奇异性与齐次方程非零解中的综合应用。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "行列式在代数各章节的核心工具性应用专题。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A01_T03",
+    "textbook_section_path": "强化篇 > 第一章 行列式 > 三、典型例题分析选讲 > 【题型三 代数余子式求和】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_01_02"
+    ],
+    "mapping_basis": "代数余子式线性组合求和高频解题法（用系数替换对应行/列元素构造新行列式展开、伴随矩阵元素求和）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "代数余子式求和是考研数一高频必考小题与大题技巧点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A01_S02",
+    "textbook_section_path": "强化篇 > 第一章 行列式 > 四、练习题严选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_01_01",
+      "SCOPE_M1_LA_01_02",
+      "SCOPE_M1_LA_04_01"
+    ],
+    "mapping_basis": "严选练习题（1.填空题、2.选择题、3.解答题）、详细参考答案与提示、做题进阶三步法。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "强化篇第一章实战强化题组与答案解析。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A02_S01",
+    "textbook_section_path": "强化篇 > 第二章 矩阵 > 一、知识结构网络图与二、基本内容与重要结论",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_01",
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "mapping_basis": "矩阵知识网络图、今年考题、基础知识、重要矩阵、可逆矩阵定理、主要矩阵公式深度总结。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "强化篇矩阵全章理论框架与重要公式汇总。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A02_T01",
+    "textbook_section_path": "强化篇 > 第二章 矩阵 > 三、典型例题分析选讲 > 【题型一 矩阵运算与特殊矩阵】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_01"
+    ],
+    "mapping_basis": "矩阵乘法规律、方阵高次幂 A^m 计算（数学归纳法、二项式定理分解法A=B+C、秩1矩阵分解法、相似对角化法）、特殊矩阵性质题型选讲。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "方阵乘法与幂的求解是矩阵代数核心基础技能。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A02_T02",
+    "textbook_section_path": "强化篇 > 第二章 矩阵 > 三、典型例题分析选讲 > 【题型二 可逆矩阵与伴随矩阵】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_02"
+    ],
+    "mapping_basis": "伴随矩阵高阶性质公式（(A*)*=|A|^(n-2)A、r(A*)与r(A)分段对应关系）、抽象矩阵可逆性证明（因式分解法构造 AB=E）、求逆矩阵方法选讲。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "伴随矩阵公式群与可逆证明是数一高频考点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A02_T03",
+    "textbook_section_path": "强化篇 > 第二章 矩阵 > 三、典型例题分析选讲 > 【题型三 初等变换与初等矩阵】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_03"
+    ],
+    "mapping_basis": "行最简形矩阵判定、初等变换左乘行变换与右乘列变换法则、用初等行变换求可逆矩阵的逆与解方程组。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "初等矩阵乘法表示与初等行变换综合应用。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A02_T04",
+    "textbook_section_path": "强化篇 > 第二章 矩阵 > 三、典型例题分析选讲 > 【题型四 矩阵秩的计算与证明】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_03",
+      "SCOPE_M1_LA_03_01"
+    ],
+    "mapping_basis": "矩阵秩的计算方法、矩阵秩的不等式证明（Sylvester公式 r(AB)>=r(A)+r(B)-n、r(A+B)<=r(A)+r(B)、分块矩阵的秩），结合向量组的秩综合求解。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "矩阵秩的不等式证明是考研线性代数证明题经典压轴题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A02_T05",
+    "textbook_section_path": "强化篇 > 第二章 矩阵 > 三、典型例题分析选讲 > 【题型五 矩阵方程求解】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_02_03",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "矩阵方程 AX=B、XA=B、AXB=C 求解（A可逆时左乘逆矩阵；A不可逆时化为线性方程组分别求列向量或初等变换法）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "矩阵方程转化为线性方程组求解是跨章节综合解法。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A02_S02",
+    "textbook_section_path": "强化篇 > 第二章 矩阵 > 四、练习题严选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_01",
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "mapping_basis": "强化篇第二章严选练习题（填空题、选择题、解答题）、详细参考答案与提示及图书导语。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "矩阵部分综合进阶题组与解析。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A03_S01",
+    "textbook_section_path": "强化篇 > 第三章 n维向量 > 一、知识结构网络图与今年考题导引",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_03_02"
+    ],
+    "mapping_basis": "n维向量知识网络图、今年考题导引与考情透视。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "向量章节核心框架与考情分析。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A03_T01",
+    "textbook_section_path": "强化篇 > 第三章 n维向量 > 二、典型例题分析选讲 > 【题型一 线性相关与线性无关】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_03_01"
+    ],
+    "mapping_basis": "线性无关判定与证明（定义法设重组式、同乘法、秩判别法构造矩阵、行列式判别法）经典题型选讲。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "向量组线性相关性证明是代数核心难点与大题常见设问。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A03_T02",
+    "textbook_section_path": "强化篇 > 第三章 n维向量 > 二、典型例题分析选讲 > 【题型二 线性表出与向量组等价】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_03_01"
+    ],
+    "mapping_basis": "向量由向量组线性表出的判定与表达式求法（r(A)=r(A, beta)）、向量组等价判定（可相互线性表出且秩相等）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "线性表出与向量组等价考点深化。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A03_T03",
+    "textbook_section_path": "强化篇 > 第三章 n维向量 > 二、典型例题分析选讲 > 【题型三 向量组的秩与极大线性无关组】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "mapping_basis": "向量组秩与极大线性无关组的求解（构造矩阵作初等行变换化为行最简形）、矩阵秩的证明题型。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "用初等行变换求极大无关组是标准计算流程。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A03_T04",
+    "textbook_section_path": "强化篇 > 第三章 n维向量 > 二、典型例题分析选讲 > 【题型四 向量空间*(数一专有)】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_03_02"
+    ],
+    "mapping_basis": "【数一专有考点】n维向量空间定义、子空间、基底与维数、齐次解空间、规范正交基、过渡矩阵求法（[beta]=[alpha]C）、坐标变换公式（x=Cy）典型例题。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数一专门考查考点，对应 SCOPE_M1_LA_03_02。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A03_S02",
+    "textbook_section_path": "强化篇 > 第三章 n维向量 > 三、练习题严选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_03_02"
+    ],
+    "mapping_basis": "强化篇第三章严选练习题（填空题、选择题、解答题，含向量空间真题）与详细参考答案提示。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "向量章节强化题组与答案解析。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A04_S01",
+    "textbook_section_path": "强化篇 > 第四章 线性方程组 > 一、知识结构网络图与二、基础知识及主要定理",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "线性方程组全章知识架构图、今年考题、基础知识、主要定理回顾与有解判定定理4.5。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "方程组全景理论与判定法则提炼。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A04_T01",
+    "textbook_section_path": "强化篇 > 第四章 线性方程组 > 三、典型例题分析选讲 > 【题型一 基础解系与解的结构】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "基础解系条件判别、基础解系维数 n-r(A)、解向量线性组合性质及解空间维数题型选讲。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "齐次方程组解空间与基础解系深层性质。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A04_T02",
+    "textbook_section_path": "强化篇 > 第四章 线性方程组 > 三、典型例题分析选讲 > 【题型二 解线性方程组与含参讨论】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "高斯消元初等行变换解Ax=b、含未知参数方程组有解/无解/唯一解/无穷解的分类讨论与通解求解、通过矩阵运算构造方程组再求解。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "含参方程组求解是考研线性方程组大题最核心题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A04_T03",
+    "textbook_section_path": "强化篇 > 第四章 线性方程组 > 三、典型例题分析选讲 > 【题型三 有解判定、解的结构与性质】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "非齐次方程组解的结构性质分析（解的线性组合属于何种方程解）、由特解和通解反求未知参数或方程组系数矩阵。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "方程组解的结构与逆向反求题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A04_T04",
+    "textbook_section_path": "强化篇 > 第四章 线性方程组 > 三、典型例题分析选讲 > 【题型四 两个方程组的公共解与同解】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "公共解求解三大方法（通解代入、联立增广矩阵、解系交集）、同解方程组判定与证明题型选讲。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "两方程组公共解与同解综合题型深度解析。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A04_T05",
+    "textbook_section_path": "强化篇 > 第四章 线性方程组 > 三、典型例题分析选讲 > 【题型五 方程组的应用】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_02",
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "mapping_basis": "方程组在矩阵与向量中的综合应用（AB=O矩阵乘法零矩阵与方程组解的转换、解向量与正交向量构造）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "代数综合应用题型选讲。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A04_S02",
+    "textbook_section_path": "强化篇 > 第四章 线性方程组 > 四、练习题严选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "mapping_basis": "强化篇第四章严选练习题（填空题、选择题、解答题）及详细参考答案提示。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "方程组章节强化题组与答案解析。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A05_S01",
+    "textbook_section_path": "强化篇 > 第五章 特征值和特征向量 > 一、知识结构网络图与二、基本内容与重要结论",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_05_01",
+      "SCOPE_M1_LA_05_02"
+    ],
+    "mapping_basis": "特征值与相似全章知识网络图、今年考题、基础知识、重要定理深度提炼。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "特征值与相似对角化理论体系总结。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A05_T01",
+    "textbook_section_path": "强化篇 > 第五章 特征值和特征向量 > 三、典型例题分析选讲 > 【题型一 特征值与特征向量的求法与性质】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_05_01"
+    ],
+    "mapping_basis": "1.数字型矩阵特征值与特征向量求法、2.抽象型矩阵特征值与特征向量性质（定义式法、矩阵方程法、多项式特征值）题型选讲。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "特征值特征向量求法与基本性质强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A05_T02",
+    "textbook_section_path": "强化篇 > 第五章 特征值和特征向量 > 三、典型例题分析选讲 > 【题型二 矩阵相似与相似对角化】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_05_02"
+    ],
+    "mapping_basis": "矩阵相似判别必要条件与充分条件、矩阵可对角化充分必要条件（n个线性无关特征向量、重根代数重数等于几何重数）、相似对角化求可逆阵P与求参数问题。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "相似对角化判定与求参是考研大题核心设问。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A05_T03",
+    "textbook_section_path": "强化篇 > 第五章 特征值和特征向量 > 三、典型例题分析选讲 > 【题型三 用相似求矩阵幂与反求矩阵A】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_05_02",
+      "SCOPE_M1_LA_05_01"
+    ],
+    "mapping_basis": "用相似对角化求 A^n（A^n = P Lambda^n P^-1）、由已知特征值特征向量反求矩阵A（A = P Lambda P^-1）及已知伴随特征值反求A。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "相似对角化经典应用与逆向反求题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A05_T04",
+    "textbook_section_path": "强化篇 > 第五章 特征值和特征向量 > 三、典型例题分析选讲 > 【题型四 实对称矩阵的正交相似对角化】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_05_02",
+      "SCOPE_M1_LA_03_02"
+    ],
+    "mapping_basis": "实对称矩阵性质深度考查、重特征值特征向量Schmidt正交化、构造正交矩阵Q使 Q^T AQ=Lambda 规范大题选讲。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "实对称矩阵正交相似对角化是考研压轴大题标配。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A05_S02",
+    "textbook_section_path": "强化篇 > 第五章 特征值和特征向量 > 四、练习题严选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_05_01",
+      "SCOPE_M1_LA_05_02"
+    ],
+    "mapping_basis": "强化篇第五章严选练习题（填空题、选择题、解答题）及详细参考答案提示。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "特征值与相似章节强化题组与答案解析。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A06_S01",
+    "textbook_section_path": "强化篇 > 第六章 二次型 > 一、知识结构网络图与二、基本内容与重要结论",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_06_01",
+      "SCOPE_M1_LA_06_02"
+    ],
+    "mapping_basis": "二次型全章知识网络图、今年考题透析、基础知识、主要定理回顾。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "二次型理论框架与考点总结。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A06_T01",
+    "textbook_section_path": "强化篇 > 第六章 二次型 > 三、典型例题分析选讲 > 【题型一 二次型基本概念与矩阵表示】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_06_01"
+    ],
+    "mapping_basis": "二次型定义、系数对称化写出二次型矩阵、二次型的秩、坐标变换表示例题选讲。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "二次型矩阵与秩的概念题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A06_T02",
+    "textbook_section_path": "强化篇 > 第六章 二次型 > 三、典型例题分析选讲 > 【题型二 二次型的标准形与规范形】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_06_01"
+    ],
+    "mapping_basis": "配方法化标准形（含有平方项配方、无平方项交叉项换元配方）、正交变换化二次型为标准形、求规范形与惯性指数判定。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "化二次型为标准形的两大方法与惯性定理应用。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A06_T03",
+    "textbook_section_path": "强化篇 > 第六章 二次型 > 三、典型例题分析选讲 > 【题型三 二次型的正定性判别】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_06_02"
+    ],
+    "mapping_basis": "正定二次型与正定矩阵判定方法（顺序主子式法、特征值全正法、正惯性指数法、定义法证明非零向量二次型大于零）及含参正定讨论。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "正定二次型与正定矩阵充要判定专题。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A06_T04",
+    "textbook_section_path": "强化篇 > 第六章 二次型 > 三、典型例题分析选讲 > 【题型四 矩阵的等价、相似与合同】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_02_03",
+      "SCOPE_M1_LA_05_02",
+      "SCOPE_M1_LA_06_01"
+    ],
+    "mapping_basis": "【考研综合大题集大成考点】同型矩阵等价（充要条件：秩相等）、方阵相似（充要条件：若可对角化则特征值相同）、实对称矩阵合同（充要条件：正负惯性指数相同）三类等价关系的定义、充要条件与判定定理全面辨析题型。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "代数三大矩阵关系横向辨析，跨越初等变换（02_03）、相似（05_02）与合同（06_01）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_A06_S02",
+    "textbook_section_path": "强化篇 > 第六章 二次型 > 四、练习题严选",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_06_01",
+      "SCOPE_M1_LA_06_02"
+    ],
+    "mapping_basis": "强化篇第六章严选练习题（填空题、选择题、解答题）及详细参考答案提示。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "二次型强化练习题组与答案解析。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_APP_01",
+    "textbook_section_path": "强化篇 > 附录 45分钟水平测试 > 自测(一) 及参考答案与提示",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_01_02",
+      "SCOPE_M1_LA_02_01",
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_04_02",
+      "SCOPE_M1_LA_05_01",
+      "SCOPE_M1_LA_05_02",
+      "SCOPE_M1_LA_06_01",
+      "SCOPE_M1_LA_06_02"
+    ],
+    "mapping_basis": "线性代数全课程综合水平测试卷（一），含10道考研真题风格试题及详细参考答案与提示，全面覆盖六章核心考纲。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "全课程综合测试题组（一），用于全书综合水平测评与查漏补缺。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_APP_02",
+    "textbook_section_path": "强化篇 > 附录 45分钟水平测试 > 自测(二) 及参考答案与提示",
+    "mapped_scope_ids": [
+      "SCOPE_M1_LA_01_02",
+      "SCOPE_M1_LA_02_01",
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_04_02",
+      "SCOPE_M1_LA_05_01",
+      "SCOPE_M1_LA_05_02",
+      "SCOPE_M1_LA_06_01",
+      "SCOPE_M1_LA_06_02"
+    ],
+    "mapping_basis": "线性代数全课程综合水平测试卷（二），含10道考研真题风格试题及详细参考答案与提示，全面覆盖六章核心考纲。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "全课程综合测试题组（二），用于全书综合水平测评与查漏补缺。"
+  },
+  {
+    "textbook_section_id": "TB_M1_LA_APP_03",
+    "textbook_section_path": "强化篇 > 附录 45分钟水平测试 > 金榜时代图书·书目",
+    "mapped_scope_ids": [],
+    "mapping_basis": "附录末尾行240至252内容，为金榜时代图书系列出版书目与策划推广信息，属于纯商业广告。",
+    "confidence": "high",
+    "scope_status": "out_of_scope_candidate",
+    "notes": "【明确超纲】纯图书商业广告信息，非考纲考试内容，抽取批次中安全剔除。"
+  }
+]
