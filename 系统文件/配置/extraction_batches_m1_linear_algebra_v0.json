@@ -1,0 +1,452 @@
+[
+  {
+    "batch_id": "BATCH_TB_M1_LA_B01A",
+    "included_sections": [
+      "TB_M1_LA_B01_S01",
+      "TB_M1_LA_B01_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_01_01"
+    ],
+    "estimated_scope": "基础篇第01章第一部分：行列式的概念、逆序数、奇偶排列与对换，行列式的转置、互换变号、倍乘、可加性等基本性质及相关概念题。",
+    "notes": "约350行，涵盖概念与性质理论及例题。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B01B",
+    "included_sections": [
+      "TB_M1_LA_B01_S03",
+      "TB_M1_LA_B01_S04",
+      "TB_M1_LA_B01_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_01_02",
+      "SCOPE_M1_LA_04_01"
+    ],
+    "estimated_scope": "基础篇第01章第二部分：行列式按行（列）展开定理、代数余子式性质、降阶与升阶计算，克拉默法则及其在方程组中的应用，附带660题练习索引。",
+    "notes": "约710行，涵盖展开公式、特殊行列式求解与克拉默法则。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B02A",
+    "included_sections": [
+      "TB_M1_LA_B02_S01"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_02_01"
+    ],
+    "estimated_scope": "基础篇第02章第一部分：矩阵的概念、特殊矩阵（单位阵、对角阵、三角阵、对称与反对称阵）、线性运算、矩阵乘法规律、方阵的幂及转置性质与例题。",
+    "notes": "约700行，涵盖矩阵代数运算基础。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B02B",
+    "included_sections": [
+      "TB_M1_LA_B02_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "estimated_scope": "基础篇第02章第二部分：伴随矩阵概念与公式AA*=A*A=|A|E、矩阵可逆充要条件、逆矩阵运算性质、伴随求逆法与初等行变换求逆法及例题。",
+    "notes": "约550行，聚焦伴随矩阵与逆矩阵理论及求解。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B02C",
+    "included_sections": [
+      "TB_M1_LA_B02_S03",
+      "TB_M1_LA_B02_S04",
+      "TB_M1_LA_B02_S05",
+      "TB_M1_LA_B02_S06"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_02_03",
+      "SCOPE_M1_LA_01_01",
+      "SCOPE_M1_LA_01_02",
+      "SCOPE_M1_LA_02_01",
+      "SCOPE_M1_LA_02_02"
+    ],
+    "estimated_scope": "基础篇第02章第三部分：初等变换与初等矩阵性质、行阶梯与行最简形、求秩与逆；分块矩阵运算法则与拉普拉斯展开；方阵行列式运算性质及660题索引。",
+    "notes": "约820行，涵盖初等矩阵、矩阵秩、分块矩阵与方阵行列式综合题。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B03A",
+    "included_sections": [
+      "TB_M1_LA_B03_S01",
+      "TB_M1_LA_B03_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_04_01"
+    ],
+    "estimated_scope": "基础篇第03章第一部分：n维向量概念、线性组合、线性表出；线性相关与线性无关的定义、判别定理、增减性定理及齐次方程解的联系与例题。",
+    "notes": "约600行，涵盖线性组合与相关性判别核心基础。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B03B",
+    "included_sections": [
+      "TB_M1_LA_B03_S03",
+      "TB_M1_LA_B03_S04",
+      "TB_M1_LA_B03_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_03_02",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "estimated_scope": "基础篇第03章第二部分：向量组的极大线性无关组与秩、等价向量组、矩阵的秩及其不等式；向量内积、施密特正交化方法、规范正交基与正交矩阵及660题索引。",
+    "notes": "约760行，涵盖向量组秩、矩阵秩不等式与正交规范化。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B04A",
+    "included_sections": [
+      "TB_M1_LA_B04_S01",
+      "TB_M1_LA_B04_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "estimated_scope": "基础篇第04章第一部分：线性方程组基本概念与矩阵表示；齐次线性方程组有非零解判定定理、基础解系概念与存在条件（n-r）、齐次通解求解及例题。",
+    "notes": "约480行，聚焦齐次线性方程组基础解系与通解求解。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B04B",
+    "included_sections": [
+      "TB_M1_LA_B04_S03",
+      "TB_M1_LA_B04_S04",
+      "TB_M1_LA_B04_S05",
+      "TB_M1_LA_B04_S06"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02",
+      "SCOPE_M1_LA_03_01"
+    ],
+    "estimated_scope": "基础篇第04章第二部分：非齐次线性方程组有解判定定理、解的结构定理（特解+齐次通解）；公共解与同解方程组判定求解；方程组综合应用及660题索引。",
+    "notes": "约470行，涵盖非齐次通解、公共解同解及方程组反求应用。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B05A",
+    "included_sections": [
+      "TB_M1_LA_B05_S01"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_05_01"
+    ],
+    "estimated_scope": "基础篇第05章第一部分：特征值与特征向量的定义、特征方程与特征多项式求法、特征值性质（迹等于特征值和、行列式等于特征值积、矩阵多项式特征值）及例题。",
+    "notes": "约550行，掌握特征值特征向量基本概念与求解技巧。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B05B",
+    "included_sections": [
+      "TB_M1_LA_B05_S02",
+      "TB_M1_LA_B05_S03",
+      "TB_M1_LA_B05_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_05_02",
+      "SCOPE_M1_LA_03_02"
+    ],
+    "estimated_scope": "基础篇第05章第二部分：相似矩阵定义与必要性质、矩阵可对角化充要条件与对角阵求法；实对称矩阵正交相似对角化性质与步骤（施密特正交化）及660题索引。",
+    "notes": "约570行，涵盖相似对角化与实对称阵正交化标准解法。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B06A",
+    "included_sections": [
+      "TB_M1_LA_B06_S01"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_06_01"
+    ],
+    "estimated_scope": "基础篇第06章第一部分：二次型及其对称矩阵表示、合同变换概念、二次型的秩、标准形与规范形概念、惯性定理、配方法化标准形、正交变换化标准形及例题。",
+    "notes": "约650行，掌握二次型矩阵表示与化标准形两大方法。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_B06B",
+    "included_sections": [
+      "TB_M1_LA_B06_S02",
+      "TB_M1_LA_B06_S03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_06_02",
+      "SCOPE_M1_LA_06_01"
+    ],
+    "estimated_scope": "基础篇第06章第二部分：正定二次型与正定矩阵定义、充要判别法（顺序主子式、特征值全正、正惯性指数等于n、合同于单位阵）及例题；660题练习索引（已剔除商业宣传内容）。",
+    "notes": "约520行，聚焦正定性判别充要条件与解法。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A01A",
+    "included_sections": [
+      "TB_M1_LA_A01_S01",
+      "TB_M1_LA_A01_T01"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_01_01",
+      "SCOPE_M1_LA_01_02"
+    ],
+    "estimated_scope": "强化篇第01章第一部分：行列式全章知识网络图与基础总结；题型一数字型行列式（爪型、三对角、加边升阶）与抽象型行列式（矩阵多项式、乘积、特征值）计算强化选讲。",
+    "notes": "约1130行，涵盖网络图与行列式计算两大基础题型。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A01B",
+    "included_sections": [
+      "TB_M1_LA_A01_T02",
+      "TB_M1_LA_A01_T03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_01_02",
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_05_01",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "estimated_scope": "强化篇第01章第二部分：题型二行列式的应用（特征多项式展开、克拉默法则、矩阵秩的概念、关于|A|=0的判定）；题型三代数余子式线性组合求和技巧专题选讲。",
+    "notes": "约550行，聚焦行列式综合应用与代数余子式求和难点。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A01C",
+    "included_sections": [
+      "TB_M1_LA_A01_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_01_01",
+      "SCOPE_M1_LA_01_02",
+      "SCOPE_M1_LA_04_01"
+    ],
+    "estimated_scope": "强化篇第01章第三部分：练习题严选（填空题、选择题、解答题）、参考答案与提示及做题进阶三步法。",
+    "notes": "约200行，实战强化刷题与技巧复盘。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A02A",
+    "included_sections": [
+      "TB_M1_LA_A02_S01",
+      "TB_M1_LA_A02_T01"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_02_01",
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "estimated_scope": "强化篇第02章第一部分：矩阵知识网络图、今年考题分析、基础知识与重要定理回顾；题型一矩阵运算与特殊矩阵（方阵的高次幂A^m计算四大解法、特殊矩阵性质）。",
+    "notes": "约1230行，涵盖矩阵理论框架与矩阵幂求解专题。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A02B",
+    "included_sections": [
+      "TB_M1_LA_A02_T02",
+      "TB_M1_LA_A02_T03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "estimated_scope": "强化篇第02章第二部分：题型二可逆矩阵与伴随矩阵公式群((A*)*=|A|^(n-2)A、r(A*)与r(A))及抽象可逆证明；题型三初等变换与初等矩阵乘法效应、行最简形应用与初等变换求逆。",
+    "notes": "约1300行，涵盖伴随矩阵高阶性质与初等变换核心应用。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A02C",
+    "included_sections": [
+      "TB_M1_LA_A02_T04",
+      "TB_M1_LA_A02_T05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_02_03",
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "estimated_scope": "强化篇第02章第三部分：题型四矩阵秩的计算与证明（Sylvester不等式、r(A+B)、分块矩阵秩证明）；题型五矩阵方程AX=B、XA=B、AXB=C求解与参数讨论。",
+    "notes": "约500行，涵盖矩阵秩的不等式证明与矩阵方程求解。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A02D",
+    "included_sections": [
+      "TB_M1_LA_A02_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_02_01",
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "estimated_scope": "强化篇第02章第四部分：练习题严选（填空题、选择题、解答题）、参考答案与提示及做题进阶三步法。",
+    "notes": "约320行，矩阵实战进阶刷题与解析。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A03A",
+    "included_sections": [
+      "TB_M1_LA_A03_S01",
+      "TB_M1_LA_A03_T01",
+      "TB_M1_LA_A03_T02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_03_01"
+    ],
+    "estimated_scope": "强化篇第03章第一部分：向量网络图与考题导引；题型一线性相关与线性无关证明（定义法重组同乘、秩判别法、行列式判别法）；题型二线性表出判定求法与向量组等价证明。",
+    "notes": "约930行，向量线性相关性与线性表出核心证明题型。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A03B",
+    "included_sections": [
+      "TB_M1_LA_A03_T03",
+      "TB_M1_LA_A03_T04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_03_02",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "estimated_scope": "强化篇第03章第二部分：题型三向量组的秩与极大线性无关组初等行变换求法、矩阵秩证明；题型四向量空间*（数一专有考点：子空间、基底、维数、解空间、过渡矩阵、坐标变换）。",
+    "notes": "约710行，包含极大无关组及数一专有向量空间大题考点。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A03C",
+    "included_sections": [
+      "TB_M1_LA_A03_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_03_02"
+    ],
+    "estimated_scope": "强化篇第03章第三部分：练习题严选（填空题、选择题、解答题，含数一向量空间真题）与详细参考答案提示。",
+    "notes": "约280行，向量章节强化实战训练与解析。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A04A",
+    "included_sections": [
+      "TB_M1_LA_A04_S01",
+      "TB_M1_LA_A04_T01",
+      "TB_M1_LA_A04_T02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "estimated_scope": "强化篇第04章第一部分：线性方程组网络图与主要定理；题型一基础解系充要条件与维数n-r(A)；题型二高斯消元初等行变换解含参方程组分类讨论与通解求解。",
+    "notes": "约1080行，方程组基础解系理论与含参方程组求解核心题型。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A04B",
+    "included_sections": [
+      "TB_M1_LA_A04_T03",
+      "TB_M1_LA_A04_T04",
+      "TB_M1_LA_A04_T05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02",
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_02_03"
+    ],
+    "estimated_scope": "强化篇第04章第二部分：题型三非齐次解的性质分析与逆向反求方程组；题型四两方程组公共解三大求法与同解充要条件证明；题型五方程组与矩阵零积AB=O等综合应用。",
+    "notes": "约880行，解的结构性质反求、公共解同解与代数综合应用。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A04C",
+    "included_sections": [
+      "TB_M1_LA_A04_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_04_01",
+      "SCOPE_M1_LA_04_02"
+    ],
+    "estimated_scope": "强化篇第04章第三部分：练习题严选（填空题、选择题、解答题）及详细参考答案提示与做题进阶三步法。",
+    "notes": "约200行，方程组强化实战题组与解析。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A05A",
+    "included_sections": [
+      "TB_M1_LA_A05_S01",
+      "TB_M1_LA_A05_T01",
+      "TB_M1_LA_A05_T02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_05_01",
+      "SCOPE_M1_LA_05_02"
+    ],
+    "estimated_scope": "强化篇第05章第一部分：特征值相似网络图与理论回顾；题型一数字型与抽象型特征值特征向量求法与性质；题型二矩阵相似必要充分条件判别、可对角化充要条件与含参相似讨论。",
+    "notes": "约1650行，特征值求法与相似对角化核心题型选讲。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A05B",
+    "included_sections": [
+      "TB_M1_LA_A05_T03",
+      "TB_M1_LA_A05_T04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_05_02",
+      "SCOPE_M1_LA_05_01",
+      "SCOPE_M1_LA_03_02"
+    ],
+    "estimated_scope": "强化篇第05章第二部分：题型三用相似对角化求矩阵高次幂A^n与反求矩阵A；题型四实对称矩阵性质考查、重特征值Schmidt正交化、构造正交阵Q化为对角阵规范大题。",
+    "notes": "约540行，相似求幂反求与实对称正交相似对角化综合题。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A05C",
+    "included_sections": [
+      "TB_M1_LA_A05_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_05_01",
+      "SCOPE_M1_LA_05_02"
+    ],
+    "estimated_scope": "强化篇第05章第三部分：练习题严选（填空题、选择题、解答题）及详细参考答案提示与做题进阶三步法。",
+    "notes": "约280行，特征值与相似强化实战题组与解析。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A06A",
+    "included_sections": [
+      "TB_M1_LA_A06_S01",
+      "TB_M1_LA_A06_T01",
+      "TB_M1_LA_A06_T02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_06_01"
+    ],
+    "estimated_scope": "强化篇第06章第一部分：二次型网络图与理论总结；题型一二次型基本概念与矩阵表示；题型二二次型标准形与规范形（配方法、初等变换法、正交变换法与惯性指数）。",
+    "notes": "约1110行，二次型矩阵表示与化标准形解法归纳。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A06B",
+    "included_sections": [
+      "TB_M1_LA_A06_T03",
+      "TB_M1_LA_A06_T04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_06_02",
+      "SCOPE_M1_LA_06_01",
+      "SCOPE_M1_LA_02_03",
+      "SCOPE_M1_LA_05_02"
+    ],
+    "estimated_scope": "强化篇第06章第二部分：题型三二次型与矩阵正定性判别法（顺序主子式、特征值全正、惯性指数）与含参讨论；题型四矩阵等价、相似与合同三大关系的定义充要条件与判定辨析。",
+    "notes": "约610行，正定性充要判别与三大矩阵等价关系横向辨析。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_A06C",
+    "included_sections": [
+      "TB_M1_LA_A06_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_06_01",
+      "SCOPE_M1_LA_06_02"
+    ],
+    "estimated_scope": "强化篇第06章第三部分：练习题严选（填空题、选择题、解答题）及详细参考答案提示与做题进阶三步法。",
+    "notes": "约290行，二次型强化实战题组与解析。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_LA_APP",
+    "included_sections": [
+      "TB_M1_LA_APP_01",
+      "TB_M1_LA_APP_02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_LA_01_02",
+      "SCOPE_M1_LA_02_01",
+      "SCOPE_M1_LA_02_02",
+      "SCOPE_M1_LA_03_01",
+      "SCOPE_M1_LA_04_02",
+      "SCOPE_M1_LA_05_01",
+      "SCOPE_M1_LA_05_02",
+      "SCOPE_M1_LA_06_01",
+      "SCOPE_M1_LA_06_02"
+    ],
+    "estimated_scope": "强化篇附录全课程综合自测集：自测（一）与自测（二）共20道精选考研综合题及详细参考答案与提示（已剔除APP_03图书商业广告）。",
+    "notes": "约240行，作为全课程综合应用测评与跨章节解题能力实战检验批次。"
+  }
+]

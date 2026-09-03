@@ -1,0 +1,890 @@
+[
+  {
+    "textbook_section_id": "TB_M1_CALC_L01_S01",
+    "textbook_section_path": "第01讲 函数极限与连续 > 一、函数的概念与特性",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_01"
+    ],
+    "mapping_basis": "对应讲义一、函数的概念与特性，涵盖函数概念、定义域/值域、单值与多值判断、反函数、复合函数及隐函数，完全契合考纲函数概念与表示法要求。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "涵盖函数形态特性（有界性、单调性、奇偶性、周期性）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L01_S02",
+    "textbook_section_path": "第01讲 函数极限与连续 > 二、函数的图像（基本初等函数、初等函数与分段函数）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_01"
+    ],
+    "mapping_basis": "对应讲义二、函数的图像，包含六类基本初等函数图像性质、初等函数概念及分段函数表示。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "分段函数是考研高数极限与连续性考察的重点函数形态。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L01_S03",
+    "textbook_section_path": "第01讲 函数极限与连续 > 三、函数极限的概念与性质",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_02"
+    ],
+    "mapping_basis": "对应讲义三、函数极限概念与性质，涵盖邻域、函数极限定义（自变量趋近与函数趋近方式）、极限性质（唯一性、局部有界性、局部保号性）、无穷小与无穷大定义、性质及比阶。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "等价无穷小代换是考纲函数极限计算的核心前置知识。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L01_S04",
+    "textbook_section_path": "第01讲 函数极限与连续 > 四、函数极限的计算（四则运算、洛必达法则、泰勒公式与七种未定式）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_02",
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "mapping_basis": "对应讲义四、函数极限计算，详细讲授极限四则运算、等价代换、洛必达法则、泰勒公式展开及七种未定式化简计算。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【跨章工具映射】洛必达法则与泰勒中值定理在考纲中归入一元微分学（SCOPE_M1_CALC_02_02），此处作为计算函数极限的关键工具，同时关联两个 scope。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L01_S05",
+    "textbook_section_path": "第01讲 函数极限与连续 > 五、连续点的定义与间断点的分类",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_03"
+    ],
+    "mapping_basis": "对应讲义连续点的定义与间断点定义及分类，涵盖左连续右连续、第一类间断点（可去、跳跃）与第二类间断点（无穷、振荡）判别。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "直接对应考纲第三小节连续性与间断点分类。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L02_S01",
+    "textbook_section_path": "第02讲 数列极限 > 一、数列极限的概念与收敛数列的性质",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_02"
+    ],
+    "mapping_basis": "对应讲义一、数列概念、数列极限定义、子列敛散性、收敛数列性质（唯一性、有界性、保号性）与极限四则运算法则。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲数列极限基本概念与性质。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L02_S02",
+    "textbook_section_path": "第02讲 数列极限 > 二、数列极限的求解准则与证明方法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_02"
+    ],
+    "mapping_basis": "对应讲义海涅定理（归结原则）、夹逼准则（针对无穷项和）、单调有界准则证明存在性与收敛速度分析。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲明确要求掌握单调有界准则与夹逼准则并会利用它们求极限。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L03_S01",
+    "textbook_section_path": "第03讲 一元函数微分学的概念 > 一、导数的定义与可导性",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_01"
+    ],
+    "mapping_basis": "对应讲义1、导数，包含导数定义、单侧导数、可导与连续的关系、绝对值函数可导性判别。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲一元微分学核心概念。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L03_S02",
+    "textbook_section_path": "第03讲 一元函数微分学的概念 > 二、导数的几何意义",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_01"
+    ],
+    "mapping_basis": "对应讲义2、导数的几何意义，讲解切线方程与法线方程的求法及导数的几何解释。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲明确要求理解导数几何意义并会求平面切线与法线方程。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L03_S03",
+    "textbook_section_path": "第03讲 一元函数微分学的概念 > 三、微分的概念与一元函数可微性",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_01"
+    ],
+    "mapping_basis": "对应讲义4、微分的概念，讲解微分定义、一元函数可微与可导等价性、可微的判别、一阶微分形式不变性。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "导数与微分的关系及概念理解。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L04_S01",
+    "textbook_section_path": "第04讲 一元函数微分学的计算 > 一、基本求导公式与四则运算法则",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_01"
+    ],
+    "mapping_basis": "对应讲义基础公式与四则运算，熟记基本初等函数求导公式，掌握和差积商求导与微分公式。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "一元求导基础计算。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L04_S02",
+    "textbook_section_path": "第04讲 一元函数微分学的计算 > 二、复合函数求导法与微分形式不变性",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_01"
+    ],
+    "mapping_basis": "对应讲义③复合函数的导数与微分形式不变性，链式求导法则（由外向内逐层求导）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "复合函数求导是各类衍生求导的根本法则。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L04_S03",
+    "textbook_section_path": "第04讲 一元函数微分学的计算 > 三、分段函数、反函数与隐函数求导法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_01"
+    ],
+    "mapping_basis": "对应讲义分段函数分界点求导（定义法）、反函数一阶与二阶求导公式、隐函数求导法与方程组求导。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "覆盖考纲分段函数、反函数及隐函数求导要求。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L04_S04",
+    "textbook_section_path": "第04讲 一元函数微分学的计算 > 四、参数方程求导法、对数求导法与幂指函数求导法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_01"
+    ],
+    "mapping_basis": "对应讲义参数方程一阶与二阶导数计算、对数求导法（多项乘积开方求导）与幂指函数求导法。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "覆盖考纲参数方程确定函数求导法要求。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L04_S05",
+    "textbook_section_path": "第04讲 一元函数微分学的计算 > 五、高阶导数的计算",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_01"
+    ],
+    "mapping_basis": "对应讲义10、高阶导数，常用高阶导数公式（归纳法）、泰勒展开法、莱布尼茨乘积求导公式。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "覆盖考纲高阶导数概念与计算。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L05_S01",
+    "textbook_section_path": "第05讲 一元函数微分学的应用（一）—几何应用 > 一、极值与单调性的判别",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "mapping_basis": "对应讲义极值定义、单调性判别、一阶可导极值必要条件（费马引理）、极值第一/第二/第三充分条件。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲单调性与极值考核点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L05_S02",
+    "textbook_section_path": "第05讲 一元函数微分学的应用（一）—几何应用 > 二、凹凸性与拐点的概念及判别",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "mapping_basis": "对应讲义凹凸性定义、拐点定义、二阶可导凹凸性判别、二阶拐点必要条件与充分条件。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲凹凸性与拐点考核点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L05_S03",
+    "textbook_section_path": "第05讲 一元函数微分学的应用（一）—几何应用 > 三、渐近线的求法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "mapping_basis": "对应讲义渐近线，铅直渐近线、水平渐近线与斜渐近线的定义与极限计算求法。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲渐近线与描图要求。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L05_S04",
+    "textbook_section_path": "第05讲 一元函数微分学的应用（一）—几何应用 > 四、最值或取值范围求解",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "mapping_basis": "对应讲义最值定义、闭区间[a,b]上连续函数最值求法、开区间(a,b)上最值与值域分析。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲最大值和最小值求法及简单应用。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L05_S05",
+    "textbook_section_path": "第05讲 一元函数微分学的应用（一）—几何应用 > 五、曲率与曲率半径（仅数学一、数学二）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_03"
+    ],
+    "mapping_basis": "对应讲义九、曲率及曲率半径，曲率概念、弧微分公式、曲率计算公式与曲率半径/曲率圆。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数一独有/数一数二专有考点，完全对齐 SCOPE_M1_CALC_02_03。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L06_S01",
+    "textbook_section_path": "第06讲 一元函数微分学的应用（二）—中值定理、微分等式与微分不等式 > 一、涉及函数的中值定理",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_03",
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "mapping_basis": "对应讲义1、涉及函数的中值定理，包含闭区间连续函数有界性定理、最值定理、介值定理、零点定理与平均值定理。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【跨章连续性定理应用】虽列于微分学中值定理讲次，实质对应闭区间连续函数性质（SCOPE_M1_CALC_01_03）以及作为证明根的前提工具。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L06_S02",
+    "textbook_section_path": "第06讲 一元函数微分学的应用（二）—中值定理、微分等式与微分不等式 > 二、涉及导数（微分）的中值定理",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "mapping_basis": "对应讲义2、涉及导数的中值定理，罗尔定理、拉格朗日中值定理、柯西中值定理与泰勒公式（带佩亚诺余项与拉格朗日余项）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲微分中值定理核心考点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L06_S03",
+    "textbook_section_path": "第06讲 一元函数微分学的应用（二）—中值定理、微分等式与微分不等式 > 三、微分等式（方程根的存在性与唯一性证明）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_02",
+      "SCOPE_M1_CALC_01_03"
+    ],
+    "mapping_basis": "对应讲义微分等式，利用零点定理证明存在性，利用单调性证明唯一性，利用罗尔定理及其推论证明中值等式与导数零点。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "中值定理与导数应用综合题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L06_S04",
+    "textbook_section_path": "第06讲 一元函数微分学的应用（二）—中值定理、微分等式与微分不等式 > 四、微分不等式的证明方法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "mapping_basis": "对应讲义微分不等式，用函数性态（单调性、凹凸性、最值）证明不等式，用中值定理（拉格朗日、柯西）证明不等式，用泰勒公式证明不等式。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "一元导数应用的典型证明方法体系。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L07_S01",
+    "textbook_section_path": "第07讲 一元函数微分学的应用（三）—物理应用与经济应用 > 一、物理应用与相关变化率（仅数学一、数学二）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_01",
+      "SCOPE_M1_CALC_02_02"
+    ],
+    "mapping_basis": "对应讲义物理应用与相关变化率，用导数描述速度、加速度、线密度等物理量，求解相关变化率问题。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "符合数学一考纲中“了解导数的物理意义，会用导数描述物理量”的要求。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L07_S02",
+    "textbook_section_path": "第07讲 一元函数微分学的应用（三）—物理应用与经济应用 > 二、复利与连续复利（仅数学三）",
+    "mapped_scope_ids": [],
+    "mapping_basis": "讲义明确标注（仅数学三），内容为金融复利公式与极限推导连续复利。",
+    "confidence": "high",
+    "scope_status": "out_of_scope_candidate",
+    "notes": "【明确超纲】数学一考试大纲不考复利与连续复利，标注超纲候选，正文抽取时剔除。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L07_S03",
+    "textbook_section_path": "第07讲 一元函数微分学的应用（三）—物理应用与经济应用 > 三、导数的经济应用（仅数学三）",
+    "mapped_scope_ids": [],
+    "mapping_basis": "讲义明确标注（仅数学三），包含成本函数、收益函数、边际成本/收益/利润与需求弹性分析。",
+    "confidence": "high",
+    "scope_status": "out_of_scope_candidate",
+    "notes": "【明确超纲】数学一考试大纲不考经济学概念（边际与弹性），标注超纲候选，正文抽取时剔除。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L08_S01",
+    "textbook_section_path": "第08讲 一元函数积分学的概念与性质 > 一、原函数与不定积分的概念及存在定理",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_01"
+    ],
+    "mapping_basis": "对应讲义原函数与不定积分，原函数概念、不定积分定义、连续函数必有原函数定理、第一类间断点无原函数定理。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲原函数与不定积分核心概念。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L08_S02",
+    "textbook_section_path": "第08讲 一元函数积分学的概念与性质 > 二、定积分的定义、性质与积分中值定理",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_01"
+    ],
+    "mapping_basis": "对应讲义定积分定义（黎曼和极限）、可积充分条件、基本性质（线性、区间可加、保号性）与定积分中值定理。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲定积分概念、基本性质及中值定理。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L08_S03",
+    "textbook_section_path": "第08讲 一元函数积分学的概念与性质 > 三、变限积分函数的概念与性质",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_01"
+    ],
+    "mapping_basis": "对应讲义变限积分，积分上限函数连续性、可导性、被积函数有间断点时的变限积分性态分析。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲理解积分上限的函数并掌握其性质。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L08_S04",
+    "textbook_section_path": "第08讲 一元函数积分学的概念与性质 > 四、反常积分的概念与敛散性判别法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "mapping_basis": "对应讲义反常积分，无穷限反常积分与无界函数反常积分（瑕积分）概念、比较审敛法与极限审敛法、p积分结论。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲反常积分概念与收敛比较判别法。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L09_S01",
+    "textbook_section_path": "第09讲 一元函数积分学的计算 > 一、基本积分公式与不定积分的计算方法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "mapping_basis": "对应讲义基本积分公式、凑微分法（第一类换元法）、第二类换元积分法（根式代换、三角代换）、分部积分法与有理函数积分（多项式除法、拆项待定系数）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲掌握换元积分法、分部积分法与三类常见函数积分。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L09_S02",
+    "textbook_section_path": "第09讲 一元函数积分学的计算 > 二、定积分的计算法与常用化简技巧",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_01",
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "mapping_basis": "对应讲义定积分的计算，牛顿-莱布尼茨公式、定积分换元法（换限不换回）、定积分分部积分法、奇偶性与周期性化简、点火公式（Wallis公式）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "牛顿-莱布尼茨公式在考纲中属 03_01，换元与分部计算法属 03_02。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L09_S03",
+    "textbook_section_path": "第09讲 一元函数积分学的计算 > 三、变限积分的求导与极限计算",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_01",
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "mapping_basis": "对应讲义变限积分的计算，复合上下限变限积分求导公式、变限积分求极限及导数应用。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "变限积分求导是考纲重点计算考核点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L09_S04",
+    "textbook_section_path": "第09讲 一元函数积分学的计算 > 四、反常积分的计算",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "mapping_basis": "对应讲义反常积分的计算，牛顿-莱布尼茨公式推广、反常积分的换元与分部积分计算、伽马函数。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲会计算反常积分的要求。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L10_S01",
+    "textbook_section_path": "第10讲 一元函数积分学的应用（一）—几何应用 > 一、平面图形的面积计算",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_03"
+    ],
+    "mapping_basis": "对应讲义用定积分表达和计算平面图形的面积，涵盖直角坐标系、极坐标系与参数方程三种曲线形式的面积公式。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "定积分几何应用核心题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L10_S02",
+    "textbook_section_path": "第10讲 一元函数积分学的应用（一）—几何应用 > 二、旋转体体积与已知平行截面面积立体体积",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_03"
+    ],
+    "mapping_basis": "对应讲义2、用定积分表达和计算旋转体的体积，绕x轴/y轴旋转体体积公式（切片法与柱壳法）、平行截面面积已知的立体体积积分。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲旋转体体积与已知截面体积要求。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L10_S03",
+    "textbook_section_path": "第10讲 一元函数积分学的应用（一）—几何应用 > 三、函数的平均值计算",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_03"
+    ],
+    "mapping_basis": "对应讲义③用定积分表达和计算函数的平均值，定积分除以区间长度计算连续函数在区间上的算术平均值。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲定积分应用明确要求的函数平均值指标。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L10_S04",
+    "textbook_section_path": "第10讲 一元函数积分学的应用（一）—几何应用 > 四、平面曲线的弧长与旋转曲面侧面积（仅数学一、数学二）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_03"
+    ],
+    "mapping_basis": "对应讲义4、其他几何应用，直角坐标/参数方程/极坐标下平面曲线弧长公式及绕坐标轴旋转所成旋转曲面侧面积公式。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数一数二专属几何应用内容。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L11_S01",
+    "textbook_section_path": "第11讲 一元函数积分学的应用（二）—积分等式与积分不等式 > 一、积分等式的证明方法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_01",
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "mapping_basis": "对应讲义积分等式，用定积分中值定理证明、用夹逼准则证明积分极限、用换元法与分部积分法进行恒等变形证明。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "定积分中值定理与积分技巧综合证明题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L11_S02",
+    "textbook_section_path": "第11讲 一元函数积分学的应用（二）—积分等式与积分不等式 > 二、积分不等式的证明方法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_02_02",
+      "SCOPE_M1_CALC_03_01",
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "mapping_basis": "对应讲义积分不等式，用函数单调性、拉格朗日中值定理、泰勒公式、积分法放缩、牛顿-莱布尼茨公式证明积分不等式。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【跨章综合方法】涉及一元微分中值定理（02_02）与一元积分性质/计算（03_01/02）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L12_S01",
+    "textbook_section_path": "第12讲 一元函数积分学的应用（三）—物理应用与经济应用 > 一、微元法物理应用：功、压力与引力（仅数学一、数学二）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_03"
+    ],
+    "mapping_basis": "对应讲义物理应用，微元法（元素法）建立积分，变力沿直线做功、抽水做功、静水压力（水压力）与万有引力计算。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数学一考纲明确要求的全部物理量计算（功、引力、压力）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L12_S02",
+    "textbook_section_path": "第12讲 一元函数积分学的应用（三）—物理应用与经济应用 > 二、质心与力矩计算、古鲁金第一定理（仅数学一、数学二）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_03_03"
+    ],
+    "mapping_basis": "对应讲义“三心”概念、平面薄板与细棒质心/形心坐标公式、平面面积力矩与古鲁金定理。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数学一考纲明确要求质心与形心计算。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L12_S03",
+    "textbook_section_path": "第12讲 一元函数积分学的应用（三）—物理应用与经济应用 > 三、定积分的经济应用（仅数学三）",
+    "mapped_scope_ids": [],
+    "mapping_basis": "讲义目录与目标中提及经济类题目求解（仅数学三），包含由边际函数积分求总成本/总收益等。",
+    "confidence": "high",
+    "scope_status": "out_of_scope_candidate",
+    "notes": "【明确超纲】数学一考试大纲不包含积分在经济学中的应用，标注超纲候选，正文抽取时剔除。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L13_S01",
+    "textbook_section_path": "第13讲 多元函数微分学 > 一、多元函数基本概念与可微性分析",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_05_01"
+    ],
+    "mapping_basis": "对应讲义基本概念，平面点集邻域、二元极限、二元连续、偏导数定义与计算、全微分定义、可微充分必要条件、可微与连续/偏导的关系。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲多元函数概念与偏导数、全微分核心理论。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L13_S02",
+    "textbook_section_path": "第13讲 多元函数微分学 > 二、多元函数微分法则（链式法则、全微分形式不变性与隐函数求导）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_05_01"
+    ],
+    "mapping_basis": "对应讲义多元函数微分法则，多元复合函数链式求导规则（树状图法）、全微分形式不变性、隐函数存在定理与公式法求导、隐函数方程组求导。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲多元函数偏导数与全微分的核心计算法则。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L13_S03",
+    "textbook_section_path": "第13讲 多元函数微分学 > 三、二元函数泰勒公式与拉格朗日中值定理（仅数学一）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_05_03"
+    ],
+    "mapping_basis": "对应讲义4、二元函数的拉格朗日定理及二元函数二阶泰勒公式（数学一目标明确要求：了解二元函数的二阶泰勒公式）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲归入 SCOPE_M1_CALC_05_03（多元微分学几何应用与极值问题），数一独有考点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L13_S04",
+    "textbook_section_path": "第13讲 多元函数微分学 > 四、多元函数的极值与最值",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_05_03"
+    ],
+    "mapping_basis": "对应讲义多元函数的极值与最值，极值概念、无条件极值必要条件与充分条件（海森矩阵判别式AC-B^2）、条件最值与拉格朗日乘数法、有界闭区域上连续函数的最值求法。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲多元微分学极值与条件最值求解。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L14_S01",
+    "textbook_section_path": "第14讲 二重积分 > 一、二重积分的概念、性质与对称性",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_06_01"
+    ],
+    "mapping_basis": "对应讲义概念、性质与对称性，二重积分几何物理背景、基本性质（线性、比较、中值定理）、普通对称性化简、轮换对称性化简技巧。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲二重积分概念与性质。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L14_S02",
+    "textbook_section_path": "第14讲 二重积分 > 二、二重积分的计算方法（直角坐标与极坐标）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_06_01"
+    ],
+    "mapping_basis": "对应讲义计算，直角坐标系二次积分计算（X型、Y型区域积分次序变换）、极坐标系计算方法、极坐标与直角坐标互相转化、换元法（雅可比行列式）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲二重积分核心计算要求。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L14_S03",
+    "textbook_section_path": "第14讲 二重积分 > 三、平面区域D大观与边界分析",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_06_01"
+    ],
+    "mapping_basis": "对应讲义平面区域D大观，直线边界型、曲线边界型、极坐标方程型与参数方程型区域的建系与拆分技巧。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "二重积分区域几何划分实践能力。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L15_S01",
+    "textbook_section_path": "第15讲 微分方程 > 一、微分方程的基本概念",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_08_01"
+    ],
+    "mapping_basis": "对应讲义微分方程的概念，微分方程及其阶、常微分方程、线性微分方程、解、通解、初始条件与特解。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲常微分方程基础概念。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L15_S02",
+    "textbook_section_path": "第15讲 微分方程 > 二、一阶微分方程的求解方法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_08_01"
+    ],
+    "mapping_basis": "对应讲义一阶微分方程的求解，变量可分离型、齐次型方程、一阶线性微分方程（常数变易法）、伯努利方程（仅数学一）、全微分方程（仅数学一）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "伯努利与全微分方程为数学一考纲明确考点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L15_S03",
+    "textbook_section_path": "第15讲 微分方程 > 三、二阶可降阶微分方程（仅数学一、数学二）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_08_02"
+    ],
+    "mapping_basis": "对应讲义5、二阶可降阶微分方程，用换元法p=y'求解不显含y的方程y''=f(x,y')与不显含x的方程y''=f(y,y')。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数一数二考点，完全对应 SCOPE_M1_CALC_08_02。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L15_S04",
+    "textbook_section_path": "第15讲 微分方程 > 四、高阶常系数线性微分方程与欧拉方程的求解",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_08_03"
+    ],
+    "mapping_basis": "对应讲义高阶线性微分方程的求解，线性方程解的结构定理、二阶常系数齐次线性方程（特征方程法）、二阶常系数非齐次线性方程（待定特解法）、高阶常系数方程、欧拉方程（x=e^t变换，仅数学一）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "欧拉方程为数一独有考点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L15_S05",
+    "textbook_section_path": "第15讲 微分方程 > 五、微分方程的几何应用与物理应用",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_08_03"
+    ],
+    "mapping_basis": "对应讲义四、微分方程的几何应用与五、微分方程的物理应用（牛顿第二定律、冷却定律、变化率建模）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲用微分方程解决简单应用问题。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L15_S06",
+    "textbook_section_path": "第15讲 微分方程 > 六、一阶常系数线性差分方程（仅数学三）",
+    "mapped_scope_ids": [],
+    "mapping_basis": "讲义明确标注（仅数学三），内容为差分定义、一阶常系数线性差分方程通解与特解求解。",
+    "confidence": "high",
+    "scope_status": "out_of_scope_candidate",
+    "notes": "【明确超纲】数学一考试大纲不考差分方程，标注超纲候选，正文抽取时剔除。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L16_S01",
+    "textbook_section_path": "第16讲 无穷级数 > 一、常数项级数的概念与性质",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_07_01"
+    ],
+    "mapping_basis": "对应讲义常数项级数的概念与性质，级数收敛/发散及和的定义、几何级数与p级数敛散性、基本性质（线性、结合律、有限项不改变敛散性）、收敛必要条件lim u_n=0。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "常数项级数基础概念与性质。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L16_S02",
+    "textbook_section_path": "第16讲 无穷级数 > 二、常数项级数敛散性的判别方法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_07_01"
+    ],
+    "mapping_basis": "对应讲义级数敛散性的判别方法，正项级数（比较判别法、比较判别法极限形式、比值法、根值法、积分判别法）、交错级数（莱布尼茨定理及误差估计）、任意项级数（绝对收敛与条件收敛概念及关系）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲常数项级数审敛法完整覆盖。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L16_S03",
+    "textbook_section_path": "第16讲 无穷级数 > 三、幂级数及其收敛域",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_07_02"
+    ],
+    "mapping_basis": "对应讲义幂级数及其收敛域，函数项级数收敛域与和函数概念、阿贝尔定理、收敛半径公式、收敛区间与收敛域求法、抽象型幂级数敛散性判断。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲幂级数收敛半径、收敛区间与收敛域要求。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L16_S04",
+    "textbook_section_path": "第16讲 无穷级数 > 四、幂级数求和函数",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_07_02"
+    ],
+    "mapping_basis": "对应讲义四、幂级数求和函数，和函数分析性质（连续性、逐项求导、逐项积分）、恒等变形、求和函数微积分方程法与裂项法、求数项级数和。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "幂级数和函数是考研大题高频重点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L16_S05",
+    "textbook_section_path": "第16讲 无穷级数 > 五、函数展开成幂级数",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_07_02"
+    ],
+    "mapping_basis": "对应讲义函数展开成幂级数，泰勒级数充要条件、常见5个基本麦克劳林展开式（e^x, sinx, cosx, ln(1+x), (1+x)^a）、直接展开法与间接展开法（代换、逐项求导积分）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲掌握常见麦克劳林展开式并会间接展开简单函数。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L16_S06",
+    "textbook_section_path": "第16讲 无穷级数 > 六、傅里叶级数（仅数学一）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_07_03"
+    ],
+    "mapping_basis": "对应讲义傅里叶级数，周期为2l的函数展开为傅里叶级数、狄利克雷收敛定理、正弦级数与余弦级数展开、[0,l]上奇偶延拓展开与和函数连续点/间断点收敛值。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数一独有考点，完全对应 SCOPE_M1_CALC_07_03。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L17_S01",
+    "textbook_section_path": "第17讲 多元函数积分学的预备知识（仅数学一） > 一、空间向量代数基础",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_04_01"
+    ],
+    "mapping_basis": "对应讲义向量及其表达形式、向量运算（加减、数乘、数量积、向量积、混合积）与几何应用、方向角与方向余弦、坐标表示运算律。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数一独有考点，对齐考纲第4章第1节（SCOPE_M1_CALC_04_01）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L17_S02",
+    "textbook_section_path": "第17讲 多元函数积分学的预备知识（仅数学一） > 二、空间平面与直线方程及空间几何关系",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_04_02"
+    ],
+    "mapping_basis": "对应讲义空间平面与直线，点法式/一般式/截距式平面方程、点向式/参数式/一般式直线方程、夹角与位置关系（平行、垂直、相交）、点到直线与点到平面距离公式。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数一独有考点，对齐考纲第4章第2节（SCOPE_M1_CALC_04_02）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L17_S03",
+    "textbook_section_path": "第17讲 多元函数积分学的预备知识（仅数学一） > 三、空间曲线与空间曲面及二次曲面",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_04_03"
+    ],
+    "mapping_basis": "对应讲义空间曲线与曲面，一般方程与参数方程、空间曲线在坐标平面投影、柱面与旋转曲面、常见二次曲面图形特征。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数一独有考点，对齐考纲第4章第3节（SCOPE_M1_CALC_04_03）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L17_S04",
+    "textbook_section_path": "第17讲 多元函数积分学的预备知识（仅数学一） > 四、多元函数微分学的几何应用（空间曲线切线法平面与曲面切平面法线）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_05_03"
+    ],
+    "mapping_basis": "对应讲义四、多元函数微分学的几何应用，空间曲线的切线与法平面方程求法、空间曲面的切平面与法线方程求法。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【跨章结构兼容】教材作为多元积分预备知识列入第17讲，考纲将其列入第5章多元微分学几何应用（SCOPE_M1_CALC_05_03）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L17_S05",
+    "textbook_section_path": "第17讲 多元函数积分学的预备知识（仅数学一） > 五、场论初步（方向导数、梯度、散度与旋度）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_05_02",
+      "SCOPE_M1_CALC_06_03"
+    ],
+    "mapping_basis": "对应讲义场论初步，方向导数定义与计算、梯度向量及其几何意义（归入 SCOPE_M1_CALC_05_02）；散度与旋度的概念及向量算子运算法则（归入 SCOPE_M1_CALC_06_03）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【多对多跨章映射】方向导数与梯度在考纲属多元微分学（05_02），散度与旋度在考纲属多元积分学高斯与斯托克斯公式（06_03）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L18_S01",
+    "textbook_section_path": "第18讲 多元函数积分学（仅数学一） > 一、三重积分的概念、性质、对称性与计算",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_06_01",
+      "SCOPE_M1_CALC_06_03"
+    ],
+    "mapping_basis": "对应讲义三重积分，定义、性质、普通与轮换对称性化简、直角坐标系计算（先一后二投影法、先二后一截面法）、柱面坐标与球面坐标系计算、空间立体的体积/质量/质心物理应用。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "重积分计算属 SCOPE_M1_CALC_06_01，物理几何应用对应 SCOPE_M1_CALC_06_03。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L18_S02",
+    "textbook_section_path": "第18讲 多元函数积分学（仅数学一） > 二、第一型曲线积分（对弧长的曲线积分）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_06_02",
+      "SCOPE_M1_CALC_06_03"
+    ],
+    "mapping_basis": "对应讲义第一型曲线积分，概念、性质、普通与轮换对称性、参数化计算法（ds投影代换）、平面曲线弧长与线质量几何物理应用。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "曲线积分概念与计算属 06_02，几何物理应用指标属 06_03。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L18_S03",
+    "textbook_section_path": "第18讲 多元函数积分学（仅数学一） > 三、第一型曲面积分（对面积的曲面积分）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_06_03"
+    ],
+    "mapping_basis": "对应讲义第一型曲面积分，概念、性质、普通与轮换对称性、投影计算法（dS面积微元转化）、曲面面积与面质量应用。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数一独有考点，完全归入 SCOPE_M1_CALC_06_03。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L18_S04",
+    "textbook_section_path": "第18讲 多元函数积分学（仅数学一） > 四、第二型曲线积分（对坐标的曲线积分与格林公式）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_06_02"
+    ],
+    "mapping_basis": "对应讲义变力沿曲线做功背景、第二型曲线积分定义性质、参数化计算、格林公式、积分与路径无关的四个等价条件、求二元全微分原函数。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数一核心大题考点，完全对应 SCOPE_M1_CALC_06_02。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_L18_S05",
+    "textbook_section_path": "第18讲 多元函数积分学（仅数学一） > 五、第二型曲面积分与空间第二型曲线积分（高斯公式与斯托克斯公式）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_06_03"
+    ],
+    "mapping_basis": "对应讲义向量场通量背景、第二型曲面积分概念性质、直接投影计算法、高斯公式（闭曲面散度通量定理）、斯托克斯公式（空间曲线积分化曲面积分环量定理）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数一独有核心压轴考点，完全对应 SCOPE_M1_CALC_06_03。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_APP_01",
+    "textbook_section_path": "附录1 图像变换 > 平移变换、对称变换与伸缩变换",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_01"
+    ],
+    "mapping_basis": "包含函数图像沿坐标轴平移、对称、伸缩变换规则，辅助初等函数作图与图形理解。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "初等函数图形预备支撑工具，非独立大纲知识点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_APP_02",
+    "textbook_section_path": "附录2 常用平面图形 > 心形线、双纽线、阿基米德螺线等常见曲线",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_01",
+      "SCOPE_M1_CALC_03_03",
+      "SCOPE_M1_CALC_06_01"
+    ],
+    "mapping_basis": "收录考研高频平面曲线（心形线、双纽线、螺线、星形线、摆线等）的直角坐标/极坐标/参数方程与标准图像，直接用于定积分与二重积分计算中的区域与弧长表达。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "积分学几何应用与重积分计算的高频几何载体。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_APP_03",
+    "textbook_section_path": "附录3 常用空间图形 > 常见空间二次曲面与柱面立体图形",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_04_03"
+    ],
+    "mapping_basis": "展示空间二次曲面（球面、椭球面、单叶/双叶双曲面、圆锥面、旋转抛物面、双曲抛物面、柱面）标准方程与空间几何图形。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "完全对应考纲 SCOPE_M1_CALC_04_03（空间曲面、空间曲线与二次曲面）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_APP_04",
+    "textbook_section_path": "附录4 重要公式 > 三角函数常用公式、二次方程、因式分解与阶乘",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_01",
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "mapping_basis": "收录三角函数诱导公式、倍角公式、和差化积/积化和差、因式分解、双阶乘等微积分运算底座公式。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "初等代数与初等函数基础工具，微积分运算不可或缺的前置工具集。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_APP_05",
+    "textbook_section_path": "附录5 从指数函数到双曲函数 > 指数函数延伸与双曲函数定义及性质",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_01",
+      "SCOPE_M1_CALC_02_01"
+    ],
+    "mapping_basis": "讲解双曲正弦sinh、双曲余弦cosh等定义、性质、反双曲函数及求导积分关系。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "初等函数拓展背景，作为积分代换的辅助理解素材。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_APP_06_01",
+    "textbook_section_path": "附录6 变形技巧 > 等式变形、等价变形与不等式放缩技巧",
+    "mapped_scope_ids": [
+      "SCOPE_M1_CALC_01_02",
+      "SCOPE_M1_CALC_02_02",
+      "SCOPE_M1_CALC_03_02"
+    ],
+    "mapping_basis": "微积分证明与计算的核心数学解题技巧（定义法回归、变量代换、辅助函数构造、均值不等式放缩等）。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "解题方法与数学思维技巧，跨极限、导数与积分证明题。"
+  },
+  {
+    "textbook_section_id": "TB_M1_CALC_APP_06_02",
+    "textbook_section_path": "附录6 变形技巧 > 领书活动页面（活动时间、规则、奖品与兑奖入口）",
+    "mapped_scope_ids": [],
+    "mapping_basis": "教材末尾印刷的新书领书促销活动说明，包含活动规则与扫码指引。",
+    "confidence": "high",
+    "scope_status": "out_of_scope_candidate",
+    "notes": "【明确超纲】非学术内容，商业图书推广营销页面，正文抽取时绝对过滤。"
+  }
+]

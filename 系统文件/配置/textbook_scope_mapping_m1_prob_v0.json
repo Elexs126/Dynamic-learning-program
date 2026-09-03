@@ -1,0 +1,637 @@
+[
+  {
+    "textbook_section_id": "TB_M1_PROB_B01_S01",
+    "textbook_section_path": "基础篇 > 第一章 随机事件和概率 > 一、两个基本原理与二、排列、组合",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_02"
+    ],
+    "mapping_basis": "对应教材加法原理、乘法原理、排列与组合定义及公式，属于计算古典概型事件数目的核心计数工具。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "基础计数与排列组合原理，是古典概型（SCOPE_M1_PROB_01_02）必备支撑工具。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B01_S02",
+    "textbook_section_path": "基础篇 > 第一章 随机事件和概率 > 三、随机试验与四、样本空间及五、随机事件",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_01"
+    ],
+    "mapping_basis": "对应教材随机试验定义、样本空间概念及随机事件与基本事件定义，完全对齐考纲事件基本概念要求。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "样本空间与随机事件基础定义。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B01_S03",
+    "textbook_section_path": "基础篇 > 第一章 随机事件和概率 > 六、随机事件的关系与七、随机事件的运算律",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_01"
+    ],
+    "mapping_basis": "对应教材事件的包含、相等、和事件、积事件、差事件、互斥与对立关系，以及交换律、结合律、分配律、德·摩根对偶律。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "随机事件集合运算与德摩根定律是考纲第一节的核心考核点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B01_S04",
+    "textbook_section_path": "基础篇 > 第一章 随机事件和概率 > 八、古典概型与几何概型",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_02"
+    ],
+    "mapping_basis": "对应教材古典概型（有限等可能）与几何概型（几何度量比）的定义、计算公式与典型例题分析。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考纲明确要求“会计算古典概率和几何型概率”。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B01_S05",
+    "textbook_section_path": "基础篇 > 第一章 随机事件和概率 > 九、概率的公理化定义与性质",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_02"
+    ],
+    "mapping_basis": "对应教材概率公理化定义（非负性、规范性、可数可加性）与基本性质（不可能事件概率、有限可加性、单调性、减法公式、加法公式等）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲“理解概率的概念，掌握概率的基本性质”。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B01_S06",
+    "textbook_section_path": "基础篇 > 第一章 随机事件和概率 > 十、条件概率及其性质与乘法公式",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "mapping_basis": "对应教材条件概率定义、性质（非负、规范、加法性）、逆事件条件概率公式及两事件/多事件概率乘法公式。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲“理解条件概率的概念，掌握概率的乘法公式”。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B01_S07",
+    "textbook_section_path": "基础篇 > 第一章 随机事件和概率 > 十一、全概率公式与贝叶斯公式",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "mapping_basis": "对应教材完备事件组、全概率公式的推导与本质（先验划分）、贝叶斯公式推导（后验概率更新）及典型应用场景。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲“掌握全概率公式以及贝叶斯公式”。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B01_S08",
+    "textbook_section_path": "基础篇 > 第一章 随机事件和概率 > 十二、事件的独立性",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "mapping_basis": "对应教材两事件独立的定义、等价说法与性质，以及三个事件两两独立与相互独立的关系和多个事件相互独立结论。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲“理解事件独立性的概念，掌握用事件独立性进行概率计算的方法”。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B01_S09",
+    "textbook_section_path": "基础篇 > 第一章 随机事件和概率 > 十三、n重伯努利概型及概率计算",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "mapping_basis": "对应教材伯努利试验、n重伯努利试验定义与二项概率计算公式。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲“理解独立重复试验（伯努利试验）的概念，掌握计算有关事件概率的方法”。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B02_S01",
+    "textbook_section_path": "基础篇 > 第二章 一维随机变量及其分布 > 一、随机变量的概念与分类及二、随机变量的分布函数",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_02_01"
+    ],
+    "mapping_basis": "对应教材随机变量定义与分类、分布函数F(x)=P{X<=x}定义、利用分布函数求区间概率及分布函数三大基本性质（有界单调右连续）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲分布函数基本概念与性质。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B02_S02",
+    "textbook_section_path": "基础篇 > 第二章 一维随机变量及其分布 > 三、一维离散型随机变量及其分布与五大离散分布及泊松定理",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_02_01"
+    ],
+    "mapping_basis": "对应教材一维离散型定义、分布律、分布函数以及0-1分布、二项分布、几何分布、超几何分布、泊松分布与泊松近似定理。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "完整覆盖考纲离散型随机变量及其5大常见分布与泊松定理。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B02_S03",
+    "textbook_section_path": "基础篇 > 第二章 一维随机变量及其分布 > 四、一维连续型随机变量及其分布与三大连续分布及标准化",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_02_02"
+    ],
+    "mapping_basis": "对应教材连续型随机变量定义、概率密度性质（非负积分为1、单点概率为0）、均匀分布、指数分布（无记忆性）、正态分布性质、标准正态及上alpha分位数与标准化公式。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "完整覆盖考纲连续型随机变量、概率密度、三大连续分布与正态查表。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B02_S04",
+    "textbook_section_path": "基础篇 > 第二章 一维随机变量及其分布 > 五、一维随机变量函数的分布",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_02_03"
+    ],
+    "mapping_basis": "对应教材一维离散型随机变量函数分布律求法（函数值合并）与一维连续型随机变量函数分布求法（分布函数法先求F后求导、严格单调导数公式法）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲一维随机变量函数的分布求法。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B03_S01",
+    "textbook_section_path": "基础篇 > 第三章 多维随机变量及其分布 > 一、二维随机变量概念与二、联合分布函数及三、边缘分布函数与四、独立性",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_03_01",
+      "SCOPE_M1_PROB_03_02"
+    ],
+    "mapping_basis": "对应教材二维随机变量定义、联合分布函数定义与性质、边缘分布函数极限性质以及随机变量X与Y相互独立性的概念定义。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "联合分布函数性质与独立性定义同时关联 03_01 与 03_02。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B03_S02",
+    "textbook_section_path": "基础篇 > 第三章 多维随机变量及其分布 > 五、二维离散型随机变量及其概率分布",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_03_01",
+      "SCOPE_M1_PROB_03_02",
+      "SCOPE_M1_PROB_03_03"
+    ],
+    "mapping_basis": "对应教材二维离散型联合分布律表格、边缘分布律（行和列和）、条件分布律、两离散变量相互独立充要条件（乘积分解）与离散型变量函数分布求法。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "离散联合/边缘/条件属于 03_01，独立性属于 03_02，两离散变量函数分布属于 03_03。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B03_S03",
+    "textbook_section_path": "基础篇 > 第三章 多维随机变量及其分布 > 六、二维连续型随机变量及其分布",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_03_01",
+      "SCOPE_M1_PROB_03_02"
+    ],
+    "mapping_basis": "对应教材二维连续型联合概率密度性质（双重积分求概率）、边缘概率密度（积分消元）、条件概率密度定义与两连续变量相互独立的充要条件（密度乘积分解）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "二维连续密度与条件密度属于 03_01，连续独立性判定属于 03_02。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B03_S04",
+    "textbook_section_path": "基础篇 > 第三章 多维随机变量及其分布 > 七、两个常见的二维连续型分布",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_03_02"
+    ],
+    "mapping_basis": "对应教材二维均匀分布（区域面积比）与二维正态分布概率密度、边缘分布正态性、独立与不相关等价性及参数几何意义。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲二维均匀分布与二维正态分布。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B03_S05",
+    "textbook_section_path": "基础篇 > 第三章 多维随机变量及其分布 > 八、两个连续型随机变量函数的分布",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_03_03"
+    ],
+    "mapping_basis": "对应教材分布函数法、两个连续变量和的卷积公式（含积分限确定技巧）、线性组合、乘积/商卷积公式，以及相互独立极值分布（最大值与最小值分布乘积公式）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲二维函数分布核心计算方法（卷积公式与极值分布）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B03_S06",
+    "textbook_section_path": "基础篇 > 第三章 多维随机变量及其分布 > 九、一个离散型与一个连续型随机变量函数的分布",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_03_03",
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "mapping_basis": "对应教材离散型与连续型混合随机变量函数的分布，运用全概率公式将连续条件转化为条件概率积分求解。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【跨章综合】考查多维函数分布（03_03），核心工具为全概率公式（01_03）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B04_S01",
+    "textbook_section_path": "基础篇 > 第四章 数字特征 > 一、离散型与二、连续型随机变量数学期望及三、数学期望性质",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_04_01"
+    ],
+    "mapping_basis": "对应教材离散/连续期望定义（绝对收敛性）、一维与二维随机变量函数的期望公式（LOTUS）、期望线性性质及独立变量乘积期望性质。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲数学期望定义、计算公式与性质。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B04_S02",
+    "textbook_section_path": "基础篇 > 第四章 数字特征 > 四、随机变量的方差与性质及常见分布方差",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_04_01"
+    ],
+    "mapping_basis": "对应教材方差与标准差定义、方差常用计算公式D(X)=E(X^2)-[E(X)]^2、方差运算性质（线性常数提取、独立和方差）、标准化变量及常用离散/连续分布的期望与方差表。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲方差概念、计算性质及常见分布数字特征。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B04_S03",
+    "textbook_section_path": "基础篇 > 第四章 数字特征 > 五、随机变量的矩",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_04_02"
+    ],
+    "mapping_basis": "对应教材k阶原点矩、k阶中心矩与k+l阶混合中心矩的定义与概念。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲矩的概念。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B04_S04",
+    "textbook_section_path": "基础篇 > 第四章 数字特征 > 六、协方差与七、相关系数及不相关性",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_04_02"
+    ],
+    "mapping_basis": "对应教材协方差定义、计算公式Cov(X,Y)=E(XY)-E(X)E(Y)、运算性质，相关系数定义与范围[-1,1]，以及随机变量不相关的定义、等价说法与相互独立关系辨析。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲协方差、相关系数及不相关与独立关系。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B05_S01",
+    "textbook_section_path": "基础篇 > 第五章 大数定律和中心极限定理 > 一、切比雪夫不等式与二、依概率收敛及三、大数定律",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_04_02",
+      "SCOPE_M1_PROB_05_01"
+    ],
+    "mapping_basis": "对应教材切比雪夫不等式条件与结论、依概率收敛定义、切比雪夫大数定律（方差一致有界）、独立同分布切比雪夫大数定律、辛钦大数定律（独立同分布期望存在）与伯努利大数定律。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "切比雪夫不等式大纲列于第4章数字特征（04_02），此处作为大数定律（05_01）的前提工具并列映射。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B05_S02",
+    "textbook_section_path": "基础篇 > 第五章 大数定律和中心极限定理 > 四、中心极限定理",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_05_02"
+    ],
+    "mapping_basis": "对应教材列维-林德伯格中心极限定理（独立同分布规范化渐近正态）与棣莫弗-拉普拉斯中心极限定理（二项分布正态近似）及其应用计算。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲两大中心极限定理及其正态近似概率计算。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B06_S01",
+    "textbook_section_path": "基础篇 > 第六章 数理统计的基本概念 > 一、样本联合分布（联合分布函数/密度）与二、统计量",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_06_01"
+    ],
+    "mapping_basis": "对应教材总体与简单随机样本概念、样本联合分布函数与密度函数、统计量定义、样本均值、样本方差（分母n-1）及样本k阶原点矩/中心矩的计算与数字特征。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲数理统计第一节总体、样本与统计量。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B06_S02",
+    "textbook_section_path": "基础篇 > 第六章 数理统计的基本概念 > 一、(三)样本的经验分布函数(数三)",
+    "mapped_scope_ids": [],
+    "mapping_basis": "教材明确标注为“(数三)”考点，讲解经验分布函数定义及其方差计算。",
+    "confidence": "high",
+    "scope_status": "out_of_scope_candidate",
+    "notes": "【明确超纲】数学一考试大纲不含经验分布函数（仅数学三考纲要求），后续正文抽取时剔除。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B06_S03",
+    "textbook_section_path": "基础篇 > 第六章 数理统计的基本概念 > 三、三大分布",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_06_02"
+    ],
+    "mapping_basis": "对应教材卡方分布、t分布、F分布的典型构造模式（标准正态平方和等）、性质、期望方差、上alpha分位数定义及查表互换性质。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲三大抽样分布概念、性质与分位数。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B06_S04",
+    "textbook_section_path": "基础篇 > 第六章 数理统计的基本概念 > 四、正态总体抽样分布",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_06_02"
+    ],
+    "mapping_basis": "对应教材单正态总体的样本均值分布、样本方差分布、均值与方差独立性定理（定理一至三），以及双正态总体均值差与方差比的抽样分布定理（定理四）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲正态总体的常用抽样分布四大定理。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B07_S01",
+    "textbook_section_path": "基础篇 > 第七章 参数估计与假设检验 > 一、点估计的概念与二、点估计的方法",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_07_01"
+    ],
+    "mapping_basis": "对应教材点估计、估计量与估计值概念，矩估计法（一阶矩与二阶矩方程组构建），以及最大似然估计法（离散型乘积、连续型联合密度、取对数求驻点/端点值）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲点估计两大方法（矩估计与最大似然估计）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B07_S02",
+    "textbook_section_path": "基础篇 > 第七章 参数估计与假设检验 > 三、估计量的评选标准(数一)",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_07_01"
+    ],
+    "mapping_basis": "对应教材估计量无偏性、有效性（方差一致最小）与一致性（相合性）的概念定义及验证无偏性的方法。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数学一专有考点，完全对应考纲 SCOPE_M1_PROB_07_01 评价标准部分。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B07_S03",
+    "textbook_section_path": "基础篇 > 第七章 参数估计与假设检验 > 四、置信区间(数一)",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_07_02"
+    ],
+    "mapping_basis": "对应教材置信区间定义（置信水平1-alpha）、单正态总体均值（方差已知与未知）及方差（均值未知）的置信区间，以及双正态总体均值差与方差比置信区间。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数学一专有考点，完全对应考纲 SCOPE_M1_PROB_07_02 区间估计。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_B07_S04",
+    "textbook_section_path": "基础篇 > 第七章 参数估计与假设检验 > 五、假设检验(数一)",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_08_01"
+    ],
+    "mapping_basis": "对应教材两类错误（第一类弃真、第二类纳伪）、显著性检验思想（小概率原理反证法）、检验步骤与单正态总体均值与方差假设检验列表。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【解构归位】教材合并于第7章，考纲中独立为第8章假设检验（SCOPE_M1_PROB_08_01），数学一专有考点。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A01_T01",
+    "textbook_section_path": "强化篇 > 第一章 随机事件和概率 > 【题型一事件的关系与运算】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_01"
+    ],
+    "mapping_basis": "对应强化篇事件包含、互斥、对立关系化简与德摩根定律运算题型。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "事件关系运算强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A01_T02",
+    "textbook_section_path": "强化篇 > 第一章 随机事件和概率 > 【题型二概率的性质】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_02"
+    ],
+    "mapping_basis": "对应强化篇概率加法公式、减法公式、逆事件概率、单调性与概率放缩不等式题型。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "概率基本性质综合题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A01_T03",
+    "textbook_section_path": "强化篇 > 第一章 随机事件和概率 > 【题型三计算事件的概率】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_02",
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "mapping_basis": "对应强化篇古典概型、几何概型、概率五大公式（乘法、全概、贝叶斯）、条件概率与事件独立性综合求解。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "涵盖概型（01_02）与条件全概独立性（01_03）综合考研题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A01_T04",
+    "textbook_section_path": "强化篇 > 第一章 随机事件和概率 > 【题型四伯努利概型】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "mapping_basis": "对应强化篇n重伯努利试验判定与二项概率公式计算典型例题。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "伯努利试验强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A02_T01",
+    "textbook_section_path": "强化篇 > 第二章 一维随机变量及其分布 > 【题型一分布函数的概念与性质】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_02_01"
+    ],
+    "mapping_basis": "对应强化篇分布函数定义检验、求单点与区间概率、分布函数三大基本性质分析。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "分布函数概念性质强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A02_T02",
+    "textbook_section_path": "强化篇 > 第二章 一维随机变量及其分布 > 【题型二一维离散型随机变量及其分布】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_02_01"
+    ],
+    "mapping_basis": "对应强化篇离散型分布律构建、二项/泊松/几何/超几何分布应用与泊松定理近似求解。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "离散分布强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A02_T03",
+    "textbook_section_path": "强化篇 > 第二章 一维随机变量及其分布 > 【题型三一维连续型随机变量及其分布】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_02_02"
+    ],
+    "mapping_basis": "对应强化篇连续型概率密度性质、均匀分布、指数分布无记忆性计算、正态分布对称性与标准化查表。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "连续型及三大分布强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A02_T04",
+    "textbook_section_path": "强化篇 > 第二章 一维随机变量及其分布 > 【题型四一维随机变量函数的分布】与【题型五 计算随机变量的分布】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_02_03"
+    ],
+    "mapping_basis": "对应强化篇连续型变量函数分布的公式法与分布函数法、分段函数分布与离散连续混合分布计算。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "一维函数分布计算强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A03_T01",
+    "textbook_section_path": "强化篇 > 第三章 多维随机变量及其分布 > 【题型一二维离散型随机变量及其分布】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_03_01",
+      "SCOPE_M1_PROB_03_02",
+      "SCOPE_M1_PROB_03_03"
+    ],
+    "mapping_basis": "对应强化篇二维离散联合分布律、边缘分布律、条件分布律、独立性判别与离散变量函数分布计算。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "涵盖离散联合条件（03_01）、独立性（03_02）与离散函数（03_03）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A03_T02",
+    "textbook_section_path": "强化篇 > 第三章 多维随机变量及其分布 > 【题型二二维连续型随机变量及其分布】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_03_01",
+      "SCOPE_M1_PROB_03_02"
+    ],
+    "mapping_basis": "对应强化篇连续联合密度性质（重积分求概率）、边缘密度、条件密度、连续独立性判定、二维均匀分布与二维正态分布综合题型。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "涵盖连续联合边缘条件（03_01）与独立性及二维常见分布（03_02）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A03_T03",
+    "textbook_section_path": "强化篇 > 第三章 多维随机变量及其分布 > 【题型三两个连续型随机变量函数的分布】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_03_03"
+    ],
+    "mapping_basis": "对应强化篇分布函数法求连续函数分布、和/差/积/商卷积公式积分限确定、最大值与最小值独立极值分布公式及应用。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "多维连续函数分布核心考点强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A03_T04",
+    "textbook_section_path": "强化篇 > 第三章 多维随机变量及其分布 > 【题型四一个离散型与一个连续型随机变量函数的分布】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_03_03",
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "mapping_basis": "对应强化篇离散与连续混合随机变量函数的分布，运用全概率公式将连续条件转化为条件概率积分求解。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "考查多维函数分布（03_03），核心工具为全概率公式（01_03）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A04_T01",
+    "textbook_section_path": "强化篇 > 第四章 数字特征 > 【题型一计算随机变量的期望与方差】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_04_01"
+    ],
+    "mapping_basis": "对应强化篇离散型与连续型期望方差计算、一维/二维函数期望(LOTUS)、期望方差运算性质及常见分布期望方差综合题型。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "期望与方差强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A04_T02",
+    "textbook_section_path": "强化篇 > 第四章 数字特征 > 【题型二计算协方差与相关系数】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_04_02"
+    ],
+    "mapping_basis": "对应强化篇协方差计算与性质、相关系数计算与性质、不相关等价条件及不相关与相互独立关系辨析。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "协方差与相关系数强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A05_T01",
+    "textbook_section_path": "强化篇 > 第五章 大数定律和中心极限定理 > 【题型一切比雪夫不等式】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_04_02",
+      "SCOPE_M1_PROB_05_01"
+    ],
+    "mapping_basis": "对应强化篇切比雪夫不等式直接放缩、未知分布概率界估计与期望方差结合题型。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "关联数字特征（04_02）与极限定理工具（05_01）。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A05_T02",
+    "textbook_section_path": "强化篇 > 第五章 大数定律和中心极限定理 > 【题型二大数定律】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_05_01"
+    ],
+    "mapping_basis": "对应强化篇依概率收敛定义、四大定律适用条件判别（切比雪夫、辛钦、伯努利）及极限计算。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "大数定律强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A05_T03",
+    "textbook_section_path": "强化篇 > 第五章 大数定律和中心极限定理 > 【题型三 中心极限定理】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_05_02"
+    ],
+    "mapping_basis": "对应强化篇列维-林德伯格定理与棣莫弗-拉普拉斯定理正态近似概率计算与连续性修正。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "中心极限定理强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A06_T01",
+    "textbook_section_path": "强化篇 > 第六章 数理统计的基本概念 > 基础知识回顾与【题型一计算统计量数字特征】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_06_01"
+    ],
+    "mapping_basis": "对应强化篇总体、样本、统计量概念，样本均值/样本方差/样本矩的数学期望与方差计算。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "统计量及其数字特征强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A06_T02",
+    "textbook_section_path": "强化篇 > 第六章 数理统计的基本概念 > 【题型二三大分布】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_06_02"
+    ],
+    "mapping_basis": "对应强化篇卡方分布、t分布、F分布的变量模式构造、自由度推导、正态总体抽样定理与上侧分位数查表。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "三大抽样分布强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A07_T01",
+    "textbook_section_path": "强化篇 > 第七章 参数估计与假设检验 > 【题型一矩估计与最大似然估计】",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_07_01"
+    ],
+    "mapping_basis": "对应强化篇矩估计方程组构建求解与最大似然估计（对数求导驻点法与不可导边界最值法）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "点估计两大方法强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A07_T02",
+    "textbook_section_path": "强化篇 > 第七章 参数估计与假设检验 > 【题型二估计量的评选标准】（数一)",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_07_01"
+    ],
+    "mapping_basis": "对应强化篇估计量无偏性证明、有效性比较（方差比较）与一致性（大数定律收敛）判别。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数学一专有，评选标准强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A07_T03",
+    "textbook_section_path": "强化篇 > 第七章 参数估计与假设检验 > 【题型三区间估计】（数一）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_07_02"
+    ],
+    "mapping_basis": "对应强化篇单正态总体均值与方差置信区间、双正态总体均值差与方差比置信区间枢轴量法与查表计算。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "数学一专有，区间估计强化题型。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A07_T04",
+    "textbook_section_path": "强化篇 > 第七章 参数估计与假设检验 > 【题型四假设检验】（数一）",
+    "mapped_scope_ids": [
+      "SCOPE_M1_PROB_08_01"
+    ],
+    "mapping_basis": "对应强化篇假设检验实际推断原理、两类错误概率、显著性检验步骤与单正态总体均值/方差假设检验拒绝域求解。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【解构归位】教材合并于第7章，考纲中属于独立第8章假设检验（SCOPE_M1_PROB_08_01），数学一专有。"
+  },
+  {
+    "textbook_section_id": "TB_M1_PROB_A07_T05",
+    "textbook_section_path": "强化篇 > 第七章 参数估计与假设检验 > 辅导讲义尾部图书推荐与营销广告",
+    "mapped_scope_ids": [],
+    "mapping_basis": "对应辅导讲义尾部图书配套宣传（《基础700题》、课程二维码与系列丛书推荐列表），无考试教学内容。",
+    "confidence": "high",
+    "scope_status": "out_of_scope_candidate",
+    "notes": "【明确超纲】商业图书推广与广告页面，后续正文抽取时剔除。"
+  }
+]

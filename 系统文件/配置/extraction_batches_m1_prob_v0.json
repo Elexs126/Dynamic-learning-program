@@ -1,0 +1,376 @@
+[
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B01A",
+    "included_sections": [
+      "TB_M1_PROB_B01_S01",
+      "TB_M1_PROB_B01_S02",
+      "TB_M1_PROB_B01_S03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_01_01",
+      "SCOPE_M1_PROB_01_02"
+    ],
+    "estimated_scope": "基础篇第01章第一部分：加法/乘法原理、排列组合计数工具，随机试验、样本空间、随机事件概念及事件关系与德摩根运算律。",
+    "notes": "约230行，涵盖事件概念及集合运算基础。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B01B",
+    "included_sections": [
+      "TB_M1_PROB_B01_S04",
+      "TB_M1_PROB_B01_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_01_02"
+    ],
+    "estimated_scope": "基础篇第01章第二部分：古典概型、几何概型计算方法，概率公理化定义与基本性质（加法公式、减法公式等）。",
+    "notes": "约290行，聚焦概型计算与概率基本性质。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B01C",
+    "included_sections": [
+      "TB_M1_PROB_B01_S06",
+      "TB_M1_PROB_B01_S07"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "estimated_scope": "基础篇第01章第三部分：条件概率概念与性质、乘法公式、完备事件组、全概率公式与贝叶斯公式推导及应用。",
+    "notes": "约210行，涵盖条件概率与先验后验概率更新。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B01D",
+    "included_sections": [
+      "TB_M1_PROB_B01_S08",
+      "TB_M1_PROB_B01_S09"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "estimated_scope": "基础篇第01章第四部分：两个事件独立性、三个事件两两独立与相互独立、n重伯努利试验定义及二项概率计算。",
+    "notes": "约220行，涵盖独立性判定与伯努利概型。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B02A",
+    "included_sections": [
+      "TB_M1_PROB_B02_S01",
+      "TB_M1_PROB_B02_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_02_01"
+    ],
+    "estimated_scope": "基础篇第02章前半部分：随机变量概念与分类、分布函数性质，一维离散型随机变量分布律、常见离散分布（0-1/二项/几何/超几何/泊松）及泊松定理。",
+    "notes": "约370行，覆盖离散型随机变量及其分布。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B02B",
+    "included_sections": [
+      "TB_M1_PROB_B02_S03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_02_02"
+    ],
+    "estimated_scope": "基础篇第02章中段：一维连续型随机变量、概率密度性质，三大常见连续分布（均匀、指数、正态分布）、标准正态及上alpha分位数与标准化计算。",
+    "notes": "约440行，篇幅适中，专属连续型三大常见分布。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B02C",
+    "included_sections": [
+      "TB_M1_PROB_B02_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_02_03"
+    ],
+    "estimated_scope": "基础篇第02章后半部分：一维随机变量函数的分布（离散型函数分布律合并与连续型求导公式法/分布函数法）。",
+    "notes": "约100行，聚焦一维函数分布计算。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B03A",
+    "included_sections": [
+      "TB_M1_PROB_B03_S01",
+      "TB_M1_PROB_B03_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_03_01",
+      "SCOPE_M1_PROB_03_02",
+      "SCOPE_M1_PROB_03_03"
+    ],
+    "estimated_scope": "基础篇第03章第一部分：二维随机变量概念、联合分布函数与边缘分布函数及独立性，二维离散型联合/边缘/条件分布律、离散独立性与离散函数分布。",
+    "notes": "约450行，涵盖二维离散型分布全流程。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B03B",
+    "included_sections": [
+      "TB_M1_PROB_B03_S03",
+      "TB_M1_PROB_B03_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_03_01",
+      "SCOPE_M1_PROB_03_02"
+    ],
+    "estimated_scope": "基础篇第03章第二部分：二维连续型随机变量联合概率密度、边缘密度、条件密度、连续独立性判定，以及二维均匀分布与二维正态分布参数意义。",
+    "notes": "约450行，涵盖二维连续型密度与常见分布。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B03C",
+    "included_sections": [
+      "TB_M1_PROB_B03_S05",
+      "TB_M1_PROB_B03_S06"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_03_03",
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "estimated_scope": "基础篇第03章第三部分：两个连续型随机变量函数的分布（分布函数法、和差积商卷积公式、极值分布乘积公式）及离散连续混合函数分布求解。",
+    "notes": "约410行，聚焦多维函数分布计算与全概应用。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B04A",
+    "included_sections": [
+      "TB_M1_PROB_B04_S01",
+      "TB_M1_PROB_B04_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_04_01"
+    ],
+    "estimated_scope": "基础篇第04章前半部分：离散型与连续型随机变量数学期望、函数期望LOTUS、期望线性与乘积性质，方差概念、计算公式、运算性质及常见分布期望方差。",
+    "notes": "约530行，涵盖期望与方差两大核心数字特征。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B04B",
+    "included_sections": [
+      "TB_M1_PROB_B04_S03",
+      "TB_M1_PROB_B04_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_04_02"
+    ],
+    "estimated_scope": "基础篇第04章后半部分：随机变量的矩（原点矩/中心矩），协方差定义/计算/性质，相关系数定义/性质及不相关与相互独立关系辨析。",
+    "notes": "约390行，涵盖二维数字特征与关联度量。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B05",
+    "included_sections": [
+      "TB_M1_PROB_B05_S01",
+      "TB_M1_PROB_B05_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_04_02",
+      "SCOPE_M1_PROB_05_01",
+      "SCOPE_M1_PROB_05_02"
+    ],
+    "estimated_scope": "基础篇第05章全章：切比雪夫不等式、依概率收敛、四大定律（切比雪夫/独立同分布/辛钦/伯努利），以及列维-林德伯格与棣莫弗-拉普拉斯中心极限定理及正态近似计算。",
+    "notes": "全章约160行，整体打包为一个自包含批次。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B06A",
+    "included_sections": [
+      "TB_M1_PROB_B06_S01",
+      "TB_M1_PROB_B06_S03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_06_01",
+      "SCOPE_M1_PROB_06_02"
+    ],
+    "estimated_scope": "基础篇第06章前半部分：总体、简单随机样本、统计量（均值/方差/矩），三大抽样分布（卡方、t、F分布）模式、性质与分位数。（排除数三经验分布函数）",
+    "notes": "约460行，抽取时剔除超纲的经验分布函数小节。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B06B",
+    "included_sections": [
+      "TB_M1_PROB_B06_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_06_02"
+    ],
+    "estimated_scope": "基础篇第06章后半部分：单正态总体与双正态总体的抽样分布四大定理（均值方差独立性、t统计量构造与F检验量构造）。",
+    "notes": "约130行，正态总体抽样定理核心内容。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B07A",
+    "included_sections": [
+      "TB_M1_PROB_B07_S01",
+      "TB_M1_PROB_B07_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_07_01"
+    ],
+    "estimated_scope": "基础篇第07章前半部分：参数点估计（矩估计法与最大似然估计法），估计量的评选标准（数一：无偏性、有效性、一致性及无偏性验证）。",
+    "notes": "约250行，点估计与估计量评选标准。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_B07B",
+    "included_sections": [
+      "TB_M1_PROB_B07_S03",
+      "TB_M1_PROB_B07_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_07_02",
+      "SCOPE_M1_PROB_08_01"
+    ],
+    "estimated_scope": "基础篇第07章后半部分：置信区间（数一：单/双正态总体均值与方差区间估计），假设检验（数一：两类错误、显著性检验思想步骤与正态总体参数检验）。",
+    "notes": "约150行，涵盖数一专有的区间估计与考纲第8章假设检验。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A01A",
+    "included_sections": [
+      "TB_M1_PROB_A01_T01",
+      "TB_M1_PROB_A01_T02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_01_01",
+      "SCOPE_M1_PROB_01_02"
+    ],
+    "estimated_scope": "强化篇第01章前半部分：题型一 事件的关系与运算、题型二 概率的性质（加减公式与单调放缩）。",
+    "notes": "约130行，事件关系与概率性质题型强化。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A01B",
+    "included_sections": [
+      "TB_M1_PROB_A01_T03",
+      "TB_M1_PROB_A01_T04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_01_02",
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "estimated_scope": "强化篇第01章后半部分：题型三 计算事件的概率（概型、五大公式、条件概率与独立性综合求解）、题型四 伯努利概型典型考研题型。",
+    "notes": "约680行，概率计算与独立性综合题型强化。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A02A",
+    "included_sections": [
+      "TB_M1_PROB_A02_T01",
+      "TB_M1_PROB_A02_T02",
+      "TB_M1_PROB_A02_T03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_02_01",
+      "SCOPE_M1_PROB_02_02"
+    ],
+    "estimated_scope": "强化篇第02章前半部分：题型一 分布函数的概念与性质、题型二 一维离散型随机变量及其分布、题型三 一维连续型随机变量及其分布。",
+    "notes": "约560行，一维变量分布与常见分布题型强化。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A02B",
+    "included_sections": [
+      "TB_M1_PROB_A02_T04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_02_03"
+    ],
+    "estimated_scope": "强化篇第02章后半部分：题型四 一维随机变量函数的分布与题型五 计算随机变量的分布（连续函数分布导数法与分布函数法综合）。",
+    "notes": "约270行，一维函数分布计算强化题型。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A03A",
+    "included_sections": [
+      "TB_M1_PROB_A03_T01",
+      "TB_M1_PROB_A03_T02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_03_01",
+      "SCOPE_M1_PROB_03_02",
+      "SCOPE_M1_PROB_03_03"
+    ],
+    "estimated_scope": "强化篇第03章前半部分：题型一 二维离散型随机变量及其分布（联合/边缘/条件/独立/函数）、题型二 二维连续型随机变量及其分布（联合/边缘/条件密度、独立性与正态）。",
+    "notes": "约830行，涵盖二维离散与连续联合分布核心题型。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A03B",
+    "included_sections": [
+      "TB_M1_PROB_A03_T03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_03_03"
+    ],
+    "estimated_scope": "强化篇第03章中段：题型三 两个连续型随机变量函数的分布（卷积公式与独立极值分布综合计算）。",
+    "notes": "约370行，聚焦两个连续变量函数分布。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A03C",
+    "included_sections": [
+      "TB_M1_PROB_A03_T04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_03_03",
+      "SCOPE_M1_PROB_01_03"
+    ],
+    "estimated_scope": "强化篇第03章后半部分：题型四 一个离散型与一个连续型随机变量函数的分布（全概率公式应用）。",
+    "notes": "约170行，离散连续混合函数分布与全概率综合题型。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A04A",
+    "included_sections": [
+      "TB_M1_PROB_A04_T01"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_04_01"
+    ],
+    "estimated_scope": "强化篇第04章前半部分：题型一 计算随机变量的期望与方差（离散/连续、LOTUS与性质）。",
+    "notes": "约590行，期望与方差计算题型强化。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A04B",
+    "included_sections": [
+      "TB_M1_PROB_A04_T02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_04_02"
+    ],
+    "estimated_scope": "强化篇第04章后半部分：题型二 计算协方差与相关系数及不相关性判别。",
+    "notes": "约500行，协方差、相关系数与不相关题型强化。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A05",
+    "included_sections": [
+      "TB_M1_PROB_A05_T01",
+      "TB_M1_PROB_A05_T02",
+      "TB_M1_PROB_A05_T03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_04_02",
+      "SCOPE_M1_PROB_05_01",
+      "SCOPE_M1_PROB_05_02"
+    ],
+    "estimated_scope": "强化篇第05章全章：题型一切比雪夫不等式、题型二大数定律、题型三中心极限定理。",
+    "notes": "全章约210行，三大题型整体打包为1个自包含批次。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A06",
+    "included_sections": [
+      "TB_M1_PROB_A06_T01",
+      "TB_M1_PROB_A06_T02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_06_01",
+      "SCOPE_M1_PROB_06_02"
+    ],
+    "estimated_scope": "强化篇第06章全章：基础知识回顾与题型一 计算统计量数字特征、题型二 三大分布模式与抽样定理。",
+    "notes": "全章约510行，数理统计概念与三大分布题型综合。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A07A",
+    "included_sections": [
+      "TB_M1_PROB_A07_T01",
+      "TB_M1_PROB_A07_T02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_07_01"
+    ],
+    "estimated_scope": "强化篇第07章前半部分：题型一 矩估计与最大似然估计、题型二 估计量的评选标准（数一）。",
+    "notes": "约360行，参数点估计与评选标准强化题型。"
+  },
+  {
+    "batch_id": "BATCH_TB_M1_PROB_A07B",
+    "included_sections": [
+      "TB_M1_PROB_A07_T03",
+      "TB_M1_PROB_A07_T04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_M1_PROB_07_02",
+      "SCOPE_M1_PROB_08_01"
+    ],
+    "estimated_scope": "强化篇第07章后半部分：题型三 区间估计（数一）、题型四 假设检验（数一）。（排除尾部图书广告）",
+    "notes": "约150行，涵盖数一专有区间估计与假设检验强化题型；尾部图书宣传页剔除。"
+  }
+]
