@@ -1,0 +1,746 @@
+[
+  {
+    "textbook_section_id": "TB_408_CO_C01_S01",
+    "textbook_section_path": "第01章 计算机系统概述 > 1.1 计算机发展历程 > 1.1.1-1.1.2 计算机硬件的发展、计算机软件的发展",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_01_01"
+    ],
+    "mapping_basis": "对应教材1.1节，涵盖第一代至第四代计算机（电子管、晶体管、中小规模集成电路、超大规模集成电路微处理器时代），摩尔定律，半导体存储器与微处理器发展，以及计算机语言（机器语言、汇编语言、高级语言）和系统软件演进。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "考纲不单独考查机器换代年代参数，作为学习冯·诺依曼架构与计算机系统的发展演进背景支撑。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C01_S02",
+    "textbook_section_path": "第01章 计算机系统概述 > 1.2 计算机系统层次结构 > 1.2.1-1.2.6 计算机系统组成、计算机硬件（冯·诺依曼机与功能部件）、计算机软件、层次结构与工作原理",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_01_01"
+    ],
+    "mapping_basis": "对应教材1.2.1-1.2.6节，涵盖硬件与软件系统组成、软硬件逻辑功能的等价性；冯·诺依曼结构计算机的核心思想与特点（以运算器/存储器为中心、二进制、存储程序）；五大功能部件（运算器、控制器、存储器、输入输出设备）功能；多级层次结构（微体系结构、ISA、操作系统、高级语言）；“存储程序”工作方式；高级语言经预处理、编译、汇编、链接生成可执行文件的全过程；程序与指令的执行过程（取指、译码、执行）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "软硬件协同分析基石，完整覆盖考纲 01_01 全部核心考核指标。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C01_S03",
+    "textbook_section_path": "第01章 计算机系统概述 > 1.2 计算机系统层次结构 > 1.2.7-1.2.8 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_01_01"
+    ],
+    "mapping_basis": "对应教材1.2.7单项选择题14题与1.2.8答案解析，重点考查冯·诺依曼机特点、源程序翻译四阶段（编译/汇编/链接）与指令执行步骤。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "层次结构与工作原理专项训练习题，巩固 01_01 考点。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C01_S04",
+    "textbook_section_path": "第01章 计算机系统概述 > 1.3 计算机的性能指标 > 1.3.1 计算机的主要性能指标与专业术语",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_01_02"
+    ],
+    "mapping_basis": "对应教材1.3.1节，涵盖吞吐量、响应时间概念；CPU时钟周期、主频、每条指令时钟周期数（CPI）、CPU执行时间之间的数学关系与定量计算公式（CPU执行时间=(指令条数*CPI)/主频）；MIPS、MFLOPS、GFLOPS、TFLOPS、PFLOPS等浮点性能指标的定义与换算；机器字长、指令字长与存储字长概念辨析。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研高频计算题源头：主频、CPI与CPU执行时间综合制约关系。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C01_S05",
+    "textbook_section_path": "第01章 计算机系统概述 > 1.3 计算机的性能指标 > 1.3.2-1.3.3 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_01_02"
+    ],
+    "mapping_basis": "对应教材1.3.2选择题与综合大题及1.3.3答案解析，全面演练不同指令集CPI综合换算、主频提升与运行时间定量计算。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "性能指标定量计算专题训练（历年408统考高频考题汇编）。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C01_S06",
+    "textbook_section_path": "第01章 计算机系统概述 > 1.4 本章小结及 1.5 常见问题和易混淆知识点",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_01_01",
+      "SCOPE_408_CO_01_02"
+    ],
+    "mapping_basis": "对应教材1.4与1.5节，系统辨析三大核心问题：①透明性概念（机器语言/汇编语言对硬件透明性辨析）；②计算机体系结构与计算机组成的区别与联系（逻辑属性vs物理实现）；③基准程序与机器性能评估准则。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "第一章核心概念理论辨析，横跨 01_01 与 01_02。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C02_S01",
+    "textbook_section_path": "第02章 数据的表示和运算 > 2.1 数制与编码 > 2.1.1-2.1.4 进位计数制转换、定点数的编码表示、整数表示与 C 语言整型转换",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_02_01"
+    ],
+    "mapping_basis": "对应教材2.1.1-2.1.4节，涵盖二进制、八进制、十进制、十六进制相互转换；真值与机器数；原码、反码、补码、移码的定义、取值范围与硬件转换；无符号整数与带符号整数表示；C语言中的整型（short、int、long、unsigned）转换规则、零扩展与符号扩展、字长截断与精度损失。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲定点整数编码要求，掌握补码的运算优势与机器表示。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C02_S02",
+    "textbook_section_path": "第02章 数据的表示和运算 > 2.1 数制与编码 > 2.1.5-2.1.6 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_02_01"
+    ],
+    "mapping_basis": "对应教材2.1.5选择题30余题与2.1.6详细答案解析，重点考查补码取值范围、移码特性、C语言unsigned与signed强制类型转换大题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "数制与编码专项练习，巩固符号扩展与截断考点。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C02_S03",
+    "textbook_section_path": "第02章 数据的表示和运算 > 2.2 运算方法和运算电路 > 2.2.1-2.2.3 基本运算部件、定点数移位运算、定点数加减运算与溢出判断",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_02_01"
+    ],
+    "mapping_basis": "对应教材2.2.1-2.2.3节，涵盖一位全加器、串行/行波进位加法器、先行进位加法器（超前进位生成逻辑G与传递逻辑P）；带标志加法器与ALU；条件标志位生成（OF溢出、SF符号、ZF零、CF进/借位生成电路）；逻辑移位、算术移位（符号位不变、正负数补码移位补位规则）、循环移位；补码加减运算电路结构与三种溢出判别方法（双符号位/进位位异或/单符号位）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408核心硬件考点：标志位硬件生成逻辑与加减运算电路。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C02_S04",
+    "textbook_section_path": "第02章 数据的表示和运算 > 2.2 运算方法和运算电路 > 2.2.4 定点数的乘除运算",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_02_01"
+    ],
+    "mapping_basis": "对应教材2.2.4节，深入讲授定点数乘除法硬件实现：原码一位乘（绝对值相乘、符号位异或、累加右移）；补码一位乘（Booth算法：根据乘数低两位状态判断加减被乘数并算术右移）；定点除法：恢复余数法与加减交替法（不恢复余数法，上商规则与电路结构推导）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲“乘/除法运算的基本原理和电路结构”，掌握Booth算法推导过程。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C02_S05",
+    "textbook_section_path": "第02章 数据的表示和运算 > 2.2 运算方法和运算电路 > 2.2.5-2.2.6 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_02_01"
+    ],
+    "mapping_basis": "对应教材2.2.5选择题30题及综合大题与2.2.6超详答案解析，深度考核标志位逻辑表达式判断、行波进位延迟计算、Booth乘法与加减交替除法推演。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "运算电路与乘除算法综合强化训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C02_S06",
+    "textbook_section_path": "第02章 数据的表示和运算 > 2.3 浮点数的表示与运算 > 2.3.1-2.3.3 IEEE 754 标准浮点数、浮点数加减运算与 C 语言浮点类型",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_02_02"
+    ],
+    "mapping_basis": "对应教材2.3.1-2.3.3节，涵盖IEEE 754单精度（32位：1位符号+8位阶码+23位尾数）与双精度（64位）标准格式；阶码偏置常数（127与1023）与隐藏位；规格化数、非规格化数（阶码全0）、特殊值（阶码全1，含无穷大与NaN）；浮点数加减运算五大步骤（对阶小阶向大阶看齐、尾数求和、规格化左规右规、舍入策略0舍1入/恒置1、溢出判断阶码上溢下溢）；C语言float与double精度转换。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研每年必考大题：IEEE 754十六进制转换与浮点运算五步骤推演。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C02_S07",
+    "textbook_section_path": "第02章 数据的表示和运算 > 2.3 浮点数的表示与运算 > 2.3.4 数据的宽度和存储（大小端方式与边界对齐）",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_04_01",
+      "SCOPE_408_CO_02_01"
+    ],
+    "mapping_basis": "对应教材2.3.4节，涵盖数据宽度单位（字节、半字、字、双字）；大端方式（Big-endian，高位字节存低地址）与小端方式（Little-endian，低位字节存低地址）的内存字节排布判定；数据按“边界对齐”方式存储与非对齐方式的访存开销对比（对齐单次访存完成，非对齐可能引发多次访存）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【跨章映射】考纲明确将大端小端与边界对齐列在第四章指令系统（`SCOPE_408_CO_04_01`），教材前置于第2章数据表示，在此建立跨章精确映射。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C02_S08",
+    "textbook_section_path": "第02章 数据的表示和运算 > 2.3 浮点数的表示与运算 > 2.3.5-2.3.6 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_02_02",
+      "SCOPE_408_CO_04_01"
+    ],
+    "mapping_basis": "对应教材2.3.5选择题43题与综合大题及2.3.6答案解析，涵盖IEEE 754格式转换计算、浮点加减法大题推演、大端小端与结构体对齐计算。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "浮点运算与数据存储大题全真训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C02_S09",
+    "textbook_section_path": "第02章 数据的表示和运算 > 2.4 本章小结及 2.5 常见问题和易混淆知识点",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_02_01",
+      "SCOPE_408_CO_02_02"
+    ],
+    "mapping_basis": "对应教材2.4与2.5节，系统辨析补码符号扩展规则、溢出标志与进位标志的硬件本质差异、移码的作用、浮点数与定点数表示范围与精度对比。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "第二章核心概念深度理论辨析。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S01",
+    "textbook_section_path": "第03章 存储系统 > 3.1 存储器概述 > 3.1.1-3.1.4 存储器分类、主存组成与基本操作、层次化结构与主要性能指标",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_01"
+    ],
+    "mapping_basis": "对应教材3.1.1-3.1.4节，涵盖存储器按元件分类、按存取方式分类（RAM随机存取、ROM只读、SAM顺序存取、DAM直接存取）；主存基本组成（存储体、MAR、MDR、地址译码器）；存储器层次化体系结构（Cache-主存-辅存）与局部性原理；主要性能指标（存储容量、存取时间Ta、存取周期Tm、存储器带宽Bm）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握存储器多层体系结构与基本性能参数定义。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S02",
+    "textbook_section_path": "第03章 存储系统 > 3.1 存储器概述 > 3.1.5-3.1.6 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_01"
+    ],
+    "mapping_basis": "对应教材3.1.5选择题12题与3.1.6答案解析，重点考查存取周期、存取时间与存储器带宽计算。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "存储器基础概念与指标练习。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S03",
+    "textbook_section_path": "第03章 存储系统 > 3.2 主存储器 > 3.2.1-3.2.3 半导体随机存取存储器（SRAM/DRAM/刷新）、非易失性存储器（ROM/Flash/SSD）与多模块存储器",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_01"
+    ],
+    "mapping_basis": "对应教材3.2.1-3.2.3节，涵盖SRAM（双稳态触发器/速度快/集成度低）与DRAM（电容电荷/需刷新/集成度高）结构与对比；DRAM刷新方式（集中刷新产生死区、分散刷新无死区但周期长、异步刷新防死区最常用）；非易失性存储器（ROM分类、Flash闪存写前擦除特性）；多模块存储器：单体多字存储器、低位交叉编址多体存储器（流水线式并行存取、不发生冲突的模块数 m>=T/tau 推演与带宽计算）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408高频考点：DRAM刷新周期计算、低位交叉编址流水线并行存取推导。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S04",
+    "textbook_section_path": "第03章 存储系统 > 3.2 主存储器 > 3.2.4-3.2.5 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_01"
+    ],
+    "mapping_basis": "对应教材3.2.4选择题35题与综合大题及3.2.5超详答案解析，演练DRAM异步刷新周期计算、低位交叉存储器存取时间与流水线时钟推演。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "主存储器与多模块交叉编址专题训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S05",
+    "textbook_section_path": "第03章 存储系统 > 3.3 主存储器与 CPU 的连接 > 3.3.1-3.3.2 连接原理与主存容量扩展（位扩展、字扩展、字位同时扩展）",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_01"
+    ],
+    "mapping_basis": "对应教材3.3.1-3.3.2节，涵盖主存与CPU总线连接原理（地址线、数据线、读写控制线连接）；主存芯片容量扩展：位扩展法（数据线扩展，共用地址线和片选线）、字扩展法（地址线高位通过译码器产生片选信号CS/CE）、字位同时扩展法；地址译码方式（线选法与译码片选法，如138译码器逻辑）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408芯片连线大题核心考点：译码器地址范围分析与片选逻辑设计。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S06",
+    "textbook_section_path": "第03章 存储系统 > 3.3 主存储器与 CPU 的连接 > 3.3.3-3.3.4 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_01"
+    ],
+    "mapping_basis": "对应教材3.3.3选择题17题与综合大题及3.3.4详细答案解析，演练芯片片选逻辑表达式设计、地址空间映射图与引脚连线。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "主存扩展大题专项演练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S07",
+    "textbook_section_path": "第03章 存储系统 > 3.4 外部存储器 > 3.4.1-3.4.2 磁盘存储器（物理结构/参数/RAID）与固态硬盘（SSD特性/磨损均衡）",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_01"
+    ],
+    "mapping_basis": "对应教材3.4.1-3.4.2节，涵盖机械磁盘物理结构（磁头、磁道、柱面、扇区）；存取时间计算（寻道时间Ts、旋转延迟时间Tr、传输时间Tt）；磁盘容量与数据传输率计算；RAID磁盘阵列（RAID 0条带化、RAID 1镜像、RAID 5奇偶校验分散存储）；固态硬盘SSD闪存特性（闪存页读写、闪存块擦除、写前擦除、磨损寿命）与动态/静态磨损均衡（Wear Leveling）算法。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【软硬件交叉】外部存储器特性同时与操作系统 `SCOPE_408_OS_05_03` 呼应。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S08",
+    "textbook_section_path": "第03章 存储系统 > 3.4 外部存储器 > 3.4.3-3.4.4 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_01"
+    ],
+    "mapping_basis": "对应教材3.4.3选择题13题与综合大题及3.4.4答案解析，演练磁盘平均存取时间计算、RAID利用率推导及SSD考点。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "外存专题训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S09",
+    "textbook_section_path": "第03章 存储系统 > 3.5 高速缓冲存储器 > 3.5.1-3.5.7 局部性原理、Cache 工作原理、主存映射方式、替换算法、写策略与 Cache 容量计算",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_02"
+    ],
+    "mapping_basis": "对应教材3.5.1-3.5.7节，涵盖时间与空间局部性原理；Cache工作原理、命中率与平均访问时间计算；Cache和主存的三大映射方式：全相联映射、直接映射、组相联映射的主存地址划分（主存标记Tag、Cache组号/行号、块内地址Offset）与硬件比对逻辑；Cache行常用替换算法（RAND、FIFO、近期最少使用LRU堆栈推演、LFU）；Cache写策略（全写法/写直达法配合非写分配、写回法配合写分配与脏位Dirty bit）；Cache总容量计算（有效位、标记位Tag、一致性脏位、LRU替换控制位与数据块容量之和）；多级Cache与分离Cache。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研每年必考压轴大题核心：主存地址划分与Cache总开销容量推算。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S10",
+    "textbook_section_path": "第03章 存储系统 > 3.5 高速缓冲存储器 > 3.5.8-3.5.9 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_02"
+    ],
+    "mapping_basis": "对应教材3.5.8选择题45题与综合大题及3.5.9超详解析，全景检验地址位数切分、Cache总开销容量推算、命中率与平均访问时间大题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "Cache映射与计算全真大题演练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S11",
+    "textbook_section_path": "第03章 存储系统 > 3.6 虚拟存储器 > 3.6.1-3.6.5 虚存概念、页式/段式/段页式虚拟存储器、快表 TLB 与 Cache 协同、虚存与 Cache 对比",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_03",
+      "SCOPE_408_CO_03_02"
+    ],
+    "mapping_basis": "对应教材3.6.1-3.6.5节，涵盖虚拟存储器基本原理与软硬件协同；页式虚存：页表结构（有效位、脏位、引用位、物理块号）、虚地址到实地址转换；快表（TLB）的作用、结构、与Cache及主存的分层访问时序（TLB命中/未命中、Cache命中/未命中四种组合分析）；段式与段页式虚存原理；虚拟存储器与Cache的系统横向对比（目的、透明性、缺失开销、映射方式差异）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "软硬件综合核心：TLB、页表、Cache、主存协同工作全流程。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S12",
+    "textbook_section_path": "第03章 存储系统 > 3.6 虚拟存储器 > 3.6.6-3.6.7 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_03"
+    ],
+    "mapping_basis": "对应教材3.6.6选择题30余题与综合大题及3.6.7答案解析，演练端到端地址翻译（TLB->页表->Cache->主存）压轴综合大题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "虚拟存储器综合大题真题训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C03_S13",
+    "textbook_section_path": "第03章 存储系统 > 3.7 本章小结及 3.8 常见问题和易混淆知识点",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_03_02",
+      "SCOPE_408_CO_03_03"
+    ],
+    "mapping_basis": "对应教材3.7与3.8节，系统辨析Cache行大小与命中率关系、TLB/Cache/PageTable缺失状态的合法性组合判断（如TLB缺失Cache可能命中，PageTable缺失Cache必缺失）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "存储层次核心概念综合辨析。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C04_S01",
+    "textbook_section_path": "第04章 指令系统 > 4.1 指令系统 > 4.1.1-4.1.5 指令集体系结构（ISA）、指令基本格式、定长/扩展操作码与指令类型",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_04_01"
+    ],
+    "mapping_basis": "对应教材4.1.1-4.1.5节，涵盖指令系统定义与ISA软硬件接口；指令基本格式（操作码+地址码）；零地址、一地址、二地址、三地址指令格式；定长操作码与扩展操作码技术（操作码前缀扩展原则、指令编码约束与数量计算）；指令分类（数据传送、算术逻辑、移位、顺序控制跳转、输入输出、CPU控制指令）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲指令格式与操作码扩展，掌握前缀编码设计原则。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C04_S02",
+    "textbook_section_path": "第04章 指令系统 > 4.1 指令系统 > 4.1.6-4.1.7 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_04_01"
+    ],
+    "mapping_basis": "对应教材4.1.6选择题19题与综合大题及4.1.7答案解析，重点演练扩展操作码编码设计与剩余状态数推算。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "指令格式设计专项训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C04_S03",
+    "textbook_section_path": "第04章 指令系统 > 4.2 寻址方式 > 4.2.1-4.2.2 指令寻址与常见数据寻址方式",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_04_01"
+    ],
+    "mapping_basis": "对应教材4.2.1-4.2.2节，涵盖指令寻址（顺序寻址PC+1、跳跃寻址）；常见九大数据寻址方式：隐含寻址、立即（数）寻址、直接寻址、间接寻址（一次间址与多次间址）、寄存器寻址、寄存器间接寻址、相对寻址（EA=(PC)+A，便于程序浮动）、基址寻址（EA=(BR)+A，面向操作系统多道程序）、变址寻址（EA=(IX)+A，面向用户数组/循环遍历）、复合寻址（基址变址）；有效地址EA计算公式与访存次数对比。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研高频重点：九大寻址方式有效地址计算与访存开销比较。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C04_S04",
+    "textbook_section_path": "第04章 指令系统 > 4.2 寻址方式 > 4.2.3-4.2.4 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_04_01"
+    ],
+    "mapping_basis": "对应教材4.2.3选择题33题与综合大题及4.2.4超详答案解析，演练寻址方式判别、指令字长与地址码位数设计、相对寻址偏移量计算。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "寻址方式专项大题训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C04_S05",
+    "textbook_section_path": "第04章 指令系统 > 4.3 程序的机器级代码表示 > 4.3.1-4.3.4 常用汇编指令、选择语句、循环语句与过程调用的机器级表示",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_04_02"
+    ],
+    "mapping_basis": "对应教材4.3.1-4.3.4节，涵盖x86常用通用寄存器（eax/ebx/ecx/edx/esp/ebp等）；常用汇编指令（mov/push/pop、add/sub/imul/idiv、and/or/xor/not/test、cmp/jmp/jcc条件跳转、call/ret）；选择语句（if-else、switch）机器级控制转移与标志位测试；循环语句（for/while）机器级表示；过程调用（函数调用）机制：运行时栈帧（Stack Frame）结构、参数压栈、返回地址压栈、调用者保存（caller-saved）与被调用者保存（callee-saved）寄存器维护规则、局部变量分配与栈帧恢复。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408软硬件综合压轴大题核心：x86汇编代码阅读、选择循环转换与函数栈帧分析。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C04_S06",
+    "textbook_section_path": "第04章 指令系统 > 4.3 程序的机器级代码表示 > 4.3.5-4.3.6 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_04_02"
+    ],
+    "mapping_basis": "对应教材4.3.5选择题与综合分析大题及4.3.6答案解析，考核C语言与x86汇编对应关系阅读、栈帧内存变化跟踪。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "汇编与栈帧大题强化训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C04_S07",
+    "textbook_section_path": "第04章 指令系统 > 4.4 CISC 和 RISC 的基本概念 > 4.4.1-4.4.3 CISC、RISC 概念与特征对比",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_04_02"
+    ],
+    "mapping_basis": "对应教材4.4.1-4.4.3节，涵盖复杂指令系统计算机（CISC）特征（指令条数多、变长指令、寻址方式多、微程序实现为主）；精简指令系统计算机（RISC）特征（指令条数少、定长指令、LOAD/STORE架构访存、大量通用寄存器、硬布线控制器、指令流水线）；CISC与RISC全维度对比表格。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握CISC与RISC的设计哲学差异与性能权衡。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C04_S08",
+    "textbook_section_path": "第04章 指令系统 > 4.4 CISC 和 RISC 的基本概念 > 4.4.4-4.4.5 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_04_02"
+    ],
+    "mapping_basis": "对应教材4.4.4选择题与4.4.5答案解析，重点考查CISC与RISC的结构区别与性能特点。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "CISC/RISC概念练习。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C04_S09",
+    "textbook_section_path": "第04章 指令系统 > 4.5 本章小结及 4.6 常见问题和易混淆知识点",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_04_01",
+      "SCOPE_408_CO_04_02"
+    ],
+    "mapping_basis": "对应教材4.5与4.6节，系统辨析基址寻址与变址寻址的适用场景区别、多字节操作数在内存中地址给出的方式（大小端对齐）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "指令系统核心理论辨析。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S01",
+    "textbook_section_path": "第05章 中央处理器 > 5.1 CPU 的功能和基本结构 > 5.1.1-5.1.3 CPU 的功能、基本结构与寄存器分类",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_01"
+    ],
+    "mapping_basis": "对应教材5.1.1-5.1.3节，涵盖CPU五大功能（指令控制、操作控制、时间控制、数据加工、中断处理）；运算器部件（ALU、累加器ACC、暂存器、通用寄存器组、PSW状态字）；控制器部件（PC、IR、指令译码器ID、时序控制逻辑）；用户可见寄存器（通用寄存器、PC、PSW）与用户不可见寄存器（MAR、MDR、IR、暂存器）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握CPU内部结构分工与寄存器用户可见性分类。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S02",
+    "textbook_section_path": "第05章 中央处理器 > 5.1 CPU 的功能和基本结构 > 5.1.4-5.1.5 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_01"
+    ],
+    "mapping_basis": "对应教材5.1.4选择题17题与5.1.5答案解析，重点考核寄存器可见性与功能定位。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "CPU结构专项训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S03",
+    "textbook_section_path": "第05章 中央处理器 > 5.2 指令执行过程 > 5.2.1-5.2.4 指令执行流程、CPU 时序控制、指令周期基本概念与处理器执行模型",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_01"
+    ],
+    "mapping_basis": "对应教材5.2.1-5.2.4节，涵盖指令执行一般流程；CPU时序控制（时钟周期、机器周期、指令周期关系）；指令周期四个子周期（取指周期IF、间址周期IND、执行周期EX、中断周期INT）的微操作数据流；单周期处理器、多周期处理器与流水线处理器指令执行模型的概念与性能对比。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握指令执行各个子周期的微操作时序与数据流。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S04",
+    "textbook_section_path": "第05章 中央处理器 > 5.2 指令执行过程 > 5.2.5-5.2.6 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_01"
+    ],
+    "mapping_basis": "对应教材5.2.5选择题11题与5.2.6答案解析，考核指令各阶段数据流与寄存器传送关系。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "指令周期专项练习。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S05",
+    "textbook_section_path": "第05章 中央处理器 > 5.3 数据通路的功能和基本结构 > 5.3.1-5.3.4 数据通路功能组成、单总线结构与专用结构数据通路设计",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_01"
+    ],
+    "mapping_basis": "对应教材5.3.1-5.3.4节，涵盖数据通路功能与组成（操作元件ALU/MUX/译码器，状态元件寄存器/触发器）；数据通路的组织结构：CPU内部单总线结构（各部件挂在总线上、ALU暂存器必要性、三态门控制、各微操作控制信号及节拍安排）；专用结构数据通路（MIPS单周期数据通路设计：取指部件、R型运算指令、I型运算指令、Load/Store访存指令、beq分支指令的完整单周期专用数据通路图与控制信号）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408大题高频压轴考点：编写内部总线数据传送微操作流程与单周期控制信号分析。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S06",
+    "textbook_section_path": "第05章 中央处理器 > 5.3 数据通路的功能和基本结构 > 5.3.5-5.3.6 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_01"
+    ],
+    "mapping_basis": "对应教材5.3.5选择题与综合大题及5.3.6超详答案解析，全真演练单总线控制信号微操作设计、单周期数据通路控制信号真值表大题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "数据通路大题真题核心集训。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S07",
+    "textbook_section_path": "第05章 中央处理器 > 5.4 控制器的功能和工作原理 > 5.4.1-5.4.3 控制器结构功能、硬布线控制器与微程序控制器原理",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_02"
+    ],
+    "mapping_basis": "对应教材5.4.1-5.4.3节，涵盖控制器的结构与功能；硬布线控制器（组合逻辑设计、微操作控制信号综合、逻辑表达式、节拍发生器，速度快但难以扩充修改）；微程序控制器（微命令、微操作、微指令、微程序与机器指令的关系；控制存储器CM、微地址寄存器μMAR、微指令寄存器μIR；微指令格式：水平型微指令微操作并行性强、垂直型微指令字长短执行慢、混合型；微指令编码方式：直接控制法、字段直接编码法/互斥性原则；微指令下地址形成方式：断定法、增量法等；硬布线与微程序控制器深度对比）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握水平型微指令字段划分推导与微程序控制器运行机制。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S08",
+    "textbook_section_path": "第05章 中央处理器 > 5.4 控制器的功能和工作原理 > 5.4.4-5.4.5 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_02"
+    ],
+    "mapping_basis": "对应教材5.4.4选择题28题与综合大题及5.4.5答案解析，演练字段直接编码字段划分推导、下地址计算与硬布线微操作时序。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "控制器设计与微程序大题专项演练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S09",
+    "textbook_section_path": "第05章 中央处理器 > 5.5 异常和中断机制 > 5.5.1-5.5.3 异常和中断基本概念、分类与响应处理流程",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_02"
+    ],
+    "mapping_basis": "对应教材5.5.1-5.5.3节，涵盖异常（内中断，由CPU内部事件引发，如除零、缺页、溢出、非法指令）与中断（外中断，由CPU外部硬件产生，如定时器、I/O完成）；异常分类：故障Fault（可恢复，断点指向引起故障的指令）、陷阱Trap（预先安排，断点指向下一条指令，如系统调用）、终止Abort（严重硬件错误无法恢复）；中断分类：可屏蔽中断（INTR）与不可屏蔽中断（NMI）；硬件响应流程（关中断、保护断点PC和PSW、硬件向量法或软件查询法获取中断服务程序入口）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "软硬件交界高频考点：故障与陷阱断点保存差异、异常检测响应时机。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S10",
+    "textbook_section_path": "第05章 中央处理器 > 5.5 异常和中断机制 > 5.5.4-5.5.5 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_02"
+    ],
+    "mapping_basis": "对应教材5.5.4选择题12题与5.5.5详细解析，考核异常与中断分类判别、断点保存内容与返回地址。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "异常与中断专项练习。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S11",
+    "textbook_section_path": "第05章 中央处理器 > 5.6 指令流水线 > 5.6.1-5.6.5 指令流水线概念、实现、MIPS 流水段分析、三大冒险与处理、高级流水线技术",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_03"
+    ],
+    "mapping_basis": "对应教材5.6.1-5.6.5节，涵盖指令流水线基本概念、时空图表示、性能指标（吞吐率TP、加速比S、效率E）；经典5段流水线（IF取指、ID译码/读寄存器、EX执行/算地址、MEM访存、WB写回）与MIPS流水段设计；流水线三大冒险及其处理方法：结构冒险（资源冲突，通过分离Cache或气泡解决）、数据冒险（RAW写后读、WAR读后写、WAW写后写，通过转发/旁路技术、加载互锁插入nop气泡或编译器调度解决）、控制冒险（分支指令改变PC，通过静态/动态分支预测、分支目标缓冲BTB、延迟槽解决）；高级流水线技术（超标量流水线动态多发射、超长指令字VLIW静态多发射、超流水线）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研每年必考核心大题：时空图推演、数据冒险识别、旁路技术与气泡周期定量计算。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S12",
+    "textbook_section_path": "第05章 中央处理器 > 5.6 指令流水线 > 5.6.6-5.6.7 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_03"
+    ],
+    "mapping_basis": "对应教材5.6.6选择题30余题与综合大题及5.6.7超详解析，全真演练流水线时空图绘制、时钟周期确定、数据冒险转发与阻塞周期推导大题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "流水线综合大题全真训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S13",
+    "textbook_section_path": "第05章 中央处理器 > 5.7 多处理器的基本概念 > 5.7.1-5.7.4 SISD/SIMD/MIMD、硬件多线程、多核处理器与共享内存多处理器",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_03"
+    ],
+    "mapping_basis": "对应教材5.7.1-5.7.4节，涵盖Flynn体系结构分类法（SISD单指令单数据、SIMD单指令多数据与向量处理器、MISD、MIMD多指令多数据）；硬件多线程技术（细粒度多线程、粗粒度多线程、同时多线程SMT/超线程技术）；多核处理器（Multi-core，片上集成多个核心共享末级Cache）；共享内存多处理器（SMP对等架构、统一内存访问UMA、非统一内存访问NUMA）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【考纲归位】考纲将多处理器概念置于第5章CPU末尾，教材完全吻合5.7节，完整映射 `SCOPE_408_CO_05_03`。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S14",
+    "textbook_section_path": "第05章 中央处理器 > 5.7 多处理器的基本概念 > 5.7.5-5.7.6 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_03"
+    ],
+    "mapping_basis": "对应教材5.7.5选择题10题与5.7.6答案解析，重点考查Flynn分类法判定、SMT与多核区别。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "多处理器基础概念练习。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C05_S15",
+    "textbook_section_path": "第05章 中央处理器 > 5.8 本章小结及 5.9 常见问题和易混淆知识点",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_05_01",
+      "SCOPE_408_CO_05_02",
+      "SCOPE_408_CO_05_03"
+    ],
+    "mapping_basis": "对应教材5.8与5.9节，综合辨析全章重点难题：流水线中读后写WAR和写后写WAW相关的概念及乱序执行成因、硬布线与微程序选型、指令周期与机器周期本质。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "CPU全章核心概念深度理论复盘。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C06_S01",
+    "textbook_section_path": "第06章 总线 > 6.1 总线概述 > 6.1.1-6.1.4 总线分类、性能指标与总线结构",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_01"
+    ],
+    "mapping_basis": "对应教材6.1.1-6.1.4节，涵盖总线定义；总线分类（片内总线、系统总线数据/地址/控制线、通信总线，串行总线与并行总线）；总线性能指标（总线工作频率、总线时钟周期、总线宽度、总线带宽计算公式：带宽=宽度*频率 或 宽度/周期）；总线结构体系（早期面向CPU的单总线结构、分层总线南北桥架构PCI/PCI-E、现代集成化总线结构QPI等）。注意教材小节编号为6.1.1、6.1.3、6.1.4（原书跳过6.1.2）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握总线分类、结构演进与总线带宽定量计算。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C06_S02",
+    "textbook_section_path": "第06章 总线 > 6.1 总线概述 > 6.1.5-6.1.6 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_01"
+    ],
+    "mapping_basis": "对应教材6.1.5选择题22题与综合大题及6.1.6答案解析，重点演练总线带宽定量计算、地址线数据线复用计算。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "总线指标专项计算训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C06_S03",
+    "textbook_section_path": "第06章 总线 > 6.2 总线事务和定时 > 6.2.1-6.2.2 总线事务阶段与总线定时方式",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_01"
+    ],
+    "mapping_basis": "对应教材6.2.1-6.2.2节，涵盖总线事务四个阶段（请求与仲裁阶段、寻址阶段、数据传输阶段、释放阶段，突发传送Burst传输方式）；总线定时方式：同步定时（公共时钟线驱动、时序严格、速度快但依赖最慢设备）、异步定时（不互锁、半互锁、全互锁握手确认信号，适应速度差异大的部件）、半同步定时（引入Wait等待信号）、分离式定时（将读请求与数据回传拆解为两个子周期提高总线利用率）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "对应考纲总线事务与定时，掌握异步握手信号时序与突发传送特性。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C06_S04",
+    "textbook_section_path": "第06章 总线 > 6.2 总线事务和定时 > 6.2.3-6.2.4 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_01"
+    ],
+    "mapping_basis": "对应教材6.2.3选择题11题与综合大题及6.2.4详细答案解析，演练异步定时三次握手波形图分析与突发传输时钟数计算。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "总线定时专项题组。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C06_S05",
+    "textbook_section_path": "第06章 总线 > 6.3 本章小结及 6.4 常见问题和易混淆知识点",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_01"
+    ],
+    "mapping_basis": "对应教材6.3与6.4节，深度辨析为何现代串行总线（如PCI-E、SATA、USB）速率远超早期并行总线（消除并行信号时钟倾斜与串扰问题）、突发传输与普通传输的本质优势。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "总线系统理论辨析。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C07_S01",
+    "textbook_section_path": "第07章 输入输出系统 > *7.1 I/O 系统基本概念 > *7.1.1 输入/输出系统基本概念与组成",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_02"
+    ],
+    "mapping_basis": "对应教材*7.1.1节，涵盖I/O系统基本概念（外设、接口、I/O软件驱动/管理、I/O硬件控制器/总线）。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "属于学习I/O接口和控制方式的前置概念支撑。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C07_S02",
+    "textbook_section_path": "第07章 输入输出系统 > *7.1 I/O 系统基本概念 > *7.1.2 外部设备（输入设备、输出设备显示器与显存刷新带宽计算、打印机、外存设备）",
+    "mapped_scope_ids": [],
+    "mapping_basis": "对应教材*7.1.2节，详细介绍键盘、鼠标、CRT/LCD显示器参数（分辨率/色彩深度/刷新频率/显存VRAM容量与刷新带宽计算公式）、打印机类型（针式/喷墨/激光）以及外存介质。",
+    "confidence": "high",
+    "scope_status": "out_of_scope_candidate",
+    "notes": "【明确超纲候选】408当前考试大纲中“输入输出系统”只考查“I/O接口”与“I/O方式（程序查询、程序中断、DMA）”，外部设备具体性能参数和显存带宽计算已不在最新考纲范围中，教材章节标题已明确标注星号 `*`。抽取批次中安全隔离。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C07_S03",
+    "textbook_section_path": "第07章 输入输出系统 > *7.1 I/O 系统基本概念 > *7.1.3-7.1.4 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_02"
+    ],
+    "mapping_basis": "对应教材*7.1.3-7.1.4节，涵盖4道选择题与解析，含1道2010年统考真题（显存刷新带宽计算），作为历史真题参考背景保留。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "外部设备历史真题参考练习。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C07_S04",
+    "textbook_section_path": "第07章 输入输出系统 > 7.2 I/O 接口 > 7.2.1-7.2.4 I/O 接口的功能、基本结构、类型与 I/O 端口编址（统一编址与独立编址）",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_02"
+    ],
+    "mapping_basis": "对应教材7.2.1-7.2.4节，涵盖I/O接口（设备控制器）核心功能（选址、命令传送、数据缓冲、状态反映）；接口内部基本结构（数据缓冲寄存器DBR、状态寄存器、控制寄存器、地址译码器、内部控制逻辑）；接口分类；I/O端口及其编址方式：统一编址（存储器映射编址，与主存统一寻址，使用访存指令读写端口）与独立编址（I/O专用空间，使用IN/OUT专用指令）的优缺点全面对比。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "完全对应考纲“I/O接口（I/O控制器）”，掌握两类端口编址方式指令与硬件差异。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C07_S05",
+    "textbook_section_path": "第07章 输入输出系统 > 7.2 I/O 接口 > 7.2.5-7.2.6 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_02"
+    ],
+    "mapping_basis": "对应教材7.2.5选择题17题与7.2.6答案解析，重点考查端口编址方式识别、寄存器读写指令与控制逻辑。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "I/O接口专项练习。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C07_S06",
+    "textbook_section_path": "第07章 输入输出系统 > 7.3 I/O 方式 > 7.3.1 程序查询方式",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_02"
+    ],
+    "mapping_basis": "对应教材7.3.1节，涵盖程序查询方式的工作原理、控制流程（预置参数->CPU轮询读取状态寄存器Ready位->数据传送）；CPU处于“踏步”等待状态、利用率极低的缺陷；程序查询方式下的传输速率与CPU开销定量计算。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握程序查询方式流程图与CPU利用率损失分析。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C07_S07",
+    "textbook_section_path": "第07章 输入输出系统 > 7.3 I/O 方式 > 7.3.2 程序中断方式（概念、工作流程、多重中断与中断屏蔽技术）",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_02"
+    ],
+    "mapping_basis": "对应教材7.3.2节，涵盖程序中断的基本概念、中断请求与判优（硬件排队器链式查询、软件查询）；中断响应条件（CPU处于开中断状态、当前指令执行周期末尾）；中断隐指令的三大硬件动作（关中断、保存断点PC和PSW、引出向量入口地址）；中断向量、向量地址与中断向量表的映射关系；中断服务程序执行步骤（保护现场、开中断、设备服务、关中断、恢复现场、开中断并中断返回）；多重中断（中断嵌套）实现条件；中断处理优先级与响应优先级的区别；中断屏蔽字（Mask）设计推导与中断嵌套处理时序分析。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研每年必考大题核心：中断判优排队器、向量中断流程与中断屏蔽字时序推演。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C07_S08",
+    "textbook_section_path": "第07章 输入输出系统 > 7.3 I/O 方式 > 7.3.3 DMA 方式（特点、控制器组成、传送方式、传送过程与中断方式对比）",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_02"
+    ],
+    "mapping_basis": "对应教材7.3.3节，涵盖DMA（直接内存访问）方式的本质特点（硬件主控、以数据块为传送单位、主存与外设直接交换）；DMA控制器组成（主存地址计数器AR、传送长度计数器WC、数据缓冲寄存器BR、DMA请求触发器、中断机构）；DMA三大传送方式（停止CPU访存、周期挪用/周期窃取、DMA与CPU交替访存）；DMA传送四阶段过程（预处理、数据传送、后处理向CPU发中断请求）；DMA方式与中断方式的全维度系统对比（数据单位、CPU干预时机、响应时机、异常响应能力等）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408高频大题：周期挪用总线争用时钟计算、DMA与中断方式本质差异对比。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C07_S09",
+    "textbook_section_path": "第07章 输入输出系统 > 7.3 I/O 方式 > 7.3.4-7.3.5 本节习题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_02"
+    ],
+    "mapping_basis": "对应教材7.3.4选择题40余题与历年统考综合大题及7.3.5超详答案解析，涵盖多重中断屏蔽字设计、中断时序分析、查询/中断/DMA数据传输率与CPU占用率综合大题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "I/O方式大题真题核心演练。"
+  },
+  {
+    "textbook_section_id": "TB_408_CO_C07_S10",
+    "textbook_section_path": "第07章 输入输出系统 > 7.4 本章小结及 7.5 常见问题和易混淆知识点",
+    "mapped_scope_ids": [
+      "SCOPE_408_CO_06_02"
+    ],
+    "mapping_basis": "对应教材7.4与7.5节，深度辨析三大核心问题：①在开中断情况下CPU检测到中断是否立即响应（需区分指令周期执行阶段与DMA周期窃取）；②向量中断、中断向量、向量地址三个概念的本质关系（向量地址是向量表的物理地址，中断向量是服务程序入口地址）；③程序中断和调用子程序的本质区别（随机异步触发vs程序主动调用、运行模式与栈帧差异）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "输入输出系统核心概念深度辨析。"
+  }
+]

@@ -1,0 +1,424 @@
+[
+  {
+    "batch_id": "BATCH_TB_408_DS_C01A",
+    "included_sections": [
+      "TB_408_DS_C01_S01",
+      "TB_408_DS_C01_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_01_01"
+    ],
+    "estimated_scope": "第01章第一部分：数据结构的基本概念与术语（数据、数据元素、数据项、数据对象、ADT）；数据结构三要素：逻辑结构（集合/线性/树形/图状）、存储结构（顺序/链式/索引/散列）与数据运算；1.1节试题精选与解析。",
+    "notes": "约140行（L7-L140），夯实数据结构基本概念与逻辑/存储结构的区别联系。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C01B",
+    "included_sections": [
+      "TB_408_DS_C01_S03",
+      "TB_408_DS_C01_S04",
+      "TB_408_DS_C01_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_01_02",
+      "SCOPE_408_DS_01_01"
+    ],
+    "estimated_scope": "第01章第二部分：算法的定义、五大特性与四大设计目标；算法效率度量：渐近时间复杂度大O表示法、加法与乘法规则、最好/最坏/平均时间复杂度、空间复杂度；1.2节试题精选与解析；1.3归纳总结与思维拓展。",
+    "notes": "约315行（L141-L455），算法效率度量核心基石，重点掌握循环与递归时间复杂度级数求和与递推方程求解。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C02A",
+    "included_sections": [
+      "TB_408_DS_C02_S01",
+      "TB_408_DS_C02_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_02_01",
+      "SCOPE_408_DS_02_02"
+    ],
+    "estimated_scope": "第02章第一部分：线性表的定义与逻辑特性（有限序列、前驱后继）；线性表的基本抽象操作定义（InitList、Length、LocateElem、GetElem、ListInsert、ListDelete等）；2.1节试题精选与答案解析。",
+    "notes": "约110行（L1-L108），线性表抽象数据类型与通用操作接口。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C02B",
+    "included_sections": [
+      "TB_408_DS_C02_S03",
+      "TB_408_DS_C02_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_02_01"
+    ],
+    "estimated_scope": "第02章第二部分：顺序表的定义、物理实现、地址计算与随机存取特性；静态分配与动态分配实现；顺序表按位查找、按值查找、插入与删除操作算法代码及平均移动次数推导；2.2节顺序表选择题精选与解析。",
+    "notes": "约340行（L109-L449），顺序存储理论与基础操作复杂度推导。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C02C",
+    "included_sections": [
+      "TB_408_DS_C02_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_02_03",
+      "SCOPE_408_DS_02_01"
+    ],
+    "estimated_scope": "第02章第三部分：顺序表综合应用大题与算法设计超详解析（涵盖14道经典大题：删除极值、原地逆置、删除重复、有序表合并、循环左移p位、求两序列中位数、寻找主元素、未出现最小正整数、三元组最小距离等）。",
+    "notes": "约465行（L450-L913），408算法大题母题核心批次，重点提取双指针、三步翻转与时空折中算法技巧。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C02D",
+    "included_sections": [
+      "TB_408_DS_C02_S06",
+      "TB_408_DS_C02_S07"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_02_02",
+      "SCOPE_408_DS_02_01"
+    ],
+    "estimated_scope": "第02章第四部分：链式存储体系：单链表定义、头指针与头结点作用；头插法与尾插法建表；单链表查找/插入/删除指针修改；双链表（prior与next）；循环单链表与循环双链表；静态链表（游标模拟）；顺序表与链表全维度比较；2.3节选择题解析。",
+    "notes": "约590行（L914-L1506），链式存储核心理论、指针操作时序与两种物理结构对比。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C02E",
+    "included_sections": [
+      "TB_408_DS_C02_S08",
+      "TB_408_DS_C02_S09"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_02_03",
+      "SCOPE_408_DS_02_02"
+    ],
+    "estimated_scope": "第02章第五部分：链表综合应用大题与经典算法设计超详解析（递归删除、就地逆置、链表排序、双指针求倒数第k结点、公共后缀、绝对值去重、判断环与求环入口、链表交叉重排等）；2.4全章归纳总结与思维拓展。",
+    "notes": "约870行（L1507-L2377），408真题算法高频题组与链表解题范式总结。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C03A",
+    "included_sections": [
+      "TB_408_DS_C03_S01",
+      "TB_408_DS_C03_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_03_01"
+    ],
+    "estimated_scope": "第03章第一部分：栈的定义（LIFO）、合法出栈序列与卡特兰数公式推演；顺序栈实现（栈顶指针top约定、进栈出栈、栈满栈空条件）；共享栈（top1+1==top2判满）；链栈结构与操作；3.1节试题精选与解析。",
+    "notes": "约610行（L1-L610），栈的受限特性、出栈序列合法性判定与存储结构。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C03B",
+    "included_sections": [
+      "TB_408_DS_C03_S03",
+      "TB_408_DS_C03_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_03_01"
+    ],
+    "estimated_scope": "第03章第二部分：队列的定义（FIFO）；顺序队列假溢出与循环队列模运算；区分循环队列队满队空的三大方案（牺牲单元、size变量、tag标志）；链队列入出队；双端队列（输入/输出受限序列推演）；3.2节试题精选与解析。",
+    "notes": "约640行（L611-L1250），循环队列指针换算与双端队列输出序列推演。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C03C",
+    "included_sections": [
+      "TB_408_DS_C03_S05",
+      "TB_408_DS_C03_S06"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_03_02"
+    ],
+    "estimated_scope": "第03章第三部分：栈与队列典型应用：栈在括号匹配检验中的应用；栈在表达式求值中的应用（中缀转后缀RPN规则、算符栈推演、后缀计算）；栈在递归中的应用（函数栈帧与递归树）；队列在层次遍历与系统资源调度（CPU进程队列、打印缓冲区）中的应用；3.3节试题与解析。",
+    "notes": "约390行（L1251-L1638），表达式转换与递归工作栈高频考点。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C03D",
+    "included_sections": [
+      "TB_408_DS_C03_S07",
+      "TB_408_DS_C03_S08",
+      "TB_408_DS_C03_S09"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_03_03",
+      "SCOPE_408_DS_03_01"
+    ],
+    "estimated_scope": "第03章第四部分：多维数组行/列优先基地址公式；特殊矩阵压缩存储映射推导（对称矩阵、三角矩阵、三对角带状矩阵）；稀疏矩阵三元组表与十字链表；3.4节试题解析与3.5全章归纳总结拓展。",
+    "notes": "约365行（L1639-L2004），矩阵压缩存储下标映射公式与全章方法论总结。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C04A",
+    "included_sections": [
+      "TB_408_DS_C04_S01",
+      "TB_408_DS_C04_S02",
+      "TB_408_DS_C04_S03",
+      "TB_408_DS_C04_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_06_04"
+    ],
+    "estimated_scope": "第04章全章：串的定义、基本操作与存储结构（定长顺序/堆分配/块链）；简单模式匹配算法（BF）；KMP 模式匹配算法基本原理、前缀后缀与部分匹配值 PM 表关系、next 数组推导、nextval 数组优化算法；4.2节试题精选与解析；全章归纳总结与思维拓展。",
+    "notes": "约620行（L1-L619），模式匹配全流程贯通，重点提取 next 与 nextval 数组手算规则。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C05A",
+    "included_sections": [
+      "TB_408_DS_C05_S01",
+      "TB_408_DS_C05_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_04_01"
+    ],
+    "estimated_scope": "第05章第一部分：树的递归定义与基本术语（度、祖先/子孙、深度/高度、有序/无序树、森林）；树的四大主要性质（结点数与度数关系、第i层最大结点数、高h最大结点数、m叉树最小高度）；5.1节试题精选与解析。",
+    "notes": "约255行（L1-L254），树的理论基础与度数方程计算。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C05B",
+    "included_sections": [
+      "TB_408_DS_C05_S03",
+      "TB_408_DS_C05_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_04_01"
+    ],
+    "estimated_scope": "第05章第二部分：二叉树的定义与五大基本性质（$n_0 = n_2 + 1$ 严格证明、完全二叉树编号与高度关系）；满二叉树与完全二叉树特征；二叉树顺序存储与二叉链表存储（空链域 $n+1$ 个）；5.2节试题精选与解析。",
+    "notes": "约490行（L255-L742），二叉树性质计算与存储结构。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C05C",
+    "included_sections": [
+      "TB_408_DS_C05_S05",
+      "TB_408_DS_C05_S06"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_04_02"
+    ],
+    "estimated_scope": "第05章第三部分：二叉树遍历：先序、中序、后序递归与非递归算法、层次遍历；由遍历序列唯一重构二叉树（必须含中序）；线索二叉树概念、tag 标志位、中序线索化算法与前驱后继寻找；5.3节选择题精选与解析。",
+    "notes": "约540行（L743-L1283），四大遍历机制、序列重构与线索二叉树构造。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C05D",
+    "included_sections": [
+      "TB_408_DS_C05_S07"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_04_02"
+    ],
+    "estimated_scope": "第05章第四部分：二叉树遍历综合应用大题与经典算法设计超详解答（后序非递归、树高度宽度、完全二叉树判定、交换左右子树、查找第k个结点、最近公共祖先LCA、带权路径长度WPL、中序带括号输出等20余道大题）。",
+    "notes": "约865行（L1284-L2148），408树遍历算法大题真题集，重点提取递归遍历与队列层次遍历代码框架。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C05E",
+    "included_sections": [
+      "TB_408_DS_C05_S08",
+      "TB_408_DS_C05_S09"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_04_03"
+    ],
+    "estimated_scope": "第05章第五部分：树的三种存储结构（双亲、孩子、孩子兄弟表示法）；森林与二叉树的相互转换（左孩子右兄弟）；树与森林的先根/后根/先序/后序遍历及其与二叉树遍历的对应映射关系；5.4节试题精选与解析。",
+    "notes": "约480行（L2149-L2628），树与森林转换规则与遍历对应关系。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C05F",
+    "included_sections": [
+      "TB_408_DS_C05_S10",
+      "TB_408_DS_C05_S11",
+      "TB_408_DS_C05_S12"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_04_04",
+      "SCOPE_408_DS_04_01"
+    ],
+    "estimated_scope": "第05章第六部分：哈夫曼树概念、带权路径长度 WPL、构造算法、前缀编码树与解码；并查集基本概念、双亲表示数组、Find与Union操作、按秩合并与路径压缩优化；5.5试题解析；5.6全章归纳总结拓展。",
+    "notes": "约570行（L2629-L3195），哈夫曼编码、并查集优化与树全章知识图谱。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C06A",
+    "included_sections": [
+      "TB_408_DS_C06_S01",
+      "TB_408_DS_C06_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_05_01"
+    ],
+    "estimated_scope": "第06章第一部分：图的定义与基本术语（顶点集非空、边集、有向/无向图、简单/多重图、完全图、子图、连通分量与强连通分量、度/入度/出度握手定理、路径与回路、网）；6.1节试题精选与解析。",
+    "notes": "约300行（L1-L300），图核心概念判定与极值边数计算。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C06B",
+    "included_sections": [
+      "TB_408_DS_C06_S03",
+      "TB_408_DS_C06_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_05_01"
+    ],
+    "estimated_scope": "第06章第二部分：图四大存储结构：邻接矩阵法（对称性/时空特性/矩阵幂 $A^n$ 含义）、邻接表法（顶点表与边表/稀疏图适用）、十字链表法（有向图）、邻接多重表法（无向图）；图基本操作实现；6.2节试题精选与解析。",
+    "notes": "约595行（L301-L896），图存储结构设计、时空对比与基本操作。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C06C",
+    "included_sections": [
+      "TB_408_DS_C06_S05",
+      "TB_408_DS_C06_S06"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_05_02"
+    ],
+    "estimated_scope": "第06章第三部分：图的遍历算法：广度优先搜索（BFS 辅助队列、单源无权最短路径、BFS生成树）；深度优先搜索（DFS 递归与栈、DFS生成树/生成森林）；图的连通性分析与回路判定；6.3节试题精选与解析。",
+    "notes": "约500行（L897-L1394），BFS与DFS算法过程推导与连通性判定。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C06D",
+    "included_sections": [
+      "TB_408_DS_C06_S07",
+      "TB_408_DS_C06_S08"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_05_03",
+      "SCOPE_408_DS_04_04"
+    ],
+    "estimated_scope": "第06章第四部分：图核心应用：最小生成树（Prim加点法 vs Kruskal加边法与并查集）；最短路径（Dijkstra非负贪心单源 vs Floyd动态规划多源）；DAG描述表达式；拓扑排序（AOV网与判环）；关键路径（AOE网、事件与活动时间参数、关键活动判定）；6.4选择题解析。",
+    "notes": "约770行（L1395-L2163），四大图经典算法机制与选择题真题演练。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C06E",
+    "included_sections": [
+      "TB_408_DS_C06_S09",
+      "TB_408_DS_C06_S10"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_05_03",
+      "SCOPE_408_DS_05_01",
+      "SCOPE_408_DS_05_02"
+    ],
+    "estimated_scope": "第06章第五部分：图应用综合大题与算法设计超详解析（Floyd 迭代推演、AOE网关键路径计算、DAG 表达式化简、判环算法等大题）；6.5全章归纳总结与思维拓展。",
+    "notes": "约700行（L2164-L2862），图综合大题模拟推演与全章知识体系总结。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C07A",
+    "included_sections": [
+      "TB_408_DS_C07_S01",
+      "TB_408_DS_C07_S02",
+      "TB_408_DS_C07_S03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_06_01"
+    ],
+    "estimated_scope": "第07章第一部分：查找的基本概念、查找表、关键字与平均查找长度（ASL成功/失败）；顺序查找（带哨兵技巧）；折半查找（有序顺序表前提、判定树构造、成功与失败ASL手算）；分块查找（索引顺序表、最优块长推导）；7.2节试题精选与解析。",
+    "notes": "约605行（L1-L605），静态查找算法、判定树与 ASL 定量计算。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C07B",
+    "included_sections": [
+      "TB_408_DS_C07_S04",
+      "TB_408_DS_C07_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_06_02"
+    ],
+    "estimated_scope": "第07章第二部分：树形查找：二叉排序树（BST 定义、查找、插入、删除与中序单调性）；平衡二叉树（AVL 平衡因子、LL/RR/LR/RL四种旋转调整、最大高度）；红黑树（RBT 五大定义性质、黑高、插入变色与旋转修复）；7.3节试题精选与大题解析。",
+    "notes": "约1050行（L606-L1654），动态树表核心考点：BST操作、AVL平衡旋转与红黑树插入。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C07C",
+    "included_sections": [
+      "TB_408_DS_C07_S06",
+      "TB_408_DS_C07_S07"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_06_02"
+    ],
+    "estimated_scope": "第07章第三部分：B树与B+树：m阶B树定义、根与分支结点子树数和关键字数范围、B树高度极值推导、B树查找、插入分裂与删除借位合并；B+树基本概念与B树四大核心差异；7.4节试题精选与解析。",
+    "notes": "约430行（L1655-L2086），多路平衡查找树、B树操作推导与B+树对比。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C07D",
+    "included_sections": [
+      "TB_408_DS_C07_S08",
+      "TB_408_DS_C07_S09",
+      "TB_408_DS_C07_S10"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_06_03",
+      "SCOPE_408_DS_06_01",
+      "SCOPE_408_DS_06_02"
+    ],
+    "estimated_scope": "第07章第四部分：散列表（Hash表）概念与冲突；散列函数构造（直接定址、除留余数）；处理冲突的方法（开放定址法线性探测堆积现象、二次探测、伪随机；拉链法）；装填因子与查找成功/失败 ASL 计算；7.5试题解析；7.6全章归纳拓展。",
+    "notes": "约540行（L2087-L2629），散列表构造、冲突处理、ASL 计算与全章查找对比。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C08A",
+    "included_sections": [
+      "TB_408_DS_C08_S01",
+      "TB_408_DS_C08_S02",
+      "TB_408_DS_C08_S03",
+      "TB_408_DS_C08_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_07_01",
+      "SCOPE_408_DS_07_03"
+    ],
+    "estimated_scope": "第08章第一部分：排序基本概念与算法稳定性定义；三大插入排序：直接插入排序（带哨兵实现、复杂度分析）；折半插入排序（比较次数与移动次数分离）；希尔排序（缩小增量分组排序、非稳定性）；8.1与8.2节试题精选与解析。",
+    "notes": "约360行（L1-L361），排序稳定性与三大插入排序算法机理。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C08B",
+    "included_sections": [
+      "TB_408_DS_C08_S05",
+      "TB_408_DS_C08_S06"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_07_01"
+    ],
+    "estimated_scope": "第08章第二部分：两大交换排序：冒泡排序（相邻交换、提前终止、稳定性）；快速排序（分治法、Partition划分算法、递归树深度、时空复杂度最好 $O(n\\log n)$ 最坏 $O(n^2)$、非稳定性）；8.3节试题精选与综合大题解析。",
+    "notes": "约470行（L362-L834），快速排序划分过程模拟、递归树分析与算法大题。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C08C",
+    "included_sections": [
+      "TB_408_DS_C08_S07",
+      "TB_408_DS_C08_S08"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_07_02",
+      "SCOPE_408_DS_04_04"
+    ],
+    "estimated_scope": "第08章第三部分：两大选择排序：简单选择排序（比较次数固定、非稳定性）；堆排序（大根堆与小根堆定义、自底向上初始建堆 HeapAdjust、堆顶输出后下滤调整重建堆、时空性能 $O(n\\log n)$）；堆的应用（Top-K 海量数据找最小k个数、优先队列）；8.4试题与大题解析。",
+    "notes": "约485行（L835-L1321），初始建堆、筛选调整过程推演与优先队列算法大题。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C08D",
+    "included_sections": [
+      "TB_408_DS_C08_S09",
+      "TB_408_DS_C08_S10"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_07_02"
+    ],
+    "estimated_scope": "第08章第四部分：2路归并排序（分治递归合并、Merge过程、归并树、$O(n\\log n)$ 稳定排序）；基数排序（非比较多关键字、LSD/MSD、分配与收集过程、$O(d(n+r))$ 稳定排序）；计数排序超纲说明；8.5节试题精选与解析。",
+    "notes": "约390行（L1322-L1713），归并操作与基数排序分配收集模拟。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C08E",
+    "included_sections": [
+      "TB_408_DS_C08_S11",
+      "TB_408_DS_C08_S12"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_07_03",
+      "SCOPE_408_DS_07_01",
+      "SCOPE_408_DS_07_02"
+    ],
+    "estimated_scope": "第08章第五部分：各种内部排序算法全维度横向对比表格（最好/最坏/平均时空复杂度、稳定性）；过程特征识别（每趟至少一个元素归位、与初始排列无关、移动次数无关）；排序算法选型指南；8.6节试题精选与解析。",
+    "notes": "约300行（L1714-L2010），内部排序全真综合对比与历年考点辨析。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_DS_C08F",
+    "included_sections": [
+      "TB_408_DS_C08_S13",
+      "TB_408_DS_C08_S14",
+      "TB_408_DS_C08_S15"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_DS_07_03",
+      "SCOPE_408_DS_07_01",
+      "SCOPE_408_DS_07_02"
+    ],
+    "estimated_scope": "第08章第六部分：外部排序基本概念与 I/O 瓶颈；多路平衡归并；败者树原理（比较次数优化为 $\\lceil \\log_2 k \\rceil$）；置换-选择排序生成长初始归并段；最佳归并树（多路哈夫曼树最小化 I/O、严格补充虚段规则）；8.7试题解析；8.8全章归纳总结拓展。",
+    "notes": "约395行（L2011-L2406），外部排序败者树、最佳归并树补虚段与全章复盘。"
+  }
+]

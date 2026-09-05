@@ -1,0 +1,344 @@
+[
+  {
+    "batch_id": "BATCH_TB_408_CN_C01A",
+    "included_sections": [
+      "TB_408_CN_C01_S01",
+      "TB_408_CN_C01_S02",
+      "TB_408_CN_C01_S03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_01_01",
+      "SCOPE_408_CN_02_01"
+    ],
+    "estimated_scope": "第01章第一部分：计算机网络的概念、组成与功能；电路交换、报文交换与分组交换（跨章映射 02_01，存储转发机理）；网络分类（WAN/MAN/LAN/PAN）；七大性能指标（速率、带宽、吞吐量、时延公式计算、时延带宽积、RTT、利用率）。",
+    "notes": "约300行（L25-L323），全面夯实网络基础概念与性能指标公式，掌握三大数据交换方式性能对比。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C01B",
+    "included_sections": [
+      "TB_408_CN_C01_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_01_01",
+      "SCOPE_408_CN_02_01"
+    ],
+    "estimated_scope": "第01章第二部分：1.1 节配套习题精选（选择题23题与综合大题）及详细答案解析。重点考核分组交换流水线时延分析计算、时延带宽积与信道利用率计算题。",
+    "notes": "约224行（L324-L546），分组交换存储转发时延与性能指标大题专项训练。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C01C",
+    "included_sections": [
+      "TB_408_CN_C01_S05",
+      "TB_408_CN_C01_S06"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_01_02"
+    ],
+    "estimated_scope": "第01章第三部分：计算机网络分层体系结构（PDU、SDU、PCI、对等层虚通信）；协议三要素（语法/语义/时序）、接口与服务访问点SAP、面向连接/无连接服务；ISO/OSI七层参考模型与TCP/IP参考模型【2026大纲微调】对比及逐层封装解封装过程。",
+    "notes": "约260行（L547-L807），掌握对等层通信模型与各层协议数据单元传递机制。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C01D",
+    "included_sections": [
+      "TB_408_CN_C01_S07",
+      "TB_408_CN_C01_S08"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_01_01",
+      "SCOPE_408_CN_01_02"
+    ],
+    "estimated_scope": "第01章第四部分：1.2 体系结构习题精选与详细解析（38题），以及 1.3 本章小结及疑难点辨析（端到端可靠性设计哲学、端到端与点到点通信区别、传输速率与传播速率物理辨析）。",
+    "notes": "约295行（L808-L1102），体系结构真题演练与第一章核心概念深层理论辨析。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C02A",
+    "included_sections": [
+      "TB_408_CN_C02_S01",
+      "TB_408_CN_C02_S02",
+      "TB_408_CN_C02_S03"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_02_01"
+    ],
+    "estimated_scope": "第02章第一部分：通信基础基本概念（信道、单双工、码元、波特率与比特率）；信道极限容量（奈奎斯特准则无噪极限速率、香农定理有噪极限速率及分贝dB换算）；编码与调制（NRZ、曼彻斯特编码中间跳变、差分曼彻斯特、ASK/FSK/PSK/QAM调制）；2.1节习题精选与解析。",
+    "notes": "约450行（L27-L478），通信理论计算核心批次，提取极限速率综合取小计算与曼彻斯特波形。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C02B",
+    "included_sections": [
+      "TB_408_CN_C02_S04",
+      "TB_408_CN_C02_S05",
+      "TB_408_CN_C02_S06",
+      "TB_408_CN_C02_S07",
+      "TB_408_CN_C02_S08"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_02_01",
+      "SCOPE_408_CN_02_02"
+    ],
+    "estimated_scope": "第02章第二部分：传输介质（双绞线/同轴电缆/光纤全反射/无线介质）；物理层接口四大特性（机械/电气/功能/规程特性）；物理层设备（中继器5-4-3规则、集线器共享冲突域与广播域）；2.2与2.3习题解析及 2.4 疑难点（介质属性、基带/频带/宽带传输、香农与奈氏区别、信噪比dB）。",
+    "notes": "约292行（L479-L770），接口特性辨析与集线器冲突域/广播域特性闭环。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C03A",
+    "included_sections": [
+      "TB_408_CN_C03_S01",
+      "TB_408_CN_C03_S02",
+      "TB_408_CN_C03_S03",
+      "TB_408_CN_C03_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_03_01",
+      "SCOPE_408_CN_03_02"
+    ],
+    "estimated_scope": "第03章第一部分：数据链路层功能与服务模型（无确认无连接等）；组帧四种方法（字符计数法、字符填充法、零比特填充法“5个1加0”、违规编码法）；3.1与3.2节配套习题解析（已标明排除大纲删除的HDLC协议）。",
+    "notes": "约200行（L45-L245），组帧与透明传输核心技术，掌握零比特填充法推导细节。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C03B",
+    "included_sections": [
+      "TB_408_CN_C03_S05",
+      "TB_408_CN_C03_S06"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_03_01"
+    ],
+    "estimated_scope": "第03章第二部分：差错控制机制：奇偶校验码；循环冗余码（CRC生成多项式、模2除法求FCS帧检验序列、接收端余数校验）；纠错编码（海明码不等式 $2^k \\ge n+k+1$、校验位分布、异或校验方程与纠错定位）；3.3节配套习题解析。",
+    "notes": "约265行（L246-L507），408大题高频计算母题：CRC模2除法步骤与海明码校验位推导。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C03C",
+    "included_sections": [
+      "TB_408_CN_C03_S07",
+      "TB_408_CN_C03_S08"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_03_02"
+    ],
+    "estimated_scope": "第03章第三部分：流量控制与滑动窗口机制：停止-等待协议（超时重传）；后退N帧协议（GBN，累积确认、发送窗口上限 $2^n-1$、接收窗口1、失序丢弃重传）；选择重传协议（SR，逐帧确认、接收缓冲、$W_t+W_r \\le 2^n$）；信道利用率与吞吐量计算；3.4节习题解析。",
+    "notes": "约520行（L508-L1028），滑动窗口母题库，掌握帧序号与窗口大小约束及利用率计算。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C03D",
+    "included_sections": [
+      "TB_408_CN_C03_S09",
+      "TB_408_CN_C03_S10",
+      "TB_408_CN_C03_S11"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_03_03"
+    ],
+    "estimated_scope": "第03章第四部分：信道划分（FDM、TDM、WDM、CDMA码片正交解码内积计算）；随机访问（ALOHA、CSMA、CSMA/CD争用期 $2\\tau$ 与最小帧长公式、二进制指数退避算法；CSMA/CA与RTS/CTS）；轮询访问（令牌传递）；3.5节习题解析。",
+    "notes": "约335行（L1029-L1363），MAC协议综合批次，重点提取CDMA正交向量计算与CSMA/CD退避算法。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C03E",
+    "included_sections": [
+      "TB_408_CN_C03_S12",
+      "TB_408_CN_C03_S13"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_03_04"
+    ],
+    "estimated_scope": "第03章第五部分：局域网技术（IEEE 802标准、以太网MAC帧格式与不可靠服务）；IEEE 802.11无线局域网（BSS/ESS/AP、802.11帧首部4地址结构与转发时序）；虚拟局域网（VLAN划分、802.1Q帧标签Tag、隔离广播域，对齐考纲笔误VIAN）；3.6节超大规模习题解析。",
+    "notes": "约845行（L1364-L2206），局域网核心技术，重点提取802.11四地址帧转发过程与VLAN跨交换机传输。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C03F",
+    "included_sections": [
+      "TB_408_CN_C03_S14",
+      "TB_408_CN_C03_S15"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_03_04"
+    ],
+    "estimated_scope": "第03章第六部分：广域网基本概念与通信子网；点对点协议（PPP三大构件LCP/NCP/IP封装、帧格式、字节填充与零比特填充透明传输、无序号无确认不可靠服务）；3.7节配套习题解析。",
+    "notes": "约170行（L2207-L2376），掌握PPP点对点协议组成与字节/零比特填充透明传输机制。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C03G",
+    "included_sections": [
+      "TB_408_CN_C03_S17",
+      "TB_408_CN_C03_S18",
+      "TB_408_CN_C03_S19"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_03_04",
+      "SCOPE_408_CN_03_02",
+      "SCOPE_408_CN_03_03"
+    ],
+    "estimated_scope": "第03章第七部分：以太网交换机（工作原理、全双工无冲突、自学习算法建立MAC表、老化时间、直通与存储转发）；共享以太网对比；3.8节习题解析（已安全剔除超纲S16网桥）；3.9本章疑难点（ARQ窗口限制证明、PPP不可靠原因、以太网争用期与百兆以太网参数调整）。",
+    "notes": "约320行（L2385-L2704，排除L2379-L2384），交换机自学习大题模拟推演与全章理论总结。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C04A",
+    "included_sections": [
+      "TB_408_CN_C04_S01",
+      "TB_408_CN_C04_S02"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_04_01"
+    ],
+    "estimated_scope": "第04章第一部分：网络层功能（异构互联、路由器）；路由选择（控制平面）与分组转发（数据平面）分离；虚电路服务与数据报服务对比；软件定义网络（SDN架构、集中控制器、OpenFlow接口）；拥塞控制（开环/闭环）；4.1节配套习题解析。",
+    "notes": "约310行（L30-L338），网络层功能框架与SDN控制平面/数据平面分离考点。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C04B",
+    "included_sections": [
+      "TB_408_CN_C04_S03",
+      "TB_408_CN_C04_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_04_02"
+    ],
+    "estimated_scope": "第04章第二部分：IPv4 核心正文：IPv4数据报格式（首部各字段与分片片偏移计算）；分类IP地址与特殊私有IP；网络地址转换（NAT/NAPT转换表）；查表转发过程；网络层配套协议：ARP地址解析协议（工作流程/ARP表）、DHCP动态主机配置协议（四步交互）、ICMP网际控制报文协议（5种差错报文、Ping/Traceroute原理）。",
+    "notes": "约540行（L339-L876），408网络层大题理论基石，重点提取分片偏移行计算、NAT转换表与ARP跨网段解析。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C04C",
+    "included_sections": [
+      "TB_408_CN_C04_S05"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_04_02"
+    ],
+    "estimated_scope": "第04章第三部分：4.2 IPv4 配套超大规模习题精选（选择题79题与历年真题综合大题）及超详答案解析。全面考核子网划分与子网掩码、CIDR无分类编址路由聚合最长前缀匹配查表、IP分片定量推算与NAT综合大题。",
+    "notes": "约910行（L877-L1787），408网络层每年必考压轴大题的核心母题库集中训练。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C04D",
+    "included_sections": [
+      "TB_408_CN_C04_S06",
+      "TB_408_CN_C04_S07"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_04_03"
+    ],
+    "estimated_scope": "第04章第四部分：IPv6主要特点（128位地址、固定40B基本首部、取消校验和加速转发）；IPv6地址冒号十六进制表示与零压缩法；IPv4向IPv6过渡技术（双协议栈技术、隧道封装技术）；4.3节配套习题解析。",
+    "notes": "约190行（L1788-L1979），IPv6固定首部优势与地址压缩表示规则。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C04E",
+    "included_sections": [
+      "TB_408_CN_C04_S08",
+      "TB_408_CN_C04_S09",
+      "TB_408_CN_C04_S10"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_04_04",
+      "SCOPE_408_CN_04_01"
+    ],
+    "estimated_scope": "第04章第五部分：路由算法（静态/动态、距离向量DV与Bellman-Ford方程慢收敛问题、链路状态LS与Dijkstra最短路径树）；分层路由自治系统AS；三大因特网路由协议：RIP（距离向量、UDP 520、15跳限制）、OSPF（链路状态、IP 89、洪泛更新、分区分层）、BGP-4（路径向量、TCP 179）；4.4节配套习题解析。",
+    "notes": "约750行（L1980-L2732），路由算法推导与三大动态路由协议跨层封装横向对比。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C04F",
+    "included_sections": [
+      "TB_408_CN_C04_S11",
+      "TB_408_CN_C04_S12",
+      "TB_408_CN_C04_S13",
+      "TB_408_CN_C04_S14"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_04_03"
+    ],
+    "estimated_scope": "第04章第六部分：IP多播（D类地址、以太网硬件多播MAC映射低23位与5位多义性、IGMP组管理协议）；移动IP（本地代理/外地代理/转交地址CoA、注册与通信转发过程、三角路由问题与隧道封装）；4.5与4.6节配套习题解析。",
+    "notes": "约170行（L2733-L2903），掌握多播MAC映射歧义分析与移动IP漫游数据转发。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C04G",
+    "included_sections": [
+      "TB_408_CN_C04_S15",
+      "TB_408_CN_C04_S16",
+      "TB_408_CN_C04_S17"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_04_04",
+      "SCOPE_408_CN_04_01",
+      "SCOPE_408_CN_04_02"
+    ],
+    "estimated_scope": "第04章第七部分：网络层设备：冲突域与广播域设备隔离能力对比；路由器物理组成（路由选择/控制平面、分组交换/数据平面、输入/输出端口处理队列）；路由表与转发表生成与查表转发；4.7节习题解析；4.8节疑难点（尽最大努力交付5大内涵、ARP代理响应、查表下一跳与MAC重封、三层实现本质）。",
+    "notes": "约317行（L2904-L3221），路由器软硬件结构与网络层全体系疑难深度复盘。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C05A",
+    "included_sections": [
+      "TB_408_CN_C05_S01",
+      "TB_408_CN_C05_S02",
+      "TB_408_CN_C05_S03",
+      "TB_408_CN_C05_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_05_01"
+    ],
+    "estimated_scope": "第05章第一部分：传输层服务（应用进程间端到端逻辑通信、复用与分用、端口号熟知/登记/临时划分、套接字Socket模型）；UDP协议（特点：无连接/尽最大努力/面向报文/首部8B；UDP数据报格式；12B伪首部二进制反码求和检验算法）；5.1与5.2节配套习题解析。",
+    "notes": "约435行（L22-L456），传输层端口寻址模型与UDP轻量无连接服务全套机制。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C05B",
+    "included_sections": [
+      "TB_408_CN_C05_S05",
+      "TB_408_CN_C05_S06",
+      "TB_408_CN_C05_S07"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_05_02"
+    ],
+    "estimated_scope": "第05章第二部分：TCP 核心正文：TCP特点（面向连接、全双工、面向字节流）；TCP报文段格式（序号seq、确认号ack、数据偏移、6大控制位SYN/ACK/FIN/RST/PSH/URG、窗口rwnd）；TCP连接管理（三次握手SYN消耗序号、四次挥手FIN、TIME_WAIT 2MSL意义）；TCP滑动窗口流量控制（rwnd、持续计时器零窗口探测）；TCP拥塞控制四大算法（慢开始、拥塞避免、快重传收到3个冗余ACK、快恢复、拥塞窗口cwnd与ssthresh动态曲线）。",
+    "notes": "约324行（L457-L780），408每年必考大题核心：TCP连接状态机演化与拥塞控制演化曲线推导。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C05C",
+    "included_sections": [
+      "TB_408_CN_C05_S08",
+      "TB_408_CN_C05_S09"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_05_02"
+    ],
+    "estimated_scope": "第05章第三部分：5.3 TCP 配套超大规模习题精选（选择题61题与历年真题综合大题）及详细答案解析；5.4 本章小结及疑难点辨析（MSS设置影响、TCP的GBN/SR混合机制与SACK、超时与3冗余ACK拥塞严重度差异、两次握手死锁成因、初始序号随机化、底层无差错时TCP不可替代性）。",
+    "notes": "约635行（L781-L1415），TCP综合算法考研真题强化训练与传输层理论深度总结。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C06A",
+    "included_sections": [
+      "TB_408_CN_C06_S01",
+      "TB_408_CN_C06_S02",
+      "TB_408_CN_C06_S03",
+      "TB_408_CN_C06_S04"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_06_01"
+    ],
+    "estimated_scope": "第06章第一部分：网络应用两大模型：客户/服务器（C/S）模型与对等（P2P）模型优缺点对比；域名系统DNS（层次域名空间顶级/二级、四类域名服务器根/顶级/权限/本地、递归查询与迭代查询时序推导、DNS缓存、UDP 53端口）；6.1与6.2节配套习题解析。",
+    "notes": "约340行（L25-L363），应用层架构模型与DNS域名解析时延计算专项。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C06B",
+    "included_sections": [
+      "TB_408_CN_C06_S05",
+      "TB_408_CN_C06_S06",
+      "TB_408_CN_C06_S07",
+      "TB_408_CN_C06_S08"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_06_02"
+    ],
+    "estimated_scope": "第06章第二部分：文件传输协议 FTP（控制连接熟知端口21与数据连接端口20/动态、PORT主动与PASV被动模式）；电子邮件系统（三大构件UA/邮件服务器/协议、MIME多用途扩展、SMTP推模式TCP 25、POP3拉模式TCP 110、IMAP联机协议）；6.3与6.4节配套习题解析。",
+    "notes": "约460行（L364-L826），经典应用协议交互机制、端口对应与报文格式。"
+  },
+  {
+    "batch_id": "BATCH_TB_408_CN_C06C",
+    "included_sections": [
+      "TB_408_CN_C06_S09",
+      "TB_408_CN_C06_S10",
+      "TB_408_CN_C06_S11"
+    ],
+    "relevant_scope_ids": [
+      "SCOPE_408_CN_06_02",
+      "SCOPE_408_CN_06_01"
+    ],
+    "estimated_scope": "第06章第三部分：万维网与 HTTP协议（URL、HTML、无状态与Cookie会话跟踪；非持久连接HTTP/1.0与持久连接HTTP/1.1流水线RTT时延计算；报文结构方法GET/POST与状态码1xx~5xx）；6.5节习题解析；6.6本章小结及疑难点（客户/服务端口、互联网vs万维网、HTTP持续连接与cwnd、以太网主机刚开机访问Web站点的端到端全协议栈综合全流程分析）。",
+    "notes": "约450行（L827-L1275），408跨层压轴综合大题母题：从开机DHCP、ARP、DNS、TCP到HTTP完整时延推演。"
+  }
+]

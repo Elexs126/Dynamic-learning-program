@@ -1,0 +1,844 @@
+[
+  {
+    "textbook_section_id": "TB_408_DS_C01_S01",
+    "textbook_section_path": "第01章 绪论 > 1.1 数据结构的基本概念 > 1.1.1-1.1.2 基本概念、术语与三要素",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_01_01"
+    ],
+    "mapping_basis": "对应教材1.1.1-1.1.2节，涵盖数据、数据项、数据元素、数据对象、数据结构定义；数据的三要素：逻辑结构（集合、线性结构、树形结构、图状结构/网状结构）、存储结构/物理结构（顺序存储、链式存储、索引存储、散列存储）及其优缺点对比；数据的运算定义与实现；抽象数据类型（ADT）的概念与三元组定义。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "完整对应考纲数据结构第一部分（绪论），掌握逻辑结构独立于计算机而存储结构是其在计算机中的物理实现的辨析。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C01_S02",
+    "textbook_section_path": "第01章 绪论 > 1.1 数据结构的基本概念 > 1.1.3-1.1.4 试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_01_01"
+    ],
+    "mapping_basis": "对应教材1.1.3单项选择题与1.1.4详细答案解析，重点考查存储结构与逻辑结构的关系、循环队列/二叉树/哈希表的逻辑与存储分类判定、ADT定义。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "基础概念专项训练习题，巩固 01_01 考点。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C01_S03",
+    "textbook_section_path": "第01章 绪论 > 1.2 算法和算法评价 > 1.2.1-1.2.2 算法概念与效率度量（时空复杂度）",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_01_02"
+    ],
+    "mapping_basis": "对应教材1.2.1-1.2.2节，涵盖算法的定义、五大核心特征（有穷性、确定性、可行性、输入、输出）与优秀算法的四个目标（正确性、可读性、健壮性、高效率与低存储量需求）；算法效率的度量：时间复杂度、渐近符号（大O表示法）、加法规则与乘法规则、最好/最坏/平均时间复杂度；空间复杂度概念与原地工作（In-place）定义。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研每年必考选择题与算法大题时空性能分析的理论基石。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C01_S04",
+    "textbook_section_path": "第01章 绪论 > 1.2 算法和算法评价 > 1.2.3-1.2.4 试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_01_02"
+    ],
+    "mapping_basis": "对应教材1.2.3选择题与综合分析题及1.2.4答案解析，涵盖单层循环、嵌套循环、对数循环、递归函数时间复杂度推演与主定理分析。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "循环与递归时空复杂度分析专项演练，重点训练基本操作执行次数的级数求和与递推关系求解。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C01_S05",
+    "textbook_section_path": "第01章 绪论 > 1.3 归纳总结与思维拓展",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_01_01",
+      "SCOPE_408_DS_01_02"
+    ],
+    "mapping_basis": "对应教材归纳总结与思维拓展，系统归纳数据结构三要素逻辑图谱、常见渐近时间复杂度阶数排序（$O(1) < O(\\log n) < O(n) < O(n \\log n) < O(n^2) < O(2^n) < O(n!)$）以及递归树复杂度推导技巧。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "第一章核心理论复盘与宏观方法总结，横跨 01_01 与 01_02。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C02_S01",
+    "textbook_section_path": "第02章 线性表 > 2.1 线性表的定义和基本操作 > 2.1.1-2.1.2 线性表的定义与基本操作",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_02_01",
+      "SCOPE_408_DS_02_02"
+    ],
+    "mapping_basis": "对应教材2.1.1-2.1.2节，涵盖线性表的逻辑特性（有限序列、除首尾外每个元素有且仅有一个直接前驱和直接后继）；线性表的基本抽象操作定义：InitList、Length、LocateElem、GetElem、ListInsert、ListDelete、PrintList、Empty、DestroyList。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "线性表抽象数据类型，为顺序存储（02_01）与链式存储（02_02）提供统一操作接口定义。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C02_S02",
+    "textbook_section_path": "第02章 线性表 > 2.1 线性表的定义和基本操作 > 2.1.3-2.1.4 试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_02_01",
+      "SCOPE_408_DS_02_02"
+    ],
+    "mapping_basis": "对应教材2.1.3单项选择题与2.1.4答案解析，考查线性表的逻辑特性判定、基本操作的前置条件与逻辑结构独立性。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "线性表概念基础练习。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C02_S03",
+    "textbook_section_path": "第02章 线性表 > 2.2 线性表的顺序表示 > 2.2.1-2.2.2 顺序表的定义与基本操作实现",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_02_01"
+    ],
+    "mapping_basis": "对应教材2.2.1-2.2.2节，涵盖顺序存储（数组连续存储）的物理实现、地址映射公式 $LOC(a_i) = LOC(a_1) + (i-1) \\times L$ 与随机存取（Random Access）特性；静态分配与动态分配顺序表结构体定义；插入操作（后移元素、平均移动次数 $n/2$、时间复杂度 $O(n)$）、删除操作（前移元素、平均移动次数 $(n-1)/2$、时间复杂度 $O(n)$）、按值查找（LocateElem，平均比较次数 $(n+1)/2$）与按位查找（GetElem，$O(1)$）算法代码实现。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "顺序表核心机制与复杂度推导，完全对齐考纲 02_01 顺序存储要求。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C02_S04",
+    "textbook_section_path": "第02章 线性表 > 2.2 线性表的顺序表示 > 2.2.3-2.2.4 顺序表选择题精选与解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_02_01"
+    ],
+    "mapping_basis": "对应教材2.2.3选择题部分与2.2.4选择题解析，重点考查顺序表插入/删除元素移动次数定量计算、动态扩容代价及存取效率对比。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "顺序表基础训练题组。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C02_S05",
+    "textbook_section_path": "第02章 线性表 > 2.2 线性表的顺序表示 > 2.2.3-2.2.4 顺序表综合应用大题与经典算法设计",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_02_03",
+      "SCOPE_408_DS_02_01"
+    ],
+    "mapping_basis": "对应教材2.2.3综合应用题与2.2.4超详解答（L450-L913），系统精讲 14 道经典顺序表大题：删除最小值元素、逆置数组（双指针原地逆置）、删除所有值为x的元素、有序表去重、两有序表合并为一个有序表、数组循环左移p位（三步逆置法，2010统考真题）、找两个等长升序序列的中位数（二分折半排除法，2011统考真题）、寻找多数元素/主元素（摩尔投票法，2013统考真题）、寻找未出现的最小正整数（哈希映射标记法，2018统考真题）、三元组最小距离（三指针收缩法，2020统考真题）等。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研算法题最核心高频母题源泉，体现时空折中（Trade-off）与原地算法设计思想。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C02_S06",
+    "textbook_section_path": "第02章 线性表 > 2.3 线性表的链式表示 > 2.3.1-2.3.6 链式存储结构（单/双/循环/静态链表）及与顺序表对比",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_02_02",
+      "SCOPE_408_DS_02_01"
+    ],
+    "mapping_basis": "对应教材2.3.1-2.3.6节，讲授链式存储全体系：单链表定义、头结点与头指针的区别和设置头结点的两大优势（首节点操作一致性、空表非空表处理统一）；头插法（逆序建表）与尾插法（保持原序建表）；单链表按位查找、按值查找、插入和删除结点的指针修改时序（防断链）；双链表（prior与next双指针、插入与删除四步指针修改）；循环单链表与循环双链表（判空条件 rear->next == head）；静态链表（基于结构体数组游标 cursor 模拟指针、备用链表管理）；2.3.6 顺序表与链表的系统对比（存取方式、逻辑/物理结构、查找/插入/删除效率、空间分配灵活性）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握链表基本操作的指针变换严密时序与静态链表游标分配回收机制。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C02_S07",
+    "textbook_section_path": "第02章 线性表 > 2.3 线性表的链式表示 > 2.3.7-2.3.8 链表选择题精选与解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_02_02"
+    ],
+    "mapping_basis": "对应教材2.3.7选择题部分与2.3.8选择题答案解析，重点考查双链表/循环链表指针修改先后顺序、头结点判空条件及静态链表游标推演。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "链表基础理论专项题组。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C02_S08",
+    "textbook_section_path": "第02章 线性表 > 2.3 线性表的链式表示 > 2.3.7-2.3.8 链表综合应用大题与经典算法设计",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_02_03",
+      "SCOPE_408_DS_02_02"
+    ],
+    "mapping_basis": "对应教材2.3.7综合应用题与2.3.8超详解答（长达800余行），系统剖析 20 余道经典链表大题：递归删除值为x的结点、就地逆置带头结点单链表（头插法/就地重置）、单链表递增排序、查找单链表中倒数第k个结点（快慢双指针法，2009统考真题）、两个单链表的公共后缀起始结点（双指针消除长度差法，2012统考真题）、删除绝对值相等的重复结点（空间换时间布尔数组标记法，2015统考真题）、判断单链表是否有环并求环入口结点（Floyd快慢指针相遇推导，2019统考真题）、链表前后半段重排交叉插入（找中点+逆置后半段+交替归并，2023统考真题）等。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研算法题母题集，系统训练快慢双指针、头插逆置与步长差消除等高频算法模板。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C02_S09",
+    "textbook_section_path": "第02章 线性表 > 2.4 归纳总结与思维拓展",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_02_01",
+      "SCOPE_408_DS_02_02",
+      "SCOPE_408_DS_02_03"
+    ],
+    "mapping_basis": "对应教材归纳总结与思维拓展，横向对比顺序表与链表的时间/空间权衡（存储密度、访问速度、扩容开销），总结线性表算法大题的核心解题模式（双指针法、反转法、哈希标记法、空间换时间法）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "第二章核心理论与算法策略方法总结。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C03_S01",
+    "textbook_section_path": "第03章 栈、队列和数组 > 3.1 栈 > 3.1.1-3.1.3 栈的基本概念、顺序存储（含共享栈）与链式存储",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_03_01"
+    ],
+    "mapping_basis": "对应教材3.1.1-3.1.3节，涵盖栈的定义（操作受限的后进先出 LIFO 线性表）、栈顶（Top）与栈底（Base）；合法出栈序列与卡特兰数公式 $\\frac{1}{n+1} C_{2n}^n$；顺序栈的实现：栈顶指针约定（top指向当前元素或下一个空位）、进栈出栈操作、栈满栈空条件；共享栈（两个栈底分别置于数组两端，栈满条件 `top1 + 1 == top2`，提高内存利用率）；链栈（无栈满溢出、头指针为栈顶、通常不设头结点）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "重点掌握卡特兰数出栈序列分析与共享栈判满条件。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C03_S02",
+    "textbook_section_path": "第03章 栈、队列和数组 > 3.1 栈 > 3.1.4-3.1.5 栈试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_03_01"
+    ],
+    "mapping_basis": "对应教材3.1.4选择题30余题与3.1.5详细答案解析，深度考核出栈序列合法性判定（任何时刻出栈元素不能违背LIFO）、共享栈指针变化与链栈操作细节。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "栈基础概念与出栈序列专项训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C03_S03",
+    "textbook_section_path": "第03章 栈、队列和数组 > 3.2 队列 > 3.2.1-3.2.4 队列的基本概念、顺序存储（循环队列）、链式存储与双端队列",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_03_01"
+    ],
+    "mapping_basis": "对应教材3.2.1-3.2.4节，涵盖队列的定义（操作受限的先进先出 FIFO 线性表）、队头（Front）与队尾（Rear）；顺序队列与“假溢出”现象；循环队列核心机制：模运算实现逻辑环状（`rear = (rear + 1) % MaxSize`）、区分队满与队空的三大经典方案（①牺牲一个存储单元：队空 `front == rear`，队满 `(rear + 1) % MaxSize == front`；②增设数据成员 `size` 记录元素个数；③增设 `tag` 标志位区分最后一次操作是入队还是出队）；链队列（带头结点的单链表，入队操作尾指针，出队操作头指针）；双端队列（两端均可出入队、输出受限双端队列与输入受限双端队列的合法输出序列推演）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "循环队列判满判空三种方案及双端队列合法序列分析为 408 必考高频点。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C03_S04",
+    "textbook_section_path": "第03章 栈、队列和数组 > 3.2 队列 > 3.2.5-3.2.6 队列试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_03_01"
+    ],
+    "mapping_basis": "对应教材3.2.5选择题与综合题及3.2.6答案解析，演练循环队列元素个数计算公式 `(rear - front + MaxSize) % MaxSize`、双端队列输入输出模拟与链队列出队指针修改边界。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "队列与双端队列专项题组。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C03_S05",
+    "textbook_section_path": "第03章 栈、队列和数组 > 3.3 栈和队列的应用 > 3.3.1-3.3.5 栈与队列的典型应用（括号匹配/表达式求值/递归工作栈/系统队列）",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_03_02"
+    ],
+    "mapping_basis": "对应教材3.3.1-3.3.5节，详解栈和队列的经典应用：①栈在括号匹配检验中的应用（左括号入栈、右括号匹配弹出、栈空与未配对判定）；②栈在表达式求值中的应用：中缀表达式转后缀表达式（逆波兰式 RPN）规则（算符优先级比较、括号处理与弹出条件）、中缀表达式转前缀表达式、后缀表达式基于栈的求值算法（遇到操作数压栈，遇到操作符弹出双操作数计算并压回）；③栈在递归中的应用：函数调用机制、递归工作栈与栈帧结构（参数、局部变量、返回地址）、递归到非递归的转化方法；④队列在树和图层次遍历中的应用；⑤队列在计算机操作系统资源调度中的应用（CPU进程就绪队列、打印假脱机缓冲区、页面替换缓冲FIFO）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研综合大题与选择题核心：中缀转后缀算符栈推演、后缀计算过程及递归栈深度。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C03_S06",
+    "textbook_section_path": "第03章 栈、队列和数组 > 3.3 栈和队列的应用 > 3.3.6-3.3.7 典型应用试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_03_02"
+    ],
+    "mapping_basis": "对应教材3.3.6选择题与算法综合大题及3.3.7答案解析，涵盖中缀表达式转后缀表达式模拟大题、递归调用栈空间估算与打印队列模拟。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "栈与队列应用专题训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C03_S07",
+    "textbook_section_path": "第03章 栈、队列和数组 > 3.4 数组和特殊矩阵 > 3.4.1-3.4.4 数组存储结构、特殊矩阵压缩存储与稀疏矩阵",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_03_03"
+    ],
+    "mapping_basis": "对应教材3.4.1-3.4.4节，涵盖多维数组逻辑结构与存储：行优先存储与列优先存储的元素基地址偏移计算公式 $LOC(a_{i,j}) = LOC(a_{0,0}) + (i \\times m + j) \\times L$；特殊矩阵压缩存储映射公式推导（一维数组下标从0或1开始）：①对称矩阵（仅存下三角/上三角，$k = i(i+1)/2 + j$）；②三角矩阵（上三角/下三角常数区存数组末尾）；③三对角带状矩阵（每行除首尾外有3个非零元素，行号列号与一维下标双向转换 $k = 2i + j$）；稀疏矩阵存储方式：三元组表示法（行、列、值三元组顺序表）与十字链表表示法（行指针与列指针二维网状链表，仅作概念了解）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408必考重点：特殊矩阵下标映射公式手算推导（务必注意题目下标从0还是1开始）。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C03_S08",
+    "textbook_section_path": "第03章 栈、队列和数组 > 3.4 数组和特殊矩阵 > 3.4.5-3.4.6 数组与特殊矩阵试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_03_03"
+    ],
+    "mapping_basis": "对应教材3.4.5选择题与综合应用题及3.4.6详细答案解析，深度演练三对角矩阵地址换算、对称矩阵下角标推导与稀疏矩阵三元组。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "矩阵压缩存储专项训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C03_S09",
+    "textbook_section_path": "第03章 栈、队列和数组 > 3.5 归纳总结与思维拓展",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_03_01",
+      "SCOPE_408_DS_03_02",
+      "SCOPE_408_DS_03_03"
+    ],
+    "mapping_basis": "对应教材归纳总结与思维拓展，系统梳理操作受限线性表（栈与队列）的设计哲学、双端队列操作受限变种子结构、表达式求值通用算符优先分析法以及特殊矩阵下标映射的通用代入法技巧。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "第三章核心概念与解题技巧综合复盘。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C04_S01",
+    "textbook_section_path": "第04章 串 > *4.1 串的定义和实现 > 4.1.1-4.1.3 串的定义、基本操作与存储结构",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_04"
+    ],
+    "mapping_basis": "对应教材4.1.1-4.1.3节，涵盖串的定义（零个或多个字符组成的有限序列）、子串、主串、字符位置；串的基本操作（StrAssign、StrCopy、StrCompare、StrLength、Concat、SubString）；串的三种存储结构：定长顺序存储表示、堆分配存储表示（malloc动态分配）与块链存储表示（节点存储多个字符）。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "【跨章归位】408大纲将串相关内容统一归入“六、查找 （八）字符串模式匹配”，教材4.1标有 `*`，作为模式匹配的前置基础，块链存储属于超纲细节仅作背景了解。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C04_S02",
+    "textbook_section_path": "第04章 串 > 4.2 串的模式匹配 > 4.2.1-4.2.3 简单模式匹配（BF）与 KMP 算法及其优化（next/nextval 推导）",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_04"
+    ],
+    "mapping_basis": "对应教材4.2.1-4.2.3节，深入讲授两大模式匹配算法：①简单模式匹配算法（Brute-Force朴素匹配）：双指针回溯机制、匹配失败时主串指针回退至 $i - j + 2$、最坏时间复杂度 $O(nm)$；②KMP算法（克努特-莫里斯-普拉特算法）：主串指针i不回溯、仅利用模式串内部结构滑动模式串指针j；前缀、后缀与部分匹配值表（PM表）物理含义；next数组的定义与数学递推公式推导（$next[j]$ 表示在第j个字符失配时模式串应回退到的位置）；③KMP算法进一步优化：nextval数组的推导（当 $P_j == P_{next[j]}$ 时消除无效递归比对）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研必考大题/选择题重点：手算推导给定模式串的 PM 表、next 数组与 nextval 数组。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C04_S03",
+    "textbook_section_path": "第04章 串 > 4.2 串的模式匹配 > 4.2.4-4.2.5 模式匹配试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_04"
+    ],
+    "mapping_basis": "对应教材4.2.4选择题与综合应用题及4.2.5答案解析，全面演练 BF 算法最坏比较次数、模式串 next 数组手算推导、nextval 数组优化推导与 KMP 匹配比较次数分析。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "模式匹配专项题组（历年408统考高频考题汇编）。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C04_S04",
+    "textbook_section_path": "第04章 串 > 4.3 归纳总结与思维拓展",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_04"
+    ],
+    "mapping_basis": "对应教材归纳总结与思维拓展，系统梳理 next 数组推导的直观观察法（前缀后缀最长公共元素长度）与递推代码法的双向对应，对比 BF 与 KMP 算法在最坏与平均时空性能上的本质差异。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "字符串模式匹配方法与手算技巧总结。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S01",
+    "textbook_section_path": "第05章 树与二叉树 > 5.1 树的基本概念 > 5.1.1-5.1.3 树的定义、基本术语与主要性质",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_01"
+    ],
+    "mapping_basis": "对应教材5.1.1-5.1.3节，涵盖树的递归定义；核心基本术语：结点的度与树的度、分支结点与叶子结点、孩子/双亲/兄弟/祖先/子孙、结点的层次与深度/高度、有序树与无序树、路径与路径长度、森林概念；树的四大主要性质：①树中的结点数等于所有结点的度数之和加 1；②度为 m 的树中第 i 层上至多有 $m^{i-1}$ 个结点 ($i \\ge 1$)；③高度为 h 的 m 叉树至多有 $(m^h - 1)/(m - 1)$ 个结点；④具有 n 个结点的 m 叉树的最小高度为 $\\lceil \\log_m(n(m-1)+1) \\rceil$。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握结点数、分支数、度数方程推导，408选择题高频计算点。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S02",
+    "textbook_section_path": "第05章 树与二叉树 > 5.1 树的基本概念 > 5.1.4-5.1.5 树的基本概念试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_01"
+    ],
+    "mapping_basis": "对应教材5.1.4选择题与综合题及5.1.5答案解析，重点考查树的度与结点数方程式计算、m叉树最小/最大高度计算题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "树的性质专题训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S03",
+    "textbook_section_path": "第05章 树与二叉树 > 5.2 二叉树的概念 > 5.2.1-5.2.2 二叉树的定义、主要性质与顺序/链式存储结构",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_01"
+    ],
+    "mapping_basis": "对应教材5.2.1-5.2.2节，涵盖二叉树定义（每个结点至多只有两棵子树且严格区分左子树和右子树）；特殊二叉树：满二叉树（编号1~n，叶子全在底层）、完全二叉树（若结点有右孩子则必有左孩子）、二叉排序树、平衡二叉树；二叉树五大核心性质：①非空二叉树叶子结点数等于度为2的结点数加 1（$n_0 = n_2 + 1$ 严格证明）；②第 i 层至多有 $2^{i-1}$ 个结点；③高为 h 至多有 $2^h - 1$ 个结点；④完全二叉树父子结点编号关系（结点 i 的双亲为 $\\lfloor i/2 \\rfloor$，左孩子 $2i$，右孩子 $2i+1$，结点所在的层次为 $\\lfloor \\log_2 i \\rfloor + 1$）；⑤n个结点的完全二叉树高度为 $\\lceil \\log_2(n+1) \\rceil$ 或 $\\lfloor \\log_2 n \\rfloor + 1$；二叉树的顺序存储结构（完全二叉树适合数组，普通二叉树造成空间浪费）与二叉链表存储结构（含 lchild、data、rchild，在有 n 个结点的二叉链表中有 $n+1$ 个空链域）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "$n_0 = n_2 + 1$ 公式与二叉链表空指针数 $n+1$ 是 408 必考推导结论。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S04",
+    "textbook_section_path": "第05章 树与二叉树 > 5.2 二叉树的概念 > 5.2.3-5.2.4 二叉树概念与性质试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_01"
+    ],
+    "mapping_basis": "对应教材5.2.3选择题40余题与5.2.4超详答案解析，深度考核完全二叉树性质、度数方程求解与二叉链表空指针推导。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "二叉树性质专项题组强化。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S05",
+    "textbook_section_path": "第05章 树与二叉树 > 5.3 二叉树的遍历和线索二叉树 > 5.3.1-5.3.2 二叉树先中后/层序遍历算法与线索二叉树",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_02"
+    ],
+    "mapping_basis": "对应教材5.3.1-5.3.2节，深入讲授二叉树四大遍历机制与线索化技术：①先序遍历（PreOrder: 根左右）、中序遍历（InOrder: 左根右）、后序遍历（PostOrder: 左右根）的递归算法与基于栈的非递归迭代算法；②层次遍历（LevelOrder）基于辅助队列的算法实现；③由遍历序列构造二叉树的充要条件：必须含有中序序列，结合“先序+中序”或“后序+中序”或“层序+中序”唯一确定二叉树（先序确定根、中序划分左右子树）；④线索二叉树：利用二叉链表中的 $n+1$ 个空指针存放前驱和后继指针；结点增设 ltag 与 rtag 标志位（tag=0指孩子，tag=1指线索）；中序线索二叉树的构造算法（中序遍历边遍历边线索化）；在中序线索二叉树中寻找前驱结点与后继结点的算法（无需栈支持）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握中序线索化算法、前驱后继寻找逻辑及遍历序列唯一重构二叉树。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S06",
+    "textbook_section_path": "第05章 树与二叉树 > 5.3 二叉树的遍历和线索二叉树 > 5.3.3-5.3.4 二叉树遍历与线索化选择题精选与解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_02"
+    ],
+    "mapping_basis": "对应教材5.3.3选择题部分与5.3.4选择题解析，重点考查先中后序序列还原二叉树、遍历特征判断、线索二叉树线索指针指向。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "遍历与线索化选择题精练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S07",
+    "textbook_section_path": "第05章 树与二叉树 > 5.3 二叉树的遍历和线索二叉树 > 5.3.3-5.3.4 二叉树遍历综合应用大题与经典算法设计",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_02"
+    ],
+    "mapping_basis": "对应教材5.3.3综合应用大题与5.3.4超详解答（长达860余行），系统剖析 20 余道经典树算法大题：二叉树非递归后序遍历双栈/标志法、求二叉树高度/宽度、二叉树按层次倒序输出、判断二叉树是否为完全二叉树、计算所有双分支结点个数、交换所有结点的左右子树、寻找先序遍历第k个结点、删除以x为根的子树并释放空间、打印值为x的所有祖先结点、找到两个结点的最近公共祖先（LCA）、计算带权路径长度 WPL（2014统考真题）、二叉树中序表达式带括号输出（2017统考真题）等。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研算法大题的另一核心主阵地，深入训练基于后序/先序递归与队列层次遍历的高分代码模板。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S08",
+    "textbook_section_path": "第05章 树与二叉树 > 5.4 树、森林 > 5.4.1-5.4.3 树的存储结构、树与森林及二叉树的转换与遍历对应",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_03"
+    ],
+    "mapping_basis": "对应教材5.4.1-5.4.3节，涵盖树的三种存储结构：①双亲表示法（顺序数组+parent下标，求双亲 $O(1)$，求孩子需遍历全表）；②孩子表示法（顺序表+孩子链表，求孩子方便，求双亲不便）；③孩子兄弟表示法（二叉链表表示法，firstchild 与 nextsibling 指针，实现树与二叉树的平滑映射）；森林与二叉树的转换规则（“左孩子，右兄弟”规则互逆转换）；树与森林的遍历及其与二叉树遍历的对应关系表：树的先根遍历 ↔ 森林的先序遍历 ↔ 对应二叉树的先序遍历；树的后根遍历 ↔ 森林的后序遍历 ↔ 对应二叉树的中序遍历。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408高频考点：“左孩子右兄弟”转换规律及森林后序遍历对应二叉树中序遍历的记忆映射。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S09",
+    "textbook_section_path": "第05章 树与二叉树 > 5.4 树、森林 > 5.4.4-5.4.5 树和森林试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_03"
+    ],
+    "mapping_basis": "对应教材5.4.4选择题与综合题及5.4.5详细答案解析，深度考核孩子兄弟表示法结点数判定、森林与二叉树转换后右子树为空的性质判断、遍历序列映射。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "树与森林专项训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S10",
+    "textbook_section_path": "第05章 树与二叉树 > 5.5 树与二叉树的应用 > 5.5.1-5.5.2 哈夫曼树与哈夫曼编码、并查集及其优化",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_04"
+    ],
+    "mapping_basis": "对应教材5.5.1-5.5.2节，深入讲授两大应用：①哈夫曼树（最优二叉树）：树的带权路径长度（$WPL = \\sum w_i l_i$）定义；哈夫曼树构造算法（每次合并两棵根权值最小的树）；哈夫曼树的特性（不存在度为1的结点，若有 n 个叶子结点则总共有 $2n-1$ 个结点）；哈夫曼编码（前缀编码概念、前缀编码树解码无歧义性、压缩效率计算）；②并查集（Disjoint Set）：集合等价类维护；双亲表示存储结构（数组元素负值表示根及子树大小）；Find 查根操作与 Union 合并操作；两大性能优化技术：按秩合并（Union 按子树高或节点数合并，控制树高在 $O(\\log n)$）与路径压缩（Find 递归将沿途结点的父指针直接指向根，均摊时间复杂度降为反阿克曼函数 $\\alpha(n)$）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握哈夫曼树 WPL 快速算法（所有分支结点权值之和）与并查集路径压缩操作。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S11",
+    "textbook_section_path": "第05章 树与二叉树 > 5.5 树与二叉树的应用 > 5.5.3-5.5.4 树应用试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_04"
+    ],
+    "mapping_basis": "对应教材5.5.3选择题与综合题及5.5.4答案解析，涵盖哈夫曼树 WPL 极值计算、多叉哈夫曼树补虚段、并查集手算推演。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "树的应用专项强化训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C05_S12",
+    "textbook_section_path": "第05章 树与二叉树 > 5.6 归纳总结与思维拓展",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_04_01",
+      "SCOPE_408_DS_04_02",
+      "SCOPE_408_DS_04_03",
+      "SCOPE_408_DS_04_04"
+    ],
+    "mapping_basis": "对应教材归纳总结与思维拓展，系统盘点二叉树五大性质方程组、先中后层四种遍历的递归/非递归统一框架、森林二叉树转换技巧及并查集工程应用模型。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "第五章树与二叉树全景理论架构复盘。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C06_S01",
+    "textbook_section_path": "第06章 图 > 6.1 图的基本概念 > 6.1.1 图的定义与核心术语",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_05_01"
+    ],
+    "mapping_basis": "对应教材6.1.1节，涵盖图的定义（$G=(V, E)$，顶点集 V 必非空，边集 E 可为空）；有向图（弧、弧头、弧尾）与无向图（边）；简单图与多重图；完全图（无向完全图 $n(n-1)/2$ 条边，有向完全图 $n(n-1)$ 条边）；子图与生成子图；连通图、连通分量（极大连通子图）；强连通图、强连通分量（有向图极大强连通子图）；生成树（极小连通子图，$n-1$ 条边）与生成森林；顶点的度、入度与出度（握手定理：所有顶点度数之和等于边数/弧数的2倍）；路径、路径长度、回路/环、简单路径与简单回路；带权图/网、稠密图与稀疏图；有向树。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研高频概念选择题辨析：连通分量、强连通分量、度与边数方程式推导。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C06_S02",
+    "textbook_section_path": "第06章 图 > 6.1 图的基本概念 > 6.1.2-6.1.3 图的基本概念试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_05_01"
+    ],
+    "mapping_basis": "对应教材6.1.2选择题与6.1.3详细答案解析，重点考查图连通所需的最少边数、非连通图最多边数（$C_{n-1}^2$）及强连通图最少边数（$n$ 条边环路）。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "图概念基础专项训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C06_S03",
+    "textbook_section_path": "第06章 图 > 6.2 图的存储及基本操作 > 6.2.1-6.2.5 四大存储结构（邻接矩阵、邻接表、十字链表、邻接多重表）与基本操作",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_05_01"
+    ],
+    "mapping_basis": "对应教材6.2.1-6.2.5节，深入讲授图的四大存储结构：①邻接矩阵法：一维顶点数组与二维邻接关系矩阵、对称性（无向图可压缩存储）、空间复杂度 $O(V^2)$、适合稠密图、邻接矩阵的幂 $A^n$ 的 $[i][j]$ 元素含义（从顶点 i 到顶点 j 长度为 n 的路径数目）；②邻接表法：顶点表（data+firstarc）与边表/边链表（adjvex+nextarc）、空间复杂度无向图 $O(V+2E)$，有向图 $O(V+E)$、适合稀疏图、找邻接点快但有向图求入度需遍历全表；③十字链表法：有向图专用链式存储、弧结点（tailvex/headvex/hlink/tlink）、求入度与出度均极其方便；④邻接多重表法：无向图专用链式存储、边结点被双顶点共享、删除边操作无需查找两条边链表；图的基本操作：Adjacent、Neighbors、InsertVertex、DeleteVertex、AddEdge、RemoveEdge、FirstNeighbor、NextNeighbor 代码实现。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握邻接矩阵 $A^n$ 的数学含义及邻接表与邻接矩阵的存储选型依据。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C06_S04",
+    "textbook_section_path": "第06章 图 > 6.2 图的存储及基本操作 > 6.2.6-6.2.7 图存储与操作试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_05_01"
+    ],
+    "mapping_basis": "对应教材6.2.6选择题与综合大题及6.2.7答案解析，涵盖邻接矩阵与邻接表的互换、图存储空间计算、十字链表结点指针跟踪。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "图存储结构专项训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C06_S05",
+    "textbook_section_path": "第06章 图 > 6.3 图的遍历 > 6.3.1-6.3.3 BFS与DFS遍历算法、生成树与连通性分析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_05_02"
+    ],
+    "mapping_basis": "对应教材6.3.1-6.3.3节，深入讲授两大遍历算法：①广度优先搜索（BFS）：辅助队列实现、分层辐射扩展、visited 访问标志数组；时空复杂度（邻接矩阵 $O(V^2)$，邻接表 $O(V+E)$，空间复杂度队列 $O(V)$）；单源无权图最短路径算法（基于 BFS 的单源最短路径）；广度优先生成树；②深度优先搜索（DFS）：递归或显式栈实现、回溯机制；时空复杂度（邻接矩阵 $O(V^2)$，邻接表 $O(V+E)$，空间复杂度递归工作栈 $O(V)$）；深度优先生成树与生成森林；③图的遍历与连通性：遍历对非连通无向图产生连通分量个数判定、判断有向图回路（拓扑排序或 DFS 回退边）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握 BFS 求无权最短路径与 DFS 生成森林构造。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C06_S06",
+    "textbook_section_path": "第06章 图 > 6.3 图的遍历 > 6.3.4-6.3.5 图遍历试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_05_02"
+    ],
+    "mapping_basis": "对应教材6.3.4选择题与综合大题及6.3.5答案解析，演练给定图写出不同存储结构下的 BFS/DFS 序列、生成树形态推导及连通性判定代码。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "图遍历专项题组训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C06_S07",
+    "textbook_section_path": "第06章 图 > 6.4 图的应用 > 6.4.1-6.4.5 最小生成树、最短路径、DAG描述表达式、拓扑排序与关键路径",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_05_03",
+      "SCOPE_408_DS_04_04"
+    ],
+    "mapping_basis": "对应教材6.4.1-6.4.5节，深入详解四大经典图算法：①最小生成树（MST）：生成树代价最小原则；Prim算法（加点法，贪心维护候选边集合，时间复杂度 $O(V^2)$，适合稠密图）；Kruskal算法（加边法，按边权递增排序，基于并查集判环，时间复杂度 $O(E \\log E)$，适合稀疏图）；②最短路径：单源最短路径 Dijkstra 算法（贪心策略，dist与path数组推演，时间复杂度 $O(V^2)$，**不能处理带负权边的图**）；多源最短路径 Floyd 算法（动态规划三层循环，以各个顶点为中继点迭代更新 $A^{(k)}[i][j] = \\min(A^{(k-1)}[i][j], A^{(k-1)}[i][k] + A^{(k-1)}[k][j])$，时间复杂度 $O(V^3)$，可处理负权边但不能有负权回路）；③有向无环图（DAG）描述表达式：共享公共子表达式实现存储压缩；④AOV网与拓扑排序：顶点表示活动，入度为0入栈出栈，逆拓扑排序（出度为0），拓扑序列唯一性判断与回路检测；⑤AOE网与关键路径：边表示活动，事件最早发生时间 $ve(k)$、事件最迟发生时间 $vl(k)$、活动最早开始时间 $e(i)$、活动最迟开始时间 $l(i)$、时间余量 $d(i) = l(i) - e(i)$；关键活动与关键路径判定，缩短工期策略与网络优化。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研综合大题每年必考高分考点：Dijkstra/Floyd推演表、关键路径事件与活动时间参数计算、Kruskal与并查集协同。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C06_S08",
+    "textbook_section_path": "第06章 图 > 6.4 图的应用 > 6.4.6-6.4.7 图应用选择题精选与解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_05_03"
+    ],
+    "mapping_basis": "对应教材6.4.6选择题部分与6.4.7选择题解析，重点考查 Prim/Kruskal 边选顺序、Dijkstra 每步松弛判定、拓扑序列识别与关键路径特性。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "图应用选择题专项练习。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C06_S09",
+    "textbook_section_path": "第06章 图 > 6.4 图的应用 > 6.4.6-6.4.7 图应用综合大题与算法设计解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_05_03"
+    ],
+    "mapping_basis": "对应教材6.4.6综合应用大题与6.4.7超详解答（长达700余行），涵盖历年考研大题：Floyd 迭代矩阵推演、AOE网关键路径参数计算全过程大题、DAG 表达式化简、判断有向图是否存在环路算法设计等。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "图算法综合大题真题训练阵地。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C06_S10",
+    "textbook_section_path": "第06章 图 > 6.5 归纳总结与思维拓展",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_05_01",
+      "SCOPE_408_DS_05_02",
+      "SCOPE_408_DS_05_03"
+    ],
+    "mapping_basis": "对应教材归纳总结与思维拓展，系统归纳四大存储结构的优缺点及复杂度横向对比表、图四大应用算法（Prim、Kruskal、Dijkstra、Floyd、拓扑排序、关键路径）的设计哲学（贪心、动态规划、搜索回溯）与适用场景速查。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "第六章图结构核心算法与知识体系宏观复盘。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C07_S01",
+    "textbook_section_path": "第07章 查找 > 7.1 查找的基本概念 > 7.1.1 查找表、关键字与平均查找长度（ASL）",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_01"
+    ],
+    "mapping_basis": "对应教材7.1节，涵盖查找表（Search Table）概念；静态查找表（只查不改）与动态查找表（查找同时伴随插入/删除）；关键字（主关键字能唯一标识记录、次关键字）；平均查找长度（ASL: Average Search Length）定量数学定义：$ASL = \\sum_{i=1}^n P_i C_i$；查找成功时的平均查找长度 $ASL_{succ}$ 与查找失败时的平均查找长度 $ASL_{unsucc}$。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "查找算法性能评价核心指标 ASL 的定义与概率加权计算模型。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C07_S02",
+    "textbook_section_path": "第07章 查找 > 7.2 顺序查找和折半查找 > 7.2.1-7.2.3 顺序查找、折半查找（判定树与ASL）与分块查找",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_01"
+    ],
+    "mapping_basis": "对应教材7.2.1-7.2.3节，深入讲授三大静态查找算法：①一般线性表的顺序查找：算法实现、引入“哨兵”（$ST.elem[0] = key$ 避免每次循环越界判断，提高效率）；$ASL_{succ} = (n+1)/2$，$ASL_{unsucc} = n+1$；有序表的顺序查找（查找判定树与失败判定提前终止）；②折半查找（二分查找 Binary Search）：前提条件（**必须采用顺序存储结构且关键字按顺序排列**）；查找判定树（平衡二叉树形态，判定树深度为 $\\lfloor \\log_2 n \\rfloor + 1$）；圆形内部结点表示成功，矩形外部结点表示失败；$ASL_{succ}$ 与 $ASL_{unsucc}$ 计算；时间复杂度 $O(\\log n)$；③分块查找（索引顺序查找）：分块原则（块间有序、块内无序）；索引表结构（最大关键字与块首地址）；查找分两步（索引表折半/顺序查找确定块，块内顺序查找）；平均查找长度推导及均匀分块最优块长为 $\\sqrt{n}$ 时的最小 $ASL = \\sqrt{n} + 1$。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研高频考点：折半查找判定树画法、$ASL_{succ}$ 与 $ASL_{unsucc}$ 手算、分块查找最优块长。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C07_S03",
+    "textbook_section_path": "第07章 查找 > 7.2 顺序查找和折半查找 > 7.2.4-7.2.5 顺序与折半查找试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_01"
+    ],
+    "mapping_basis": "对应教材7.2.4选择题30余题与综合大题及7.2.5超详答案解析，重点演练折半查找判定树构造、失败结点深度与 ASL 计算、分块查找索引推演。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "线性查找专项训练题组。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C07_S04",
+    "textbook_section_path": "第07章 查找 > 7.3 树形查找 > 7.3.1-7.3.3 二叉排序树（BST）、平衡二叉树（AVL）与红黑树（RBT）",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_02"
+    ],
+    "mapping_basis": "对应教材7.3.1-7.3.3节，深入讲授三大动态树型查找结构：①二叉排序树（BST）：左小右大定义、中序遍历序列严格单调递增、查找、插入与删除算法（叶子直接删、单孩子直接替、双孩子用直接前驱或直接后继替代）；查找效率与树形态关系（最好 $O(\\log n)$，最坏单支树 $O(n)$）；②平衡二叉树（AVL）：平衡因子（$BF = h_L - h_R \\in \\{-1, 0, 1\\}$）；四种失衡调整旋转（LL 右单旋、RR 左单旋、LR 先左后右双旋、RL 先右后左双旋）；AVL 树最大高度与最少结点数递推公式（$N_0=0, N_1=1, N_2=2, N_h = N_{h-1} + N_{h-2} + 1$ 斐波那契序列变种）；③红黑树（RBT）：五大核心定义性质（每个结点红或黑、根必为黑、叶子NIL均为黑、红结点的孩子必为黑无双红、任一结点到各叶子结点的简单路径黑高相同）；黑高（bh）与树高（$h \\le 2\\log_2(n+1)$）；红黑树插入修复算法（看叔叔结点颜色：叔红变色，叔黑旋转加变色）；`*3. 红黑树的删除`（带星号辅助内容）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研大题与选择题核心命题热点：AVL旋转调整推导、红黑树性质判断与插入调整过程。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C07_S05",
+    "textbook_section_path": "第07章 查找 > 7.3 树形查找 > 7.3.4-7.3.5 树形查找试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_02"
+    ],
+    "mapping_basis": "对应教材7.3.4选择题与综合大题及7.3.5超详答案解析，涵盖 BST/AVL 删除模拟大题、AVL旋转手算大题、红黑树插入黑高计算题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "树形查找核心真题演练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C07_S06",
+    "textbook_section_path": "第07章 查找 > 7.4 B 树和 B+树 > 7.4.1-7.4.2 B 树结构与操作（查找/插入/删除）及 B+树基本概念",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_02"
+    ],
+    "mapping_basis": "对应教材7.4.1-7.4.2节，深入讲授外存多路平衡查找树：①m阶B树定义：根结点子树数 $2 \\le k \\le m$（或根为叶）、非根非叶分支结点子树数 $\\lceil m/2 \\rceil \\le k \\le m$、所有叶结点在同一层且不带信息（外部虚结点）；结点关键字个数范围 $\\lceil m/2 \\rceil - 1 \\le n \\le m - 1$；B树高度范围推导（包含最小高度与最大高度公式）；B树的查找（结点内顺序/折半查找+磁盘块读入）；B树的插入操作（中间关键字分裂上提、递归向上传播）；B树的删除操作（非终端结点借前驱后继化为终端结点删除、终端结点借兄弟关键字、兄弟不够则合并父结点关键字）；②B+树基本概念：分支结点起索引作用、每个结点关键字数与子树数相同（$k$ 个关键字对应 $k$ 棵子树）、叶结点包含全部关键字及数据指针且以链表形式顺序链接、支持随机查找与顺序查找；B树与B+树的四大系统区别。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研每年必考大题：m阶B树插入分裂与删除合并推导、B与B+树对比。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C07_S07",
+    "textbook_section_path": "第07章 查找 > 7.4 B 树和 B+树 > 7.4.3-7.4.4 B 树与 B+树试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_02"
+    ],
+    "mapping_basis": "对应教材7.4.3选择题与综合大题及7.4.4答案解析，全面演练m阶B树高度计算大题、插入关键字序列分裂模拟、删除借位合并大题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "B树与B+树大题专项训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C07_S08",
+    "textbook_section_path": "第07章 查找 > 7.5 散列（Hash）表 > 7.5.1-7.5.4 散列表概念、构造方法、冲突处理与 ASL 性能分析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_03"
+    ],
+    "mapping_basis": "对应教材7.5.1-7.5.4节，深入讲授哈希查找全流程：①散列表概念：散列函数 $H(key)$、冲突（Collision）与同义词（Synonym）；②常用散列函数构造方法：直接定址法（线性函数无冲突）、除留余数法（$H(key) = key \\pmod p$，$p$ 取不大于表长 $m$ 的最大质数）、数字分析法、平方取中法；③处理冲突的方法：开放定址法（线性探测法易产生“堆积/聚集”现象降低效率、二次探测法/平方法防堆积、伪随机探测法）；拉链法/链地址法（将同义词存储在同一个单链表中，适合动态增删）；④散列表性能分析：装填因子 $\\alpha = n/m$（反映表满程度，是决定平均查找长度的关键因素）；查找成功 $ASL_{succ}$ 与查找失败 $ASL_{unsucc}$ 的定量计算推导（注意查找失败分母与模数 $p$ 的对应关系）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研大题/选择题必考重点：除留余数法线性探测与拉链法画表，手算 $ASL_{succ}$ 与 $ASL_{unsucc}$。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C07_S09",
+    "textbook_section_path": "第07章 查找 > 7.5 散列（Hash）表 > 7.5.5-7.5.6 散列表试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_03"
+    ],
+    "mapping_basis": "对应教材7.5.5选择题24题与综合大题及7.5.6超详答案解析，涵盖二次探测法查找模拟、删除元素墓碑标记、查找成功与失败 ASL 计算真题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "散列表全真题组演练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C07_S10",
+    "textbook_section_path": "第07章 查找 > 7.6 归纳总结与思维拓展",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_06_01",
+      "SCOPE_408_DS_06_02",
+      "SCOPE_408_DS_06_03"
+    ],
+    "mapping_basis": "对应教材归纳总结与思维拓展，横向对比线性查找、静态树表、平衡动态树表（AVL、RBT、B树）与散列表的查找性能、插入删除代价与适用规模，总结 ASL 各种题型的避坑法则。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "第七章查找结构核心方法论复盘。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S01",
+    "textbook_section_path": "第08章 排序 > 8.1 排序的基本概念 > 8.1.1 排序的定义、算法稳定性与分类",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_01",
+      "SCOPE_408_DS_07_03"
+    ],
+    "mapping_basis": "对应教材8.1.1节，涵盖排序的定义；算法稳定性的严格数学界定（关键字相等的元素在排序前后的相对次序保持不变则稳定，否则不稳定）；内部排序（数据全部在内存中）与外部排序（数据量过大需访问外存）的本质区别；排序算法性能评价指标（比较次数、移动次数、时空复杂度）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "牢记排序稳定性是算法本身固有的特性，与具体输入初态无关。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S02",
+    "textbook_section_path": "第08章 排序 > 8.1 排序的基本概念 > 8.1.2-8.1.3 排序基本概念试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_01",
+      "SCOPE_408_DS_07_03"
+    ],
+    "mapping_basis": "对应教材8.1.2选择题与8.1.3答案解析，考查排序稳定性的判定准则与内外排序边界概念。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "排序基础概念训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S03",
+    "textbook_section_path": "第08章 排序 > 8.2 插入排序 > 8.2.1-8.2.3 直接插入排序、折半插入排序与希尔排序",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_01"
+    ],
+    "mapping_basis": "对应教材8.2.1-8.2.3节，深入讲授三大插入排序：①直接插入排序（Straight Insertion Sort）：带哨兵算法实现、顺序移动插入、最好时间复杂度 $O(n)$、最坏与平均 $O(n^2)$、稳定排序、适用于基本有序或数量较小的序列；②折半插入排序（Binary Insertion Sort）：利用折半查找减少比较次数（比较次数只取决于 $n$ 与初始顺序无关，约为 $O(n \\log n)$），但移动次数未变仍为 $O(n^2)$、稳定排序；③希尔排序（Shell Sort，缩小增量排序）：基于插入排序对基本有序和短序列高效的特点、增量序列 $d_k$ 分组插入、逐步缩小增量、时间复杂度约为 $O(n^{1.3}) \\sim O(n^2)$、**不稳定排序**。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握直接插入与折半插入在比较/移动次数上的差异，掌握希尔排序的分组推演过程。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S04",
+    "textbook_section_path": "第08章 排序 > 8.2 插入排序 > 8.2.4-8.2.5 插入排序试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_01"
+    ],
+    "mapping_basis": "对应教材8.2.4选择题20题与综合题及8.2.5超详答案解析，演练折半插入比较次数计算、希尔排序中间趟次状态判断大题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "插入排序专题训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S05",
+    "textbook_section_path": "第08章 排序 > 8.3 交换排序 > 8.3.1-8.3.2 冒泡排序与快速排序（划分算法与时空性能）",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_01"
+    ],
+    "mapping_basis": "对应教材8.3.1-8.3.2节，深入讲授两大交换排序：①冒泡排序（Bubble Sort）：两两相邻比较逆序则交换、提前终止标志 flag、每趟产生一个全局极值归位、最好 $O(n)$、最坏与平均 $O(n^2)$、稳定排序；②快速排序（Quick Sort）：基于分治法（Divide-and-Conquer）、核心划分算法 Partition（双指针相向扫描挖坑填数）、基准选择策略（首元素、中位数）；快速排序递归树分析：递归深度、最好时空复杂度（每次平衡划分，时间 $O(n \\log n)$，空间 $O(\\log n)$）、最坏时空复杂度（初始基本有序或完全逆序，退化为冒泡，时间 $O(n^2)$，空间递归栈 $O(n)$）；**不稳定排序**；快速排序是内部排序中平均性能最优的算法。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研每年必考大题与算法核心：Partition 过程模拟、快速排序递归树与每趟至少一个元素归位的判断。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S06",
+    "textbook_section_path": "第08章 排序 > 8.3 交换排序 > 8.3.3-8.3.4 交换排序试题精选与综合大题解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_01"
+    ],
+    "mapping_basis": "对应教材8.3.3选择题20题与综合大题及8.3.4详细答案解析，涵盖快速排序划分算法变种、荷兰国旗三向切分、Partition 应用于找第k小元素（2016统考真题）等。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "交换排序高频算法大题演练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S07",
+    "textbook_section_path": "第08章 排序 > 8.4 选择排序 > 8.4.1-8.4.2 简单选择排序与堆排序（建堆、筛选调整与堆应用）",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_02",
+      "SCOPE_408_DS_04_04"
+    ],
+    "mapping_basis": "对应教材8.4.1-8.4.2节，深入讲授两大选择排序：①简单选择排序（Simple Selection Sort）：每趟选择最小/最大元素交换、比较次数固定为 $n(n-1)/2$ 与初态无关、移动次数最好0次最坏 $3(n-1)$ 次、时间复杂度固定 $O(n^2)$、**不稳定排序**；②堆排序（Heap Sort）：大根堆与小根堆的完全二叉树数学定义；初始建堆算法（自底向上从最后一个分支结点 $\\lfloor n/2 \\rfloor$ 开始筛选下滤 HeapAdjust，建堆总时间复杂度严格推导为 $O(n)$）；堆顶输出后剩余元素重建堆（堆底元素移至堆顶自上而下筛选，时间 $O(\\log n)$）；堆排序算法执行全过程、时空复杂度（最好/最坏/平均均为 $O(n \\log n)$，辅助空间 $O(1)$）、**不稳定排序**；最新大纲重点：堆的应用（Top-K 海量数据找最小k个数建大顶堆、优先队列 Priority Queue 的入队上滤与出队下滤实现）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "【跨章双向映射】考纲将“堆及其应用”列在树的应用（`SCOPE_408_DS_04_04`），“堆排序”列在选择排序（`SCOPE_408_DS_07_02`），在此建立双向精确映射。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S08",
+    "textbook_section_path": "第08章 排序 > 8.4 选择排序 > 8.4.3-8.4.4 选择排序与堆排序试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_02",
+      "SCOPE_408_DS_04_04"
+    ],
+    "mapping_basis": "对应教材8.4.3选择题21题与综合大题及8.4.4答案解析，全面演练初始建堆画树模拟推导、堆删除与插入调整、优先队列算法大题（综合题07、08）。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "堆与选择排序核心题组训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S09",
+    "textbook_section_path": "第08章 排序 > 8.5 归并排序、基数排序和计数排序 > 8.5.1-8.5.3 2路归并排序、基数排序与 *计数排序",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_02"
+    ],
+    "mapping_basis": "对应教材8.5.1-8.5.3节，深入讲授：①2路归并排序（2-way Merge Sort）：分治递归合并、两两归并的核心 Merge 过程实现、归并树形态分析、比较次数范围（最少 $\\lceil n/2 \\rceil$，最多 $n-1$）；时空复杂度（最好/最坏/平均均为 $O(n \\log n)$，辅助空间 $O(n)$）；稳定排序；②基数排序（Radix Sort）：不基于比较与移动的高级排序、基于多关键字排序思想；最低位优先（LSD）与最高位优先（MSD）；每趟包含“分配”到 $r$ 个队列与“收集”链接两步；基于链表实现的算法；时空复杂度（时间 $O(d(n+r))$，空间 $O(r)$，其中 $d$ 为关键字位数，$r$ 为基数）；稳定排序；③`*8.5.3 计数排序`：非比较线性排序，基于频数数组和前缀和定位，教材标有 `*`，408大纲未列为独立考点（属于 `out_of_scope_candidate`，作为2021年43题历史背景保留）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "掌握归并排序Merge算法与基数排序LSD队列出入队推演。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S10",
+    "textbook_section_path": "第08章 排序 > 8.5 归并排序、基数排序和计数排序 > 8.5.4-8.5.5 归并与基数排序试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_02"
+    ],
+    "mapping_basis": "对应教材8.5.4选择题19题与综合题及8.5.5详细答案解析，涵盖归并排序趟数判定、基数排序分配收集模拟大题与计数排序思想。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "归并与基数排序专项训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S11",
+    "textbook_section_path": "第08章 排序 > 8.6 各种内部排序算法的比较及应用 > 8.6.1-8.6.2 内部排序算法性能全维度横向对比与选型应用",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_03",
+      "SCOPE_408_DS_07_01",
+      "SCOPE_408_DS_07_02"
+    ],
+    "mapping_basis": "对应教材8.6.1-8.6.2节，系统横向总结内部排序七大经典算法：综合性能全景对比表格（最好时间、最坏时间、平均时间、辅助空间、稳定性）；过程特征横向判定：①每趟产生至少一个全局归位元素的算法（简单选择、冒泡、堆排序、快速排序）；②算法性能（比较次数/时间复杂度）与初始序列排列无关的算法（简单选择排序、基数排序）；③元素移动次数与初始序列无关的算法（基数排序、简单选择排序）；排序算法选型指南（数据量 $n$ 的大小、关键字分布特征、稳定性要求、内存空间限制）。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研选择题极高频命题母题：排序算法性能横向对比与特征辨析。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S12",
+    "textbook_section_path": "第08章 排序 > 8.6 各种内部排序算法的比较及应用 > 8.6.3-8.6.4 内部排序对比试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_03",
+      "SCOPE_408_DS_07_01",
+      "SCOPE_408_DS_07_02"
+    ],
+    "mapping_basis": "对应教材8.6.3选择题23题与综合大题及8.6.4详细答案解析，全面演练历年统考中关于排序算法稳定性、趟次特征及选型考题。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "内部排序综合对比题组演练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S13",
+    "textbook_section_path": "第08章 排序 > 8.7 外部排序 > 8.7.1-8.7.5 外部排序原理、多路平衡归并、败者树、置换-选择排序与最佳归并树",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_03"
+    ],
+    "mapping_basis": "对应教材8.7.1-8.7.5节，深入讲授大文件外部排序技术：①外部排序基本概念与瓶颈：外部排序的核心开销是外存磁盘 I/O 读写次数；总 I/O 次数 $= 2 \\times \\text{外部归并段块数} \\times (\\text{归并趟数} S + 1)$；②多路平衡归并：$k$ 路平衡归并时归并趟数 $S = \\lceil \\log_k r \\rceil$（增加归并路数 $k$ 或减少初始归并段数 $r$ 均可减少趟数）；③败者树（Loser Tree）：在 $k$ 路归并中克服内部比较次数随 $k$ 线性增长的缺陷，使每次选出最小关键字的比较次数从 $k-1$ 降为 $\\lceil \\log_2 k \\rceil$、叶子结点存选手、内部结点存失败者、树顶上方存最终胜者；④置换-选择排序（Replacement-Selection Sort）：利用固定大小内存工作区生成长度不等的超长初始归并段（初始归并段平均长度达到内存工作区容量的2倍，极大减少初始归并段个数 $r$）；⑤最佳归并树（Optimal Merge Tree）：利用哈夫曼树思想组织初始归并段多路归并，最小化外部读写 I/O 次数；严格补充虚段（虚段权值为0）判定原则：若 $(r - 1) \\pmod{(k - 1)} \\ne 0$，则必须补充 $k - 1 - ((r - 1) \\pmod{(k - 1)})$ 个虚段。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "408考研大题/选择题重点：败者树结构推演、置换选择排序推演、最佳归并树补虚段与总 I/O 计算。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S14",
+    "textbook_section_path": "第08章 排序 > 8.7 外部排序 > 8.7.6-8.7.7 外部排序试题精选与答案解析",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_03"
+    ],
+    "mapping_basis": "对应教材8.7.6选择题16题与综合大题及8.7.7超详答案解析，深度演练败者树手算推导、最佳三叉哈夫曼树虚段补充与外部 I/O 读写次数定量计算。",
+    "confidence": "high",
+    "scope_status": "partially_in_scope",
+    "notes": "外部排序大题专项真题训练。"
+  },
+  {
+    "textbook_section_id": "TB_408_DS_C08_S15",
+    "textbook_section_path": "第08章 排序 > 8.8 归纳总结与思维拓展",
+    "mapped_scope_ids": [
+      "SCOPE_408_DS_07_01",
+      "SCOPE_408_DS_07_02",
+      "SCOPE_408_DS_07_03"
+    ],
+    "mapping_basis": "对应教材归纳总结与思维拓展，梳理基本排序算法（$n < 10000$）、高效排序算法（$O(n \\log n)$）、混合策略（如 introsort 内省排序、Timsort 混合排序思想）与外部排序系统工程思维。",
+    "confidence": "high",
+    "scope_status": "in_scope",
+    "notes": "第八章排序全景方法论复盘与理论辨析。"
+  }
+]
