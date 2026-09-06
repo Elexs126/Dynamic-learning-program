@@ -50,6 +50,10 @@
 - `json_schema_runtime.py`: 轻量无依赖 JSON Schema 校验运行时
 - `audit_repository.py`: 全库真题唯一编号（ID）、元数据完整性与图片引用审计引擎
 - `migrate_l3_v1.py`: 历史标注数据向标准 Schema 格式迁移引擎
+- `build_l1.py`：全库L0/L1离线候选构建、输入/输出哈希复核与复跑复用
+- `l1_scope_rules_v1.json`：旧标签和章节到粗Scope的可审查候选路由规则
+- `test_l1.py`：L1来源保持、候选边界、重复指纹、损坏检测与规范回归测试
+- `L1执行说明.md`：运行方式、交付文件与待审边界
 
 ### 📁 06_考研PDF提取 (`06_考研PDF提取/`)
 

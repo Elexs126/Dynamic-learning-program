@@ -1,0 +1,88 @@
+{
+  "action": "built_new_snapshot",
+  "status": "PASS",
+  "builder_version": "l1-builder-v1.0.0",
+  "generated_at": "2026-09-06T18:17:35.506218Z",
+  "records": 8024,
+  "unique_ids": 8024,
+  "sources": {
+    "CS408_CLASSIC_EXERCISES": 1071,
+    "CS408_PAST_PAPERS": 846,
+    "MATH1_PAST_PAPERS": 431,
+    "MATH2_PAST_PAPERS": 431,
+    "MATH3_PAST_PAPERS": 431,
+    "WANGDAO_408": 2897,
+    "ZHANGYU_1000": 1041,
+    "ZHANGYU_BASIC_30": 876
+  },
+  "subject_areas": {
+    "calculus": 2156,
+    "computer_network": 1038,
+    "computer_organization": 1219,
+    "data_structure": 1337,
+    "linear_algebra": 584,
+    "operating_system": 1220,
+    "probability": 470
+  },
+  "chapter_scope_candidates": 7808,
+  "course_only_scope_candidates": 216,
+  "legacy_topic_candidates": 3210,
+  "chapter_proxy_candidates": 4814,
+  "duplicate_groups": 32,
+  "duplicate_candidate_records": 65,
+  "unknown_original_points": 5885,
+  "inferred_question_types": 2993,
+  "flags": {
+    "ATOMIZATION_NOT_REVIEWED": 1969,
+    "AUX_TRACK_ROUTED_TO_MATH1_SKELETON_ONLY": 862,
+    "CHAPTER_PROXY_NOT_FINE_KNOWLEDGE": 4814,
+    "GENERIC_LABEL_NOT_KNOWLEDGE": 6,
+    "LEGACY_LABEL_UNVERIFIED": 8024,
+    "OCR_SUSPICIOUS_CHARACTERS": 46,
+    "ORIGINAL_POINTS_UNKNOWN": 5885,
+    "QUESTION_TYPE_INFERRED": 2993,
+    "QUESTION_TYPE_METADATA_CONFLICT": 5,
+    "SCOPE_AMBIGUOUS": 68,
+    "SCOPE_UNMAPPED": 148,
+    "SEMANTIC_COMPLETENESS_UNREVIEWED": 8024,
+    "SHORT_OR_EMPTY_STEM": 12,
+    "SOURCE_RELIABILITY_UNREVIEWED": 8024
+  },
+  "external_api_calls": 0,
+  "source_markdown_files": 261,
+  "referenced_images": 437,
+  "validation": {
+    "status": "PASS",
+    "records": 8024,
+    "schema_and_semantic_errors": 0
+  },
+  "limitations": [
+    "全量L1指候选元数据视图，不表示语义审核、OCR校对或L2完成；本次未调用外部API。",
+    "沿用整题ID，不自动拆分小问；原题未提供的分值保持null。",
+    "CANDIDATE_前缀只是可复用候选引用，不是正式知识词典；章节代理候选不等于细知识点。",
+    "未命中指纹时重复状态为null；未进行近似改写或同构分析，不证明没有重复。",
+    "图片只能机械核对文件存在性和内容哈希；PASS不等于公式、图示、答案正确。",
+    "未产生角色历史、作答、能力认证或正式考频；隐藏测评继续受既有隔离规则约束。",
+    "MATH2/MATH3借用数学一课程骨架作路由，不表示它们与数学一考纲相同或可用于目标考频。"
+  ],
+  "verification": {
+    "status": "PASS",
+    "records": 8024,
+    "schema_and_semantic_errors": 0,
+    "source_hashes_checked": 8024,
+    "evidence_records": 8024,
+    "unique_ids": 8024,
+    "per_source": {
+      "CS408_CLASSIC_EXERCISES": 1071,
+      "CS408_PAST_PAPERS": 846,
+      "MATH1_PAST_PAPERS": 431,
+      "MATH2_PAST_PAPERS": 431,
+      "MATH3_PAST_PAPERS": 431,
+      "WANGDAO_408": 2897,
+      "ZHANGYU_1000": 1041,
+      "ZHANGYU_BASIC_30": 876
+    },
+    "output_integrity": "PASS",
+    "input_integrity": "PASS"
+  }
+}

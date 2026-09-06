@@ -1,0 +1,12 @@
+{
+  "validator_version": "annotation-validator-v1.1.0",
+  "bundle": "work/staging/系统文件/题目标注/L1/question_annotations_l1_v1.json",
+  "schema": "/home/elexs/Dynamic-learning-program/系统文件/数据规范/question_annotations_bundle.schema.json",
+  "records": 8024,
+  "unique_question_ids": 8024,
+  "schema_error_count": 0,
+  "semantic_error_count": 0,
+  "error_count": 0,
+  "errors": [],
+  "status": "PASS"
+}

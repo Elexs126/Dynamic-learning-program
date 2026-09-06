@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "records": 8024,
+  "schema_and_semantic_errors": 0,
+  "source_hashes_checked": 8024,
+  "evidence_records": 8024,
+  "unique_ids": 8024,
+  "per_source": {
+    "CS408_CLASSIC_EXERCISES": 1071,
+    "CS408_PAST_PAPERS": 846,
+    "MATH1_PAST_PAPERS": 431,
+    "MATH2_PAST_PAPERS": 431,
+    "MATH3_PAST_PAPERS": 431,
+    "WANGDAO_408": 2897,
+    "ZHANGYU_1000": 1041,
+    "ZHANGYU_BASIC_30": 876
+  },
+  "output_integrity": "PASS",
+  "input_integrity": "PASS",
+  "action": "reused_verified_snapshot"
+}
