@@ -2,7 +2,7 @@
   "report_version": "repository-audit-v1.0.0",
   "audit_scope": "canonical ID inventory, per-source counts, duplicate-path identity, and derived-set ID containment",
   "project_root": "/home/elexs/Dynamic-learning-program",
-  "manifest": "系统文件/系统数据与配置_JSON/canonical_sources_v1.json",
+  "manifest": "系统文件/系统配置/canonical_sources_v1.json",
   "canonical_id_markers": 8024,
   "canonical_unique_ids": 8024,
   "expected_unique_ids": 8024,
@@ -163,13 +163,13 @@
   ],
   "duplicate_tree_check": {
     "canonical_path": "配套习题/408/408经典练习题",
-    "excluded_path": "系统文件/历史对话与旧方案/重复副本/408经典练习题",
+    "excluded_path": "系统文件/历史归档/重复副本/408经典练习题",
     "identical": true,
     "canonical_files": 58,
     "excluded_files": 58
   },
   "derived_set_check": {
-    "path": "系统文件/考纲与教材映射_人读/考研数学一真题精选50题_23章节全覆盖.md",
+    "path": "系统文件/考纲与教材映射/markdown/考研数学一真题精选50题_23章节全覆盖.md",
     "id_markers": 50,
     "unique_ids": 50,
     "all_ids_exist_in_math1_canonical": true,

@@ -290,8 +290,8 @@ def build_gaoshu(base_out: Path, ocr_root: Path):
 
 def main():
     base_out = Path("讲义")
-    if Path("系统文件/教材OCR原始产物").exists():
-        ocr_root = Path("系统文件/教材OCR原始产物")
+    if Path("系统文件/OCR产物").exists():
+        ocr_root = Path("系统文件/OCR产物")
     else:
         ocr_root = Path(".")
     print("==================================================")
