@@ -202,7 +202,7 @@ def main() -> int:
 
     duplicate_tree_check: dict[str, Any] | None = None
     canonical_classic = root / "配套习题/408/408经典练习题"
-    duplicate_classic = root / "系统文件/历史归档/重复副本/408经典练习题"
+    duplicate_classic = root / "系统文件/历史对话与旧方案/重复副本/408经典练习题"
     if canonical_classic.is_dir() and duplicate_classic.is_dir():
         canonical_map = tree_digest_map(canonical_classic)
         duplicate_map = tree_digest_map(duplicate_classic)
@@ -219,7 +219,7 @@ def main() -> int:
         warnings.append("canonical或历史归档中的408经典练习题目录缺失")
 
     derived_check: dict[str, Any] | None = None
-    selected_path = root / "系统文件/标签/考研数学一真题精选50题_23章节全覆盖.md"
+    selected_path = root / "系统文件/考纲与教材映射_人读/考研数学一真题精选50题_23章节全覆盖.md"
     if selected_path.is_file():
         selected_ids = ID_PATTERN.findall(selected_path.read_text(encoding="utf-8"))
         math1_ids = ids_by_source.get("MATH1_PAST_PAPERS", set())
