@@ -219,7 +219,7 @@ def main() -> int:
         warnings.append("canonical或历史归档中的408经典练习题目录缺失")
 
     derived_check: dict[str, Any] | None = None
-    selected_path = root / "系统文件/考纲与教材映射/markdown/考研数学一真题精选50题_23章节全覆盖.md"
+    selected_path = root / "系统文件/50题试点/考研数学一真题精选50题_23章节全覆盖.md"
     if selected_path.is_file():
         selected_ids = ID_PATTERN.findall(selected_path.read_text(encoding="utf-8"))
         math1_ids = ids_by_source.get("MATH1_PAST_PAPERS", set())

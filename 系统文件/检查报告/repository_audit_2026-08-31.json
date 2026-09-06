@@ -169,7 +169,7 @@
     "excluded_files": 58
   },
   "derived_set_check": {
-    "path": "系统文件/考纲与教材映射/markdown/考研数学一真题精选50题_23章节全覆盖.md",
+    "path": "系统文件/50题试点/考研数学一真题精选50题_23章节全覆盖.md",
     "id_markers": 50,
     "unique_ids": 50,
     "all_ids_exist_in_math1_canonical": true,
