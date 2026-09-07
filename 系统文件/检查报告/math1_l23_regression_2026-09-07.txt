@@ -1,0 +1,19 @@
+test_answer_and_role_payload_rejected (__main__.Math1AnnotationTests.test_answer_and_role_payload_rejected) ... ok
+test_build_reuse_and_tamper_detection (__main__.Math1AnnotationTests.test_build_reuse_and_tamper_detection) ... ok
+test_changed_review_cannot_reuse_snapshot (__main__.Math1AnnotationTests.test_changed_review_cannot_reuse_snapshot) ... ok
+test_complete_scope_and_existing_schema_compatibility (__main__.Math1AnnotationTests.test_complete_scope_and_existing_schema_compatibility) ... ok
+test_dangling_or_reverse_dependency_rejected (__main__.Math1AnnotationTests.test_dangling_or_reverse_dependency_rejected) ... ok
+test_foreign_record_cannot_replace_math1 (__main__.Math1AnnotationTests.test_foreign_record_cannot_replace_math1) ... ok
+test_isomorphism_requires_reciprocity (__main__.Math1AnnotationTests.test_isomorphism_requires_reciprocity) ... ok
+test_knowledge_registry_checked (__main__.Math1AnnotationTests.test_knowledge_registry_checked) ... ok
+test_locked_layers_cannot_change (__main__.Math1AnnotationTests.test_locked_layers_cannot_change) ... ok
+test_missing_field_needs_explicit_reason (__main__.Math1AnnotationTests.test_missing_field_needs_explicit_reason) ... ok
+test_no_fabricated_subpoint_allocation (__main__.Math1AnnotationTests.test_no_fabricated_subpoint_allocation) ... ok
+test_omission_not_replaced_by_a_guess (__main__.Math1AnnotationTests.test_omission_not_replaced_by_a_guess) ... ok
+test_partial_evidence_retains_unaffected_task (__main__.Math1AnnotationTests.test_partial_evidence_retains_unaffected_task) ... ok
+test_source_drift_requires_new_review (__main__.Math1AnnotationTests.test_source_drift_requires_new_review) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 17.972s
+
+OK

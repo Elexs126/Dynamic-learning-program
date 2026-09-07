@@ -1,0 +1,26 @@
+test_2013_or_other_subject_record_cannot_replace_scope (__main__.CS408AnnotationTests.test_2013_or_other_subject_record_cannot_replace_scope) ... ok
+test_algorithm_rule_does_not_create_remaining_points (__main__.CS408AnnotationTests.test_algorithm_rule_does_not_create_remaining_points) ... ok
+test_answer_roles_students_rejected_in_core_and_sidecars (__main__.CS408AnnotationTests.test_answer_roles_students_rejected_in_core_and_sidecars) ... ok
+test_build_reuse_and_tamper_detection (__main__.CS408AnnotationTests.test_build_reuse_and_tamper_detection) ... ok
+test_changed_review_cannot_reuse_snapshot (__main__.CS408AnnotationTests.test_changed_review_cannot_reuse_snapshot) ... ok
+test_complete_local_rubrics_are_promoted (__main__.CS408AnnotationTests.test_complete_local_rubrics_are_promoted) ... ok
+test_conditional_and_partial_evidence_cannot_be_added_twice (__main__.CS408AnnotationTests.test_conditional_and_partial_evidence_cannot_be_added_twice) ... ok
+test_conflicting_total_not_silently_resolved (__main__.CS408AnnotationTests.test_conflicting_total_not_silently_resolved) ... ok
+test_dependency_targets_and_direction_checked (__main__.CS408AnnotationTests.test_dependency_targets_and_direction_checked) ... ok
+test_every_rubric_cue_requires_review (__main__.CS408AnnotationTests.test_every_rubric_cue_requires_review) ... ok
+test_exact_four_year_scope_and_cumulative_layers (__main__.CS408AnnotationTests.test_exact_four_year_scope_and_cumulative_layers) ... ok
+test_isomorphism_reciprocity_and_registry (__main__.CS408AnnotationTests.test_isomorphism_reciprocity_and_registry) ... ok
+test_locked_layer_changes_rejected (__main__.CS408AnnotationTests.test_locked_layer_changes_rejected) ... ok
+test_modified_known_rubric_is_rejected (__main__.CS408AnnotationTests.test_modified_known_rubric_is_rejected) ... ok
+test_omission_needs_grounded_reason_and_status (__main__.CS408AnnotationTests.test_omission_needs_grounded_reason_and_status) ... ok
+test_one_main_and_secondary_count_constraint (__main__.CS408AnnotationTests.test_one_main_and_secondary_count_constraint) ... ok
+test_partial_scores_preserved_without_remainder_inference (__main__.CS408AnnotationTests.test_partial_scores_preserved_without_remainder_inference) ... ok
+test_scoring_evidence_coverage_and_value_integrity (__main__.CS408AnnotationTests.test_scoring_evidence_coverage_and_value_integrity) ... ok
+test_source_lines_and_score_evidence_cannot_drift (__main__.CS408AnnotationTests.test_source_lines_and_score_evidence_cannot_drift) ... ok
+test_source_or_image_hash_change_requires_review (__main__.CS408AnnotationTests.test_source_or_image_hash_change_requires_review) ... ok
+test_unprovided_split_is_rejected_even_if_sum_matches (__main__.CS408AnnotationTests.test_unprovided_split_is_rejected_even_if_sum_matches) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 14.187s
+
+OK

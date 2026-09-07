@@ -1,0 +1,520 @@
+{
+  "additional_human_required_label_types": {
+    "条件评分的适用范围": [
+      "408-12-A-T42"
+    ]
+  },
+  "additional_human_required_reasons": {
+    "408-12-A-T42": "原总分15分，算法正确且线性时间的评分说明给12分；说明未明确覆盖哪几个要求，也没有剩余分值细则。保留原总分与12/9分条件文字，不把12分当整题满分或推算剩余3分。"
+  },
+  "alternative_method_count": 11,
+  "alternative_method_question_count": 9,
+  "analytical_without_numeric_subpoint_partition": [
+    "408-09-A-T42",
+    "408-09-A-T44",
+    "408-09-A-T45",
+    "408-09-A-T46",
+    "408-09-A-T47",
+    "408-10-A-T41",
+    "408-10-A-T42",
+    "408-10-A-T43",
+    "408-10-A-T44",
+    "408-10-A-T45",
+    "408-10-A-T46",
+    "408-10-A-T47",
+    "408-11-A-T41",
+    "408-11-A-T42",
+    "408-11-A-T43",
+    "408-11-A-T44",
+    "408-11-A-T45",
+    "408-11-A-T46",
+    "408-11-A-T47",
+    "408-12-A-T42",
+    "408-12-A-T43",
+    "408-12-A-T44",
+    "408-12-A-T45",
+    "408-12-A-T46",
+    "408-12-A-T47"
+  ],
+  "builder_version": "cs408-2009-2012-l23-builder-v1.0.0",
+  "conditional_rule_count": 19,
+  "dependency_count": 36,
+  "documented_subpoint_count": 23,
+  "explicit_partition_question_count": 3,
+  "explicit_partition_unit_count": 12,
+  "external_api_calls": 0,
+  "field_coverage": {
+    "l2.assessed_construct": {
+      "filled": 188,
+      "needs_review": 0,
+      "verified": 188
+    },
+    "l2.difficulty_band": {
+      "filled": 188,
+      "needs_review": 0,
+      "verified": 188
+    },
+    "l2.main_knowledge": {
+      "filled": 188,
+      "needs_review": 0,
+      "verified": 188
+    },
+    "l2.prerequisites": {
+      "filled": 188,
+      "needs_review": 0,
+      "verified": 188
+    },
+    "l2.primary_method": {
+      "filled": 188,
+      "needs_review": 0,
+      "verified": 188
+    },
+    "l2.secondary_knowledge": {
+      "filled": 188,
+      "needs_review": 0,
+      "verified": 188
+    },
+    "l3.alternative_methods": {
+      "filled": 188,
+      "needs_review": 0,
+      "verified": 188
+    },
+    "l3.evidence_steps": {
+      "filled": 188,
+      "needs_review": 0,
+      "verified": 188
+    },
+    "l3.inter_question_dependency": {
+      "filled": 188,
+      "needs_review": 0,
+      "verified": 188
+    },
+    "l3.isomorphic_relation": {
+      "filled": 188,
+      "needs_review": 0,
+      "verified": 188
+    },
+    "l3.score_attribution": {
+      "filled": 188,
+      "needs_review": 0,
+      "verified": 188
+    },
+    "l3.score_units": {
+      "filled": 188,
+      "needs_review": 2,
+      "verified": 186
+    }
+  },
+  "global_skips": [],
+  "human_required_label_types": {
+    "l3.score_units": [
+      "408-12-A-T42",
+      "408-12-A-T43"
+    ]
+  },
+  "human_required_question_count": 2,
+  "incomplete_documented_partition_question_ids": [
+    "408-12-A-T44"
+  ],
+  "inventory": {
+    "question_count": 188,
+    "with_explicit_total_points": 188,
+    "with_local_explanation": 188,
+    "with_subpoint_or_rubric_cue": 8
+  },
+  "isomorphic_cluster_count": 8,
+  "isomorphic_question_count": 17,
+  "limitations": [
+    "verified表示对应标签已经逐题依据本地语义核对，不表示人工签核、原始答案认证、学生实测或正式考频可用。静态难度可修订。源代码和图片笔误只登记对标签的影响，不复制解答。",
+    "可靠且完整、与原总分相符的评分项才成为可累加score_units；没有完整拆分依据时保留整题单元。局部已知分项及算法条件得分在scoring_evidence_v1.json中逐项保留，非额外可累加分数。总分与分项冲突时points置null，保留双方证据。",
+    "空次知识点和软前置表示本题任务未确认额外项目；空备选表示本地解析未提供另一明确可行机制；空依赖表示未确认直接结果调用；同构null仅表示本批188题未确认可填写匹配，不推定库外没有。",
+    "年份、题号、题源名称和本地定位已在L0保留；独立原始出处核验材料未提供，L0.source_reliability保持unknown，不推断原始资料可靠等级。这不是遗漏本轮L2/L3字段。",
+    "未修改原题、原答案、L1快照、使用角色、作答或正式考频。"
+  ],
+  "network_requests": 0,
+  "official_rubric_authenticated": false,
+  "record_count": 188,
+  "record_status_note": "整条记录保留needs_review，因为累积L0/L1仍有来源质量/候选状态；L2/L3以字段状态判断。",
+  "schema_version": "cs408-2009-2012-l23-coverage-v1.0.0",
+  "score_unit_count": 197,
+  "source_image_count": 48,
+  "source_issue_count": 70,
+  "source_issues": [
+    {
+      "field_omissions": [],
+      "question_id": "408-09-A-T41",
+      "source_issue": "本地有明确评分项，按原文分值保留，不把题型误标为Dijkstra计算"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-09-A-T42",
+      "source_issue": "评分说明为条件分档上限，不能将15分与10分相加；一般答题提示不作为正式保证给分规则"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-09-A-T43",
+      "source_issue": "本地给出7项可累加分值及仅给结果时的条件评分上限"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-09-A-T47",
+      "source_issue": "解析正文将两个LAN接口都写为E1，但拓扑与路由表列为E1和E2；标签以图表结构为依据"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-09-C-T02",
+      "source_issue": "原文另解是同一栈模拟的计数改写，不重复列备选"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-09-C-T07",
+      "source_issue": "原解析完全图反例的顶点数限定不严，不能将其泛化到任意N"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-09-C-T17",
+      "source_issue": "按题中传统RISC比较口径，不将实现倾向表述为绝对通用规则"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-09-C-T22",
+      "source_issue": "解析下溢处理表述不宜扩展为所有处理器实现的通则"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-09-C-T30",
+      "source_issue": "旧考点inode过窄，主任务实际为FCB信息分类"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-09-C-T31",
+      "source_issue": "原解析声称访问失效软链接会自动删除并不普遍成立，不采用该叙述"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-A-T42",
+      "source_issue": "原文备选步骤将剩余n减p个元素误写为后p个，按其明确数组暂存机制标注"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-A-T44",
+      "source_issue": "本地另解是同一按块复用统计方法的改写，不单列"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-A-T45",
+      "source_issue": "题干称C-SCAN但未给磁盘端点，解析按请求端点回绕计算，具体寻道数值需核对采用的扫描约定"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-A-T47",
+      "source_issue": "第二问复用第一问已计算的传播时延，不依赖冲突检测极值结论"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T01",
+      "source_issue": "原文连续逆序片段另解未充分说明一般适用条件，采用操作模拟"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T07",
+      "source_issue": "解析措辞偏构造性，充分性依据应是不连通图最大边数上界"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T10",
+      "source_issue": "原文递归次数用语与递归深度易混淆，标签只确认处理顺序不改变既定划分树"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T12",
+      "source_issue": "原解析将减少周期数与提高频率混写，标签保持两因子独立"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T14",
+      "source_issue": "原文将int到float称为普遍精度提升不准确；仅按本题具体数值判断"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T16",
+      "source_issue": "解析把第三条错误误记为第二条编号，内容关系仍明确"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T17",
+      "source_issue": "解析描述统一先查Cache不适用于全部实现，本题仅依赖驻留关系"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T19",
+      "source_issue": "旁路不保证消除所有数据冒险，标签不作该推广"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T21",
+      "source_issue": "末项选项编号转写重复，不影响软硬件职责判断"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T27",
+      "source_issue": "按题设抽象原子读写模型分析，不推定现代弱内存下无需内存序保证"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T28",
+      "source_issue": "图中分配8MB后的空块标注与分配过程局部不一致，文字请求序列足以核对标签"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T35",
+      "source_issue": "按原题历史协议口径标注"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T36",
+      "source_issue": "本条是2010年题内协议知识口径，不作为当前网络配置建议，也未联网更新题目"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T38",
+      "source_issue": "解析将广播风暴笼统归入网络层不严谨；使用广播域边界判断"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-10-C-T40",
+      "source_issue": "按题设完全递归模式，不混入其他部署模式"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-A-T41",
+      "source_issue": "解析矩阵排版粘连和个别边下标有笔误，数组图与图结构可交叉核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-A-T42",
+      "source_issue": "本地代码初值和偶数分支更新有误，末尾O(n)与折半思路冲突；只标明确分治任务和需检查的边界，不复制错误代码或复杂度结论"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-A-T43",
+      "source_issue": "按题设八位机器模型，不将其转换行为推广成一般C程序移植规则"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-A-T44",
+      "source_issue": "源解析容量指数排版缺失，题干容量和图中字段足以确定分解规则"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-A-T45",
+      "source_issue": "原文伪代码full写成fu11并有括号笔误；服务次序仅按题设抽象模型分析"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-A-T47",
+      "source_issue": "评分说明只有定性拒绝泛列字段规则，没有各小问数值分值"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T06",
+      "source_issue": "原文特殊树另法不足以单独证明一般结论，不列为可靠备选"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T09",
+      "source_issue": "原文概率与装填率成正比只是定性概括，不作为精确线性公式"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T10",
+      "source_issue": "不把原文绝大部分内部排序仅适用于顺序表的泛化当作标签结论"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T11",
+      "source_issue": "配图操作箭头文字误写为插入原父结点，数据路径与题干可辨"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T13",
+      "source_issue": "解析末尾将偏置写成128并漏一位十六进制零，前述字段定义明确，标签不采纳笔误"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T14",
+      "source_issue": "按原题随机存取分类口径，不混淆逻辑随机读取能力与等时随机存取"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T17",
+      "source_issue": "选项中的取反符号缺失，字面CF加ZF等于1与解析相矛盾；知识点及条件判断行为可确定"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T20",
+      "source_issue": "解析将中断应答名称和所在总线混写，标签只采用数据与控制线路分工"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T27",
+      "source_issue": "解析排除选项编号混乱，资源表可直接支持安全性检验"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T30",
+      "source_issue": "按本题完整程序静态布局口径，不推定所有加载方式完全相同"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T33",
+      "source_issue": "不采用仅凭报文头是否有某字段来普遍证明可靠性的简化说法"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-11-C-T39",
+      "source_issue": "解析一处将确认号误写为seq，后文已区分双方序号"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-A-T41",
+      "source_issue": "题干将最终合并的六个表误写为五个；评分包含5加2加3的可累加单元与条件性部分分"
+    },
+    {
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.subdivision",
+          "reason": "原总分15分与算法评分说明12分之间的覆盖范围不明；保留整题15分和原文条件证据，未确定算法部分及其他要求的分值拆分。",
+          "reason_type": "human_review_needed"
+        }
+      ],
+      "question_id": "408-12-A-T42",
+      "source_issue": "评分为12分与较慢正确算法9分上限；原示意图把共享尾链画成两行用于对齐，不按字符相同代替指针相同"
+    },
+    {
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原文分值元数据为8分，解析七项分值合计10分；本地材料无法确定应采用哪一处，不更改L0事实，评分单元总分留空。",
+          "reason_type": "human_review_needed"
+        }
+      ],
+      "question_id": "408-12-A-T43",
+      "source_issue": "解析七项标分合计10分但原分值元数据为8分，评分总分待原稿核对，保留全部非分值标签"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-A-T44",
+      "source_issue": "题干提到的指令格式定义表未见于附件，配图只有程序和时序；原文SHR语义及ADD写回操作数不能脱离定义确认，保留任务级行为而不复制数值或指令答案；前三问明确2加2加1加1分，末问未给分值"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-A-T46",
+      "source_issue": "原文对块数字段用全部编码数表示可覆盖块数，未给零编码约定；不把边界数值写进标签或据此指定唯一最优字段配置"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-A-T47",
+      "source_issue": "图中第二包首字节写为43且协议格式图若干字段名误写，正文按固定首部解码；只标可观察解码任务，不认证原始抓包字节正确"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T03",
+      "source_issue": "不将祖先关系可确定误写为整棵二叉树可唯一重建"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T06",
+      "source_issue": "解析沿用无自环图口径；不把未约束对角元的一般矩阵直接推广为必然无环"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T07",
+      "source_issue": "解析表格的e和f两行标题互换，图和集合S的推进顺序可交叉核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T08",
+      "source_issue": "解析关于环中等权边数量的例子条件不充分，不采用该泛化"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T14",
+      "source_issue": "此处求最大有限整数，不是所有整数均可精确表示的连续区间上界"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T16",
+      "source_issue": "按原题历史口径提取性质，不采用原考点综合作为最终知识名"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T17",
+      "source_issue": "本地明确使用一种分组约定且提示与另一教材口径不同；只填分组后LRU模拟行为，不推测命题来源、不推广该映射公式或确切命中结果"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T20",
+      "source_issue": "不采纳解析将级联拓扑称为菊花链及未注明版本的速率泛化"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T21",
+      "source_issue": "解析将命令字方向及控制线方向一概而论有误，标签仅据接口字信息与控制信号区别"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T23",
+      "source_issue": "不把解析进程切换属于系统调用过程的说法推广为唯一触发途径"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T24",
+      "source_issue": "按题内抽象调用模型，不推定所有调用约定均不保存状态标志"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T25",
+      "source_issue": "解析末尾声称完全不受外存限制过强，标签不采纳该扩展结论"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T26",
+      "source_issue": "题干开头混入上一年题的引导句，当前四层排列任务完整"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T28",
+      "source_issue": "解析把文件数据不在内存直接等同缺页中断不严谨，标签只确认I/O等待与陷入"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T29",
+      "source_issue": "配图将P1和P2行名互换，文字给出的阶段长度和先后关系明确"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T36",
+      "source_issue": "明确采用本地解析最短帧的满载保证口径，不把实数帧数直接当合法窗口"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "408-12-C-T37",
+      "source_issue": "未把解析的历史源点抑制报文叙述转换为当前协议建议"
+    }
+  ],
+  "source_scope": "核心真题/408的2009—2012年四份文件，188题；逐题读取题干与解析，48张引用SVG均已本地渲染并查看。",
+  "task_reference_count": 242,
+  "unresolved_rule_scope_question_ids": [
+    "408-12-A-T42"
+  ],
+  "unresolved_total_question_ids": [
+    "408-12-A-T43"
+  ],
+  "year_counts": {
+    "2009": 47,
+    "2010": 47,
+    "2011": 47,
+    "2012": 47
+  }
+}

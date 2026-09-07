@@ -1,0 +1,3535 @@
+{
+  "policy": "没有列出的题保留原总分；本文件仅收录有明确评分文字的题。规则是互斥条件或非加算说明，不与评分单元相加。局部分项不能与父级整题单元重复累计。",
+  "records": [
+    {
+      "conditional_rules": [
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "策略正确性判断错误时，不以其证明过程补偿得分",
+          "kind": "conditional_zero",
+          "points": 0,
+          "rule_id": "408-09-A-T41:R01",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "均不给分",
+            "line": 1321,
+            "line_sha256": "f3be1b300f7c66685e498efd83e577b50cabbd53381137ffeb424dabb7e0be02",
+            "occurrence": 1,
+            "question_hash_sha256": "aa5549338fc91480b1d5251d98f2e75d25644c835dbf44d7554425235eef43a1",
+            "question_id": "408-09-A-T41",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-09-A-T41#T01",
+            "408-09-A-T41#T02"
+          ]
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "反例有效或明确体现局部与全局最优的区别",
+          "kind": "conditional_credit",
+          "points": 6,
+          "rule_id": "408-09-A-T41:R02",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "均可给 6 分",
+            "line": 1321,
+            "line_sha256": "f3be1b300f7c66685e498efd83e577b50cabbd53381137ffeb424dabb7e0be02",
+            "occurrence": 1,
+            "question_hash_sha256": "aa5549338fc91480b1d5251d98f2e75d25644c835dbf44d7554425235eef43a1",
+            "question_id": "408-09-A-T41",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-09-A-T41#T02"
+          ]
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "举例部分正确时原文要求酌情给分，无数值档位",
+          "kind": "discretionary",
+          "points": null,
+          "rule_id": "408-09-A-T41:R03",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "可酌情给分",
+            "line": 1321,
+            "line_sha256": "f3be1b300f7c66685e498efd83e577b50cabbd53381137ffeb424dabb7e0be02",
+            "occurrence": 1,
+            "question_hash_sha256": "aa5549338fc91480b1d5251d98f2e75d25644c835dbf44d7554425235eef43a1",
+            "question_id": "408-09-A-T41",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-09-A-T41#T02"
+          ]
+        }
+      ],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [
+        {
+          "attribution": {
+            "category": "main_knowledge",
+            "target_knowledge_ids": [
+              "CS408_K_110db296a89c7c5a"
+            ]
+          },
+          "count_separately": false,
+          "description": "策略正确性判断",
+          "evidence_id": "408-09-A-T41:D01",
+          "points": 4,
+          "promoted_unit_id": "408-09-A-T41:S1",
+          "source_anchor": {
+            "fragment": "（4 分）",
+            "line": 1311,
+            "line_sha256": "0d3722b3e5ab5ea6ba867859c646b0102b35dafdf28df333b1049e99f1b052f9",
+            "occurrence": 1,
+            "question_hash_sha256": "aa5549338fc91480b1d5251d98f2e75d25644c835dbf44d7554425235eef43a1",
+            "question_id": "408-09-A-T41",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "1.1"
+          ],
+          "steps": [
+            "[408-09-A-T41#T01] 判断给定贪心策略是否保证目标"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_110db296a89c7c5a"
+            ]
+          },
+          "count_separately": false,
+          "description": "反例或原理说明",
+          "evidence_id": "408-09-A-T41:D02",
+          "points": 6,
+          "promoted_unit_id": "408-09-A-T41:S2",
+          "source_anchor": {
+            "fragment": "（6 分）",
+            "line": 1313,
+            "line_sha256": "77560124d77c00c730ff2d008582199dae581dff5cef6e639f89a92fd5c1a7a9",
+            "occurrence": 1,
+            "question_hash_sha256": "aa5549338fc91480b1d5251d98f2e75d25644c835dbf44d7554425235eef43a1",
+            "question_id": "408-09-A-T41",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "2.1",
+            "2.2"
+          ],
+          "steps": [
+            "[408-09-A-T41#T02] 构造符合非负权和可达条件的反例",
+            "[408-09-A-T41#T02] 比较策略行为与要求以支撑结论"
+          ]
+        }
+      ],
+      "effective_total_points": 10,
+      "effective_unit_ids": [
+        "408-09-A-T41:S1",
+        "408-09-A-T41:S2"
+      ],
+      "mode": "partition",
+      "notes": [],
+      "question_id": "408-09-A-T41",
+      "raw_total_points": 10
+    },
+    {
+      "conditional_rules": [
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "一趟扫描算法正确且满足题设约束",
+          "kind": "conditional_credit",
+          "points": 15,
+          "rule_id": "408-09-A-T42:R01",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "满分 15 分",
+            "line": 1388,
+            "line_sha256": "299d043028762e4d0ca926b76521035672388f7a03be76c4c8a14521abe4f93c",
+            "occurrence": 1,
+            "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
+            "question_id": "408-09-A-T42",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-09-A-T42#T01",
+            "408-09-A-T42#T02",
+            "408-09-A-T42#T03"
+          ]
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "两遍或多遍扫描才能得到正确结果",
+          "kind": "conditional_cap",
+          "points": 10,
+          "rule_id": "408-09-A-T42:R02",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "最高给 10 分",
+            "line": 1388,
+            "line_sha256": "299d043028762e4d0ca926b76521035672388f7a03be76c4c8a14521abe4f93c",
+            "occurrence": 1,
+            "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
+            "question_id": "408-09-A-T42",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-09-A-T42#T01",
+            "408-09-A-T42#T02",
+            "408-09-A-T42#T03"
+          ]
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "递归算法正确",
+          "kind": "conditional_cap",
+          "points": 10,
+          "rule_id": "408-09-A-T42:R03",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "若采用递归算法得到正确结果的",
+            "line": 1388,
+            "line_sha256": "299d043028762e4d0ca926b76521035672388f7a03be76c4c8a14521abe4f93c",
+            "occurrence": 1,
+            "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
+            "question_id": "408-09-A-T42",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-09-A-T42#T01",
+            "408-09-A-T42#T02",
+            "408-09-A-T42#T03"
+          ]
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "使用大小与k相关的辅助数组且结果正确",
+          "kind": "conditional_cap",
+          "points": 10,
+          "rule_id": "408-09-A-T42:R04",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "大小与 k 有关的辅助数组",
+            "line": 1388,
+            "line_sha256": "299d043028762e4d0ca926b76521035672388f7a03be76c4c8a14521abe4f93c",
+            "occurrence": 1,
+            "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
+            "question_id": "408-09-A-T42",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-09-A-T42#T01",
+            "408-09-A-T42#T02",
+            "408-09-A-T42#T03"
+          ]
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "思想或步骤文字不清晰，但实现能够清楚显示正确机制时沿用前项标准",
+          "kind": "clarification",
+          "points": null,
+          "rule_id": "408-09-A-T42:R05",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "能够清晰看出算法思想和步骤且正确",
+            "line": 1390,
+            "line_sha256": "9b6eb5578d59fd4ad46ec8e367a7b3e86ff958d58c6eb54d3faf3cd0af9f15f4",
+            "occurrence": 1,
+            "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
+            "question_id": "408-09-A-T42",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-09-A-T42#T01",
+            "408-09-A-T42#T02",
+            "408-09-A-T42#T03"
+          ]
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "思想步骤或实现部分正确，数值由阅卷裁量",
+          "kind": "discretionary",
+          "points": null,
+          "rule_id": "408-09-A-T42:R06",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "可酌情给分",
+            "line": 1392,
+            "line_sha256": "5e55d3f1991ad52804b9fb39c9112c2b4e0658c5b92242e23ae2dddf5879d3eb",
+            "occurrence": 1,
+            "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
+            "question_id": "408-09-A-T42",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-09-A-T42#T01",
+            "408-09-A-T42#T02",
+            "408-09-A-T42#T03"
+          ]
+        }
+      ],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 15,
+      "effective_unit_ids": [
+        "408-09-A-T42:S0"
+      ],
+      "mode": "whole",
+      "notes": [
+        "重复出现的辅助数组10分条款去重；题外一般答题提示不作为保证评分规则。"
+      ],
+      "question_id": "408-09-A-T42",
+      "raw_total_points": 15
+    },
+    {
+      "conditional_rules": [
+        {
+          "additive": false,
+          "application": "per_task",
+          "condition": "对应小问只有正确结果，没有过程",
+          "kind": "conditional_credit",
+          "points": 2,
+          "rule_id": "408-09-A-T43:R01",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "每个给 2 分",
+            "line": 1434,
+            "line_sha256": "c3443182b07f94e0d89171635104800c9e999e70d4c10bc6ea3ee4c0ab97a567",
+            "occurrence": 1,
+            "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
+            "question_id": "408-09-A-T43",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-09-A-T43#T01",
+            "408-09-A-T43#T02"
+          ]
+        }
+      ],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_cba9771b0003263d"
+            ]
+          },
+          "count_separately": false,
+          "description": "单次中断时钟成本",
+          "evidence_id": "408-09-A-T43:D01",
+          "points": 2,
+          "promoted_unit_id": "408-09-A-T43:S1",
+          "source_anchor": {
+            "fragment": "（2 分）",
+            "line": 1420,
+            "line_sha256": "4ae989f7a59aea46ab2d44733686d1a2bad1f25a006896499e7360c5b2376595",
+            "occurrence": 1,
+            "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
+            "question_id": "408-09-A-T43",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "1.1"
+          ],
+          "steps": [
+            "[408-09-A-T43#T01] 计算每次中断所用时钟周期"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_cba9771b0003263d"
+            ]
+          },
+          "count_separately": false,
+          "description": "每秒中断频率",
+          "evidence_id": "408-09-A-T43:D02",
+          "points": 1,
+          "promoted_unit_id": "408-09-A-T43:S2",
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1422,
+            "line_sha256": "92299ca1ca68a99051594032a0198b427db98ab06dc4725803d434da4fb5a37c",
+            "occurrence": 1,
+            "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
+            "question_id": "408-09-A-T43",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "1.2"
+          ],
+          "steps": [
+            "[408-09-A-T43#T01] 由吞吐率和传输宽度求中断频率"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_cba9771b0003263d"
+            ]
+          },
+          "count_separately": false,
+          "description": "每秒中断总成本",
+          "evidence_id": "408-09-A-T43:D03",
+          "points": 1,
+          "promoted_unit_id": "408-09-A-T43:S3",
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1424,
+            "line_sha256": "5ef268f6411836529caef08c7e7e0a427b2479bea1e5048b8652a4541c221113",
+            "occurrence": 1,
+            "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
+            "question_id": "408-09-A-T43",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "1.3"
+          ],
+          "steps": [
+            "[408-09-A-T43#T01] 计算每秒中断总周期"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_cba9771b0003263d"
+            ]
+          },
+          "count_separately": false,
+          "description": "中断CPU时间占比",
+          "evidence_id": "408-09-A-T43:D04",
+          "points": 1,
+          "promoted_unit_id": "408-09-A-T43:S4",
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1426,
+            "line_sha256": "c91c76b094abe582b9daa1e95cbbcda8965989a0fde7d4b176e782845f519f81",
+            "occurrence": 1,
+            "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
+            "question_id": "408-09-A-T43",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "1.4"
+          ],
+          "steps": [
+            "[408-09-A-T43#T01] 归一化CPU时间占比"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_cba9771b0003263d"
+            ]
+          },
+          "count_separately": false,
+          "description": "每秒DMA传输频率",
+          "evidence_id": "408-09-A-T43:D05",
+          "points": 1,
+          "promoted_unit_id": "408-09-A-T43:S5",
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1428,
+            "line_sha256": "baff02624dbfefcbcb4a492c0473c945cae31db5a8cd3896cb0d4253e73ac4b5",
+            "occurrence": 1,
+            "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
+            "question_id": "408-09-A-T43",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "2.1"
+          ],
+          "steps": [
+            "[408-09-A-T43#T02] 计算DMA块传输频率"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_cba9771b0003263d"
+            ]
+          },
+          "count_separately": false,
+          "description": "每秒DMA预后处理成本",
+          "evidence_id": "408-09-A-T43:D06",
+          "points": 1,
+          "promoted_unit_id": "408-09-A-T43:S6",
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1430,
+            "line_sha256": "9c7d46bb63189af92e4c17081c818eeac88793eaf1e55c99e95f0695a58213f1",
+            "occurrence": 1,
+            "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
+            "question_id": "408-09-A-T43",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "2.2"
+          ],
+          "steps": [
+            "[408-09-A-T43#T02] 计算DMA预后处理总周期"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_cba9771b0003263d"
+            ]
+          },
+          "count_separately": false,
+          "description": "DMA的CPU时间占比",
+          "evidence_id": "408-09-A-T43:D07",
+          "points": 1,
+          "promoted_unit_id": "408-09-A-T43:S7",
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1432,
+            "line_sha256": "8cc62e4a4976c38fd1e699cd85874d0d036c512a9335a523b78f99c29d6c6ee9",
+            "occurrence": 1,
+            "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
+            "question_id": "408-09-A-T43",
+            "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "2.3"
+          ],
+          "steps": [
+            "[408-09-A-T43#T02] 归一化CPU时间占比"
+          ]
+        }
+      ],
+      "effective_total_points": 8,
+      "effective_unit_ids": [
+        "408-09-A-T43:S1",
+        "408-09-A-T43:S2",
+        "408-09-A-T43:S3",
+        "408-09-A-T43:S4",
+        "408-09-A-T43:S5",
+        "408-09-A-T43:S6",
+        "408-09-A-T43:S7"
+      ],
+      "mode": "partition",
+      "notes": [],
+      "question_id": "408-09-A-T43",
+      "raw_total_points": 8
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 10,
+      "effective_unit_ids": [
+        "408-09-A-T44:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-A-T44",
+      "raw_total_points": 10
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 7,
+      "effective_unit_ids": [
+        "408-09-A-T45:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-A-T45",
+      "raw_total_points": 7
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 8,
+      "effective_unit_ids": [
+        "408-09-A-T46:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-A-T46",
+      "raw_total_points": 8
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 9,
+      "effective_unit_ids": [
+        "408-09-A-T47:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-A-T47",
+      "raw_total_points": 9
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T01:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T01",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T02:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T02",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T03:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T03",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T04:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T04",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T05:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T05",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T06:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T06",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T07:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T07",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T08:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T08",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T09:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T09",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T10:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T10",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T11:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T11",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T12:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T12",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T13:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T13",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T14:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T14",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T15:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T15",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T16:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T16",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T17:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T17",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T18:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T18",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T19:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T19",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T20:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T20",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T21:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T21",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T22:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T22",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T23:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T23",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T24:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T24",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T25:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T25",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T26:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T26",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T27:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T27",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T28:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T28",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T29:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T29",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T30:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T30",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T31:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T31",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T32:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T32",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T33:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T33",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T34:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T34",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T35:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T35",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T36:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T36",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T37:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T37",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T38:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T38",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T39:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T39",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-09-C-T40:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-09-C-T40",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 10,
+      "effective_unit_ids": [
+        "408-10-A-T41:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-A-T41",
+      "raw_total_points": 10
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 15,
+      "effective_unit_ids": [
+        "408-10-A-T42:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-A-T42",
+      "raw_total_points": 15
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 8,
+      "effective_unit_ids": [
+        "408-10-A-T43:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-A-T43",
+      "raw_total_points": 8
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 10,
+      "effective_unit_ids": [
+        "408-10-A-T44:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-A-T44",
+      "raw_total_points": 10
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 7,
+      "effective_unit_ids": [
+        "408-10-A-T45:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-A-T45",
+      "raw_total_points": 7
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 8,
+      "effective_unit_ids": [
+        "408-10-A-T46:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-A-T46",
+      "raw_total_points": 8
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 9,
+      "effective_unit_ids": [
+        "408-10-A-T47:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-A-T47",
+      "raw_total_points": 9
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T01:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T01",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T02:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T02",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T03:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T03",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T04:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T04",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T05:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T05",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T06:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T06",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T07:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T07",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T08:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T08",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T09:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T09",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T10:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T10",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T11:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T11",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T12:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T12",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T13:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T13",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T14:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T14",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T15:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T15",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T16:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T16",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T17:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T17",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T18:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T18",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T19:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T19",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T20:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T20",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T21:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T21",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T22:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T22",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T23:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T23",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T24:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T24",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T25:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T25",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T26:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T26",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T27:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T27",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T28:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T28",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T29:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T29",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T30:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T30",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T31:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T31",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T32:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T32",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T33:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T33",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T34:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T34",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T35:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T35",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T36:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T36",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T37:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T37",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T38:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T38",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T39:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T39",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-10-C-T40:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-10-C-T40",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 10,
+      "effective_unit_ids": [
+        "408-11-A-T41:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-A-T41",
+      "raw_total_points": 10
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 15,
+      "effective_unit_ids": [
+        "408-11-A-T42:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-A-T42",
+      "raw_total_points": 15
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 8,
+      "effective_unit_ids": [
+        "408-11-A-T43:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-A-T43",
+      "raw_total_points": 8
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 10,
+      "effective_unit_ids": [
+        "408-11-A-T44:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-A-T44",
+      "raw_total_points": 10
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 7,
+      "effective_unit_ids": [
+        "408-11-A-T45:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-A-T45",
+      "raw_total_points": 7
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 8,
+      "effective_unit_ids": [
+        "408-11-A-T46:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-A-T46",
+      "raw_total_points": 8
+    },
+    {
+      "conditional_rules": [
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "转发字段问只泛列所有IP首部字段而没有针对性判断",
+          "kind": "conditional_zero",
+          "points": 0,
+          "rule_id": "408-11-A-T47:R01",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "不给分",
+            "line": 1861,
+            "line_sha256": "985c8f039a8994a79e02f0d2104cc8e9368703922b843e88090ebd3f9b761421",
+            "occurrence": 1,
+            "question_hash_sha256": "195acce4650f928eefe2f8672bd2f67429400e7ff9d73fb815a40ab44994bb28",
+            "question_id": "408-11-A-T47",
+            "source_file": "核心真题/408/2011年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-11-A-T47#T04"
+          ]
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "该字段问的其他回答按原文酌情给分，无细分数值",
+          "kind": "discretionary",
+          "points": null,
+          "rule_id": "408-11-A-T47:R02",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "其他情况",
+            "line": 1861,
+            "line_sha256": "985c8f039a8994a79e02f0d2104cc8e9368703922b843e88090ebd3f9b761421",
+            "occurrence": 1,
+            "question_hash_sha256": "195acce4650f928eefe2f8672bd2f67429400e7ff9d73fb815a40ab44994bb28",
+            "question_id": "408-11-A-T47",
+            "source_file": "核心真题/408/2011年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-11-A-T47#T04"
+          ]
+        }
+      ],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 9,
+      "effective_unit_ids": [
+        "408-11-A-T47:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-A-T47",
+      "raw_total_points": 9
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T01:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T01",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T02:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T02",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T03:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T03",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T04:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T04",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T05:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T05",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T06:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T06",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T07:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T07",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T08:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T08",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T09:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T09",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T10:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T10",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T11:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T11",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T12:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T12",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T13:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T13",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T14:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T14",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T15:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T15",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T16:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T16",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T17:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T17",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T18:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T18",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T19:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T19",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T20:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T20",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T21:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T21",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T22:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T22",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T23:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T23",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T24:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T24",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T25:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T25",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T26:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T26",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T27:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T27",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T28:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T28",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T29:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T29",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T30:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T30",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T31:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T31",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T32:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T32",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T33:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T33",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T34:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T34",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T35:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T35",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T36:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T36",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T37:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T37",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T38:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T38",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T39:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T39",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-11-C-T40:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-11-C-T40",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "其他合并策略的过程描述正确，但不满足最佳归并要求",
+          "kind": "conditional_credit",
+          "points": 3,
+          "rule_id": "408-12-A-T41:R01",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "给 3 分",
+            "line": 1525,
+            "line_sha256": "db68773de13081c73cbcbdae18c0e4a5bbcff0501e1dd90ce2c5053114b61da8",
+            "occurrence": 1,
+            "question_hash_sha256": "5ddfdb814ee2e6a1bf41752c65c7ae56715e724f714cc964c44ce8d52fb74059",
+            "question_id": "408-12-A-T41",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-12-A-T41#T01"
+          ]
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "比较次数计算过程正确而结果错误",
+          "kind": "conditional_credit",
+          "points": 1,
+          "rule_id": "408-12-A-T41:R02",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "可给 1 分",
+            "line": 1527,
+            "line_sha256": "3948c78c497c9e83729537fe548bc2b6ebe122517261336a03816e4c2376d9eb",
+            "occurrence": 1,
+            "question_hash_sha256": "5ddfdb814ee2e6a1bf41752c65c7ae56715e724f714cc964c44ce8d52fb74059",
+            "question_id": "408-12-A-T41",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-12-A-T41#T02"
+          ]
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "一般策略能够完成合并但未采用最优策略",
+          "kind": "conditional_credit",
+          "points": 2,
+          "rule_id": "408-12-A-T41:R03",
+          "scope_status": "verified",
+          "source_anchor": {
+            "fragment": "给 2 分",
+            "line": 1529,
+            "line_sha256": "fe521d662096ac5ee8e192f0947e1c42fb662d5caba197bc116ff6d251145bf8",
+            "occurrence": 1,
+            "question_hash_sha256": "5ddfdb814ee2e6a1bf41752c65c7ae56715e724f714cc964c44ce8d52fb74059",
+            "question_id": "408-12-A-T41",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": [
+            "408-12-A-T41#T03"
+          ]
+        }
+      ],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [
+        {
+          "attribution": {
+            "category": "main_knowledge",
+            "target_knowledge_ids": [
+              "CS408_K_6a0d3ab7f8a63274"
+            ]
+          },
+          "count_separately": false,
+          "description": "最佳归并过程",
+          "evidence_id": "408-12-A-T41:D01",
+          "points": 5,
+          "promoted_unit_id": "408-12-A-T41:S1",
+          "source_anchor": {
+            "fragment": "给 5 分",
+            "line": 1525,
+            "line_sha256": "db68773de13081c73cbcbdae18c0e4a5bbcff0501e1dd90ce2c5053114b61da8",
+            "occurrence": 1,
+            "question_hash_sha256": "5ddfdb814ee2e6a1bf41752c65c7ae56715e724f714cc964c44ce8d52fb74059",
+            "question_id": "408-12-A-T41",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "1.1"
+          ],
+          "steps": [
+            "[408-12-A-T41#T01] 按当前表长选择合并对象并记录新长度"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_6a0d3ab7f8a63274"
+            ]
+          },
+          "count_separately": false,
+          "description": "与过程一致的最坏比较总成本",
+          "evidence_id": "408-12-A-T41:D02",
+          "points": 2,
+          "promoted_unit_id": "408-12-A-T41:S2",
+          "source_anchor": {
+            "fragment": "给 2 分",
+            "line": 1527,
+            "line_sha256": "3948c78c497c9e83729537fe548bc2b6ebe122517261336a03816e4c2376d9eb",
+            "occurrence": 1,
+            "question_hash_sha256": "5ddfdb814ee2e6a1bf41752c65c7ae56715e724f714cc964c44ce8d52fb74059",
+            "question_id": "408-12-A-T41",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "2.1"
+          ],
+          "steps": [
+            "[408-12-A-T41#T02] 按每次合并的最坏比较成本求和"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "main_knowledge",
+            "target_knowledge_ids": [
+              "CS408_K_6a0d3ab7f8a63274"
+            ]
+          },
+          "count_separately": false,
+          "description": "一般最优合并策略及理由",
+          "evidence_id": "408-12-A-T41:D03",
+          "points": 3,
+          "promoted_unit_id": "408-12-A-T41:S3",
+          "source_anchor": {
+            "fragment": "给 3 分",
+            "line": 1529,
+            "line_sha256": "fe521d662096ac5ee8e192f0947e1c42fb662d5caba197bc116ff6d251145bf8",
+            "occurrence": 1,
+            "question_hash_sha256": "5ddfdb814ee2e6a1bf41752c65c7ae56715e724f714cc964c44ce8d52fb74059",
+            "question_id": "408-12-A-T41",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "3.1",
+            "3.2"
+          ],
+          "steps": [
+            "[408-12-A-T41#T03] 概括不等长表的一般合并策略",
+            "[408-12-A-T41#T03] 说明累计成本为何降低"
+          ]
+        }
+      ],
+      "effective_total_points": 10,
+      "effective_unit_ids": [
+        "408-12-A-T41:S1",
+        "408-12-A-T41:S2",
+        "408-12-A-T41:S3"
+      ],
+      "mode": "partition",
+      "notes": [],
+      "question_id": "408-12-A-T41",
+      "raw_total_points": 10
+    },
+    {
+      "conditional_rules": [
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "算法实现正确且为线性时间；原文未明确该12分覆盖全部要求还是算法部分",
+          "kind": "conditional_credit",
+          "points": 12,
+          "rule_id": "408-12-A-T42:R01",
+          "scope_status": "needs_review",
+          "source_anchor": {
+            "fragment": "可给 12分",
+            "line": 1617,
+            "line_sha256": "1d36c682f28a6132a45fa3087f7aa87f66337fb6fd3c1ce2248527ee098778bf",
+            "occurrence": 1,
+            "question_hash_sha256": "56119093d7bd7c46ed7d7c551e33787304ee0e8ba2ab01050399a79d530c2bb3",
+            "question_id": "408-12-A-T42",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": []
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "算法正确但超过线性时间；适用范围与前项相同，不能与整题15分另行相加",
+          "kind": "conditional_cap",
+          "points": 9,
+          "rule_id": "408-12-A-T42:R02",
+          "scope_status": "needs_review",
+          "source_anchor": {
+            "fragment": "最高可给 9 分",
+            "line": 1617,
+            "line_sha256": "1d36c682f28a6132a45fa3087f7aa87f66337fb6fd3c1ce2248527ee098778bf",
+            "occurrence": 1,
+            "question_hash_sha256": "56119093d7bd7c46ed7d7c551e33787304ee0e8ba2ab01050399a79d530c2bb3",
+            "question_id": "408-12-A-T42",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": []
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "文字不清晰但实现清楚且正确时沿用前项标准",
+          "kind": "clarification",
+          "points": null,
+          "rule_id": "408-12-A-T42:R03",
+          "scope_status": "needs_review",
+          "source_anchor": {
+            "fragment": "可参照①的标准给分",
+            "line": 1619,
+            "line_sha256": "9c23003409f6894cc46496b45bd3c140b3f1d01a98e2b6448f3f760231df3259",
+            "occurrence": 1,
+            "question_hash_sha256": "56119093d7bd7c46ed7d7c551e33787304ee0e8ba2ab01050399a79d530c2bb3",
+            "question_id": "408-12-A-T42",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": []
+        },
+        {
+          "additive": false,
+          "application": "once",
+          "condition": "思想或实现部分正确时酌情给分，无固定数值",
+          "kind": "discretionary",
+          "points": null,
+          "rule_id": "408-12-A-T42:R04",
+          "scope_status": "needs_review",
+          "source_anchor": {
+            "fragment": "酌情给分",
+            "line": 1621,
+            "line_sha256": "a2fae0325ec98b518d62baca263be65f32ec113c24f8d920a78e9c47c0ab4868",
+            "occurrence": 1,
+            "question_hash_sha256": "56119093d7bd7c46ed7d7c551e33787304ee0e8ba2ab01050399a79d530c2bb3",
+            "question_id": "408-12-A-T42",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "target_task_ids": []
+        }
+      ],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 15,
+      "effective_unit_ids": [
+        "408-12-A-T42:S0"
+      ],
+      "mode": "whole",
+      "notes": [
+        "原总分15分，算法正确且线性时间的评分说明给12分；说明未明确覆盖哪几个要求，也没有剩余分值细则。保留原总分与12/9分条件文字，不把12分当整题满分或推算剩余3分。"
+      ],
+      "question_id": "408-12-A-T42",
+      "raw_total_points": 15
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_f08d81ae30f5d660"
+            ]
+          },
+          "count_separately": false,
+          "description": "CPU指令执行率",
+          "evidence_id": "408-12-A-T43:D01",
+          "points": 1,
+          "promoted_unit_id": null,
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1657,
+            "line_sha256": "e3d1834619c3c55d243544069509e3bd9920e066a085c98f2ef87aa7a3f9b02b",
+            "occurrence": 1,
+            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_id": "408-12-A-T43",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "1.1"
+          ],
+          "steps": [
+            "[408-12-A-T43#T01] 由主频和CPI求指令执行率"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_f08d81ae30f5d660"
+            ]
+          },
+          "count_separately": false,
+          "description": "每秒Cache缺失频率",
+          "evidence_id": "408-12-A-T43:D02",
+          "points": 1,
+          "promoted_unit_id": null,
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1657,
+            "line_sha256": "e3d1834619c3c55d243544069509e3bd9920e066a085c98f2ef87aa7a3f9b02b",
+            "occurrence": 2,
+            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_id": "408-12-A-T43",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "1.2"
+          ],
+          "steps": [
+            "[408-12-A-T43#T01] 换算每秒Cache缺失次数"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_f08d81ae30f5d660"
+            ]
+          },
+          "count_separately": false,
+          "description": "主存最低带宽",
+          "evidence_id": "408-12-A-T43:D03",
+          "points": 2,
+          "promoted_unit_id": null,
+          "source_anchor": {
+            "fragment": "（2 分）",
+            "line": 1657,
+            "line_sha256": "e3d1834619c3c55d243544069509e3bd9920e066a085c98f2ef87aa7a3f9b02b",
+            "occurrence": 1,
+            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_id": "408-12-A-T43",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "1.3"
+          ],
+          "steps": [
+            "[408-12-A-T43#T01] 按块大小求主存带宽"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_f08d81ae30f5d660"
+            ]
+          },
+          "count_separately": false,
+          "description": "缺页率及DMA请求频率",
+          "evidence_id": "408-12-A-T43:D04",
+          "points": 2,
+          "promoted_unit_id": null,
+          "source_anchor": {
+            "fragment": "（2 分）",
+            "line": 1659,
+            "line_sha256": "065282062fa472dc3a06ecffcc947471f650d22480e33ffb38474288902d3751",
+            "occurrence": 1,
+            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_id": "408-12-A-T43",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "2.1",
+            "2.2"
+          ],
+          "steps": [
+            "[408-12-A-T43#T02] 按条件缺页率求每秒缺页次数",
+            "[408-12-A-T43#T02] 按每页数据和接口宽度求DMA请求频率"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "secondary_knowledge",
+            "target_knowledge_ids": [
+              "CS408_K_c9e6a04b7fc8ea1d"
+            ]
+          },
+          "count_separately": false,
+          "description": "CPU与DMA总线优先级",
+          "evidence_id": "408-12-A-T43:D05",
+          "points": 1,
+          "promoted_unit_id": null,
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1661,
+            "line_sha256": "97eb81046ac0608019552c9697179a1593978126e810a07f40ab021ed6c28d5a",
+            "occurrence": 1,
+            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_id": "408-12-A-T43",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "3.1"
+          ],
+          "steps": [
+            "[408-12-A-T43#T03] 比较同时请求时的总线优先级"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "secondary_knowledge",
+            "target_knowledge_ids": [
+              "CS408_K_c9e6a04b7fc8ea1d"
+            ]
+          },
+          "count_separately": false,
+          "description": "优先级的时限理由",
+          "evidence_id": "408-12-A-T43:D06",
+          "points": 1,
+          "promoted_unit_id": null,
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1661,
+            "line_sha256": "97eb81046ac0608019552c9697179a1593978126e810a07f40ab021ed6c28d5a",
+            "occurrence": 2,
+            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_id": "408-12-A-T43",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "3.2"
+          ],
+          "steps": [
+            "[408-12-A-T43#T03] 说明外设实时传送需求"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "secondary_knowledge",
+            "target_knowledge_ids": [
+              "CS408_K_9a3a992d0b533bb5"
+            ]
+          },
+          "count_separately": false,
+          "description": "交叉存储持续带宽",
+          "evidence_id": "408-12-A-T43:D07",
+          "points": 2,
+          "promoted_unit_id": null,
+          "source_anchor": {
+            "fragment": "（2 分）",
+            "line": 1663,
+            "line_sha256": "468597217a989e718fbf3973089eedf5f9810d43eeb74e84353d4ac06dd117cd",
+            "occurrence": 1,
+            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_id": "408-12-A-T43",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "4.1"
+          ],
+          "steps": [
+            "[408-12-A-T43#T04] 按交错启动间隔求持续传输带宽"
+          ]
+        }
+      ],
+      "effective_total_points": null,
+      "effective_unit_ids": [
+        "408-12-A-T43:S0"
+      ],
+      "mode": "conflicting_total",
+      "notes": [
+        "原始分值8分与局部七项10分冲突；以上只是原文分项证据，不作为已生效评分拆分。"
+      ],
+      "question_id": "408-12-A-T43",
+      "raw_total_points": 8
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_b0127d8d30d6e846"
+            ]
+          },
+          "count_separately": false,
+          "description": "按指令语义移位",
+          "evidence_id": "408-12-A-T44:D01",
+          "points": 2,
+          "promoted_unit_id": null,
+          "source_anchor": {
+            "fragment": "（2 分）",
+            "line": 1705,
+            "line_sha256": "c5de5c80d7a429ff3904e20a4f2e0fb19a5faf22d73af139390eafffa6128692",
+            "occurrence": 1,
+            "question_hash_sha256": "85531e256fed00805b39741b240425c571e8f8770b06883456f32a9ea020570b",
+            "question_id": "408-12-A-T44",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "1.1",
+            "1.2"
+          ],
+          "steps": [
+            "[408-12-A-T44#T01] 依题内指令语义区分移位补位规则",
+            "[408-12-A-T44#T01] 将机器数按位处理"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_b0127d8d30d6e846"
+            ]
+          },
+          "count_separately": false,
+          "description": "无阻塞流水周期",
+          "evidence_id": "408-12-A-T44:D02",
+          "points": 2,
+          "promoted_unit_id": null,
+          "source_anchor": {
+            "fragment": "（2 分）",
+            "line": 1707,
+            "line_sha256": "d96e259a4dde50a0f01519f8a40e8c8e8334f2fcd51031c4f41206c2f7627225",
+            "occurrence": 1,
+            "question_hash_sha256": "85531e256fed00805b39741b240425c571e8f8770b06883456f32a9ea020570b",
+            "question_id": "408-12-A-T44",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "2.1"
+          ],
+          "steps": [
+            "[408-12-A-T44#T02] 计入流水线装满和排空阶段求无阻塞周期"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_b0127d8d30d6e846"
+            ]
+          },
+          "count_separately": false,
+          "description": "译码段的相关阻塞",
+          "evidence_id": "408-12-A-T44:D03",
+          "points": 1,
+          "promoted_unit_id": null,
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1725,
+            "line_sha256": "9d29cd43b0a92c33993798960e570ab0c11c431733741b4bf06caba877a57817",
+            "occurrence": 1,
+            "question_hash_sha256": "85531e256fed00805b39741b240425c571e8f8770b06883456f32a9ea020570b",
+            "question_id": "408-12-A-T44",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "3.1"
+          ],
+          "steps": [
+            "[408-12-A-T44#T03] 识别读后写依赖"
+          ]
+        },
+        {
+          "attribution": {
+            "category": "method_operation",
+            "target_knowledge_ids": [
+              "CS408_K_b0127d8d30d6e846"
+            ]
+          },
+          "count_separately": false,
+          "description": "后续取指段的连带阻塞",
+          "evidence_id": "408-12-A-T44:D04",
+          "points": 1,
+          "promoted_unit_id": null,
+          "source_anchor": {
+            "fragment": "（1 分）",
+            "line": 1733,
+            "line_sha256": "1ff1629eb332a6c612a1dd81b5d2cdb9672f6599f00215d9bd098464446b2840",
+            "occurrence": 1,
+            "question_hash_sha256": "85531e256fed00805b39741b240425c571e8f8770b06883456f32a9ea020570b",
+            "question_id": "408-12-A-T44",
+            "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+          },
+          "step_refs": [
+            "3.2"
+          ],
+          "steps": [
+            "[408-12-A-T44#T03] 联系前级停顿对后续取指的阻塞"
+          ]
+        }
+      ],
+      "effective_total_points": 10,
+      "effective_unit_ids": [
+        "408-12-A-T44:S0"
+      ],
+      "mode": "whole",
+      "notes": [
+        "已知前面2加2加1加1分；第4问分值原文未给出，不用总分减已知分值推算。保留整题单元并在此记录已知细分证据，父子不可重复统计。"
+      ],
+      "question_id": "408-12-A-T44",
+      "raw_total_points": 10
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 7,
+      "effective_unit_ids": [
+        "408-12-A-T45:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-A-T45",
+      "raw_total_points": 7
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 8,
+      "effective_unit_ids": [
+        "408-12-A-T46:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-A-T46",
+      "raw_total_points": 8
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 9,
+      "effective_unit_ids": [
+        "408-12-A-T47:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-A-T47",
+      "raw_total_points": 9
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T01:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T01",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T02:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T02",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T03:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T03",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T04:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T04",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T05:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T05",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T06:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T06",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T07:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T07",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T08:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T08",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T09:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T09",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T10:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T10",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T11:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T11",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T12:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T12",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T13:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T13",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T14:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T14",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T15:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T15",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T16:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T16",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T17:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T17",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T18:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T18",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T19:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T19",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T20:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T20",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T21:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T21",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T22:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T22",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T23:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T23",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T24:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T24",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T25:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T25",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T26:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T26",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T27:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T27",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T28:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T28",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T29:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T29",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T30:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T30",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T31:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T31",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T32:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T32",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T33:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T33",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T34:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T34",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T35:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T35",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T36:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T36",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T37:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T37",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T38:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T38",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T39:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T39",
+      "raw_total_points": 2
+    },
+    {
+      "conditional_rules": [],
+      "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
+      "documented_subpoints": [],
+      "effective_total_points": 2,
+      "effective_unit_ids": [
+        "408-12-C-T40:S0"
+      ],
+      "mode": "whole",
+      "notes": [],
+      "question_id": "408-12-C-T40",
+      "raw_total_points": 2
+    }
+  ],
+  "schema_version": "cs408-scoring-evidence-v1.0.0"
+}

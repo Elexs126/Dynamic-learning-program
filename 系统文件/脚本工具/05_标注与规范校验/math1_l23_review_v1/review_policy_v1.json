@@ -1,0 +1,453 @@
+{
+  "version": "math1-l23-local-review-v1.0.0",
+  "generated_at": "2026-09-06T23:46:46.678991Z",
+  "authorization": "用户明确要求完成核心真题数学一L2至L3全部无需人工参与的字段；缺少整类信息则整体跳过；禁止上网、联想补造出处。该明确范围覆盖早先按需加工的默认限制。",
+  "source_scope": "核心真题/数学一；2008—2026；431题，逐题读取题干及本地解析，并检查被引用图片。",
+  "global_skips": [
+    {
+      "label_type": "小问、步骤的细分分值",
+      "field_family": "l3.score_units.points（细分层）",
+      "reason": "431题仅提供整题分值，没有可验证的独立小问分值或正式评分细则。保留一个整题评分单元和原总分。"
+    },
+    {
+      "label_type": "按步骤或知识点分拆的数值评分归属及比例",
+      "field_family": "l3.score_attribution（细分层）",
+      "reason": "没有细分评分证据，不分摊分数、不推定各步骤的官方得分。仍完成整题目标类别归属。"
+    }
+  ],
+  "out_of_scope_missing_source_note": "题源名称、年份、题号及本地定位已在L0提供并原样保留；独立原始出处核验材料缺失，L0.source_reliability维持unknown，不上网核实或猜等级。这不是额外跳过L2/L3字段。",
+  "score_policy": "无可靠子分值时保留整题单元；独立任务索引只支持步骤与依赖定位，不创建新评分原子。整题归属为主目标或综合目标，属于基于题意的结构性标注，并非官方细分评分标准。",
+  "empty_policy": "空次知识点或软前置表示本地任务未确认额外项目；空备选方法表示未从本地材料确认另一可行机制；同构为null表示在所声明431题范围未确认匹配，不证明库外不存在。",
+  "review_policy": "verified仅表示对应标签经过本轮逐题语义核对，不表示人工审核、答案正确、原稿公式完好或正式考频口径完整。难度使用现有静态四档规则，为可修订的教学判断。",
+  "main_overrides": {
+    "M1-26-C-T04": "三重积分的坐标变换"
+  },
+  "extra_omissions": {
+    "M1-15-A-T19": [
+      "l3.isomorphic_relation"
+    ],
+    "M1-26-C-T04": [
+      "l2.primary_method",
+      "l2.prerequisites",
+      "l2.difficulty_band",
+      "l3.evidence_steps",
+      "l3.isomorphic_relation"
+    ]
+  },
+  "clusters": [
+    {
+      "cluster_id": "M1_ISO_ASYMPTOTE_LIMIT",
+      "structural_invariant": "曲线在无穷远有一次增长部分；分别核对函数除自变量的极限和减去斜率项后的有限余量。",
+      "transfer_axis": [
+        "M1-14-C-T01：多项式与振荡或倒数振荡的组合",
+        "M1-23-C-T01：自变量乘平移倒数的对数"
+      ],
+      "question_ids": [
+        "M1-14-C-T01",
+        "M1-23-C-T01"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_BIVARIATE_STATIONARY_HESSIAN",
+      "structural_invariant": "二维无约束光滑函数有有限孤立驻点，驻点处二阶判别式非零；需解偏导方程并逐点以Hessian符号分类。",
+      "transfer_axis": [
+        "M1-09-A-T15：多项式与对数相加的二元函数",
+        "M1-12-A-T16：坐标乘二次指数函数",
+        "M1-13-A-T17：指数乘线性与三次多项式",
+        "M1-20-A-T15：非对称三次项加交叉项",
+        "M1-26-A-T17：不定二次型乘单变量指数"
+      ],
+      "question_ids": [
+        "M1-09-A-T15",
+        "M1-12-A-T16",
+        "M1-13-A-T17",
+        "M1-20-A-T15",
+        "M1-26-A-T17"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_CANCEL_TAYLOR_ORDER",
+      "structural_invariant": "初等函数差或线性组合在基点消去低阶项，首个非零Taylor系数决定无穷小阶及参数约束。",
+      "transfer_axis": [
+        "M1-13-C-T01：自变量与反正切之差",
+        "M1-15-A-T15：对数与自变量乘正弦组合",
+        "M1-19-C-T01：自变量减正切",
+        "M1-23-F-T11：二次多项式加对数对比指数余弦差"
+      ],
+      "question_ids": [
+        "M1-13-C-T01",
+        "M1-15-A-T15",
+        "M1-19-C-T01",
+        "M1-23-F-T11"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_COMPOSITE_MIXED_PARTIAL",
+      "structural_invariant": "未知外函数复合两个内变量；按依赖链连续两次求导，混合项由乘积法则产生。",
+      "transfer_axis": [
+        "M1-09-F-T09：外函数自变量为一个坐标及坐标乘积",
+        "M1-11-A-T16：内函数在指定点取得极值"
+      ],
+      "question_ids": [
+        "M1-09-F-T09",
+        "M1-11-A-T16"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_COMPOSITE_SECOND_DERIVATIVE",
+      "structural_invariant": "未知二元函数限制在单参数曲线上；二阶链式公式含梯度乘内函数二阶导与Hessian二次项，基点条件用于消项。",
+      "transfer_axis": [
+        "M1-17-A-T15：未知二元函数复合指数与余弦",
+        "M1-24-F-T12：余弦与平方内函数共享驻点"
+      ],
+      "question_ids": [
+        "M1-17-A-T15",
+        "M1-24-F-T12"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_CURL_COMPONENTS",
+      "structural_invariant": "给定三维可微向量场直接求旋度或其点值；三个分量分别是循环排列的交叉偏导之差。",
+      "transfer_axis": [
+        "M1-16-F-T10：线性与双线性分量的向量场",
+        "M1-18-F-T11：双线性向量场的点值"
+      ],
+      "question_ids": [
+        "M1-16-F-T10",
+        "M1-18-F-T11"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_DIRECTIONAL_GRADIENT_DOT",
+      "structural_invariant": "给定标量场、基点及非单位方向；必须先单位化方向再与基点梯度点乘。",
+      "transfer_axis": [
+        "M1-17-C-T03：三元多项式与非单位方向",
+        "M1-25-F-T13：三元乘积幂函数"
+      ],
+      "question_ids": [
+        "M1-17-C-T03",
+        "M1-25-F-T13"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_DOUBLE_POLAR_PARTITION",
+      "structural_invariant": "上半平面的区域边界由一段过原点邻域的圆弧及直线构成；极坐标需按角度分段确定不同径向上界。",
+      "transfer_axis": [
+        "M1-14-C-T03：圆弧与直线混合边界",
+        "M1-22-A-T18：半圆与弦线构成的区域"
+      ],
+      "question_ids": [
+        "M1-14-C-T03",
+        "M1-22-A-T18"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_EXPONENTIAL_LIMIT_PARAMETER",
+      "structural_invariant": "底数趋于一的幂指表达式通过对数转为指数；底数增量与指数的首项乘积约束未知参数。",
+      "transfer_axis": [
+        "M1-18-F-T09：正切分式为底正弦倒数为指数",
+        "M1-24-F-T11：一加二次式的正弦指数"
+      ],
+      "question_ids": [
+        "M1-18-F-T09",
+        "M1-24-F-T11"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_GAUSS_CAP_FLUX",
+      "structural_invariant": "带指定侧向的开放旋转曲面可用一个平面盖面补闭；通量等于按朝向取号的散度体积分减盖面通量。",
+      "transfer_axis": [
+        "M1-08-F-T12：抛物面上侧与平面补面",
+        "M1-14-A-T18：抛物面上侧与水平盖面",
+        "M1-18-A-T17：朝x轴的曲面前侧"
+      ],
+      "question_ids": [
+        "M1-08-F-T12",
+        "M1-14-A-T18",
+        "M1-18-A-T17"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_GRADIENT_COMPONENTS",
+      "structural_invariant": "任务直接要求标量函数在给定点的梯度；按坐标求一阶偏导并组成向量，不涉及约束优化。",
+      "transfer_axis": [
+        "M1-08-C-T02：反正切复合函数",
+        "M1-12-F-T11：含坐标乘积或商的三元表达式"
+      ],
+      "question_ids": [
+        "M1-08-C-T02",
+        "M1-12-F-T11"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_IMPLICIT_EXTREMA",
+      "structural_invariant": "三次代数隐式曲线给出单值可导函数，隐式一阶导的分子为零定位驻点，再代回曲线与二阶导判别。",
+      "transfer_axis": [
+        "M1-14-A-T16：三次代数隐式方程",
+        "M1-17-A-T17：两个独立三次项与线性项"
+      ],
+      "question_ids": [
+        "M1-14-A-T16",
+        "M1-17-A-T17"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_IMPLICIT_TOTAL_DIFFERENTIAL",
+      "structural_invariant": "一个三元等式局部确定二元隐函数，目标为指定点全微分；隐式偏导或微分系数比较给出两个分量。",
+      "transfer_axis": [
+        "M1-15-F-T11：指数与三元乘积约束",
+        "M1-16-F-T11：含未知可微函数但基点系数消失"
+      ],
+      "question_ids": [
+        "M1-15-F-T11",
+        "M1-16-F-T11"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_IMPROPER_LOG_PARTS",
+      "structural_invariant": "无穷端对数乘二次倒数权的积分；对数求导的分部积分将其降为可拆分的有理式，需核对端点。",
+      "transfer_axis": [
+        "M1-13-F-T12：对数除以平移平方的无穷积分",
+        "M1-26-F-T14：平移对数除以自变量平方"
+      ],
+      "question_ids": [
+        "M1-13-F-T12",
+        "M1-26-F-T14"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_INTEGRAL_POINTWISE_COMPARE",
+      "structural_invariant": "多个定积分具有相同区间；在区间内部证明被积函数的严格次序，通过积分保序性比较。",
+      "transfer_axis": [
+        "M1-11-C-T04：同区间三个三角对数积分",
+        "M1-22-C-T04：对数与三角分式积分比较"
+      ],
+      "question_ids": [
+        "M1-11-C-T04",
+        "M1-22-C-T04"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_NORMAL_CDF_MIXTURE_MEAN",
+      "structural_invariant": "分布函数为两个正态CDF仿射变换的加权和；各分量位置与尺度由CDF参数识别，混合期望按原权重相加。",
+      "transfer_axis": [
+        "M1-09-C-T07：两个正态分布函数的加权组合",
+        "M1-17-F-T14：两个仿射正态分布函数等权混合"
+      ],
+      "question_ids": [
+        "M1-09-C-T07",
+        "M1-17-F-T14"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_ODE_DECAY_INTEGRAL",
+      "structural_invariant": "正阻尼二阶齐次常系数方程的所有特征根实部为负；解及一阶导衰减，半轴积分可由方程整体积分和初值恢复。",
+      "transfer_axis": [
+        "M1-16-A-T16：二阶阻尼型方程的正参数范围",
+        "M1-20-F-T11：正阻尼二阶方程给定两初值"
+      ],
+      "question_ids": [
+        "M1-16-A-T16",
+        "M1-20-F-T11"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_PARAMETRIC_SECOND_DERIVATIVE",
+      "structural_invariant": "平面参数曲线的横坐标导数在目标点非零；对一阶导数比再施加一次除以横坐标参数导数的微分算子。",
+      "transfer_axis": [
+        "M1-10-F-T09：指数横坐标和积分纵坐标",
+        "M1-13-F-T11：三角参数曲线",
+        "M1-20-F-T10：根式与对数参数曲线",
+        "M1-21-F-T12：指数与多项式参数函数",
+        "M1-26-F-T13：三角参数含平方和线性项"
+      ],
+      "question_ids": [
+        "M1-10-F-T09",
+        "M1-13-F-T11",
+        "M1-20-F-T10",
+        "M1-21-F-T12",
+        "M1-26-F-T13"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_PARAM_NONHOMOGENEOUS_INFINITE",
+      "structural_invariant": "含参数非齐次有限线性系统；先找系数降秩分支，再以增广秩相等且低于未知量数判无穷多解。",
+      "transfer_axis": [
+        "M1-10-A-T20：同时含系数参数与常数项参数的三元方程组",
+        "M1-12-A-T20：含循环参数的四元系数矩阵",
+        "M1-15-C-T05：幂次列结构和参数右端项"
+      ],
+      "question_ids": [
+        "M1-10-A-T20",
+        "M1-12-A-T20",
+        "M1-15-C-T05"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_PERFECT_CORRELATION_LINEAR",
+      "structural_invariant": "两个非退化变量存在确定仿射关系；相关系数的极值与斜率符号对应，均值仅约束截距。",
+      "transfer_axis": [
+        "M1-08-C-T08：不同均值方差的正态变量与正相关",
+        "M1-12-C-T08：随机截断木棒的两段长度"
+      ],
+      "question_ids": [
+        "M1-08-C-T08",
+        "M1-12-C-T08"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_POWER_RECURRENCE_ODE",
+      "structural_invariant": "系数满足次数多项式加权的线性递推；相应生成函数的逐项导数把递推转为带初值的线性微分方程。",
+      "transfer_axis": [
+        "M1-13-A-T16：二阶跨两项递推",
+        "M1-20-A-T17：一阶相邻系数递推"
+      ],
+      "question_ids": [
+        "M1-13-A-T16",
+        "M1-20-A-T17"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_PUNCTURED_LIMIT_IMPLICATION",
+      "structural_invariant": "只给去心极限信息时，点值可独立指定；点导数存在会补足连续性，但导函数极限与差商条件不可互换。",
+      "transfer_axis": [
+        "M1-22-C-T01：函数与对数比值在非零基点的极限",
+        "M1-24-C-T04：给定零极限下的差商与导函数极限"
+      ],
+      "question_ids": [
+        "M1-22-C-T01",
+        "M1-24-C-T04"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_RECIPROCAL_DIFFERENCE_LIMIT",
+      "structural_invariant": "各项单独有倒数型发散而差值有限；通分后一次主项消去，二阶分子与二阶分母决定极限。",
+      "transfer_axis": [
+        "M1-20-F-T09：指数减一与对数的倒数差",
+        "M1-26-F-T12：正弦与对数分式的倒数型差"
+      ],
+      "question_ids": [
+        "M1-20-F-T09",
+        "M1-26-F-T12"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_REPEATED_EIGEN_DIAGONALIZABLE",
+      "structural_invariant": "三阶矩阵与含重复特征值的对角形式比较；共同谱不足，重复特征值的零空间维数须达到代数重数。",
+      "transfer_axis": [
+        "M1-17-C-T06：同谱三阶矩阵与一个对角阵",
+        "M1-23-C-T06：三角阵与对称阵候选"
+      ],
+      "question_ids": [
+        "M1-17-C-T06",
+        "M1-23-C-T06"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_SINE_SERIES_EXTENSION",
+      "structural_invariant": "有限区间正弦级数的区间外点值；用奇延拓和双区间长周期归约，再按连续值或跳跃平均取值。",
+      "transfer_axis": [
+        "M1-13-C-T03：区间分段线性函数的区间外点值",
+        "M1-25-F-T12：分段零函数与平方函数在中点跳跃"
+      ],
+      "question_ids": [
+        "M1-13-C-T03",
+        "M1-25-F-T12"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_SPACE_DOUBLE_CONSTRAINT_DISTANCE",
+      "structural_invariant": "空间点同时位于一个二次曲面和一个平面，目标是到固定平面的距离；对距离平方施加两个拉格朗日约束。",
+      "transfer_axis": [
+        "M1-08-A-T17：二次曲面与平面的交线求距离极值",
+        "M1-21-A-T19：二次曲面与平面交线到坐标面距离"
+      ],
+      "question_ids": [
+        "M1-08-A-T17",
+        "M1-21-A-T19"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_SPACE_LINE_PARAMETER",
+      "structural_invariant": "圆柱与非竖直平面形成闭交线；平面约束线性消去高度，平面投影圆的三角参数保留定向。",
+      "transfer_axis": [
+        "M1-11-F-T12：圆柱与斜平面闭交线",
+        "M1-14-F-T12：圆柱与斜平面的有向交线"
+      ],
+      "question_ids": [
+        "M1-11-F-T12",
+        "M1-14-F-T12"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    },
+    {
+      "cluster_id": "M1_ISO_SURFACE_TANGENT_GRADIENT",
+      "structural_invariant": "三维光滑标量等值面在给定正则点，以梯度作法向量；显式图面可统一写成F等于零。",
+      "transfer_axis": [
+        "M1-13-C-T02：隐式三元曲面",
+        "M1-14-F-T09：显式三角多项式曲面",
+        "M1-23-F-T12：线性项加对数径向函数"
+      ],
+      "question_ids": [
+        "M1-13-C-T02",
+        "M1-14-F-T09",
+        "M1-23-F-T12"
+      ],
+      "status": "verified",
+      "scope": "只比较本次数学一431题；同构只覆盖所述核心机制，不表示所有小问一一对应或题目重复。"
+    }
+  ]
+}

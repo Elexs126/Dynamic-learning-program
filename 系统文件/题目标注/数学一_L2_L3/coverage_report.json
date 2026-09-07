@@ -1,0 +1,1135 @@
+{
+  "alternative_method_count": 33,
+  "alternative_method_question_count": 29,
+  "builder_version": "math1-l23-builder-v1.0.0",
+  "dependency_count": 83,
+  "external_api_calls": 0,
+  "field_coverage": {
+    "l2.assessed_construct": {
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
+    },
+    "l2.difficulty_band": {
+      "filled": 426,
+      "needs_review": 5,
+      "verified": 426
+    },
+    "l2.main_knowledge": {
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
+    },
+    "l2.prerequisites": {
+      "filled": 428,
+      "needs_review": 3,
+      "verified": 428
+    },
+    "l2.primary_method": {
+      "filled": 428,
+      "needs_review": 3,
+      "verified": 428
+    },
+    "l2.secondary_knowledge": {
+      "filled": 430,
+      "needs_review": 1,
+      "verified": 430
+    },
+    "l3.alternative_methods": {
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
+    },
+    "l3.evidence_steps": {
+      "filled": 428,
+      "needs_review": 5,
+      "verified": 426
+    },
+    "l3.inter_question_dependency": {
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
+    },
+    "l3.isomorphic_relation": {
+      "filled": 424,
+      "needs_review": 7,
+      "verified": 424
+    },
+    "l3.score_attribution": {
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
+    },
+    "l3.score_units": {
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
+    }
+  },
+  "global_skips": [
+    {
+      "field_family": "l3.score_units.points（细分层）",
+      "label_type": "小问、步骤的细分分值",
+      "reason": "431题仅提供整题分值，没有可验证的独立小问分值或正式评分细则。保留一个整题评分单元和原总分。"
+    },
+    {
+      "field_family": "l3.score_attribution（细分层）",
+      "label_type": "按步骤或知识点分拆的数值评分归属及比例",
+      "reason": "没有细分评分证据，不分摊分数、不推定各步骤的官方得分。仍完成整题目标类别归属。"
+    }
+  ],
+  "human_required_label_types": {
+    "l2.difficulty_band": [
+      "M1-11-A-T21",
+      "M1-16-A-T22",
+      "M1-16-F-T12",
+      "M1-21-A-T22",
+      "M1-26-C-T04"
+    ],
+    "l2.prerequisites": [
+      "M1-11-A-T21",
+      "M1-16-F-T12",
+      "M1-26-C-T04"
+    ],
+    "l2.primary_method": [
+      "M1-11-A-T21",
+      "M1-16-F-T12",
+      "M1-26-C-T04"
+    ],
+    "l2.secondary_knowledge": [
+      "M1-11-A-T21"
+    ],
+    "l3.evidence_steps": [
+      "M1-11-A-T21",
+      "M1-16-F-T12",
+      "M1-21-A-T22",
+      "M1-21-C-T08",
+      "M1-26-C-T04"
+    ],
+    "l3.isomorphic_relation": [
+      "M1-11-A-T21",
+      "M1-15-A-T19",
+      "M1-16-A-T22",
+      "M1-16-F-T12",
+      "M1-21-A-T22",
+      "M1-21-C-T08",
+      "M1-26-C-T04"
+    ]
+  },
+  "human_required_question_count": 7,
+  "inventory": {
+    "question_count": 431,
+    "with_explicit_total_points": 431,
+    "with_local_explanation": 431,
+    "with_subpoint_or_rubric_cue": 0
+  },
+  "isomorphic_cluster_count": 28,
+  "isomorphic_question_count": 67,
+  "limitations": [
+    "verified仅表示对应标签经过本轮逐题语义核对，不表示人工审核、答案正确、原稿公式完好或正式考频口径完整。难度使用现有静态四档规则，为可修订的教学判断。",
+    "无可靠子分值时保留整题单元；独立任务索引只支持步骤与依赖定位，不创建新评分原子。整题归属为主目标或综合目标，属于基于题意的结构性标注，并非官方细分评分标准。",
+    "空次知识点或软前置表示本地任务未确认额外项目；空备选方法表示未从本地材料确认另一可行机制；同构为null表示在所声明431题范围未确认匹配，不证明库外不存在。",
+    "题源名称、年份、题号及本地定位已在L0提供并原样保留；独立原始出处核验材料缺失，L0.source_reliability维持unknown，不上网核实或猜等级。这不是额外跳过L2/L3字段。",
+    "未修改原题、原答案、L1快照、使用角色、作答或正式考频。"
+  ],
+  "network_requests": 0,
+  "official_subpoint_allocation_count": 0,
+  "record_count": 431,
+  "record_status_note": "整条记录保留needs_review，因为累积L0/L1仍有来源质量/候选状态；L2/L3以字段状态判断。",
+  "schema_version": "math1-l23-coverage-v1.0.0",
+  "score_unit_count": 431,
+  "source_image_count": 13,
+  "source_issue_count": 167,
+  "source_issues": [
+    {
+      "field_omissions": [],
+      "question_id": "M1-08-A-T17",
+      "source_issue": "旧考点误标为重积分应用，原文实际为条件极值"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-08-A-T20",
+      "source_issue": "解析以一个向量为另一向量倍数，零向量边界未展开"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-08-A-T21",
+      "source_issue": "矩阵排版和退化情形的解析难以逐项核验，具体矩阵需人工核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-08-C-T02",
+      "source_issue": "题干分式排版粘连，标签只依赖梯度任务及解析中的偏导结构"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-08-C-T04",
+      "source_issue": "旧考点偏向连续性，已按原题与解析改为单调有界收敛"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-08-F-T12",
+      "source_issue": "题干未明确有限曲面边界，解析采用平面截取；具体区域需原始试卷核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-09-A-T17",
+      "source_issue": "椭圆系数与旋转曲面方程及体积步骤前后不一致，需原稿核对精确几何数据"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-09-A-T19",
+      "source_issue": "分式和幂次排版粘连，标签依据解析明确的去心高斯结构"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-09-A-T20",
+      "source_issue": "原矩阵与行变换数组排版粘连，具体通解需原稿核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-09-C-T07",
+      "source_issue": "原文换元与导数系数前后不一致，具体期望数值需核对原稿"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-09-F-T09",
+      "source_issue": "题干仅称连续偏导，解析使用二阶偏导；二阶正则性条件未写全"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-09-F-T11",
+      "source_issue": "根式、积分上限与计算结果有排版冲突，具体数值需原稿核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-09-F-T14",
+      "source_issue": "旧考点写矩估计与最大似然，实际任务为无偏性配系数"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-10-A-T17",
+      "source_issue": "原文方法一二同属分部积分比较，去除重复方法名称"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-10-A-T19",
+      "source_issue": "解析对坐标关系的等价变形有明显冲突，具体投影边界和微元需核对原稿"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-10-C-T01",
+      "source_issue": "分子分母线性排版与解析符号可能相反，精确参数符号需核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-10-C-T02",
+      "source_issue": "题干乘积与分式排版不明，解析按比值处理"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-10-C-T03",
+      "source_issue": "根式和幂次在题干中粘连，精确参数范围需核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-10-C-T04",
+      "source_issue": "旧考点过粗，原题实际为二重黎曼和识别"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-10-F-T09",
+      "source_issue": "旧考点误指中值定理，实际为参数方程二阶导数"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-10-F-T10",
+      "source_issue": "题干根号或幂次与解析换元存在排版歧义"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-11-A-T17",
+      "source_issue": "原解析根数结论与自身奇函数和符号变化条件矛盾，不采用其具体根数结论"
+    },
+    {
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.secondary_knowledge",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.prerequisites",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.difficulty_band",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U02",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        }
+      ],
+      "question_id": "M1-11-A-T21",
+      "source_issue": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-11-C-T03",
+      "source_issue": "解析中间的充分条件压缩不完整，标签仅采用完整海森判据"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-11-C-T05",
+      "source_issue": "矩阵排列、所述交换行和选项对应有粘连，精确乘积需核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-11-F-T11",
+      "source_issue": "仅按本地题干显式变量依赖标注，不恢复可能遗漏的原始公式"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-A-T15",
+      "source_issue": "原解析负区间的导数符号叙述前后不一致，未采纳冲突行"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-A-T16",
+      "source_issue": "指数括号、系数和部分二阶导数符号排版冲突，需核对精确表达式"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-A-T17",
+      "source_issue": "题干分式粘连且原点和函数值与通项可能不一致，具体公式需核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-A-T18",
+      "source_issue": "参数区间的分式与导数正性冲突，需核对原区间"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-A-T20",
+      "source_issue": "旧考点仅为行列式，已补充实际非齐次方程组任务"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-A-T21",
+      "source_issue": "旧考点过粗，原文实际同时考格拉姆秩与二次型"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-A-T22",
+      "source_issue": "分布表行列结构粘连，具体格点概率需核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-C-T03",
+      "source_issue": "旧考点误标极值；分母是否有根号影响具体选项，需核对原公式"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-C-T07",
+      "source_issue": "原解析联合密度书写遗漏归一化系数，计算标签不采纳具体数值步骤"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-F-T09",
+      "source_issue": "原解析仅检验一个候选，未写唯一性论证；标签保留其实际方法边界"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-F-T10",
+      "source_issue": "根式和分式在题干中粘连，具体被积函数需核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-F-T11",
+      "source_issue": "题干表达式与解析偏导不一致，具体梯度分量需要核对原稿"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-F-T13",
+      "source_issue": "原文特殊向量法未说明一般性保持条件，主方法采用完整秩论证"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-12-F-T14",
+      "source_issue": "题干条件事件缺补集横线而解析使用补集，需核对原稿条件"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-13-A-T15",
+      "source_issue": "题干根式分式粘连，解析若干中间等式与其不一致，标签只保留可辨认解法"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-13-A-T17",
+      "source_issue": "幂系数分式在转写中粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-13-A-T21",
+      "source_issue": "题干首个平方项缺少系数，而问题要求与解析均带该系数；不输出数值标准形"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-13-A-T22",
+      "source_issue": "本地解析只完成分布函数，第二问可直接由题干分段事件判断；未补写答案"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-13-A-T23",
+      "source_issue": "密度分式和指数在原文粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-13-C-T01",
+      "source_issue": "原文分式排列粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-13-C-T03",
+      "source_issue": "题干绝对值或分段格式缺失，解析给出了分段函数"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-13-C-T04",
+      "source_issue": "题干三次项系数与解析求导系数明显不一致；只确定转化与比较方法"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-13-F-T09",
+      "source_issue": "指数与乘法格式粘连，解析求导表达也存在歧义"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-13-F-T11",
+      "source_issue": "指定参数分数与答案根号格式粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-13-F-T13",
+      "source_issue": "原文特殊矩阵方法本身不足以证明唯一性，主方法采用一般推导"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-14-A-T19",
+      "source_issue": "分式格式粘连，目标项按题干与解析共同确定为比值"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-14-A-T20",
+      "source_issue": "第一种方法矩阵转写局部与后两种不一致，标签不含矩阵数值"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-14-A-T21",
+      "source_issue": "解析写A平方等于A不成立；可对角化事实仍由对称性或谱结构确定"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-14-A-T22",
+      "source_issue": "第二问对第一问的依赖仅适用于边缘密度方法"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-14-A-T23",
+      "source_issue": "参数在指数分式中的格式粘连，解析部分对数项转写前后不一致"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-14-C-T03",
+      "source_issue": "原文根式与分数排版粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-14-C-T04",
+      "source_issue": "选项转写重复且系数与解析不一致"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-14-F-T13",
+      "source_issue": "解析只简写惯性条件推导"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-14-F-T14",
+      "source_issue": "解析匹配目标处把参数平方写成参数，题干目标明确"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-15-A-T17",
+      "source_issue": "解析候选点的梯度模与所报值不一致，保留方法不复制数值"
+    },
+    {
+      "field_omissions": [
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "给定端点及解析参数式与曲面条件不相容，原稿与路径弧段需核对；未确认具体积分表达式",
+          "reason_type": "human_review_needed"
+        }
+      ],
+      "question_id": "M1-15-A-T19",
+      "source_issue": "给定端点及解析参数式与曲面条件不相容，原稿与路径弧段需核对；未确认具体积分表达式"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-15-A-T20",
+      "source_issue": "解析第二坐标差系数有笔误，不影响零空间解法"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-15-C-T01",
+      "source_issue": "已查看本地配图"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-15-C-T03",
+      "source_issue": "两个待判点均转写成3，无法确认具体点；解析还误从条件收敛推出系数比极限存在"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-15-C-T04",
+      "source_issue": "斜率根号与径向上下限转写冲突"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-15-C-T07",
+      "source_issue": "选项不等号与分式粘连且重复，解析方向与选项不一致"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-15-C-T08",
+      "source_issue": "解析将不相关误写成独立，实际只需不相关"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-15-F-T12",
+      "source_issue": "解析截面积漏写二分之一但下一行使用了该因子"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-16-A-T18",
+      "source_issue": "解析平面系数、积分上下限和展开出现多处不一致；题干几何与主解法仍清楚"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-16-A-T19",
+      "source_issue": "解析将严格不等式直接取极限的步骤不充分，界限应使用极限固定点与中值定理"
+    },
+    {
+      "field_omissions": [
+        {
+          "field_path": "l2.difficulty_band",
+          "reason": "现存区域满足Y小于X，故U退化，解析却使用不退化U且面积归一化不符；需核对根式边界，通用分区步骤仍可标但不能确认所述非独立结论",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "现存区域满足Y小于X，故U退化，解析却使用不退化U且面积归一化不符；需核对根式边界，通用分区步骤仍可标但不能确认所述非独立结论",
+          "reason_type": "human_review_needed"
+        }
+      ],
+      "question_id": "M1-16-A-T22",
+      "source_issue": "现存区域满足Y小于X，故U退化，解析却使用不退化U且面积归一化不符；需核对根式边界，通用分区步骤仍可标但不能确认所述非独立结论"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-16-C-T02",
+      "source_issue": "解析把所给函数误写成其导数符号"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-16-C-T03",
+      "source_issue": "平均式与根式排版粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-16-C-T05",
+      "source_issue": "解析对错误选项仅说明标准推导不成立，未给反例"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-16-C-T06",
+      "source_issue": "题干缺少等值曲面右端常数，曲面类型依赖该常数的符号"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-16-C-T08",
+      "source_issue": "解析混合概率中间乘式与给出的概率不一致"
+    },
+    {
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.prerequisites",
+          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.difficulty_band",
+          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
+          "reason_type": "human_review_needed"
+        }
+      ],
+      "question_id": "M1-16-F-T12",
+      "source_issue": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-17-A-T17",
+      "source_issue": "解析二阶导数展开局部误写"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-17-A-T19",
+      "source_issue": "曲面和密度根号转写丢失，解析可见对应求导结构"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-17-A-T22",
+      "source_issue": "原文两种方法均是同一条件分拆机制，合并不重复计为独立备选"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-17-A-T23",
+      "source_issue": "估计式根号转写缺失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-17-C-T01",
+      "source_issue": "分母幂次根式排版粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-17-C-T04",
+      "source_issue": "已查看本地配图；解析追及方程的符号写反，图与初始条件可直接判断"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-17-C-T07",
+      "source_issue": "原文补集横线全部丢失，选项无法逐字区分；解析代数关系可定位考查类型"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-17-F-T10",
+      "source_issue": "特征根根号转写丢失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-17-F-T14",
+      "source_issue": "解析求导链式系数与题干不一致，所报期望不能直接采信"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-18-A-T15",
+      "source_issue": "原文根式符号丢失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-18-A-T16",
+      "source_issue": "解析多处圆周率字符丢失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-18-A-T17",
+      "source_issue": "题干未给截断范围；解析补x等于零盖面且函数形式存在根式歧义，具体几何需原稿核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-18-A-T18",
+      "source_issue": "第二问使用一般积分因子法，不以第一问特例结果为依赖"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-18-A-T20",
+      "source_issue": "解析将全体解误限制为非零倍数，配方中间等式也有误；标签不采纳该限制"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-18-C-T01",
+      "source_issue": "候选式根号丢失导致选项重复，具体候选选择需核对；可导性判断机制清楚"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-18-C-T06",
+      "source_issue": "选项r后内容有截断，解析等式完整"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-18-F-T10",
+      "source_issue": "题干的指数2的x次方转写成2x，但解析导数可定位为指数曲线"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-19-A-T15",
+      "source_issue": "指数分式与根号排版粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-19-A-T18",
+      "source_issue": "根式排版粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-19-A-T22",
+      "source_issue": "解析第三问按第二问参数展开，依赖限于该本地证明"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-19-C-T03",
+      "source_issue": "解析仅列其余选项反例，正确选项可由部分和定义直接判断"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-19-C-T06",
+      "source_issue": "已查看本地配图；部分秩符号转写省略"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-19-C-T07",
+      "source_issue": "原文补集横线丢失导致选项形式重复"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-19-F-T10",
+      "source_issue": "原答案根号转写丢失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-19-F-T11",
+      "source_issue": "根号及分母排版粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-19-F-T12",
+      "source_issue": "根号转写缺失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-19-F-T14",
+      "source_issue": "密度写成2x与归一性冲突，解析使用x除以2；具体数值需核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-A-T16",
+      "source_issue": "解析边界方向与符号转写局部含混"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-A-T17",
+      "source_issue": "分数参数与根号转写缺失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-A-T18",
+      "source_issue": "曲面根号缺失，解析求导表明圆锥而非抛物面"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-A-T19",
+      "source_issue": "解析末尾应使用导数连续而非导数可导，题设连续导数已足够"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-A-T21",
+      "source_issue": "两种可逆性证明属于相同线性无关机制"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-A-T22",
+      "source_issue": "第二问本地证明独立计算边缘，并未调用第一问"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-A-T23",
+      "source_issue": "尺度位于指数分式内的排版有歧义，答案根式丢失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-C-T01",
+      "source_issue": "根式和分数幂转写缺失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-C-T02",
+      "source_issue": "选项分母根式缺失且解析等式粘连，具体选项需原稿核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-C-T03",
+      "source_issue": "距离分母根号转写缺失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-C-T04",
+      "source_issue": "解析偶项下标转写不完整"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-C-T06",
+      "source_issue": "解析误对两条直线复用同一参数，存在性线性表示仍成立"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-C-T07",
+      "source_issue": "补集横线丢失且解析加减号有笔误"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-C-T08",
+      "source_issue": "解析标准化中心误写为阈值，近似机制清楚"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-F-T10",
+      "source_issue": "题干根号转写缺失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-F-T11",
+      "source_issue": "解析声称根均为负实数不涵盖复根情况，应检查负实部"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-20-F-T14",
+      "source_issue": "解析把正弦误称为偶函数，两均值为零依据是奇性"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-21-A-T17",
+      "source_issue": "原文分式括号排版粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-21-A-T18",
+      "source_issue": "解析把负端点交错和写成正项和，但端点收敛性不受此笔误影响"
+    },
+    {
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps.U02",
+          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U03",
+          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.difficulty_band",
+          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
+          "reason_type": "human_review_needed"
+        }
+      ],
+      "question_id": "M1-21-A-T22",
+      "source_issue": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-21-C-T02",
+      "source_issue": "解析直接假定整个函数表达式，题干实际只需交点偏导且不能唯一确定全局函数"
+    },
+    {
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "题干补集与部分事件名称缺失，解析末尾选择与此前推导不能逐项对应；保留条件概率知识与通分方法，具体选项证据需核对",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "题干补集与部分事件名称缺失，解析末尾选择与此前推导不能逐项对应；保留条件概率知识与通分方法，具体选项证据需核对",
+          "reason_type": "human_review_needed"
+        }
+      ],
+      "question_id": "M1-21-C-T08",
+      "source_issue": "题干补集与部分事件名称缺失，解析末尾选择与此前推导不能逐项对应；保留条件概率知识与通分方法，具体选项证据需核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-22-A-T17",
+      "source_issue": "根式在系数与指数中多处丢失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-22-A-T18",
+      "source_issue": "已查看本地配图，题干圆边界根号在转写中缺失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-22-A-T20",
+      "source_issue": "解析Taylor方法直接把随自变量变化的中间点移出积分不严谨；采用余项符号不等式"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-22-A-T21",
+      "source_issue": "第三问也给出直接配方方法，其依赖仅限引用第二问零空间或标准形的方法"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-22-C-T02",
+      "source_issue": "题干比例y除以x粘连为xy，解析链式结构可辨"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-22-C-T05",
+      "source_issue": "解析补充段错误声称二维不同特征值正交条件总充分，单一特征值时为空真；不采用该扩展"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-22-C-T09",
+      "source_issue": "题干绝对值符号转写缺失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-23-A-T18",
+      "source_issue": "解析求导式及退化路径代入表达有笔误；退化点需以原函数符号判断"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-23-A-T20",
+      "source_issue": "第二问解析多处漏写绝对值；标签保留绝对值估计步骤"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-23-C-T02",
+      "source_issue": "题干未明确全体解还是某解，解析按通解有界处理；解析还把双向增长误写成只在正无穷增长"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-23-C-T03",
+      "source_issue": "解析末尾应为二阶导数不存在而非二阶导函数不可导"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-23-C-T09",
+      "source_issue": "解析第二样本下标误写为第一样本"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-23-C-T10",
+      "source_issue": "根式常数转写粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-23-F-T15",
+      "source_issue": "解析首个方程下标误写，按正交投影规则可判断"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-24-A-T17",
+      "source_issue": "根式在题干边界和被积式中丢失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-24-A-T19",
+      "source_issue": "解析第一条包络的不等号写反，题干分数与绝对值粘连；标签只记录上下界机制"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-24-A-T21",
+      "source_issue": "源答案未明确含零特征值时n等于零的分支；不复制数值通项"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-24-C-T02",
+      "source_issue": "解析投影符号前后矛盾，所选选项不能直接作为证据"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-24-C-T05",
+      "source_issue": "已查看本地配图"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-25-A-T18",
+      "source_issue": "比例与偏导初值的分式转写粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-25-A-T19",
+      "source_issue": "源充分性证明取极限后只得到非严格关系，尚需严格性论证；标签登记该关键步骤而不声称原证明完整"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-25-A-T21",
+      "source_issue": "解析把非零向量误写为所有分量乘积非零；矩阵排版也粘连，不使用该错误限制"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-25-C-T01",
+      "source_issue": "解析乘积二阶导数展开有笔误，sin平方与二倍角格式粘连"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-25-C-T02",
+      "source_issue": "解析包含自行推测次数的注释，未采用该猜测；仅保留可由题意识别的判别机制"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-25-C-T03",
+      "source_issue": "解析反例根式转写丢失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-25-C-T04",
+      "source_issue": "已查看本地配图；一般函数不能仅凭区域对称把两侧合并为倍数"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-25-C-T06",
+      "source_issue": "解析中途误称平面，最终用维数确定直线"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-25-C-T07",
+      "source_issue": "解析仅举反例排除选项，两个肯定等号可由题设与秩不等式直接推出"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-25-C-T10",
+      "source_issue": "四个选项根号转写成相同式，具体选项字母不作为标签依据"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-25-F-T16",
+      "source_issue": "补集横线转写缺失"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-26-A-T18",
+      "source_issue": "乘积与比例及u位置分式粘连，解析积分关系亦混写；具体ODE系数待原稿核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-26-A-T20",
+      "source_issue": "第二问只用积分定义与零总积分，不依赖第一问a为正的结论"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-26-A-T22",
+      "source_issue": "源文将无记忆性作为最小值推导理由，实际关键是独立性；沿本地标准寿命试验假设使用"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-26-C-T03",
+      "source_issue": "题设未给可导性，解析导数证明增添假设；凸函数弦斜率性质本身不需可导"
+    },
+    {
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.prerequisites",
+          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.difficulty_band",
+          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
+          "reason_type": "human_review_needed"
+        }
+      ],
+      "question_id": "M1-26-C-T04",
+      "source_issue": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-26-C-T09",
+      "source_issue": "解析把同分布误述为必然逐点线性关系，部分分式粘连；只标分布变换"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-26-C-T10",
+      "source_issue": "解析权重比方向有笔误，不复制该中间不等式"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-26-F-T11",
+      "source_issue": "旧标签为旋度，题干实际明确要求散度"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-26-F-T13",
+      "source_issue": "sin平方与sin二倍角排版粘连，解析导数可定位"
+    },
+    {
+      "field_omissions": [],
+      "question_id": "M1-26-F-T15",
+      "source_issue": "解析第二矩阵特征向量和谱需核对矩阵原稿，标签只确定求谱与分段比较"
+    }
+  ],
+  "source_scope": "核心真题/数学一；2008—2026；431题，逐题读取题干及本地解析，并检查被引用图片。",
+  "task_reference_count": 541,
+  "year_counts": {
+    "2008": 23,
+    "2009": 23,
+    "2010": 23,
+    "2011": 23,
+    "2012": 23,
+    "2013": 23,
+    "2014": 23,
+    "2015": 23,
+    "2016": 23,
+    "2017": 23,
+    "2018": 23,
+    "2019": 23,
+    "2020": 23,
+    "2021": 22,
+    "2022": 22,
+    "2023": 22,
+    "2024": 22,
+    "2025": 22,
+    "2026": 22
+  }
+}

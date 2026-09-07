@@ -1,0 +1,153 @@
+{
+  "version": "cs408-2009-2012-l23-review-v1.0.0",
+  "generated_at": "2026-09-07T11:11:40.435197+00:00",
+  "authorization": "用户明确要求完成408的2009—2012年真题L3，累积补齐可依据本地文件判断的L2/L3；不联网，不推测出处，不要求重新授权。",
+  "source_scope": "核心真题/408的2009—2012年四份文件，188题；逐题读取题干与解析，48张引用SVG均已本地渲染并查看。",
+  "global_skips": [],
+  "out_of_scope_missing_source_note": "年份、题号、题源名称和本地定位已在L0保留；独立原始出处核验材料未提供，L0.source_reliability保持unknown，不推断原始资料可靠等级。这不是遗漏本轮L2/L3字段。",
+  "score_policy": "可靠且完整、与原总分相符的评分项才成为可累加score_units；没有完整拆分依据时保留整题单元。局部已知分项及算法条件得分在scoring_evidence_v1.json中逐项保留，非额外可累加分数。总分与分项冲突时points置null，保留双方证据。",
+  "empty_policy": "空次知识点和软前置表示本题任务未确认额外项目；空备选表示本地解析未提供另一明确可行机制；空依赖表示未确认直接结果调用；同构null仅表示本批188题未确认可填写匹配，不推定库外没有。",
+  "review_policy": "verified表示对应标签已经逐题依据本地语义核对，不表示人工签核、原始答案认证、学生实测或正式考频可用。静态难度可修订。源代码和图片笔误只登记对标签的影响，不复制解答。",
+  "main_overrides": {},
+  "extra_omissions": {},
+  "field_omissions": {
+    "408-12-A-T42": [
+      {
+        "field_path": "l3.score_units.S0.subdivision",
+        "reason_type": "human_review_needed",
+        "reason": "原总分15分与算法评分说明12分之间的覆盖范围不明；保留整题15分和原文条件证据，未确定算法部分及其他要求的分值拆分。"
+      }
+    ],
+    "408-12-A-T43": [
+      {
+        "field_path": "l3.score_units.S0.points",
+        "reason_type": "human_review_needed",
+        "reason": "原文分值元数据为8分，解析七项分值合计10分；本地材料无法确定应采用哪一处，不更改L0事实，评分单元总分留空。"
+      }
+    ]
+  },
+  "additional_human_required_label_types": {
+    "条件评分的适用范围": [
+      "408-12-A-T42"
+    ]
+  },
+  "additional_human_required_reasons": {
+    "408-12-A-T42": "原总分15分，算法正确且线性时间的评分说明给12分；说明未明确覆盖哪几个要求，也没有剩余分值细则。保留原总分与12/9分条件文字，不把12分当整题满分或推算剩余3分。"
+  },
+  "clusters": [
+    {
+      "cluster_id": "CS408_ISO_HEAP_INSERT_SIFT_UP",
+      "structural_invariant": "完全树末端插入新关键字后，仅沿祖先链比较和交换恢复堆序；比较方向和终止位置随大小根堆及新值改变。",
+      "transfer_axis": [
+        "408-09-C-T09：最小堆插入更小关键字",
+        "408-11-C-T11：最大堆插入中间权值并统计比较"
+      ],
+      "question_ids": [
+        "408-09-C-T09",
+        "408-11-C-T11"
+      ],
+      "status": "verified",
+      "scope": "仅比较408的2009—2012年188题；关系覆盖所述核心结构，不表示整道综合题的所有小问一一对应，也不等于重复题。"
+    },
+    {
+      "cluster_id": "CS408_ISO_SORT_PASS_INVARIANTS",
+      "structural_invariant": "从一趟排序保证的端点最终位置、枢轴位置和有序段形态检验中间状态；区分局部有序与全局最终定位。",
+      "transfer_axis": [
+        "408-09-C-T10：第二趟排序后的部分有序序列",
+        "408-10-C-T11：三趟结果显示最大值依次沉底",
+        "408-12-C-T10：五类排序的定位保证"
+      ],
+      "question_ids": [
+        "408-09-C-T10",
+        "408-10-C-T11",
+        "408-12-C-T10"
+      ],
+      "status": "verified",
+      "scope": "仅比较408的2009—2012年188题；关系覆盖所述核心结构，不表示整道综合题的所有小问一一对应，也不等于重复题。"
+    },
+    {
+      "cluster_id": "CS408_ISO_HRRN_PRIORITY",
+      "structural_invariant": "调度优先量同时依赖等待时间和服务时间；固定一个因素考察另一个因素的增减，解释短任务优势与等待补偿。",
+      "transfer_axis": [
+        "408-09-C-T24：等待时间与服务时间综合调度",
+        "408-11-C-T23：要求偏向短任务且不饥饿"
+      ],
+      "question_ids": [
+        "408-09-C-T24",
+        "408-11-C-T23"
+      ],
+      "status": "verified",
+      "scope": "仅比较408的2009—2012年188题；关系覆盖所述核心结构，不表示整道综合题的所有小问一一对应，也不等于重复题。"
+    },
+    {
+      "cluster_id": "CS408_ISO_IO_CPU_OVERHEAD",
+      "structural_invariant": "把每秒服务事件次数乘以每次CPU周期成本，再除以CPU每秒周期数；传输粒度或查询方式只改变频率和单次成本。",
+      "transfer_axis": [
+        "408-09-A-T43：中断按字传输与DMA按块传输",
+        "408-11-C-T22：给定定时查询频率和周期成本"
+      ],
+      "question_ids": [
+        "408-09-A-T43",
+        "408-11-C-T22"
+      ],
+      "status": "verified",
+      "scope": "仅比较408的2009—2012年188题；关系覆盖所述核心结构，不表示整道综合题的所有小问一一对应，也不等于重复题。"
+    },
+    {
+      "cluster_id": "CS408_ISO_BUS_SIGNAL_CLASSIFICATION",
+      "structural_invariant": "按接口寄存器中的字信息与总线握手信号区分承载线路；命令语义不等于控制线信号。",
+      "transfer_axis": [
+        "408-11-C-T20：数据线可能承载的信息",
+        "408-12-C-T21：命令字状态字和中断类型号"
+      ],
+      "question_ids": [
+        "408-11-C-T20",
+        "408-12-C-T21"
+      ],
+      "status": "verified",
+      "scope": "仅比较408的2009—2012年188题；关系覆盖所述核心结构，不表示整道综合题的所有小问一一对应，也不等于重复题。"
+    },
+    {
+      "cluster_id": "CS408_ISO_IO_SOFTWARE_REQUEST_FLOW",
+      "structural_invariant": "沿用户请求、设备无关处理、驱动下发到中断完成的职责链排序；改变问法不改变相邻层接口关系。",
+      "transfer_axis": [
+        "408-11-C-T26：用户磁盘请求的完整层次",
+        "408-12-C-T26：四层I/O子系统排列"
+      ],
+      "question_ids": [
+        "408-11-C-T26",
+        "408-12-C-T26"
+      ],
+      "status": "verified",
+      "scope": "仅比较408的2009—2012年188题；关系覆盖所述核心结构，不表示整道综合题的所有小问一一对应，也不等于重复题。"
+    },
+    {
+      "cluster_id": "CS408_ISO_BANKER_SAFETY_TRACE",
+      "structural_invariant": "以可用资源向量满足尚需向量，假设进程完成后归还已分配向量，重复至全部完成或无进程可继续。",
+      "transfer_axis": [
+        "408-11-C-T27：四进程三类资源的状态表",
+        "408-12-C-T27：五进程三类资源给总量和分配表"
+      ],
+      "question_ids": [
+        "408-11-C-T27",
+        "408-12-C-T27"
+      ],
+      "status": "verified",
+      "scope": "仅比较408的2009—2012年188题；关系覆盖所述核心结构，不表示整道综合题的所有小问一一对应，也不等于重复题。"
+    },
+    {
+      "cluster_id": "CS408_ISO_SUBNET_BROADCAST_HOST_COUNT",
+      "structural_invariant": "用掩码划分网络位与主机位，保持网络前缀并检查主机位全一的广播边界；可继续由同一主机位数推容量。",
+      "transfer_axis": [
+        "408-11-C-T38：小前缀子网定向广播",
+        "408-12-C-T39：由主机地址和掩码求广播"
+      ],
+      "question_ids": [
+        "408-11-C-T38",
+        "408-12-C-T39"
+      ],
+      "status": "verified",
+      "scope": "仅比较408的2009—2012年188题；关系覆盖所述核心结构，不表示整道综合题的所有小问一一对应，也不等于重复题。"
+    }
+  ]
+}
