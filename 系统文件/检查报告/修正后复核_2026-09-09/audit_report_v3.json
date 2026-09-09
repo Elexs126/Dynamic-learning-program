@@ -1,0 +1,1791 @@
+{
+  "audit_version": "post-correction-audit-v1.0.0",
+  "status": "REVIEW_REQUIRED",
+  "dependent_l1_execution_allowed": false,
+  "dependent_l1_executed": false,
+  "counts": {
+    "actual_canonical": 8022,
+    "stored_baseline": 8022,
+    "core": 1277,
+    "actual_by_source": {
+      "MATH1_PAST_PAPERS": 431,
+      "CS408_PAST_PAPERS": 846,
+      "ZHANGYU_BASIC_30": 876,
+      "MATH2_PAST_PAPERS": 431,
+      "MATH3_PAST_PAPERS": 431,
+      "ZHANGYU_1000": 1041,
+      "WANGDAO_408": 2895,
+      "CS408_CLASSIC_EXERCISES": 1071
+    },
+    "score_conflict_questions": 0,
+    "semantic_choice_issues": 0,
+    "rule_scope_documentation_issues": 0,
+    "paper_total_mismatches": 0,
+    "stored_l1_changed_question_hashes": 114,
+    "ocr_suspicious_characters_remaining": 0,
+    "short_stem_candidates": 11,
+    "duplicate_candidate_groups": 33,
+    "duplicate_candidate_records": 67,
+    "core_course_only_routes": 123,
+    "core_course_only_routes_by_track": {
+      "MATH1": 2,
+      "CS408": 121
+    }
+  },
+  "cohorts": [
+    {
+      "cohort": "数学一_L2_L3",
+      "record_count": 431,
+      "stored_field_omission_question_count": 0,
+      "source_file_hash_drift": [
+        "核心真题/数学一/2010年全国硕士研究生招生考试数学一真题.md",
+        "核心真题/数学一/2011年全国硕士研究生招生考试数学一真题.md",
+        "核心真题/数学一/2012年全国硕士研究生招生考试数学一真题.md",
+        "核心真题/数学一/2013年全国硕士研究生招生考试数学一真题.md",
+        "核心真题/数学一/2014年全国硕士研究生招生考试数学一真题.md",
+        "核心真题/数学一/2018年全国硕士研究生招生考试数学一真题.md",
+        "核心真题/数学一/2021年全国硕士研究生招生考试数学一真题.md",
+        "核心真题/数学一/2022年全国硕士研究生招生考试数学一真题.md",
+        "核心真题/数学一/2024年全国硕士研究生招生考试数学一真题.md",
+        "核心真题/数学一/2026年全国硕士研究生招生考试数学一真题.md"
+      ],
+      "question_hash_drift": [
+        "M1-10-A-T20",
+        "M1-10-C-T02",
+        "M1-11-A-T22",
+        "M1-12-A-T21",
+        "M1-13-A-T21",
+        "M1-13-C-T01",
+        "M1-14-A-T20",
+        "M1-14-A-T21",
+        "M1-14-A-T23",
+        "M1-18-A-T19",
+        "M1-18-A-T20",
+        "M1-18-A-T21",
+        "M1-18-C-T08",
+        "M1-18-F-T13",
+        "M1-21-A-T18",
+        "M1-21-A-T19",
+        "M1-21-C-T01",
+        "M1-21-C-T07",
+        "M1-22-C-T01",
+        "M1-22-C-T07",
+        "M1-24-C-T06",
+        "M1-24-C-T07",
+        "M1-26-C-T04"
+      ],
+      "cumulative_layer_mismatch_ids": [],
+      "note": "An empty omission list is not proof of reconciled source scoring."
+    },
+    {
+      "cohort": "408_2009_2012_L3",
+      "record_count": 188,
+      "stored_field_omission_question_count": 0,
+      "source_file_hash_drift": [
+        "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2010年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2011年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+      ],
+      "question_hash_drift": [
+        "408-09-A-T44",
+        "408-10-A-T42",
+        "408-10-A-T43",
+        "408-11-A-T42",
+        "408-11-A-T43"
+      ],
+      "cumulative_layer_mismatch_ids": [],
+      "note": "An empty omission list is not proof of reconciled source scoring."
+    },
+    {
+      "cohort": "408_2013_2026_L3",
+      "record_count": 658,
+      "stored_field_omission_question_count": 0,
+      "source_file_hash_drift": [
+        "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2015年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2018年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2019年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2021年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2023年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+        "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+      ],
+      "question_hash_drift": [
+        "408-13-A-T42",
+        "408-13-A-T43",
+        "408-14-A-T42",
+        "408-15-A-T42",
+        "408-15-A-T43",
+        "408-18-A-T42",
+        "408-18-A-T43",
+        "408-19-A-T42",
+        "408-19-A-T43",
+        "408-19-A-T44",
+        "408-19-A-T45",
+        "408-19-A-T46",
+        "408-20-A-T42",
+        "408-20-A-T43",
+        "408-21-A-T42",
+        "408-21-A-T43",
+        "408-22-A-T42",
+        "408-22-A-T43",
+        "408-23-A-T42",
+        "408-23-A-T43",
+        "408-24-A-T44",
+        "408-25-A-T42",
+        "408-25-A-T43",
+        "408-26-A-T44"
+      ],
+      "cumulative_layer_mismatch_ids": [],
+      "note": "An empty omission list is not proof of reconciled source scoring."
+    }
+  ],
+  "score_conflicts": [],
+  "semantic_findings": [],
+  "rule_scope_notes": [],
+  "paper_total_mismatches": [],
+  "missing_ids_from_current_sources": [
+    "WD-OS-C-2.2-T00",
+    "WD-OS-C-2.2-T27"
+  ],
+  "new_ids": [],
+  "changed_question_hashes": [
+    "408-09-A-T44",
+    "408-10-A-T42",
+    "408-10-A-T43",
+    "408-11-A-T42",
+    "408-11-A-T43",
+    "408-13-A-T42",
+    "408-13-A-T43",
+    "408-14-A-T42",
+    "408-15-A-T42",
+    "408-15-A-T43",
+    "408-18-A-T42",
+    "408-18-A-T43",
+    "408-19-A-T42",
+    "408-19-A-T43",
+    "408-19-A-T44",
+    "408-19-A-T45",
+    "408-19-A-T46",
+    "408-20-A-T42",
+    "408-20-A-T43",
+    "408-21-A-T42",
+    "408-21-A-T43",
+    "408-22-A-T42",
+    "408-22-A-T43",
+    "408-23-A-T42",
+    "408-23-A-T43",
+    "408-24-A-T44",
+    "408-25-A-T42",
+    "408-25-A-T43",
+    "408-26-A-T44",
+    "408JD-OS03-T15",
+    "M1-10-A-T20",
+    "M1-10-C-T02",
+    "M1-11-A-T22",
+    "M1-12-A-T21",
+    "M1-13-A-T21",
+    "M1-13-C-T01",
+    "M1-14-A-T20",
+    "M1-14-A-T21",
+    "M1-14-A-T23",
+    "M1-18-A-T19",
+    "M1-18-A-T20",
+    "M1-18-A-T21",
+    "M1-18-C-T08",
+    "M1-18-F-T13",
+    "M1-21-A-T18",
+    "M1-21-A-T19",
+    "M1-21-C-T01",
+    "M1-21-C-T07",
+    "M1-22-C-T01",
+    "M1-22-C-T07",
+    "M1-24-C-T06",
+    "M1-24-C-T07",
+    "M1-26-C-T04",
+    "M2-10-A-T19",
+    "M2-10-C-T02",
+    "M2-10-C-T03",
+    "M2-10-C-T05",
+    "M2-14-C-T06",
+    "M2-20-A-T16",
+    "M2-20-A-T20",
+    "M2-20-A-T23",
+    "M2-20-C-T05",
+    "M2-20-C-T07",
+    "M2-21-A-T18",
+    "M2-21-C-T02",
+    "M2-22-A-T22",
+    "M2-22-C-T03",
+    "M2-22-C-T09",
+    "M2-22-C-T10",
+    "M2-24-C-T04",
+    "M2-24-C-T05",
+    "M2-24-C-T09",
+    "M2-24-C-T10",
+    "M2-24-F-T16",
+    "M2-26-A-T18",
+    "M2-26-A-T21",
+    "M2-26-C-T02",
+    "M2-26-C-T10",
+    "M3-08-A-T16",
+    "M3-08-A-T20",
+    "M3-08-A-T21",
+    "M3-14-C-T01",
+    "M3-20-A-T19",
+    "M3-20-A-T21",
+    "M3-20-C-T05",
+    "M3-21-C-T09",
+    "M3-22-A-T21",
+    "M3-22-C-T06",
+    "M3-22-C-T07",
+    "M3-26-A-T18",
+    "M3-26-C-T01",
+    "M3-26-C-T06",
+    "M3-26-C-T07",
+    "WD-CO-A-2.3-T05",
+    "WD-DS-A-2.2-T14",
+    "WD-DS-A-2.3-T06",
+    "WD-DS-A-4.2-T01",
+    "WD-DS-A-6.2-T07",
+    "WD-DS-A-7.2-T06",
+    "WD-DS-A-8.3-T04",
+    "WD-DS-C-6.1-T18",
+    "WD-DS-C-6.2-T06",
+    "WD-DS-C-6.2-T19",
+    "WD-DS-C-6.3-T17",
+    "WD-DS-C-6.4-T09",
+    "WD-DS-C-6.4-T17",
+    "WD-DS-C-6.4-T23",
+    "WD-OS-C-2.2-T26",
+    "WD-OS-C-2.4-T26",
+    "ZY1000-JC-GS18-T02",
+    "ZY1000-QH-GS10-T24",
+    "ZY1000-QH-GS14-T04",
+    "ZY1000-QH-GS14-T26",
+    "ZY1000-QH-GS17-T13"
+  ],
+  "short_stem_candidates": [
+    {
+      "source_file": "核心真题/数学一/2010年全国硕士研究生招生考试数学一真题.md",
+      "question_id": "M1-10-F-T10",
+      "line_start": 567,
+      "line_end": 599,
+      "question_hash_sha256": "96cf315e6b6ef535809c0205a870afb5f90d7d122371d4803d21e35dc42d2bb0"
+    },
+    {
+      "source_file": "核心真题/数学一/2012年全国硕士研究生招生考试数学一真题.md",
+      "question_id": "M1-12-F-T10",
+      "line_start": 515,
+      "line_end": 543,
+      "question_hash_sha256": "3a2575ebbef5ed631d85c4e95e10ca9fc7037ccc8fc52f1a69e91cfc41dde5b9"
+    },
+    {
+      "source_file": "核心真题/数学一/2012年全国硕士研究生招生考试数学一真题.md",
+      "question_id": "M1-12-F-T11",
+      "line_start": 544,
+      "line_end": 569,
+      "question_hash_sha256": "8664437be64dcad660575ff691cc77ef983b63443b5fc909135ebefaa327b38e"
+    },
+    {
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第05讲_一元函数微分学的几何应用.md",
+      "question_id": "ZY30-GS-05-L5.12",
+      "line_start": 164,
+      "line_end": 173,
+      "question_hash_sha256": "40a471e309b0b0f61683c5e05806f580dffb7c3500b8ce6ed9236ccc86f86856"
+    },
+    {
+      "source_file": "辅助真题/数学二/2018年全国硕士研究生招生考试数学二真题.md",
+      "question_id": "M2-18-F-T11",
+      "line_start": 622,
+      "line_end": 685,
+      "question_hash_sha256": "cb0043f25ce4e97de4660f1a55433c9c29364559a98eddd596daa91528c1e674"
+    },
+    {
+      "source_file": "辅助真题/数学三/2021年全国硕士研究生招生考试数学三真题.md",
+      "question_id": "M3-21-F-T12",
+      "line_start": 764,
+      "line_end": 870,
+      "question_hash_sha256": "f2167340e0834b4e0b1a45e522e73ea6723609a4e96722605d9462d5d1092fde"
+    },
+    {
+      "source_file": "辅助真题/数学三/2021年全国硕士研究生招生考试数学三真题.md",
+      "question_id": "M3-21-F-T14",
+      "line_start": 962,
+      "line_end": 1025,
+      "question_hash_sha256": "4101008c2d54adb06df13237b3514975ba7e17df55087251b763522fa8794254"
+    },
+    {
+      "source_file": "辅助真题/数学三/2023年全国硕士研究生招生考试数学三真题.md",
+      "question_id": "M3-23-F-T13",
+      "line_start": 860,
+      "line_end": 925,
+      "question_hash_sha256": "4131463689a15d08738be9cc45c04be552b6e93aee421dd05206ab00be8851cf"
+    },
+    {
+      "source_file": "配套习题/王道计算机考研408/06_数据结构_综合大题/第05章_树与二叉树.md",
+      "question_id": "WD-DS-A-5.1-T01",
+      "line_start": 9,
+      "line_end": 18,
+      "question_hash_sha256": "994412162152208e41d667384ff0f7393da259c8ab99b4142fc23a9797ea5d95"
+    },
+    {
+      "source_file": "配套习题/王道计算机考研408/06_数据结构_综合大题/第08章_排序.md",
+      "question_id": "WD-DS-A-8.4-T01",
+      "line_start": 90,
+      "line_end": 99,
+      "question_hash_sha256": "2ad7b9eacfd7e0426fe12f1047ddf3cc34d58bb3d9575e0a112d46a3a4ef5c86"
+    },
+    {
+      "source_file": "配套习题/王道计算机考研408/08_计算机网络_综合大题/第06章_应用层.md",
+      "question_id": "WD-CN-A-6.4-T02",
+      "line_start": 100,
+      "line_end": 109,
+      "question_hash_sha256": "2d00a4134849aa417c109b54db29bbf42bd5f0574512fb32c1b5bac37c7528fa"
+    }
+  ],
+  "core_course_only_routes": [
+    {
+      "source_file": "核心真题/数学一/2021年全国硕士研究生招生考试数学一真题.md",
+      "question_id": "M1-21-F-T16",
+      "line_start": 892,
+      "line_end": 960,
+      "question_hash_sha256": "b75a14b1b578cd67964860674beaf402062dad3fa92b862f7dcef45c6c402efa"
+    },
+    {
+      "source_file": "核心真题/数学一/2024年全国硕士研究生招生考试数学一真题.md",
+      "question_id": "M1-24-C-T09",
+      "line_start": 542,
+      "line_end": 632,
+      "question_hash_sha256": "fa59f97eab91ae482ae427bc9d5c918ff6cf85bb0b1e984e042015963fea57e9"
+    },
+    {
+      "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-09-C-T36",
+      "line_start": 1128,
+      "line_end": 1156,
+      "question_hash_sha256": "3d345276d9cc760a264313acabd595734876a2202a19481061dbac6e3dd433ad"
+    },
+    {
+      "source_file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-09-A-T43",
+      "line_start": 1400,
+      "line_end": 1439,
+      "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957"
+    },
+    {
+      "source_file": "核心真题/408/2010年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-10-C-T09",
+      "line_start": 278,
+      "line_end": 314,
+      "question_hash_sha256": "2b68c0d57905eebef8b6169d7738f16edd159f320d7ecb7ea780c6075b33bf7f"
+    },
+    {
+      "source_file": "核心真题/408/2010年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-10-C-T17",
+      "line_start": 625,
+      "line_end": 660,
+      "question_hash_sha256": "27cc5b1b93ae506d781031373dd85cb1914d8cfc13c9cdf197a8207657b2a38b"
+    },
+    {
+      "source_file": "核心真题/408/2010年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-10-C-T38",
+      "line_start": 1365,
+      "line_end": 1399,
+      "question_hash_sha256": "c9d77be40d2eb9d36f82f430b3bf30bc0d4ef38e8cc18475ef9d511bfce307fe"
+    },
+    {
+      "source_file": "核心真题/408/2010年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-10-A-T45",
+      "line_start": 1837,
+      "line_end": 1885,
+      "question_hash_sha256": "688a619d74328afccb4ec13a2f97e51af3c6aa9f76b2c0306a62a21242c839e1"
+    },
+    {
+      "source_file": "核心真题/408/2010年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-10-A-T46",
+      "line_start": 1886,
+      "line_end": 1938,
+      "question_hash_sha256": "5f2bb1a81457b741083ec9bc83e269052a0a23789ae254be9283ae8881f2db7d"
+    },
+    {
+      "source_file": "核心真题/408/2011年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-11-C-T21",
+      "line_start": 646,
+      "line_end": 700,
+      "question_hash_sha256": "204450b776bda4dead202f019a8d57652292d364f3a533a7b8dc7766b96208b4"
+    },
+    {
+      "source_file": "核心真题/408/2011年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-11-C-T30",
+      "line_start": 966,
+      "line_end": 998,
+      "question_hash_sha256": "6d6bc14fda5b37d43ac57876d9638321aec7aaa60eed03ad793762c204dbd92b"
+    },
+    {
+      "source_file": "核心真题/408/2011年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-11-C-T36",
+      "line_start": 1176,
+      "line_end": 1204,
+      "question_hash_sha256": "a42ba86281b79c7585824c688a144b3a9429b90eb9e49edc9c195908a1d0af0a"
+    },
+    {
+      "source_file": "核心真题/408/2011年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-11-C-T39",
+      "line_start": 1273,
+      "line_end": 1301,
+      "question_hash_sha256": "5466801466e135f42a1abf9cb047422d03625563baf36ddd5048666a9433bc12"
+    },
+    {
+      "source_file": "核心真题/408/2011年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-11-A-T47",
+      "line_start": 1821,
+      "line_end": 1865,
+      "question_hash_sha256": "195acce4650f928eefe2f8672bd2f67429400e7ff9d73fb815a40ab44994bb28"
+    },
+    {
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-12-C-T15",
+      "line_start": 570,
+      "line_end": 622,
+      "question_hash_sha256": "9091159d003da796c6aed749d797fa2cd20676e7cba0f6e8ee6f0b6e133da603"
+    },
+    {
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-12-C-T16",
+      "line_start": 623,
+      "line_end": 651,
+      "question_hash_sha256": "1c5cb8f21057e1b5b811eb53e13f96985cc0c21364a9127261f8db29ecd4ce12"
+    },
+    {
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-12-C-T22",
+      "line_start": 816,
+      "line_end": 852,
+      "question_hash_sha256": "5902b5b1aacc07dcc97da44ed451eeb3a71ea9c269c1a7683e0a31c7e4c35205"
+    },
+    {
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-12-C-T24",
+      "line_start": 892,
+      "line_end": 920,
+      "question_hash_sha256": "8fb77329481d5a9157784bcecf092185887b7d83aa48ddfb3707471b2ce29ce8"
+    },
+    {
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-12-C-T28",
+      "line_start": 1048,
+      "line_end": 1082,
+      "question_hash_sha256": "c823429cc58a5590b6d092a38d9a2bb6cef37cfd8138c05944aa4a0b4932fa07"
+    },
+    {
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-12-C-T33",
+      "line_start": 1227,
+      "line_end": 1255,
+      "question_hash_sha256": "8671923d57a458b900660375692a7a7419e45a2bf87c2a70d14dc525f1275673"
+    },
+    {
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-12-A-T41",
+      "line_start": 1481,
+      "line_end": 1534,
+      "question_hash_sha256": "5ddfdb814ee2e6a1bf41752c65c7ae56715e724f714cc964c44ce8d52fb74059"
+    },
+    {
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-12-A-T43",
+      "line_start": 1631,
+      "line_end": 1668,
+      "question_hash_sha256": "55e5c91449b92e99c1aeb608e96a6ef60d77117958d98c2f780b1e894039dfe2"
+    },
+    {
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-12-A-T45",
+      "line_start": 1759,
+      "line_end": 1798,
+      "question_hash_sha256": "748a347d348fb32c10fdaf5daba9ab6242d7f7da8d27fc9590ffdd3c5973062a"
+    },
+    {
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-12-A-T47",
+      "line_start": 1835,
+      "line_end": 1875,
+      "question_hash_sha256": "49d8856e203f0bd6ac0b071f91026ac0e29183f367d9f55ac35574eaa95c47b6"
+    },
+    {
+      "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-13-C-T15",
+      "line_start": 508,
+      "line_end": 540,
+      "question_hash_sha256": "7612619f1e3217ed696daf2545b90d0570ff2376e57f65a9ad4326238d91a754"
+    },
+    {
+      "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-13-C-T16",
+      "line_start": 541,
+      "line_end": 578,
+      "question_hash_sha256": "1c3c1beafc78a95527b8467e4951d18e92877cfebadb49c75cc11764db5e7d41"
+    },
+    {
+      "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-13-C-T20",
+      "line_start": 694,
+      "line_end": 730,
+      "question_hash_sha256": "eea468511bba5941472e8fe7bd95d6eec00c49404bd873598cf9f1ed75e3527f"
+    },
+    {
+      "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-13-C-T21",
+      "line_start": 731,
+      "line_end": 759,
+      "question_hash_sha256": "6b22e0fff2dba14ec8e4f63c39741a2f3ffbc9fadd78e0ac56eb896dded51249"
+    },
+    {
+      "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-13-C-T29",
+      "line_start": 979,
+      "line_end": 1007,
+      "question_hash_sha256": "195dee4ce4f8e10befdc1e41a7d8fc967d587024f16b7885431b5c0a08e15cbb"
+    },
+    {
+      "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-13-C-T36",
+      "line_start": 1206,
+      "line_end": 1234,
+      "question_hash_sha256": "33bf4d3e781c984201b4818b831e4523600107cb713719870cbd0c32160a541d"
+    },
+    {
+      "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-13-A-T43",
+      "line_start": 1565,
+      "line_end": 1613,
+      "question_hash_sha256": "d4064b843e9c18dd8218e909dac553b0381489173e83a6509c4b10cead28a0c5"
+    },
+    {
+      "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-13-A-T44",
+      "line_start": 1614,
+      "line_end": 1667,
+      "question_hash_sha256": "0868501f902b3390cb25e66e3a965e3bf7c0db6e1804de1ea8cdd1fcb5398a08"
+    },
+    {
+      "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-14-C-T17",
+      "line_start": 522,
+      "line_end": 550,
+      "question_hash_sha256": "cf151eb21cbd460d7058bc6511f9aaf855b59bc35d7d67aecfa620eb3f200162"
+    },
+    {
+      "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-14-C-T30",
+      "line_start": 909,
+      "line_end": 943,
+      "question_hash_sha256": "8475b6c0beb0f1547b7ef0c36a976837147a7823e469abdce49977015d9ef23c"
+    },
+    {
+      "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-14-C-T34",
+      "line_start": 1033,
+      "line_end": 1063,
+      "question_hash_sha256": "065623395c0a7b7dae141645de6d5a1a75e8aca63d3a4cd2e6317202f0a6e946"
+    },
+    {
+      "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-14-C-T37",
+      "line_start": 1122,
+      "line_end": 1150,
+      "question_hash_sha256": "8cf7ca0db0ffef3c04c4bdd426ba5ec8018e7ac431fa195f118682fdf0d1e3bd"
+    },
+    {
+      "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-14-A-T44",
+      "line_start": 1498,
+      "line_end": 1553,
+      "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1"
+    },
+    {
+      "source_file": "核心真题/408/2015年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-15-C-T07",
+      "line_start": 298,
+      "line_end": 332,
+      "question_hash_sha256": "ec3022e9bb318d385e642c951e068a29fe69a9f857e5be3c87291d83276ed26a"
+    },
+    {
+      "source_file": "核心真题/408/2015年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-15-C-T13",
+      "line_start": 499,
+      "line_end": 527,
+      "question_hash_sha256": "3272837ac11c82f2cb415d9daaddc2c75f66b7a7184e23e9c8c330ded82b177c"
+    },
+    {
+      "source_file": "核心真题/408/2015年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-15-C-T20",
+      "line_start": 747,
+      "line_end": 775,
+      "question_hash_sha256": "26032156178a40226fd0a1e2efe929b11f39f24a0ba836278438f7b636dc9b1d"
+    },
+    {
+      "source_file": "核心真题/408/2015年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-15-C-T30",
+      "line_start": 1078,
+      "line_end": 1106,
+      "question_hash_sha256": "9a2e25f82ab12e3013bff8671d57481b871c3efb206a8d946e170f82415c3f8e"
+    },
+    {
+      "source_file": "核心真题/408/2015年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-15-C-T31",
+      "line_start": 1107,
+      "line_end": 1135,
+      "question_hash_sha256": "899510879f1981f91380494d8dedfe7325a1ba0bb658bf58f3cb43b47387d538"
+    },
+    {
+      "source_file": "核心真题/408/2015年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-15-C-T37",
+      "line_start": 1291,
+      "line_end": 1319,
+      "question_hash_sha256": "bbf4ba46f592e130a666a64700cb94b0c99b24ed50657e0b96d0166289546610"
+    },
+    {
+      "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-16-C-T07",
+      "line_start": 293,
+      "line_end": 323,
+      "question_hash_sha256": "73dce36a11f6a24de554df820e64bb1ce2b149776d5e7dbad1dc72d4c7dc1aac"
+    },
+    {
+      "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-16-C-T09",
+      "line_start": 366,
+      "line_end": 405,
+      "question_hash_sha256": "b4959d78d30c81d5c4b80c843fcef01e2fa98ec04e05b705abc0cfbe48426f86"
+    },
+    {
+      "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-16-C-T29",
+      "line_start": 1170,
+      "line_end": 1202,
+      "question_hash_sha256": "1a6e76019ba4b5b57c9715e82e521f6d895f2903b65d2a831c5cd91a1287e93d"
+    },
+    {
+      "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-16-C-T31",
+      "line_start": 1266,
+      "line_end": 1294,
+      "question_hash_sha256": "8acae213218401ae752cefc254442d4e07934bfcf3b50561f56bbf9e0dbc47ef"
+    },
+    {
+      "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-16-C-T35",
+      "line_start": 1433,
+      "line_end": 1461,
+      "question_hash_sha256": "06565eea94d75d8515b031a5d78c60440c3c4f3f2f75639bae6921b2c4ece257"
+    },
+    {
+      "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-16-A-T44",
+      "line_start": 1941,
+      "line_end": 1984,
+      "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03"
+    },
+    {
+      "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-17-C-T12",
+      "line_start": 381,
+      "line_end": 409,
+      "question_hash_sha256": "ebdc56b25a83fc494c575466873cb5aad34c8fe663ca62b38eeca71ffe06de31"
+    },
+    {
+      "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-17-C-T16",
+      "line_start": 513,
+      "line_end": 541,
+      "question_hash_sha256": "8a40edc55558f919c8b8f8f91f73ebd779230398395c34742d3b7925b4778dad"
+    },
+    {
+      "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-17-C-T22",
+      "line_start": 693,
+      "line_end": 723,
+      "question_hash_sha256": "74983a97cc2707e183b66bbfc4e02942ad634c206c7d2d42011baa806ad03fcc"
+    },
+    {
+      "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-17-C-T32",
+      "line_start": 1072,
+      "line_end": 1112,
+      "question_hash_sha256": "4ed31b02324e1869d8315fdd6fcc0944e661b64ca314a2f4dbf2b36b0feed7c5"
+    },
+    {
+      "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-17-A-T45",
+      "line_start": 1713,
+      "line_end": 1756,
+      "question_hash_sha256": "1281628adc773dc74f351b689daddfd1a5a67a7b1f6783238d94e61e3dd9f08d"
+    },
+    {
+      "source_file": "核心真题/408/2018年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-18-C-T01",
+      "line_start": 9,
+      "line_end": 54,
+      "question_hash_sha256": "f0669f6f74d45d0267025d5ba4396b67f9fce8a5a1d67e38d5ddc66510da7e7e"
+    },
+    {
+      "source_file": "核心真题/408/2018年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-18-C-T33",
+      "line_start": 1114,
+      "line_end": 1142,
+      "question_hash_sha256": "5bd9a647fbf51452bd6e7005689af5885ca95b0aaa6c2ddbaa2bc3bae0eb2cfe"
+    },
+    {
+      "source_file": "核心真题/408/2018年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-18-A-T43",
+      "line_start": 1558,
+      "line_end": 1599,
+      "question_hash_sha256": "91adc4b5981cbc43948fff251d76c7c188b6eb6de75bb9b03283802dc6df770b"
+    },
+    {
+      "source_file": "核心真题/408/2018年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-18-A-T45",
+      "line_start": 1657,
+      "line_end": 1688,
+      "question_hash_sha256": "b715819b95b225d3519cb1f81eb9ae4a0694d419332a79474b72aa557490d427"
+    },
+    {
+      "source_file": "核心真题/408/2019年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-19-C-T14",
+      "line_start": 487,
+      "line_end": 515,
+      "question_hash_sha256": "3a3ebf120d61f1d1ebc9e925568b7c40ea14cedf73b6f7cc6300475dd733a6df"
+    },
+    {
+      "source_file": "核心真题/408/2019年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-19-C-T17",
+      "line_start": 574,
+      "line_end": 606,
+      "question_hash_sha256": "edfa87f486c9b0b3faf7a9f0929f9b1c64acd4d72ec82f815cbd965f72a2eb6e"
+    },
+    {
+      "source_file": "核心真题/408/2019年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-19-C-T39",
+      "line_start": 1301,
+      "line_end": 1329,
+      "question_hash_sha256": "d908ecac7fd9ce8c705aab4f4efa74627bd919a5a0ab5671e4452151b9040ecd"
+    },
+    {
+      "source_file": "核心真题/408/2019年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-19-C-T40",
+      "line_start": 1330,
+      "line_end": 1362,
+      "question_hash_sha256": "03495a81c54f0d66f47cf7edbef719f5dbdf18a059cd8fbf39e125e779d5f7fa"
+    },
+    {
+      "source_file": "核心真题/408/2019年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-19-A-T45",
+      "line_start": 1642,
+      "line_end": 1711,
+      "question_hash_sha256": "ed8ca5312f6f776e952fba164b48c629044102f88736c6901498b0e8902e4893"
+    },
+    {
+      "source_file": "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-20-C-T12",
+      "line_start": 426,
+      "line_end": 494,
+      "question_hash_sha256": "21a240d4edc910143a342bc1ce6ddea98618f675051f1c6333296a93595181ca"
+    },
+    {
+      "source_file": "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-20-C-T18",
+      "line_start": 692,
+      "line_end": 721,
+      "question_hash_sha256": "648fafe5076b9c3b96a18d8e771459bc7a08393036bd32af95d89b59c4fa1ff5"
+    },
+    {
+      "source_file": "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-20-C-T20",
+      "line_start": 759,
+      "line_end": 793,
+      "question_hash_sha256": "2ecf894c633ea1f93495064f3d8f92399880dcc70b353edb91562f06326908d9"
+    },
+    {
+      "source_file": "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-20-C-T23",
+      "line_start": 888,
+      "line_end": 924,
+      "question_hash_sha256": "c7b6b5607f5b3382c45eea4abd7ae9345a5162a86fae8309961c5659960dcad3"
+    },
+    {
+      "source_file": "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-20-C-T28",
+      "line_start": 1080,
+      "line_end": 1118,
+      "question_hash_sha256": "649af8173b4dfcc13e573ef6945e7688d54f853e7f4126cde1cda1dfffdffc61"
+    },
+    {
+      "source_file": "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-20-C-T33",
+      "line_start": 1257,
+      "line_end": 1297,
+      "question_hash_sha256": "7579ed77158bf02c09006929c6cc9478354789a86175c502a6191d24db4d9c3e"
+    },
+    {
+      "source_file": "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-20-C-T34",
+      "line_start": 1298,
+      "line_end": 1328,
+      "question_hash_sha256": "202c516659eaef56968ccf0956a4b34185f44c98f3d5417fe70831f7e368e672"
+    },
+    {
+      "source_file": "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-20-C-T35",
+      "line_start": 1329,
+      "line_end": 1362,
+      "question_hash_sha256": "a54a7181f4b5cf2960f57d809327a9e91efa581afe56377f9951dd9aa6e7e65f"
+    },
+    {
+      "source_file": "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-20-C-T39",
+      "line_start": 1470,
+      "line_end": 1498,
+      "question_hash_sha256": "2436e7217014b3e59b1cfb871fb891ba49ef2b504f46e4cde3dd83da5ed2f0d5"
+    },
+    {
+      "source_file": "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-20-A-T43",
+      "line_start": 1782,
+      "line_end": 1873,
+      "question_hash_sha256": "4d30f9a607d913bd71ac78a53c7739db4e5fa4cbe0714bc0c01616b2eeef1044"
+    },
+    {
+      "source_file": "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-20-A-T44",
+      "line_start": 1874,
+      "line_end": 1927,
+      "question_hash_sha256": "2c6b9cc6d077fb572c81fc555137d342eedb236049ebbcd08d0e19ba9eaaf153"
+    },
+    {
+      "source_file": "核心真题/408/2021年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-21-C-T22",
+      "line_start": 728,
+      "line_end": 758,
+      "question_hash_sha256": "18f8fe18aaa5a50aea935abb8016557f82ccdff987a65970098b156767a062c6"
+    },
+    {
+      "source_file": "核心真题/408/2021年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-21-C-T37",
+      "line_start": 1230,
+      "line_end": 1275,
+      "question_hash_sha256": "22826b66599fa0595c9c8a69077492aa8a23d66edc2bc44d820403cdddadbc50"
+    },
+    {
+      "source_file": "核心真题/408/2021年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-21-C-T38",
+      "line_start": 1276,
+      "line_end": 1305,
+      "question_hash_sha256": "741e3882c279792765d54432d62c3ee53894b8fbaab911020ffd31e5ba48b34a"
+    },
+    {
+      "source_file": "核心真题/408/2021年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-21-A-T47",
+      "line_start": 1756,
+      "line_end": 1826,
+      "question_hash_sha256": "249359ebf4a53e590dea3593e07b98cc63d98fe013f0bb37734950de9c654f99"
+    },
+    {
+      "source_file": "核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-22-C-T18",
+      "line_start": 690,
+      "line_end": 728,
+      "question_hash_sha256": "07c929f15ac53f2498d926e4263e7235c7c4cf27b5e66b6182738ba23221deb0"
+    },
+    {
+      "source_file": "核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-22-C-T19",
+      "line_start": 729,
+      "line_end": 766,
+      "question_hash_sha256": "496e1832705a7918f3a0dfab6fdd269d086195a244ec6af5787874cad1c859dc"
+    },
+    {
+      "source_file": "核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-22-C-T20",
+      "line_start": 767,
+      "line_end": 795,
+      "question_hash_sha256": "1817885a64f1ee47848585ea9a888b9cb0c0a7aff8939b4a2fed78de1d392301"
+    },
+    {
+      "source_file": "核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-22-C-T22",
+      "line_start": 834,
+      "line_end": 868,
+      "question_hash_sha256": "496129439a2b1605464864a20c7cbfbcba37aa5a80b0e06f4353f0feff24723b"
+    },
+    {
+      "source_file": "核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-22-C-T30",
+      "line_start": 1120,
+      "line_end": 1152,
+      "question_hash_sha256": "e596dd75280e94b6623523946e51c396e546fff2fbabed0670734ea61c28353c"
+    },
+    {
+      "source_file": "核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-22-C-T37",
+      "line_start": 1360,
+      "line_end": 1389,
+      "question_hash_sha256": "c37b2052a789d0adb032508bf726dc76e750e202a204c3767c5aa1b550bd5c2a"
+    },
+    {
+      "source_file": "核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-22-C-T39",
+      "line_start": 1426,
+      "line_end": 1454,
+      "question_hash_sha256": "f354f3d2ebb03b845005eabb16076f6d668805a2d28b2823cf399d015f3dfcad"
+    },
+    {
+      "source_file": "核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-22-A-T47",
+      "line_start": 1882,
+      "line_end": 1928,
+      "question_hash_sha256": "4b1a28ab7fec656f25c8226259855048192cd937d1b393d2f3c618b4f22a8aa2"
+    },
+    {
+      "source_file": "核心真题/408/2023年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-23-C-T08",
+      "line_start": 305,
+      "line_end": 340,
+      "question_hash_sha256": "6f0fc1e940a2f8dc683eee214fcd2ed3db54625b40d9b1ec5091074769c7c7a8"
+    },
+    {
+      "source_file": "核心真题/408/2023年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-23-C-T25",
+      "line_start": 966,
+      "line_end": 1007,
+      "question_hash_sha256": "1f4e885ca1d6e004eea40b2085e7b3eb2cfa5f1098acfad64eaa9f9f7b3273f8"
+    },
+    {
+      "source_file": "核心真题/408/2023年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-23-C-T33",
+      "line_start": 1278,
+      "line_end": 1355,
+      "question_hash_sha256": "4769e7be4821397d05f4ed304c2beebb382a9324931e69416ae1c2e744c97f44"
+    },
+    {
+      "source_file": "核心真题/408/2023年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-23-C-T36",
+      "line_start": 1442,
+      "line_end": 1495,
+      "question_hash_sha256": "dc95fb12bcd3e26eca4d40d798ea8e79bf914c2aa190296e4e2737b329c5f341"
+    },
+    {
+      "source_file": "核心真题/408/2023年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-23-C-T37",
+      "line_start": 1496,
+      "line_end": 1534,
+      "question_hash_sha256": "b6e2fa84af1517cce3b42d09b578fe589967ee934966ac8761df54fc7e19e309"
+    },
+    {
+      "source_file": "核心真题/408/2023年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-23-A-T44",
+      "line_start": 1827,
+      "line_end": 1887,
+      "question_hash_sha256": "e9b74377be192bd0880b642a838ed8a3fb4fe50673e4b899e3ae42b91ee7b4ee"
+    },
+    {
+      "source_file": "核心真题/408/2023年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-23-A-T46",
+      "line_start": 1921,
+      "line_end": 1958,
+      "question_hash_sha256": "d4b7e2beb07ce2011eec65cb915dce6f35d584a5b8302b9a586f0637dc0977f6"
+    },
+    {
+      "source_file": "核心真题/408/2023年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-23-A-T47",
+      "line_start": 1959,
+      "line_end": 1995,
+      "question_hash_sha256": "494d2280ff54072b09cb38d96cfa356b2ac11d72578d46b9aa19999c7566a4e1"
+    },
+    {
+      "source_file": "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-24-C-T04",
+      "line_start": 141,
+      "line_end": 175,
+      "question_hash_sha256": "cf7be9bd7a7011aaaf6b07af84230d0c979f3cfeef45bd0ebdec44d537114fa4"
+    },
+    {
+      "source_file": "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-24-C-T05",
+      "line_start": 176,
+      "line_end": 206,
+      "question_hash_sha256": "a5f52f2bde0ce9b4653ad0c76399e51afab911c223df0f9b8e0ca47d4641cc09"
+    },
+    {
+      "source_file": "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-24-C-T11",
+      "line_start": 419,
+      "line_end": 455,
+      "question_hash_sha256": "7f0ded21a02afa81ade033edfb9c00934d1a9289ee1c2fb03185ab146b644ffa"
+    },
+    {
+      "source_file": "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-24-C-T15",
+      "line_start": 581,
+      "line_end": 627,
+      "question_hash_sha256": "8dd214a031de6ae197f3219a96e84956c00e350863900d1c8bc75af6edfafd5c"
+    },
+    {
+      "source_file": "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-24-C-T16",
+      "line_start": 628,
+      "line_end": 660,
+      "question_hash_sha256": "06950425c848344ab56b88b41faa0723493fbee99b61a34b4d5fdce762a9a3bb"
+    },
+    {
+      "source_file": "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-24-C-T18",
+      "line_start": 696,
+      "line_end": 724,
+      "question_hash_sha256": "540dc4220244d116bb011430534c2d57c3d25cc59a0ecac413199d7bafb9fc36"
+    },
+    {
+      "source_file": "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-24-C-T29",
+      "line_start": 1133,
+      "line_end": 1171,
+      "question_hash_sha256": "547a1151262d40b89c1678e097a85e7ae357e1499a1c1ee01be77cd1f703d7ad"
+    },
+    {
+      "source_file": "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-24-C-T35",
+      "line_start": 1354,
+      "line_end": 1402,
+      "question_hash_sha256": "71a9b973039f60a335361cfcb758c27f453f9ab8dc4bbfab754d6cbd15f4fdc6"
+    },
+    {
+      "source_file": "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-24-C-T38",
+      "line_start": 1480,
+      "line_end": 1524,
+      "question_hash_sha256": "6d9ba16e12c1f38b206c99ba18f598f7e5542de55044925b6dc4de2bed07bc83"
+    },
+    {
+      "source_file": "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-24-A-T43",
+      "line_start": 1816,
+      "line_end": 1897,
+      "question_hash_sha256": "774d9a1f75384e9733f70507f7f9db3165c3606685ef0e665145ab465841d55f"
+    },
+    {
+      "source_file": "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-25-C-T07",
+      "line_start": 258,
+      "line_end": 300,
+      "question_hash_sha256": "e3ffcbffccb8e121269781458fb26842b786d178da5f2ae0605ae8c777bf5d9d"
+    },
+    {
+      "source_file": "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-25-C-T16",
+      "line_start": 649,
+      "line_end": 686,
+      "question_hash_sha256": "e4f97ec11df6cccf3c5c160ad30f70d3c322473a6ecf354af59cc378319e4220"
+    },
+    {
+      "source_file": "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-25-C-T17",
+      "line_start": 687,
+      "line_end": 715,
+      "question_hash_sha256": "80f0dc0aa05ee3fb9f85433e5d8a68c85359f7e8a5cf593f18186e11b6fc73e4"
+    },
+    {
+      "source_file": "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-25-C-T29",
+      "line_start": 1136,
+      "line_end": 1172,
+      "question_hash_sha256": "549c348f56ae72c6321e9d579601c67b46a505fcaacaae60ff665ebd9c9d4179"
+    },
+    {
+      "source_file": "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-25-C-T30",
+      "line_start": 1173,
+      "line_end": 1224,
+      "question_hash_sha256": "df06fba9a63e56e63d0a0b0dc385d1264c2c4e96656a0121a846adc01b0ce837"
+    },
+    {
+      "source_file": "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-25-C-T34",
+      "line_start": 1359,
+      "line_end": 1413,
+      "question_hash_sha256": "ec6b3b12c96c0336c53b8b5c23d3043dabcc608485ff2c8700a0798b3e7927e7"
+    },
+    {
+      "source_file": "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-25-C-T35",
+      "line_start": 1414,
+      "line_end": 1464,
+      "question_hash_sha256": "cd26d7c08f0f4c4acb595847464ad51c609422988a512e1ff8e13fdbcb590a38"
+    },
+    {
+      "source_file": "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-25-C-T39",
+      "line_start": 1597,
+      "line_end": 1625,
+      "question_hash_sha256": "fd9646ab1f4244d73e8629bf73d18d1bb16c1ccaccc10970080a654091ab90de"
+    },
+    {
+      "source_file": "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-25-A-T44",
+      "line_start": 1849,
+      "line_end": 1953,
+      "question_hash_sha256": "5191cef30cd1a4d2a7310c28130580c84c0eb4c58a2b9210e7fdac1db3e52edb"
+    },
+    {
+      "source_file": "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-25-A-T46",
+      "line_start": 2013,
+      "line_end": 2062,
+      "question_hash_sha256": "e14ca825253cf0612deed74c5e2327a84b466b007fde817430ba09cc3577315e"
+    },
+    {
+      "source_file": "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-25-A-T47",
+      "line_start": 2063,
+      "line_end": 2155,
+      "question_hash_sha256": "49e0dee2b4192f0053e60a96b4bc8325ed60f42dc8ae38cee5578bee127ca5d6"
+    },
+    {
+      "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-26-C-T09",
+      "line_start": 585,
+      "line_end": 630,
+      "question_hash_sha256": "a294e0239f0493568e72b04f4e995b7e13881057253365836a798aa03c05e50c"
+    },
+    {
+      "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-26-C-T12",
+      "line_start": 750,
+      "line_end": 778,
+      "question_hash_sha256": "fa242e6cb1a2056f4029697a7a352ce5afb0de0707efe591d519e33a94eb3a56"
+    },
+    {
+      "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-26-C-T16",
+      "line_start": 992,
+      "line_end": 1020,
+      "question_hash_sha256": "3af4107b3206aa47bf71ef62f3f29c09d17535a4c385d8cc6b09242fa775cdbc"
+    },
+    {
+      "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-26-C-T17",
+      "line_start": 1021,
+      "line_end": 1051,
+      "question_hash_sha256": "61011078ffde2a2fb2bb96b91e7ca476acf248e9f0178e7199f51b885816a0f3"
+    },
+    {
+      "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-26-C-T21",
+      "line_start": 1181,
+      "line_end": 1215,
+      "question_hash_sha256": "dbe6f570d273fb7dc5f27d02800d006b2da1380614ad0cb0377741af3f0214e2"
+    },
+    {
+      "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-26-C-T22",
+      "line_start": 1216,
+      "line_end": 1255,
+      "question_hash_sha256": "037b70e2a612778e2369ab188b7ebd4bb12c8d2d7e2c759a16cb8cb8d94c543c"
+    },
+    {
+      "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-26-C-T29",
+      "line_start": 1506,
+      "line_end": 1536,
+      "question_hash_sha256": "146aa6cc87ee3f41e123c693e7bf99100c0f658b86704c1b0f3c9d718ecd0adf"
+    },
+    {
+      "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "question_id": "408-26-C-T30",
+      "line_start": 1537,
+      "line_end": 1571,
+      "question_hash_sha256": "9ef362a0673a3636ccc15f847a8f9faca7138e2cfeafbdf796028307563afdbc"
+    }
+  ],
+  "duplicate_candidates": [
+    {
+      "fingerprint_sha256": "009a11d7d9e946e9f393e583551a0d3a0ac548b57bfd24c668b9d14960cdfe5c",
+      "question_ids": [
+        "M1-20-A-T15",
+        "M2-20-A-T17"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "4053f9dbc118890ad8f88b357b51035851c70f35f04d543a71bf4069dd14888d",
+      "question_ids": [
+        "ZY30-GS-13-L13.12",
+        "ZY30-GS-13-L13.15"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "60f092ad09d3456f82c1ea973cefc7ef4bc431ffff9e0a567a83d6ed8b05fb94",
+      "question_ids": [
+        "M1-14-A-T15",
+        "M2-14-A-T15"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "a14414f1bd069bdae09e2a5f6f30a56d13e9b5aec9bc94199185c271da2b8703",
+      "question_ids": [
+        "M2-26-A-T18",
+        "M3-26-A-T18"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "c65b83e19fcf45e21d18b5c7a8f7c36ff8bb0cadaa4c4e1b68b94a2df76624e6",
+      "question_ids": [
+        "M1-26-A-T17",
+        "M3-26-A-T19"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "57c928748731a7f63c818c423a3bf7ee91f14856947bae1a96f27da3ce367e97",
+      "question_ids": [
+        "M1-08-C-T03",
+        "M2-08-C-T03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "7460fc520b2e0088ba93ccd4146306bad0997073be2cbb5655ff58dd15619deb",
+      "question_ids": [
+        "M1-19-C-T01",
+        "M3-19-C-T01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "d23da1943134bd25da94a9075575140e2b7cdc8111b7e75c430a1720870f5297",
+      "question_ids": [
+        "M1-12-C-T02",
+        "M2-12-C-T02",
+        "M3-12-C-T02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "d24ed8709a53c0a639d0adca94eb9115232d6df91ab7a58c2606c6408db74e6c",
+      "question_ids": [
+        "M2-26-C-T06",
+        "M3-26-C-T03"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "eae99fc84b62da04501f3bb58bde9a86034c85cf26615eb1e3b02882340f9d3e",
+      "question_ids": [
+        "M2-26-C-T03",
+        "M3-26-C-T02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "f274327ecf3e8464abd374f7cf0ee5336e6dfd698341ec458ade9e0913b305a7",
+      "question_ids": [
+        "M2-21-C-T01",
+        "M3-21-C-T01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "27620498342aaac96597b166b47fac4c0ccd25f1d03b6fb9c1a4f1f2679ac351",
+      "question_ids": [
+        "M1-11-F-T09",
+        "M2-11-F-T11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "6831b0f0671087877aad1d8443dd218f6d0caf3b5ab5204359316a4f0368420c",
+      "question_ids": [
+        "M1-11-F-T10",
+        "M2-11-F-T10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "92d4b7e858d594fe9fff1b4127408a7bd2ad71e38aa554ce41bbfb39423b9026",
+      "question_ids": [
+        "M2-26-F-T11",
+        "M3-26-F-T13"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "b7cfa83e4fb6ad059d6d13aa3736c5d178f459a5488c2e2c917d956f27e4eb66",
+      "question_ids": [
+        "M2-20-F-T11",
+        "M3-20-F-T09"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "beb08bead65dbe466fded77df96fb09af10b4dfb09ba7838dec4fa821ee6f3a4",
+      "question_ids": [
+        "M2-25-F-T11",
+        "M3-25-F-T12"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "cfb3e51f08ad5641d2c0c89a60b579094fa983a3736e73852c30f4ced612c595",
+      "question_ids": [
+        "M2-24-F-T12",
+        "M3-24-F-T13"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "d0fad2d79d13af622f30ff933d25f9e6bf7bcd8ced5460b62b7fb73f3ef82000",
+      "question_ids": [
+        "M1-13-F-T12",
+        "M3-13-F-T11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "f88c2941da54b23929072effb63171946e7746ce8bcaa320fdff8f36b3a65f92",
+      "question_ids": [
+        "M2-22-F-T11",
+        "M3-22-F-T11"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "83179c82477f0f2ab848441799620c9c7e5c5caea6bbfe9318a5c0430835eee6",
+      "question_ids": [
+        "M1-11-A-T20",
+        "M2-11-A-T22"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "99db20b05429ddc8f164d4f07a30dfca4a06f6399cbc64196b19479a5c53388e",
+      "question_ids": [
+        "M1-26-A-T21",
+        "M3-26-A-T21"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "1a1672d47dd232cf5ef1da5ae890314d0b69c3bb97f484ac2f1d323d2c445ab5",
+      "question_ids": [
+        "M2-26-C-T10",
+        "M3-26-C-T07"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "4f8e29df43acac1ff08736b624415d9fa2c1e5ba06b763d37aeab8e08d1f74c9",
+      "question_ids": [
+        "M2-26-C-T09",
+        "M3-26-C-T05"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "522d201343ed954f7208c7ab801327e048d15d953b11cb5e4fa52fedb4676e7d",
+      "question_ids": [
+        "M2-18-C-T08",
+        "M3-18-C-T06"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "79295a1d29ba8dfd488a2c24233fb4ccf1961823a683d40b3201302f7cb4f560",
+      "question_ids": [
+        "M2-20-F-T14",
+        "M3-20-F-T13"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "f2959847a9fad2eeb21f9922956a78af0e60a33bd267b5096a230e4b33453d7a",
+      "question_ids": [
+        "M2-26-F-T16",
+        "M3-26-F-T15"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "8629b10b757826d0fb77f6ec86d1e26716fefa1dfe5ab6138fc5156b7e58871d",
+      "question_ids": [
+        "WD-OS-A-2.3-T29",
+        "WD-OS-A-2.4-T29"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "87e94e067c6f897bd1557751890aa61d657160c11fdfff512890343399315c7e",
+      "question_ids": [
+        "WD-OS-A-4.2-T17",
+        "WD-OS-A-4.3-T02"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "b458aaf988d2aa0a9f43ec27496171baf8d8ddc9df68d6c3f4bdebc73d338cb8",
+      "question_ids": [
+        "WD-OS-A-4.2-T16",
+        "WD-OS-A-4.3-T01"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "89c31694a67ba96323a119fb66e9c74e5e4d7816c28d051cce4558835c1d9e54",
+      "question_ids": [
+        "M1-26-A-T22",
+        "M3-26-A-T22"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "73d44746a02471d6035d19c1056f868d1cc4589cacd8fb926418c8e96918dc5e",
+      "question_ids": [
+        "M1-26-C-T10",
+        "M3-26-C-T10"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "16b027cfa12312f94b4cfec191ca57ba9268e80089907e759857bea7e2095409",
+      "question_ids": [
+        "M1-26-F-T16",
+        "M3-26-F-T16"
+      ],
+      "status": "candidate"
+    },
+    {
+      "fingerprint_sha256": "897965a43d704d56f8a31bf70acb056b357e5901563c1f1fa474077fd2d6e305",
+      "question_ids": [
+        "M1-15-F-T14",
+        "M3-15-F-T14"
+      ],
+      "status": "candidate"
+    }
+  ],
+  "existing_builder_checks": [
+    {
+      "tool": "build_l1.py",
+      "exit_code": 1,
+      "output": "{\"status\": \"FAIL\", \"error\": \"Inputs changed; create a new output snapshot\"}"
+    },
+    {
+      "tool": "build_math1_l23.py",
+      "exit_code": 1,
+      "output": "FAIL: Source changed since review: 核心真题/数学一/2010年全国硕士研究生招生考试数学一真题.md"
+    },
+    {
+      "tool": "build_cs408_l23.py",
+      "exit_code": 1,
+      "output": "FAIL: Source changed since review: 核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+    },
+    {
+      "tool": "build_cs408_2013_2026_l23.py",
+      "exit_code": 1,
+      "output": "FAIL: Source changed since review: 核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
+    }
+  ],
+  "input_sha256": {
+    "系统文件/系统配置/canonical_sources_v1.json": "8d0e1fb53d9d3dfa429eaaac74c0e05f421388465a7e9be56855866b75c4c064",
+    "系统文件/系统配置/execution_contract_v1.json": "9f153734861359407ba17a5ee1a11ab3b5fa0d9247f4e8a5a9e564d769ba6a97",
+    "系统文件/脚本工具/05_标注与规范校验/build_l1.py": "24f7f9317103433c84bf1d32ac57b980c32a4471be373efbcf84cf6eb987b901",
+    "系统文件/考纲与教材映射/大纲范围/json/syllabus_scope_v0.json": "0a7bb6ba48fcb58b3d8a47cb1d7f2e8aba0ae8aeb70613f44fb16b380912c4db",
+    "系统文件/脚本工具/05_标注与规范校验/l1_scope_rules_v1.json": "adead17a5fa067a3eb3acc49e3e225cea1eef59d48daee0435a78d4ae960cc3d",
+    "核心真题/数学一/2008年全国硕士研究生招生考试数学一真题.md": "abd8607333ed9233771aaff6b79c63c676ee415d1d69e6c383f41c98ff569b46",
+    "核心真题/数学一/2009年全国硕士研究生招生考试数学一真题.md": "07cdcb6318b882e699f15601a465946db39e7022a7d4d9e7c00c5a7fc1c41867",
+    "核心真题/数学一/2010年全国硕士研究生招生考试数学一真题.md": "d6b728f359546599ca950b836005d7d24db0d8ca60daac60fcff73846b947e36",
+    "核心真题/数学一/2011年全国硕士研究生招生考试数学一真题.md": "fa74689f98e0eae09f6ff1ab76757344232c3acda4742a587148932e1a3e2340",
+    "核心真题/数学一/2012年全国硕士研究生招生考试数学一真题.md": "859c7f6916389790c3c43b33408521c91cec51e1144c07140ed4b7551cd811ad",
+    "核心真题/数学一/2013年全国硕士研究生招生考试数学一真题.md": "f8920551036ce071b8515a1294e2de4b72f5323155fd3f884a72729477b3f1bb",
+    "核心真题/数学一/2014年全国硕士研究生招生考试数学一真题.md": "6e4c3dcfeebc0cd3070c8f481c8a342356afd034f507878ee677b28b35e7a772",
+    "核心真题/数学一/2015年全国硕士研究生招生考试数学一真题.md": "1677de5f3e00764f0b26f1e83bdeda24a633ab5c703b89ab6d208074ef454156",
+    "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md": "5c6d640fec349f1e65914547a758daea3ad64dba0001e70780e80c1085af627b",
+    "核心真题/数学一/2017年全国硕士研究生招生考试数学一真题.md": "f81731dc6b9785194758b27461f1ec29a0471a24355e03812dfa63b7c8f3a58e",
+    "核心真题/数学一/2018年全国硕士研究生招生考试数学一真题.md": "bc9972e69b7856e7770f607fc60a8ade73b1cf2f5392567b97876c0ea854a9f1",
+    "核心真题/数学一/2019年全国硕士研究生招生考试数学一真题.md": "25d26241fa2ab82d7ec32d60a4d8202f4184c31ddee4f3c16d2302e508f98b5f",
+    "核心真题/数学一/2020年全国硕士研究生招生考试数学一真题.md": "1353898c107e0053a1d9c440238e5a6506a0b97c3f334747bc818fdfc35c1027",
+    "核心真题/数学一/2021年全国硕士研究生招生考试数学一真题.md": "e94c75d5a9992459c250de5f4e9ab5ef346a0dd2260ab407a832921ca07c087e",
+    "核心真题/数学一/2022年全国硕士研究生招生考试数学一真题.md": "59560c09137c2921bfbcf04028a99d35451595a052b3764e6a65bd92544db912",
+    "核心真题/数学一/2023年全国硕士研究生招生考试数学一真题.md": "2fd7a82dd30911ed9f218780f2fe5a2a13ebcc5ff0d63426225bd23cc94dc41f",
+    "核心真题/数学一/2024年全国硕士研究生招生考试数学一真题.md": "3adb1594637c268da95d5b104751cc209514538beb7726317076f1a2555659d2",
+    "核心真题/数学一/2025年全国硕士研究生招生考试数学一真题.md": "547122d95046545feca5ddf291caa989775227d4fc4b5f8a68feec3e21903fa0",
+    "核心真题/数学一/2026年全国硕士研究生招生考试数学一真题.md": "ace5738f93b645a054303c936fed68d1c2a4f3411db92c5e4955e1acb6513189",
+    "核心真题/数学一/README.md": "2e897cb0d8f791da92d72b751e40048484d05874eee26d5bb1a154f1c1e35084",
+    "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "1992ebc1c1092b66c9d6fd4382154f5f20b799ab44995143c8503cf8d85c5cee",
+    "核心真题/408/2010年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "c7da477ce1fbc5d3f23a8ec9ff007e4fe7609daec07042f20a04f3079042c31e",
+    "核心真题/408/2011年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "f0446da1a546dcfaa7ee9c6665e5277f98aba9170acad0883939a0f3f5a45688",
+    "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "de7d1e2aa1a000e6b1a03b229c2c6c39303b86b7ff774cdddb8c0f2c9d30755f",
+    "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "15cc5a37689d061c71026e9795001fd1bb9a9102c677c12ebb6a36961192f045",
+    "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "4fc447bdafb7f51d71c54dab6c76b909c306e7a21578d4c5be24672adbbd68aa",
+    "核心真题/408/2015年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "6e636cdc325d05835b0cab40ee110c925550244316ecc780ea08a999537d75cb",
+    "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "70d7498ee3654e8a26fdb862e0ab87c3aa398c7231ac95b9ad12ceba7082ebe2",
+    "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "c249a96358f50acb6f2b33f0f89aa656c45102e82ac935003dd105fa1e0ba968",
+    "核心真题/408/2018年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "706b946db7caacb269b965cfe5a7e825fe04f63971cfa12b0a4ff943f120ea8b",
+    "核心真题/408/2019年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "30d592341a2c1c7316baa950bd13484159e5c5e0e3e6a4fc50212658c70d7f2e",
+    "核心真题/408/2020年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "69b04dda47aa696f76b5d3160667c3aaa549e454ac3f5ba8ce8d49348176d4c3",
+    "核心真题/408/2021年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "197ec1a31d1b86cd6f9e63ab0dd536a3cfbee357b4241b17210142641ed8258c",
+    "核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "0aa6d31bd3e44796e3f9a12008343c5da193e66769f53372ee1f0c9c849df8af",
+    "核心真题/408/2023年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "bced54a13ee859537491c0036ac8c7668eedf89b88e75873fe88a758fbad49df",
+    "核心真题/408/2024年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "c4d098ca48af987d6cf4c5c83649c5e5e70bbb0bbd04b969b7d74ada5a6922ab",
+    "核心真题/408/2025年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "c74c1bce594d8a47dfa18c8ccd45e47e3c70c7616a588d6c3e9113ff992d1e29",
+    "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md": "df79aa821c9843565283b528940f9c0f27c2bfb12c6a7defe8d8897a9be5e1c9",
+    "核心真题/408/README.md": "d202b27c68f6351f8dbfd2e3567c5d1f7695bdec1fbfa125526c9507f166df24",
+    "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md": "d1c4c8e867272bc8bcd9858203d44471ec1aaa84e911786656e7eab31ef4025d",
+    "配套习题/张宇基础30讲/01_高等数学篇/第02讲_数列极限.md": "862df9bfdfef86bb980bc58912f3ab3752a978b854cb5901ead9a8f9413d8dbf",
+    "配套习题/张宇基础30讲/01_高等数学篇/第03讲_一元函数微分学的概念.md": "7eb77cd0f9e8c61254f324bf42be79015788b9a922da975b30fca0d6c431b69e",
+    "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md": "c98068875f4480cef95a95e64e99ce0faf4b6e4d1d20050579c899b4e1fee749",
+    "配套习题/张宇基础30讲/01_高等数学篇/第05讲_一元函数微分学的几何应用.md": "4675713015b0f7b60d3b450b353f7b672601b770978f1f742d9016d2f7f19736",
+    "配套习题/张宇基础30讲/01_高等数学篇/第06讲_中值定理、微分等式与微分不等式.md": "6bc138936c077179d198123cdc2ad24bb21a7be5064ee52a32894c2d5aaf1214",
+    "配套习题/张宇基础30讲/01_高等数学篇/第07讲_一元函数微分学的物理应用.md": "5712cb656fdd3900bbd31bad8346859e5289de81143d10df9e858216d6cf2d9d",
+    "配套习题/张宇基础30讲/01_高等数学篇/第08讲_一元函数积分学的概念与性质.md": "4c1ee26413e2d11b8012b5340d4bc04a4a228be90b70663774008620f9cfd885",
+    "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md": "1bf1e3446d550203e41b1ae96120a06f3a868049f9ce33ef814e5bd4b51905c1",
+    "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md": "ec861a18b632888af1a3b46d29c53e7546a8b5ca0fb0032c1a50e7739c774279",
+    "配套习题/张宇基础30讲/01_高等数学篇/第11讲_积分等式与积分不等式.md": "262e9f8e09b5746cefe4d1b02fee23fb80a120ea31751f275ea0e835dad8774a",
+    "配套习题/张宇基础30讲/01_高等数学篇/第12讲_一元函数积分学的物理与经济应用.md": "d73a644d50d66c63626d8007498384a964d793d9768444d9cea171901e423d05",
+    "配套习题/张宇基础30讲/01_高等数学篇/第13讲_多元函数微分学.md": "42702d922c83d71a2eab74be96a454e7804ebae75bb9d23fc50261ee0f57ee75",
+    "配套习题/张宇基础30讲/01_高等数学篇/第14讲_二重积分.md": "5a27e0ace4e079f2729ca9dccfd396afdc794aa05de8227022abc27092371d9b",
+    "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md": "b83afb7e6f9334d5d2ede73f4b37e7ed7c4db0dcbe4f0a0bed933c667ecf6c63",
+    "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md": "95ea3359a9ce98a68cb5ae9ec19dbf312d21e7ff32f4cd0a5c3978eb6c0ceec1",
+    "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md": "d01a0f7d4dfae93a8ca2a396fbbee9f9e291a2d0ba6f7d53048ca2ab05dd7f6f",
+    "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md": "ba71f624d6b8fd43a9dc9be505abb5c442cdb7c65fc2091227fea2f0417611ae",
+    "配套习题/张宇基础30讲/02_线性代数篇/第00讲_零基础课线性代数入门.md": "236808de180cb88190986c989bb44def8279d66a3a872ae41e69aa9aeb588181",
+    "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md": "d14843e0e9b6d1672f9c0e0ccb0a06ba3d3e274beae89ee59daefd048ff5736b",
+    "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md": "68b50f0b2195f6f2eb223706bbf6c15839f682765476b5af89d049e26a272313",
+    "配套习题/张宇基础30讲/02_线性代数篇/第03讲_向量组.md": "d3af7b40d74664abd1e24419f95c86c4ae659e0da40932797e2eb3244622fc50",
+    "配套习题/张宇基础30讲/02_线性代数篇/第04讲_线性方程组.md": "a9eacf3c60f8ced803d812fc5878785f3ac37313015f31415bae84cb035513a5",
+    "配套习题/张宇基础30讲/02_线性代数篇/第05讲_特征值与特征向量.md": "2713dae1d6e8a690764c91f2a17bfecca1fa08c8fcc10786a643d4f870cf1901",
+    "配套习题/张宇基础30讲/02_线性代数篇/第06讲_二次型.md": "374ad825dc4641c609578af3b4bf5380418442cdb55b49a9302123735cb8c037",
+    "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md": "e46ada8c5af8d740ab64e3d3ef672598f14fd7b018a4a3e27037fa5498b8fd35",
+    "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md": "9e6e9082de56a3004c84f80c7c81a5d439f3c567e2e25c841b548d08e5c64cbc",
+    "配套习题/张宇基础30讲/03_概率论与数理统计篇/第03讲_多维随机变量及其分布.md": "341c6ccfa82b84e37ae909635cfcd569c2ff6f3ecdad49c39a1dbcef2c174f6d",
+    "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md": "20a5efa6fa3cdc8ae7e381979f4f101b5be6f7beda12ea8fac9c964a054cbe08",
+    "配套习题/张宇基础30讲/03_概率论与数理统计篇/第05讲_大数定律与中心极限定理.md": "e002851a3a1bd06f68855095b077d91df1a3ec0cb1179030e373592deef865bb",
+    "配套习题/张宇基础30讲/03_概率论与数理统计篇/第06讲_数理统计.md": "cdddbd04ccb452f8b8514de33182dbef6b469366660eac47878dbcbfdd680c6c",
+    "配套习题/张宇基础30讲/README.md": "ab2c52e11b52e2ca72dc77d7ed39e6a63bca3bac3a59230332f47467555ead2e",
+    "辅助真题/数学二/2008年全国硕士研究生招生考试数学二真题.md": "bfd2ff3a4f4e0f0ce8c0c4cc5ec752c44d20b935e35cab24d72e0ffd3ecce387",
+    "辅助真题/数学二/2009年全国硕士研究生招生考试数学二真题.md": "ab650bcd1c20479c4fc9ea5534a94e7f80cbed0ee824c48d0a00f5c1a4a6c5fe",
+    "辅助真题/数学二/2010年全国硕士研究生招生考试数学二真题.md": "b5de593a4dbbaa3cba8753997b1ca08194c128e8a7d7473c8957816fc1041c5c",
+    "辅助真题/数学二/2011年全国硕士研究生招生考试数学二真题.md": "a5f0b9ee8c91859dbfd715a68bb6256824b9084f3eb9aa9fbc0bbd02b4a25976",
+    "辅助真题/数学二/2012年全国硕士研究生招生考试数学二真题.md": "b3dbb94d719ed4e1ac3408db4f674dc75633a17d386601da718bda13e5a1fcbb",
+    "辅助真题/数学二/2013年全国硕士研究生招生考试数学二真题.md": "4e5e58689424f65ec2d95d2e8853f6c405cdf96bd7469d0e0681a0def4ac1577",
+    "辅助真题/数学二/2014年全国硕士研究生招生考试数学二真题.md": "ce70db9bf1f2927772ae5a1ff3cfe7c4a260465ac1f12724710c71514bf1c037",
+    "辅助真题/数学二/2015年全国硕士研究生招生考试数学二真题.md": "d7cc6fbad772282524d73c35e263808febd16e2aae9f3d0d320c8f1eee8b5ca3",
+    "辅助真题/数学二/2016年全国硕士研究生招生考试数学二真题.md": "fa44569875d5225b55dd8d4bbd630e1f6553a74361dc99ee156e3eb56a806723",
+    "辅助真题/数学二/2017年全国硕士研究生招生考试数学二真题.md": "997a853fc7a5f2c7410ab7fb37ee585171f19f2119e4cf501adb1765c440177b",
+    "辅助真题/数学二/2018年全国硕士研究生招生考试数学二真题.md": "b45daec95df86a38fa871e23e1ca53231fd28b835a11a8e30f1ee0fc23e4bbc9",
+    "辅助真题/数学二/2019年全国硕士研究生招生考试数学二真题.md": "a87fa380293f8271ff7fdb713395adf16997a170ed061b7d596e79bc813253a4",
+    "辅助真题/数学二/2020年全国硕士研究生招生考试数学二真题.md": "84000b41edcb42abb4fa0417c31119eace9b7b52038cba3797475fe99da31aac",
+    "辅助真题/数学二/2021年全国硕士研究生招生考试数学二真题.md": "a2fbef57559b1927833abb3fcc84769a88df7380348c42d96cf7f8a93d138a32",
+    "辅助真题/数学二/2022年全国硕士研究生招生考试数学二真题.md": "6734d496bcc7b77d87f937d1bf66ead8f978371abb441ec1765ee18d742cd7b8",
+    "辅助真题/数学二/2023年全国硕士研究生招生考试数学二真题.md": "2bcd745750a0f2dcc315416b3a13e466f86efea57948be78dff61f32dab49965",
+    "辅助真题/数学二/2024年全国硕士研究生招生考试数学二真题.md": "57cb98aa9853b1b2f02ae3aca3b6f7ad8b512dc50b1a5732d06f634790c549fe",
+    "辅助真题/数学二/2025年全国硕士研究生招生考试数学二真题.md": "8506ed22a023c5bf14ce00a00e3e3d2bb24ddbd601a5f85838739df452881d9b",
+    "辅助真题/数学二/2026年全国硕士研究生招生考试数学二真题.md": "aad611e401d5bbcad1956a53211297dd48739d38769a367c947d627370624322",
+    "辅助真题/数学二/README.md": "dcd7824c724fc664019cff8419fd6720647ced66581f4eef97bae66eb5a0643d",
+    "辅助真题/数学三/2008年全国硕士研究生招生考试数学三真题.md": "96ad0e7ae5b44ef2c766ccb54a5579f10b129d765edc3865cdcf699c2f9d8135",
+    "辅助真题/数学三/2009年全国硕士研究生招生考试数学三真题.md": "48030933c07e8aca180c7dd2ef3308cd3f4307c20c3b4e8a0d70e8af640606b9",
+    "辅助真题/数学三/2010年全国硕士研究生招生考试数学三真题.md": "3e598cf775380738ae9c79e8d96cd474a311007d059cd6c21cdc345f273aab77",
+    "辅助真题/数学三/2011年全国硕士研究生招生考试数学三真题.md": "93aedcd459fcab54061ebacb0f89988c91b093c720b15f4f2229f821fb14c3c3",
+    "辅助真题/数学三/2012年全国硕士研究生招生考试数学三真题.md": "4953fc996290e75a5d444bd29d813ff67a94fbf82a2bbfc9ad0afa7078eb3d40",
+    "辅助真题/数学三/2013年全国硕士研究生招生考试数学三真题.md": "21acb233eac6d81bc523d9b319815d3374eb8b7235524289fb41e867a15a3155",
+    "辅助真题/数学三/2014年全国硕士研究生招生考试数学三真题.md": "7c9e843f19f7ab75bf41cc0b83ba23a382b8e288455c2a0af0b45920db1ce6d6",
+    "辅助真题/数学三/2015年全国硕士研究生招生考试数学三真题.md": "7821e20882cc6e3cb17c68716024bb9df3b2b56660b0b94505e7e96b2f752486",
+    "辅助真题/数学三/2016年全国硕士研究生招生考试数学三真题.md": "6b0991980acf013a35cdbb28aa47a05964554008db46806e5f9576f9dbe54cef",
+    "辅助真题/数学三/2017年全国硕士研究生招生考试数学三真题.md": "7332dfa011214e94545215e43164297eb20d27ae02e4f7f90c6aef642c640c1e",
+    "辅助真题/数学三/2018年全国硕士研究生招生考试数学三真题.md": "b2bc4a53c1ccae8950e9c5cc2d02e2783cdfeac083b9021a1d4d46ff8ea7a026",
+    "辅助真题/数学三/2019年全国硕士研究生招生考试数学三真题.md": "7fae85a054d27d609927217983ff3cae1d7cb65521f8f6305d9bc74cbd70a5eb",
+    "辅助真题/数学三/2020年全国硕士研究生招生考试数学三真题.md": "e82ae2d736e63273df347f657e67fd5df697419ff099a7fb673b2166a54d9a63",
+    "辅助真题/数学三/2021年全国硕士研究生招生考试数学三真题.md": "363c7d9218872938173d2b9a1303e81702c63c3f2488d95d4bbd0eec88cd69ad",
+    "辅助真题/数学三/2022年全国硕士研究生招生考试数学三真题.md": "24908fd81b7a9298b10f5d693139c7d0add127d8bd4c43cbd00bf0878dc08d5b",
+    "辅助真题/数学三/2023年全国硕士研究生招生考试数学三真题.md": "1b128beffc92684065c4bb43026ecf10d01c213d40951a09f774ad1cb4f3a85c",
+    "辅助真题/数学三/2024年全国硕士研究生招生考试数学三真题.md": "96f10eda4cbbe061a4c72b126ddf730786186f967099c67f2a13a9e6f1175e4f",
+    "辅助真题/数学三/2025年全国硕士研究生招生考试数学三真题.md": "e16c23c388ac90da8c86ad9160dc78b0fa3e73a7e5d3201b5f2033994496014c",
+    "辅助真题/数学三/2026年全国硕士研究生招生考试数学三真题.md": "ada6fe216935cbf44e327293c77caad01f25b366b2ae8df82ba27ef7ddb5fe07",
+    "辅助真题/数学三/README.md": "4a1e35ab4f1ef227653800c4bad7389895b4a4e1d345a5991cafb3a82b9f7b16",
+    "配套习题/张宇1000题/01_基础篇/概率论与数理统计/第01章_随机事件与概率.md": "d562b549421f38819cd107e3f42c875f3d12e0bd31d29aaa9e43046587622e48",
+    "配套习题/张宇1000题/01_基础篇/概率论与数理统计/第02章_一维随机变量及其分布.md": "ca8cbfd49bb99736e34b56570c01f132eea9d069a58744530a9f9df8c7c40640",
+    "配套习题/张宇1000题/01_基础篇/概率论与数理统计/第03章_多维随机变量及其分布.md": "275f3f1119aed36d78d55606d3b6bfd22bf7b70e76e105ce6b3d8f9db11efde9",
+    "配套习题/张宇1000题/01_基础篇/概率论与数理统计/第04章_随机变量的数字特征.md": "0953f31add7c3fd42718e89779c26f0eb04b8f35fbfedca8668defd1375fbf89",
+    "配套习题/张宇1000题/01_基础篇/概率论与数理统计/第05章_大数定律与中心极限定理.md": "6d5b8bec0a8be7164f9ad47492aad1ad1b6861f48d880db20778d572c2ae8036",
+    "配套习题/张宇1000题/01_基础篇/概率论与数理统计/第06章_数理统计.md": "506b4f8eb78c864ff42232f616943a7a6aff6f7d5823f9567750916847175e15",
+    "配套习题/张宇1000题/01_基础篇/第00章_零基础.md": "e02736a93d483c7d29b6b3141edfd2fcd39f903e094d7c78ebc317e70ecf66de",
+    "配套习题/张宇1000题/01_基础篇/第01章_函数极限与连续.md": "4149fb5d4f6280438feea8ec617b8a113923e5cb2eee2c841fdeac7c2bc9480e",
+    "配套习题/张宇1000题/01_基础篇/第02章_数列极限.md": "5a7a900065176a3b3cb6fe7c3dcfd1e01bdc0a0cb62e057a6406020b003c2410",
+    "配套习题/张宇1000题/01_基础篇/第03章_一元函数微分学的概念.md": "afe688458660c140a8c7897dd2fafb1dec481732167894d13abd8c54a3d17471",
+    "配套习题/张宇1000题/01_基础篇/第04章_一元函数微分学的计算.md": "59a34f34ae476f44ff35878433089181942bd9ee2030a910b5e060137a2a136f",
+    "配套习题/张宇1000题/01_基础篇/第05章_一元函数微分学的几何应用.md": "9de220426db6018ad10e1b18c09002cde32493536eb8c8bbbab4b2fa91564420",
+    "配套习题/张宇1000题/01_基础篇/第06章_一元函数微分学的中值定理与微分等式不等式.md": "bb91a219b966554ba009986ef95c47da8360420f44d488513ee0bdd407295696",
+    "配套习题/张宇1000题/01_基础篇/第07章_一元函数微分学的物理应用.md": "82015337e3781696e696ce7d595182f49c1017cdbc042727d963b8f58f873a35",
+    "配套习题/张宇1000题/01_基础篇/第08章_一元函数积分学的概念与性质.md": "88af884cafee8a7917ee8733ee2f8a66c3f3f61b663c1214c5e1779f123347fe",
+    "配套习题/张宇1000题/01_基础篇/第09章_一元函数积分学的计算.md": "25cdbb4be7a86ac6b19f5d03488374940a4ce2f7b1f66eb7d1dd53fe67f9b39b",
+    "配套习题/张宇1000题/01_基础篇/第10章_一元函数积分学的几何应用.md": "f5aafc3a7d0f741d2b5ef169576942d209881b9ddc82613dee79f6ab4fdec5dd",
+    "配套习题/张宇1000题/01_基础篇/第11章_一元函数积分学的积分等式与积分不等式.md": "dcbefef372ef4a883ff78c3d62d8576f227701f24e97eea8eda6d6da06ae9e63",
+    "配套习题/张宇1000题/01_基础篇/第12章_一元函数积分学的物理应用.md": "501b612b9f6250d692aff8798c97441b707b8a6decc33895d484bf2f508bec25",
+    "配套习题/张宇1000题/01_基础篇/第13章_多元函数微分学.md": "7b17863265994094745de1ec669008150e3fe542c6821b31652e860f44d9bb6e",
+    "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md": "3fd1c6bdb008c12d52b0d5385ace1ecb6ceed9587d12168ec1755215852a7823",
+    "配套习题/张宇1000题/01_基础篇/第15章_微分方程.md": "f2d678d33642477791d6878d6896af4864e814896e280802bf7764a5e7f587f9",
+    "配套习题/张宇1000题/01_基础篇/第16章_无穷级数.md": "e8a523812654b4ccee964742dd672dbf771be22e5ee7041edc652860cb78de0f",
+    "配套习题/张宇1000题/01_基础篇/第17章_多元函数积分学的预备知识.md": "d816114978a97c7f358a34b316d8dfe4fad8a4045a965ade2c4d00976d731726",
+    "配套习题/张宇1000题/01_基础篇/第18章_多元函数积分学.md": "fe3588e518afe45f1a2b846e8ea44a0dd80fce4841909eee8f299b4ba9ef490e",
+    "配套习题/张宇1000题/01_基础篇/线性代数/第01章_行列式.md": "68c090861be0cba0d3e15e3a9496270dd8f80f46b6160d492b761723d9d9e5f7",
+    "配套习题/张宇1000题/01_基础篇/线性代数/第02章_矩阵.md": "185a27fef6ffb9201109ca0d63853f35b6c9d392e75f94365e35b9147dbaefe9",
+    "配套习题/张宇1000题/01_基础篇/线性代数/第03章_向量组.md": "2ca0a97bca1e8bc3c55980c1fa6412f516601af0acc6d9820791e47e4585a50a",
+    "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md": "2fa556f2fbd22eed2b20842071dd2ea493e9b98cc60cb53c45f6060fcb409d3c",
+    "配套习题/张宇1000题/01_基础篇/线性代数/第05章_特征值与特征向量.md": "f4088173c2e55af1956071fc9d7c1182eca29fe0075742b2d7bff733b3848e93",
+    "配套习题/张宇1000题/01_基础篇/线性代数/第06章_二次型.md": "acbd9a8a2c64871e0c9a00e3bf828928f0ed51ec144804d27ef4b9c956f10fe6",
+    "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第01章_随机事件和概率.md": "b3b603fae74b515205cff43fff638327ec421c5d057ed9c06a045fadea916265",
+    "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第02章_一维随机变量及其分布.md": "12774c079e5bbaf42bb8bc4a513ffe45eb0c7750320a7caf8ebfab1c72b54b3e",
+    "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第03章_一维随机变量函数的分布.md": "e0516504b04ce66cbcf64860f41757e4134067157fa3ec380e9c482ba3f8ac7c",
+    "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第04章_多维随机变量及其分布.md": "26cdb3aa31f74ec776256ec2e1d25b1e4e22f34ea88fe9cdf22c6363a3c385ca",
+    "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第05章_多维随机变量函数的分布.md": "e7aba282c5c468276adf9a89420c5ecc0c49f2c0ec05f905d7b4483ec378a006",
+    "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第06章_数字特征.md": "46536b3cd8b49d871de6d7f985f3cfd4ccb17d5661cdb62b6aa0e2b1a0d63cc6",
+    "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第07章_大数定律与中心极限定理.md": "036f21a09555d4bd58a8d1639a46fa5763e5066a88a2572c5e627eaee07661f5",
+    "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第08章_统计量及其分布.md": "017c653292f6d88d0b35a86937da4d485e7cc3f6ef311f2f2e5f25a786bdabe0",
+    "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第09章_参数估计与假设检验.md": "e3b2dd683b1d430206634ff4dd030100743f0167453a1d46bb3d8c40612cfdc0",
+    "配套习题/张宇1000题/02_强化篇/第01章_函数极限与连续.md": "a8918425584b3fc86afd0f708866eafba7fbd8ff2a11e543428f1de40347895f",
+    "配套习题/张宇1000题/02_强化篇/第02章_数列极限.md": "6d3a46b95539e2078711e4a64e46b56e4ffa1c9b5ac56cde1f9907aab83cf66d",
+    "配套习题/张宇1000题/02_强化篇/第03章_一元函数微分学的概念.md": "cc0e23a50fec5a40166d3a71c6c55bbf06c08edc643ca9659e0462d6501543f1",
+    "配套习题/张宇1000题/02_强化篇/第04章_一元函数微分学的计算.md": "b9f1f46bc7114c95a024f6e6f2aed707a5172cfe15b977243b638ceadebb6108",
+    "配套习题/张宇1000题/02_强化篇/第05章_一元函数微分学的几何应用.md": "faac71341c5b0e97d896597c67a983c28c8cc9879422b465928a6e653d602755",
+    "配套习题/张宇1000题/02_强化篇/第06章_一元函数微分学的中值定理与微分等式不等式.md": "796ba8d8317b70b23bfa59e5eabd8fde6d9e1c1342d82691c2b4f893826ad466",
+    "配套习题/张宇1000题/02_强化篇/第07章_一元函数微分学的物理应用.md": "43e46205649bec866102ee118763db5482ec79fca1b4f981f5099f258938331d",
+    "配套习题/张宇1000题/02_强化篇/第08章_一元函数积分学的概念与性质.md": "7ed831628018580fecb5b5b38cb1d3f690ddc58d8d2e1d1975ee7fa4d5d517a2",
+    "配套习题/张宇1000题/02_强化篇/第09章_一元函数积分学的计算.md": "d92572e2684fbeb422bb0171b290390f7d1cf02d86f5baf39a4e3f2d12d92e38",
+    "配套习题/张宇1000题/02_强化篇/第10章_一元函数积分学的几何应用.md": "991e8d622df4feaf636949672f8f14c73f925f670bf50b6dcb5e3a7b58c7f505",
+    "配套习题/张宇1000题/02_强化篇/第11章_一元函数积分学的积分等式与积分不等式.md": "2761fa69d99f0b2f79b00cff1c01453b20f2249954e2798d754393c5eaeadbdb",
+    "配套习题/张宇1000题/02_强化篇/第12章_一元函数积分学的物理应用.md": "85986d2752c7548cf610b2c94a59ed37fed89ca04096b6b182ca9785f1991722",
+    "配套习题/张宇1000题/02_强化篇/第13章_多元函数微分学.md": "e375a8d3ada21734ac7460505a6f38a5d6907b10a8c0873ee974dbaf3bb573a2",
+    "配套习题/张宇1000题/02_强化篇/第14章_二重积分.md": "f0c6b3f6709c3af6e6334470fe0e01d36ee5e2c4e9e72bbd03ce3a2717990461",
+    "配套习题/张宇1000题/02_强化篇/第15章_微分方程.md": "3c71d765f917d39e55ddfcbb66e95705ad7ad67ebf210aa6ac098e218b4697cf",
+    "配套习题/张宇1000题/02_强化篇/第16章_无穷级数.md": "3eefab64874e0d2c4e958ae6c0c7ed0c93e08b5e3ae73cf0a3ed576ab88c4670",
+    "配套习题/张宇1000题/02_强化篇/第17章_多元函数积分学的预备知识.md": "a215bfa9a3f9cc14ea47ed966b597388770b42081fb08aad0703716375229191",
+    "配套习题/张宇1000题/02_强化篇/第18章_多元函数积分学.md": "529a1d99ff055a49ce3e38b86f27c9c5b2f84364d3b730aebb9297f0358834b4",
+    "配套习题/张宇1000题/02_强化篇/线性代数/第01章_行列式.md": "32152345ac1e90ceddbfa31ad14a6d85aab6b13410a168130ca5b2ec642cf2e7",
+    "配套习题/张宇1000题/02_强化篇/线性代数/第02章_余子式和代数余子式的计算.md": "0a90f67636b482ef8d0995e909b8eaf1e53df6a183b007488e724cbc035bb31e",
+    "配套习题/张宇1000题/02_强化篇/线性代数/第03章_矩阵运算.md": "ff973197695e2c61ac6231991b918a03d9ed3ba5b8bcbc3abf0554093c99afeb",
+    "配套习题/张宇1000题/02_强化篇/线性代数/第04章_矩阵的秩.md": "1008c72aa5a41eadf79c4de2b091a4209e70fb1f45291f464570b8139c37042f",
+    "配套习题/张宇1000题/02_强化篇/线性代数/第05章_线性方程组.md": "81abe761eac81470a177dd9c71b093bd89fa4b06fe4bec1ed0dcb26eb140b0d4",
+    "配套习题/张宇1000题/02_强化篇/线性代数/第06章_向量组.md": "30b3f7e4472fae30598cdae7d002538d13c67d626751a2d3f3ccf75366c314ee",
+    "配套习题/张宇1000题/02_强化篇/线性代数/第07章_特征值与特征向量.md": "d4b2ee71df14a10fa3362833149cfd3d26a5afbc32e3b6aa05ff75cae39e0d7c",
+    "配套习题/张宇1000题/02_强化篇/线性代数/第08章_相似理论.md": "3bbe18268d3cb24cb6ab2db91c40ce34fb535585f3979a625771e24a6d338915",
+    "配套习题/张宇1000题/02_强化篇/线性代数/第09章_二次型.md": "71ec8c8e2a2c4d1a5b66c1cb6cbdaf651e86d3da5562e6b3904a1f3afe81c696",
+    "配套习题/张宇1000题/03_综合篇/测试卷一.md": "96f541d8261fa2896c779f964c18546943877be4e59e02f476186f356470684e",
+    "配套习题/张宇1000题/03_综合篇/测试卷三.md": "09623255370b7506cc4c2844183573c09c1e0b971d25200302b0b226d138c4d6",
+    "配套习题/张宇1000题/03_综合篇/测试卷二.md": "14e43fff0278ed9aaf4c202b9f901c060125da8c16458dc5c9e501b8ddbef837",
+    "配套习题/张宇1000题/03_综合篇/测试卷四.md": "48b4c80909037cd861fc23ad5f332fc620d2e93db9b8d71a9a03624765d23249",
+    "配套习题/张宇1000题/README.md": "9024435b1ce2e3d2eee69a85f94d82f5b82a1736f45f70fb535973c5be670ed6",
+    "配套习题/王道计算机考研408/01_计算机组成原理_选择题/第01章_计算机系统概述.md": "f8bf7fc4d87f8b6139a82f37c35875d18cb409880f2950c760c0fcee9fdcff14",
+    "配套习题/王道计算机考研408/01_计算机组成原理_选择题/第02章_数据的表示和运算.md": "0cb592046a1c0cb86b5d093e31784b93c905d439e8f864004ba60ab7a544e400",
+    "配套习题/王道计算机考研408/01_计算机组成原理_选择题/第03章_存储系统.md": "794f5f937526a68ec797b44e554c33014c148ddfcfbd2865916ec1c941776a6f",
+    "配套习题/王道计算机考研408/01_计算机组成原理_选择题/第04章_指令系统.md": "3bccd741b9aaa521c20f16faf21d6274f13ecfdd9a47f03e92470aa5460ee6ec",
+    "配套习题/王道计算机考研408/01_计算机组成原理_选择题/第05章_中央处理器.md": "95d75eeddc1f56228233f6d825bcb05e853b6b4bed394cc695c8f15b1311290b",
+    "配套习题/王道计算机考研408/01_计算机组成原理_选择题/第06章_总线.md": "38fb71884a1a1c153106461527c8deb31f664abf9ad48f5dfe661a0d6ebd3ebf",
+    "配套习题/王道计算机考研408/01_计算机组成原理_选择题/第07章_输入输出系统.md": "0f4a88b2d27bdde7bd08d7c3aeb03c8c8756b2bc432864db6dabafded6eb430f",
+    "配套习题/王道计算机考研408/02_操作系统_综合大题/第01章_计算机系统概述.md": "81adf5801d4b91bf4715f363753a3009aa9987c83f642ac75e1dd3be70fa0171",
+    "配套习题/王道计算机考研408/02_操作系统_综合大题/第02章_进程与线程.md": "f9b4683447b2d59f03be318f6ef39009493e49058058b945efc1010d57603516",
+    "配套习题/王道计算机考研408/02_操作系统_综合大题/第03章_内存管理.md": "a17d8066535949dacb9e908a4d933e2947724fb8b62b8e761a531bf0309aa414",
+    "配套习题/王道计算机考研408/02_操作系统_综合大题/第04章_文件管理.md": "68acae2394aa40f505b86f85a97983bc50b391ff953a5cd58bdf488b43788928",
+    "配套习题/王道计算机考研408/02_操作系统_综合大题/第05章_输入输出管理.md": "a0a01a1c5e2b13c7c8bf93b30caf9e9913dd1fa182b72ebed19fb5552edbe74a",
+    "配套习题/王道计算机考研408/03_数据结构_选择题/第01章_绪论.md": "e5199a94936c06d45697f331c0f2e875bd87ee6a35284d05aff542ef40377ada",
+    "配套习题/王道计算机考研408/03_数据结构_选择题/第02章_线性表.md": "37d94f7514132d51897721ef10aeef484e9581139404323c4afe97c8cb8c9074",
+    "配套习题/王道计算机考研408/03_数据结构_选择题/第03章_栈_队列和数组.md": "eef4f6eb0cf0666a6b4d3404b792e7dd66cfa6ed63d78689d926ea839b26ccdf",
+    "配套习题/王道计算机考研408/03_数据结构_选择题/第04章_串.md": "cc486c262ddfa07ee72745eba4223984dbf7a7375d36074865d946ce9f6ca57f",
+    "配套习题/王道计算机考研408/03_数据结构_选择题/第05章_树与二叉树.md": "2039312ba84b39b6aafdce4f63272ca81f1a2ae533eda8183f0ae2ab4d9dd57b",
+    "配套习题/王道计算机考研408/03_数据结构_选择题/第06章_图.md": "378923f5994f525ffc75625c5c7f0cafb354ee35c960abaaa01fa9a882f7023d",
+    "配套习题/王道计算机考研408/03_数据结构_选择题/第07章_查找.md": "85229ef18a13a8b6e333e59e604ccff1ff3de1eb029e93b5564818209737f3c7",
+    "配套习题/王道计算机考研408/03_数据结构_选择题/第08章_排序.md": "c2153294aa872fe0b4dd505bc38f614673172991933eefef47901eebf6d4d0ae",
+    "配套习题/王道计算机考研408/04_计算机网络_选择题/第01章_计算机网络体系结构.md": "52829f8e1f80a30c700845e2b622045af9b26b27b7facf81b76e3683f08cf8f0",
+    "配套习题/王道计算机考研408/04_计算机网络_选择题/第02章_物理层.md": "be94da733226f634936d80a87b095418f1bf17e4713a47a9c64c9d357695484f",
+    "配套习题/王道计算机考研408/04_计算机网络_选择题/第03章_数据链路层.md": "3355a4d71d582de82150b2e59c747587a03476b339c3734854728805d51a7011",
+    "配套习题/王道计算机考研408/04_计算机网络_选择题/第04章_网络层.md": "76d219e7ef93a1e46745a2eb323d839961c891c8b9edce306215efc7cc66ac3d",
+    "配套习题/王道计算机考研408/04_计算机网络_选择题/第05章_传输层.md": "bf9bc0ace487276b7ee34d062c7678bb8627efe9276ee1c90f3f4f784c895cbc",
+    "配套习题/王道计算机考研408/04_计算机网络_选择题/第06章_应用层.md": "d2eccb737915574dceb67470d09a51723824f1f59500296b6ecc447d32cd7aa0",
+    "配套习题/王道计算机考研408/05_操作系统_选择题/第01章_计算机系统概述.md": "9cf6018dbabe1c4c9cdf1e373c80c9256d62a70a48eb9402cb4b9678013a2748",
+    "配套习题/王道计算机考研408/05_操作系统_选择题/第02章_进程与线程.md": "071f28cf4e104954fcf39dfb1fbebdce5315f92cbd647dcf911f97274db11360",
+    "配套习题/王道计算机考研408/05_操作系统_选择题/第03章_内存管理.md": "d14a40f91145bc4a5313fc09dd27ed0bb7fe49ab15bfa45868048f21c1b7a125",
+    "配套习题/王道计算机考研408/05_操作系统_选择题/第04章_文件管理.md": "63094ac792b8b8c053e5bbcf2b5cc61c606f82e103fa96481f89ebbc51be2ea6",
+    "配套习题/王道计算机考研408/05_操作系统_选择题/第05章_输入输出管理.md": "fe7a4b042972faeeeee701b6776cc348175cd708b8fa4b733a30047ea8be86ea",
+    "配套习题/王道计算机考研408/06_数据结构_综合大题/第01章_绪论.md": "842e7262a930bfce58ea6a5c0656471e8c6193103b2c4eac56368f540a0b51e4",
+    "配套习题/王道计算机考研408/06_数据结构_综合大题/第02章_线性表.md": "1614038da4bbd27ee79d192efb0864b1b1236f9f33b965c610acea3b600d5e3e",
+    "配套习题/王道计算机考研408/06_数据结构_综合大题/第03章_栈_队列和数组.md": "fa588c425aa5e97941de1db5bf15637ff4daefc6aa19cfbda9190f5df36241a1",
+    "配套习题/王道计算机考研408/06_数据结构_综合大题/第04章_串.md": "339e60a40133e60bdb819a42a5283edf1898f5a50e853b0e63e4d5f2bb8ee567",
+    "配套习题/王道计算机考研408/06_数据结构_综合大题/第05章_树与二叉树.md": "08cb988ab06d905bd313954d904d9ebb87987697da20e007f1dab0c0b8b2b8a7",
+    "配套习题/王道计算机考研408/06_数据结构_综合大题/第06章_图.md": "f7f760af8fbbb016266e24eb0c77fb46c169f3f0b610d68c841b15a8ba99454a",
+    "配套习题/王道计算机考研408/06_数据结构_综合大题/第07章_查找.md": "8483966a32bcefd9419e30ada5083a5c8a59c0309fc589e1ff6809afcd0959d8",
+    "配套习题/王道计算机考研408/06_数据结构_综合大题/第08章_排序.md": "e0a648b0d7e60c0bff4c7d374df3ef52ed85bda33c7147b6ec0b779bd9a0d9eb",
+    "配套习题/王道计算机考研408/07_计算机组成原理_综合大题/第01章_计算机系统概述.md": "bbc8ebe344cdfda0d2f48c903ac741db559ffc35be68d658503b2fca76da1a17",
+    "配套习题/王道计算机考研408/07_计算机组成原理_综合大题/第02章_数据的表示和运算.md": "1339055f5bd13d9f533284c99bec16888ad59ee0a234192c22ec3c6ddcd3aa6d",
+    "配套习题/王道计算机考研408/07_计算机组成原理_综合大题/第03章_存储系统.md": "9d440632de79e4025714792e7725a4b406b436b83107da1d2a86d2efdc46fdea",
+    "配套习题/王道计算机考研408/07_计算机组成原理_综合大题/第04章_指令系统.md": "edbfec9628ecdc51b2a1f667bc128cd70b6b97f9d84e2b04a7800de8d9874466",
+    "配套习题/王道计算机考研408/07_计算机组成原理_综合大题/第05章_中央处理器.md": "16d04dd73f32993b2af9174262efc3f68a3fa33daf54f9275db17be8f006b819",
+    "配套习题/王道计算机考研408/07_计算机组成原理_综合大题/第06章_总线.md": "09543f866183b3c2a68ec90f41a416e5bf3346c5b407cb962f8bb2bdccce091a",
+    "配套习题/王道计算机考研408/07_计算机组成原理_综合大题/第07章_输入输出系统.md": "f8711ea24f8d6f8fcb88f4398cd47cfb898e9dbe60ca8621f2c92715cd8ab719",
+    "配套习题/王道计算机考研408/08_计算机网络_综合大题/第01章_计算机网络体系结构.md": "8ebb8f1ecc51a6b177f50f3a75b296b7808e099cdcf91556c42605cae7bb1649",
+    "配套习题/王道计算机考研408/08_计算机网络_综合大题/第02章_物理层.md": "c793462e14f8050b11608aafce74676b671a2894f6017668dedd9ef99055c78a",
+    "配套习题/王道计算机考研408/08_计算机网络_综合大题/第03章_数据链路层.md": "e0c58311c91d0e4f79e0022e33c8d1562118e320d11da71a4a20ab45ef1c2fd4",
+    "配套习题/王道计算机考研408/08_计算机网络_综合大题/第04章_网络层.md": "46d6c0f9d96694fb5c3c807991bdd74f883627f128b27f056187fe0379d6ff4e",
+    "配套习题/王道计算机考研408/08_计算机网络_综合大题/第05章_传输层.md": "e3fdf5d261d8113b16033688716e9f5f24074a850566ad5ec5258e315a635032",
+    "配套习题/王道计算机考研408/08_计算机网络_综合大题/第06章_应用层.md": "40d7fd6cccf56ee673d464b6a139be3b90e310211c6e39f4aad6ab71ae4f8aed",
+    "配套习题/王道计算机考研408/README.md": "57ccca1a1f47cdcbd5869dca7d125d06bd590b56178dc36ac34a6d8194f4733c",
+    "配套习题/408/408经典练习题/01_数据结构篇/01_复杂度分析.md": "9ba594911a560ba7cfc4bc17955424a599c6b253e4021dacad620ea6d922b7fb",
+    "配套习题/408/408经典练习题/01_数据结构篇/02_B树.md": "a8bbcab853c0d1670d5347f444c9fe90da67cf85b82059aeaca8ded7ceb23014",
+    "配套习题/408/408经典练习题/01_数据结构篇/03_数组.md": "2a8cb30410b5505f30b94385ece78af9526d43a2386ee74182fb3ffe51ec304e",
+    "配套习题/408/408经典练习题/01_数据结构篇/04_链表.md": "e9cd13f753550dc528e6fd6d32a62fa7cce455666e42e4f5e346ce6eaf0ad680",
+    "配套习题/408/408经典练习题/01_数据结构篇/05_队列.md": "40105c76e8d8b1c137b7852358785da0650dbc590c0e1edcb62fd02449f8f2ec",
+    "配套习题/408/408经典练习题/01_数据结构篇/06_栈.md": "dfb236a4e6d15001b911098decae401e8154ff57e807169204ab7c9df2fe5c77",
+    "配套习题/408/408经典练习题/01_数据结构篇/07_二叉树.md": "37ee8b2a916d671d8ce7e916b3a8c369b512841af5f9fdcbc86cea9e737acdbd",
+    "配套习题/408/408经典练习题/01_数据结构篇/08_图.md": "431b62d2f8c14dfaabb953dd60c892e2f5c21542b96c56158cb39f44b56ffc95",
+    "配套习题/408/408经典练习题/01_数据结构篇/09_哈希表.md": "9bfabc5a68540252e8a28850a6cc3754bf2d099b397188743b1c3d64767778a9",
+    "配套习题/408/408经典练习题/01_数据结构篇/10_排序.md": "37751f19edd870a48ddf5c8523b8fc12679f10c96d26c218014b70a9c67bf306",
+    "配套习题/408/408经典练习题/02_计算机组成原理篇/01_数制.md": "7d2127e755bb6635ec0de35669dc05b1a0dbaf6488ccbea5c79a4318f784794d",
+    "配套习题/408/408经典练习题/02_计算机组成原理篇/02_存储系统.md": "1202e750c5d96f63f087a7a7d5da00dd08504ed209b2e9cb01071e20a725fd12",
+    "配套习题/408/408经典练习题/02_计算机组成原理篇/03_CPU.md": "23fe00359d181038ae64923f444e355c4ddbdb3dd2a584f9883c1f6951a01604",
+    "配套习题/408/408经典练习题/02_计算机组成原理篇/04_流水线.md": "b868ae0f31ece120bd8ac64f30ebd4fee89fa98c4ea832e28e31989f303df0c4",
+    "配套习题/408/408经典练习题/02_计算机组成原理篇/05_IO.md": "8606c9cfc6a33b6809c258efc796488a24716c3fe157308675e96d735b2cb14d",
+    "配套习题/408/408经典练习题/03_操作系统篇/01_存储管理.md": "51b3ad9ad6aa6304efee513731a2543f374e22d08b7012595f75f857208c0cc8",
+    "配套习题/408/408经典练习题/03_操作系统篇/02_进程管理.md": "a0ecbfb562d6bc954b3d3e5f7c405c8f2397503e7490cf6cfbfe579f8430a29f",
+    "配套习题/408/408经典练习题/03_操作系统篇/03_死锁.md": "311737f09368b51fc80793908e533415c1c5a859fda3de077d71dfd1020f8b85",
+    "配套习题/408/408经典练习题/03_操作系统篇/04_CPU调度.md": "3b2809020a81602e547b22389f25375de5d25775b1fc79d5998eca27c4f6327d",
+    "配套习题/408/408经典练习题/04_计算机网络篇/01_物理层.md": "92f921b1071181d52a5061e940544e14394e2366c42b6b2cb341ab69a87eb675",
+    "配套习题/408/408经典练习题/04_计算机网络篇/02_数据链路层.md": "6508ff050cca08ba4103813547016f71df3e6ae69acbeeaa3fd23292c20c7b53",
+    "配套习题/408/408经典练习题/04_计算机网络篇/03_网络层.md": "c0e17f7b6e665e56bf29b9dae6a1c593c26ed0bc9ca3c88e4178d7c3403a4463",
+    "配套习题/408/408经典练习题/04_计算机网络篇/04_传输层.md": "6aa3924532b0e80b5ce08910ae90097fd484daf28069fe8242abf22a8e5728d7",
+    "配套习题/408/408经典练习题/04_计算机网络篇/05_应用层.md": "675d48df9f02bbd0963e662f35eb77954ef42c79057bfb6d30ce7f76af4c02db",
+    "配套习题/408/408经典练习题/README.md": "b917358243fea4bfc9d28d7fae8ab0fb3db046d6ac9ca04244b7f21ed1e85e7d",
+    "系统文件/题目标注/L1/question_annotations_l1_v1.json": "c41c866cd2bc514630ead0591a7025740c8871162d4cee8e4b580211160a8237",
+    "系统文件/题目标注/数学一_L2_L3/question_annotations_math1_l23_v1.json": "45ad636949a5eb46268b2af7257ab86a82d12b17dad0a67801320c18c379f477",
+    "系统文件/脚本工具/05_标注与规范校验/math1_l23_review_v1/source_lock_v1.json": "e77124a37a3499da20931fb0f0c748dd0053a2f5d970535c96c7fcf3630c42f0",
+    "系统文件/脚本工具/05_标注与规范校验/math1_l23_review_v1/review_policy_v1.json": "34cfc166cc0877ca3bb9db84ed3c1f9903f5ef41f98618eb65b730b50ce50823",
+    "系统文件/题目标注/408_2009_2012_L3/question_annotations_cs408_2009_2012_l23_v1.json": "5e1ac6d9b9ec83f8b9100d85fbe385ab5f9b3fedeeda6e1cabf5c022512588b9",
+    "系统文件/脚本工具/05_标注与规范校验/cs408_2009_2012_review_v1/scoring_plan_v1.json": "898875d344c66b25a8206f28268975bbc97e71e6e8ee822a09b8d7c51c957c88",
+    "系统文件/脚本工具/05_标注与规范校验/cs408_2009_2012_review_v1/source_lock_v1.json": "9a7dd3f5c809119c1302de8229ab55e2ba51cfe0be1e9789561c25f21d353c4b",
+    "系统文件/脚本工具/05_标注与规范校验/cs408_2009_2012_review_v1/review_policy_v1.json": "462cba5269f1f89a974f67f03ffc9b7829c0da8a5b1e4915c1ddc68571abd3b1",
+    "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json": "cd6d43570b3736c6377c4f296ee666591993c055d3d870410acf77e83bb956a8",
+    "系统文件/脚本工具/05_标注与规范校验/cs408_2013_2026_review_v1/scoring_plan_v1.json": "b82fab6b70d5012bd260717501a3f340aa1b267fa657926b613a6b5bf95f88d9",
+    "系统文件/脚本工具/05_标注与规范校验/cs408_2013_2026_review_v1/source_lock_v1.json": "df5e3c16e5c9810618bbbb6d367cfb901e33c68a67dcfc43b3b44069ec87deb9",
+    "系统文件/脚本工具/05_标注与规范校验/cs408_2013_2026_review_v1/review_policy_v1.json": "9bb42bd74f7d015ed370316f3e3b0eb18a968624fe43a88f2a2b89ab5e1538d5",
+    "系统文件/脚本工具/05_标注与规范校验/build_math1_l23.py": "5cee9f8e1a96cb25b93e8b6d2f17cd1487a1fe4351c0d04be68ea2578cdce2f9",
+    "系统文件/脚本工具/05_标注与规范校验/build_cs408_l23.py": "2e1dbd8d9eacb1872aab3ac6df1cded7d62d9959af39819e867e74d591ea534e",
+    "系统文件/脚本工具/05_标注与规范校验/build_cs408_2013_2026_l23.py": "bae4941dbee975406d9a71bbc300ab42b54d6114dc926b3cf125cceab68aa0c5"
+  },
+  "limits": [
+    "全量检查结构、引用、显式分值冲突、来源变化；定向复核本次修正，不认证全库答案。",
+    "旧快照保留；不改原题，不猜选冲突总分，不将尚未完成的L3作为下游L1依据。",
+    "11条短题干提示不是11道损坏题；其中有正常的短问句和填空式，不能仅据长度判坏。"
+  ]
+}

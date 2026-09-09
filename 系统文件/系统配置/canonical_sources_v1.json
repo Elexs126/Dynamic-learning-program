@@ -3,7 +3,7 @@
   "generated_from_repository_state": "2026-08-30",
   "counting_unit": "unique_id_marker",
   "id_marker": "【唯一编号】",
-  "expected_unique_question_records": 8024,
+  "expected_unique_question_records": 8022,
   "target_prior_eligible_records": 1277,
   "core_l2_expected_records": 2153,
   "sources": [
@@ -14,7 +14,9 @@
       "exam_track": "MATH1",
       "annotation_priority": "CORE_L2",
       "eligible_for_target_prior": true,
-      "initial_usage_roles": ["RAW"],
+      "initial_usage_roles": [
+        "RAW"
+      ],
       "eligible_usage_roles": [
         "RAW",
         "TARGET_PRIOR",
@@ -32,7 +34,9 @@
       "exam_track": "CS408",
       "annotation_priority": "CORE_L2",
       "eligible_for_target_prior": true,
-      "initial_usage_roles": ["RAW"],
+      "initial_usage_roles": [
+        "RAW"
+      ],
       "eligible_usage_roles": [
         "RAW",
         "TARGET_PRIOR",
@@ -50,8 +54,14 @@
       "exam_track": "MATH1",
       "annotation_priority": "CORE_L2",
       "eligible_for_target_prior": false,
-      "initial_usage_roles": ["RAW"],
-      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+      "initial_usage_roles": [
+        "RAW"
+      ],
+      "eligible_usage_roles": [
+        "RAW",
+        "AUX_OFFPOLICY",
+        "TRAIN"
+      ]
     },
     {
       "source_id": "MATH2_PAST_PAPERS",
@@ -60,8 +70,14 @@
       "exam_track": "MATH2",
       "annotation_priority": "L1_FIRST",
       "eligible_for_target_prior": false,
-      "initial_usage_roles": ["RAW"],
-      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+      "initial_usage_roles": [
+        "RAW"
+      ],
+      "eligible_usage_roles": [
+        "RAW",
+        "AUX_OFFPOLICY",
+        "TRAIN"
+      ]
     },
     {
       "source_id": "MATH3_PAST_PAPERS",
@@ -70,8 +86,14 @@
       "exam_track": "MATH3",
       "annotation_priority": "L1_FIRST",
       "eligible_for_target_prior": false,
-      "initial_usage_roles": ["RAW"],
-      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+      "initial_usage_roles": [
+        "RAW"
+      ],
+      "eligible_usage_roles": [
+        "RAW",
+        "AUX_OFFPOLICY",
+        "TRAIN"
+      ]
     },
     {
       "source_id": "ZHANGYU_1000",
@@ -80,8 +102,14 @@
       "exam_track": "MATH1",
       "annotation_priority": "L1_FIRST",
       "eligible_for_target_prior": false,
-      "initial_usage_roles": ["RAW"],
-      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+      "initial_usage_roles": [
+        "RAW"
+      ],
+      "eligible_usage_roles": [
+        "RAW",
+        "AUX_OFFPOLICY",
+        "TRAIN"
+      ]
     },
     {
       "source_id": "WANGDAO_408",
@@ -90,8 +118,15 @@
       "exam_track": "CS408",
       "annotation_priority": "L1_FIRST",
       "eligible_for_target_prior": false,
-      "initial_usage_roles": ["RAW"],
-      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+      "initial_usage_roles": [
+        "RAW"
+      ],
+      "eligible_usage_roles": [
+        "RAW",
+        "AUX_OFFPOLICY",
+        "TRAIN"
+      ],
+      "expected_record_count": 2895
     },
     {
       "source_id": "CS408_CLASSIC_EXERCISES",
@@ -100,8 +135,14 @@
       "exam_track": "CS408",
       "annotation_priority": "L1_FIRST",
       "eligible_for_target_prior": false,
-      "initial_usage_roles": ["RAW"],
-      "eligible_usage_roles": ["RAW", "AUX_OFFPOLICY", "TRAIN"]
+      "initial_usage_roles": [
+        "RAW"
+      ],
+      "eligible_usage_roles": [
+        "RAW",
+        "AUX_OFFPOLICY",
+        "TRAIN"
+      ]
     }
   ],
   "excluded_duplicate_or_derived_paths": [

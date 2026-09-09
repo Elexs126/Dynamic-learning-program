@@ -15,7 +15,7 @@ Exit codes:
   2 = IDE is still running, refused to modify
 """
 
-import sqlite3, base64, os, sys, json, subprocess
+import sqlite3, base64, os, sys, json, subprocess, shutil
 
 # --- Paths ---
 STATE_DB = os.path.expanduser(
@@ -303,6 +303,7 @@ def main():
     test_parsed = decode_proto(base64.b64decode(full_b64))
     assert len(test_parsed) == len(new_entries), "Protobuf roundtrip failed!"
 
+    shutil.copy2(STATE_DB, f"{STATE_DB}.backup")
     cur.execute(f'UPDATE ItemTable SET value=? WHERE key="{KEY}"', (full_b64,))
     con.commit()
     con.close()
