@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "record_count": 658,
+  "error_count": 0,
+  "errors": [],
+  "checks": [
+    "v1.1 JSON schema",
+    "658 unique canonical ids in 2013–2026",
+    "original L0/L1 exact preservation",
+    "reviewed source hashes and local images",
+    "explicit partitions equal raw totals and cover observable steps",
+    "partial and conditional scores cannot be added twice",
+    "source total conflict remains unresolved",
+    "all omitted fields declared with reviewed reasons",
+    "task dependency references and acyclicity",
+    "reciprocal isomorphic references distinct from duplicates",
+    "knowledge and method registry",
+    "no answer/student/role payload"
+  ],
+  "semantic_limit": "PASS证明结构、引用、来源绑定及一致性；语义标签已逐题核对，但不是原稿答案认证或人工签核。",
+  "mode": "checked"
+}

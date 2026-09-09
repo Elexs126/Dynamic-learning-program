@@ -1,0 +1,33 @@
+test_calls_need_input_and_output_bounds (test_learning_runtime.BudgetTests.test_calls_need_input_and_output_bounds) ... ok
+test_cap_reached_stops_even_zero_estimate (test_learning_runtime.BudgetTests.test_cap_reached_stops_even_zero_estimate) ... ok
+test_known_budget_accounts_for_reservation_and_retry (test_learning_runtime.BudgetTests.test_known_budget_accounts_for_reservation_and_retry) ... ok
+test_nonfinite_boolean_negative_and_fractional_tokens_denied (test_learning_runtime.BudgetTests.test_nonfinite_boolean_negative_and_fractional_tokens_denied) ... ok
+test_old_week_and_non_monday_denied (test_learning_runtime.BudgetTests.test_old_week_and_non_monday_denied) ... ok
+test_retry_cannot_fit_denies (test_learning_runtime.BudgetTests.test_retry_cannot_fit_denies) ... ok
+test_unknown_cap_usage_or_estimate_denies (test_learning_runtime.BudgetTests.test_unknown_cap_usage_or_estimate_denies) ... ok
+test_unknown_fields_denied (test_learning_runtime.BudgetTests.test_unknown_fields_denied) ... ok
+test_E_qualification_requires_only_necessary_checks (test_learning_runtime.IndexTests.test_E_qualification_requires_only_necessary_checks) ... ok
+test_canonical_and_core_not_double_counted (test_learning_runtime.IndexTests.test_canonical_and_core_not_double_counted) ... ok
+test_duplicate_overlay_or_modified_L0_rejected (test_learning_runtime.IndexTests.test_duplicate_overlay_or_modified_L0_rejected) ... ok
+test_human_unresolved_not_confused_with_assistant_review (test_learning_runtime.IndexTests.test_human_unresolved_not_confused_with_assistant_review) ... ok
+test_known_teacher_exposure_does_not_assert_student_exposure (test_learning_runtime.IndexTests.test_known_teacher_exposure_does_not_assert_student_exposure) ... ok
+test_navigation_complete_and_unbatched_explicit (test_learning_runtime.IndexTests.test_navigation_complete_and_unbatched_explicit) ... ok
+test_no_feedback_does_not_imply_unlearned_or_zero (test_learning_runtime.IndexTests.test_no_feedback_does_not_imply_unlearned_or_zero) ... ok
+test_path_escape_rejected (test_learning_runtime.IndexTests.test_path_escape_rejected) ... ok
+test_snapshot_tampering_detected_and_overwrite_refused (test_learning_runtime.IndexTests.test_snapshot_tampering_detected_and_overwrite_refused) ... ok
+test_append_preserves_history_and_duplicate_is_noop (test_learning_runtime.SummaryTests.test_append_preserves_history_and_duplicate_is_noop) ... ok
+test_claimed_sealed_report_does_not_activate_measurement (test_learning_runtime.SummaryTests.test_claimed_sealed_report_does_not_activate_measurement) ... ok
+test_corrupted_history_is_not_overwritten (test_learning_runtime.SummaryTests.test_corrupted_history_is_not_overwritten) ... ok
+test_identity_and_answer_fields_rejected (test_learning_runtime.SummaryTests.test_identity_and_answer_fields_rejected) ... ok
+test_invalid_time_and_chronology_rejected (test_learning_runtime.SummaryTests.test_invalid_time_and_chronology_rejected) ... ok
+test_missing_final_newline_remains_append_only (test_learning_runtime.SummaryTests.test_missing_final_newline_remains_append_only) ... ok
+test_nested_extra_field_and_identity_in_id_rejected (test_learning_runtime.SummaryTests.test_nested_extra_field_and_identity_in_id_rejected) ... ok
+test_numeric_values_cannot_impersonate_confirmation_booleans (test_learning_runtime.SummaryTests.test_numeric_values_cannot_impersonate_confirmation_booleans) ... ok
+test_score_bounds_and_finite_required (test_learning_runtime.SummaryTests.test_score_bounds_and_finite_required) ... ok
+test_total_score_cannot_imply_dimensions (test_learning_runtime.SummaryTests.test_total_score_cannot_imply_dimensions) ... ok
+test_whole_exam_can_be_validated_without_question_id (test_learning_runtime.SummaryTests.test_whole_exam_can_be_validated_without_question_id) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 2.164s
+
+OK
