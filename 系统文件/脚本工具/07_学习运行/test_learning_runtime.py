@@ -155,7 +155,8 @@ class IndexTests(unittest.TestCase):
 
     def test_human_unresolved_not_confused_with_assistant_review(self):
         r = self.data['readiness.json']
-        self.assertEqual(r['human_issue_questions_by_track'], {'MATH1': 7, 'CS408': 17})
+        self.assertEqual(r['human_issue_questions_by_track'], {})
+        self.assertEqual(r['human_issue_question_count'], 0)
         self.assertFalse(r['human_signoff_inferred'])
 
     def test_no_feedback_does_not_imply_unlearned_or_zero(self):

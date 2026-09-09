@@ -1,419 +1,291 @@
 {
-  "version": "cs408-2013-2026-l23-review-v1.0.0",
-  "generated_at": "2026-09-08T14:33:47.053682+00:00",
+  "additional_human_required_label_types": {},
+  "additional_human_required_reasons": {},
   "authorization": "用户要求继续处理2012年之后的408真题，延续仅依据本地资料完成可判断的L2/L3，不联网或推测出处。",
-  "source_scope": "核心真题/408中2013—2026年14份文件的658题；全部题干和本地解析逐题核对，162张引用图片均已本地渲染并查看。",
-  "global_skips": [],
-  "out_of_scope_missing_source_note": "年份、题号、题源名称和本地定位已在L0保留；独立原始出处核验材料未提供，L0.source_reliability保持unknown，不推断原始资料可靠等级。这不是遗漏本轮L2/L3字段。",
-  "score_policy": "完整明确且所有本地总分声明一致的分项才成为可累加评分单元；不完整时保留整题。部分分项、条件得分和正文满分另存证据且不再次累加。有冲突时有效总分为null，不改L0。条件规则超过有误元数据但未超过明确细则上界时仅作非生效证据保存。",
-  "empty_policy": "空次知识点和软前置表示本题任务未确认额外项目；空备选表示本地解析未提供另一明确可行机制；空依赖表示未确认直接结果调用；同构null仅表示本批658题未确认可填写匹配，不推定库外没有。",
-  "review_policy": "verified表示对应标签已经逐题依据本地语义核对，不表示人工签核、原始答案认证、学生实测或正式考频可用。静态难度可修订。源代码和图片笔误只登记对标签的影响，不复制解答。",
-  "main_overrides": {},
-  "extra_omissions": {},
-  "field_omissions": {
-    "408-13-A-T41": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "元数据10分，最高效率评分档及复杂度项合计13分；条件表和附带排序9分提示的适用范围也不一致，不能仅据本地文件确定有效总分。"
-      },
-      {
-        "field_path": "l3.score_units.S0.subdivision",
-        "reason_type": "human_review_needed",
-        "reason": "原文条件分的覆盖任务范围未给清楚；保留带行号的条件证据，不将其应用到推测的小问或任务。"
-      }
-    ],
-    "408-14-A-T43": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为8分，覆盖各要求的本地分项合计9分；不能据此选择、补齐或改写有效总分。"
-      }
-    ],
-    "408-14-A-T44": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为10分，覆盖各要求的本地分项合计12分；不能据此选择、补齐或改写有效总分。"
-      }
-    ],
-    "408-14-A-T45": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为7分，覆盖各要求的本地分项合计11分；不能据此选择、补齐或改写有效总分。"
-      }
-    ],
-    "408-14-A-T46": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为8分，覆盖各要求的本地分项合计6分；不能据此选择、补齐或改写有效总分。"
-      }
-    ],
-    "408-14-A-T47": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为9分，覆盖各要求的本地分项合计8分；不能据此选择、补齐或改写有效总分。"
-      }
-    ],
-    "408-16-A-T41": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为10分，覆盖各要求的明确分项合计9分；本地材料未说明应选哪个口径，有效总分留空。"
-      }
-    ],
-    "408-16-A-T44": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为10分，覆盖各要求的明确分项合计9分；本地材料未说明应选哪个口径，有效总分留空。"
-      }
-    ],
-    "408-16-A-T45": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为7分，覆盖各要求的明确分项合计14分；本地材料未说明应选哪个口径，有效总分留空。"
-      }
-    ],
-    "408-16-A-T46": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为8分，覆盖各要求的明确分项合计6分；本地材料未说明应选哪个口径，有效总分留空。"
-      }
-    ],
-    "408-17-A-T41": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为10分，完整明确分项合计15分；无法仅据本地文件认证有效总分。"
-      }
-    ],
-    "408-17-A-T42": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为15分，完整明确分项合计8分；无法仅据本地文件认证有效总分。"
-      }
-    ],
-    "408-17-A-T43": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "原分值元数据为8分，完整明确分项合计13分；无法仅据本地文件认证有效总分。"
-      }
-    ],
-    "408-26-A-T41": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "元数据和完整分项合计12分，题干另称满分13分；不擅自选择有效总分。"
-      }
-    ],
-    "408-26-A-T44": [
-      {
-        "field_path": "l3.score_units.S0.points",
-        "reason_type": "human_review_needed",
-        "reason": "元数据和完整分项合计9分，题干另称满分15分；不擅自选择有效总分。"
-      }
-    ]
-  },
-  "additional_human_required_label_types": {
-    "条件评分的适用范围": [
-      "408-13-A-T41"
-    ]
-  },
-  "additional_human_required_reasons": {
-    "408-13-A-T41": "原文条件分的覆盖任务范围未给清楚；保留带行号的条件证据，不将其应用到推测的小问或任务。"
-  },
   "clusters": [
     {
       "cluster_id": "CS408_2013_2026_ISO_B_TREE_MIN_KEYS",
-      "structural_invariant": "由根和非根结点的最小分支约束逐层求关键字下界；阶数高度改变，边数与关键字计数机制不变。",
       "question_ids": [
         "408-13-C-T10",
         "408-18-C-T08"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "由根和非根结点的最小分支约束逐层求关键字下界；阶数高度改变，边数与关键字计数机制不变。",
       "transfer_axis": [
         "408-13-C-T10：高度为二的五阶B树",
         "408-18-C-T08：给定阶数和高度"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_DISK_AVERAGE_ACCESS_TIME",
-      "structural_invariant": "平均访问由寻道、半圈旋转等待、数据发送与题给控制开销组成；给带宽或扇区数只是传输时间的两种输入。",
       "question_ids": [
         "408-13-C-T21",
         "408-15-C-T20"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "平均访问由寻道、半圈旋转等待、数据发送与题给控制开销组成；给带宽或扇区数只是传输时间的两种输入。",
       "transfer_axis": [
         "408-13-C-T21：给转速寻道带宽和控制器延迟",
         "408-15-C-T20：给每磁道扇区数而非带宽"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_SMTP_BASE_PROPERTIES",
-      "structural_invariant": "按基本SMTP在用户发送与服务器转发中的职责和原生编码限制核对同一协议的可用功能。",
       "question_ids": [
         "408-13-C-T40",
         "408-18-C-T40"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "按基本SMTP在用户发送与服务器转发中的职责和原生编码限制核对同一协议的可用功能。",
       "transfer_axis": [
         "408-13-C-T40：服务器间与用户代理邮件发送",
         "408-18-C-T40：基本协议与二进制附件"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_TOPOLOGICAL_ORDER_VALIDITY",
-      "structural_invariant": "按候选顶点序列逐点检查全部前驱已输出，或等价检查删除后入度为零。",
       "question_ids": [
         "408-14-C-T07",
         "408-18-C-T07"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "按候选顶点序列逐点检查全部前驱已输出，或等价检查删除后入度为零。",
       "transfer_axis": [
         "408-14-C-T07：有分支选择的有向图",
         "408-18-C-T07：多起点有向无环图"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_SHELL_GAP_INVARIANT",
-      "structural_invariant": "一趟希尔排序使相同增量分组的子序列有序，以此检验给定中间序列。",
       "question_ids": [
         "408-14-C-T10",
         "408-18-C-T10",
         "408-25-C-T11"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "一趟希尔排序使相同增量分组的子序列有序，以此检验给定中间序列。",
       "transfer_axis": [
         "408-14-C-T10：给出首趟排序结果",
         "408-18-C-T10：给出连续两趟结果",
         "408-25-C-T11：两次给出中间序列"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_CPU_TIME_RATIO",
-      "structural_invariant": "执行时间由指令数、平均CPI与频率共同决定；固定或调整其中因素后比较乘除比例。",
       "question_ids": [
         "408-14-C-T12",
         "408-17-C-T12"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "执行时间由指令数、平均CPI与频率共同决定；固定或调整其中因素后比较乘除比例。",
       "transfer_axis": [
         "408-14-C-T12：指令数减少而CPI增大",
         "408-17-C-T12：两台机器CPI和频率不同"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_SIGNED_UNSIGNED_REINTERPRET",
-      "structural_invariant": "相同位宽转换保留机器位串，再依目标类型改变最高位权及数值解释。",
       "question_ids": [
         "408-16-C-T13",
         "408-19-C-T13"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "相同位宽转换保留机器位串，再依目标类型改变最高位权及数值解释。",
       "transfer_axis": [
         "408-16-C-T13：short赋给等长unsigned short",
         "408-19-C-T13：给定16位短整数转换"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_DMA_TRANSFER_STAGES",
-      "structural_invariant": "驱动配置参数后由控制器申请并使用总线搬运，整块完成通过中断进入软件后处理。",
       "question_ids": [
         "408-17-C-T32",
         "408-19-C-T22"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "驱动配置参数后由控制器申请并使用总线搬运，整块完成通过中断进入软件后处理。",
       "transfer_axis": [
         "408-17-C-T32：磁盘到内存的一块数据",
         "408-19-C-T22：判断四阶段描述"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_FULL_BINARY_LEAF_NODE_COUNT",
-      "structural_invariant": "内部结点恰有两个孩子时，由树边数与度数关系联系叶数和总结点数，问法可正反转换。",
       "question_ids": [
         "408-18-C-T04",
         "408-19-C-T03"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "内部结点恰有两个孩子时，由树边数与度数关系联系叶数和总结点数，问法可正反转换。",
       "transfer_axis": [
         "408-18-C-T04：叶结点都在同一层",
         "408-19-C-T03：总结点数反求符号数"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_SUBTRACT_CF_OF",
-      "structural_invariant": "同一补码减法分别作无符号比较与有符号范围检查，借位和溢出各自独立判定。",
       "question_ids": [
         "408-18-C-T19",
         "408-23-C-T16"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "同一补码减法分别作无符号比较与有符号范围检查，借位和溢出各自独立判定。",
       "transfer_axis": [
         "408-18-C-T19：两个高位为一的机器数",
         "408-23-C-T16：题干先给标志约定示例"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_BANKER_SAFETY_TRACE",
-      "structural_invariant": "可用资源满足某进程剩余需求后假设完成并归还已分配资源，迭代至全完成或无法继续。",
       "question_ids": [
         "408-18-C-T26",
         "408-20-C-T27"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "可用资源满足某进程剩余需求后假设完成并归还已分配资源，迭代至全完成或无法继续。",
       "transfer_axis": [
         "408-18-C-T26：单类资源且一个进程未获分配",
         "408-20-C-T27：两类资源三进程"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_PROCESS_BLOCK_EVENTS",
-      "structural_invariant": "等待尚不具备的资源或事件才进入阻塞；仅让出处理机但仍可运行进入就绪。",
       "question_ids": [
         "408-18-C-T27",
         "408-22-C-T28"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "等待尚不具备的资源或事件才进入阻塞；仅让出处理机但仍可运行进入就绪。",
       "transfer_axis": [
         "408-18-C-T27：多种暂停运行原因",
         "408-22-C-T28：题问可能阻塞"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_PAGE_FAULT_RESTART",
-      "structural_invariant": "当前指令因缺页尚未完成，调页并更新映射后需重试该指令，与完成后的中断返回区分。",
       "question_ids": [
         "408-19-C-T14",
         "408-21-C-T21"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "当前指令因缺页尚未完成，调页并更新映射后需重试该指令，与完成后的中断返回区分。",
       "transfer_axis": [
         "408-19-C-T14：判断错误的恢复位置",
         "408-21-C-T21：并列系统调用和DMA完成"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_LRU_REPLACEMENT_TRACE",
-      "structural_invariant": "逐访问维护最近使用次序，满框时换出最久未用页；初始驻留情况决定哪些事件计为缺页或替换。",
       "question_ids": [
         "408-19-C-T29",
         "408-25-C-T26"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "逐访问维护最近使用次序，满框时换出最久未用页；初始驻留情况决定哪些事件计为缺页或替换。",
       "transfer_axis": [
         "408-19-C-T29：固定四页框且初始为空",
         "408-25-C-T26：三个页框预装初始页"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_PROCESSOR_IDEAL_CPI",
-      "structural_invariant": "按每条指令占用周期与稳定每周期完成指令数比较单周期多周期和单发射流水，流水结论限理想无停顿阶段。",
       "question_ids": [
         "408-20-C-T17",
         "408-26-C-T20"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "按每条指令占用周期与稳定每周期完成指令数比较单周期多周期和单发射流水，流水结论限理想无停顿阶段。",
       "transfer_axis": [
         "408-20-C-T17：忽略流水填充及冒险",
         "408-26-C-T20：源解析补充无冒险稳定阶段条件"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_INTERRUPT_HARDWARE_OS_SPLIT",
-      "structural_invariant": "将中断自动响应中的断点保存与内核程序的通用寄存器保护、向量初始化及具体服务区分。",
       "question_ids": [
         "408-20-C-T25",
         "408-26-C-T22"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "将中断自动响应中的断点保存与内核程序的通用寄存器保护、向量初始化及具体服务区分。",
       "transfer_axis": [
         "408-20-C-T25：原题中断体系的保存分工",
         "408-26-C-T22：题内响应阶段保存PC模型"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_PRIVILEGED_IO_TRAP",
-      "structural_invariant": "用户可执行请求内核服务的陷入入口，但不能直接执行题内受保护的设备或模式控制操作。",
       "question_ids": [
         "408-21-C-T23",
         "408-26-C-T21"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "用户可执行请求内核服务的陷入入口，但不能直接执行题内受保护的设备或模式控制操作。",
       "transfer_axis": [
         "408-21-C-T23：原题常规权限模型",
         "408-26-C-T21：原题通常权限模型"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_ISA_IMPLEMENTATION_BOUNDARY",
-      "structural_invariant": "软件可见指令和体系结构状态属于ISA，时钟电路与流水组织属于实现选择。",
       "question_ids": [
         "408-22-C-T18",
         "408-25-C-T16",
         "408-26-C-T16"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "软件可见指令和体系结构状态属于ISA，时钟电路与流水组织属于实现选择。",
       "transfer_axis": [
         "408-22-C-T18：四类体系结构事项",
         "408-25-C-T16：四种设计选择",
         "408-26-C-T16：题内虚存支持与实现细节比较"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_SHARED_PAGE_IDENTITY",
-      "structural_invariant": "共享同一数据的不同进程可使用不同虚拟页，但有效映射关联相同物理内容。",
       "question_ids": [
         "408-23-C-T30",
         "408-26-C-T30"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "共享同一数据的不同进程可使用不同虚拟页，但有效映射关联相同物理内容。",
       "transfer_axis": [
         "408-23-C-T30：两个进程共享同一数据页",
         "408-26-C-T30：题内明确共享映射而非私有写时复制"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     },
     {
       "cluster_id": "CS408_2013_2026_ISO_BINARY_EXPONENTIAL_BACKOFF_MAX",
-      "structural_invariant": "最大等待为截断后的二指数随机窗口上界乘时隙；碰撞次数变化只影响截断前的窗口指数。",
       "question_ids": [
         "408-23-C-T36",
         "408-25-C-T35"
       ],
+      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。",
+      "status": "verified",
+      "structural_invariant": "最大等待为截断后的二指数随机窗口上界乘时隙；碰撞次数变化只影响截断前的窗口指数。",
       "transfer_axis": [
         "408-23-C-T36：碰撞次数未达截断门限",
         "408-25-C-T35：碰撞次数超过指数增长门限"
-      ],
-      "status": "verified",
-      "scope": "仅比较本批658题的所述核心结构；不宣称全部小问一一对应，也不与旧批次或重复题混计。"
+      ]
     }
   ],
   "context_only_references": {
@@ -475,5 +347,16 @@
     "408-26-A-T44": [
       "408-26-A-T43"
     ]
-  }
+  },
+  "empty_policy": "空次知识点和软前置表示本题任务未确认额外项目；空备选表示本地解析未提供另一明确可行机制；空依赖表示未确认直接结果调用；同构null仅表示本批658题未确认可填写匹配，不推定库外没有。",
+  "extra_omissions": {},
+  "field_omissions": {},
+  "generated_at": "2026-09-08T14:33:47.053682+00:00",
+  "global_skips": [],
+  "main_overrides": {},
+  "out_of_scope_missing_source_note": "年份、题号、题源名称和本地定位已在L0保留；独立原始出处核验材料未提供，L0.source_reliability保持unknown，不推断原始资料可靠等级。这不是遗漏本轮L2/L3字段。",
+  "review_policy": "verified表示对应标签已经逐题依据本地语义核对，不表示人工签核、原始答案认证、学生实测或正式考频可用。静态难度可修订。源代码和图片笔误只登记对标签的影响，不复制解答。",
+  "score_policy": "完整明确且所有本地总分声明一致的分项才成为可累加评分单元；不完整时保留整题。部分分项、条件得分和正文满分另存证据且不再次累加。有冲突时有效总分为null，不改L0。条件规则超过有误元数据但未超过明确细则上界时仅作非生效证据保存。",
+  "source_scope": "核心真题/408中2013—2026年14份文件的658题；全部题干和本地解析逐题核对，162张引用图片均已本地渲染并查看。",
+  "version": "cs408-2013-2026-l23-review-v1.0.0"
 }

@@ -1,328 +1,327 @@
 {
-  "version": "cs408-local-scoring-plan-v1.0.0",
   "default_mode": "whole",
   "policy": "没有列出的题保留原总分；本文件仅收录有明确评分文字的题。规则是互斥条件或非加算说明，不与评分单元相加。局部分项不能与父级整题单元重复累计。",
   "questions": {
     "408-09-A-T41": {
       "mode": "partition",
-      "units": [
-        {
-          "points": 4,
-          "description": "策略正确性判断",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "main_knowledge",
-          "target": "main",
-          "anchor": {
-            "line": 1311,
-            "match": "（4 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 6,
-          "description": "反例或原理说明",
-          "step_refs": [
-            "2.1",
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1313,
-            "match": "（6 分）",
-            "occurrence": 1
-          }
-        }
-      ],
       "rules": [
         {
-          "kind": "conditional_zero",
-          "points": 0,
-          "condition": "策略正确性判断错误时，不以其证明过程补偿得分",
-          "tasks": [
-            1,
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1321,
             "match": "均不给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "策略正确性判断错误时，不以其证明过程补偿得分",
+          "kind": "conditional_zero",
+          "points": 0,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2
+          ]
         },
         {
-          "kind": "conditional_credit",
-          "points": 6,
-          "condition": "反例有效或明确体现局部与全局最优的区别",
-          "tasks": [
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1321,
             "match": "均可给 6 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "举例部分正确时原文要求酌情给分，无数值档位",
+          "application": "once",
+          "condition": "反例有效或明确体现局部与全局最优的区别",
+          "kind": "conditional_credit",
+          "points": 6,
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1321,
             "match": "可酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "举例部分正确时原文要求酌情给分，无数值档位",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            2
+          ]
+        }
+      ],
+      "units": [
+        {
+          "anchor": {
+            "line": 1311,
+            "match": "（4 分）",
+            "occurrence": 1
+          },
+          "category": "main_knowledge",
+          "description": "策略正确性判断",
+          "points": 4,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1313,
+            "match": "（6 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "反例或原理说明",
+          "points": 6,
+          "step_refs": [
+            "2.1",
+            "2.2"
+          ],
+          "target": "main"
         }
       ]
     },
     "408-09-A-T42": {
       "mode": "whole",
+      "notes": [
+        "重复出现的辅助数组10分条款去重；题外一般答题提示不作为保证评分规则。"
+      ],
       "rules": [
         {
-          "kind": "conditional_credit",
-          "points": 15,
-          "condition": "一趟扫描算法正确且满足题设约束",
-          "tasks": [
-            1,
-            2,
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1388,
             "match": "满分 15 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_cap",
-          "points": 10,
-          "condition": "两遍或多遍扫描才能得到正确结果",
+          "application": "once",
+          "condition": "一趟扫描算法正确且满足题设约束",
+          "kind": "conditional_credit",
+          "points": 15,
+          "scope_status": "verified",
           "tasks": [
             1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1388,
             "match": "最高给 10 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "两遍或多遍扫描才能得到正确结果",
           "kind": "conditional_cap",
           "points": 10,
-          "condition": "递归算法正确",
+          "scope_status": "verified",
           "tasks": [
             1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1388,
             "match": "若采用递归算法得到正确结果的",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "递归算法正确",
           "kind": "conditional_cap",
           "points": 10,
-          "condition": "使用大小与k相关的辅助数组且结果正确",
+          "scope_status": "verified",
           "tasks": [
             1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1388,
             "match": "大小与 k 有关的辅助数组",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "clarification",
-          "points": null,
-          "condition": "思想或步骤文字不清晰，但实现能够清楚显示正确机制时沿用前项标准",
+          "application": "once",
+          "condition": "使用大小与k相关的辅助数组且结果正确",
+          "kind": "conditional_cap",
+          "points": 10,
+          "scope_status": "verified",
           "tasks": [
             1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1390,
             "match": "能够清晰看出算法思想和步骤且正确",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
+          "application": "once",
+          "condition": "思想或步骤文字不清晰，但实现能够清楚显示正确机制时沿用前项标准",
+          "kind": "clarification",
           "points": null,
-          "condition": "思想步骤或实现部分正确，数值由阅卷裁量",
+          "scope_status": "verified",
           "tasks": [
             1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1392,
             "match": "可酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "思想步骤或实现部分正确，数值由阅卷裁量",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2,
+            3
+          ]
         }
-      ],
-      "notes": [
-        "重复出现的辅助数组10分条款去重；题外一般答题提示不作为保证评分规则。"
       ]
     },
     "408-09-A-T43": {
       "mode": "partition",
-      "units": [
-        {
-          "points": 2,
-          "description": "单次中断时钟成本",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1420,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "每秒中断频率",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1422,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "每秒中断总成本",
-          "step_refs": [
-            "1.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1424,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "中断CPU时间占比",
-          "step_refs": [
-            "1.4"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1426,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "每秒DMA传输频率",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1428,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "每秒DMA预后处理成本",
-          "step_refs": [
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1430,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "DMA的CPU时间占比",
-          "step_refs": [
-            "2.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1432,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        }
-      ],
       "rules": [
         {
-          "kind": "conditional_credit",
-          "points": 2,
-          "condition": "对应小问只有正确结果，没有过程",
-          "tasks": [
-            1,
-            2
-          ],
-          "application": "per_task",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1434,
             "match": "每个给 2 分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "per_task",
+          "condition": "对应小问只有正确结果，没有过程",
+          "kind": "conditional_credit",
+          "points": 2,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2
+          ]
+        }
+      ],
+      "units": [
+        {
+          "anchor": {
+            "line": 1420,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "单次中断时钟成本",
+          "points": 2,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1422,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "每秒中断频率",
+          "points": 1,
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1424,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "每秒中断总成本",
+          "points": 1,
+          "step_refs": [
+            "1.3"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1426,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "中断CPU时间占比",
+          "points": 1,
+          "step_refs": [
+            "1.4"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1428,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "每秒DMA传输频率",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1430,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "每秒DMA预后处理成本",
+          "points": 1,
+          "step_refs": [
+            "2.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1432,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "DMA的CPU时间占比",
+          "points": 1,
+          "step_refs": [
+            "2.3"
+          ],
+          "target": "main"
         }
       ]
     },
@@ -330,388 +329,389 @@
       "mode": "whole",
       "rules": [
         {
-          "kind": "conditional_zero",
-          "points": 0,
-          "condition": "转发字段问只泛列所有IP首部字段而没有针对性判断",
-          "tasks": [
-            4
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1861,
             "match": "不给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "该字段问的其他回答按原文酌情给分，无细分数值",
+          "application": "once",
+          "condition": "转发字段问只泛列所有IP首部字段而没有针对性判断",
+          "kind": "conditional_zero",
+          "points": 0,
+          "scope_status": "verified",
           "tasks": [
             4
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1861,
             "match": "其他情况",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "该字段问的其他回答按原文酌情给分，无细分数值",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            4
+          ]
         }
       ]
     },
     "408-12-A-T41": {
       "mode": "partition",
-      "units": [
-        {
-          "points": 5,
-          "description": "最佳归并过程",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "main_knowledge",
-          "target": "main",
-          "anchor": {
-            "line": 1525,
-            "match": "给 5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "与过程一致的最坏比较总成本",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1527,
-            "match": "给 2 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 3,
-          "description": "一般最优合并策略及理由",
-          "step_refs": [
-            "3.1",
-            "3.2"
-          ],
-          "category": "main_knowledge",
-          "target": "main",
-          "anchor": {
-            "line": 1529,
-            "match": "给 3 分",
-            "occurrence": 1
-          }
-        }
-      ],
       "rules": [
         {
-          "kind": "conditional_credit",
-          "points": 3,
-          "condition": "其他合并策略的过程描述正确，但不满足最佳归并要求",
-          "tasks": [
-            1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1525,
             "match": "给 3 分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "其他合并策略的过程描述正确，但不满足最佳归并要求",
+          "kind": "conditional_credit",
+          "points": 3,
+          "scope_status": "verified",
+          "tasks": [
+            1
+          ]
         },
         {
-          "kind": "conditional_credit",
-          "points": 1,
-          "condition": "比较次数计算过程正确而结果错误",
-          "tasks": [
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1527,
             "match": "可给 1 分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "比较次数计算过程正确而结果错误",
+          "kind": "conditional_credit",
+          "points": 1,
+          "scope_status": "verified",
+          "tasks": [
+            2
+          ]
         },
         {
-          "kind": "conditional_credit",
-          "points": 2,
-          "condition": "一般策略能够完成合并但未采用最优策略",
-          "tasks": [
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1529,
             "match": "给 2 分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "一般策略能够完成合并但未采用最优策略",
+          "kind": "conditional_credit",
+          "points": 2,
+          "scope_status": "verified",
+          "tasks": [
+            3
+          ]
+        }
+      ],
+      "units": [
+        {
+          "anchor": {
+            "line": 1525,
+            "match": "给 5 分",
+            "occurrence": 1
+          },
+          "category": "main_knowledge",
+          "description": "最佳归并过程",
+          "points": 5,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1527,
+            "match": "给 2 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "与过程一致的最坏比较总成本",
+          "points": 2,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1529,
+            "match": "给 3 分",
+            "occurrence": 1
+          },
+          "category": "main_knowledge",
+          "description": "一般最优合并策略及理由",
+          "points": 3,
+          "step_refs": [
+            "3.1",
+            "3.2"
+          ],
+          "target": "main"
         }
       ]
     },
     "408-12-A-T42": {
       "mode": "whole",
+      "notes": [
+        "原总分15分，算法正确且线性时间的评分说明给12分；说明未明确覆盖哪几个要求，也没有剩余分值细则。保留原总分与12/9分条件文字，不把12分当整题满分或推算剩余3分。"
+      ],
       "rules": [
         {
-          "kind": "conditional_credit",
-          "points": 12,
-          "condition": "算法实现正确且为线性时间；原文未明确该12分覆盖全部要求还是算法部分",
-          "tasks": [
-            1,
-            2,
-            3
-          ],
-          "application": "once",
-          "scope_status": "needs_review",
+          "additive": false,
           "anchor": {
             "line": 1617,
             "match": "可给 12分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_cap",
-          "points": 9,
-          "condition": "算法正确但超过线性时间；适用范围与前项相同，不能与整题15分另行相加",
+          "application": "once",
+          "condition": "算法实现正确且为线性时间；原文未明确该12分覆盖全部要求还是算法部分",
+          "kind": "conditional_credit",
+          "points": 12,
+          "scope_status": "verified",
           "tasks": [
             1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "needs_review",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1617,
             "match": "最高可给 9 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "clarification",
-          "points": null,
-          "condition": "文字不清晰但实现清楚且正确时沿用前项标准",
+          "application": "once",
+          "condition": "算法正确但超过线性时间；适用范围与前项相同，不能与整题15分另行相加",
+          "kind": "conditional_cap",
+          "points": 9,
+          "scope_status": "verified",
           "tasks": [
             1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "needs_review",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1619,
             "match": "可参照①的标准给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
+          "application": "once",
+          "condition": "文字不清晰但实现清楚且正确时沿用前项标准",
+          "kind": "clarification",
           "points": null,
-          "condition": "思想或实现部分正确时酌情给分，无固定数值",
+          "scope_status": "verified",
           "tasks": [
             1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "needs_review",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1621,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "思想或实现部分正确时酌情给分，无固定数值",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2,
+            3
+          ]
         }
-      ],
-      "notes": [
-        "原总分15分，算法正确且线性时间的评分说明给12分；说明未明确覆盖哪几个要求，也没有剩余分值细则。保留原总分与12/9分条件文字，不把12分当整题满分或推算剩余3分。"
       ]
     },
     "408-12-A-T43": {
-      "mode": "conflicting_total",
       "documented_units": [
         {
-          "points": 1,
-          "description": "CPU指令执行率",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1657,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "CPU指令执行率",
+          "points": 1,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "每秒Cache缺失频率",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1657,
             "match": "（1 分）",
             "occurrence": 2
-          }
+          },
+          "category": "method_operation",
+          "description": "每秒Cache缺失频率",
+          "points": 1,
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "主存最低带宽",
-          "step_refs": [
-            "1.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1657,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "主存最低带宽",
+          "points": 2,
+          "step_refs": [
+            "1.3"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "缺页率及DMA请求频率",
-          "step_refs": [
-            "2.1",
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1659,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "缺页率及DMA请求频率",
+          "points": 2,
+          "step_refs": [
+            "2.1",
+            "2.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "CPU与DMA总线优先级",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "DMA总线优先级",
           "anchor": {
             "line": 1661,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "CPU与DMA总线优先级",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "DMA总线优先级"
         },
         {
-          "points": 1,
-          "description": "优先级的时限理由",
-          "step_refs": [
-            "3.2"
-          ],
-          "category": "secondary_knowledge",
-          "target": "DMA总线优先级",
           "anchor": {
             "line": 1661,
             "match": "（1 分）",
             "occurrence": 2
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "优先级的时限理由",
+          "points": 1,
+          "step_refs": [
+            "3.2"
+          ],
+          "target": "DMA总线优先级"
         },
         {
-          "points": 2,
-          "description": "交叉存储持续带宽",
-          "step_refs": [
-            "4.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "多体交叉存储",
           "anchor": {
             "line": 1663,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "交叉存储持续带宽",
+          "points": 2,
+          "step_refs": [
+            "4.1"
+          ],
+          "target": "多体交叉存储"
         }
       ],
+      "mode": "whole",
       "notes": [
         "原始分值8分与局部七项10分冲突；以上只是原文分项证据，不作为已生效评分拆分。"
       ]
     },
     "408-12-A-T44": {
-      "mode": "whole",
       "documented_units": [
         {
-          "points": 2,
-          "description": "按指令语义移位",
-          "step_refs": [
-            "1.1",
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1705,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "按指令语义移位",
+          "points": 2,
+          "step_refs": [
+            "1.1",
+            "1.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "无阻塞流水周期",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1707,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "无阻塞流水周期",
+          "points": 2,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "译码段的相关阻塞",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1725,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "译码段的相关阻塞",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "后续取指段的连带阻塞",
-          "step_refs": [
-            "3.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1733,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "后续取指段的连带阻塞",
+          "points": 1,
+          "step_refs": [
+            "3.2"
+          ],
+          "target": "main"
         }
       ],
+      "mode": "whole",
       "notes": [
         "已知前面2加2加1加1分；第4问分值原文未给出，不用总分减已知分值推算。保留整题单元并在此记录已知细分证据，父子不可重复统计。"
       ]
     }
-  }
+  },
+  "version": "cs408-local-scoring-plan-v1.0.0"
 }

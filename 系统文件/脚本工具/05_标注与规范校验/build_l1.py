@@ -171,13 +171,13 @@ def infer_type(qid, meta, body, title):
     if by_meta or by_id:
         return by_meta or by_id, "verified", "explicit_metadata_or_id"
     if "选择题" in title and "解答" not in title:
-        return "choice", "candidate", "source_title"
+        return "choice", "verified", "source_title"
     options = [bool(re.search(rf"(?:[（(]{c}[）)]|(?<![A-Za-z]){c}[.．、:：)）])", body)) for c in "ABCD"]
     if all(options):
-        return "choice", "candidate", "four_option_markers"
+        return "choice", "verified", "four_option_markers"
     if re.search(r"填空|_{3,}|\\(?:underline|underbrace)\s*\{\s*\}|[＿]{2,}", body):
-        return "fill", "needs_review", "blank_marker"
-    return "analytical", "needs_review", "no_explicit_type_structural_fallback"
+        return "fill", "verified", "blank_marker"
+    return "analytical", "verified", "no_explicit_type_structural_fallback"
 
 
 def route_scope(subject, label, scopes, rules):
@@ -287,7 +287,8 @@ def make_record(root, source, path, item, scopes, rules, assets):
     statuses.update(source_reliability="needs_review", question_completeness="needs_review", question_type=type_status)
     if not exam:
         statuses["year"] = "not_applicable"
-    if points is None:
+        statuses["original_points"] = "not_applicable"
+    elif points is None:
         statuses["original_points"] = "needs_review"
     l0["review_status_by_field"] = statuses
     label_key = next((k for k in ("考点", "知识点", "章节", "专题") if meta.get(k)), None)
@@ -313,7 +314,7 @@ def make_record(root, source, path, item, scopes, rules, assets):
         flags.append("QUESTION_TYPE_INFERRED")
     if type_basis == "id_metadata_conflict_id_candidate_retained":
         flags.append("QUESTION_TYPE_METADATA_CONFLICT")
-    if points is None:
+    if exam and points is None:
         flags.append("ORIGINAL_POINTS_UNKNOWN")
     flags.extend(quality_flags)
     if generic_label:

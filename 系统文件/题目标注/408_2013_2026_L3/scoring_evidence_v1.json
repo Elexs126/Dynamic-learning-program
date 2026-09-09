@@ -16,7 +16,7 @@
             "line": 1480,
             "line_sha256": "f7e8d38abf9d261367496369be211a1c5f701342b85e614c90de20356002a81a",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -37,7 +37,7 @@
             "line": 1480,
             "line_sha256": "f7e8d38abf9d261367496369be211a1c5f701342b85e614c90de20356002a81a",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -58,7 +58,7 @@
             "line": 1481,
             "line_sha256": "47573c831fe21b7732430b532995b4ec693fcd13c0ba993d0dd0bc6f8dfa3856",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -79,7 +79,7 @@
             "line": 1481,
             "line_sha256": "47573c831fe21b7732430b532995b4ec693fcd13c0ba993d0dd0bc6f8dfa3856",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -100,7 +100,7 @@
             "line": 1482,
             "line_sha256": "8a43c450ad94cfa37bc7cde462c426661b9234883e24128856370ebaa88a8f00",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -121,7 +121,7 @@
             "line": 1482,
             "line_sha256": "8a43c450ad94cfa37bc7cde462c426661b9234883e24128856370ebaa88a8f00",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -142,7 +142,7 @@
             "line": 1484,
             "line_sha256": "9c23003409f6894cc46496b45bd3c140b3f1d01a98e2b6448f3f760231df3259",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -164,7 +164,7 @@
             "line": 1486,
             "line_sha256": "a2fae0325ec98b518d62baca263be65f32ec113c24f8d920a78e9c47c0ab4868",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -180,17 +180,21 @@
           "kind": "conditional_cap",
           "points": 9,
           "rule_id": "408-13-A-T41:R09",
-          "scope_status": "needs_review",
+          "scope_status": "verified",
           "source_anchor": {
             "fragment": "最高可拿 9 分",
             "line": 1498,
             "line_sha256": "0de93d5e4649ae7bfd72fc06ec8e64f3c4ef6b139f4d78fe33b679d76f71825b",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
-          "target_task_ids": []
+          "target_task_ids": [
+            "408-13-A-T41#T01",
+            "408-13-A-T41#T02",
+            "408-13-A-T41#T03"
+          ]
         }
       ],
       "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
@@ -206,13 +210,13 @@
           "description": "线性时间常数空间档的算法思想",
           "evidence_id": "408-13-A-T41:D01",
           "points": 4,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-13-A-T41:S1",
           "source_anchor": {
             "fragment": "| O(n) | O(1) | 4 | 7 |",
             "line": 1479,
             "line_sha256": "88e4ee621a6163685430558d9489b2c84f6b8ad79e18231acb95c6082fc752e5",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -234,13 +238,13 @@
           "description": "线性时间常数空间档的算法实现",
           "evidence_id": "408-13-A-T41:D02",
           "points": 7,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-13-A-T41:S2",
           "source_anchor": {
             "fragment": "| O(n) | O(1) | 4 | 7 |",
             "line": 1479,
             "line_sha256": "88e4ee621a6163685430558d9489b2c84f6b8ad79e18231acb95c6082fc752e5",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -264,13 +268,13 @@
           "description": "与实现一致的时间复杂度",
           "evidence_id": "408-13-A-T41:D03",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-13-A-T41:S3",
           "source_anchor": {
             "fragment": "各给 1 分",
             "line": 1496,
             "line_sha256": "6e59ba035c1e428e71bb578f9b6273858ea4161f4ea3be7a638a86d3b58ea241",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -292,13 +296,13 @@
           "description": "与实现一致的空间复杂度",
           "evidence_id": "408-13-A-T41:D04",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-13-A-T41:S4",
           "source_anchor": {
             "fragment": "各给 1 分",
             "line": 1496,
             "line_sha256": "6e59ba035c1e428e71bb578f9b6273858ea4161f4ea3be7a638a86d3b58ea241",
             "occurrence": 1,
-            "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+            "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
             "question_id": "408-13-A-T41",
             "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -310,17 +314,20 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 13,
       "effective_unit_ids": [
-        "408-13-A-T41:S0"
+        "408-13-A-T41:S1",
+        "408-13-A-T41:S2",
+        "408-13-A-T41:S3",
+        "408-13-A-T41:S4"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "元数据10分，最优档思想4分加实现7分加复杂度各1分为13分；两个总分口径冲突。排序9分建议的范围亦无法从文件确认。"
       ],
       "question_id": "408-13-A-T41",
-      "raw_total_points": 10
+      "raw_total_points": 13
     },
     {
       "conditional_rules": [
@@ -2467,7 +2474,7 @@
             "line": 1484,
             "line_sha256": "aee3f4f1df38c7b11aa37c90dcfd0889c72b05c1de4d52b5861522b2c26ffce6",
             "occurrence": 1,
-            "question_hash_sha256": "0ba0bc7cd198936b3c0aa39824976dcaa749f7d76d994956c217d2e4332c2100",
+            "question_hash_sha256": "047e6ad47863dceb1bcf05e030e4c466d3147b7688f740bcdeabd108eb9fdda8",
             "question_id": "408-14-A-T43",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2488,7 +2495,7 @@
             "line": 1490,
             "line_sha256": "3d342e59d04829990fa415e7d3acfd7e55d3132f381cfe833009d997832c0303",
             "occurrence": 1,
-            "question_hash_sha256": "0ba0bc7cd198936b3c0aa39824976dcaa749f7d76d994956c217d2e4332c2100",
+            "question_hash_sha256": "047e6ad47863dceb1bcf05e030e4c466d3147b7688f740bcdeabd108eb9fdda8",
             "question_id": "408-14-A-T43",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2510,13 +2517,13 @@
           "description": "直连路由项",
           "evidence_id": "408-14-A-T43:D01",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T43:S1",
           "source_anchor": {
             "fragment": "给 2 分",
             "line": 1483,
             "line_sha256": "474d78233caf6c2d455329bcfa2a7b2401120d186d9f7dc3c05bdec028946c82",
             "occurrence": 1,
-            "question_hash_sha256": "0ba0bc7cd198936b3c0aa39824976dcaa749f7d76d994956c217d2e4332c2100",
+            "question_hash_sha256": "047e6ad47863dceb1bcf05e030e4c466d3147b7688f740bcdeabd108eb9fdda8",
             "question_id": "408-14-A-T43",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2538,13 +2545,13 @@
           "description": "同向汇总路由项",
           "evidence_id": "408-14-A-T43:D02",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T43:S2",
           "source_anchor": {
             "fragment": "给 2 分",
             "line": 1483,
             "line_sha256": "474d78233caf6c2d455329bcfa2a7b2401120d186d9f7dc3c05bdec028946c82",
             "occurrence": 1,
-            "question_hash_sha256": "0ba0bc7cd198936b3c0aa39824976dcaa749f7d76d994956c217d2e4332c2100",
+            "question_hash_sha256": "047e6ad47863dceb1bcf05e030e4c466d3147b7688f740bcdeabd108eb9fdda8",
             "question_id": "408-14-A-T43",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2566,13 +2573,13 @@
           "description": "另一出口路由项",
           "evidence_id": "408-14-A-T43:D03",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T43:S3",
           "source_anchor": {
             "fragment": "给 2 分",
             "line": 1483,
             "line_sha256": "474d78233caf6c2d455329bcfa2a7b2401120d186d9f7dc3c05bdec028946c82",
             "occurrence": 1,
-            "question_hash_sha256": "0ba0bc7cd198936b3c0aa39824976dcaa749f7d76d994956c217d2e4332c2100",
+            "question_hash_sha256": "047e6ad47863dceb1bcf05e030e4c466d3147b7688f740bcdeabd108eb9fdda8",
             "question_id": "408-14-A-T43",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2594,13 +2601,13 @@
           "description": "转发接口",
           "evidence_id": "408-14-A-T43:D04",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T43:S4",
           "source_anchor": {
             "fragment": "（1分）",
             "line": 1486,
             "line_sha256": "e62e0db393d633da109a07bbcf6e9900a25f5432ffb44056deed085847c124e8",
             "occurrence": 1,
-            "question_hash_sha256": "0ba0bc7cd198936b3c0aa39824976dcaa749f7d76d994956c217d2e4332c2100",
+            "question_hash_sha256": "047e6ad47863dceb1bcf05e030e4c466d3147b7688f740bcdeabd108eb9fdda8",
             "question_id": "408-14-A-T43",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2622,13 +2629,13 @@
           "description": "经过路由器后的TTL",
           "evidence_id": "408-14-A-T43:D05",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T43:S5",
           "source_anchor": {
             "fragment": "（1分）",
             "line": 1486,
             "line_sha256": "e62e0db393d633da109a07bbcf6e9900a25f5432ffb44056deed085847c124e8",
             "occurrence": 2,
-            "question_hash_sha256": "0ba0bc7cd198936b3c0aa39824976dcaa749f7d76d994956c217d2e4332c2100",
+            "question_hash_sha256": "047e6ad47863dceb1bcf05e030e4c466d3147b7688f740bcdeabd108eb9fdda8",
             "question_id": "408-14-A-T43",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2650,13 +2657,13 @@
           "description": "新增默认网络及度量",
           "evidence_id": "408-14-A-T43:D06",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T43:S6",
           "source_anchor": {
             "fragment": "（1分）",
             "line": 1488,
             "line_sha256": "81d9768f9b9aa6a162d8f1eb6fe6e04ba544668c615b0bee7fbc7a4f88e52bef",
             "occurrence": 1,
-            "question_hash_sha256": "0ba0bc7cd198936b3c0aa39824976dcaa749f7d76d994956c217d2e4332c2100",
+            "question_hash_sha256": "047e6ad47863dceb1bcf05e030e4c466d3147b7688f740bcdeabd108eb9fdda8",
             "question_id": "408-14-A-T43",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2668,17 +2675,22 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 9,
       "effective_unit_ids": [
-        "408-14-A-T43:S0"
+        "408-14-A-T43:S1",
+        "408-14-A-T43:S2",
+        "408-14-A-T43:S3",
+        "408-14-A-T43:S4",
+        "408-14-A-T43:S5",
+        "408-14-A-T43:S6"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "原总分8分，完整分项合计9分；路由小问6分不与三个2分重复累加。"
       ],
       "question_id": "408-14-A-T43",
-      "raw_total_points": 8
+      "raw_total_points": 9
     },
     {
       "conditional_rules": [
@@ -2695,7 +2707,7 @@
             "line": 1548,
             "line_sha256": "7bdb1e0d5f66dc5505d5639b57b171ac04a9f0e84a3686caa56a73f1f674e5bb",
             "occurrence": 1,
-            "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+            "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
             "question_id": "408-14-A-T44",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2716,7 +2728,7 @@
             "line": 1548,
             "line_sha256": "7bdb1e0d5f66dc5505d5639b57b171ac04a9f0e84a3686caa56a73f1f674e5bb",
             "occurrence": 1,
-            "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+            "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
             "question_id": "408-14-A-T44",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2737,7 +2749,7 @@
             "line": 1548,
             "line_sha256": "7bdb1e0d5f66dc5505d5639b57b171ac04a9f0e84a3686caa56a73f1f674e5bb",
             "occurrence": 1,
-            "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+            "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
             "question_id": "408-14-A-T44",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2759,13 +2771,13 @@
           "description": "按指令地址判断编址单位",
           "evidence_id": "408-14-A-T44:D01",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T44:S1",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1539,
             "line_sha256": "249558db4da77e239264d6d210d5f12a2b5db70b3a69776622d4a0c8e4904f4e",
             "occurrence": 1,
-            "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+            "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
             "question_id": "408-14-A-T44",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2787,13 +2799,13 @@
           "description": "数组元素宽度",
           "evidence_id": "408-14-A-T44:D02",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T44:S2",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1540,
             "line_sha256": "4a42936e2c0482917a8afc19e742985d9ac0b7818f55fb76a9b04fa58e172cd4",
             "occurrence": 1,
-            "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+            "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
             "question_id": "408-14-A-T44",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2815,13 +2827,13 @@
           "description": "分支偏移字段",
           "evidence_id": "408-14-A-T44:D03",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T44:S3",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1541,
             "line_sha256": "6b902ecdb1624d5c06c138da32adb5d5b14e6745db4bbeaab3841af3271346cc",
             "occurrence": 1,
-            "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+            "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
             "question_id": "408-14-A-T44",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2843,13 +2855,13 @@
           "description": "偏移缩放单位",
           "evidence_id": "408-14-A-T44:D04",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T44:S4",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1541,
             "line_sha256": "6b902ecdb1624d5c06c138da32adb5d5b14e6745db4bbeaab3841af3271346cc",
             "occurrence": 2,
-            "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+            "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
             "question_id": "408-14-A-T44",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2871,13 +2883,13 @@
           "description": "相对转移目标关系",
           "evidence_id": "408-14-A-T44:D05",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T44:S5",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1541,
             "line_sha256": "6b902ecdb1624d5c06c138da32adb5d5b14e6745db4bbeaab3841af3271346cc",
             "occurrence": 3,
-            "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+            "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
             "question_id": "408-14-A-T44",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2899,13 +2911,13 @@
           "description": "导致流水停顿的数据相关",
           "evidence_id": "408-14-A-T44:D06",
           "points": 3,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T44:S6",
           "source_anchor": {
             "fragment": "（3 分）",
             "line": 1542,
             "line_sha256": "ce5109df122168c7e0da59386a2e4cefc5ed137ef12d80eb3f2320dc2cc70be0",
             "occurrence": 1,
-            "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+            "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
             "question_id": "408-14-A-T44",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2927,13 +2939,13 @@
           "description": "控制冒险定位",
           "evidence_id": "408-14-A-T44:D07",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T44:S7",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1544,
             "line_sha256": "641568f6bdb71cf059a1c42a65e15ec9a48100c2088fb97f859ae07e2df51709",
             "occurrence": 1,
-            "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+            "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
             "question_id": "408-14-A-T44",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2955,13 +2967,13 @@
           "description": "跨循环依赖不再增加停顿的理由",
           "evidence_id": "408-14-A-T44:D08",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T44:S8",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1546,
             "line_sha256": "21883457bcd4240d3ef3cf84d053d8595c2fdce1ac423eba252405abd08e8d9d",
             "occurrence": 1,
-            "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+            "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
             "question_id": "408-14-A-T44",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2973,17 +2985,24 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 12,
       "effective_unit_ids": [
-        "408-14-A-T44:S0"
+        "408-14-A-T44:S1",
+        "408-14-A-T44:S2",
+        "408-14-A-T44:S3",
+        "408-14-A-T44:S4",
+        "408-14-A-T44:S5",
+        "408-14-A-T44:S6",
+        "408-14-A-T44:S7",
+        "408-14-A-T44:S8"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "元数据10分，解析完整标分合计12分，保留双方证据；末条评分说明的问次编号按内容消歧。"
       ],
       "question_id": "408-14-A-T44",
-      "raw_total_points": 10
+      "raw_total_points": 12
     },
     {
       "conditional_rules": [
@@ -3000,7 +3019,7 @@
             "line": 1582,
             "line_sha256": "fb0cfa8531a155f4868809aa9d5a9a59292dd818c0e1d35d8d1f7afeaaf5970a",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3021,7 +3040,7 @@
             "line": 1582,
             "line_sha256": "fb0cfa8531a155f4868809aa9d5a9a59292dd818c0e1d35d8d1f7afeaaf5970a",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3042,7 +3061,7 @@
             "line": 1594,
             "line_sha256": "314fe8725aa2bded291d45f91782ed0a95f7a9e37f798d58590923c84ca67c3c",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3063,7 +3082,7 @@
             "line": 1594,
             "line_sha256": "314fe8725aa2bded291d45f91782ed0a95f7a9e37f798d58590923c84ca67c3c",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3084,7 +3103,7 @@
             "line": 1596,
             "line_sha256": "c358cb38f6c86ba6a2ac07ca054c6f7994fe2c04d0d19447f4cce3930d706a1c",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3105,7 +3124,7 @@
             "line": 1598,
             "line_sha256": "45fc13c16e1806a3e8decaae796501093004292ed9b92156f9d806e405d53238",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3126,7 +3145,7 @@
             "line": 1598,
             "line_sha256": "45fc13c16e1806a3e8decaae796501093004292ed9b92156f9d806e405d53238",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3147,7 +3166,7 @@
             "line": 1598,
             "line_sha256": "45fc13c16e1806a3e8decaae796501093004292ed9b92156f9d806e405d53238",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3169,13 +3188,13 @@
           "description": "循环终止寄存器状态",
           "evidence_id": "408-14-A-T45:D01",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T45:S1",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1576,
             "line_sha256": "ab68807f159483981b8169a5b0a76bd651731c4491253f0ab6c73787291c79b5",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3197,13 +3216,13 @@
           "description": "指令Cache数据容量",
           "evidence_id": "408-14-A-T45:D02",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T45:S2",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1578,
             "line_sha256": "c794e0787eb8c556fb57a11306bf112140df84832d19f0faf37b49f2234c2b54",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3225,13 +3244,13 @@
           "description": "指令Cache命中率及依据",
           "evidence_id": "408-14-A-T45:D03",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T45:S3",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1580,
             "line_sha256": "ce79f2dbb1927d109d65bcebb738106a8db9b03a76897b3cebd3eb7e7474d96c",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3253,13 +3272,13 @@
           "description": "溢出异常定位",
           "evidence_id": "408-14-A-T45:D04",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T45:S4",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1584,
             "line_sha256": "ab300f968d5ea69cd6062fedeafb6092ad710ee020858d56ab6c56070df60c0f",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3281,13 +3300,13 @@
           "description": "缺页异常定位",
           "evidence_id": "408-14-A-T45:D05",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T45:S5",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1586,
             "line_sha256": "b93792005bb0cab2c96006a5988091ad5d00c250f62e6d2d93af7f520c83628a",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3309,13 +3328,13 @@
           "description": "磁盘调入次数",
           "evidence_id": "408-14-A-T45:D06",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T45:S6",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1588,
             "line_sha256": "25101bd4a33b865cd7e13c688642ebc61d4a02467ab1bc5a8657893caa9eef12",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3337,13 +3356,13 @@
           "description": "TLB访问次数",
           "evidence_id": "408-14-A-T45:D07",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T45:S7",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1590,
             "line_sha256": "3ccdc1303aa15f5c084060b19b6e12b31aaae7b9f0cc927e7a73d43c233ef3cd",
             "occurrence": 1,
-            "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+            "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
             "question_id": "408-14-A-T45",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3355,17 +3374,23 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 11,
       "effective_unit_ids": [
-        "408-14-A-T45:S0"
+        "408-14-A-T45:S1",
+        "408-14-A-T45:S2",
+        "408-14-A-T45:S3",
+        "408-14-A-T45:S4",
+        "408-14-A-T45:S5",
+        "408-14-A-T45:S6",
+        "408-14-A-T45:S7"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "元数据7分，解析完整分项11分，评分总分待核对；条件给分只作用于说明中的对应步骤，不是对整道题追加给分。"
       ],
       "question_id": "408-14-A-T45",
-      "raw_total_points": 7
+      "raw_total_points": 11
     },
     {
       "conditional_rules": [
@@ -3382,7 +3407,7 @@
             "line": 1636,
             "line_sha256": "69a0efca2bbf4be4adf001ffc3a8cf47ce60d9609419314c3843dadbe76a3545",
             "occurrence": 1,
-            "question_hash_sha256": "79a958d2f4167137f9a5c3c0ad0bf3c413495a568327176067127a1a2e71d316",
+            "question_hash_sha256": "4aac071d732f0745dacb157db061db4ead0d449ad136a2ec570392b1d6d2d6fb",
             "question_id": "408-14-A-T46",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3403,7 +3428,7 @@
             "line": 1638,
             "line_sha256": "d19e591ecd150995361e3914ebb5d191430c1a3ef6934f394ab5b47253ef33ee",
             "occurrence": 1,
-            "question_hash_sha256": "79a958d2f4167137f9a5c3c0ad0bf3c413495a568327176067127a1a2e71d316",
+            "question_hash_sha256": "4aac071d732f0745dacb157db061db4ead0d449ad136a2ec570392b1d6d2d6fb",
             "question_id": "408-14-A-T46",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3425,13 +3450,13 @@
           "description": "连续分配最少磁盘访问",
           "evidence_id": "408-14-A-T46:D01",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T46:S1",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1626,
             "line_sha256": "a8c24c56bac2e13f1d48dcd950e395012359ff9d8dee25b1498a6d06d8f8efe9",
             "occurrence": 1,
-            "question_hash_sha256": "79a958d2f4167137f9a5c3c0ad0bf3c413495a568327176067127a1a2e71d316",
+            "question_hash_sha256": "4aac071d732f0745dacb157db061db4ead0d449ad136a2ec570392b1d6d2d6fb",
             "question_id": "408-14-A-T46",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3453,13 +3478,13 @@
           "description": "FCB更新信息",
           "evidence_id": "408-14-A-T46:D02",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T46:S2",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1628,
             "line_sha256": "e992129909ab03924d1648b56c9908aa305c19b965db37636ce2d04da514706d",
             "occurrence": 1,
-            "question_hash_sha256": "79a958d2f4167137f9a5c3c0ad0bf3c413495a568327176067127a1a2e71d316",
+            "question_hash_sha256": "4aac071d732f0745dacb157db061db4ead0d449ad136a2ec570392b1d6d2d6fb",
             "question_id": "408-14-A-T46",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3481,13 +3506,13 @@
           "description": "链接更新过程",
           "evidence_id": "408-14-A-T46:D03",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T46:S3",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1630,
             "line_sha256": "6067f74a5559971dcb98355659cf6574c063859cb87914409b9a836233a8c011",
             "occurrence": 1,
-            "question_hash_sha256": "79a958d2f4167137f9a5c3c0ad0bf3c413495a568327176067127a1a2e71d316",
+            "question_hash_sha256": "4aac071d732f0745dacb157db061db4ead0d449ad136a2ec570392b1d6d2d6fb",
             "question_id": "408-14-A-T46",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3509,13 +3534,13 @@
           "description": "链接分配磁盘访问总数",
           "evidence_id": "408-14-A-T46:D04",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T46:S4",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1630,
             "line_sha256": "6067f74a5559971dcb98355659cf6574c063859cb87914409b9a836233a8c011",
             "occurrence": 2,
-            "question_hash_sha256": "79a958d2f4167137f9a5c3c0ad0bf3c413495a568327176067127a1a2e71d316",
+            "question_hash_sha256": "4aac071d732f0745dacb157db061db4ead0d449ad136a2ec570392b1d6d2d6fb",
             "question_id": "408-14-A-T46",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3537,13 +3562,13 @@
           "description": "扣除链接字段后的最大文件载荷",
           "evidence_id": "408-14-A-T46:D05",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-14-A-T46:S5",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1632,
             "line_sha256": "39bf49a5efa48eebeab9de1ed054234afec01f05acbd6d72dee542f86c84a44e",
             "occurrence": 1,
-            "question_hash_sha256": "79a958d2f4167137f9a5c3c0ad0bf3c413495a568327176067127a1a2e71d316",
+            "question_hash_sha256": "4aac071d732f0745dacb157db061db4ead0d449ad136a2ec570392b1d6d2d6fb",
             "question_id": "408-14-A-T46",
             "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -3555,17 +3580,21 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 6,
       "effective_unit_ids": [
-        "408-14-A-T46:S0"
+        "408-14-A-T46:S1",
+        "408-14-A-T46:S2",
+        "408-14-A-T46:S3",
+        "408-14-A-T46:S4",
+        "408-14-A-T46:S5"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "元数据8分，而覆盖各要求的明确分项只合计6分；不能把差额自由分配。"
       ],
       "question_id": "408-14-A-T46",
-      "raw_total_points": 8
+      "raw_total_points": 6
     },
     {
       "conditional_rules": [
@@ -3782,12 +3811,12 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 9,
       "effective_unit_ids": [
         "408-14-A-T47:S0"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "whole",
       "notes": [
         "元数据9分，明确评分项合计8分，不能自动补1分；正文空满初值与代码不同，标签依据初始为空和代码一致部分。"
       ],
@@ -5334,13 +5363,13 @@
           "description": "第二次握手SYN标志",
           "evidence_id": "408-16-A-T41:D01",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T41:S1",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1641,
             "line_sha256": "6e3b1b8b2e816841f0eff5f96914d2970623597db783df3f7d711e55802949ff",
             "occurrence": 1,
-            "question_hash_sha256": "4f0678226ea08efdcd29c8dc35ae296db21a9ae779193eb9f87a7322884b81f3",
+            "question_hash_sha256": "0766cb8b702877206380cc168cc78ba011a88e9b2535ff71d84321436d30540e",
             "question_id": "408-16-A-T41",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5362,13 +5391,13 @@
           "description": "第二次握手ACK标志",
           "evidence_id": "408-16-A-T41:D02",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T41:S2",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1641,
             "line_sha256": "6e3b1b8b2e816841f0eff5f96914d2970623597db783df3f7d711e55802949ff",
             "occurrence": 2,
-            "question_hash_sha256": "4f0678226ea08efdcd29c8dc35ae296db21a9ae779193eb9f87a7322884b81f3",
+            "question_hash_sha256": "0766cb8b702877206380cc168cc78ba011a88e9b2535ff71d84321436d30540e",
             "question_id": "408-16-A-T41",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5390,13 +5419,13 @@
           "description": "握手确认序号",
           "evidence_id": "408-16-A-T41:D03",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T41:S3",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1641,
             "line_sha256": "6e3b1b8b2e816841f0eff5f96914d2970623597db783df3f7d711e55802949ff",
             "occurrence": 3,
-            "question_hash_sha256": "4f0678226ea08efdcd29c8dc35ae296db21a9ae779193eb9f87a7322884b81f3",
+            "question_hash_sha256": "0766cb8b702877206380cc168cc78ba011a88e9b2535ff71d84321436d30540e",
             "question_id": "408-16-A-T41",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5418,13 +5447,13 @@
           "description": "通告接收窗口",
           "evidence_id": "408-16-A-T41:D04",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T41:S4",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1643,
             "line_sha256": "2029f08de71621c3c5a1d9d6ff22090a1c0208c8ca3710d42eb0ab42b708ef9b",
             "occurrence": 1,
-            "question_hash_sha256": "4f0678226ea08efdcd29c8dc35ae296db21a9ae779193eb9f87a7322884b81f3",
+            "question_hash_sha256": "0766cb8b702877206380cc168cc78ba011a88e9b2535ff71d84321436d30540e",
             "question_id": "408-16-A-T41",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5446,13 +5475,13 @@
           "description": "拥塞窗口",
           "evidence_id": "408-16-A-T41:D05",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T41:S5",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1643,
             "line_sha256": "2029f08de71621c3c5a1d9d6ff22090a1c0208c8ca3710d42eb0ab42b708ef9b",
             "occurrence": 2,
-            "question_hash_sha256": "4f0678226ea08efdcd29c8dc35ae296db21a9ae779193eb9f87a7322884b81f3",
+            "question_hash_sha256": "0766cb8b702877206380cc168cc78ba011a88e9b2535ff71d84321436d30540e",
             "question_id": "408-16-A-T41",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5474,13 +5503,13 @@
           "description": "发送窗口",
           "evidence_id": "408-16-A-T41:D06",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T41:S6",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1643,
             "line_sha256": "2029f08de71621c3c5a1d9d6ff22090a1c0208c8ca3710d42eb0ab42b708ef9b",
             "occurrence": 3,
-            "question_hash_sha256": "4f0678226ea08efdcd29c8dc35ae296db21a9ae779193eb9f87a7322884b81f3",
+            "question_hash_sha256": "0766cb8b702877206380cc168cc78ba011a88e9b2535ff71d84321436d30540e",
             "question_id": "408-16-A-T41",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5502,13 +5531,13 @@
           "description": "下一待发送数据序号",
           "evidence_id": "408-16-A-T41:D07",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T41:S7",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1645,
             "line_sha256": "7aee87c831e845e0c7c304d6002cb24e41d831948842b38487a40a77bc814034",
             "occurrence": 1,
-            "question_hash_sha256": "4f0678226ea08efdcd29c8dc35ae296db21a9ae779193eb9f87a7322884b81f3",
+            "question_hash_sha256": "0766cb8b702877206380cc168cc78ba011a88e9b2535ff71d84321436d30540e",
             "question_id": "408-16-A-T41",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5530,13 +5559,13 @@
           "description": "平均数据传输速率",
           "evidence_id": "408-16-A-T41:D08",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T41:S8",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1645,
             "line_sha256": "7aee87c831e845e0c7c304d6002cb24e41d831948842b38487a40a77bc814034",
             "occurrence": 2,
-            "question_hash_sha256": "4f0678226ea08efdcd29c8dc35ae296db21a9ae779193eb9f87a7322884b81f3",
+            "question_hash_sha256": "0766cb8b702877206380cc168cc78ba011a88e9b2535ff71d84321436d30540e",
             "question_id": "408-16-A-T41",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5558,13 +5587,13 @@
           "description": "被动方最早释放时刻",
           "evidence_id": "408-16-A-T41:D09",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T41:S9",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1647,
             "line_sha256": "aa2cd83c75294c981ca50cd710309faacace50d51cbd5a782013a3f2e7126023",
             "occurrence": 1,
-            "question_hash_sha256": "4f0678226ea08efdcd29c8dc35ae296db21a9ae779193eb9f87a7322884b81f3",
+            "question_hash_sha256": "0766cb8b702877206380cc168cc78ba011a88e9b2535ff71d84321436d30540e",
             "question_id": "408-16-A-T41",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5576,17 +5605,25 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 9,
       "effective_unit_ids": [
-        "408-16-A-T41:S0"
+        "408-16-A-T41:S1",
+        "408-16-A-T41:S2",
+        "408-16-A-T41:S3",
+        "408-16-A-T41:S4",
+        "408-16-A-T41:S5",
+        "408-16-A-T41:S6",
+        "408-16-A-T41:S7",
+        "408-16-A-T41:S8",
+        "408-16-A-T41:S9"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "原总分10分，九个明确评分项合计9分；速率单位的字节比特转换错误未复制到标签。"
       ],
       "question_id": "408-16-A-T41",
-      "raw_total_points": 10
+      "raw_total_points": 9
     },
     {
       "conditional_rules": [
@@ -5718,7 +5755,7 @@
             "line": 1967,
             "line_sha256": "fc6361a6b53e24d3db4ae9146d33c950a8875bc0cef4903e73f67f671f4ad3fe",
             "occurrence": 1,
-            "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+            "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
             "question_id": "408-16-A-T44",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5739,7 +5776,7 @@
             "line": 1977,
             "line_sha256": "d02032c88dca0d61ceee0ef309530ef873612b2a525c481d876576a645d73079",
             "occurrence": 1,
-            "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+            "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
             "question_id": "408-16-A-T44",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5760,7 +5797,7 @@
             "line": 1977,
             "line_sha256": "d02032c88dca0d61ceee0ef309530ef873612b2a525c481d876576a645d73079",
             "occurrence": 1,
-            "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+            "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
             "question_id": "408-16-A-T44",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5781,7 +5818,7 @@
             "line": 1977,
             "line_sha256": "d02032c88dca0d61ceee0ef309530ef873612b2a525c481d876576a645d73079",
             "occurrence": 1,
-            "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+            "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
             "question_id": "408-16-A-T44",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5802,7 +5839,7 @@
             "line": 1979,
             "line_sha256": "abc6abb129d016cdce392f6469b1f0f52ff1d4ad280d556eef20aefcf3a131ac",
             "occurrence": 1,
-            "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+            "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
             "question_id": "408-16-A-T44",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5823,7 +5860,7 @@
             "line": 1979,
             "line_sha256": "abc6abb129d016cdce392f6469b1f0f52ff1d4ad280d556eef20aefcf3a131ac",
             "occurrence": 1,
-            "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+            "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
             "question_id": "408-16-A-T44",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5845,13 +5882,13 @@
           "description": "异步字符的总位数",
           "evidence_id": "408-16-A-T44:D01",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T44:S1",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1965,
             "line_sha256": "aa9b0cb18e0a166adcafdd02b74665c87b8e001504a0940eee939de95826ca4f",
             "occurrence": 1,
-            "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+            "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
             "question_id": "408-16-A-T44",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5873,13 +5910,13 @@
           "description": "最大字符输入频率",
           "evidence_id": "408-16-A-T44:D02",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T44:S2",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1965,
             "line_sha256": "aa9b0cb18e0a166adcafdd02b74665c87b8e001504a0940eee939de95826ca4f",
             "occurrence": 1,
-            "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+            "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
             "question_id": "408-16-A-T44",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5901,13 +5938,13 @@
           "description": "字符接收任务总耗时",
           "evidence_id": "408-16-A-T44:D03",
           "points": 3,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T44:S3",
           "source_anchor": {
             "fragment": "（3 分）",
             "line": 1969,
             "line_sha256": "3f184f27d7f9bee0daa73480439dd543d360f69fdb847205f5d6ae62abd290ed",
             "occurrence": 1,
-            "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+            "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
             "question_id": "408-16-A-T44",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5929,13 +5966,13 @@
           "description": "CPU自身响应和服务耗时",
           "evidence_id": "408-16-A-T44:D04",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T44:S4",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1971,
             "line_sha256": "b3bceceacf52677ca3ba47e606f2a5b480b52ed36cb6dbd69ed584df2fa93aef",
             "occurrence": 1,
-            "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+            "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
             "question_id": "408-16-A-T44",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5957,13 +5994,13 @@
           "description": "中断响应硬件操作",
           "evidence_id": "408-16-A-T44:D05",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T44:S5",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1973,
             "line_sha256": "8f27dabdf662a58af41e0e55d42064fb8bb58a4d4e0a8385b96562b89332c513",
             "occurrence": 1,
-            "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+            "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
             "question_id": "408-16-A-T44",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -5975,17 +6012,21 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 9,
       "effective_unit_ids": [
-        "408-16-A-T44:S0"
+        "408-16-A-T44:S1",
+        "408-16-A-T44:S2",
+        "408-16-A-T44:S3",
+        "408-16-A-T44:S4",
+        "408-16-A-T44:S5"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "元数据10分与五项评分9分不一致；条件规则不与主评分单元加算。"
       ],
       "question_id": "408-16-A-T44",
-      "raw_total_points": 10
+      "raw_total_points": 9
     },
     {
       "conditional_rules": [
@@ -6002,7 +6043,7 @@
             "line": 2024,
             "line_sha256": "352e42088cffb671be2b226b1a98cc3a35c898534ef36b818764d52cbab556e1",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6024,13 +6065,13 @@
           "description": "地址字段A位宽",
           "evidence_id": "408-16-A-T45:D01",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S1",
           "source_anchor": {
             "fragment": "各 1 分",
             "line": 2016,
             "line_sha256": "f6968f157d5aa1786b4cbe9e744045e16d556ee54bd8b082cccbbf952784c865",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6052,13 +6093,13 @@
           "description": "地址字段B位宽",
           "evidence_id": "408-16-A-T45:D02",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S2",
           "source_anchor": {
             "fragment": "各 1 分",
             "line": 2016,
             "line_sha256": "f6968f157d5aa1786b4cbe9e744045e16d556ee54bd8b082cccbbf952784c865",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6080,13 +6121,13 @@
           "description": "地址字段C位宽",
           "evidence_id": "408-16-A-T45:D03",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S3",
           "source_anchor": {
             "fragment": "各 1 分",
             "line": 2016,
             "line_sha256": "f6968f157d5aa1786b4cbe9e744045e16d556ee54bd8b082cccbbf952784c865",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6108,13 +6149,13 @@
           "description": "地址字段D位宽",
           "evidence_id": "408-16-A-T45:D04",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S4",
           "source_anchor": {
             "fragment": "各 1 分",
             "line": 2016,
             "line_sha256": "f6968f157d5aa1786b4cbe9e744045e16d556ee54bd8b082cccbbf952784c865",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6136,13 +6177,13 @@
           "description": "地址字段E位宽",
           "evidence_id": "408-16-A-T45:D05",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S5",
           "source_anchor": {
             "fragment": "各 1 分",
             "line": 2016,
             "line_sha256": "f6968f157d5aa1786b4cbe9e744045e16d556ee54bd8b082cccbbf952784c865",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6164,13 +6205,13 @@
           "description": "地址字段F位宽",
           "evidence_id": "408-16-A-T45:D06",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S6",
           "source_anchor": {
             "fragment": "各 1 分",
             "line": 2016,
             "line_sha256": "f6968f157d5aa1786b4cbe9e744045e16d556ee54bd8b082cccbbf952784c865",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6192,13 +6233,13 @@
           "description": "地址字段G位宽",
           "evidence_id": "408-16-A-T45:D07",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S7",
           "source_anchor": {
             "fragment": "各 1 分",
             "line": 2016,
             "line_sha256": "f6968f157d5aa1786b4cbe9e744045e16d556ee54bd8b082cccbbf952784c865",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6220,13 +6261,13 @@
           "description": "TLB标记语义",
           "evidence_id": "408-16-A-T45:D08",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S8",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 2018,
             "line_sha256": "07339b5bd3516052eba4c7fa8ef80cd98e04bd8cff38c2b77ebe29730aa7925b",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6248,13 +6289,13 @@
           "description": "Cache组号",
           "evidence_id": "408-16-A-T45:D09",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S9",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 2020,
             "line_sha256": "d359b6c65f46185f631194a923d9c3cf62a5a2ca86683cc01c1ac197c94e4f4d",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6276,13 +6317,13 @@
           "description": "Cache标记内容",
           "evidence_id": "408-16-A-T45:D10",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S10",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 2020,
             "line_sha256": "d359b6c65f46185f631194a923d9c3cf62a5a2ca86683cc01c1ac197c94e4f4d",
             "occurrence": 2,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6304,13 +6345,13 @@
           "description": "两类缺失处理的代价比较",
           "evidence_id": "408-16-A-T45:D11",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S11",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 2022,
             "line_sha256": "21824318906bca8ebb1123c4f50ac726be132f62c279b5f9960b0c5842967a28",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6332,13 +6373,13 @@
           "description": "代价差异原因",
           "evidence_id": "408-16-A-T45:D12",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S12",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 2022,
             "line_sha256": "21824318906bca8ebb1123c4f50ac726be132f62c279b5f9960b0c5842967a28",
             "occurrence": 2,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6360,13 +6401,13 @@
           "description": "层级写入策略的原因",
           "evidence_id": "408-16-A-T45:D13",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T45:S13",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 2026,
             "line_sha256": "82db981118357fff54c424db48c6c1f94a38b4430893f900b09f5a1a6c9749ce",
             "occurrence": 1,
-            "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+            "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
             "question_id": "408-16-A-T45",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6378,17 +6419,29 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 14,
       "effective_unit_ids": [
-        "408-16-A-T45:S0"
+        "408-16-A-T45:S1",
+        "408-16-A-T45:S2",
+        "408-16-A-T45:S3",
+        "408-16-A-T45:S4",
+        "408-16-A-T45:S5",
+        "408-16-A-T45:S6",
+        "408-16-A-T45:S7",
+        "408-16-A-T45:S8",
+        "408-16-A-T45:S9",
+        "408-16-A-T45:S10",
+        "408-16-A-T45:S11",
+        "408-16-A-T45:S12",
+        "408-16-A-T45:S13"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "元数据7分；七个地址字段各1分，再加标记意义和其他小问，完整分项合计14分。字段总括7分不能与七个1分重复计算。"
       ],
       "question_id": "408-16-A-T45",
-      "raw_total_points": 7
+      "raw_total_points": 14
     },
     {
       "conditional_rules": [
@@ -6405,7 +6458,7 @@
             "line": 2061,
             "line_sha256": "fac27bfac05754795a0c0ac9ba8b426d39c493ff1e0c066a5abdf72bc951bf1c",
             "occurrence": 1,
-            "question_hash_sha256": "dcac82268ebe2f4efef58e81fa2cdab4cb722758d0823a5988286be97995335f",
+            "question_hash_sha256": "e55325eb66de2238e2e02919bbb139e88eca7648dc8e7324d7f2b9fc0f803427",
             "question_id": "408-16-A-T46",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6426,7 +6479,7 @@
             "line": 2063,
             "line_sha256": "f0afe00af97b4815264735815925d4e830793b326f06502aebe1173db1e27bfb",
             "occurrence": 1,
-            "question_hash_sha256": "dcac82268ebe2f4efef58e81fa2cdab4cb722758d0823a5988286be97995335f",
+            "question_hash_sha256": "e55325eb66de2238e2e02919bbb139e88eca7648dc8e7324d7f2b9fc0f803427",
             "question_id": "408-16-A-T46",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6448,13 +6501,13 @@
           "description": "静态优先数的饥饿原因",
           "evidence_id": "408-16-A-T46:D01",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T46:S1",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 2054,
             "line_sha256": "00c71c4b71e56168be6d24ff9fcf0c5ca1c2a50ba51642a484a0ea13ae5cca9c",
             "occurrence": 1,
-            "question_hash_sha256": "dcac82268ebe2f4efef58e81fa2cdab4cb722758d0823a5988286be97995335f",
+            "question_hash_sha256": "e55325eb66de2238e2e02919bbb139e88eca7648dc8e7324d7f2b9fc0f803427",
             "question_id": "408-16-A-T46",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6476,13 +6529,13 @@
           "description": "保留静态优先数基线",
           "evidence_id": "408-16-A-T46:D02",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T46:S2",
           "source_anchor": {
             "fragment": "包含 nice 给 1 分",
             "line": 2060,
             "line_sha256": "ae6b7fcca0efd65215b7ee45ab5e2a18114e6e6f7be9e3ac15d996531b0cd8fb",
             "occurrence": 1,
-            "question_hash_sha256": "dcac82268ebe2f4efef58e81fa2cdab4cb722758d0823a5988286be97995335f",
+            "question_hash_sha256": "e55325eb66de2238e2e02919bbb139e88eca7648dc8e7324d7f2b9fc0f803427",
             "question_id": "408-16-A-T46",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6504,13 +6557,13 @@
           "description": "运行时间惩罚方向",
           "evidence_id": "408-16-A-T46:D03",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T46:S3",
           "source_anchor": {
             "fragment": "增大优先数给 1 分",
             "line": 2060,
             "line_sha256": "ae6b7fcca0efd65215b7ee45ab5e2a18114e6e6f7be9e3ac15d996531b0cd8fb",
             "occurrence": 1,
-            "question_hash_sha256": "dcac82268ebe2f4efef58e81fa2cdab4cb722758d0823a5988286be97995335f",
+            "question_hash_sha256": "e55325eb66de2238e2e02919bbb139e88eca7648dc8e7324d7f2b9fc0f803427",
             "question_id": "408-16-A-T46",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6532,13 +6585,13 @@
           "description": "等待时间补偿方向",
           "evidence_id": "408-16-A-T46:D04",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T46:S4",
           "source_anchor": {
             "fragment": "给 1 分",
             "line": 2061,
             "line_sha256": "fac27bfac05754795a0c0ac9ba8b426d39c493ff1e0c066a5abdf72bc951bf1c",
             "occurrence": 1,
-            "question_hash_sha256": "dcac82268ebe2f4efef58e81fa2cdab4cb722758d0823a5988286be97995335f",
+            "question_hash_sha256": "e55325eb66de2238e2e02919bbb139e88eca7648dc8e7324d7f2b9fc0f803427",
             "question_id": "408-16-A-T46",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6560,13 +6613,13 @@
           "description": "等待补偿的作用解释",
           "evidence_id": "408-16-A-T46:D05",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-16-A-T46:S5",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 2056,
             "line_sha256": "e04ce9dde0c32e101c046fcbf24aba9823da8de3a2eecee2f571e55405221e24",
             "occurrence": 1,
-            "question_hash_sha256": "dcac82268ebe2f4efef58e81fa2cdab4cb722758d0823a5988286be97995335f",
+            "question_hash_sha256": "e55325eb66de2238e2e02919bbb139e88eca7648dc8e7324d7f2b9fc0f803427",
             "question_id": "408-16-A-T46",
             "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -6578,17 +6631,21 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 6,
       "effective_unit_ids": [
-        "408-16-A-T46:S0"
+        "408-16-A-T46:S1",
+        "408-16-A-T46:S2",
+        "408-16-A-T46:S3",
+        "408-16-A-T46:S4",
+        "408-16-A-T46:S5"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "原总分8分，原因2分加公式细项3分加作用1分为6分；公式的3分与其三个1分不重复计算。"
       ],
       "question_id": "408-16-A-T46",
-      "raw_total_points": 8
+      "raw_total_points": 6
     },
     {
       "conditional_rules": [
@@ -7464,7 +7521,7 @@
             "line": 1435,
             "line_sha256": "a8919db20713c1fec7391ce6edcac222e33a11347296e67519c1d7315aa5ba3c",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7486,7 +7543,7 @@
             "line": 1436,
             "line_sha256": "2cfe17fdcf157ccdaf45ec6de0d5369d8ea99a22f0117542f8123534690ac3df",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7508,7 +7565,7 @@
             "line": 1437,
             "line_sha256": "7fa21551fff26ae16bcc1dffd79fd97ebf83e65c964fbbe192f86cdf124e16da",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7530,7 +7587,7 @@
             "line": 1438,
             "line_sha256": "0cb94d4ed5c6ef591e76d98dff3dbf193a0a75edcde9a5581c1b3ea42ee04fce",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7552,7 +7609,7 @@
             "line": 1439,
             "line_sha256": "424d3e64cf1d5d228f3e862114444d7631dcb26cd19cfe4536d8d266d44f4f82",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7574,7 +7631,7 @@
             "line": 1441,
             "line_sha256": "439da2d1856b5641f22688a21f72e1cc44dca2da5c82878073d610e5db4f9b0e",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7596,7 +7653,7 @@
             "line": 1444,
             "line_sha256": "59c5532d196e36e222c435ed828ae8a72fe12f979a6e0cce5f59df1faa9762d9",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7617,7 +7674,7 @@
             "line": 1447,
             "line_sha256": "b6f08406baea91da75f8d0c79ae06a4b6960aa99b2a639b5aa7f5b00c3bd29bb",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7639,7 +7696,7 @@
             "line": 1449,
             "line_sha256": "a7f452d5032becef8aeb8e8d9dd9769c933d422cb186fc3ad4f0f32bdaf9a4ce",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7662,13 +7719,13 @@
           "description": "中序输出策略",
           "evidence_id": "408-17-A-T41:D01",
           "points": 3,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T41:S1",
           "source_anchor": {
             "fragment": "（3 分）",
             "line": 1400,
             "line_sha256": "d8ff80960d41e096d9ae67fb98efa7c01adbed07c9f47a983c92150394f0eb41",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7690,13 +7747,13 @@
           "description": "括号位置策略",
           "evidence_id": "408-17-A-T41:D02",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T41:S2",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1402,
             "line_sha256": "4fe0d1af71460ab8e3a8bcae5ef3c225926d81a89795fd776273aa9fd01f2044",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7718,13 +7775,13 @@
           "description": "带括号的遍历实现",
           "evidence_id": "408-17-A-T41:D03",
           "points": 10,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T41:S3",
           "source_anchor": {
             "fragment": "（10 分）",
             "line": 1404,
             "line_sha256": "e017405d594bbfb4296fc7857930342a0704f7d6f3e4d88365a2d29c3b049766",
             "occurrence": 1,
-            "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+            "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
             "question_id": "408-17-A-T41",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7738,17 +7795,19 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 15,
       "effective_unit_ids": [
-        "408-17-A-T41:S0"
+        "408-17-A-T41:S1",
+        "408-17-A-T41:S2",
+        "408-17-A-T41:S3"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "原总分10分；完整分项和条件评分表最高均为15分。部分条件分高于元数据并非转写错误，全部保留但不生效为有效总分。"
       ],
       "question_id": "408-17-A-T41",
-      "raw_total_points": 10
+      "raw_total_points": 15
     },
     {
       "conditional_rules": [
@@ -7765,7 +7824,7 @@
             "line": 1490,
             "line_sha256": "b6a93e769d339f23e0cf6607a2334a069d0d8aade4f34199bda05c80ca7448a0",
             "occurrence": 1,
-            "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+            "question_hash_sha256": "5c76557f7ef5bfa47fb418487bc0533dcc58796bc4895d20a39754d54ff7b6d4",
             "question_id": "408-17-A-T42",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7786,7 +7845,7 @@
             "line": 1496,
             "line_sha256": "e87dace0c337c304cc3b20bdc8fe794d696490838502df290aff4860ed9f53cf",
             "occurrence": 1,
-            "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+            "question_hash_sha256": "5c76557f7ef5bfa47fb418487bc0533dcc58796bc4895d20a39754d54ff7b6d4",
             "question_id": "408-17-A-T42",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7807,7 +7866,7 @@
             "line": 1498,
             "line_sha256": "e35cb050660defb31da6e86555eeccd2c8d219cc122c0fc5a3cc170b72956fe1",
             "occurrence": 1,
-            "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+            "question_hash_sha256": "5c76557f7ef5bfa47fb418487bc0533dcc58796bc4895d20a39754d54ff7b6d4",
             "question_id": "408-17-A-T42",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7828,7 +7887,7 @@
             "line": 1500,
             "line_sha256": "36317972ccf18a144006841bca392242033692cfd16db36ca40d8f32a9858063",
             "occurrence": 1,
-            "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+            "question_hash_sha256": "5c76557f7ef5bfa47fb418487bc0533dcc58796bc4895d20a39754d54ff7b6d4",
             "question_id": "408-17-A-T42",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7852,13 +7911,13 @@
           "description": "Prim第一条边及次序",
           "evidence_id": "408-17-A-T42:D01",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T42:S1",
           "source_anchor": {
             "fragment": "给 1 分",
             "line": 1489,
             "line_sha256": "10b903ed3a49df94da94ed5f8dc27ff6883e302d94ced9d97a282b113978e98a",
             "occurrence": 1,
-            "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+            "question_hash_sha256": "5c76557f7ef5bfa47fb418487bc0533dcc58796bc4895d20a39754d54ff7b6d4",
             "question_id": "408-17-A-T42",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7880,13 +7939,13 @@
           "description": "Prim第二条边及次序",
           "evidence_id": "408-17-A-T42:D02",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T42:S2",
           "source_anchor": {
             "fragment": "给 1 分",
             "line": 1489,
             "line_sha256": "10b903ed3a49df94da94ed5f8dc27ff6883e302d94ced9d97a282b113978e98a",
             "occurrence": 1,
-            "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+            "question_hash_sha256": "5c76557f7ef5bfa47fb418487bc0533dcc58796bc4895d20a39754d54ff7b6d4",
             "question_id": "408-17-A-T42",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7908,13 +7967,13 @@
           "description": "Prim第三条边及次序",
           "evidence_id": "408-17-A-T42:D03",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T42:S3",
           "source_anchor": {
             "fragment": "给 1 分",
             "line": 1489,
             "line_sha256": "10b903ed3a49df94da94ed5f8dc27ff6883e302d94ced9d97a282b113978e98a",
             "occurrence": 1,
-            "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+            "question_hash_sha256": "5c76557f7ef5bfa47fb418487bc0533dcc58796bc4895d20a39754d54ff7b6d4",
             "question_id": "408-17-A-T42",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7936,13 +7995,13 @@
           "description": "Prim第四条边及次序",
           "evidence_id": "408-17-A-T42:D04",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T42:S4",
           "source_anchor": {
             "fragment": "给 1 分",
             "line": 1489,
             "line_sha256": "10b903ed3a49df94da94ed5f8dc27ff6883e302d94ced9d97a282b113978e98a",
             "occurrence": 1,
-            "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+            "question_hash_sha256": "5c76557f7ef5bfa47fb418487bc0533dcc58796bc4895d20a39754d54ff7b6d4",
             "question_id": "408-17-A-T42",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7964,13 +8023,13 @@
           "description": "给定图的MST唯一性",
           "evidence_id": "408-17-A-T42:D05",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T42:S5",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1492,
             "line_sha256": "9e8d2dddae382b29ff1400cc7e50e3903a5bd7a0b9ce7e9f6843434073e4f182",
             "occurrence": 1,
-            "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+            "question_hash_sha256": "5c76557f7ef5bfa47fb418487bc0533dcc58796bc4895d20a39754d54ff7b6d4",
             "question_id": "408-17-A-T42",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -7992,13 +8051,13 @@
           "description": "一般图MST唯一的充分条件",
           "evidence_id": "408-17-A-T42:D06",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T42:S6",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1494,
             "line_sha256": "ec22cfcfa4fd0e392195c21e30c17e63d7a11d32464c454ad6ea007001e78d6b",
             "occurrence": 1,
-            "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+            "question_hash_sha256": "5c76557f7ef5bfa47fb418487bc0533dcc58796bc4895d20a39754d54ff7b6d4",
             "question_id": "408-17-A-T42",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8010,17 +8069,22 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 8,
       "effective_unit_ids": [
-        "408-17-A-T42:S0"
+        "408-17-A-T42:S1",
+        "408-17-A-T42:S2",
+        "408-17-A-T42:S3",
+        "408-17-A-T42:S4",
+        "408-17-A-T42:S5",
+        "408-17-A-T42:S6"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "元数据15分，四条边各1分加唯一性2分加充分条件2分，完整细则合计8分。"
       ],
       "question_id": "408-17-A-T42",
-      "raw_total_points": 15
+      "raw_total_points": 8
     },
     {
       "conditional_rules": [
@@ -8037,7 +8101,7 @@
             "line": 1632,
             "line_sha256": "4488456a35bb71b0fb49b18069fdd7cab3fcfdb81d7166724fe3dec6fcdc793b",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8058,7 +8122,7 @@
             "line": 1638,
             "line_sha256": "7d24a1594c2f9e4ea01e97baec110f8b811a550ecb77eef973e512ad4494856c",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8079,7 +8143,7 @@
             "line": 1648,
             "line_sha256": "9ab9b1387d212ef6c878be52eda33a21731433bf2663c0d4d2bce00683506e0c",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8101,13 +8165,13 @@
           "description": "无符号循环不终止的解释",
           "evidence_id": "408-17-A-T43:D01",
           "points": 2,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S1",
           "source_anchor": {
             "fragment": "（2 分）",
             "line": 1569,
             "line_sha256": "7e49cda311bc27d4384e3f0da2b2ccf2cf20411e6588f6ed5b7ea9ebc03e5dcd",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8129,13 +8193,13 @@
           "description": "有符号版本终止判断",
           "evidence_id": "408-17-A-T43:D02",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S2",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1575,
             "line_sha256": "0dcabaab8b3446a1634502e742d42abbd5f641cd6cb3d99a7f2158834118d293",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8157,13 +8221,13 @@
           "description": "有符号比较边界的理由",
           "evidence_id": "408-17-A-T43:D03",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S3",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1589,
             "line_sha256": "e84faec0c7798eb16c64f38127a74936856410deb46d2e21c6217e1b881b1d40",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8185,13 +8249,13 @@
           "description": "两类型精确表示范围的比较",
           "evidence_id": "408-17-A-T43:D04",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S4",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1591,
             "line_sha256": "d171e39df61f7941a6661f3f69f9a1c9c1cdb45ef4f13392b105b5b9e5e5e95b",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8213,13 +8277,13 @@
           "description": "整型机器编码",
           "evidence_id": "408-17-A-T43:D05",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S5",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1611,
             "line_sha256": "c120769606dbf5f50d1537076b313270e6fd333de74f553c9641ed96ea4d1e7c",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8241,13 +8305,13 @@
           "description": "浮点机器编码",
           "evidence_id": "408-17-A-T43:D06",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S6",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1613,
             "line_sha256": "802c4f554ae79ad496ee44d5eda7623a39ec76ec1eec9fc837f49d118e9f2d48",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8269,13 +8333,13 @@
           "description": "有效位不足的舍入解释",
           "evidence_id": "408-17-A-T43:D07",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S7",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1630,
             "line_sha256": "bc394857dfb182eaec65610a104b20a7566dde585d2ba183914f56407ffcc854",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8297,13 +8361,13 @@
           "description": "定长补码结果的解释",
           "evidence_id": "408-17-A-T43:D08",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S8",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1634,
             "line_sha256": "537b0932849daf68cf0c000d9d0d9500cc5f3ad0f6fc0094669a87ea71bb8eeb",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8325,13 +8389,13 @@
           "description": "整型精确结果的参数上界",
           "evidence_id": "408-17-A-T43:D09",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S9",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1636,
             "line_sha256": "e19b77eefa70a7d3de3f64a3723af515d7b6975602003231a6c554f9e0b1f4de",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8353,13 +8417,13 @@
           "description": "浮点特殊编码含义",
           "evidence_id": "408-17-A-T43:D10",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S10",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1640,
             "line_sha256": "db06b3d32752152eac5c6127ff77473acc82cb61dc9d24e732b1af0365b4e612",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8381,13 +8445,13 @@
           "description": "浮点不溢出参数上界",
           "evidence_id": "408-17-A-T43:D11",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S11",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1644,
             "line_sha256": "2582fc8a34da5402e1737f09b3659acf0df81e40ea18dc239788e39aafaca929",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8409,13 +8473,13 @@
           "description": "浮点无舍入参数上界",
           "evidence_id": "408-17-A-T43:D12",
           "points": 1,
-          "promoted_unit_id": null,
+          "promoted_unit_id": "408-17-A-T43:S12",
           "source_anchor": {
             "fragment": "（1 分）",
             "line": 1646,
             "line_sha256": "7159394bf4809442119c3b3a8667ae637f39b180b544c6db202e8de0bef02700",
             "occurrence": 1,
-            "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+            "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
             "question_id": "408-17-A-T43",
             "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -8427,17 +8491,28 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 13,
       "effective_unit_ids": [
-        "408-17-A-T43:S0"
+        "408-17-A-T43:S1",
+        "408-17-A-T43:S2",
+        "408-17-A-T43:S3",
+        "408-17-A-T43:S4",
+        "408-17-A-T43:S5",
+        "408-17-A-T43:S6",
+        "408-17-A-T43:S7",
+        "408-17-A-T43:S8",
+        "408-17-A-T43:S9",
+        "408-17-A-T43:S10",
+        "408-17-A-T43:S11",
+        "408-17-A-T43:S12"
       ],
       "explicit_total_claims": [],
-      "mode": "conflicting_total",
+      "mode": "partition",
       "notes": [
         "元数据8分与完整分项13分冲突；按题内明确机器结果而非通用C有符号溢出承诺解释。"
       ],
       "question_id": "408-17-A-T43",
-      "raw_total_points": 8
+      "raw_total_points": 13
     },
     {
       "conditional_rules": [],
@@ -15925,7 +16000,7 @@
             "line": 2114,
             "line_sha256": "0df63357169071c4f629b037bd90cb3a76a0a6001da43be131fd59026a62c04c",
             "occurrence": 1,
-            "question_hash_sha256": "588f3df5512e6a092a93ee62795ad02ddea6958eed57f3d3f82ef022a90e4ad7",
+            "question_hash_sha256": "14597aa0ce842ebb224123cfeb290dfac5ce344c3ba7d57827b40988044a5a7a",
             "question_id": "408-26-A-T41",
             "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -15955,7 +16030,7 @@
             "line": 2116,
             "line_sha256": "1d3a384a61ce43a6ffc8f8ab82c2dbe11f2439363d795cd29f2d1814b013e4a5",
             "occurrence": 1,
-            "question_hash_sha256": "588f3df5512e6a092a93ee62795ad02ddea6958eed57f3d3f82ef022a90e4ad7",
+            "question_hash_sha256": "14597aa0ce842ebb224123cfeb290dfac5ce344c3ba7d57827b40988044a5a7a",
             "question_id": "408-26-A-T41",
             "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -15971,7 +16046,7 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 13,
       "effective_unit_ids": [
         "408-26-A-T41:S0"
       ],
@@ -15983,18 +16058,18 @@
             "line": 2100,
             "line_sha256": "bbc986a0163ee42afcce5c599728b441064b0879dc076ad72c8776f1723810cf",
             "occurrence": 1,
-            "question_hash_sha256": "588f3df5512e6a092a93ee62795ad02ddea6958eed57f3d3f82ef022a90e4ad7",
+            "question_hash_sha256": "14597aa0ce842ebb224123cfeb290dfac5ce344c3ba7d57827b40988044a5a7a",
             "question_id": "408-26-A-T41",
             "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           }
         }
       ],
-      "mode": "conflicting_total",
+      "mode": "whole",
       "notes": [
         "元数据和完整分项合计12分，题干另称满分13分；不擅自选择有效总分。"
       ],
       "question_id": "408-26-A-T41",
-      "raw_total_points": 12
+      "raw_total_points": 13
     },
     {
       "conditional_rules": [],
@@ -16285,7 +16360,7 @@
             "line": 2565,
             "line_sha256": "9dc9401b7c7c70c55f68d09883adc075746f467189860d0e7c814541aa9c21c3",
             "occurrence": 1,
-            "question_hash_sha256": "b7c399a73e0ed808e99343ee70b68f6f5b6407ff64967adede09a480cf38df4d",
+            "question_hash_sha256": "53201cd70f16ce21494144b130f1447ccc0302f973a12200e0a417561610ae24",
             "question_id": "408-26-A-T44",
             "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -16313,7 +16388,7 @@
             "line": 2567,
             "line_sha256": "33e8a59a36055a563841ea4e378c7f6f4cb1a40ad15e11ade545fd19ebe82d99",
             "occurrence": 1,
-            "question_hash_sha256": "b7c399a73e0ed808e99343ee70b68f6f5b6407ff64967adede09a480cf38df4d",
+            "question_hash_sha256": "53201cd70f16ce21494144b130f1447ccc0302f973a12200e0a417561610ae24",
             "question_id": "408-26-A-T44",
             "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -16343,7 +16418,7 @@
             "line": 2569,
             "line_sha256": "7a06eee76832703e8bd10c3cf28c9c3c5b87f89cc63fe86c95ac977f45df552c",
             "occurrence": 1,
-            "question_hash_sha256": "b7c399a73e0ed808e99343ee70b68f6f5b6407ff64967adede09a480cf38df4d",
+            "question_hash_sha256": "53201cd70f16ce21494144b130f1447ccc0302f973a12200e0a417561610ae24",
             "question_id": "408-26-A-T44",
             "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -16375,7 +16450,7 @@
             "line": 2571,
             "line_sha256": "ff7057ffb2be4121d7099b502ca66481892ff8bd7111e5e4539d8c183be7ddf7",
             "occurrence": 1,
-            "question_hash_sha256": "b7c399a73e0ed808e99343ee70b68f6f5b6407ff64967adede09a480cf38df4d",
+            "question_hash_sha256": "53201cd70f16ce21494144b130f1447ccc0302f973a12200e0a417561610ae24",
             "question_id": "408-26-A-T44",
             "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -16389,30 +16464,17 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 13,
       "effective_unit_ids": [
         "408-26-A-T44:S0"
       ],
-      "explicit_total_claims": [
-        {
-          "points": 15,
-          "source_anchor": {
-            "fragment": "满分 15 分",
-            "line": 2557,
-            "line_sha256": "3b99a43a2f324493f23e791420a6177a3da9cfef91b32134d2f2641eb9b9cfb6",
-            "occurrence": 1,
-            "question_hash_sha256": "b7c399a73e0ed808e99343ee70b68f6f5b6407ff64967adede09a480cf38df4d",
-            "question_id": "408-26-A-T44",
-            "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
-          }
-        }
-      ],
-      "mode": "conflicting_total",
+      "explicit_total_claims": [],
+      "mode": "whole",
       "notes": [
         "元数据和完整分项合计9分，题干另称满分15分；不擅自选择有效总分。"
       ],
       "question_id": "408-26-A-T44",
-      "raw_total_points": 9
+      "raw_total_points": 13
     },
     {
       "conditional_rules": [],

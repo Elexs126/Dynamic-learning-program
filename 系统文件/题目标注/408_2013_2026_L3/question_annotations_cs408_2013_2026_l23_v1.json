@@ -4,26 +4,15 @@
   "records": [
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "元数据10分，最高效率评分档及复杂度项合计13分；条件表和附带排序9分提示的适用范围也不一致，不能仅据本地文件确定有效总分。",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.score_units.S0.subdivision",
-          "reason": "原文条件分的覆盖任务范围未给清楚；保留带行号的条件证据，不将其应用到推测的小问或任务。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 10,
+        "original_points": 13,
         "original_section": "2013年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2013",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+        "question_hash_sha256": "d86ba268fae46433baea0ba852f1545769b61e392a267d3faafba293c1113a47",
         "question_number": "T41",
         "question_source": "2013年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -141,19 +130,37 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-13-A-T41；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置1479；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-13-A-T41#T01] 说明抵消不改变多数候选的依据",
+              "[408-13-A-T41#T01] 说明抵消不改变多数候选的依据"
+            ],
+            "unit_id": "408-13-A-T41:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置1479；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-13-A-T41#T02] 实现候选更新与独立计数复验",
-              "[408-13-A-T41#T02] 处理不存在主元素的返回",
-              "[408-13-A-T41#T03] 分析时间复杂度",
+              "[408-13-A-T41#T02] 处理不存在主元素的返回"
+            ],
+            "unit_id": "408-13-A-T41:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置1496；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-13-A-T41#T03] 分析时间复杂度"
+            ],
+            "unit_id": "408-13-A-T41:S3"
+          },
+          {
+            "basis": "本地解析明确标分位置1496；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-13-A-T41#T03] 分析辅助空间复杂度"
             ],
-            "unit_id": "408-13-A-T41:S0"
+            "unit_id": "408-13-A-T41:S4"
           }
         ],
         "inter_question_dependency": {
@@ -180,27 +187,74 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "main_knowledge",
             "status": "verified",
             "target_knowledge_ids": [
-              "CS408_K_367594db1b24b435",
+              "CS408_K_367594db1b24b435"
+            ],
+            "unit_id": "408-13-A-T41:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_367594db1b24b435"
+            ],
+            "unit_id": "408-13-A-T41:S2"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
               "CS408_K_4508bf8457b45014"
             ],
-            "unit_id": "408-13-A-T41:S0"
+            "unit_id": "408-13-A-T41:S3"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_4508bf8457b45014"
+            ],
+            "unit_id": "408-13-A-T41:S4"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-13-A-T41：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-13-A-T41:S0"
+            "confidence": "high",
+            "description": "线性时间常数空间档的算法思想",
+            "point_status": "explicit",
+            "points": 4,
+            "source_evidence": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1479；408-13-A-T41:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-13-A-T41:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "线性时间常数空间档的算法实现",
+            "point_status": "explicit",
+            "points": 7,
+            "source_evidence": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1479；408-13-A-T41:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-13-A-T41:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "与实现一致的时间复杂度",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1496；408-13-A-T41:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-13-A-T41:S3"
+          },
+          {
+            "confidence": "high",
+            "description": "与实现一致的空间复杂度",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1496；408-13-A-T41:D04，见scoring_evidence_v1.json。",
+            "unit_id": "408-13-A-T41:S4"
           }
         ]
       },
@@ -208,15 +262,13 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
@@ -9394,21 +9446,15 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为8分，覆盖各要求的本地分项合计9分；不能据此选择、补齐或改写有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 8,
+        "original_points": 9,
         "original_section": "2014年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2014",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "0ba0bc7cd198936b3c0aa39824976dcaa749f7d76d994956c217d2e4332c2100",
+        "question_hash_sha256": "047e6ad47863dceb1bcf05e030e4c466d3147b7688f740bcdeabd108eb9fdda8",
         "question_number": "T43",
         "question_source": "2014年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -9524,20 +9570,50 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-14-A-T43；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置1483；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-14-A-T43#T01] 填写直连路由",
-              "[408-14-A-T43#T01] 填写同向可聚合子网路由",
-              "[408-14-A-T43#T01] 填写另一出口的路由",
-              "[408-14-A-T43#T02] 依据路由表选择接口",
-              "[408-14-A-T43#T02] 按经过的路由器数更新TTL",
+              "[408-14-A-T43#T01] 填写直连路由"
+            ],
+            "unit_id": "408-14-A-T43:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置1483；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T43#T01] 填写同向可聚合子网路由"
+            ],
+            "unit_id": "408-14-A-T43:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置1483；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T43#T01] 填写另一出口的路由"
+            ],
+            "unit_id": "408-14-A-T43:S3"
+          },
+          {
+            "basis": "本地解析明确标分位置1486；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T43#T02] 依据路由表选择接口"
+            ],
+            "unit_id": "408-14-A-T43:S4"
+          },
+          {
+            "basis": "本地解析明确标分位置1486；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T43#T02] 按经过的路由器数更新TTL"
+            ],
+            "unit_id": "408-14-A-T43:S5"
+          },
+          {
+            "basis": "本地解析明确标分位置1488；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-14-A-T43#T03] 在链路状态信息中表示新增默认可达网络及费用"
             ],
-            "unit_id": "408-14-A-T43:S0"
+            "unit_id": "408-14-A-T43:S6"
           }
         ],
         "inter_question_dependency": {
@@ -9570,28 +9646,106 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "method_operation",
             "status": "verified",
             "target_knowledge_ids": [
-              "CS408_K_aaf718f5268e3009",
-              "CS408_K_9102abafaacc8f8e",
+              "CS408_K_aaf718f5268e3009"
+            ],
+            "unit_id": "408-14-A-T43:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_aaf718f5268e3009"
+            ],
+            "unit_id": "408-14-A-T43:S2"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_aaf718f5268e3009"
+            ],
+            "unit_id": "408-14-A-T43:S3"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_aaf718f5268e3009"
+            ],
+            "unit_id": "408-14-A-T43:S4"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_9102abafaacc8f8e"
+            ],
+            "unit_id": "408-14-A-T43:S5"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
               "CS408_K_175ec26ec9cbe55f"
             ],
-            "unit_id": "408-14-A-T43:S0"
+            "unit_id": "408-14-A-T43:S6"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-14-A-T43：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-14-A-T43:S0"
+            "confidence": "high",
+            "description": "直连路由项",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1483；408-14-A-T43:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T43:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "同向汇总路由项",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1483；408-14-A-T43:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T43:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "另一出口路由项",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1483；408-14-A-T43:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T43:S3"
+          },
+          {
+            "confidence": "high",
+            "description": "转发接口",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1486；408-14-A-T43:D04，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T43:S4"
+          },
+          {
+            "confidence": "high",
+            "description": "经过路由器后的TTL",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1486；408-14-A-T43:D05，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T43:S5"
+          },
+          {
+            "confidence": "high",
+            "description": "新增默认网络及度量",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1488；408-14-A-T43:D06，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T43:S6"
           }
         ]
       },
@@ -9599,35 +9753,27 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为10分，覆盖各要求的本地分项合计12分；不能据此选择、补齐或改写有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 10,
+        "original_points": 12,
         "original_section": "2014年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2014",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+        "question_hash_sha256": "e88f9231c6672006cf834603848e27fd995f07667cdf722564de6678c83ebbc1",
         "question_number": "T44",
         "question_source": "2014年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -9739,22 +9885,64 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-14-A-T44；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置1539；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-14-A-T44#T01] 由指令长度及地址差判断编址",
-              "[408-14-A-T44#T02] 由下标缩放及编址单位判断元素宽度",
-              "[408-14-A-T44#T03] 提取分支偏移",
-              "[408-14-A-T44#T03] 确定偏移缩放单位",
-              "[408-14-A-T44#T03] 表达相对目标形成关系",
-              "[408-14-A-T44#T04] 列出引起停顿的数据相关",
-              "[408-14-A-T44#T04] 定位分支控制冒险",
+              "[408-14-A-T44#T01] 由指令长度及地址差判断编址"
+            ],
+            "unit_id": "408-14-A-T44:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置1540；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T44#T02] 由下标缩放及编址单位判断元素宽度"
+            ],
+            "unit_id": "408-14-A-T44:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置1541；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T44#T03] 提取分支偏移"
+            ],
+            "unit_id": "408-14-A-T44:S3"
+          },
+          {
+            "basis": "本地解析明确标分位置1541；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T44#T03] 确定偏移缩放单位"
+            ],
+            "unit_id": "408-14-A-T44:S4"
+          },
+          {
+            "basis": "本地解析明确标分位置1541；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T44#T03] 表达相对目标形成关系"
+            ],
+            "unit_id": "408-14-A-T44:S5"
+          },
+          {
+            "basis": "本地解析明确标分位置1542；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T44#T04] 列出引起停顿的数据相关"
+            ],
+            "unit_id": "408-14-A-T44:S6"
+          },
+          {
+            "basis": "本地解析明确标分位置1544；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T44#T04] 定位分支控制冒险"
+            ],
+            "unit_id": "408-14-A-T44:S7"
+          },
+          {
+            "basis": "本地解析明确标分位置1546；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-14-A-T44#T04] 解释跨循环依赖为何被既有停顿覆盖"
             ],
-            "unit_id": "408-14-A-T44:S0"
+            "unit_id": "408-14-A-T44:S8"
           }
         ],
         "inter_question_dependency": {
@@ -9781,27 +9969,138 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "method_operation",
             "status": "verified",
             "target_knowledge_ids": [
-              "CS408_K_0117edf6b3219982",
+              "CS408_K_0117edf6b3219982"
+            ],
+            "unit_id": "408-14-A-T44:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_0117edf6b3219982"
+            ],
+            "unit_id": "408-14-A-T44:S2"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_0117edf6b3219982"
+            ],
+            "unit_id": "408-14-A-T44:S3"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_0117edf6b3219982"
+            ],
+            "unit_id": "408-14-A-T44:S4"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_0117edf6b3219982"
+            ],
+            "unit_id": "408-14-A-T44:S5"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
               "CS408_K_8361761a89e197d2"
             ],
-            "unit_id": "408-14-A-T44:S0"
+            "unit_id": "408-14-A-T44:S6"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_8361761a89e197d2"
+            ],
+            "unit_id": "408-14-A-T44:S7"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_8361761a89e197d2"
+            ],
+            "unit_id": "408-14-A-T44:S8"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-14-A-T44：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-14-A-T44:S0"
+            "confidence": "high",
+            "description": "按指令地址判断编址单位",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1539；408-14-A-T44:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T44:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "数组元素宽度",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1540；408-14-A-T44:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T44:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "分支偏移字段",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1541；408-14-A-T44:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T44:S3"
+          },
+          {
+            "confidence": "high",
+            "description": "偏移缩放单位",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1541；408-14-A-T44:D04，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T44:S4"
+          },
+          {
+            "confidence": "high",
+            "description": "相对转移目标关系",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1541；408-14-A-T44:D05，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T44:S5"
+          },
+          {
+            "confidence": "high",
+            "description": "导致流水停顿的数据相关",
+            "point_status": "explicit",
+            "points": 3,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1542；408-14-A-T44:D06，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T44:S6"
+          },
+          {
+            "confidence": "high",
+            "description": "控制冒险定位",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1544；408-14-A-T44:D07，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T44:S7"
+          },
+          {
+            "confidence": "high",
+            "description": "跨循环依赖不再增加停顿的理由",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1546；408-14-A-T44:D08，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T44:S8"
           }
         ]
       },
@@ -9809,36 +10108,28 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SCOPE_AMBIGUOUS",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为7分，覆盖各要求的本地分项合计11分；不能据此选择、补齐或改写有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 7,
+        "original_points": 11,
         "original_section": "2014年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2014",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+        "question_hash_sha256": "5977d7c3e10d180f827ebb1a96486d9e378119c1634c84e0345b6025c5c915aa",
         "question_number": "T45",
         "question_source": "2014年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -9954,21 +10245,57 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-14-A-T45；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置1576；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-14-A-T45#T01] 由循环终止条件确定寄存器最终状态",
-              "[408-14-A-T45#T02] 计算指令Cache数据容量",
-              "[408-14-A-T45#T02] 按循环取指次数与首次失配求命中率",
-              "[408-14-A-T45#T03] 定位可能溢出的指令",
-              "[408-14-A-T45#T03] 定位可能缺页的指令",
-              "[408-14-A-T45#T03] 统计数据页磁盘调入次数",
+              "[408-14-A-T45#T01] 由循环终止条件确定寄存器最终状态"
+            ],
+            "unit_id": "408-14-A-T45:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置1578；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T45#T02] 计算指令Cache数据容量"
+            ],
+            "unit_id": "408-14-A-T45:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置1580；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T45#T02] 按循环取指次数与首次失配求命中率"
+            ],
+            "unit_id": "408-14-A-T45:S3"
+          },
+          {
+            "basis": "本地解析明确标分位置1584；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T45#T03] 定位可能溢出的指令"
+            ],
+            "unit_id": "408-14-A-T45:S4"
+          },
+          {
+            "basis": "本地解析明确标分位置1586；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T45#T03] 定位可能缺页的指令"
+            ],
+            "unit_id": "408-14-A-T45:S5"
+          },
+          {
+            "basis": "本地解析明确标分位置1588；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T45#T03] 统计数据页磁盘调入次数"
+            ],
+            "unit_id": "408-14-A-T45:S6"
+          },
+          {
+            "basis": "本地解析明确标分位置1590；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-14-A-T45#T03] 计入缺页重执行的TLB访问次数"
             ],
-            "unit_id": "408-14-A-T45:S0"
+            "unit_id": "408-14-A-T45:S7"
           }
         ],
         "inter_question_dependency": {
@@ -9995,28 +10322,122 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "method_operation",
             "status": "verified",
             "target_knowledge_ids": [
-              "CS408_K_5277a7f63e75354d",
-              "CS408_K_94dfba374a5d4269",
+              "CS408_K_5277a7f63e75354d"
+            ],
+            "unit_id": "408-14-A-T45:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_5277a7f63e75354d"
+            ],
+            "unit_id": "408-14-A-T45:S2"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_5277a7f63e75354d"
+            ],
+            "unit_id": "408-14-A-T45:S3"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_94dfba374a5d4269"
+            ],
+            "unit_id": "408-14-A-T45:S4"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_94dfba374a5d4269"
+            ],
+            "unit_id": "408-14-A-T45:S5"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_5277a7f63e75354d"
+            ],
+            "unit_id": "408-14-A-T45:S6"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
               "CS408_K_c4c7dfdc567d673e"
             ],
-            "unit_id": "408-14-A-T45:S0"
+            "unit_id": "408-14-A-T45:S7"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-14-A-T45：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-14-A-T45:S0"
+            "confidence": "high",
+            "description": "循环终止寄存器状态",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1576；408-14-A-T45:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T45:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "指令Cache数据容量",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1578；408-14-A-T45:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T45:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "指令Cache命中率及依据",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1580；408-14-A-T45:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T45:S3"
+          },
+          {
+            "confidence": "high",
+            "description": "溢出异常定位",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1584；408-14-A-T45:D04，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T45:S4"
+          },
+          {
+            "confidence": "high",
+            "description": "缺页异常定位",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1586；408-14-A-T45:D05，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T45:S5"
+          },
+          {
+            "confidence": "high",
+            "description": "磁盘调入次数",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1588；408-14-A-T45:D06，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T45:S6"
+          },
+          {
+            "confidence": "high",
+            "description": "TLB访问次数",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1590；408-14-A-T45:D07，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T45:S7"
           }
         ]
       },
@@ -10024,35 +10445,27 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为8分，覆盖各要求的本地分项合计6分；不能据此选择、补齐或改写有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 8,
+        "original_points": 6,
         "original_section": "2014年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2014",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "79a958d2f4167137f9a5c3c0ad0bf3c413495a568327176067127a1a2e71d316",
+        "question_hash_sha256": "4aac071d732f0745dacb157db061db4ead0d449ad136a2ec570392b1d6d2d6fb",
         "question_number": "T46",
         "question_source": "2014年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -10159,19 +10572,43 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-14-A-T46；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置1626；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-14-A-T46#T01] 选择较短移动方向并统计读写次数",
-              "[408-14-A-T46#T01] 判断FCB需要更新的内容",
-              "[408-14-A-T46#T02] 定位前驱并说明链接更新",
-              "[408-14-A-T46#T02] 统计插入所需磁盘访问",
+              "[408-14-A-T46#T01] 选择较短移动方向并统计读写次数"
+            ],
+            "unit_id": "408-14-A-T46:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置1628；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T46#T01] 判断FCB需要更新的内容"
+            ],
+            "unit_id": "408-14-A-T46:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置1630；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T46#T02] 定位前驱并说明链接更新"
+            ],
+            "unit_id": "408-14-A-T46:S3"
+          },
+          {
+            "basis": "本地解析明确标分位置1630；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-14-A-T46#T02] 统计插入所需磁盘访问"
+            ],
+            "unit_id": "408-14-A-T46:S4"
+          },
+          {
+            "basis": "本地解析明确标分位置1632；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-14-A-T46#T02] 按指针宽度和有效载荷求文件容量"
             ],
-            "unit_id": "408-14-A-T46:S0"
+            "unit_id": "408-14-A-T46:S5"
           }
         ],
         "inter_question_dependency": {
@@ -10185,26 +10622,90 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "method_operation",
             "status": "verified",
             "target_knowledge_ids": [
               "CS408_K_660584ff8175d882"
             ],
-            "unit_id": "408-14-A-T46:S0"
+            "unit_id": "408-14-A-T46:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_660584ff8175d882"
+            ],
+            "unit_id": "408-14-A-T46:S2"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_660584ff8175d882"
+            ],
+            "unit_id": "408-14-A-T46:S3"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_660584ff8175d882"
+            ],
+            "unit_id": "408-14-A-T46:S4"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_660584ff8175d882"
+            ],
+            "unit_id": "408-14-A-T46:S5"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-14-A-T46：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-14-A-T46:S0"
+            "confidence": "high",
+            "description": "连续分配最少磁盘访问",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1626；408-14-A-T46:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T46:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "FCB更新信息",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1628；408-14-A-T46:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T46:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "链接更新过程",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1630；408-14-A-T46:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T46:S3"
+          },
+          {
+            "confidence": "high",
+            "description": "链接分配磁盘访问总数",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1630；408-14-A-T46:D04，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T46:S4"
+          },
+          {
+            "confidence": "high",
+            "description": "扣除链接字段后的最大文件载荷",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1632；408-14-A-T46:D05，见scoring_evidence_v1.json。",
+            "unit_id": "408-14-A-T46:S5"
           }
         ]
       },
@@ -10212,27 +10713,19 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为9分，覆盖各要求的本地分项合计8分；不能据此选择、补齐或改写有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
@@ -10347,7 +10840,7 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
@@ -10373,7 +10866,7 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
@@ -10387,10 +10880,10 @@
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
+            "confidence": "high",
+            "description": "整题评分单元；原文未提供可完整采用的独立分值拆分。",
+            "point_status": "explicit_total_single_unit",
+            "points": 9,
             "source_evidence": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-14-A-T47：分值元数据与局部细则见scoring_evidence_v1.json。",
             "unit_id": "408-14-A-T47:S0"
           }
@@ -10405,10 +10898,8 @@
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
         "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
@@ -25805,21 +26296,15 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为10分，覆盖各要求的明确分项合计9分；本地材料未说明应选哪个口径，有效总分留空。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 10,
+        "original_points": 9,
         "original_section": "2016年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2016",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "4f0678226ea08efdcd29c8dc35ae296db21a9ae779193eb9f87a7322884b81f3",
+        "question_hash_sha256": "0766cb8b702877206380cc168cc78ba011a88e9b2535ff71d84321436d30540e",
         "question_number": "T41",
         "question_source": "2016年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -25931,23 +26416,71 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-16-A-T41；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置1641；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-16-A-T41#T01] 判断第二次握手的SYN位",
-              "[408-16-A-T41#T01] 判断ACK位",
-              "[408-16-A-T41#T01] 按握手占序号确定确认号",
-              "[408-16-A-T41#T02] 按缓存占用求通告窗口",
-              "[408-16-A-T41#T02] 按新确认求拥塞窗口",
-              "[408-16-A-T41#T02] 取两类窗口共同限制",
-              "[408-16-A-T41#T03] 求缓存填满后的下一个数据序号",
-              "[408-16-A-T41#T03] 按传输轮次求平均数据率",
+              "[408-16-A-T41#T01] 判断第二次握手的SYN位"
+            ],
+            "unit_id": "408-16-A-T41:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置1641；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T41#T01] 判断ACK位"
+            ],
+            "unit_id": "408-16-A-T41:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置1641；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T41#T01] 按握手占序号确定确认号"
+            ],
+            "unit_id": "408-16-A-T41:S3"
+          },
+          {
+            "basis": "本地解析明确标分位置1643；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T41#T02] 按缓存占用求通告窗口"
+            ],
+            "unit_id": "408-16-A-T41:S4"
+          },
+          {
+            "basis": "本地解析明确标分位置1643；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T41#T02] 按新确认求拥塞窗口"
+            ],
+            "unit_id": "408-16-A-T41:S5"
+          },
+          {
+            "basis": "本地解析明确标分位置1643；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T41#T02] 取两类窗口共同限制"
+            ],
+            "unit_id": "408-16-A-T41:S6"
+          },
+          {
+            "basis": "本地解析明确标分位置1645；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T41#T03] 求缓存填满后的下一个数据序号"
+            ],
+            "unit_id": "408-16-A-T41:S7"
+          },
+          {
+            "basis": "本地解析明确标分位置1645；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T41#T03] 按传输轮次求平均数据率"
+            ],
+            "unit_id": "408-16-A-T41:S8"
+          },
+          {
+            "basis": "本地解析明确标分位置1647；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-16-A-T41#T04] 从断开交换时序求被动端最早释放时刻"
             ],
-            "unit_id": "408-16-A-T41:S0"
+            "unit_id": "408-16-A-T41:S9"
           }
         ],
         "inter_question_dependency": {
@@ -25974,27 +26507,154 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "method_operation",
             "status": "verified",
             "target_knowledge_ids": [
-              "CS408_K_b3ce93f602d6b4b1",
+              "CS408_K_b3ce93f602d6b4b1"
+            ],
+            "unit_id": "408-16-A-T41:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_b3ce93f602d6b4b1"
+            ],
+            "unit_id": "408-16-A-T41:S2"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_b3ce93f602d6b4b1"
+            ],
+            "unit_id": "408-16-A-T41:S3"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_b3ce93f602d6b4b1"
+            ],
+            "unit_id": "408-16-A-T41:S4"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_b3ce93f602d6b4b1"
+            ],
+            "unit_id": "408-16-A-T41:S5"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_b3ce93f602d6b4b1"
+            ],
+            "unit_id": "408-16-A-T41:S6"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_b3ce93f602d6b4b1"
+            ],
+            "unit_id": "408-16-A-T41:S7"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_b3ce93f602d6b4b1"
+            ],
+            "unit_id": "408-16-A-T41:S8"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
               "CS408_K_013bfa6b0e5da68d"
             ],
-            "unit_id": "408-16-A-T41:S0"
+            "unit_id": "408-16-A-T41:S9"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-16-A-T41：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-16-A-T41:S0"
+            "confidence": "high",
+            "description": "第二次握手SYN标志",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1641；408-16-A-T41:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T41:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "第二次握手ACK标志",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1641；408-16-A-T41:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T41:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "握手确认序号",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1641；408-16-A-T41:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T41:S3"
+          },
+          {
+            "confidence": "high",
+            "description": "通告接收窗口",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1643；408-16-A-T41:D04，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T41:S4"
+          },
+          {
+            "confidence": "high",
+            "description": "拥塞窗口",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1643；408-16-A-T41:D05，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T41:S5"
+          },
+          {
+            "confidence": "high",
+            "description": "发送窗口",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1643；408-16-A-T41:D06，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T41:S6"
+          },
+          {
+            "confidence": "high",
+            "description": "下一待发送数据序号",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1645；408-16-A-T41:D07，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T41:S7"
+          },
+          {
+            "confidence": "high",
+            "description": "平均数据传输速率",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1645；408-16-A-T41:D08，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T41:S8"
+          },
+          {
+            "confidence": "high",
+            "description": "被动方最早释放时刻",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1647；408-16-A-T41:D09，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T41:S9"
           }
         ]
       },
@@ -26002,15 +26662,13 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
@@ -26393,21 +27051,15 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为10分，覆盖各要求的明确分项合计9分；本地材料未说明应选哪个口径，有效总分留空。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 10,
+        "original_points": 9,
         "original_section": "2016年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2016",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+        "question_hash_sha256": "229ca34045cc4e68e9b3edaf71c271d5d000da42e73f32ff5a72bfb39a633f03",
         "question_number": "T44",
         "question_source": "2016年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -26519,19 +27171,43 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-16-A-T44；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置1965；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-16-A-T44#T01] 计入起始数据校验及停止位",
-              "[408-16-A-T44#T01] 由字符准备时间求最大输入频率",
-              "[408-16-A-T44#T02] 按设备与中断重叠时序计算任务总周期",
-              "[408-16-A-T44#T02] 计算纯CPU响应服务周期",
+              "[408-16-A-T44#T01] 计入起始数据校验及停止位"
+            ],
+            "unit_id": "408-16-A-T44:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置1965；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T44#T01] 由字符准备时间求最大输入频率"
+            ],
+            "unit_id": "408-16-A-T44:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置1969；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T44#T02] 按设备与中断重叠时序计算任务总周期"
+            ],
+            "unit_id": "408-16-A-T44:S3"
+          },
+          {
+            "basis": "本地解析明确标分位置1971；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T44#T02] 计算纯CPU响应服务周期"
+            ],
+            "unit_id": "408-16-A-T44:S4"
+          },
+          {
+            "basis": "本地解析明确标分位置1973；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-16-A-T44#T02] 说明硬件中断响应操作"
             ],
-            "unit_id": "408-16-A-T44:S0"
+            "unit_id": "408-16-A-T44:S5"
           }
         ],
         "inter_question_dependency": {
@@ -26545,27 +27221,90 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "method_operation",
             "status": "verified",
             "target_knowledge_ids": [
-              "CS408_K_24a44a28471e2f43",
+              "CS408_K_24a44a28471e2f43"
+            ],
+            "unit_id": "408-16-A-T44:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_24a44a28471e2f43"
+            ],
+            "unit_id": "408-16-A-T44:S2"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_24a44a28471e2f43"
+            ],
+            "unit_id": "408-16-A-T44:S3"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_24a44a28471e2f43"
+            ],
+            "unit_id": "408-16-A-T44:S4"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
               "CS408_K_0d6a77d8cda6e828"
             ],
-            "unit_id": "408-16-A-T44:S0"
+            "unit_id": "408-16-A-T44:S5"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-16-A-T44：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-16-A-T44:S0"
+            "confidence": "high",
+            "description": "异步字符的总位数",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1965；408-16-A-T44:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T44:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "最大字符输入频率",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1965；408-16-A-T44:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T44:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "字符接收任务总耗时",
+            "point_status": "explicit",
+            "points": 3,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1969；408-16-A-T44:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T44:S3"
+          },
+          {
+            "confidence": "high",
+            "description": "CPU自身响应和服务耗时",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1971；408-16-A-T44:D04，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T44:S4"
+          },
+          {
+            "confidence": "high",
+            "description": "中断响应硬件操作",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1973；408-16-A-T44:D05，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T44:S5"
           }
         ]
       },
@@ -26573,36 +27312,28 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SCOPE_AMBIGUOUS",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为7分，覆盖各要求的明确分项合计14分；本地材料未说明应选哪个口径，有效总分留空。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 7,
+        "original_points": 14,
         "original_section": "2016年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2016",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+        "question_hash_sha256": "f3b3b2988012e98c36cb5c001cad15363217ff06f50dc199a9050b1d2e8e9743",
         "question_number": "T45",
         "question_source": "2016年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -26718,27 +27449,99 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-16-A-T45；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置2016；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-16-A-T45#T01] 求虚页字段A宽度",
-              "[408-16-A-T45#T01] 求TLB标记B宽度",
-              "[408-16-A-T45#T01] 求页框字段C宽度",
-              "[408-16-A-T45#T01] 求页内偏移D宽度",
-              "[408-16-A-T45#T01] 求Cache标记E宽度",
-              "[408-16-A-T45#T01] 求组号F宽度",
-              "[408-16-A-T45#T01] 求块内偏移G宽度",
-              "[408-16-A-T45#T01] 说明TLB标记含义",
-              "[408-16-A-T45#T02] 由主存块号求Cache组号",
-              "[408-16-A-T45#T02] 求对应Cache标记字段",
-              "[408-16-A-T45#T03] 比较Cache缺失和缺页处理开销",
-              "[408-16-A-T45#T03] 说明所涉及慢层介质差异",
+              "[408-16-A-T45#T01] 求虚页字段A宽度"
+            ],
+            "unit_id": "408-16-A-T45:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置2016；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T45#T01] 求TLB标记B宽度"
+            ],
+            "unit_id": "408-16-A-T45:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置2016；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T45#T01] 求页框字段C宽度"
+            ],
+            "unit_id": "408-16-A-T45:S3"
+          },
+          {
+            "basis": "本地解析明确标分位置2016；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T45#T01] 求页内偏移D宽度"
+            ],
+            "unit_id": "408-16-A-T45:S4"
+          },
+          {
+            "basis": "本地解析明确标分位置2016；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T45#T01] 求Cache标记E宽度"
+            ],
+            "unit_id": "408-16-A-T45:S5"
+          },
+          {
+            "basis": "本地解析明确标分位置2016；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T45#T01] 求组号F宽度"
+            ],
+            "unit_id": "408-16-A-T45:S6"
+          },
+          {
+            "basis": "本地解析明确标分位置2016；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T45#T01] 求块内偏移G宽度"
+            ],
+            "unit_id": "408-16-A-T45:S7"
+          },
+          {
+            "basis": "本地解析明确标分位置2018；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T45#T01] 说明TLB标记含义"
+            ],
+            "unit_id": "408-16-A-T45:S8"
+          },
+          {
+            "basis": "本地解析明确标分位置2020；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T45#T02] 由主存块号求Cache组号"
+            ],
+            "unit_id": "408-16-A-T45:S9"
+          },
+          {
+            "basis": "本地解析明确标分位置2020；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T45#T02] 求对应Cache标记字段"
+            ],
+            "unit_id": "408-16-A-T45:S10"
+          },
+          {
+            "basis": "本地解析明确标分位置2022；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T45#T03] 比较Cache缺失和缺页处理开销"
+            ],
+            "unit_id": "408-16-A-T45:S11"
+          },
+          {
+            "basis": "本地解析明确标分位置2022；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T45#T03] 说明所涉及慢层介质差异"
+            ],
+            "unit_id": "408-16-A-T45:S12"
+          },
+          {
+            "basis": "本地解析明确标分位置2026；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-16-A-T45#T04] 根据慢层写入代价比较直写和回写选择"
             ],
-            "unit_id": "408-16-A-T45:S0"
+            "unit_id": "408-16-A-T45:S13"
           }
         ],
         "inter_question_dependency": {
@@ -26759,28 +27562,218 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "method_operation",
             "status": "verified",
             "target_knowledge_ids": [
-              "CS408_K_2e8c6d1f7c821abb",
-              "CS408_K_04ee116a7c7ffd4d",
+              "CS408_K_2e8c6d1f7c821abb"
+            ],
+            "unit_id": "408-16-A-T45:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2e8c6d1f7c821abb"
+            ],
+            "unit_id": "408-16-A-T45:S2"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2e8c6d1f7c821abb"
+            ],
+            "unit_id": "408-16-A-T45:S3"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2e8c6d1f7c821abb"
+            ],
+            "unit_id": "408-16-A-T45:S4"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2e8c6d1f7c821abb"
+            ],
+            "unit_id": "408-16-A-T45:S5"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2e8c6d1f7c821abb"
+            ],
+            "unit_id": "408-16-A-T45:S6"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2e8c6d1f7c821abb"
+            ],
+            "unit_id": "408-16-A-T45:S7"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2e8c6d1f7c821abb"
+            ],
+            "unit_id": "408-16-A-T45:S8"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2e8c6d1f7c821abb"
+            ],
+            "unit_id": "408-16-A-T45:S9"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2e8c6d1f7c821abb"
+            ],
+            "unit_id": "408-16-A-T45:S10"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_04ee116a7c7ffd4d"
+            ],
+            "unit_id": "408-16-A-T45:S11"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_04ee116a7c7ffd4d"
+            ],
+            "unit_id": "408-16-A-T45:S12"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
               "CS408_K_b63ca48a166ea291"
             ],
-            "unit_id": "408-16-A-T45:S0"
+            "unit_id": "408-16-A-T45:S13"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-16-A-T45：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-16-A-T45:S0"
+            "confidence": "high",
+            "description": "地址字段A位宽",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2016；408-16-A-T45:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "地址字段B位宽",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2016；408-16-A-T45:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "地址字段C位宽",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2016；408-16-A-T45:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S3"
+          },
+          {
+            "confidence": "high",
+            "description": "地址字段D位宽",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2016；408-16-A-T45:D04，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S4"
+          },
+          {
+            "confidence": "high",
+            "description": "地址字段E位宽",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2016；408-16-A-T45:D05，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S5"
+          },
+          {
+            "confidence": "high",
+            "description": "地址字段F位宽",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2016；408-16-A-T45:D06，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S6"
+          },
+          {
+            "confidence": "high",
+            "description": "地址字段G位宽",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2016；408-16-A-T45:D07，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S7"
+          },
+          {
+            "confidence": "high",
+            "description": "TLB标记语义",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2018；408-16-A-T45:D08，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S8"
+          },
+          {
+            "confidence": "high",
+            "description": "Cache组号",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2020；408-16-A-T45:D09，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S9"
+          },
+          {
+            "confidence": "high",
+            "description": "Cache标记内容",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2020；408-16-A-T45:D10，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S10"
+          },
+          {
+            "confidence": "high",
+            "description": "两类缺失处理的代价比较",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2022；408-16-A-T45:D11，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S11"
+          },
+          {
+            "confidence": "high",
+            "description": "代价差异原因",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2022；408-16-A-T45:D12，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S12"
+          },
+          {
+            "confidence": "high",
+            "description": "层级写入策略的原因",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2026；408-16-A-T45:D13，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T45:S13"
           }
         ]
       },
@@ -26788,35 +27781,27 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为8分，覆盖各要求的明确分项合计6分；本地材料未说明应选哪个口径，有效总分留空。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 8,
+        "original_points": 6,
         "original_section": "2016年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2016",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "dcac82268ebe2f4efef58e81fa2cdab4cb722758d0823a5988286be97995335f",
+        "question_hash_sha256": "e55325eb66de2238e2e02919bbb139e88eca7648dc8e7324d7f2b9fc0f803427",
         "question_number": "T46",
         "question_source": "2016年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -26923,19 +27908,43 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-16-A-T46；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置2054；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-16-A-T46#T01] 解释静态优先数下长期失去运行机会的原因",
-              "[408-16-A-T46#T02] 保留静态优先数项",
-              "[408-16-A-T46#T02] 使连续运行增加数值降低优先级",
-              "[408-16-A-T46#T02] 使持续等待减少数值提高优先级",
+              "[408-16-A-T46#T01] 解释静态优先数下长期失去运行机会的原因"
+            ],
+            "unit_id": "408-16-A-T46:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置2060；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T46#T02] 保留静态优先数项"
+            ],
+            "unit_id": "408-16-A-T46:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置2060；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T46#T02] 使连续运行增加数值降低优先级"
+            ],
+            "unit_id": "408-16-A-T46:S3"
+          },
+          {
+            "basis": "本地解析明确标分位置2061；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-16-A-T46#T02] 使持续等待减少数值提高优先级"
+            ],
+            "unit_id": "408-16-A-T46:S4"
+          },
+          {
+            "basis": "本地解析明确标分位置2056；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-16-A-T46#T02] 说明等待补偿的作用"
             ],
-            "unit_id": "408-16-A-T46:S0"
+            "unit_id": "408-16-A-T46:S5"
           }
         ],
         "inter_question_dependency": {
@@ -26949,26 +27958,90 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "method_operation",
             "status": "verified",
             "target_knowledge_ids": [
               "CS408_K_2751c3e2ae0490e7"
             ],
-            "unit_id": "408-16-A-T46:S0"
+            "unit_id": "408-16-A-T46:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2751c3e2ae0490e7"
+            ],
+            "unit_id": "408-16-A-T46:S2"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2751c3e2ae0490e7"
+            ],
+            "unit_id": "408-16-A-T46:S3"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2751c3e2ae0490e7"
+            ],
+            "unit_id": "408-16-A-T46:S4"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_2751c3e2ae0490e7"
+            ],
+            "unit_id": "408-16-A-T46:S5"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-16-A-T46：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-16-A-T46:S0"
+            "confidence": "high",
+            "description": "静态优先数的饥饿原因",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2054；408-16-A-T46:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T46:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "保留静态优先数基线",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2060；408-16-A-T46:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T46:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "运行时间惩罚方向",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2060；408-16-A-T46:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T46:S3"
+          },
+          {
+            "confidence": "high",
+            "description": "等待时间补偿方向",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2061；408-16-A-T46:D04，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T46:S4"
+          },
+          {
+            "confidence": "high",
+            "description": "等待补偿的作用解释",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:2056；408-16-A-T46:D05，见scoring_evidence_v1.json。",
+            "unit_id": "408-16-A-T46:S5"
           }
         ]
       },
@@ -26976,15 +28049,13 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
@@ -34403,21 +35474,15 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为10分，完整明确分项合计15分；无法仅据本地文件认证有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 10,
+        "original_points": 15,
         "original_section": "2017年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2017",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+        "question_hash_sha256": "f50421d5553d2caba43a2ab0a3870eccbc3a176b712b1f2d1e0d910d5d60635f",
         "question_number": "T41",
         "question_source": "2017年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -34524,18 +35589,30 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-17-A-T41；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置1400；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-17-A-T41#T01] 说明中序与表达式次序的关系",
-              "[408-17-A-T41#T01] 确定需加括号的分支范围",
+              "[408-17-A-T41#T01] 说明中序与表达式次序的关系"
+            ],
+            "unit_id": "408-17-A-T41:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置1402；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T41#T01] 确定需加括号的分支范围"
+            ],
+            "unit_id": "408-17-A-T41:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置1404；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-17-A-T41#T02] 实现递归输出和括号开闭",
               "[408-17-A-T41#T02] 处理叶根与一元结点"
             ],
-            "unit_id": "408-17-A-T41:S0"
+            "unit_id": "408-17-A-T41:S3"
           }
         ],
         "inter_question_dependency": {
@@ -34556,26 +35633,58 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "main_knowledge",
             "status": "verified",
             "target_knowledge_ids": [
               "CS408_K_0f44c415effd2fd8"
             ],
-            "unit_id": "408-17-A-T41:S0"
+            "unit_id": "408-17-A-T41:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_0f44c415effd2fd8"
+            ],
+            "unit_id": "408-17-A-T41:S2"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_0f44c415effd2fd8"
+            ],
+            "unit_id": "408-17-A-T41:S3"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-17-A-T41：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-17-A-T41:S0"
+            "confidence": "high",
+            "description": "中序输出策略",
+            "point_status": "explicit",
+            "points": 3,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1400；408-17-A-T41:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T41:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "括号位置策略",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1402；408-17-A-T41:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T41:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "带括号的遍历实现",
+            "point_status": "explicit",
+            "points": 10,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1404；408-17-A-T41:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T41:S3"
           }
         ]
       },
@@ -34583,35 +35692,27 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为15分，完整明确分项合计8分；无法仅据本地文件认证有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 15,
+        "original_points": 8,
         "original_section": "2017年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2017",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+        "question_hash_sha256": "5c76557f7ef5bfa47fb418487bc0533dcc58796bc4895d20a39754d54ff7b6d4",
         "question_number": "T42",
         "question_source": "2017年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -34718,20 +35819,50 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-17-A-T42；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置1489；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-17-A-T42#T01] 依次选出第一条安全边",
-              "[408-17-A-T42#T01] 选出第二条安全边",
-              "[408-17-A-T42#T01] 选出第三条安全边",
-              "[408-17-A-T42#T01] 选出第四条安全边",
-              "[408-17-A-T42#T02] 检查非树边是否能等权替代树边以判断唯一性",
+              "[408-17-A-T42#T01] 依次选出第一条安全边"
+            ],
+            "unit_id": "408-17-A-T42:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置1489；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T42#T01] 选出第二条安全边"
+            ],
+            "unit_id": "408-17-A-T42:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置1489；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T42#T01] 选出第三条安全边"
+            ],
+            "unit_id": "408-17-A-T42:S3"
+          },
+          {
+            "basis": "本地解析明确标分位置1489；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T42#T01] 选出第四条安全边"
+            ],
+            "unit_id": "408-17-A-T42:S4"
+          },
+          {
+            "basis": "本地解析明确标分位置1492；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T42#T02] 检查非树边是否能等权替代树边以判断唯一性"
+            ],
+            "unit_id": "408-17-A-T42:S5"
+          },
+          {
+            "basis": "本地解析明确标分位置1494；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-17-A-T42#T03] 给出保证MST唯一的边权充分条件"
             ],
-            "unit_id": "408-17-A-T42:S0"
+            "unit_id": "408-17-A-T42:S6"
           }
         ],
         "inter_question_dependency": {
@@ -34752,26 +35883,106 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "method_operation",
             "status": "verified",
             "target_knowledge_ids": [
               "CS408_K_14e99c3464704339"
             ],
-            "unit_id": "408-17-A-T42:S0"
+            "unit_id": "408-17-A-T42:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_14e99c3464704339"
+            ],
+            "unit_id": "408-17-A-T42:S2"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_14e99c3464704339"
+            ],
+            "unit_id": "408-17-A-T42:S3"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_14e99c3464704339"
+            ],
+            "unit_id": "408-17-A-T42:S4"
+          },
+          {
+            "category": "main_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_14e99c3464704339"
+            ],
+            "unit_id": "408-17-A-T42:S5"
+          },
+          {
+            "category": "main_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_14e99c3464704339"
+            ],
+            "unit_id": "408-17-A-T42:S6"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-17-A-T42：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-17-A-T42:S0"
+            "confidence": "high",
+            "description": "Prim第一条边及次序",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1489；408-17-A-T42:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T42:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "Prim第二条边及次序",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1489；408-17-A-T42:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T42:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "Prim第三条边及次序",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1489；408-17-A-T42:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T42:S3"
+          },
+          {
+            "confidence": "high",
+            "description": "Prim第四条边及次序",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1489；408-17-A-T42:D04，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T42:S4"
+          },
+          {
+            "confidence": "high",
+            "description": "给定图的MST唯一性",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1492；408-17-A-T42:D05，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T42:S5"
+          },
+          {
+            "confidence": "high",
+            "description": "一般图MST唯一的充分条件",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1494；408-17-A-T42:D06，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T42:S6"
           }
         ]
       },
@@ -34779,35 +35990,27 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为8分，完整明确分项合计13分；无法仅据本地文件认证有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 8,
+        "original_points": 13,
         "original_section": "2017年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2017",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+        "question_hash_sha256": "346171916e1000b3323e3b94aad491346d430ecc0b06e6c75715ff99e8788caf",
         "question_number": "T43",
         "question_source": "2017年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -34919,26 +36122,92 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
-            "basis": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-17-A-T43；依据题干任务与本地解析提取可观察行为；未据此推算小问分值。",
+            "basis": "本地解析明确标分位置1569；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
-              "[408-17-A-T43#T01] 说明无符号上界回绕导致的循环条件",
-              "[408-17-A-T43#T01] 判断改成有符号后是否终止",
-              "[408-17-A-T43#T01] 解释有符号比较的边界",
-              "[408-17-A-T43#T02] 比较两种数值的可精确表示性",
-              "[408-17-A-T43#T02] 编码整型机器数",
-              "[408-17-A-T43#T02] 编码浮点机器数",
-              "[408-17-A-T43#T03] 说明有效位不足导致的舍入差异",
-              "[408-17-A-T43#T04] 解释定长补码超范围的题内结果",
-              "[408-17-A-T43#T04] 求整型保持数学结果的最大参数",
-              "[408-17-A-T43#T05] 识别特殊浮点编码",
-              "[408-17-A-T43#T05] 求不溢出的最大参数",
+              "[408-17-A-T43#T01] 说明无符号上界回绕导致的循环条件"
+            ],
+            "unit_id": "408-17-A-T43:S1"
+          },
+          {
+            "basis": "本地解析明确标分位置1575；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T43#T01] 判断改成有符号后是否终止"
+            ],
+            "unit_id": "408-17-A-T43:S2"
+          },
+          {
+            "basis": "本地解析明确标分位置1589；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T43#T01] 解释有符号比较的边界"
+            ],
+            "unit_id": "408-17-A-T43:S3"
+          },
+          {
+            "basis": "本地解析明确标分位置1591；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T43#T02] 比较两种数值的可精确表示性"
+            ],
+            "unit_id": "408-17-A-T43:S4"
+          },
+          {
+            "basis": "本地解析明确标分位置1611；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T43#T02] 编码整型机器数"
+            ],
+            "unit_id": "408-17-A-T43:S5"
+          },
+          {
+            "basis": "本地解析明确标分位置1613；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T43#T02] 编码浮点机器数"
+            ],
+            "unit_id": "408-17-A-T43:S6"
+          },
+          {
+            "basis": "本地解析明确标分位置1630；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T43#T03] 说明有效位不足导致的舍入差异"
+            ],
+            "unit_id": "408-17-A-T43:S7"
+          },
+          {
+            "basis": "本地解析明确标分位置1634；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T43#T04] 解释定长补码超范围的题内结果"
+            ],
+            "unit_id": "408-17-A-T43:S8"
+          },
+          {
+            "basis": "本地解析明确标分位置1636；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T43#T04] 求整型保持数学结果的最大参数"
+            ],
+            "unit_id": "408-17-A-T43:S9"
+          },
+          {
+            "basis": "本地解析明确标分位置1640；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T43#T05] 识别特殊浮点编码"
+            ],
+            "unit_id": "408-17-A-T43:S10"
+          },
+          {
+            "basis": "本地解析明确标分位置1644；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
+              "[408-17-A-T43#T05] 求不溢出的最大参数"
+            ],
+            "unit_id": "408-17-A-T43:S11"
+          },
+          {
+            "basis": "本地解析明确标分位置1646；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "steps": [
               "[408-17-A-T43#T05] 求无需舍入的最大参数"
             ],
-            "unit_id": "408-17-A-T43:S0"
+            "unit_id": "408-17-A-T43:S12"
           }
         ],
         "inter_question_dependency": {
@@ -34952,27 +36221,202 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
-            "category": "integrated_target",
+            "category": "method_operation",
             "status": "verified",
             "target_knowledge_ids": [
-              "CS408_K_164d1fb8dac1d863",
+              "CS408_K_164d1fb8dac1d863"
+            ],
+            "unit_id": "408-17-A-T43:S1"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_164d1fb8dac1d863"
+            ],
+            "unit_id": "408-17-A-T43:S2"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_164d1fb8dac1d863"
+            ],
+            "unit_id": "408-17-A-T43:S3"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_164d1fb8dac1d863"
+            ],
+            "unit_id": "408-17-A-T43:S4"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_164d1fb8dac1d863"
+            ],
+            "unit_id": "408-17-A-T43:S5"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
               "CS408_K_f8a46bfeaec81baa"
             ],
-            "unit_id": "408-17-A-T43:S0"
+            "unit_id": "408-17-A-T43:S6"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_f8a46bfeaec81baa"
+            ],
+            "unit_id": "408-17-A-T43:S7"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_164d1fb8dac1d863"
+            ],
+            "unit_id": "408-17-A-T43:S8"
+          },
+          {
+            "category": "method_operation",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_164d1fb8dac1d863"
+            ],
+            "unit_id": "408-17-A-T43:S9"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_f8a46bfeaec81baa"
+            ],
+            "unit_id": "408-17-A-T43:S10"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_f8a46bfeaec81baa"
+            ],
+            "unit_id": "408-17-A-T43:S11"
+          },
+          {
+            "category": "secondary_knowledge",
+            "status": "verified",
+            "target_knowledge_ids": [
+              "CS408_K_f8a46bfeaec81baa"
+            ],
+            "unit_id": "408-17-A-T43:S12"
           }
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
-            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-17-A-T43：分值元数据与局部细则见scoring_evidence_v1.json。",
-            "unit_id": "408-17-A-T43:S0"
+            "confidence": "high",
+            "description": "无符号循环不终止的解释",
+            "point_status": "explicit",
+            "points": 2,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1569；408-17-A-T43:D01，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S1"
+          },
+          {
+            "confidence": "high",
+            "description": "有符号版本终止判断",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1575；408-17-A-T43:D02，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S2"
+          },
+          {
+            "confidence": "high",
+            "description": "有符号比较边界的理由",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1589；408-17-A-T43:D03，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S3"
+          },
+          {
+            "confidence": "high",
+            "description": "两类型精确表示范围的比较",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1591；408-17-A-T43:D04，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S4"
+          },
+          {
+            "confidence": "high",
+            "description": "整型机器编码",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1611；408-17-A-T43:D05，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S5"
+          },
+          {
+            "confidence": "high",
+            "description": "浮点机器编码",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1613；408-17-A-T43:D06，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S6"
+          },
+          {
+            "confidence": "high",
+            "description": "有效位不足的舍入解释",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1630；408-17-A-T43:D07，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S7"
+          },
+          {
+            "confidence": "high",
+            "description": "定长补码结果的解释",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1634；408-17-A-T43:D08，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S8"
+          },
+          {
+            "confidence": "high",
+            "description": "整型精确结果的参数上界",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1636；408-17-A-T43:D09，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S9"
+          },
+          {
+            "confidence": "high",
+            "description": "浮点特殊编码含义",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1640；408-17-A-T43:D10，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S10"
+          },
+          {
+            "confidence": "high",
+            "description": "浮点不溢出参数上界",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1644；408-17-A-T43:D11，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S11"
+          },
+          {
+            "confidence": "high",
+            "description": "浮点无舍入参数上界",
+            "point_status": "explicit",
+            "points": 1,
+            "source_evidence": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1646；408-17-A-T43:D12，见scoring_evidence_v1.json。",
+            "unit_id": "408-17-A-T43:S12"
           }
         ]
       },
@@ -34980,15 +36424,13 @@
       "record_status": "needs_review",
       "review_flags": [
         "ATOMIZATION_NOT_REVIEWED",
+        "EXPLICIT_SUBPOINT_PARTITION",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
-        "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
@@ -110332,21 +111774,15 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "元数据和完整分项合计12分，题干另称满分13分；不擅自选择有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 12,
+        "original_points": 13,
         "original_section": "2026年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2026",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "588f3df5512e6a092a93ee62795ad02ddea6958eed57f3d3f82ef022a90e4ad7",
+        "question_hash_sha256": "14597aa0ce842ebb224123cfeb290dfac5ce344c3ba7d57827b40988044a5a7a",
         "question_number": "T41",
         "question_source": "2026年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -110453,7 +111889,7 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
@@ -110486,7 +111922,7 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
@@ -110500,10 +111936,10 @@
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
+            "confidence": "high",
+            "description": "整题评分单元；原文未提供可完整采用的独立分值拆分。",
+            "point_status": "explicit_total_single_unit",
+            "points": 13,
             "source_evidence": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-26-A-T41：分值元数据与局部细则见scoring_evidence_v1.json。",
             "unit_id": "408-26-A-T41:S0"
           }
@@ -110518,10 +111954,8 @@
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
         "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },
@@ -111030,21 +112464,15 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "元数据和完整分项合计9分，题干另称满分15分；不擅自选择有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "CS408",
         "locked": true,
-        "original_points": 9,
+        "original_points": 13,
         "original_section": "2026年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2026",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "b7c399a73e0ed808e99343ee70b68f6f5b6407ff64967adede09a480cf38df4d",
+        "question_hash_sha256": "53201cd70f16ce21494144b130f1447ccc0302f973a12200e0a417561610ae24",
         "question_number": "T44",
         "question_source": "2026年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -111160,7 +112588,7 @@
           "inter_question_dependency": "high",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
-          "score_units": "medium"
+          "score_units": "high"
         },
         "evidence_steps": [
           {
@@ -111189,7 +112617,7 @@
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
-          "score_units": "needs_review"
+          "score_units": "verified"
         },
         "score_attribution": [
           {
@@ -111205,10 +112633,10 @@
         ],
         "score_units": [
           {
-            "confidence": "unknown",
-            "description": "整题单元；原分值或正文满分与分项口径冲突，评分总分留空。",
-            "point_status": "unresolved",
-            "points": null,
+            "confidence": "high",
+            "description": "整题评分单元；原文未提供可完整采用的独立分值拆分。",
+            "point_status": "explicit_total_single_unit",
+            "points": 13,
             "source_evidence": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-26-A-T44：分值元数据与局部细则见scoring_evidence_v1.json。",
             "unit_id": "408-26-A-T44:S0"
           }
@@ -111223,10 +112651,8 @@
         "LOCAL_RUBRIC_NOT_INDEPENDENTLY_AUTHENTICATED",
         "LOCAL_SOURCE_ISSUE",
         "NO_COMPLETE_SUBPOINT_PARTITION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
-        "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SCORE_CONFLICT"
+        "SOURCE_RELIABILITY_UNREVIEWED"
       ],
       "schema_version": "question-annotation-v1.1.0"
     },

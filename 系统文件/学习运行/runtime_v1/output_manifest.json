@@ -3,11 +3,11 @@
   "policy_sha256": "e4c9e8c59f81b77a784b086e3f069e4b17804bb3c26de98ea109e373acd2128f",
   "output_sha256": {
     "course_navigation.json": "542fde94bc642f6489cbcbd0bc2c72cd9acdf92aec081e854421127985e4da77",
-    "paper_readiness.json": "b4d0b70cb8699ff9cc3e1dcca7e290f542260e28622c9eb070554ece08b6530b",
-    "pending_human_issues.json": "31dec5c5b25b21893c7e14bc02ed1f47a263f6ac88c41176827dc32e2e62d47b",
-    "question_catalog.json": "db67bc4af85a1f087b486026ca92ea27abda45af67b9e440a67d0f89fcedc3f5",
-    "readiness.json": "463ea7e4e71ea41f8336abf8e5fb46bfec7a1398b6b20e78820a0f6e5317589a",
-    "source_manifest.json": "2e19872eda352effca3870d3557b042a63e4dbcd32e6340f9f3e9c8577265040",
+    "paper_readiness.json": "bbde54f7ce01bcea4d7a564324fee9d9aa2a71891a92eaf290a8a031f46ead37",
+    "pending_human_issues.json": "3f5ece5be435e7e4fbdea3a4caba6c390b480ef37b77c105ae9202e705421b4c",
+    "question_catalog.json": "0483b2293cf0c9b0d66bc705aebef85402c1611a6a83bf5a9981aa7a35faec13",
+    "readiness.json": "f27abfa38d478dae31c6a99479ccf2561cc940bae4a21eebef81989a15587e7c",
+    "source_manifest.json": "8b966343113235ec72f9950b2379874656e93e8269be0db798f1c73e29f10fe7",
     "teacher_exposure.json": "5f5e644dde009ad78aac7358a8b68f03a1aa0422ed28d67d6b0b35c824470373",
     "七门课按需导航.md": "440154d23cc45a52125feedd08a828bd6f8bd8dfe20c3ae372a7c4dd63b122b6"
   }

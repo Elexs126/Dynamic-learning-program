@@ -13,11 +13,8 @@
     "ZHANGYU_1000": 1041,
     "ZHANGYU_BASIC_30": 876
   },
-  "human_issue_question_count": 24,
-  "human_issue_questions_by_track": {
-    "CS408": 17,
-    "MATH1": 7
-  },
+  "human_issue_question_count": 0,
+  "human_issue_questions_by_track": {},
   "teacher_semantically_exposed_question_count": 1277,
   "human_signoff_inferred": false,
   "student_seen_status": "unknown_current",

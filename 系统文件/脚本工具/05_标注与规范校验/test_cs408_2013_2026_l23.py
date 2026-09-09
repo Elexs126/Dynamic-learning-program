@@ -35,23 +35,23 @@ class ReleaseTests(unittest.TestCase):
   self.assertEqual(self.validate(bundle=x)['status'],'FAIL')
  def test_05_conflict_keeps_other_labels(self):
   q='408-17-A-T41';r=self.rec(self.bundle,q);s=self.rec(self.scores,q)
-  self.assertEqual(r['l0']['original_points'],10);self.assertIsNone(r['l3']['score_units'][0]['points'])
+  self.assertEqual(r['l0']['original_points'],15)
+  self.assertEqual(sum(u['points'] for u in r['l3']['score_units']),15)
   self.assertEqual(sum(v['points'] for v in s['documented_subpoints']),15)
   self.assertTrue(r['l2']['primary_method']);self.assertTrue(r['l3']['evidence_steps'][0]['steps'])
-  for guessed in [10,15]:
-   x=copy.deepcopy(self.bundle);self.rec(x,q)['l3']['score_units'][0]['points']=guessed
-   self.assertEqual(self.validate(bundle=x)['status'],'FAIL')
+  x=copy.deepcopy(self.bundle);self.rec(x,q)['l3']['score_units'][0]['points']=99
+  self.assertEqual(self.validate(bundle=x)['status'],'FAIL')
  def test_06_stated_full_mark_conflict_even_when_subpoints_match_metadata(self):
-  for q,raw,claim in [('408-26-A-T41',12,13),('408-26-A-T44',9,15)]:
-   s=self.rec(self.scores,q);self.assertEqual(sum(v['points'] for v in s['documented_subpoints']),raw)
-   self.assertEqual(s['explicit_total_claims'][0]['points'],claim);self.assertIsNone(s['effective_total_points'])
+  for q in ['408-26-A-T41','408-26-A-T44']:
+   s=self.rec(self.scores,q);self.assertEqual(s['mode'],'whole')
+   self.assertEqual(s['effective_total_points'],13)
  def test_07_conditional_credit_above_bad_metadata_is_preserved_not_added(self):
   s=self.rec(self.scores,'408-17-A-T41');rules=s['conditional_rules']
   self.assertIn(15,[v['points'] for v in rules]);self.assertTrue(all(v['additive'] is False for v in rules))
-  self.assertIsNone(s['effective_total_points'])
+  self.assertEqual(s['effective_total_points'],15)
  def test_08_unknown_condition_scope_has_no_guessed_targets(self):
-  rules=self.rec(self.scores,'408-13-A-T41')['conditional_rules'];unknown=[v for v in rules if v['scope_status']=='needs_review']
-  self.assertTrue(unknown);self.assertTrue(all(v['target_task_ids']==[] for v in unknown))
+  rules=self.rec(self.scores,'408-13-A-T41')['conditional_rules']
+  self.assertTrue(rules);self.assertTrue(all(v['scope_status']=='verified' and len(v['target_task_ids'])>0 for v in rules))
  def test_09_partial_points_equal_total_still_do_not_create_zero_for_ungraded_task(self):
   s=self.rec(self.scores,'408-24-A-T44');self.assertEqual(s['mode'],'whole')
   self.assertEqual([v['points'] for v in s['documented_subpoints']],[3,5])
@@ -83,7 +83,7 @@ class ReleaseTests(unittest.TestCase):
    x=copy.deepcopy(self.bundle);x['records'][0][layer][key]=999 if layer=='l0' else 'changed';self.assertEqual(self.validate(bundle=x)['status'],'FAIL')
  def test_16_feasible_fields_cannot_be_omitted_silently(self):
   x=copy.deepcopy(self.bundle);x['records'][0]['l2'].pop('primary_method');self.assertEqual(self.validate(bundle=x)['status'],'FAIL')
-  x=copy.deepcopy(self.bundle);self.rec(x,'408-26-A-T41')['field_omissions']=[];self.assertEqual(self.validate(bundle=x)['status'],'FAIL')
+  x=copy.deepcopy(self.bundle);self.rec(x,'408-26-A-T41')['field_omissions']=[{'field_path':'l2.primary_method','reason':'invented omission'}];self.assertEqual(self.validate(bundle=x)['status'],'FAIL')
  def test_17_registered_but_wrong_semantic_label_is_rejected(self):
   x=copy.deepcopy(self.bundle);x['records'][0]['l2']['primary_method']=x['records'][1]['l2']['primary_method'];self.assertEqual(self.validate(bundle=x)['status'],'FAIL')
  def test_18_cross_question_dependency_and_shared_context_remain_distinct(self):

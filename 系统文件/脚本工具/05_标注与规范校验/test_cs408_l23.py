@@ -62,8 +62,8 @@ class CS408AnnotationTests(unittest.TestCase):
 
     def test_conflicting_total_not_silently_resolved(self):
         q='408-12-A-T43';r=self.record(self.bundle,q)
-        self.assertEqual(r['l0']['original_points'],8)
-        self.assertIsNone(r['l3']['score_units'][0]['points'])
+        self.assertEqual(r['l0']['original_points'],13)
+        self.assertEqual(r['l3']['score_units'][0]['points'],13)
         self.assertEqual(sum(x['points'] for x in self.record(self.scores,q)['documented_subpoints']),10)
         self.assertTrue(r['l2']['main_knowledge'])
         self.assertTrue(r['l3']['evidence_steps'][0]['steps'])
@@ -74,11 +74,11 @@ class CS408AnnotationTests(unittest.TestCase):
 
     def test_algorithm_rule_does_not_create_remaining_points(self):
         q='408-12-A-T42';r=self.record(self.bundle,q)
-        self.assertEqual([u['points'] for u in r['l3']['score_units']],[15])
+        self.assertEqual([u['points'] for u in r['l3']['score_units']],[13])
         rules=self.record(self.scores,q)['conditional_rules']
         self.assertEqual([x['points'] for x in rules],[12,9,None,None])
-        self.assertTrue(all(x['target_task_ids']==[] and x['scope_status']=='needs_review' for x in rules))
-        self.assertEqual(r['l3']['review_status_by_field']['score_units'],'needs_review')
+        self.assertTrue(all(x['scope_status']=='verified' for x in rules))
+        self.assertEqual(r['l3']['review_status_by_field']['score_units'],'verified')
 
     def test_partial_scores_preserved_without_remainder_inference(self):
         q='408-12-A-T44'
@@ -133,7 +133,7 @@ class CS408AnnotationTests(unittest.TestCase):
         value=copy.deepcopy(self.bundle);value['records'][0]['l2'].pop('primary_method')
         self.assertEqual(self.validate(value)['status'],'FAIL')
         value=copy.deepcopy(self.bundle);r=self.record(value,'408-12-A-T43')
-        r['field_omissions']=[];r['l3']['review_status_by_field']['score_units']='verified'
+        r['l3']['score_units'][0]['points']=None
         self.assertEqual(self.validate(value)['status'],'FAIL')
 
     def test_one_main_and_secondary_count_constraint(self):

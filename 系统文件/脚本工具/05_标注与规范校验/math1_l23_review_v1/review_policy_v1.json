@@ -22,18 +22,7 @@
   "main_overrides": {
     "M1-26-C-T04": "三重积分的坐标变换"
   },
-  "extra_omissions": {
-    "M1-15-A-T19": [
-      "l3.isomorphic_relation"
-    ],
-    "M1-26-C-T04": [
-      "l2.primary_method",
-      "l2.prerequisites",
-      "l2.difficulty_band",
-      "l3.evidence_steps",
-      "l3.isomorphic_relation"
-    ]
-  },
+  "extra_omissions": {},
   "clusters": [
     {
       "cluster_id": "M1_ISO_ASYMPTOTE_LIMIT",

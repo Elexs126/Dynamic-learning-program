@@ -1,293 +1,292 @@
 {
-  "version": "cs408-2013-2026-scoring-plan-v1.0.0",
   "default_mode": "whole",
   "policy": "完整明确且所有本地总分声明一致的分项才成为可累加评分单元；不完整时保留整题。部分分项、条件得分和正文满分另存证据且不再次累加。有冲突时有效总分为null，不改L0。条件规则超过有误元数据但未超过明确细则上界时仅作非生效证据保存。",
   "questions": {
     "408-13-A-T41": {
-      "mode": "conflicting_total",
-      "documented_units": [
-        {
-          "points": 4,
-          "description": "线性时间常数空间档的算法思想",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "main_knowledge",
-          "target": "main",
-          "anchor": {
-            "line": 1479,
-            "match": "| O(n) | O(1) | 4 | 7 |",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 7,
-          "description": "线性时间常数空间档的算法实现",
-          "step_refs": [
-            "2.1",
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1479,
-            "match": "| O(n) | O(1) | 4 | 7 |",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "与实现一致的时间复杂度",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "复杂度分析",
-          "anchor": {
-            "line": 1496,
-            "match": "各给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "与实现一致的空间复杂度",
-          "step_refs": [
-            "3.2"
-          ],
-          "category": "secondary_knowledge",
-          "target": "复杂度分析",
-          "anchor": {
-            "line": 1496,
-            "match": "各给 1 分",
-            "occurrence": 1
-          }
-        }
+      "mode": "partition",
+      "notes": [
+        "元数据10分，最优档思想4分加实现7分加复杂度各1分为13分；两个总分口径冲突。排序9分建议的范围亦无法从文件确认。"
       ],
       "rules": [
         {
+          "additive": false,
+          "anchor": {
+            "line": 1480,
+            "match": "| O(n) | O(n) | 4 | 6 |",
+            "occurrence": 1
+          },
+          "application": "once",
+          "condition": "线性时间和线性空间的正确算法，思想部分",
           "kind": "conditional_credit",
           "points": 4,
-          "condition": "线性时间和线性空间的正确算法，思想部分",
+          "scope_status": "verified",
           "tasks": [
             1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1480,
             "match": "| O(n) | O(n) | 4 | 6 |",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_credit",
-          "points": 6,
+          "application": "once",
           "condition": "线性时间和线性空间的正确算法，实现部分",
-          "tasks": [
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
-          "anchor": {
-            "line": 1480,
-            "match": "| O(n) | O(n) | 4 | 6 |",
-            "occurrence": 1
-          },
-          "additive": false
-        },
-        {
-          "kind": "conditional_credit",
-          "points": 3,
-          "condition": "线性对数时间的正确算法，思想部分",
-          "tasks": [
-            1
-          ],
-          "application": "once",
-          "scope_status": "verified",
-          "anchor": {
-            "line": 1481,
-            "match": "| O(nlog2n) | 其他 | 3 | 6 |",
-            "occurrence": 1
-          },
-          "additive": false
-        },
-        {
           "kind": "conditional_credit",
           "points": 6,
-          "condition": "线性对数时间的正确算法，实现部分",
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1481,
             "match": "| O(nlog2n) | 其他 | 3 | 6 |",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "线性对数时间的正确算法，思想部分",
           "kind": "conditional_credit",
           "points": 3,
-          "condition": "不低于平方时间的正确算法，思想部分",
+          "scope_status": "verified",
           "tasks": [
             1
-          ],
+          ]
+        },
+        {
+          "additive": false,
+          "anchor": {
+            "line": 1481,
+            "match": "| O(nlog2n) | 其他 | 3 | 6 |",
+            "occurrence": 1
+          },
           "application": "once",
+          "condition": "线性对数时间的正确算法，实现部分",
+          "kind": "conditional_credit",
+          "points": 6,
           "scope_status": "verified",
+          "tasks": [
+            2
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1482,
             "match": "| ≥O(n2) | 其他 | 3 | 5 |",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "不低于平方时间的正确算法，思想部分",
+          "kind": "conditional_credit",
+          "points": 3,
+          "scope_status": "verified",
+          "tasks": [
+            1
+          ]
         },
         {
+          "additive": false,
+          "anchor": {
+            "line": 1482,
+            "match": "| ≥O(n2) | 其他 | 3 | 5 |",
+            "occurrence": 1
+          },
+          "application": "once",
+          "condition": "不低于平方时间的正确算法，实现部分",
           "kind": "conditional_credit",
           "points": 5,
-          "condition": "不低于平方时间的正确算法，实现部分",
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
-          "anchor": {
-            "line": 1482,
-            "match": "| ≥O(n2) | 其他 | 3 | 5 |",
-            "occurrence": 1
-          },
-          "additive": false
+          ]
         },
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "思想文字不清但正确实现能清晰体现思想，依算法效率档给分",
-          "tasks": [
-            1,
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1484,
             "match": "可参照①的标准给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
+          "application": "once",
+          "condition": "思想文字不清但正确实现能清晰体现思想，依算法效率档给分",
+          "kind": "clarification",
           "points": null,
-          "condition": "思想或实现部分正确，原文未给固定部分分",
+          "scope_status": "verified",
           "tasks": [
             1,
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1486,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_cap",
-          "points": 9,
-          "condition": "额外说明称排序统计最高9分，与评分表及复杂度分的合计关系未明确",
+          "application": "once",
+          "condition": "思想或实现部分正确，原文未给固定部分分",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
           "tasks": [
             1,
-            2,
-            3
-          ],
-          "application": "once",
-          "scope_status": "needs_review",
+            2
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1498,
             "match": "最高可拿 9 分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "额外说明称排序统计最高9分，与评分表及复杂度分的合计关系未明确",
+          "kind": "conditional_cap",
+          "points": 9,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2,
+            3
+          ]
         }
       ],
-      "notes": [
-        "元数据10分，最优档思想4分加实现7分加复杂度各1分为13分；两个总分口径冲突。排序9分建议的范围亦无法从文件确认。"
+      "units": [
+        {
+          "anchor": {
+            "line": 1479,
+            "match": "| O(n) | O(1) | 4 | 7 |",
+            "occurrence": 1
+          },
+          "category": "main_knowledge",
+          "description": "线性时间常数空间档的算法思想",
+          "points": 4,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1479,
+            "match": "| O(n) | O(1) | 4 | 7 |",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "线性时间常数空间档的算法实现",
+          "points": 7,
+          "step_refs": [
+            "2.1",
+            "2.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1496,
+            "match": "各给 1 分",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "与实现一致的时间复杂度",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "复杂度分析"
+        },
+        {
+          "anchor": {
+            "line": 1496,
+            "match": "各给 1 分",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "与实现一致的空间复杂度",
+          "points": 1,
+          "step_refs": [
+            "3.2"
+          ],
+          "target": "复杂度分析"
+        }
       ]
     },
     "408-13-A-T42": {
       "mode": "whole",
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "用实际元素列出概率降序排列也符合要求",
-          "tasks": [
-            1,
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1552,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_credit",
-          "points": 2,
-          "condition": "与所用查找方法一致的成功平均查找长度计算正确",
+          "application": "once",
+          "condition": "用实际元素列出概率降序排列也符合要求",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
           "tasks": [
             1,
             2
-          ],
-          "application": "per_task",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1554,
             "match": "给 2 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "per_task",
+          "condition": "与所用查找方法一致的成功平均查找长度计算正确",
           "kind": "conditional_credit",
-          "points": 1,
-          "condition": "平均查找长度过程正确而结果错误",
+          "points": 2,
+          "scope_status": "verified",
           "tasks": [
             1,
             2
-          ],
-          "application": "per_task",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1555,
             "match": "给 1 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "clarification",
-          "points": null,
-          "condition": "其他更高效且正确的查找方法按原标准给分",
+          "application": "per_task",
+          "condition": "平均查找长度过程正确而结果错误",
+          "kind": "conditional_credit",
+          "points": 1,
+          "scope_status": "verified",
           "tasks": [
             1,
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1557,
             "match": "可参照评分标准给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "其他更高效且正确的查找方法按原标准给分",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2
+          ]
         }
       ]
     },
@@ -295,39 +294,39 @@
       "mode": "whole",
       "rules": [
         {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "采用本地评分说明另列的近似执行时间表达式时酌情评分；不将近似式升级为主方法",
-          "tasks": [
-            4
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1604,
             "match": "可酌情给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "采用本地评分说明另列的近似执行时间表达式时酌情评分；不将近似式升级为主方法",
           "kind": "discretionary",
           "points": null,
-          "condition": "公式正确但计算结果错误",
-          "tasks": [
-            1,
-            2,
-            3,
-            4
-          ],
-          "application": "once",
           "scope_status": "verified",
+          "tasks": [
+            4
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1608,
             "match": "可酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "公式正确但计算结果错误",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2,
+            3,
+            4
+          ]
         }
       ]
     },
@@ -335,1629 +334,1629 @@
       "mode": "whole",
       "rules": [
         {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "反向范围未完整确定但偏移取值范围正确",
-          "tasks": [
-            1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1650,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "反向范围未完整确定但偏移取值范围正确",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1
+          ]
         },
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "正确部件名称或正确功能说明均可作为证据",
-          "tasks": [
-            4
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1660,
             "match": "均给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "正确部件名称或正确功能说明均可作为证据",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            4
+          ]
         }
       ]
     },
     "408-13-A-T45": {
       "mode": "partition",
-      "units": [
-        {
-          "points": 1,
-          "description": "互斥信号量初值",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1723,
-            "match": "初值给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "互斥信号量含义",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "main_knowledge",
-          "target": "main",
-          "anchor": {
-            "line": 1723,
-            "match": "说明含义给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "容量信号量初值",
-          "step_refs": [
-            "1.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1723,
-            "match": "初值给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "容量信号量含义",
-          "step_refs": [
-            "1.4"
-          ],
-          "category": "main_knowledge",
-          "target": "main",
-          "anchor": {
-            "line": 1723,
-            "match": "说明含义给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "共用门口的互斥操作",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1725,
-            "match": "给 2 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "馆内容量的申请归还",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1727,
-            "match": "给 1 分",
-            "occurrence": 1
-          }
-        }
-      ],
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "其他正确安排仍按原三个评分标准给分",
-          "tasks": [
-            1,
-            2,
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1729,
             "match": "参照①~③的标准给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "其他正确安排仍按原三个评分标准给分",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "units": [
+        {
+          "anchor": {
+            "line": 1723,
+            "match": "初值给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "互斥信号量初值",
+          "points": 1,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1723,
+            "match": "说明含义给 1 分",
+            "occurrence": 1
+          },
+          "category": "main_knowledge",
+          "description": "互斥信号量含义",
+          "points": 1,
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1723,
+            "match": "初值给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "容量信号量初值",
+          "points": 1,
+          "step_refs": [
+            "1.3"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1723,
+            "match": "说明含义给 1 分",
+            "occurrence": 1
+          },
+          "category": "main_knowledge",
+          "description": "容量信号量含义",
+          "points": 1,
+          "step_refs": [
+            "1.4"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1725,
+            "match": "给 2 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "共用门口的互斥操作",
+          "points": 2,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1727,
+            "match": "给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "馆内容量的申请归还",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "main"
         }
       ]
     },
     "408-13-A-T46": {
       "mode": "partition",
-      "units": [
-        {
-          "points": 1,
-          "description": "页大小",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1771,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "页表所占字节量",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1779,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "页目录字段提取",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1781,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "页表索引字段提取",
-          "step_refs": [
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1783,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "两个页表项的物理地址",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1797,
-            "match": "物理地址 1 和物理地址 2 共 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "两个页框号",
-          "step_refs": [
-            "3.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1797,
-            "match": "页框号 1 和页框号 2 共 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "第二代码页起始物理地址",
-          "step_refs": [
-            "3.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1797,
-            "match": "物理地址 3 给 1 分",
-            "occurrence": 1
-          }
-        }
+      "notes": [
+        "最后小问3分已采用其明确的三个1分细项，不再把总括3分加一次。"
       ],
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "字段提取省略无符号类型转换但原理正确",
-          "tasks": [
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1787,
             "match": "没有对 LA 进行类型转换，同样给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "字段提取省略无符号类型转换但原理正确",
           "kind": "clarification",
           "points": null,
-          "condition": "用除法等较大开销运算但字段划分正确",
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1789,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "用除法等较大开销运算但字段划分正确",
           "kind": "clarification",
           "points": null,
-          "condition": "用其他语言或自然语言正确表达",
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1791,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "用其他语言或自然语言正确表达",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            2
+          ]
         }
       ],
-      "notes": [
-        "最后小问3分已采用其明确的三个1分细项，不再把总括3分加一次。"
+      "units": [
+        {
+          "anchor": {
+            "line": 1771,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "页大小",
+          "points": 1,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1779,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "页表所占字节量",
+          "points": 2,
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1781,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "页目录字段提取",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1783,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "页表索引字段提取",
+          "points": 1,
+          "step_refs": [
+            "2.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1797,
+            "match": "物理地址 1 和物理地址 2 共 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "两个页表项的物理地址",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1797,
+            "match": "页框号 1 和页框号 2 共 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "两个页框号",
+          "points": 1,
+          "step_refs": [
+            "3.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1797,
+            "match": "物理地址 3 给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第二代码页起始物理地址",
+          "points": 1,
+          "step_refs": [
+            "3.3"
+          ],
+          "target": "main"
+        }
       ]
     },
     "408-13-A-T47": {
       "mode": "partition",
-      "units": [
-        {
-          "points": 0.5,
-          "description": "第1类路由的目的网络地址",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "但无前缀长度，给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 0.5,
-          "description": "第1类路由的前缀长度",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "正确解答前缀长度给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 0.5,
-          "description": "第1类路由的下一跳",
-          "step_refs": [
-            "1.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "正确解答下一跳 IP 地址给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 0.5,
-          "description": "第1类路由的出口",
-          "step_refs": [
-            "1.4"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "正确解答接口给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 0.5,
-          "description": "第2类路由的目的网络地址",
-          "step_refs": [
-            "1.5"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "但无前缀长度，给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 0.5,
-          "description": "第2类路由的前缀长度",
-          "step_refs": [
-            "1.6"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "正确解答前缀长度给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 0.5,
-          "description": "第2类路由的下一跳",
-          "step_refs": [
-            "1.7"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "正确解答下一跳 IP 地址给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 0.5,
-          "description": "第2类路由的出口",
-          "step_refs": [
-            "1.8"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "正确解答接口给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 0.5,
-          "description": "第3类路由的目的网络地址",
-          "step_refs": [
-            "1.9"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "但无前缀长度，给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 0.5,
-          "description": "第3类路由的前缀长度",
-          "step_refs": [
-            "1.10"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "正确解答前缀长度给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 0.5,
-          "description": "第3类路由的下一跳",
-          "step_refs": [
-            "1.11"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "正确解答下一跳 IP 地址给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 0.5,
-          "description": "第3类路由的出口",
-          "step_refs": [
-            "1.12"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1845,
-            "match": "正确解答接口给 0.5 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "最长前缀转发出口",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "main_knowledge",
-          "target": "main",
-          "anchor": {
-            "line": 1849,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "跨自治系统路由协议",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "跨自治系统路由协议",
-          "anchor": {
-            "line": 1851,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "路由报文直接承载协议",
-          "step_refs": [
-            "3.2"
-          ],
-          "category": "secondary_knowledge",
-          "target": "跨自治系统路由协议",
-          "anchor": {
-            "line": 1851,
-            "match": "（1 分）",
-            "occurrence": 2
-          }
-        }
+      "notes": [
+        "每条路由2分、路由小问6分均为其0.5分字段的上级合计，不作为额外分值。"
       ],
       "rules": [
         {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "路由项部分正确或未满足最少条目要求",
-          "tasks": [
-            1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1847,
             "match": "可酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "路由项部分正确或未满足最少条目要求",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1
+          ]
         },
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "按原文接受EGP与其正确承载协议组合",
-          "tasks": [
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1853,
             "match": "亦给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "按原文接受EGP与其正确承载协议组合",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            3
+          ]
         }
       ],
-      "notes": [
-        "每条路由2分、路由小问6分均为其0.5分字段的上级合计，不作为额外分值。"
+      "units": [
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "但无前缀长度，给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第1类路由的目的网络地址",
+          "points": 0.5,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "正确解答前缀长度给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第1类路由的前缀长度",
+          "points": 0.5,
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "正确解答下一跳 IP 地址给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第1类路由的下一跳",
+          "points": 0.5,
+          "step_refs": [
+            "1.3"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "正确解答接口给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第1类路由的出口",
+          "points": 0.5,
+          "step_refs": [
+            "1.4"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "但无前缀长度，给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第2类路由的目的网络地址",
+          "points": 0.5,
+          "step_refs": [
+            "1.5"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "正确解答前缀长度给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第2类路由的前缀长度",
+          "points": 0.5,
+          "step_refs": [
+            "1.6"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "正确解答下一跳 IP 地址给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第2类路由的下一跳",
+          "points": 0.5,
+          "step_refs": [
+            "1.7"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "正确解答接口给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第2类路由的出口",
+          "points": 0.5,
+          "step_refs": [
+            "1.8"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "但无前缀长度，给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第3类路由的目的网络地址",
+          "points": 0.5,
+          "step_refs": [
+            "1.9"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "正确解答前缀长度给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第3类路由的前缀长度",
+          "points": 0.5,
+          "step_refs": [
+            "1.10"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "正确解答下一跳 IP 地址给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第3类路由的下一跳",
+          "points": 0.5,
+          "step_refs": [
+            "1.11"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1845,
+            "match": "正确解答接口给 0.5 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第3类路由的出口",
+          "points": 0.5,
+          "step_refs": [
+            "1.12"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1849,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "main_knowledge",
+          "description": "最长前缀转发出口",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1851,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "跨自治系统路由协议",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "跨自治系统路由协议"
+        },
+        {
+          "anchor": {
+            "line": 1851,
+            "match": "（1 分）",
+            "occurrence": 2
+          },
+          "category": "secondary_knowledge",
+          "description": "路由报文直接承载协议",
+          "points": 1,
+          "step_refs": [
+            "3.2"
+          ],
+          "target": "跨自治系统路由协议"
+        }
       ]
     },
     "408-14-A-T41": {
       "mode": "whole",
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "其他满足要求且正确的算法同样接受",
-          "tasks": [
-            1,
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1324,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "其他满足要求且正确的算法同样接受",
           "kind": "clarification",
           "points": null,
-          "condition": "C或C++语言实现正确均接受",
-          "tasks": [
-            2,
-            3
-          ],
-          "application": "once",
           "scope_status": "verified",
+          "tasks": [
+            1,
+            3
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1326,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "C或C++语言实现正确均接受",
           "kind": "clarification",
           "points": null,
-          "condition": "思想或数据结构文字不准确但实现清晰正确",
+          "scope_status": "verified",
           "tasks": [
-            1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1328,
             "match": "参照①的标准给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "思想或数据结构文字不准确但实现清晰正确",
           "kind": "clarification",
           "points": null,
-          "condition": "结点权值使用其他数值类型也接受",
+          "scope_status": "verified",
           "tasks": [
+            1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1330,
             "match": "可视同使用整型类型",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "结点权值使用其他数值类型也接受",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            2,
+            3
+          ]
         },
         {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "思想或算法部分正确，原文未给固定部分分",
-          "tasks": [
-            1,
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1332,
             "match": "可酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "思想或算法部分正确，原文未给固定部分分",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            3
+          ]
         }
       ]
     },
     "408-14-A-T42": {
-      "mode": "whole",
       "documented_units": [
         {
-          "points": 1,
-          "description": "识别网络的图结构",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "main_knowledge",
-          "target": "main",
           "anchor": {
             "line": 1367,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "main_knowledge",
+          "description": "识别网络的图结构",
+          "points": 1,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
         }
+      ],
+      "mode": "whole",
+      "notes": [
+        "只给图结构1分，其余要求没有独立分值，不能按总分反推。"
       ],
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "与图结构含义等同的结构描述同样接受",
-          "tasks": [
-            1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1371,
             "match": "与图含义相似的描述",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "与图结构含义等同的结构描述同样接受",
           "kind": "clarification",
           "points": null,
-          "condition": "邻接表的表头使用一维数组保存",
-          "tasks": [
-            2
-          ],
-          "application": "once",
           "scope_status": "verified",
+          "tasks": [
+            1
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1409,
             "match": "保存在一个一维数组中",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "邻接表的表头使用一维数组保存",
           "kind": "clarification",
           "points": null,
-          "condition": "路由链和网络链采用两种结点及两个头指针",
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1413,
             "match": "两个指针",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "路由链和网络链采用两种结点及两个头指针",
           "kind": "clarification",
           "points": null,
-          "condition": "前缀长度可单独保存或与网络地址同域保存",
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1417,
             "match": "与网络地址保存在同一个域中",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "前缀长度可单独保存或与网络地址同域保存",
           "kind": "clarification",
           "points": null,
-          "condition": "子网也作为图结点，链式结构保留题内信息即可",
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1420,
             "match": "均可参照①③的标准给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "子网也作为图结点，链式结构保留题内信息即可",
           "kind": "clarification",
           "points": null,
-          "condition": "图示与类型定义一致并体现链接和连接关系，不强制结点内细节",
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1422,
             "match": "图示部分与其数据类型定义部分一致",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
+          "application": "once",
+          "condition": "图示与类型定义一致并体现链接和连接关系，不强制结点内细节",
+          "kind": "clarification",
           "points": null,
-          "condition": "链式表示部分正确时酌情给分",
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1425,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "链式表示部分正确时酌情给分",
           "kind": "discretionary",
           "points": null,
-          "condition": "最短路径结果部分正确",
-          "tasks": [
-            3
-          ],
-          "application": "once",
           "scope_status": "verified",
+          "tasks": [
+            2
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1438,
             "match": "可酌情给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "最短路径结果部分正确",
           "kind": "discretionary",
           "points": null,
-          "condition": "路径及代价正确但给出次序未满足代价不减",
+          "scope_status": "verified",
           "tasks": [
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1440,
             "match": "不完全符合代价不减",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "路径及代价正确但给出次序未满足代价不减",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            3
+          ]
         }
-      ],
-      "notes": [
-        "只给图结构1分，其余要求没有独立分值，不能按总分反推。"
       ]
     },
     "408-14-A-T43": {
-      "mode": "conflicting_total",
-      "documented_units": [
-        {
-          "points": 2,
-          "description": "直连路由项",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1483,
-            "match": "给 2 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "同向汇总路由项",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1483,
-            "match": "给 2 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "另一出口路由项",
-          "step_refs": [
-            "1.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1483,
-            "match": "给 2 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "转发接口",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1486,
-            "match": "（1分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "经过路由器后的TTL",
-          "step_refs": [
-            "2.2"
-          ],
-          "category": "secondary_knowledge",
-          "target": "TTL转发",
-          "anchor": {
-            "line": 1486,
-            "match": "（1分）",
-            "occurrence": 2
-          }
-        },
-        {
-          "points": 1,
-          "description": "新增默认网络及度量",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "默认路由",
-          "anchor": {
-            "line": 1488,
-            "match": "（1分）",
-            "occurrence": 1
-          }
-        }
+      "mode": "partition",
+      "notes": [
+        "原总分8分，完整分项合计9分；路由小问6分不与三个2分重复累加。"
       ],
       "rules": [
         {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "路由项部分正确或数量超过最少要求",
-          "tasks": [
-            1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1484,
             "match": "可酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "路由项部分正确或数量超过最少要求",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1
+          ]
         },
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "以默认前缀和度量说明新增LSI内容即可",
-          "tasks": [
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1490,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "以默认前缀和度量说明新增LSI内容即可",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            3
+          ]
         }
       ],
-      "notes": [
-        "原总分8分，完整分项合计9分；路由小问6分不与三个2分重复累加。"
-      ]
-    },
-    "408-14-A-T44": {
-      "mode": "conflicting_total",
-      "documented_units": [
+      "units": [
         {
+          "anchor": {
+            "line": 1483,
+            "match": "给 2 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "直连路由项",
           "points": 2,
-          "description": "按指令地址判断编址单位",
           "step_refs": [
             "1.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1539,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
+          "anchor": {
+            "line": 1483,
+            "match": "给 2 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "同向汇总路由项",
           "points": 2,
-          "description": "数组元素宽度",
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1483,
+            "match": "给 2 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "另一出口路由项",
+          "points": 2,
+          "step_refs": [
+            "1.3"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1486,
+            "match": "（1分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "转发接口",
+          "points": 1,
           "step_refs": [
             "2.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1540,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
+          "anchor": {
+            "line": 1486,
+            "match": "（1分）",
+            "occurrence": 2
+          },
+          "category": "secondary_knowledge",
+          "description": "经过路由器后的TTL",
           "points": 1,
-          "description": "分支偏移字段",
+          "step_refs": [
+            "2.2"
+          ],
+          "target": "TTL转发"
+        },
+        {
+          "anchor": {
+            "line": 1488,
+            "match": "（1分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "新增默认网络及度量",
+          "points": 1,
           "step_refs": [
             "3.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1541,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "偏移缩放单位",
-          "step_refs": [
-            "3.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1541,
-            "match": "（1 分）",
-            "occurrence": 2
-          }
-        },
-        {
-          "points": 1,
-          "description": "相对转移目标关系",
-          "step_refs": [
-            "3.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1541,
-            "match": "（1 分）",
-            "occurrence": 3
-          }
-        },
-        {
-          "points": 3,
-          "description": "导致流水停顿的数据相关",
-          "step_refs": [
-            "4.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "流水线数据与控制冒险",
-          "anchor": {
-            "line": 1542,
-            "match": "（3 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "控制冒险定位",
-          "step_refs": [
-            "4.2"
-          ],
-          "category": "secondary_knowledge",
-          "target": "流水线数据与控制冒险",
-          "anchor": {
-            "line": 1544,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "跨循环依赖不再增加停顿的理由",
-          "step_refs": [
-            "4.3"
-          ],
-          "category": "secondary_knowledge",
-          "target": "流水线数据与控制冒险",
-          "anchor": {
-            "line": 1546,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "默认路由"
         }
+      ]
+    },
+    "408-14-A-T44": {
+      "mode": "partition",
+      "notes": [
+        "元数据10分，解析完整标分合计12分，保留双方证据；末条评分说明的问次编号按内容消歧。"
       ],
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "通过指令对数据相关解释同一组阻塞指令",
-          "tasks": [
-            4
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1548,
             "match": "同样给 3 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_credit",
-          "points": 3,
-          "condition": "正确识别超过三个目标阻塞指令",
+          "application": "once",
+          "condition": "通过指令对数据相关解释同一组阻塞指令",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
           "tasks": [
             4
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1548,
             "match": "答对 3 个以上给 3 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "数据相关判断部分正确",
+          "application": "once",
+          "condition": "正确识别超过三个目标阻塞指令",
+          "kind": "conditional_credit",
+          "points": 3,
+          "scope_status": "verified",
           "tasks": [
             4
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1548,
             "match": "部分正确酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "数据相关判断部分正确",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            4
+          ]
         }
       ],
-      "notes": [
-        "元数据10分，解析完整标分合计12分，保留双方证据；末条评分说明的问次编号按内容消歧。"
-      ]
-    },
-    "408-14-A-T45": {
-      "mode": "conflicting_total",
-      "documented_units": [
+      "units": [
         {
-          "points": 1,
-          "description": "循环终止寄存器状态",
+          "anchor": {
+            "line": 1539,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "按指令地址判断编址单位",
+          "points": 2,
           "step_refs": [
             "1.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1576,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "指令Cache数据容量",
+          "anchor": {
+            "line": 1540,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "数组元素宽度",
+          "points": 2,
           "step_refs": [
             "2.1"
           ],
-          "category": "method_operation",
-          "target": "main",
+          "target": "main"
+        },
+        {
           "anchor": {
-            "line": 1578,
+            "line": 1541,
             "match": "（1 分）",
             "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "指令Cache命中率及依据",
-          "step_refs": [
-            "2.2"
-          ],
+          },
           "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1580,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "溢出异常定位",
+          "description": "分支偏移字段",
+          "points": 1,
           "step_refs": [
             "3.1"
           ],
-          "category": "secondary_knowledge",
-          "target": "指令异常",
-          "anchor": {
-            "line": 1584,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
+          "anchor": {
+            "line": 1541,
+            "match": "（1 分）",
+            "occurrence": 2
+          },
+          "category": "method_operation",
+          "description": "偏移缩放单位",
           "points": 1,
-          "description": "缺页异常定位",
           "step_refs": [
             "3.2"
           ],
-          "category": "secondary_knowledge",
-          "target": "指令异常",
-          "anchor": {
-            "line": 1586,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "磁盘调入次数",
+          "anchor": {
+            "line": 1541,
+            "match": "（1 分）",
+            "occurrence": 3
+          },
+          "category": "method_operation",
+          "description": "相对转移目标关系",
+          "points": 1,
           "step_refs": [
             "3.3"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1588,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "TLB访问次数",
-          "step_refs": [
-            "3.4"
-          ],
-          "category": "secondary_knowledge",
-          "target": "TLB访问",
           "anchor": {
-            "line": 1590,
-            "match": "（2 分）",
+            "line": 1542,
+            "match": "（3 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "导致流水停顿的数据相关",
+          "points": 3,
+          "step_refs": [
+            "4.1"
+          ],
+          "target": "流水线数据与控制冒险"
+        },
+        {
+          "anchor": {
+            "line": 1544,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "控制冒险定位",
+          "points": 1,
+          "step_refs": [
+            "4.2"
+          ],
+          "target": "流水线数据与控制冒险"
+        },
+        {
+          "anchor": {
+            "line": 1546,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "跨循环依赖不再增加停顿的理由",
+          "points": 1,
+          "step_refs": [
+            "4.3"
+          ],
+          "target": "流水线数据与控制冒险"
         }
+      ]
+    },
+    "408-14-A-T45": {
+      "mode": "partition",
+      "notes": [
+        "元数据7分，解析完整分项11分，评分总分待核对；条件给分只作用于说明中的对应步骤，不是对整道题追加给分。"
       ],
       "rules": [
         {
-          "kind": "conditional_credit",
-          "points": 1,
-          "condition": "只有正确Cache命中率，没有原因与过程",
-          "tasks": [
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1582,
             "match": "给 1 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "命中率结果错误但思路正确",
+          "application": "once",
+          "condition": "只有正确Cache命中率，没有原因与过程",
+          "kind": "conditional_credit",
+          "points": 1,
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1582,
             "match": "可酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "命中率结果错误但思路正确",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            2
+          ]
         },
         {
-          "kind": "conditional_credit",
-          "points": 1,
-          "condition": "正确包含主要溢出指令，但额外列入其他运算指令",
-          "tasks": [
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1594,
             "match": "给 1 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_zero",
-          "points": 0,
-          "condition": "不符合该溢出判断给分条件的其余情况",
+          "application": "once",
+          "condition": "正确包含主要溢出指令，但额外列入其他运算指令",
+          "kind": "conditional_credit",
+          "points": 1,
+          "scope_status": "verified",
           "tasks": [
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1594,
             "match": "给 0 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "clarification",
-          "points": null,
-          "condition": "按访存指令名称而非题内序号指出缺页来源",
+          "application": "once",
+          "condition": "不符合该溢出判断给分条件的其余情况",
+          "kind": "conditional_zero",
+          "points": 0,
+          "scope_status": "verified",
           "tasks": [
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1596,
             "match": "即可得分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "按访存指令名称而非题内序号指出缺页来源",
           "kind": "clarification",
           "points": null,
-          "condition": "采用原文另外接受的TLB重查计数口径",
+          "scope_status": "verified",
           "tasks": [
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1598,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_credit",
-          "points": 3,
-          "condition": "TLB与磁盘次数正确但不说明原因",
+          "application": "once",
+          "condition": "采用原文另外接受的TLB重查计数口径",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
           "tasks": [
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1598,
             "match": "给 3 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "访问次数错误但分析思路正确",
+          "application": "once",
+          "condition": "TLB与磁盘次数正确但不说明原因",
+          "kind": "conditional_credit",
+          "points": 3,
+          "scope_status": "verified",
           "tasks": [
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1598,
             "match": "可酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "访问次数错误但分析思路正确",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            3
+          ]
         }
       ],
-      "notes": [
-        "元数据7分，解析完整分项11分，评分总分待核对；条件给分只作用于说明中的对应步骤，不是对整道题追加给分。"
-      ]
-    },
-    "408-14-A-T46": {
-      "mode": "conflicting_total",
-      "documented_units": [
+      "units": [
         {
+          "anchor": {
+            "line": 1576,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "循环终止寄存器状态",
           "points": 1,
-          "description": "连续分配最少磁盘访问",
           "step_refs": [
             "1.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1626,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "FCB更新信息",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
-            "line": 1628,
+            "line": 1578,
             "match": "（1 分）",
             "occurrence": 1
-          }
-        },
-        {
+          },
+          "category": "method_operation",
+          "description": "指令Cache数据容量",
           "points": 1,
-          "description": "链接更新过程",
           "step_refs": [
             "2.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1630,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "链接分配磁盘访问总数",
+          "anchor": {
+            "line": 1580,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "指令Cache命中率及依据",
+          "points": 2,
           "step_refs": [
             "2.2"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1630,
-            "match": "（1 分）",
-            "occurrence": 2
-          }
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "扣除链接字段后的最大文件载荷",
-          "step_refs": [
-            "2.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
-            "line": 1632,
+            "line": 1584,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "溢出异常定位",
+          "points": 2,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "指令异常"
+        },
+        {
+          "anchor": {
+            "line": 1586,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "缺页异常定位",
+          "points": 1,
+          "step_refs": [
+            "3.2"
+          ],
+          "target": "指令异常"
+        },
+        {
+          "anchor": {
+            "line": 1588,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "磁盘调入次数",
+          "points": 2,
+          "step_refs": [
+            "3.3"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1590,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "TLB访问次数",
+          "points": 2,
+          "step_refs": [
+            "3.4"
+          ],
+          "target": "TLB访问"
         }
+      ]
+    },
+    "408-14-A-T46": {
+      "mode": "partition",
+      "notes": [
+        "元数据8分，而覆盖各要求的明确分项只合计6分；不能把差额自由分配。"
       ],
       "rules": [
         {
-          "kind": "conditional_zero",
-          "points": 0,
-          "condition": "FCB变化未包含起始位置与文件大小的必要信息",
-          "tasks": [
-            1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1636,
             "match": "不给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "FCB变化未包含起始位置与文件大小的必要信息",
+          "kind": "conditional_zero",
+          "points": 0,
+          "scope_status": "verified",
+          "tasks": [
+            1
+          ]
         },
         {
-          "kind": "conditional_credit",
-          "points": 1,
-          "condition": "最大长度计入了链接字段占用而未扣除",
-          "tasks": [
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1638,
             "match": "给 1 分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "最大长度计入了链接字段占用而未扣除",
+          "kind": "conditional_credit",
+          "points": 1,
+          "scope_status": "verified",
+          "tasks": [
+            2
+          ]
         }
       ],
-      "notes": [
-        "元数据8分，而覆盖各要求的明确分项只合计6分；不能把差额自由分配。"
-      ]
-    },
-    "408-14-A-T47": {
-      "mode": "conflicting_total",
-      "documented_units": [
+      "units": [
         {
-          "points": 2,
-          "description": "信号量含义与初值",
+          "anchor": {
+            "line": 1626,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "连续分配最少磁盘访问",
+          "points": 1,
           "step_refs": [
             "1.1"
           ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1628,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
           "category": "method_operation",
-          "target": "main",
+          "description": "FCB更新信息",
+          "points": 1,
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1630,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "链接更新过程",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1630,
+            "match": "（1 分）",
+            "occurrence": 2
+          },
+          "category": "method_operation",
+          "description": "链接分配磁盘访问总数",
+          "points": 1,
+          "step_refs": [
+            "2.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1632,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "扣除链接字段后的最大文件载荷",
+          "points": 2,
+          "step_refs": [
+            "2.3"
+          ],
+          "target": "main"
+        }
+      ]
+    },
+    "408-14-A-T47": {
+      "documented_units": [
+        {
           "anchor": {
             "line": 1703,
             "match": "给 2 分",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "信号量含义与初值",
+          "points": 2,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "生产者之间互斥",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1705,
             "match": "生产者之间的互斥操作正确给 1 分",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "生产者之间互斥",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "生产消费同步",
-          "step_refs": [
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1705,
             "match": "同步操作正确给 2 分",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "生产消费同步",
+          "points": 2,
+          "step_refs": [
+            "2.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "消费者之间互斥",
-          "step_refs": [
-            "2.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1705,
             "match": "消费者之间互斥操作正确给 1 分",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "消费者之间互斥",
+          "points": 1,
+          "step_refs": [
+            "2.3"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "连续批量取用控制",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "main_knowledge",
-          "target": "main",
           "anchor": {
             "line": 1707,
             "match": "给 2 分",
             "occurrence": 1
-          }
+          },
+          "category": "main_knowledge",
+          "description": "连续批量取用控制",
+          "points": 2,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "main"
         }
+      ],
+      "mode": "whole",
+      "notes": [
+        "元数据9分，明确评分项合计8分，不能自动补1分；正文空满初值与代码不同，标签依据初始为空和代码一致部分。"
       ],
       "rules": [
         {
-          "kind": "conditional_cap",
-          "points": 3,
-          "condition": "只完成经典生产者消费者同步，缺少批次控制",
-          "tasks": [
-            1,
-            2,
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1709,
             "match": "最多给 3 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_credit",
-          "points": 6,
-          "condition": "按达到整批产品数量才能开始消费的解释实现，其他部分正确",
+          "application": "once",
+          "condition": "只完成经典生产者消费者同步，缺少批次控制",
+          "kind": "conditional_cap",
+          "points": 3,
+          "scope_status": "verified",
           "tasks": [
             1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1711,
             "match": "得 6 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "部分正确按原文酌情给分",
+          "application": "once",
+          "condition": "按达到整批产品数量才能开始消费的解释实现，其他部分正确",
+          "kind": "conditional_credit",
+          "points": 6,
+          "scope_status": "verified",
           "tasks": [
             1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1713,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "部分正确按原文酌情给分",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2,
+            3
+          ]
         }
-      ],
-      "notes": [
-        "元数据9分，明确评分项合计8分，不能自动补1分；正文空满初值与代码不同，标签依据初始为空和代码一致部分。"
       ]
     },
     "408-15-A-T41": {
       "mode": "whole",
       "rules": [
         {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "算法满足功能且正确时酌情给分，原文没有数值档",
-          "tasks": [
-            1,
-            2,
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1519,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "算法满足功能且正确时酌情给分，原文没有数值档",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2,
+            3
+          ]
         },
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "所报时间和空间复杂度与实际实现一致",
-          "tasks": [
-            4
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1523,
             "match": "可给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "所报时间和空间复杂度与实际实现一致",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            4
+          ]
         }
       ]
     },
@@ -1965,100 +1964,100 @@
       "mode": "whole",
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "程序可见寄存器及暂存器作用各按正确部分计分，无明确数值",
-          "tasks": [
-            1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1659,
             "match": "给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
+          "application": "once",
+          "condition": "程序可见寄存器及暂存器作用各按正确部分计分，无明确数值",
+          "kind": "clarification",
           "points": null,
-          "condition": "寄存器判断或暂存器解释部分正确",
+          "scope_status": "verified",
           "tasks": [
             1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1659,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "寄存器判断或暂存器解释部分正确",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1
+          ]
         },
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "正确部件名称或正确连接隔离功能说明均接受",
-          "tasks": [
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1665,
             "match": "即给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "正确部件名称或正确连接隔离功能说明均接受",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            3
+          ]
         },
         {
-          "kind": "conditional_zero",
-          "points": 0,
-          "condition": "控制输出端点集合混入数据通路端点",
-          "tasks": [
-            4
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1669,
             "match": "不给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "控制端点集合未答全",
+          "application": "once",
+          "condition": "控制输出端点集合混入数据通路端点",
+          "kind": "conditional_zero",
+          "points": 0,
+          "scope_status": "verified",
           "tasks": [
             4
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1669,
             "match": "答案不全酌情给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "控制端点集合未答全",
           "kind": "discretionary",
           "points": null,
-          "condition": "其他补线按原文酌情评分",
-          "tasks": [
-            5
-          ],
-          "application": "once",
           "scope_status": "verified",
+          "tasks": [
+            4
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1673,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "其他补线按原文酌情评分",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            5
+          ]
         }
       ]
     },
@@ -2066,20 +2065,20 @@
       "mode": "whole",
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "每正确给出两个控制信号可给分，但每组分值未提供",
-          "tasks": [
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1734,
             "match": "答对两个给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "每正确给出两个控制信号可给分，但每组分值未提供",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            3
+          ]
         }
       ]
     },
@@ -2087,72 +2086,72 @@
       "mode": "whole",
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "每对信号量定义和初值正确分别作为评分证据",
-          "tasks": [
-            1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1836,
             "match": "给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "每对信号量定义和初值正确分别作为评分证据",
           "kind": "clarification",
           "points": null,
-          "condition": "每个互斥信号量的操作正确分别作为证据",
-          "tasks": [
-            2,
-            3
-          ],
-          "application": "once",
           "scope_status": "verified",
+          "tasks": [
+            1
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1838,
             "match": "各给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "每个互斥信号量的操作正确分别作为证据",
           "kind": "clarification",
           "points": null,
-          "condition": "每个同步信号量的操作正确分别作为证据",
+          "scope_status": "verified",
           "tasks": [
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1840,
             "match": "各给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
+          "application": "once",
+          "condition": "每个同步信号量的操作正确分别作为证据",
+          "kind": "clarification",
           "points": null,
-          "condition": "其他实现按原文酌情给分",
+          "scope_status": "verified",
           "tasks": [
-            1,
             2,
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1842,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "其他实现按原文酌情给分",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2,
+            3
+          ]
         }
       ]
     },
@@ -2160,1583 +2159,1583 @@
       "mode": "whole",
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "其他计算方法只要思路和结果正确也接受",
-          "tasks": [
-            1,
-            2,
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1894,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "其他计算方法只要思路和结果正确也接受",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2,
+            3
+          ]
         }
       ]
     },
     "408-16-A-T41": {
-      "mode": "conflicting_total",
-      "documented_units": [
+      "mode": "partition",
+      "notes": [
+        "原总分10分，九个明确评分项合计9分；速率单位的字节比特转换错误未复制到标签。"
+      ],
+      "units": [
         {
-          "points": 1,
+          "anchor": {
+            "line": 1641,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
           "description": "第二次握手SYN标志",
+          "points": 1,
           "step_refs": [
             "1.1"
           ],
-          "category": "method_operation",
-          "target": "main",
+          "target": "main"
+        },
+        {
           "anchor": {
             "line": 1641,
             "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
+            "occurrence": 2
+          },
+          "category": "method_operation",
           "description": "第二次握手ACK标志",
+          "points": 1,
           "step_refs": [
             "1.2"
           ],
-          "category": "method_operation",
-          "target": "main",
+          "target": "main"
+        },
+        {
           "anchor": {
             "line": 1641,
             "match": "（1 分）",
-            "occurrence": 2
-          }
-        },
-        {
-          "points": 1,
+            "occurrence": 3
+          },
+          "category": "method_operation",
           "description": "握手确认序号",
+          "points": 1,
           "step_refs": [
             "1.3"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1641,
-            "match": "（1 分）",
-            "occurrence": 3
-          }
+          "target": "main"
         },
         {
-          "points": 1,
+          "anchor": {
+            "line": 1643,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
           "description": "通告接收窗口",
+          "points": 1,
           "step_refs": [
             "2.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1643,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "拥塞窗口",
-          "step_refs": [
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1643,
             "match": "（1 分）",
             "occurrence": 2
-          }
+          },
+          "category": "method_operation",
+          "description": "拥塞窗口",
+          "points": 1,
+          "step_refs": [
+            "2.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "发送窗口",
-          "step_refs": [
-            "2.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1643,
             "match": "（1 分）",
             "occurrence": 3
-          }
+          },
+          "category": "method_operation",
+          "description": "发送窗口",
+          "points": 1,
+          "step_refs": [
+            "2.3"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "下一待发送数据序号",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1645,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "下一待发送数据序号",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "平均数据传输速率",
-          "step_refs": [
-            "3.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1645,
             "match": "（1 分）",
             "occurrence": 2
-          }
+          },
+          "category": "method_operation",
+          "description": "平均数据传输速率",
+          "points": 1,
+          "step_refs": [
+            "3.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "被动方最早释放时刻",
-          "step_refs": [
-            "4.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "连接释放时序",
           "anchor": {
             "line": 1647,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "被动方最早释放时刻",
+          "points": 1,
+          "step_refs": [
+            "4.1"
+          ],
+          "target": "连接释放时序"
         }
-      ],
-      "notes": [
-        "原总分10分，九个明确评分项合计9分；速率单位的字节比特转换错误未复制到标签。"
       ]
     },
     "408-16-A-T42": {
       "mode": "whole",
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "其他正确推导方法同样接受",
-          "tasks": [
-            1,
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1789,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_cap",
-          "points": 2,
-          "condition": "叶数问只给结果而未推导",
-          "tasks": [
-            1
-          ],
           "application": "once",
-          "scope_status": "verified",
-          "anchor": {
-            "line": 1790,
-            "match": "分别是 2 分和 3 分",
-            "occurrence": 1
-          },
-          "additive": false
-        },
-        {
-          "kind": "conditional_cap",
-          "points": 3,
-          "condition": "最大最小结点数问只给结果而未推导",
-          "tasks": [
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
-          "anchor": {
-            "line": 1790,
-            "match": "分别是 2 分和 3 分",
-            "occurrence": 1
-          },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
+          "condition": "其他正确推导方法同样接受",
+          "kind": "clarification",
           "points": null,
-          "condition": "推导或结果部分正确",
+          "scope_status": "verified",
           "tasks": [
             1,
             2
-          ],
+          ]
+        },
+        {
+          "additive": false,
+          "anchor": {
+            "line": 1790,
+            "match": "分别是 2 分和 3 分",
+            "occurrence": 1
+          },
           "application": "once",
+          "condition": "叶数问只给结果而未推导",
+          "kind": "conditional_cap",
+          "points": 2,
           "scope_status": "verified",
+          "tasks": [
+            1
+          ]
+        },
+        {
+          "additive": false,
+          "anchor": {
+            "line": 1790,
+            "match": "分别是 2 分和 3 分",
+            "occurrence": 1
+          },
+          "application": "once",
+          "condition": "最大最小结点数问只给结果而未推导",
+          "kind": "conditional_cap",
+          "points": 3,
+          "scope_status": "verified",
+          "tasks": [
+            2
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1790,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "推导或结果部分正确",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2
+          ]
         }
       ]
     },
     "408-16-A-T44": {
-      "mode": "conflicting_total",
-      "documented_units": [
-        {
-          "points": 2,
-          "description": "异步字符的总位数",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1965,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "最大字符输入频率",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1965,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 3,
-          "description": "字符接收任务总耗时",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1969,
-            "match": "（3 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "CPU自身响应和服务耗时",
-          "step_refs": [
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1971,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "中断响应硬件操作",
-          "step_refs": [
-            "2.3"
-          ],
-          "category": "secondary_knowledge",
-          "target": "中断响应",
-          "anchor": {
-            "line": 1973,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
-        }
+      "mode": "partition",
+      "notes": [
+        "元数据10分与五项评分9分不一致；条件规则不与主评分单元加算。"
       ],
       "rules": [
         {
-          "kind": "conditional_credit",
-          "points": 1,
-          "condition": "字符格式总位数少计一位的原文部分分情形",
-          "tasks": [
-            1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1967,
             "match": "给 1 分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "字符格式总位数少计一位的原文部分分情形",
+          "kind": "conditional_credit",
+          "points": 1,
+          "scope_status": "verified",
+          "tasks": [
+            1
+          ]
         },
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "总时间额外计入最后一次服务尾部的准确处理",
-          "tasks": [
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1977,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_credit",
-          "points": 2,
-          "condition": "总时间仅按设备传输耗时近似，或在此基础上计末次尾部",
+          "application": "once",
+          "condition": "总时间额外计入最后一次服务尾部的准确处理",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1977,
             "match": "给 2 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "clarification",
-          "points": null,
-          "condition": "不分步展开但所列算式和结果正确",
+          "application": "once",
+          "condition": "总时间仅按设备传输耗时近似，或在此基础上计末次尾部",
+          "kind": "conditional_credit",
+          "points": 2,
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1977,
             "match": "算式和结果正确，同样给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_credit",
-          "points": 2,
-          "condition": "中断响应说明包含原文指定的两项核心保护操作",
+          "application": "once",
+          "condition": "不分步展开但所列算式和结果正确",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1979,
             "match": "就给 2 分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "中断响应的其他不完整说明",
+          "application": "once",
+          "condition": "中断响应说明包含原文指定的两项核心保护操作",
+          "kind": "conditional_credit",
+          "points": 2,
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1979,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "中断响应的其他不完整说明",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            2
+          ]
         }
       ],
-      "notes": [
-        "元数据10分与五项评分9分不一致；条件规则不与主评分单元加算。"
-      ]
-    },
-    "408-16-A-T45": {
-      "mode": "conflicting_total",
-      "documented_units": [
+      "units": [
         {
-          "points": 1,
-          "description": "地址字段A位宽",
+          "anchor": {
+            "line": 1965,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "异步字符的总位数",
+          "points": 2,
           "step_refs": [
             "1.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2016,
-            "match": "各 1 分",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
+          "anchor": {
+            "line": 1965,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "最大字符输入频率",
           "points": 1,
-          "description": "地址字段B位宽",
           "step_refs": [
             "1.2"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2016,
-            "match": "各 1 分",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "地址字段C位宽",
-          "step_refs": [
-            "1.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
-            "line": 2016,
-            "match": "各 1 分",
+            "line": 1969,
+            "match": "（3 分）",
             "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "地址字段D位宽",
-          "step_refs": [
-            "1.4"
-          ],
+          },
           "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2016,
-            "match": "各 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "地址字段E位宽",
-          "step_refs": [
-            "1.5"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2016,
-            "match": "各 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "地址字段F位宽",
-          "step_refs": [
-            "1.6"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2016,
-            "match": "各 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "地址字段G位宽",
-          "step_refs": [
-            "1.7"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2016,
-            "match": "各 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "TLB标记语义",
-          "step_refs": [
-            "1.8"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2018,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "Cache组号",
+          "description": "字符接收任务总耗时",
+          "points": 3,
           "step_refs": [
             "2.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2020,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
+          "anchor": {
+            "line": 1971,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "CPU自身响应和服务耗时",
           "points": 1,
-          "description": "Cache标记内容",
           "step_refs": [
             "2.2"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2020,
-            "match": "（1 分）",
-            "occurrence": 2
-          }
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "两类缺失处理的代价比较",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "多级存储缺失代价",
           "anchor": {
-            "line": 2022,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "代价差异原因",
-          "step_refs": [
-            "3.2"
-          ],
-          "category": "secondary_knowledge",
-          "target": "多级存储缺失代价",
-          "anchor": {
-            "line": 2022,
-            "match": "（1 分）",
-            "occurrence": 2
-          }
-        },
-        {
-          "points": 2,
-          "description": "层级写入策略的原因",
-          "step_refs": [
-            "4.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "存储写策略",
-          "anchor": {
-            "line": 2026,
+            "line": 1973,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "中断响应硬件操作",
+          "points": 2,
+          "step_refs": [
+            "2.3"
+          ],
+          "target": "中断响应"
         }
+      ]
+    },
+    "408-16-A-T45": {
+      "mode": "partition",
+      "notes": [
+        "元数据7分；七个地址字段各1分，再加标记意义和其他小问，完整分项合计14分。字段总括7分不能与七个1分重复计算。"
       ],
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "用软件处理缺页与硬件处理Cache缺失的差异解释代价",
-          "tasks": [
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 2024,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "用软件处理缺页与硬件处理Cache缺失的差异解释代价",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            3
+          ]
         }
       ],
-      "notes": [
-        "元数据7分；七个地址字段各1分，再加标记意义和其他小问，完整分项合计14分。字段总括7分不能与七个1分重复计算。"
-      ]
-    },
-    "408-16-A-T46": {
-      "mode": "conflicting_total",
-      "documented_units": [
+      "units": [
         {
-          "points": 2,
-          "description": "静态优先数的饥饿原因",
+          "anchor": {
+            "line": 2016,
+            "match": "各 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "地址字段A位宽",
+          "points": 1,
           "step_refs": [
             "1.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2054,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
+          "anchor": {
+            "line": 2016,
+            "match": "各 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "地址字段B位宽",
           "points": 1,
-          "description": "保留静态优先数基线",
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2016,
+            "match": "各 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "地址字段C位宽",
+          "points": 1,
+          "step_refs": [
+            "1.3"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2016,
+            "match": "各 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "地址字段D位宽",
+          "points": 1,
+          "step_refs": [
+            "1.4"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2016,
+            "match": "各 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "地址字段E位宽",
+          "points": 1,
+          "step_refs": [
+            "1.5"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2016,
+            "match": "各 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "地址字段F位宽",
+          "points": 1,
+          "step_refs": [
+            "1.6"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2016,
+            "match": "各 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "地址字段G位宽",
+          "points": 1,
+          "step_refs": [
+            "1.7"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2018,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "TLB标记语义",
+          "points": 1,
+          "step_refs": [
+            "1.8"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2020,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "Cache组号",
+          "points": 1,
           "step_refs": [
             "2.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2060,
-            "match": "包含 nice 给 1 分",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
+          "anchor": {
+            "line": 2020,
+            "match": "（1 分）",
+            "occurrence": 2
+          },
+          "category": "method_operation",
+          "description": "Cache标记内容",
           "points": 1,
-          "description": "运行时间惩罚方向",
           "step_refs": [
             "2.2"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2060,
-            "match": "增大优先数给 1 分",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "等待时间补偿方向",
-          "step_refs": [
-            "2.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
-            "line": 2061,
-            "match": "给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "等待补偿的作用解释",
-          "step_refs": [
-            "2.4"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2056,
+            "line": 2022,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "两类缺失处理的代价比较",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "多级存储缺失代价"
+        },
+        {
+          "anchor": {
+            "line": 2022,
+            "match": "（1 分）",
+            "occurrence": 2
+          },
+          "category": "secondary_knowledge",
+          "description": "代价差异原因",
+          "points": 1,
+          "step_refs": [
+            "3.2"
+          ],
+          "target": "多级存储缺失代价"
+        },
+        {
+          "anchor": {
+            "line": 2026,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "层级写入策略的原因",
+          "points": 2,
+          "step_refs": [
+            "4.1"
+          ],
+          "target": "存储写策略"
         }
+      ]
+    },
+    "408-16-A-T46": {
+      "mode": "partition",
+      "notes": [
+        "原总分8分，原因2分加公式细项3分加作用1分为6分；公式的3分与其三个1分不重复计算。"
       ],
       "rules": [
         {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "优先数公式部分正确",
-          "tasks": [
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 2061,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "clarification",
+          "application": "once",
+          "condition": "优先数公式部分正确",
+          "kind": "discretionary",
           "points": null,
-          "condition": "包含题设三因素的其他合理动态调整方式",
+          "scope_status": "verified",
           "tasks": [
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 2063,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "包含题设三因素的其他合理动态调整方式",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            2
+          ]
         }
       ],
-      "notes": [
-        "原总分8分，原因2分加公式细项3分加作用1分为6分；公式的3分与其三个1分不重复计算。"
+      "units": [
+        {
+          "anchor": {
+            "line": 2054,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "静态优先数的饥饿原因",
+          "points": 2,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2060,
+            "match": "包含 nice 给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "保留静态优先数基线",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2060,
+            "match": "增大优先数给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "运行时间惩罚方向",
+          "points": 1,
+          "step_refs": [
+            "2.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2061,
+            "match": "给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "等待时间补偿方向",
+          "points": 1,
+          "step_refs": [
+            "2.3"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2056,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "等待补偿的作用解释",
+          "points": 1,
+          "step_refs": [
+            "2.4"
+          ],
+          "target": "main"
+        }
       ]
     },
     "408-16-A-T47": {
       "mode": "partition",
-      "units": [
-        {
-          "points": 1,
-          "description": "顶层目录的子目录项",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2099,
-            "match": "每个目录项的内容正确给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "子目录的第一个用户文件项",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2099,
-            "match": "每个目录项的内容正确给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "子目录的第二个用户文件项",
-          "step_refs": [
-            "1.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2099,
-            "match": "每个目录项的内容正确给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "FAT最大字节量",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "FAT容量",
-          "anchor": {
-            "line": 2101,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "最大文件长度",
-          "step_refs": [
-            "2.2"
-          ],
-          "category": "secondary_knowledge",
-          "target": "FAT容量",
-          "anchor": {
-            "line": 2101,
-            "match": "（1 分）",
-            "occurrence": 2
-          }
-        },
-        {
-          "points": 1,
-          "description": "第一后继簇号的FAT位置",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2105,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "第二后继簇号的FAT位置",
-          "step_refs": [
-            "3.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2105,
-            "match": "（1 分）",
-            "occurrence": 2
-          }
-        },
-        {
-          "points": 1,
-          "description": "须读取的中间目录簇",
-          "step_refs": [
-            "4.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2107,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "须读取的目标数据簇",
-          "step_refs": [
-            "4.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2107,
-            "match": "（1 分）",
-            "occurrence": 2
-          }
-        }
+      "notes": [
+        "目录问3分已细分为三个明确目录项的1分，不再重复列上级总分。"
       ],
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "容量计算考虑结束或坏块标志并且正确",
-          "tasks": [
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 2103,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "容量计算考虑结束或坏块标志并且正确",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            2
+          ]
         }
       ],
-      "notes": [
-        "目录问3分已细分为三个明确目录项的1分，不再重复列上级总分。"
-      ]
-    },
-    "408-17-A-T41": {
-      "mode": "conflicting_total",
-      "documented_units": [
+      "units": [
         {
-          "points": 3,
-          "description": "中序输出策略",
+          "anchor": {
+            "line": 2099,
+            "match": "每个目录项的内容正确给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "顶层目录的子目录项",
+          "points": 1,
           "step_refs": [
             "1.1"
           ],
-          "category": "main_knowledge",
-          "target": "main",
-          "anchor": {
-            "line": 1400,
-            "match": "（3 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "括号位置策略",
+          "anchor": {
+            "line": 2099,
+            "match": "每个目录项的内容正确给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "子目录的第一个用户文件项",
+          "points": 1,
           "step_refs": [
             "1.2"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1402,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 10,
-          "description": "带括号的遍历实现",
+          "anchor": {
+            "line": 2099,
+            "match": "每个目录项的内容正确给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "子目录的第二个用户文件项",
+          "points": 1,
           "step_refs": [
-            "2.1",
+            "1.3"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2101,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "FAT最大字节量",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "FAT容量"
+        },
+        {
+          "anchor": {
+            "line": 2101,
+            "match": "（1 分）",
+            "occurrence": 2
+          },
+          "category": "secondary_knowledge",
+          "description": "最大文件长度",
+          "points": 1,
+          "step_refs": [
             "2.2"
           ],
-          "category": "method_operation",
-          "target": "main",
+          "target": "FAT容量"
+        },
+        {
           "anchor": {
-            "line": 1404,
-            "match": "（10 分）",
+            "line": 2105,
+            "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第一后继簇号的FAT位置",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2105,
+            "match": "（1 分）",
+            "occurrence": 2
+          },
+          "category": "method_operation",
+          "description": "第二后继簇号的FAT位置",
+          "points": 1,
+          "step_refs": [
+            "3.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2107,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "须读取的中间目录簇",
+          "points": 1,
+          "step_refs": [
+            "4.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 2107,
+            "match": "（1 分）",
+            "occurrence": 2
+          },
+          "category": "method_operation",
+          "description": "须读取的目标数据簇",
+          "points": 1,
+          "step_refs": [
+            "4.2"
+          ],
+          "target": "main"
         }
+      ]
+    },
+    "408-17-A-T41": {
+      "mode": "partition",
+      "notes": [
+        "原总分10分；完整分项和条件评分表最高均为15分。部分条件分高于元数据并非转写错误，全部保留但不生效为有效总分。"
       ],
       "rules": [
         {
-          "kind": "conditional_credit",
-          "points": 15,
-          "condition": "中序输出正确且括号嵌套及层数恰当",
-          "tasks": [
-            1,
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1435,
             "match": "| 15 |",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "中序输出正确且括号嵌套及层数恰当",
           "kind": "conditional_credit",
-          "points": 14,
-          "condition": "中序输出和括号嵌套正确，但冗余括号过多",
+          "points": 15,
+          "scope_status": "verified",
           "tasks": [
             1,
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1436,
             "match": "| 14 |",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "中序输出和括号嵌套正确，但冗余括号过多",
           "kind": "conditional_credit",
-          "points": 11,
-          "condition": "采用中序策略但括号匹配或层数部分不正确",
+          "points": 14,
+          "scope_status": "verified",
           "tasks": [
             1,
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1437,
             "match": "| 11 |",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "采用中序策略但括号匹配或层数部分不正确",
           "kind": "conditional_credit",
-          "points": 9,
-          "condition": "只做中序输出而未处理括号",
+          "points": 11,
+          "scope_status": "verified",
           "tasks": [
             1,
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1438,
             "match": "| 9 |",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_cap",
-          "points": 7,
-          "condition": "评分表其余策略或结果档",
+          "application": "once",
+          "condition": "只做中序输出而未处理括号",
+          "kind": "conditional_credit",
+          "points": 9,
+          "scope_status": "verified",
           "tasks": [
             1,
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1439,
             "match": "| ≤7 |",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "clarification",
-          "points": null,
-          "condition": "其他正确方法参照同一评分表",
+          "application": "once",
+          "condition": "评分表其余策略或结果档",
+          "kind": "conditional_cap",
+          "points": 7,
+          "scope_status": "verified",
           "tasks": [
             1,
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1441,
             "match": "可参照①的评分标准给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "其他正确方法参照同一评分表",
           "kind": "clarification",
           "points": null,
-          "condition": "说明辅助函数含义但未展开实现可不扣分",
-          "tasks": [
-            2
-          ],
-          "application": "once",
           "scope_status": "verified",
+          "tasks": [
+            1,
+            2
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1444,
             "match": "可不扣分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "说明辅助函数含义但未展开实现可不扣分",
           "kind": "clarification",
           "points": null,
-          "condition": "思想文字不清但实现正确且能反映思想",
-          "tasks": [
-            1,
-            2
-          ],
-          "application": "once",
           "scope_status": "verified",
+          "tasks": [
+            2
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1447,
             "match": "可参照①的标准给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "discretionary",
+          "application": "once",
+          "condition": "思想文字不清但实现正确且能反映思想",
+          "kind": "clarification",
           "points": null,
-          "condition": "思想或实现部分正确按对应档酌情给分",
+          "scope_status": "verified",
           "tasks": [
             1,
             2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1449,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "思想或实现部分正确按对应档酌情给分",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2
+          ]
         }
       ],
-      "notes": [
-        "原总分10分；完整分项和条件评分表最高均为15分。部分条件分高于元数据并非转写错误，全部保留但不生效为有效总分。"
-      ]
-    },
-    "408-17-A-T42": {
-      "mode": "conflicting_total",
-      "documented_units": [
+      "units": [
         {
-          "points": 1,
-          "description": "Prim第一条边及次序",
+          "anchor": {
+            "line": 1400,
+            "match": "（3 分）",
+            "occurrence": 1
+          },
+          "category": "main_knowledge",
+          "description": "中序输出策略",
+          "points": 3,
           "step_refs": [
             "1.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1489,
-            "match": "给 1 分",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "Prim第二条边及次序",
+          "anchor": {
+            "line": 1402,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "括号位置策略",
+          "points": 2,
           "step_refs": [
             "1.2"
           ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1404,
+            "match": "（10 分）",
+            "occurrence": 1
+          },
           "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1489,
-            "match": "给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "Prim第三条边及次序",
+          "description": "带括号的遍历实现",
+          "points": 10,
           "step_refs": [
-            "1.3"
+            "2.1",
+            "2.2"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1489,
-            "match": "给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "Prim第四条边及次序",
-          "step_refs": [
-            "1.4"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1489,
-            "match": "给 1 分",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "给定图的MST唯一性",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "main_knowledge",
-          "target": "main",
-          "anchor": {
-            "line": 1492,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "一般图MST唯一的充分条件",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "main_knowledge",
-          "target": "main",
-          "anchor": {
-            "line": 1494,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         }
+      ]
+    },
+    "408-17-A-T42": {
+      "mode": "partition",
+      "notes": [
+        "元数据15分，四条边各1分加唯一性2分加充分条件2分，完整细则合计8分。"
       ],
       "rules": [
         {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "所选边正确但顺序部分不符合Prim",
-          "tasks": [
-            1
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1490,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "所选边正确但顺序部分不符合Prim",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1
+          ]
         },
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "其他有效的边权充分条件也接受",
-          "tasks": [
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1496,
             "match": "同样给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
-          "kind": "conditional_cap",
-          "points": 1,
-          "condition": "充分条件额外限制顶点数或图形结构",
+          "application": "once",
+          "condition": "其他有效的边权充分条件也接受",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
           "tasks": [
             3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1498,
             "match": "最高给 1 分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "充分条件额外限制顶点数或图形结构",
+          "kind": "conditional_cap",
+          "points": 1,
+          "scope_status": "verified",
+          "tasks": [
+            3
+          ]
         },
         {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "答案部分正确",
-          "tasks": [
-            1,
-            2,
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1500,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "答案部分正确",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2,
+            3
+          ]
         }
       ],
-      "notes": [
-        "元数据15分，四条边各1分加唯一性2分加充分条件2分，完整细则合计8分。"
-      ]
-    },
-    "408-17-A-T43": {
-      "mode": "conflicting_total",
-      "documented_units": [
+      "units": [
         {
-          "points": 2,
-          "description": "无符号循环不终止的解释",
+          "anchor": {
+            "line": 1489,
+            "match": "给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "Prim第一条边及次序",
+          "points": 1,
           "step_refs": [
             "1.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1569,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
+          "anchor": {
+            "line": 1489,
+            "match": "给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "Prim第二条边及次序",
           "points": 1,
-          "description": "有符号版本终止判断",
           "step_refs": [
             "1.2"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1575,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
+          "anchor": {
+            "line": 1489,
+            "match": "给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "Prim第三条边及次序",
           "points": 1,
-          "description": "有符号比较边界的理由",
           "step_refs": [
             "1.3"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1589,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
+          "anchor": {
+            "line": 1489,
+            "match": "给 1 分",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "Prim第四条边及次序",
           "points": 1,
-          "description": "两类型精确表示范围的比较",
+          "step_refs": [
+            "1.4"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1492,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "main_knowledge",
+          "description": "给定图的MST唯一性",
+          "points": 2,
           "step_refs": [
             "2.1"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1591,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "整型机器编码",
-          "step_refs": [
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
-            "line": 1611,
-            "match": "（1 分）",
+            "line": 1494,
+            "match": "（2 分）",
             "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "浮点机器编码",
-          "step_refs": [
-            "2.3"
-          ],
-          "category": "secondary_knowledge",
-          "target": "IEEE754精度与范围",
-          "anchor": {
-            "line": 1613,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "有效位不足的舍入解释",
+          },
+          "category": "main_knowledge",
+          "description": "一般图MST唯一的充分条件",
+          "points": 2,
           "step_refs": [
             "3.1"
           ],
-          "category": "secondary_knowledge",
-          "target": "IEEE754精度与范围",
-          "anchor": {
-            "line": 1630,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "定长补码结果的解释",
-          "step_refs": [
-            "4.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1634,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "整型精确结果的参数上界",
-          "step_refs": [
-            "4.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1636,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "浮点特殊编码含义",
-          "step_refs": [
-            "5.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "IEEE754精度与范围",
-          "anchor": {
-            "line": 1640,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "浮点不溢出参数上界",
-          "step_refs": [
-            "5.2"
-          ],
-          "category": "secondary_knowledge",
-          "target": "IEEE754精度与范围",
-          "anchor": {
-            "line": 1644,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 1,
-          "description": "浮点无舍入参数上界",
-          "step_refs": [
-            "5.3"
-          ],
-          "category": "secondary_knowledge",
-          "target": "IEEE754精度与范围",
-          "anchor": {
-            "line": 1646,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         }
+      ]
+    },
+    "408-17-A-T43": {
+      "mode": "partition",
+      "notes": [
+        "元数据8分与完整分项13分冲突；按题内明确机器结果而非通用C有符号溢出承诺解释。"
       ],
       "rules": [
         {
-          "kind": "clarification",
-          "points": null,
-          "condition": "指出相应浮点结果需要舍入即可作为该项证据",
-          "tasks": [
-            3
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1632,
             "match": "即可给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "指出相应浮点结果需要舍入即可作为该项证据",
           "kind": "clarification",
           "points": null,
-          "condition": "给出整型保持数学结果的正确参数边界即可",
-          "tasks": [
-            4
-          ],
-          "application": "once",
           "scope_status": "verified",
+          "tasks": [
+            3
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1638,
             "match": "即可给分",
             "occurrence": 1
           },
-          "additive": false
-        },
-        {
+          "application": "once",
+          "condition": "给出整型保持数学结果的正确参数边界即可",
           "kind": "clarification",
           "points": null,
-          "condition": "给出对应的精度和溢出参数边界即可；末条问次编号按正文语义校对",
-          "tasks": [
-            5
-          ],
-          "application": "once",
           "scope_status": "verified",
+          "tasks": [
+            4
+          ]
+        },
+        {
+          "additive": false,
           "anchor": {
             "line": 1648,
             "match": "即可给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "给出对应的精度和溢出参数边界即可；末条问次编号按正文语义校对",
+          "kind": "clarification",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            5
+          ]
         }
       ],
-      "notes": [
-        "元数据8分与完整分项13分冲突；按题内明确机器结果而非通用C有符号溢出承诺解释。"
+      "units": [
+        {
+          "anchor": {
+            "line": 1569,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "无符号循环不终止的解释",
+          "points": 2,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1575,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "有符号版本终止判断",
+          "points": 1,
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1589,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "有符号比较边界的理由",
+          "points": 1,
+          "step_refs": [
+            "1.3"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1591,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "两类型精确表示范围的比较",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1611,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "整型机器编码",
+          "points": 1,
+          "step_refs": [
+            "2.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1613,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "浮点机器编码",
+          "points": 1,
+          "step_refs": [
+            "2.3"
+          ],
+          "target": "IEEE754精度与范围"
+        },
+        {
+          "anchor": {
+            "line": 1630,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "有效位不足的舍入解释",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "IEEE754精度与范围"
+        },
+        {
+          "anchor": {
+            "line": 1634,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "定长补码结果的解释",
+          "points": 1,
+          "step_refs": [
+            "4.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1636,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "整型精确结果的参数上界",
+          "points": 1,
+          "step_refs": [
+            "4.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1640,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "浮点特殊编码含义",
+          "points": 1,
+          "step_refs": [
+            "5.1"
+          ],
+          "target": "IEEE754精度与范围"
+        },
+        {
+          "anchor": {
+            "line": 1644,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "浮点不溢出参数上界",
+          "points": 1,
+          "step_refs": [
+            "5.2"
+          ],
+          "target": "IEEE754精度与范围"
+        },
+        {
+          "anchor": {
+            "line": 1646,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
+          "description": "浮点无舍入参数上界",
+          "points": 1,
+          "step_refs": [
+            "5.3"
+          ],
+          "target": "IEEE754精度与范围"
+        }
       ]
     },
     "408-17-A-T44": {
       "mode": "partition",
       "units": [
         {
-          "points": 1,
-          "description": "指令集类别判断",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1699,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "指令集类别判断",
+          "points": 1,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "指令长度特征依据",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1699,
             "match": "（1 分）",
             "occurrence": 2
-          }
+          },
+          "category": "method_operation",
+          "description": "指令长度特征依据",
+          "points": 1,
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "代码字节总量",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1701,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "代码字节总量",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "代码地址范围计算",
-          "step_refs": [
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1701,
             "match": "（`1` 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "代码地址范围计算",
+          "points": 1,
+          "step_refs": [
+            "2.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
+          "anchor": {
+            "line": 1703,
+            "match": "（1 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
           "description": "比较后的借位标志",
+          "points": 1,
           "step_refs": [
             "3.1"
           ],
-          "category": "secondary_knowledge",
-          "target": "无符号借位标志",
-          "anchor": {
-            "line": 1703,
-            "match": "（1 分）",
-            "occurrence": 1
-          }
+          "target": "无符号借位标志"
         },
         {
-          "points": 2,
+          "anchor": {
+            "line": 1703,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "secondary_knowledge",
           "description": "减法与借位的计算依据",
+          "points": 2,
           "step_refs": [
             "3.2"
           ],
-          "category": "secondary_knowledge",
-          "target": "无符号借位标志",
-          "anchor": {
-            "line": 1703,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
+          "target": "无符号借位标志"
         },
         {
-          "points": 1,
-          "description": "浮点倍乘能否用整字移位",
-          "step_refs": [
-            "4.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "IEEE754浮点编码",
           "anchor": {
             "line": 1705,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "浮点倍乘能否用整字移位",
+          "points": 1,
+          "step_refs": [
+            "4.1"
+          ],
+          "target": "IEEE754浮点编码"
         },
         {
-          "points": 2,
-          "description": "浮点字段布局的原因",
-          "step_refs": [
-            "4.2"
-          ],
-          "category": "secondary_knowledge",
-          "target": "IEEE754浮点编码",
           "anchor": {
             "line": 1705,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "浮点字段布局的原因",
+          "points": 2,
+          "step_refs": [
+            "4.2"
+          ],
+          "target": "IEEE754浮点编码"
         }
       ]
     },
@@ -3744,350 +3743,350 @@
       "mode": "partition",
       "units": [
         {
-          "points": 1,
-          "description": "代码跨页数量",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1742,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "代码跨页数量",
+          "points": 1,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "页目录项编号",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1746,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "页目录项编号",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "二级页表项编号",
-          "step_refs": [
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1747,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "二级页表项编号",
+          "points": 1,
+          "step_refs": [
+            "2.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "等待输入的阻塞状态",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "secondary_knowledge",
-          "target": "系统调用与中断",
           "anchor": {
             "line": 1749,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "等待输入的阻塞状态",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "系统调用与中断"
         },
         {
-          "points": 1,
-          "description": "输入完成后的就绪状态",
-          "step_refs": [
-            "3.2"
-          ],
-          "category": "secondary_knowledge",
-          "target": "系统调用与中断",
           "anchor": {
             "line": 1750,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "输入完成后的就绪状态",
+          "points": 1,
+          "step_refs": [
+            "3.2"
+          ],
+          "target": "系统调用与中断"
         },
         {
-          "points": 1,
-          "description": "调度后的运行状态",
-          "step_refs": [
-            "3.3"
-          ],
-          "category": "secondary_knowledge",
-          "target": "系统调用与中断",
           "anchor": {
             "line": 1750,
             "match": "（1 分）",
             "occurrence": 2
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "调度后的运行状态",
+          "points": 1,
+          "step_refs": [
+            "3.3"
+          ],
+          "target": "系统调用与中断"
         },
         {
-          "points": 1,
-          "description": "处理器进入内核态",
-          "step_refs": [
-            "3.4"
-          ],
-          "category": "secondary_knowledge",
-          "target": "系统调用与中断",
           "anchor": {
             "line": 1751,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "secondary_knowledge",
+          "description": "处理器进入内核态",
+          "points": 1,
+          "step_refs": [
+            "3.4"
+          ],
+          "target": "系统调用与中断"
         }
       ]
     },
     "408-17-A-T46": {
-      "mode": "whole",
       "documented_units": [
         {
-          "points": 1,
-          "description": "变量x的访问关系",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1887,
             "match": "| 1 分 |",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "变量x的访问关系",
+          "points": 1,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 3,
-          "description": "变量y的读读及读写关系",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1888,
             "match": "| 3 分 |",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "变量y的读读及读写关系",
+          "points": 3,
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "变量z的读写关系",
-          "step_refs": [
-            "1.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1889,
             "match": "| 1 分 |",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "变量z的读写关系",
+          "points": 1,
+          "step_refs": [
+            "1.3"
+          ],
+          "target": "main"
         }
+      ],
+      "mode": "whole",
+      "notes": [
+        "评分表只列变量关系部分的1、3、1分；未给完整实现及其余分值分配，不用总分减5推算代码得分。表头不存在的thread4不作为真实线程。"
       ],
       "rules": [
         {
-          "kind": "conditional_cap",
-          "points": 2,
-          "condition": "只使用一个互斥信号量时，互斥实现代码部分",
-          "tasks": [
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1891,
             "match": "最多给 2 分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "只使用一个互斥信号量时，互斥实现代码部分",
+          "kind": "conditional_cap",
+          "points": 2,
+          "scope_status": "verified",
+          "tasks": [
+            2
+          ]
         },
         {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "分析或实现部分正确",
-          "tasks": [
-            1,
-            2
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 1893,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "分析或实现部分正确",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2
+          ]
         }
-      ],
-      "notes": [
-        "评分表只列变量关系部分的1、3、1分；未给完整实现及其余分值分配，不用总分减5推算代码得分。表头不存在的thread4不作为真实线程。"
       ]
     },
     "408-17-A-T47": {
-      "mode": "whole",
       "documented_units": [
         {
-          "points": 1,
-          "description": "已被对方接收的帧数",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1955,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "已被对方接收的帧数",
+          "points": 1,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "已被接收的帧集合",
-          "step_refs": [
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1961,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "已被接收的帧集合",
+          "points": 1,
+          "step_refs": [
+            "1.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "还能发送的帧数",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1967,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "还能发送的帧数",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "下一帧发送与确认序号",
-          "step_refs": [
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1969,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "下一帧发送与确认序号",
+          "points": 1,
+          "step_refs": [
+            "2.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "最后可发送帧的序号",
-          "step_refs": [
-            "2.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1971,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "最后可发送帧的序号",
+          "points": 1,
+          "step_refs": [
+            "2.3"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "超时后的重传帧数",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1977,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "超时后的重传帧数",
+          "points": 1,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "首个重传帧的序号",
-          "step_refs": [
-            "3.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1979,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "首个重传帧的序号",
+          "points": 1,
+          "step_refs": [
+            "3.2"
+          ],
+          "target": "main"
         }
+      ],
+      "mode": "whole",
+      "notes": [
+        "前三问七项各1分已记录，第四问信道利用率无明确分值，不反推差额2分。"
       ],
       "rules": [
         {
-          "kind": "discretionary",
-          "points": null,
-          "condition": "答案部分正确时酌情给分",
-          "tasks": [
-            1,
-            2,
-            3,
-            4
-          ],
-          "application": "once",
-          "scope_status": "verified",
+          "additive": false,
           "anchor": {
             "line": 2010,
             "match": "酌情给分",
             "occurrence": 1
           },
-          "additive": false
+          "application": "once",
+          "condition": "答案部分正确时酌情给分",
+          "kind": "discretionary",
+          "points": null,
+          "scope_status": "verified",
+          "tasks": [
+            1,
+            2,
+            3,
+            4
+          ]
         }
-      ],
-      "notes": [
-        "前三问七项各1分已记录，第四问信道利用率无明确分值，不反推差额2分。"
       ]
     },
     "408-24-A-T41": {
       "mode": "partition",
       "units": [
         {
-          "points": 4,
-          "description": "第1问的完整任务",
-          "step_refs": [
-            "1.1",
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1625,
             "match": "（4 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第1问的完整任务",
+          "points": 4,
+          "step_refs": [
+            "1.1",
+            "1.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 9,
+          "anchor": {
+            "line": 1627,
+            "match": "（9 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
           "description": "第2问的完整任务",
+          "points": 9,
           "step_refs": [
             "2.1",
             "2.2",
             "2.3"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1627,
-            "match": "（9 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         }
       ]
     },
@@ -4095,47 +4094,47 @@
       "mode": "partition",
       "units": [
         {
-          "points": 6,
-          "description": "第1问的完整任务",
-          "step_refs": [
-            "1.1",
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1745,
             "match": "（6 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第1问的完整任务",
+          "points": 6,
+          "step_refs": [
+            "1.1",
+            "1.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "第2问的完整任务",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1749,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第2问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "第3问的完整任务",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1753,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第3问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "main"
         }
       ]
     },
@@ -4143,128 +4142,128 @@
       "mode": "partition",
       "units": [
         {
-          "points": 2,
-          "description": "第1问的完整任务",
-          "step_refs": [
-            "1.1",
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1828,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第1问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "1.1",
+            "1.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 3,
-          "description": "第2问的完整任务",
-          "step_refs": [
-            "2.1",
-            "2.2",
-            "2.3"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1830,
             "match": "（3 分）",
             "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "第3问的完整任务",
-          "step_refs": [
-            "3.1"
-          ],
+          },
           "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1832,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "第4问的完整任务",
-          "step_refs": [
-            "4.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1834,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "第5问的完整任务",
-          "step_refs": [
-            "5.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1836,
-            "match": "(2 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "第6问的完整任务",
-          "step_refs": [
-            "6.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1838,
-            "match": "(2 分）",
-            "occurrence": 1
-          }
-        }
-      ]
-    },
-    "408-24-A-T44": {
-      "mode": "whole",
-      "documented_units": [
-        {
-          "points": 3,
-          "description": "第1问的完整任务",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1911,
-            "match": "（3 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 5,
           "description": "第2问的完整任务",
+          "points": 3,
           "step_refs": [
             "2.1",
             "2.2",
             "2.3"
           ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1832,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
           "category": "method_operation",
-          "target": "main",
+          "description": "第3问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1834,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第4问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "4.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1836,
+            "match": "(2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第5问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "5.1"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1838,
+            "match": "(2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第6问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "6.1"
+          ],
+          "target": "main"
+        }
+      ]
+    },
+    "408-24-A-T44": {
+      "documented_units": [
+        {
+          "anchor": {
+            "line": 1911,
+            "match": "（3 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "第1问的完整任务",
+          "points": 3,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
+        },
+        {
           "anchor": {
             "line": 1913,
             "match": "（5 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第2问的完整任务",
+          "points": 5,
+          "step_refs": [
+            "2.1",
+            "2.2",
+            "2.3"
+          ],
+          "target": "main"
         }
       ],
+      "mode": "whole",
       "notes": [
         "第1、2问分别标3、5分；第3问没有数值分，无法确认完整划分，保留整题8分和已知分项证据，不反推第3问为零分。"
       ]
@@ -4273,36 +4272,36 @@
       "mode": "partition",
       "units": [
         {
-          "points": 3,
+          "anchor": {
+            "line": 2000,
+            "match": "（3 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
           "description": "第1问的完整任务",
+          "points": 3,
           "step_refs": [
             "1.1",
             "1.2",
             "1.3"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2000,
-            "match": "（3 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 4,
+          "anchor": {
+            "line": 2002,
+            "match": "（4 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
           "description": "第2问的完整任务",
+          "points": 4,
           "step_refs": [
             "2.1",
             "2.2",
             "2.3"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2002,
-            "match": "（4 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         }
       ]
     },
@@ -4310,48 +4309,48 @@
       "mode": "partition",
       "units": [
         {
-          "points": 2,
-          "description": "第1问的完整任务",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2059,
             "match": "(2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第1问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 3,
-          "description": "第2问的完整任务",
-          "step_refs": [
-            "2.1",
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2061,
             "match": "（3 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第2问的完整任务",
+          "points": 3,
+          "step_refs": [
+            "2.1",
+            "2.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 3,
-          "description": "第3问的完整任务",
-          "step_refs": [
-            "3.1",
-            "3.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2063,
             "match": "（3 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第3问的完整任务",
+          "points": 3,
+          "step_refs": [
+            "3.1",
+            "3.2"
+          ],
+          "target": "main"
         }
       ]
     },
@@ -4359,77 +4358,77 @@
       "mode": "partition",
       "units": [
         {
-          "points": 1,
-          "description": "第1问的完整任务",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2145,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第1问的完整任务",
+          "points": 1,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 1,
-          "description": "第2问的完整任务",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2147,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第2问的完整任务",
+          "points": 1,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "第3问的完整任务",
-          "step_refs": [
-            "3.1",
-            "3.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2149,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第3问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "3.1",
+            "3.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 3,
-          "description": "第4问的完整任务",
-          "step_refs": [
-            "4.1",
-            "4.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2151,
             "match": "（3 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第4问的完整任务",
+          "points": 3,
+          "step_refs": [
+            "4.1",
+            "4.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "第5问的完整任务",
-          "step_refs": [
-            "5.1",
-            "5.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2161,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第5问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "5.1",
+            "5.2"
+          ],
+          "target": "main"
         }
       ]
     },
@@ -4437,96 +4436,96 @@
       "mode": "partition",
       "units": [
         {
-          "points": 4,
-          "description": "后缀极值策略",
-          "step_refs": [
-            "1.1",
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 1680,
             "match": "（4 分）",
             "occurrence": 1
-          }
-        },
-        {
-          "points": 7,
-          "description": "反向扫描实现",
-          "step_refs": [
-            "2.1",
-            "2.2"
-          ],
+          },
           "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1682,
-            "match": "（7 分）",
-            "occurrence": 1
-          }
-        },
-        {
-          "points": 2,
-          "description": "时间和辅助空间分析",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 1684,
-            "match": "（2 分）",
-            "occurrence": 1
-          }
-        }
-      ]
-    },
-    "408-26-A-T41": {
-      "mode": "conflicting_total",
-      "documented_units": [
-        {
+          "description": "后缀极值策略",
           "points": 4,
-          "description": "第1问的完整任务",
           "step_refs": [
             "1.1",
             "1.2"
           ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1682,
+            "match": "（7 分）",
+            "occurrence": 1
+          },
           "category": "method_operation",
-          "target": "main",
+          "description": "反向扫描实现",
+          "points": 7,
+          "step_refs": [
+            "2.1",
+            "2.2"
+          ],
+          "target": "main"
+        },
+        {
+          "anchor": {
+            "line": 1684,
+            "match": "（2 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
+          "description": "时间和辅助空间分析",
+          "points": 2,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "main"
+        }
+      ]
+    },
+    "408-26-A-T41": {
+      "documented_units": [
+        {
           "anchor": {
             "line": 2114,
             "match": "（4 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第1问的完整任务",
+          "points": 4,
+          "step_refs": [
+            "1.1",
+            "1.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 8,
+          "anchor": {
+            "line": 2116,
+            "match": "（8 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
           "description": "第2问的完整任务",
+          "points": 8,
           "step_refs": [
             "2.1",
             "2.2",
             "2.3"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2116,
-            "match": "（8 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         }
       ],
       "explicit_total_claims": [
         {
-          "points": 13,
           "anchor": {
             "line": 2100,
             "match": "满分 13 分",
             "occurrence": 1
-          }
+          },
+          "points": 13
         }
       ],
+      "mode": "whole",
       "notes": [
         "元数据和完整分项合计12分，题干另称满分13分；不擅自选择有效总分。"
       ]
@@ -4535,62 +4534,62 @@
       "mode": "partition",
       "units": [
         {
-          "points": 2,
-          "description": "第1问的完整任务",
-          "step_refs": [
-            "1.1",
-            "1.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2209,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第1问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "1.1",
+            "1.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "第2问的完整任务",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2229,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第2问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "第3问的完整任务",
-          "step_refs": [
-            "3.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2233,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第3问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "3.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 4,
-          "description": "第4问的完整任务",
-          "step_refs": [
-            "4.1",
-            "4.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2241,
             "match": "（4 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第4问的完整任务",
+          "points": 4,
+          "step_refs": [
+            "4.1",
+            "4.2"
+          ],
+          "target": "main"
         }
       ]
     },
@@ -4598,139 +4597,129 @@
       "mode": "partition",
       "units": [
         {
-          "points": 2,
-          "description": "第1问的完整任务",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2460,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第1问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "第2问的完整任务",
-          "step_refs": [
-            "2.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2462,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第2问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "2.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "第3问的完整任务",
-          "step_refs": [
-            "3.1",
-            "3.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2464,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第3问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "3.1",
+            "3.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 4,
-          "description": "第4问的完整任务",
-          "step_refs": [
-            "4.1",
-            "4.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2474,
             "match": "（4 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第4问的完整任务",
+          "points": 4,
+          "step_refs": [
+            "4.1",
+            "4.2"
+          ],
+          "target": "main"
         }
       ]
     },
     "408-26-A-T44": {
-      "mode": "conflicting_total",
       "documented_units": [
         {
-          "points": 1,
-          "description": "第1问的完整任务",
-          "step_refs": [
-            "1.1"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2565,
             "match": "（1 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第1问的完整任务",
+          "points": 1,
+          "step_refs": [
+            "1.1"
+          ],
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "第2问的完整任务",
-          "step_refs": [
-            "2.1",
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2567,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第2问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "2.1",
+            "2.2"
+          ],
+          "target": "main"
         },
         {
-          "points": 4,
+          "anchor": {
+            "line": 2569,
+            "match": "（4 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
           "description": "第3问的完整任务",
+          "points": 4,
           "step_refs": [
             "3.1",
             "3.2",
             "3.3"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2569,
-            "match": "（4 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "第4问的完整任务",
-          "step_refs": [
-            "4.1",
-            "4.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2571,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第4问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "4.1",
+            "4.2"
+          ],
+          "target": "main"
         }
       ],
-      "explicit_total_claims": [
-        {
-          "points": 15,
-          "anchor": {
-            "line": 2557,
-            "match": "满分 15 分",
-            "occurrence": 1
-          }
-        }
-      ],
+      "mode": "whole",
       "notes": [
         "元数据和完整分项合计9分，题干另称满分15分；不擅自选择有效总分。"
       ]
@@ -4739,35 +4728,35 @@
       "mode": "partition",
       "units": [
         {
-          "points": 5,
+          "anchor": {
+            "line": 2629,
+            "match": "（5 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
           "description": "第1问的完整任务",
+          "points": 5,
           "step_refs": [
             "1.1",
             "1.2",
             "1.3"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2629,
-            "match": "（5 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 2,
-          "description": "第2问的完整任务",
-          "step_refs": [
-            "2.1",
-            "2.2"
-          ],
-          "category": "method_operation",
-          "target": "main",
           "anchor": {
             "line": 2631,
             "match": "（2 分）",
             "occurrence": 1
-          }
+          },
+          "category": "method_operation",
+          "description": "第2问的完整任务",
+          "points": 2,
+          "step_refs": [
+            "2.1",
+            "2.2"
+          ],
+          "target": "main"
         }
       ]
     },
@@ -4775,39 +4764,40 @@
       "mode": "partition",
       "units": [
         {
-          "points": 3,
+          "anchor": {
+            "line": 2682,
+            "match": "（3 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
           "description": "第1问的完整任务",
+          "points": 3,
           "step_refs": [
             "1.1",
             "1.2",
             "1.3"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2682,
-            "match": "（3 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         },
         {
-          "points": 5,
+          "anchor": {
+            "line": 2684,
+            "match": "（5 分）",
+            "occurrence": 1
+          },
+          "category": "method_operation",
           "description": "第2问的完整任务",
+          "points": 5,
           "step_refs": [
             "2.1",
             "2.2",
             "2.3",
             "2.4"
           ],
-          "category": "method_operation",
-          "target": "main",
-          "anchor": {
-            "line": 2684,
-            "match": "（5 分）",
-            "occurrence": 1
-          }
+          "target": "main"
         }
       ]
     }
-  }
+  },
+  "version": "cs408-2013-2026-scoring-plan-v1.0.0"
 }

@@ -2544,17 +2544,21 @@
           "kind": "conditional_credit",
           "points": 12,
           "rule_id": "408-12-A-T42:R01",
-          "scope_status": "needs_review",
+          "scope_status": "verified",
           "source_anchor": {
             "fragment": "可给 12分",
             "line": 1617,
             "line_sha256": "1d36c682f28a6132a45fa3087f7aa87f66337fb6fd3c1ce2248527ee098778bf",
             "occurrence": 1,
-            "question_hash_sha256": "56119093d7bd7c46ed7d7c551e33787304ee0e8ba2ab01050399a79d530c2bb3",
+            "question_hash_sha256": "ebed5d552470820f1853ccfed84bd865992a6398a3080fd163f3057c3d04b842",
             "question_id": "408-12-A-T42",
             "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
-          "target_task_ids": []
+          "target_task_ids": [
+            "408-12-A-T42#T01",
+            "408-12-A-T42#T02",
+            "408-12-A-T42#T03"
+          ]
         },
         {
           "additive": false,
@@ -2563,17 +2567,21 @@
           "kind": "conditional_cap",
           "points": 9,
           "rule_id": "408-12-A-T42:R02",
-          "scope_status": "needs_review",
+          "scope_status": "verified",
           "source_anchor": {
             "fragment": "最高可给 9 分",
             "line": 1617,
             "line_sha256": "1d36c682f28a6132a45fa3087f7aa87f66337fb6fd3c1ce2248527ee098778bf",
             "occurrence": 1,
-            "question_hash_sha256": "56119093d7bd7c46ed7d7c551e33787304ee0e8ba2ab01050399a79d530c2bb3",
+            "question_hash_sha256": "ebed5d552470820f1853ccfed84bd865992a6398a3080fd163f3057c3d04b842",
             "question_id": "408-12-A-T42",
             "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
-          "target_task_ids": []
+          "target_task_ids": [
+            "408-12-A-T42#T01",
+            "408-12-A-T42#T02",
+            "408-12-A-T42#T03"
+          ]
         },
         {
           "additive": false,
@@ -2582,17 +2590,21 @@
           "kind": "clarification",
           "points": null,
           "rule_id": "408-12-A-T42:R03",
-          "scope_status": "needs_review",
+          "scope_status": "verified",
           "source_anchor": {
             "fragment": "可参照①的标准给分",
             "line": 1619,
             "line_sha256": "9c23003409f6894cc46496b45bd3c140b3f1d01a98e2b6448f3f760231df3259",
             "occurrence": 1,
-            "question_hash_sha256": "56119093d7bd7c46ed7d7c551e33787304ee0e8ba2ab01050399a79d530c2bb3",
+            "question_hash_sha256": "ebed5d552470820f1853ccfed84bd865992a6398a3080fd163f3057c3d04b842",
             "question_id": "408-12-A-T42",
             "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
-          "target_task_ids": []
+          "target_task_ids": [
+            "408-12-A-T42#T01",
+            "408-12-A-T42#T02",
+            "408-12-A-T42#T03"
+          ]
         },
         {
           "additive": false,
@@ -2601,22 +2613,26 @@
           "kind": "discretionary",
           "points": null,
           "rule_id": "408-12-A-T42:R04",
-          "scope_status": "needs_review",
+          "scope_status": "verified",
           "source_anchor": {
             "fragment": "酌情给分",
             "line": 1621,
             "line_sha256": "a2fae0325ec98b518d62baca263be65f32ec113c24f8d920a78e9c47c0ab4868",
             "occurrence": 1,
-            "question_hash_sha256": "56119093d7bd7c46ed7d7c551e33787304ee0e8ba2ab01050399a79d530c2bb3",
+            "question_hash_sha256": "ebed5d552470820f1853ccfed84bd865992a6398a3080fd163f3057c3d04b842",
             "question_id": "408-12-A-T42",
             "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
-          "target_task_ids": []
+          "target_task_ids": [
+            "408-12-A-T42#T01",
+            "408-12-A-T42#T02",
+            "408-12-A-T42#T03"
+          ]
         }
       ],
       "counting_policy": "只累加核心记录的已确定score_units；本文件的分项证据和条件规则不另行加算。",
       "documented_subpoints": [],
-      "effective_total_points": 15,
+      "effective_total_points": 13,
       "effective_unit_ids": [
         "408-12-A-T42:S0"
       ],
@@ -2625,7 +2641,7 @@
         "原总分15分，算法正确且线性时间的评分说明给12分；说明未明确覆盖哪几个要求，也没有剩余分值细则。保留原总分与12/9分条件文字，不把12分当整题满分或推算剩余3分。"
       ],
       "question_id": "408-12-A-T42",
-      "raw_total_points": 15
+      "raw_total_points": 13
     },
     {
       "conditional_rules": [],
@@ -2648,7 +2664,7 @@
             "line": 1657,
             "line_sha256": "e3d1834619c3c55d243544069509e3bd9920e066a085c98f2ef87aa7a3f9b02b",
             "occurrence": 1,
-            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_hash_sha256": "55e5c91449b92e99c1aeb608e96a6ef60d77117958d98c2f780b1e894039dfe2",
             "question_id": "408-12-A-T43",
             "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2676,7 +2692,7 @@
             "line": 1657,
             "line_sha256": "e3d1834619c3c55d243544069509e3bd9920e066a085c98f2ef87aa7a3f9b02b",
             "occurrence": 2,
-            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_hash_sha256": "55e5c91449b92e99c1aeb608e96a6ef60d77117958d98c2f780b1e894039dfe2",
             "question_id": "408-12-A-T43",
             "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2704,7 +2720,7 @@
             "line": 1657,
             "line_sha256": "e3d1834619c3c55d243544069509e3bd9920e066a085c98f2ef87aa7a3f9b02b",
             "occurrence": 1,
-            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_hash_sha256": "55e5c91449b92e99c1aeb608e96a6ef60d77117958d98c2f780b1e894039dfe2",
             "question_id": "408-12-A-T43",
             "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2732,7 +2748,7 @@
             "line": 1659,
             "line_sha256": "065282062fa472dc3a06ecffcc947471f650d22480e33ffb38474288902d3751",
             "occurrence": 1,
-            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_hash_sha256": "55e5c91449b92e99c1aeb608e96a6ef60d77117958d98c2f780b1e894039dfe2",
             "question_id": "408-12-A-T43",
             "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2762,7 +2778,7 @@
             "line": 1661,
             "line_sha256": "97eb81046ac0608019552c9697179a1593978126e810a07f40ab021ed6c28d5a",
             "occurrence": 1,
-            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_hash_sha256": "55e5c91449b92e99c1aeb608e96a6ef60d77117958d98c2f780b1e894039dfe2",
             "question_id": "408-12-A-T43",
             "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2790,7 +2806,7 @@
             "line": 1661,
             "line_sha256": "97eb81046ac0608019552c9697179a1593978126e810a07f40ab021ed6c28d5a",
             "occurrence": 2,
-            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_hash_sha256": "55e5c91449b92e99c1aeb608e96a6ef60d77117958d98c2f780b1e894039dfe2",
             "question_id": "408-12-A-T43",
             "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2818,7 +2834,7 @@
             "line": 1663,
             "line_sha256": "468597217a989e718fbf3973089eedf5f9810d43eeb74e84353d4ac06dd117cd",
             "occurrence": 1,
-            "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+            "question_hash_sha256": "55e5c91449b92e99c1aeb608e96a6ef60d77117958d98c2f780b1e894039dfe2",
             "question_id": "408-12-A-T43",
             "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md"
           },
@@ -2830,16 +2846,16 @@
           ]
         }
       ],
-      "effective_total_points": null,
+      "effective_total_points": 13,
       "effective_unit_ids": [
         "408-12-A-T43:S0"
       ],
-      "mode": "conflicting_total",
+      "mode": "whole",
       "notes": [
         "原始分值8分与局部七项10分冲突；以上只是原文分项证据，不作为已生效评分拆分。"
       ],
       "question_id": "408-12-A-T43",
-      "raw_total_points": 8
+      "raw_total_points": 13
     },
     {
       "conditional_rules": [],

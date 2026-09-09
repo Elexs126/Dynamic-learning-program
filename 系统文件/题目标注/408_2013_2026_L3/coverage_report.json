@@ -1,25 +1,14 @@
 {
-  "additional_human_required_label_types": {
-    "条件评分的适用范围": [
-      "408-13-A-T41"
-    ]
-  },
-  "additional_human_required_reasons": {
-    "408-13-A-T41": "原文条件分的覆盖任务范围未给清楚；保留带行号的条件证据，不将其应用到推测的小问或任务。"
-  },
+  "additional_human_required_label_types": {},
+  "additional_human_required_reasons": {},
   "alternative_method_count": 21,
   "alternative_method_question_count": 16,
   "analytical_without_numeric_subpoint_partition": [
-    "408-13-A-T41",
     "408-13-A-T42",
     "408-13-A-T43",
     "408-13-A-T44",
     "408-14-A-T41",
     "408-14-A-T42",
-    "408-14-A-T43",
-    "408-14-A-T44",
-    "408-14-A-T45",
-    "408-14-A-T46",
     "408-14-A-T47",
     "408-15-A-T41",
     "408-15-A-T42",
@@ -28,15 +17,8 @@
     "408-15-A-T45",
     "408-15-A-T46",
     "408-15-A-T47",
-    "408-16-A-T41",
     "408-16-A-T42",
     "408-16-A-T43",
-    "408-16-A-T44",
-    "408-16-A-T45",
-    "408-16-A-T46",
-    "408-17-A-T41",
-    "408-17-A-T42",
-    "408-17-A-T43",
     "408-17-A-T46",
     "408-17-A-T47",
     "408-18-A-T41",
@@ -96,8 +78,8 @@
   "conditional_rule_count": 102,
   "dependency_count": 75,
   "documented_subpoint_count": 195,
-  "explicit_partition_question_count": 17,
-  "explicit_partition_unit_count": 88,
+  "explicit_partition_question_count": 29,
+  "explicit_partition_unit_count": 171,
   "external_api_calls": 0,
   "field_coverage": {
     "l2.assessed_construct": {
@@ -157,36 +139,21 @@
     },
     "l3.score_units": {
       "filled": 658,
-      "needs_review": 15,
-      "verified": 643
+      "needs_review": 0,
+      "verified": 658
     }
   },
   "global_skips": [],
-  "human_required_label_types": {
-    "l3.score_units": [
-      "408-13-A-T41",
-      "408-14-A-T43",
-      "408-14-A-T44",
-      "408-14-A-T45",
-      "408-14-A-T46",
-      "408-14-A-T47",
-      "408-16-A-T41",
-      "408-16-A-T44",
-      "408-16-A-T45",
-      "408-16-A-T46",
-      "408-17-A-T41",
-      "408-17-A-T42",
-      "408-17-A-T43",
-      "408-26-A-T41",
-      "408-26-A-T44"
-    ]
-  },
-  "human_required_question_count": 15,
+  "human_required_label_types": {},
+  "human_required_question_count": 0,
   "incomplete_documented_partition_question_ids": [
     "408-14-A-T42",
+    "408-14-A-T47",
     "408-17-A-T46",
     "408-17-A-T47",
-    "408-24-A-T44"
+    "408-24-A-T44",
+    "408-26-A-T41",
+    "408-26-A-T44"
   ],
   "inventory": {
     "question_count": 658,
@@ -208,23 +175,12 @@
   "record_count": 658,
   "record_status_note": "整条记录保留needs_review，因为累积L0/L1仍有来源质量/候选状态；L2/L3以字段状态判断。",
   "schema_version": "cs408-2013-2026-l23-coverage-v1.0.0",
-  "score_unit_count": 729,
+  "score_unit_count": 800,
   "source_image_count": 162,
   "source_issue_count": 312,
   "source_issues": [
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "元数据10分，最高效率评分档及复杂度项合计13分；条件表和附带排序9分提示的适用范围也不一致，不能仅据本地文件确定有效总分。",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.score_units.S0.subdivision",
-          "reason": "原文条件分的覆盖任务范围未给清楚；保留带行号的条件证据，不将其应用到推测的小问或任务。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-13-A-T41",
       "source_issue": "原总分10分与评分表最优4加7再加复杂度各1分矛盾；解析阈值和复杂度变量有笔误，评分总分不猜选"
     },
@@ -334,57 +290,27 @@
       "source_issue": "LSI表子网前缀写192.168而拓扑及题干为192.1，路由结构和费用可独立判断，不补造确定前缀"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为8分，覆盖各要求的本地分项合计9分；不能据此选择、补齐或改写有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-14-A-T43",
       "source_issue": "原总分8分与分项6加1加1加1为9分冲突；前题图文前缀差异继续记录，不影响关系及方法标签"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为10分，覆盖各要求的本地分项合计12分；不能据此选择、补齐或改写有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-14-A-T44",
       "source_issue": "原总分10分与解析分项合计12分冲突；评分说明第1问实指末问的数据相关部分，按内容定位"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为7分，覆盖各要求的本地分项合计11分；不能据此选择、补齐或改写有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-14-A-T45",
       "source_issue": "原总分7分与解析分项合计11分冲突；共享前题代码属于题干上下文，未据此伪造全部小问的直接结果依赖"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为8分，覆盖各要求的本地分项合计6分；不能据此选择、补齐或改写有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-14-A-T46",
       "source_issue": "原总分8分与覆盖题目要求的局部分项合计6分不一致；解析存回内存应为写回磁盘，容量规则按题内抽象口径"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为9分，覆盖各要求的本地分项合计8分；不能据此选择、补齐或改写有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-14-A-T47",
       "source_issue": "正文empty与full初值反写，代码和初始为空条件可核对；原总分9分与评分细则合计8分矛盾"
     },
@@ -554,13 +480,7 @@
       "source_issue": "Cookie存在只按本题常规浏览器交互理解，不作为独立浏览历史认证"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为10分，覆盖各要求的明确分项合计9分；本地材料未说明应选哪个口径，有效总分留空。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-16-A-T41",
       "source_issue": "原总分10分与9项标分合计9分不一致；解析把字节每秒换成比特每秒时遗漏倍率，标签保留单位检查而不复制结果"
     },
@@ -575,35 +495,17 @@
       "source_issue": "原实现为递归却声称常数空间，且将平均线性写成无条件线性；只标正确的复杂度检查任务"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为10分，覆盖各要求的明确分项合计9分；本地材料未说明应选哪个口径，有效总分留空。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-16-A-T44",
       "source_issue": "元数据10分与2加1加3加1加2的9分细则冲突；可计末次服务尾部的口径按原评分条件保留"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为7分，覆盖各要求的明确分项合计14分；本地材料未说明应选哪个口径，有效总分留空。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-16-A-T45",
       "source_issue": "元数据7分与分项合计14分冲突；Cache图中第二路列标题误写页框号，不将其当作Cache数据语义"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为8分，覆盖各要求的明确分项合计6分；本地材料未说明应选哪个口径，有效总分留空。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-16-A-T46",
       "source_issue": "元数据8分而明确评分项合计6分，未补造差额分值"
     },
@@ -733,35 +635,17 @@
       "source_issue": "解析把根顶级与本地服务器层级名称混写；标签按缓存和逐级委派机制，不让本地服务器查询自身"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为10分，完整明确分项合计15分；无法仅据本地文件认证有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-17-A-T41",
       "source_issue": "原总分10分，解析3加2加10及评分表最高均为15分；函数名preorder与实际中序代码不一致，不复制命名错误"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为15分，完整明确分项合计8分；无法仅据本地文件认证有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-17-A-T42",
       "source_issue": "原总分15分与4加2加2的8分细则冲突；原文其他边都更大不准确，图中等权非树边须检查替换是否保持连通"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "原分值元数据为8分，完整明确分项合计13分；无法仅据本地文件认证有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-17-A-T43",
       "source_issue": "原总分8分与明确分项合计13分冲突；整数溢出按题目已给的定长机器模型分析，不推广为任意C实现的有定义行为；末尾问次编号互换"
     },
@@ -1721,13 +1605,7 @@
       "source_issue": "源把整个两RTT都称三次握手不准确，标签拆开建连与服务"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "元数据和完整分项合计12分，题干另称满分13分；不擅自选择有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-26-A-T41",
       "source_issue": "元数据和分项合计12分但题干声称13分；源例树含目标本身却称两侧最近，代码全局状态和提前停止需核查；不预设重复键也最多两个结点"
     },
@@ -1742,13 +1620,7 @@
       "source_issue": "按源格式与功能提取步骤，不输出整段机器码答案"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.score_units.S0.points",
-          "reason": "元数据和完整分项合计9分，题干另称满分15分；不擅自选择有效总分。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "question_id": "408-26-A-T44",
       "source_issue": "元数据及分项合计9分但题干满分15分；源只计零符号两种扩展遗漏字段宽度与移位字段提取，末问扩展比较未答，不复制其位数结论"
     },
@@ -1870,26 +1742,8 @@
   ],
   "source_scope": "核心真题/408中2013—2026年14份文件的658题；全部题干和本地解析逐题核对，162张引用图片均已本地渲染并查看。",
   "task_reference_count": 875,
-  "unresolved_rule_scope_question_ids": [
-    "408-13-A-T41"
-  ],
-  "unresolved_total_question_ids": [
-    "408-13-A-T41",
-    "408-14-A-T43",
-    "408-14-A-T44",
-    "408-14-A-T45",
-    "408-14-A-T46",
-    "408-14-A-T47",
-    "408-16-A-T41",
-    "408-16-A-T44",
-    "408-16-A-T45",
-    "408-16-A-T46",
-    "408-17-A-T41",
-    "408-17-A-T42",
-    "408-17-A-T43",
-    "408-26-A-T41",
-    "408-26-A-T44"
-  ],
+  "unresolved_rule_scope_question_ids": [],
+  "unresolved_total_question_ids": [],
   "year_counts": {
     "2013": 47,
     "2014": 47,

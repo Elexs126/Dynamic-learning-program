@@ -11,9 +11,9 @@
       "verified": 431
     },
     "l2.difficulty_band": {
-      "filled": 426,
-      "needs_review": 5,
-      "verified": 426
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
     },
     "l2.main_knowledge": {
       "filled": 431,
@@ -21,19 +21,19 @@
       "verified": 431
     },
     "l2.prerequisites": {
-      "filled": 428,
-      "needs_review": 3,
-      "verified": 428
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
     },
     "l2.primary_method": {
-      "filled": 428,
-      "needs_review": 3,
-      "verified": 428
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
     },
     "l2.secondary_knowledge": {
-      "filled": 430,
-      "needs_review": 1,
-      "verified": 430
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
     },
     "l3.alternative_methods": {
       "filled": 431,
@@ -41,9 +41,9 @@
       "verified": 431
     },
     "l3.evidence_steps": {
-      "filled": 428,
-      "needs_review": 5,
-      "verified": 426
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
     },
     "l3.inter_question_dependency": {
       "filled": 431,
@@ -51,9 +51,9 @@
       "verified": 431
     },
     "l3.isomorphic_relation": {
-      "filled": 424,
-      "needs_review": 7,
-      "verified": 424
+      "filled": 431,
+      "needs_review": 0,
+      "verified": 431
     },
     "l3.score_attribution": {
       "filled": 431,
@@ -78,45 +78,8 @@
       "reason": "没有细分评分证据，不分摊分数、不推定各步骤的官方得分。仍完成整题目标类别归属。"
     }
   ],
-  "human_required_label_types": {
-    "l2.difficulty_band": [
-      "M1-11-A-T21",
-      "M1-16-A-T22",
-      "M1-16-F-T12",
-      "M1-21-A-T22",
-      "M1-26-C-T04"
-    ],
-    "l2.prerequisites": [
-      "M1-11-A-T21",
-      "M1-16-F-T12",
-      "M1-26-C-T04"
-    ],
-    "l2.primary_method": [
-      "M1-11-A-T21",
-      "M1-16-F-T12",
-      "M1-26-C-T04"
-    ],
-    "l2.secondary_knowledge": [
-      "M1-11-A-T21"
-    ],
-    "l3.evidence_steps": [
-      "M1-11-A-T21",
-      "M1-16-F-T12",
-      "M1-21-A-T22",
-      "M1-21-C-T08",
-      "M1-26-C-T04"
-    ],
-    "l3.isomorphic_relation": [
-      "M1-11-A-T21",
-      "M1-15-A-T19",
-      "M1-16-A-T22",
-      "M1-16-F-T12",
-      "M1-21-A-T22",
-      "M1-21-C-T08",
-      "M1-26-C-T04"
-    ]
-  },
-  "human_required_question_count": 7,
+  "human_required_label_types": {},
+  "human_required_question_count": 0,
   "inventory": {
     "question_count": 431,
     "with_explicit_total_points": 431,
@@ -139,7 +102,7 @@
   "schema_version": "math1-l23-coverage-v1.0.0",
   "score_unit_count": 431,
   "source_image_count": 13,
-  "source_issue_count": 167,
+  "source_issue_count": 160,
   "source_issues": [
     {
       "field_omissions": [],
@@ -250,42 +213,6 @@
       "field_omissions": [],
       "question_id": "M1-11-A-T17",
       "source_issue": "原解析根数结论与自身奇函数和符号变化条件矛盾，不采用其具体根数结论"
-    },
-    {
-      "field_omissions": [
-        {
-          "field_path": "l2.primary_method",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.secondary_knowledge",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.prerequisites",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.difficulty_band",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.evidence_steps.U02",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        }
-      ],
-      "question_id": "M1-11-A-T21",
-      "source_issue": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件"
     },
     {
       "field_omissions": [],
@@ -478,17 +405,6 @@
       "source_issue": "解析候选点的梯度模与所报值不一致，保留方法不复制数值"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "给定端点及解析参数式与曲面条件不相容，原稿与路径弧段需核对；未确认具体积分表达式",
-          "reason_type": "human_review_needed"
-        }
-      ],
-      "question_id": "M1-15-A-T19",
-      "source_issue": "给定端点及解析参数式与曲面条件不相容，原稿与路径弧段需核对；未确认具体积分表达式"
-    },
-    {
       "field_omissions": [],
       "question_id": "M1-15-A-T20",
       "source_issue": "解析第二坐标差系数有笔误，不影响零空间解法"
@@ -534,22 +450,6 @@
       "source_issue": "解析将严格不等式直接取极限的步骤不充分，界限应使用极限固定点与中值定理"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l2.difficulty_band",
-          "reason": "现存区域满足Y小于X，故U退化，解析却使用不退化U且面积归一化不符；需核对根式边界，通用分区步骤仍可标但不能确认所述非独立结论",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "现存区域满足Y小于X，故U退化，解析却使用不退化U且面积归一化不符；需核对根式边界，通用分区步骤仍可标但不能确认所述非独立结论",
-          "reason_type": "human_review_needed"
-        }
-      ],
-      "question_id": "M1-16-A-T22",
-      "source_issue": "现存区域满足Y小于X，故U退化，解析却使用不退化U且面积归一化不符；需核对根式边界，通用分区步骤仍可标但不能确认所述非独立结论"
-    },
-    {
       "field_omissions": [],
       "question_id": "M1-16-C-T02",
       "source_issue": "解析把所给函数误写成其导数符号"
@@ -573,37 +473,6 @@
       "field_omissions": [],
       "question_id": "M1-16-C-T08",
       "source_issue": "解析混合概率中间乘式与给出的概率不一致"
-    },
-    {
-      "field_omissions": [
-        {
-          "field_path": "l2.primary_method",
-          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.prerequisites",
-          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.difficulty_band",
-          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.evidence_steps",
-          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
-          "reason_type": "human_review_needed"
-        }
-      ],
-      "question_id": "M1-16-F-T12",
-      "source_issue": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数"
     },
     {
       "field_omissions": [],
@@ -836,51 +705,9 @@
       "source_issue": "解析把负端点交错和写成正项和，但端点收敛性不受此笔误影响"
     },
     {
-      "field_omissions": [
-        {
-          "field_path": "l3.evidence_steps.U02",
-          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.evidence_steps.U03",
-          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.difficulty_band",
-          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
-          "reason_type": "human_review_needed"
-        }
-      ],
-      "question_id": "M1-21-A-T22",
-      "source_issue": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整"
-    },
-    {
       "field_omissions": [],
       "question_id": "M1-21-C-T02",
       "source_issue": "解析直接假定整个函数表达式，题干实际只需交点偏导且不能唯一确定全局函数"
-    },
-    {
-      "field_omissions": [
-        {
-          "field_path": "l3.evidence_steps",
-          "reason": "题干补集与部分事件名称缺失，解析末尾选择与此前推导不能逐项对应；保留条件概率知识与通分方法，具体选项证据需核对",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "题干补集与部分事件名称缺失，解析末尾选择与此前推导不能逐项对应；保留条件概率知识与通分方法，具体选项证据需核对",
-          "reason_type": "human_review_needed"
-        }
-      ],
-      "question_id": "M1-21-C-T08",
-      "source_issue": "题干补集与部分事件名称缺失，解析末尾选择与此前推导不能逐项对应；保留条件概率知识与通分方法，具体选项证据需核对"
     },
     {
       "field_omissions": [],
@@ -1051,37 +878,6 @@
       "field_omissions": [],
       "question_id": "M1-26-C-T03",
       "source_issue": "题设未给可导性，解析导数证明增添假设；凸函数弦斜率性质本身不需可导"
-    },
-    {
-      "field_omissions": [
-        {
-          "field_path": "l2.primary_method",
-          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.prerequisites",
-          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.difficulty_band",
-          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.evidence_steps",
-          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
-          "reason_type": "human_review_needed"
-        }
-      ],
-      "question_id": "M1-26-C-T04",
-      "source_issue": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对"
     },
     {
       "field_omissions": [],

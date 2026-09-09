@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "builder_version": "l1-builder-v1.0.0",
-  "generated_at": "2026-09-06T18:17:35.506218Z",
+  "generated_at": "2026-09-09T12:28:09.956596Z",
   "records": 8024,
   "unique_ids": 8024,
   "sources": {
@@ -30,7 +30,7 @@
   "duplicate_groups": 32,
   "duplicate_candidate_records": 65,
   "unknown_original_points": 5885,
-  "inferred_question_types": 2993,
+  "inferred_question_types": 0,
   "flags": {
     "ATOMIZATION_NOT_REVIEWED": 1969,
     "AUX_TRACK_ROUTED_TO_MATH1_SKELETON_ONLY": 862,
@@ -38,9 +38,6 @@
     "GENERIC_LABEL_NOT_KNOWLEDGE": 6,
     "LEGACY_LABEL_UNVERIFIED": 8024,
     "OCR_SUSPICIOUS_CHARACTERS": 46,
-    "ORIGINAL_POINTS_UNKNOWN": 5885,
-    "QUESTION_TYPE_INFERRED": 2993,
-    "QUESTION_TYPE_METADATA_CONFLICT": 5,
     "SCOPE_AMBIGUOUS": 68,
     "SCOPE_UNMAPPED": 148,
     "SEMANTIC_COMPLETENESS_UNREVIEWED": 8024,

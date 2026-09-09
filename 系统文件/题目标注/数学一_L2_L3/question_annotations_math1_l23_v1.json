@@ -13441,38 +13441,7 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l2.primary_method",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.secondary_knowledge",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.prerequisites",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.difficulty_band",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.evidence_steps.U02",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "MATH1",
         "locked": true,
@@ -13480,7 +13449,7 @@
         "original_section": "2011年全国硕士研究生招生考试数学一真题 > 解答题",
         "paper_id": "M1-2011",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "a6f8f59e0df0270eba51218bc299a80214d1c8dd77db107c090732f7ce23ab2b",
+        "question_hash_sha256": "8971c5951c22fd428df1327753d266af79930acee228a3addb910ec5098ebbd7",
         "question_number": "T21",
         "question_source": "2011年全国硕士研究生招生考试数学一真题",
         "question_type": "analytical",
@@ -13541,32 +13510,52 @@
         "assessed_construct": "能从已知矩阵作用关系识别特征值与特征向量；并能根据题设作用关系求矩阵。",
         "confidence_by_field": {
           "assessed_construct": "high",
-          "difficulty_band": "unknown",
-          "main_knowledge": "medium",
-          "prerequisites": "unknown",
-          "primary_method": "unknown",
-          "secondary_knowledge": "unknown"
+          "difficulty_band": "medium",
+          "main_knowledge": "high",
+          "prerequisites": "medium",
+          "primary_method": "high",
+          "secondary_knowledge": "high"
         },
+        "difficulty_band": "advanced",
         "main_knowledge": {
           "id": "M1_K_8b7b334583306ca8",
           "name": "由矩阵作用关系识别特征结构"
         },
+        "prerequisites": {
+          "hard_prerequisite": [
+            {
+              "id": "M1_K_ca132c82a8f72982",
+              "name": "矩阵特征值定义"
+            }
+          ],
+          "soft_prerequisite": []
+        },
+        "primary_method": {
+          "id": "M1_METHOD_e162360ea6447c47",
+          "name": "从向量像读取特征对并结合秩判断零特征值"
+        },
         "review_status_by_field": {
           "assessed_construct": "verified",
-          "difficulty_band": "needs_review",
+          "difficulty_band": "verified",
           "main_knowledge": "verified",
-          "prerequisites": "needs_review",
-          "primary_method": "needs_review",
-          "secondary_knowledge": "needs_review"
-        }
+          "prerequisites": "verified",
+          "primary_method": "verified",
+          "secondary_knowledge": "verified"
+        },
+        "secondary_knowledge": [
+          {
+            "id": "M1_K_bee5bb1b8fea5eac",
+            "name": "矩阵秩与零空间维数"
+          }
+        ]
       },
       "l3": {
         "alternative_methods": [],
         "confidence_by_field": {
           "alternative_methods": "high",
-          "evidence_steps": "medium",
+          "evidence_steps": "high",
           "inter_question_dependency": "high",
-          "isomorphic_relation": "unknown",
+          "isomorphic_relation": "medium",
           "score_attribution": "medium",
           "score_units": "high"
         },
@@ -13574,7 +13563,8 @@
           {
             "basis": "核心真题/数学一/2011年全国硕士研究生招生考试数学一真题.md#M1-11-A-T21；依据题干任务与本地解析提取可观察行为，未提供细分分值，非完整解答。",
             "steps": [
-              "[M1-11-A-T21#T01] 从已知矩阵作用关系识别特征值与特征向量"
+              "[M1-11-A-T21#T01] 从已知矩阵作用关系识别特征值与特征向量",
+              "[M1-11-A-T21#T02] 根据题设作用关系求矩阵"
             ],
             "unit_id": "M1-11-A-T21:S0"
           }
@@ -13583,11 +13573,12 @@
           "relations": [],
           "unresolved_legacy_note": null
         },
+        "isomorphic_relation": null,
         "review_status_by_field": {
           "alternative_methods": "verified",
-          "evidence_steps": "needs_review",
+          "evidence_steps": "verified",
           "inter_question_dependency": "verified",
-          "isomorphic_relation": "needs_review",
+          "isomorphic_relation": "verified",
           "score_attribution": "verified",
           "score_units": "verified"
         },
@@ -13596,7 +13587,8 @@
             "category": "integrated_target",
             "status": "verified",
             "target_knowledge_ids": [
-              "M1_K_8b7b334583306ca8"
+              "M1_K_8b7b334583306ca8",
+              "M1_K_bee5bb1b8fea5eac"
             ],
             "unit_id": "M1-11-A-T21:S0"
           }
@@ -13618,10 +13610,8 @@
         "ATOMIZATION_NOT_REVIEWED",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
-        "LOCAL_SOURCE_ISSUE",
         "NOT_OFFICIAL_SCORING_RUBRIC",
         "NO_SUBQUESTION_POINT_ALLOCATION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
         "SOURCE_RELIABILITY_UNREVIEWED"
       ],
@@ -29726,13 +29716,7 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "给定端点及解析参数式与曲面条件不相容，原稿与路径弧段需核对；未确认具体积分表达式",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "MATH1",
         "locked": true,
@@ -29740,7 +29724,7 @@
         "original_section": "2015年全国硕士研究生招生考试数学一真题 > 解答题",
         "paper_id": "M1-2015",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "90282f2ee902877a809ab179e5b6c30d54d1e343ec474ea7ee91c2bafb631119",
+        "question_hash_sha256": "d756c79dd0274034009259a50029c3f243f0e94fad2ae8590e8a6dcac5e2bdb3",
         "question_number": "T19",
         "question_source": "2015年全国硕士研究生招生考试数学一真题",
         "question_type": "analytical",
@@ -29802,10 +29786,10 @@
         "confidence_by_field": {
           "assessed_construct": "high",
           "difficulty_band": "medium",
-          "main_knowledge": "medium",
+          "main_knowledge": "high",
           "prerequisites": "medium",
-          "primary_method": "medium",
-          "secondary_knowledge": "medium"
+          "primary_method": "high",
+          "secondary_knowledge": "high"
         },
         "difficulty_band": "advanced",
         "main_knowledge": {
@@ -29843,9 +29827,9 @@
         "alternative_methods": [],
         "confidence_by_field": {
           "alternative_methods": "high",
-          "evidence_steps": "medium",
+          "evidence_steps": "high",
           "inter_question_dependency": "high",
-          "isomorphic_relation": "unknown",
+          "isomorphic_relation": "medium",
           "score_attribution": "medium",
           "score_units": "high"
         },
@@ -29864,11 +29848,12 @@
           "relations": [],
           "unresolved_legacy_note": null
         },
+        "isomorphic_relation": null,
         "review_status_by_field": {
           "alternative_methods": "verified",
           "evidence_steps": "verified",
           "inter_question_dependency": "verified",
-          "isomorphic_relation": "needs_review",
+          "isomorphic_relation": "verified",
           "score_attribution": "verified",
           "score_units": "verified"
         },
@@ -29899,10 +29884,8 @@
         "ATOMIZATION_NOT_REVIEWED",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
-        "LOCAL_SOURCE_ISSUE",
         "NOT_OFFICIAL_SCORING_RUBRIC",
         "NO_SUBQUESTION_POINT_ALLOCATION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
         "SOURCE_RELIABILITY_UNREVIEWED"
       ],
@@ -34422,18 +34405,7 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l2.difficulty_band",
-          "reason": "现存区域满足Y小于X，故U退化，解析却使用不退化U且面积归一化不符；需核对根式边界，通用分区步骤仍可标但不能确认所述非独立结论",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "现存区域满足Y小于X，故U退化，解析却使用不退化U且面积归一化不符；需核对根式边界，通用分区步骤仍可标但不能确认所述非独立结论",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "MATH1",
         "locked": true,
@@ -34441,7 +34413,7 @@
         "original_section": "2016年全国硕士研究生招生考试数学一真题 > 解答题",
         "paper_id": "M1-2016",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "a749f43a8887d8a29bad8fe6607cb2eb6cc2eb250244530a02b53d5172f8cfc5",
+        "question_hash_sha256": "3f4ddbb0c8e5ed6536a316fe7af42ab03f29468185530d653a418a734ce3ae62",
         "question_number": "T22",
         "question_source": "2016年全国硕士研究生招生考试数学一真题",
         "question_type": "analytical",
@@ -34502,12 +34474,13 @@
         "assessed_construct": "能由支持区域面积确定密度；并能按区域交集检验指示变量与原变量独立性；并能按指示变量取值拆开和变量事件、分区积分得到分布函数。",
         "confidence_by_field": {
           "assessed_construct": "high",
-          "difficulty_band": "unknown",
-          "main_knowledge": "medium",
+          "difficulty_band": "medium",
+          "main_knowledge": "high",
           "prerequisites": "medium",
-          "primary_method": "medium",
-          "secondary_knowledge": "medium"
+          "primary_method": "high",
+          "secondary_knowledge": "high"
         },
+        "difficulty_band": "advanced",
         "main_knowledge": {
           "id": "M1_K_19de52d57a9cdc18",
           "name": "二维均匀分布与分段变量变换"
@@ -34531,7 +34504,7 @@
         },
         "review_status_by_field": {
           "assessed_construct": "verified",
-          "difficulty_band": "needs_review",
+          "difficulty_band": "verified",
           "main_knowledge": "verified",
           "prerequisites": "verified",
           "primary_method": "verified",
@@ -34548,9 +34521,9 @@
         "alternative_methods": [],
         "confidence_by_field": {
           "alternative_methods": "high",
-          "evidence_steps": "medium",
+          "evidence_steps": "high",
           "inter_question_dependency": "high",
-          "isomorphic_relation": "unknown",
+          "isomorphic_relation": "medium",
           "score_attribution": "medium",
           "score_units": "high"
         },
@@ -34583,11 +34556,12 @@
           ],
           "unresolved_legacy_note": null
         },
+        "isomorphic_relation": null,
         "review_status_by_field": {
           "alternative_methods": "verified",
           "evidence_steps": "verified",
           "inter_question_dependency": "verified",
-          "isomorphic_relation": "needs_review",
+          "isomorphic_relation": "verified",
           "score_attribution": "verified",
           "score_units": "verified"
         },
@@ -34619,10 +34593,8 @@
         "ATOMIZATION_NOT_REVIEWED",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
-        "LOCAL_SOURCE_ISSUE",
         "NOT_OFFICIAL_SCORING_RUBRIC",
         "NO_SUBQUESTION_POINT_ALLOCATION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
         "SOURCE_RELIABILITY_UNREVIEWED"
       ],
@@ -36761,33 +36733,7 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l2.primary_method",
-          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.prerequisites",
-          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.difficulty_band",
-          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.evidence_steps",
-          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "MATH1",
         "locked": true,
@@ -36795,7 +36741,7 @@
         "original_section": "2016年全国硕士研究生招生考试数学一真题 > 填空题",
         "paper_id": "M1-2016",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "7a065fb9766116bbab356c4b13f39b42ed983a1c94a7fe5dc9b31e775c13db72",
+        "question_hash_sha256": "21cf5ee7f092b9b9c183d69424bbe1da3694ccffe2c4bc5bd589758c44d275eb",
         "question_number": "T12",
         "question_source": "2016年全国硕士研究生招生考试数学一真题",
         "question_type": "fill",
@@ -36856,22 +36802,36 @@
         "assessed_construct": "能计算指定阶数导数、利用导数条件确定参数。",
         "confidence_by_field": {
           "assessed_construct": "high",
-          "difficulty_band": "unknown",
-          "main_knowledge": "medium",
-          "prerequisites": "unknown",
-          "primary_method": "unknown",
-          "secondary_knowledge": "medium"
+          "difficulty_band": "medium",
+          "main_knowledge": "high",
+          "prerequisites": "medium",
+          "primary_method": "high",
+          "secondary_knowledge": "high"
         },
+        "difficulty_band": "intermediate",
         "main_knowledge": {
           "id": "M1_K_a3337995f568e0c8",
           "name": "高阶导数与参数确定"
         },
+        "prerequisites": {
+          "hard_prerequisite": [
+            {
+              "id": "M1_K_f26493d76c3d48ec",
+              "name": "泰勒系数"
+            }
+          ],
+          "soft_prerequisite": []
+        },
+        "primary_method": {
+          "id": "M1_METHOD_644c3a6411d50c2e",
+          "name": "逐阶求导法"
+        },
         "review_status_by_field": {
           "assessed_construct": "verified",
-          "difficulty_band": "needs_review",
+          "difficulty_band": "verified",
           "main_knowledge": "verified",
-          "prerequisites": "needs_review",
-          "primary_method": "needs_review",
+          "prerequisites": "verified",
+          "primary_method": "verified",
           "secondary_knowledge": "verified"
         },
         "secondary_knowledge": []
@@ -36880,21 +36840,32 @@
         "alternative_methods": [],
         "confidence_by_field": {
           "alternative_methods": "high",
-          "evidence_steps": "unknown",
+          "evidence_steps": "high",
           "inter_question_dependency": "high",
-          "isomorphic_relation": "unknown",
+          "isomorphic_relation": "medium",
           "score_attribution": "medium",
           "score_units": "high"
         },
+        "evidence_steps": [
+          {
+            "basis": "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md#M1-16-F-T12；依据题干任务与本地解析提取可观察行为，未提供细分分值，非完整解答。",
+            "steps": [
+              "[M1-16-F-T12#T01] 计算指定阶数导数",
+              "[M1-16-F-T12#T01] 利用导数条件确定参数"
+            ],
+            "unit_id": "M1-16-F-T12:S0"
+          }
+        ],
         "inter_question_dependency": {
           "relations": [],
           "unresolved_legacy_note": null
         },
+        "isomorphic_relation": null,
         "review_status_by_field": {
           "alternative_methods": "verified",
-          "evidence_steps": "needs_review",
+          "evidence_steps": "verified",
           "inter_question_dependency": "verified",
-          "isomorphic_relation": "needs_review",
+          "isomorphic_relation": "verified",
           "score_attribution": "verified",
           "score_units": "verified"
         },
@@ -36924,10 +36895,8 @@
       "review_flags": [
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
-        "LOCAL_SOURCE_ISSUE",
         "NOT_OFFICIAL_SCORING_RUBRIC",
         "NO_SUBQUESTION_POINT_ALLOCATION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
         "SOURCE_RELIABILITY_UNREVIEWED"
       ],
@@ -54839,28 +54808,7 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.evidence_steps.U02",
-          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.evidence_steps.U03",
-          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.difficulty_band",
-          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "MATH1",
         "locked": true,
@@ -54868,7 +54816,7 @@
         "original_section": "2021年全国硕士研究生招生考试数学一真题 > 解答题",
         "paper_id": "M1-2021",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "e4fa9f75ea7f979893dd82313f18628eed0ab7b47ffb7a9a105beedffa7d628b",
+        "question_hash_sha256": "fe47dd88ce2cec07841fbb3c1f3cee43da7c71dbe015e9ea1586d0f592bb267e",
         "question_number": "T22",
         "question_source": "2021年全国硕士研究生招生考试数学一真题",
         "question_type": "analytical",
@@ -54929,12 +54877,13 @@
         "assessed_construct": "能由较短段事件构造密度；并能根据长短段定义的目标变换求分布；并能根据目标函数计算长短段变量的期望。",
         "confidence_by_field": {
           "assessed_construct": "high",
-          "difficulty_band": "unknown",
-          "main_knowledge": "medium",
+          "difficulty_band": "medium",
+          "main_knowledge": "high",
           "prerequisites": "medium",
-          "primary_method": "medium",
-          "secondary_knowledge": "medium"
+          "primary_method": "high",
+          "secondary_knowledge": "high"
         },
+        "difficulty_band": "advanced",
         "main_knowledge": {
           "id": "M1_K_4398268e9e1437bf",
           "name": "随机分点的长度变换分布"
@@ -54958,7 +54907,7 @@
         },
         "review_status_by_field": {
           "assessed_construct": "verified",
-          "difficulty_band": "needs_review",
+          "difficulty_band": "verified",
           "main_knowledge": "verified",
           "prerequisites": "verified",
           "primary_method": "verified",
@@ -54975,9 +54924,9 @@
         "alternative_methods": [],
         "confidence_by_field": {
           "alternative_methods": "high",
-          "evidence_steps": "medium",
+          "evidence_steps": "high",
           "inter_question_dependency": "high",
-          "isomorphic_relation": "unknown",
+          "isomorphic_relation": "medium",
           "score_attribution": "medium",
           "score_units": "high"
         },
@@ -54985,7 +54934,9 @@
           {
             "basis": "核心真题/数学一/2021年全国硕士研究生招生考试数学一真题.md#M1-21-A-T22；依据题干任务与本地解析提取可观察行为，未提供细分分值，非完整解答。",
             "steps": [
-              "[M1-21-A-T22#T01] 由较短段事件构造密度"
+              "[M1-21-A-T22#T01] 由较短段事件构造密度",
+              "[M1-21-A-T22#T02] 根据长短段定义的目标变换求分布",
+              "[M1-21-A-T22#T03] 根据目标函数计算长短段变量的期望"
             ],
             "unit_id": "M1-21-A-T22:S0"
           }
@@ -55007,11 +54958,12 @@
           ],
           "unresolved_legacy_note": null
         },
+        "isomorphic_relation": null,
         "review_status_by_field": {
           "alternative_methods": "verified",
-          "evidence_steps": "needs_review",
+          "evidence_steps": "verified",
           "inter_question_dependency": "verified",
-          "isomorphic_relation": "needs_review",
+          "isomorphic_relation": "verified",
           "score_attribution": "verified",
           "score_units": "verified"
         },
@@ -55043,10 +54995,8 @@
         "ATOMIZATION_NOT_REVIEWED",
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
-        "LOCAL_SOURCE_ISSUE",
         "NOT_OFFICIAL_SCORING_RUBRIC",
         "NO_SUBQUESTION_POINT_ALLOCATION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
         "SOURCE_RELIABILITY_UNREVIEWED"
       ],
@@ -56277,18 +56227,7 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.evidence_steps",
-          "reason": "题干补集与部分事件名称缺失，解析末尾选择与此前推导不能逐项对应；保留条件概率知识与通分方法，具体选项证据需核对",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "题干补集与部分事件名称缺失，解析末尾选择与此前推导不能逐项对应；保留条件概率知识与通分方法，具体选项证据需核对",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "MATH1",
         "locked": true,
@@ -56296,7 +56235,7 @@
         "original_section": "2021年全国硕士研究生招生考试数学一真题 > 选择题",
         "paper_id": "M1-2021",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "4ca41a711fa66581837f2014fb3eda16c5bf77b64783f6c5a50d657b1a968be4",
+        "question_hash_sha256": "4470d2ccafa43bffa0f8567d006fa0585c965d0b9c02a918178fc5fb1d8d8da7",
         "question_number": "T08",
         "question_source": "2021年全国硕士研究生招生考试数学一真题",
         "question_type": "choice",
@@ -56358,10 +56297,10 @@
         "confidence_by_field": {
           "assessed_construct": "high",
           "difficulty_band": "medium",
-          "main_knowledge": "medium",
+          "main_knowledge": "high",
           "prerequisites": "medium",
-          "primary_method": "medium",
-          "secondary_knowledge": "medium"
+          "primary_method": "high",
+          "secondary_knowledge": "high"
         },
         "difficulty_band": "intermediate",
         "main_knowledge": {
@@ -56399,21 +56338,32 @@
         "alternative_methods": [],
         "confidence_by_field": {
           "alternative_methods": "high",
-          "evidence_steps": "unknown",
+          "evidence_steps": "high",
           "inter_question_dependency": "high",
-          "isomorphic_relation": "unknown",
+          "isomorphic_relation": "medium",
           "score_attribution": "medium",
           "score_units": "high"
         },
+        "evidence_steps": [
+          {
+            "basis": "核心真题/数学一/2021年全国硕士研究生招生考试数学一真题.md#M1-21-C-T08；依据题干任务与本地解析提取可观察行为，未提供细分分值，非完整解答。",
+            "steps": [
+              "[M1-21-C-T08#T01] 通分改写条件概率命题",
+              "[M1-21-C-T08#T01] 检查互补条件下的蕴含关系"
+            ],
+            "unit_id": "M1-21-C-T08:S0"
+          }
+        ],
         "inter_question_dependency": {
           "relations": [],
           "unresolved_legacy_note": null
         },
+        "isomorphic_relation": null,
         "review_status_by_field": {
           "alternative_methods": "verified",
-          "evidence_steps": "needs_review",
+          "evidence_steps": "verified",
           "inter_question_dependency": "verified",
-          "isomorphic_relation": "needs_review",
+          "isomorphic_relation": "verified",
           "score_attribution": "verified",
           "score_units": "verified"
         },
@@ -56443,10 +56393,8 @@
       "review_flags": [
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
-        "LOCAL_SOURCE_ISSUE",
         "NOT_OFFICIAL_SCORING_RUBRIC",
         "NO_SUBQUESTION_POINT_ALLOCATION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
         "SOURCE_RELIABILITY_UNREVIEWED"
       ],
@@ -75365,33 +75313,7 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l2.primary_method",
-          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.prerequisites",
-          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l2.difficulty_band",
-          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.evidence_steps",
-          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.isomorphic_relation",
-          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "MATH1",
         "locked": true,
@@ -75399,7 +75321,7 @@
         "original_section": "2026年全国硕士研究生招生考试数学一真题 > 选择题",
         "paper_id": "M1-2026",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "18420bde477792ec3442846c0f128afca573ecb638b39d432b989a6cf16dbf08",
+        "question_hash_sha256": "6550d6d2ffb4e109c29166ac794a33da9c19cdec448a92fb76f5eacb559aa8cf",
         "question_number": "T04",
         "question_source": "2026年全国硕士研究生招生考试数学一真题",
         "question_type": "choice",
@@ -75460,22 +75382,40 @@
         "assessed_construct": "能核对球面与圆锥的范围、转换径向函数和球坐标体积元、确定角度与半径界。",
         "confidence_by_field": {
           "assessed_construct": "high",
-          "difficulty_band": "unknown",
-          "main_knowledge": "medium",
-          "prerequisites": "unknown",
-          "primary_method": "unknown",
-          "secondary_knowledge": "medium"
+          "difficulty_band": "medium",
+          "main_knowledge": "high",
+          "prerequisites": "medium",
+          "primary_method": "high",
+          "secondary_knowledge": "high"
         },
+        "difficulty_band": "intermediate",
         "main_knowledge": {
           "id": "M1_K_1101c7b3b2e9caeb",
           "name": "三重积分的坐标变换"
         },
+        "prerequisites": {
+          "hard_prerequisite": [
+            {
+              "id": "M1_K_00c96decf9edf5ef",
+              "name": "球坐标Jacobian"
+            },
+            {
+              "id": "M1_K_2b13a4eebd9ccbab",
+              "name": "空间区域"
+            }
+          ],
+          "soft_prerequisite": []
+        },
+        "primary_method": {
+          "id": "M1_METHOD_c120dc1678f28eb6",
+          "name": "识别球锥交域并写球坐标面积元"
+        },
         "review_status_by_field": {
           "assessed_construct": "verified",
-          "difficulty_band": "needs_review",
+          "difficulty_band": "verified",
           "main_knowledge": "verified",
-          "prerequisites": "needs_review",
-          "primary_method": "needs_review",
+          "prerequisites": "verified",
+          "primary_method": "verified",
           "secondary_knowledge": "verified"
         },
         "secondary_knowledge": []
@@ -75484,21 +75424,33 @@
         "alternative_methods": [],
         "confidence_by_field": {
           "alternative_methods": "high",
-          "evidence_steps": "unknown",
+          "evidence_steps": "high",
           "inter_question_dependency": "high",
-          "isomorphic_relation": "unknown",
+          "isomorphic_relation": "medium",
           "score_attribution": "medium",
           "score_units": "high"
         },
+        "evidence_steps": [
+          {
+            "basis": "核心真题/数学一/2026年全国硕士研究生招生考试数学一真题.md#M1-26-C-T04；依据题干任务与本地解析提取可观察行为，未提供细分分值，非完整解答。",
+            "steps": [
+              "[M1-26-C-T04#T01] 核对球面与圆锥的范围",
+              "[M1-26-C-T04#T01] 转换径向函数和球坐标体积元",
+              "[M1-26-C-T04#T01] 确定角度与半径界"
+            ],
+            "unit_id": "M1-26-C-T04:S0"
+          }
+        ],
         "inter_question_dependency": {
           "relations": [],
           "unresolved_legacy_note": null
         },
+        "isomorphic_relation": null,
         "review_status_by_field": {
           "alternative_methods": "verified",
-          "evidence_steps": "needs_review",
+          "evidence_steps": "verified",
           "inter_question_dependency": "verified",
-          "isomorphic_relation": "needs_review",
+          "isomorphic_relation": "verified",
           "score_attribution": "verified",
           "score_units": "verified"
         },
@@ -75528,10 +75480,8 @@
       "review_flags": [
         "LEGACY_LABEL_UNVERIFIED",
         "LOCAL_L2_L3_SEMANTIC_REVIEW",
-        "LOCAL_SOURCE_ISSUE",
         "NOT_OFFICIAL_SCORING_RUBRIC",
         "NO_SUBQUESTION_POINT_ALLOCATION",
-        "PARTIAL_FIELDS_REQUIRE_ORIGINAL_CHECK",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
         "SOURCE_RELIABILITY_UNREVIEWED"
       ],

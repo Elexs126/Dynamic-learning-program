@@ -400,9 +400,8 @@ def generate(project,review_dir=REVIEW_DIR):
     lines += ['', '## 需人工或原稿确认而未完成的标签类型','']
     for f,ids in report['human_required_label_types'].items():lines.append(f"- `{f}`：{len(ids)}题；"+'、'.join(ids)+'。')
     lines += ['', '具体冲突和受影响字段见 `coverage_report.json` 的 `source_issues`；普通质量注记不代表整题标签都被跳过。', '',
-              '## 评分与关系','',f"共{report['score_unit_count']}个评分单元；{report['explicit_partition_question_count']}题使用{report['explicit_partition_unit_count']}个明确且合计一致的分项，其余保留整题口径；1题因总分冲突留空有效总分。{len(tasks)}个任务引用只用于定位，不是额外评分原子。",
-              f"另记录{report['documented_subpoint_count']}项原文分值证据与{report['conditional_rule_count']}条条件评分规则。这些证据不能与评分单元再次相加。2012第44题只提供前三问分值，不推算末问；2012第42题的12/9分条件适用范围待确认。",
-              '2012第43题：L0原总分8分与解析分项10分冲突，L3有效总分为null；知识、方法、作答证据和结构性归属继续填写。',
+              '## 评分与关系','',f"共{report['score_unit_count']}个评分单元；{report['explicit_partition_question_count']}题使用{report['explicit_partition_unit_count']}个明确且合计一致的分项，其余保留整题口径；{len(report['unresolved_total_question_ids'])}题因总分冲突留空有效总分。{len(tasks)}个任务引用只用于定位，不是额外评分原子。",
+              f"另记录{report['documented_subpoint_count']}项原文分值证据与{report['conditional_rule_count']}条条件评分规则。这些证据不能与评分单元再次相加。2012第44题只提供前三问分值，不推算末问。",
               f"登记{report['alternative_method_count']}个备选方法、{report['dependency_count']}条本地解法依赖、{len(policy['clusters'])}个同构簇（{len(clusters)}题）。",'',
               *report['limitations'],'','核验结果另见 `validation_report.json` 和执行清单 `run_manifest.json`。']
     output={BUNDLE:json_bytes(bundle),'task_index_v1.json':json_bytes(task_bundle),'label_registry_v1.json':json_bytes(reg),
