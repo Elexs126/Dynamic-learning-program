@@ -1,0 +1,77 @@
+{
+  "policy_version": "runtime-policy-v1.0.0",
+  "rule_date": "2026-09-06",
+  "implemented_at": "2026-09-09",
+  "base_contract": "系统文件/系统配置/execution_contract_v1.json",
+  "base_contract_sha256": "9f153734861359407ba17a5ee1a11ab3b5fa0d9247f4e8a5a9e564d769ba6a97",
+  "time_budget": {
+    "net_weekly_hours": 50,
+    "net_weekly_hours_scope": "仅数学一与408，已经排除政治和英语",
+    "politics_and_english_weekly_hours_outside_contract": 14,
+    "politics_and_english_internal_allocation": "student_dynamic",
+    "total_reported_weekly_study_hours": 64,
+    "reported_daily_hours_for_math1_and_cs408": {
+      "monday": 8,
+      "tuesday": 6,
+      "wednesday": 8,
+      "thursday": 6,
+      "friday": 8,
+      "saturday": 8,
+      "sunday": 6
+    },
+    "initial_weekly_allocation": {
+      "MATH1": 25,
+      "CS408": 25,
+      "status": "provisional_neutral_split",
+      "applies_to": "首个完整预算周2026-09-07/2026-09-13",
+      "basis": "两科均为150分且尚无独立基线；先等分一个完整周，只在周日审计后调整"
+    },
+    "minimum_weekly_hours": {
+      "MATH1": 15,
+      "CS408": 20
+    },
+    "system_maintenance_hours_limit": 5,
+    "system_maintenance_included_in_net_50": true,
+    "system_maintenance_accounting": "按所服务科目计入数学一或408预算，不是额外的第51—55小时",
+    "launch_stub": {
+      "period": "2026-09-01/2026-09-06",
+      "available_math1_cs408_hours_from_daily_schedule": 42,
+      "timed_startup_available_hours_from_september_2": 36,
+      "startup_effective_hour_cap": 25,
+      "normal_learning_after_cap": true,
+      "not_interpreted_as_full_25_25_week": true
+    },
+    "known_interruptions": []
+  },
+  "learning_block_minutes": 45,
+  "startup_window_restarted": false,
+  "api_budget_default": {
+    "unit": "tokens",
+    "unit_name": "tokens",
+    "week_start": null,
+    "limit": null,
+    "used": null,
+    "reserved": null,
+    "estimate": null,
+    "retry_reserve": null,
+    "max_input_tokens_per_call": null,
+    "max_output_tokens_per_call": null
+  },
+  "api_enforcement_scope": "read_only_preflight_no_billing_meter_no_reservations_no_external_call_interception",
+  "missing_data": {
+    "unknown_is_zero": false,
+    "empty_attempt_log_is_unlearned": false,
+    "empty_E_sample_metrics": null,
+    "requires_all_L3_before_learning": false
+  },
+  "independent_measurement": {
+    "status": "not_activated",
+    "allowed_future_modes": [
+      "human_offline",
+      "isolated_runtime"
+    ],
+    "aggregate_interface_does_not_activate_measurement": true,
+    "teacher_preexposed_material_eligible": false
+  },
+  "offline_summary_log": "系统文件/做题记录/offline_assessment_summaries_v1.jsonl"
+}

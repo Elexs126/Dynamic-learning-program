@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "offline-assessment-summary-v1.0.0",
+  "title": "人工离线整科自核汇总：不含试卷身份，不据总分认证能力",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "summary_id",
+    "exam_track",
+    "summary_scope",
+    "reported_assessment_kind",
+    "completed_at",
+    "verified_at",
+    "earned_points",
+    "maximum_points",
+    "duration_seconds",
+    "is_timed",
+    "student_verification",
+    "dimensions",
+    "independent_measurement_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "offline-assessment-summary-v1.0.0"
+    },
+    "summary_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "exam_track": {
+      "enum": [
+        "MATH1",
+        "CS408"
+      ]
+    },
+    "summary_scope": {
+      "const": "whole_exam"
+    },
+    "reported_assessment_kind": {
+      "enum": [
+        "self_practice",
+        "fixed_audit",
+        "sealed_exam"
+      ]
+    },
+    "completed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "verified_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "earned_points": {
+      "type": "number",
+      "minimum": 0
+    },
+    "maximum_points": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "duration_seconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "is_timed": {
+      "type": "boolean"
+    },
+    "student_verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "score_confirmed_by_student",
+        "answer_checked_after_first_pass",
+        "teacher_answer_access"
+      ],
+      "properties": {
+        "mode": {
+          "const": "external_authoritative_self_check"
+        },
+        "score_confirmed_by_student": {
+          "type": "boolean",
+          "const": true
+        },
+        "answer_checked_after_first_pass": {
+          "type": "boolean",
+          "const": true
+        },
+        "teacher_answer_access": {
+          "type": "boolean",
+          "const": false
+        }
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "independent_recognition",
+        "procedural_execution",
+        "transfer",
+        "timed_fluency",
+        "delayed_retention"
+      ],
+      "properties": {
+        "independent_recognition": {
+          "type": "null"
+        },
+        "procedural_execution": {
+          "type": "null"
+        },
+        "transfer": {
+          "type": "null"
+        },
+        "timed_fluency": {
+          "type": "null"
+        },
+        "delayed_retention": {
+          "type": "null"
+        }
+      }
+    },
+    "independent_measurement_status": {
+      "const": "unverified"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "record_count": 431,
+  "error_count": 0,
+  "errors": [],
+  "checks": [
+    "v1.1 JSON schema",
+    "431 unique canonical ids",
+    "original L0/L1 exact preservation",
+    "reviewed source hashes and local images",
+    "one explicit-total score unit per original question",
+    "all omitted fields declared",
+    "task dependency references and acyclicity",
+    "reciprocal isomorphic references distinct from duplicates",
+    "knowledge and method registry",
+    "no answer/student/role payload"
+  ],
+  "semantic_limit": "PASS证明结构、引用、来源绑定及一致性；语义标签已逐题核对，但不是原稿答案认证或人工签核。",
+  "mode": "checked"
+}

@@ -1,0 +1,748 @@
+{
+  "version": "learning-runtime-v1.0.0",
+  "records": [
+    {
+      "exam_track": "CS408",
+      "subject_area": "data_structure",
+      "paper_id": "408-2012",
+      "year": 2012,
+      "question_number": "T42",
+      "original_points": 15,
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-12-A-T42",
+      "question_hash_sha256": "56119093d7bd7c46ed7d7c551e33787304ee0e8ba2ab01050399a79d530c2bb3",
+      "question_id": "408-12-A-T42",
+      "annotation_file": "系统文件/题目标注/408_2009_2012_L3/question_annotations_cs408_2009_2012_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 数据结构 > 线性表",
+      "main_knowledge": {
+        "id": "CS408_K_051aec55d42b74f9",
+        "name": "单链表公共后缀起点"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.subdivision",
+          "reason": "原总分15分与算法评分说明12分之间的覆盖范围不明；保留整题15分和原文条件证据，未确定算法部分及其他要求的分值拆分。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "computer_organization",
+      "paper_id": "408-2012",
+      "year": 2012,
+      "question_number": "T43",
+      "original_points": 8,
+      "source_file": "核心真题/408/2012年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-12-A-T43",
+      "question_hash_sha256": "fdf799a1f0930ff8eb814041aea83dc665ff8507db446781c2e75cf6707aeb52",
+      "question_id": "408-12-A-T43",
+      "annotation_file": "系统文件/题目标注/408_2009_2012_L3/question_annotations_cs408_2009_2012_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 计算机组成原理",
+      "main_knowledge": {
+        "id": "CS408_K_f08d81ae30f5d660",
+        "name": "CPU访存与DMA带宽需求"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原文分值元数据为8分，解析七项分值合计10分；本地材料无法确定应采用哪一处，不更改L0事实，评分单元总分留空。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "data_structure",
+      "paper_id": "408-2013",
+      "year": 2013,
+      "question_number": "T41",
+      "original_points": 10,
+      "source_file": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-13-A-T41",
+      "question_hash_sha256": "218965f8a1000f54be9477c434d923cc6f20958c47e707eb4aab8175b91e0439",
+      "question_id": "408-13-A-T41",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 数据结构 > 线性表",
+      "main_knowledge": {
+        "id": "CS408_K_367594db1b24b435",
+        "name": "数组主元素的候选筛选与验证"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "元数据10分，最高效率评分档及复杂度项合计13分；条件表和附带排序9分提示的适用范围也不一致，不能仅据本地文件确定有效总分。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.score_units.S0.subdivision",
+          "reason": "原文条件分的覆盖任务范围未给清楚；保留带行号的条件证据，不将其应用到推测的小问或任务。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "computer_network",
+      "paper_id": "408-2014",
+      "year": 2014,
+      "question_number": "T43",
+      "original_points": 8,
+      "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-14-A-T43",
+      "question_hash_sha256": "0ba0bc7cd198936b3c0aa39824976dcaa749f7d76d994956c217d2e4332c2100",
+      "question_id": "408-14-A-T43",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 计算机网络 > 网络层",
+      "main_knowledge": {
+        "id": "CS408_K_aaf718f5268e3009",
+        "name": "基于最短路径的聚合路由与TTL"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为8分，覆盖各要求的本地分项合计9分；不能据此选择、补齐或改写有效总分。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "computer_organization",
+      "paper_id": "408-2014",
+      "year": 2014,
+      "question_number": "T44",
+      "original_points": 10,
+      "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-14-A-T44",
+      "question_hash_sha256": "fe52465a3746414666c5913713ab810001d0a3ea25fe5c0e2c687f7427a0f602",
+      "question_id": "408-14-A-T44",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 计算机组成原理",
+      "main_knowledge": {
+        "id": "CS408_K_0117edf6b3219982",
+        "name": "循环机器码的寻址与流水线相关"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为10分，覆盖各要求的本地分项合计12分；不能据此选择、补齐或改写有效总分。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "computer_organization",
+      "paper_id": "408-2014",
+      "year": 2014,
+      "question_number": "T45",
+      "original_points": 7,
+      "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-14-A-T45",
+      "question_hash_sha256": "27070ab122f013c90c0a8704628fee0db136b64d2b5f2977b13429f3c357418c",
+      "question_id": "408-14-A-T45",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 计算机组成原理 > 存储器层次结构",
+      "main_knowledge": {
+        "id": "CS408_K_5277a7f63e75354d",
+        "name": "循环访存的Cache与缺页开销"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为7分，覆盖各要求的本地分项合计11分；不能据此选择、补齐或改写有效总分。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "operating_system",
+      "paper_id": "408-2014",
+      "year": 2014,
+      "question_number": "T46",
+      "original_points": 8,
+      "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-14-A-T46",
+      "question_hash_sha256": "79a958d2f4167137f9a5c3c0ad0bf3c413495a568327176067127a1a2e71d316",
+      "question_id": "408-14-A-T46",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 操作系统 > 文件系统与文件管理",
+      "main_knowledge": {
+        "id": "CS408_K_660584ff8175d882",
+        "name": "文件中间插入的分配结构代价"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为8分，覆盖各要求的本地分项合计6分；不能据此选择、补齐或改写有效总分。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "operating_system",
+      "paper_id": "408-2014",
+      "year": 2014,
+      "question_number": "T47",
+      "original_points": 9,
+      "source_file": "核心真题/408/2014年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-14-A-T47",
+      "question_hash_sha256": "f9b5ec09f23fdd9d0c3acf1a11c78c2220ab51f5b15df695ef93b557232e68e2",
+      "question_id": "408-14-A-T47",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 操作系统 > 进程管理",
+      "main_knowledge": {
+        "id": "CS408_K_a7dc3c0584171f47",
+        "name": "批次连续消费的生产者消费者同步"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为9分，覆盖各要求的本地分项合计8分；不能据此选择、补齐或改写有效总分。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "computer_network",
+      "paper_id": "408-2016",
+      "year": 2016,
+      "question_number": "T41",
+      "original_points": 10,
+      "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-16-A-T41",
+      "question_hash_sha256": "4f0678226ea08efdcd29c8dc35ae296db21a9ae779193eb9f87a7322884b81f3",
+      "question_id": "408-16-A-T41",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 计算机网络 > 传输层",
+      "main_knowledge": {
+        "id": "CS408_K_b3ce93f602d6b4b1",
+        "name": "TCP握手与接收缓存限制下的窗口演化"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为10分，覆盖各要求的明确分项合计9分；本地材料未说明应选哪个口径，有效总分留空。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "computer_organization",
+      "paper_id": "408-2016",
+      "year": 2016,
+      "question_number": "T44",
+      "original_points": 10,
+      "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-16-A-T44",
+      "question_hash_sha256": "b6b9fa8d183b087d84888a507fbd888749f4daab909a1e843d0425866e60e208",
+      "question_id": "408-16-A-T44",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 计算机组成原理",
+      "main_knowledge": {
+        "id": "CS408_K_24a44a28471e2f43",
+        "name": "异步串行输入的中断重叠与CPU开销"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为10分，覆盖各要求的明确分项合计9分；本地材料未说明应选哪个口径，有效总分留空。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "computer_organization",
+      "paper_id": "408-2016",
+      "year": 2016,
+      "question_number": "T45",
+      "original_points": 7,
+      "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-16-A-T45",
+      "question_hash_sha256": "4d6326d6df30174c9924b391139e67c6a038814c63c033246b224566e2f4a8be",
+      "question_id": "408-16-A-T45",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 计算机组成原理 > 存储器层次结构",
+      "main_knowledge": {
+        "id": "CS408_K_2e8c6d1f7c821abb",
+        "name": "分页TLB与组相联Cache地址分解"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为7分，覆盖各要求的明确分项合计14分；本地材料未说明应选哪个口径，有效总分留空。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "operating_system",
+      "paper_id": "408-2016",
+      "year": 2016,
+      "question_number": "T46",
+      "original_points": 8,
+      "source_file": "核心真题/408/2016年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-16-A-T46",
+      "question_hash_sha256": "dcac82268ebe2f4efef58e81fa2cdab4cb722758d0823a5988286be97995335f",
+      "question_id": "408-16-A-T46",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 操作系统 > 进程管理",
+      "main_knowledge": {
+        "id": "CS408_K_2751c3e2ae0490e7",
+        "name": "避免饥饿的动态优先数设计"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为8分，覆盖各要求的明确分项合计6分；本地材料未说明应选哪个口径，有效总分留空。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "data_structure",
+      "paper_id": "408-2017",
+      "year": 2017,
+      "question_number": "T41",
+      "original_points": 10,
+      "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-17-A-T41",
+      "question_hash_sha256": "7b26d497d75bfafdad07a44ba4f0b59156f2b6ad5662a312d951915aa874a180",
+      "question_id": "408-17-A-T41",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 数据结构 > 树和二叉树",
+      "main_knowledge": {
+        "id": "CS408_K_0f44c415effd2fd8",
+        "name": "表达式树的括号化中序输出"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为10分，完整明确分项合计15分；无法仅据本地文件认证有效总分。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "data_structure",
+      "paper_id": "408-2017",
+      "year": 2017,
+      "question_number": "T42",
+      "original_points": 15,
+      "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-17-A-T42",
+      "question_hash_sha256": "b680eb316da105ed5190fd548774ccc84020afa8099f54e3dd3d52ff23888309",
+      "question_id": "408-17-A-T42",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 数据结构 > 图",
+      "main_knowledge": {
+        "id": "CS408_K_14e99c3464704339",
+        "name": "最小生成树构造与唯一性"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为15分，完整明确分项合计8分；无法仅据本地文件认证有效总分。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "computer_organization",
+      "paper_id": "408-2017",
+      "year": 2017,
+      "question_number": "T43",
+      "original_points": 8,
+      "source_file": "核心真题/408/2017年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-17-A-T43",
+      "question_hash_sha256": "27e5f61bc00b50b13d17f4a9624221f17a985968d8ff89d48050595101f0da90",
+      "question_id": "408-17-A-T43",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 计算机组成原理 > 数据的表示和运算",
+      "main_knowledge": {
+        "id": "CS408_K_164d1fb8dac1d863",
+        "name": "定长整数与浮点的循环和数值边界"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "原分值元数据为8分，完整明确分项合计13分；无法仅据本地文件认证有效总分。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "data_structure",
+      "paper_id": "408-2026",
+      "year": 2026,
+      "question_number": "T41",
+      "original_points": 12,
+      "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-26-A-T41",
+      "question_hash_sha256": "588f3df5512e6a092a93ee62795ad02ddea6958eed57f3d3f82ef022a90e4ad7",
+      "question_id": "408-26-A-T41",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 数据结构 > 查找",
+      "main_knowledge": {
+        "id": "CS408_K_4ce16c18fb4f5f03",
+        "name": "BST最近关键字的有序扫描"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "元数据和完整分项合计12分，题干另称满分13分；不擅自选择有效总分。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "CS408",
+      "subject_area": "computer_organization",
+      "paper_id": "408-2026",
+      "year": 2026,
+      "question_number": "T44",
+      "original_points": 9,
+      "source_file": "核心真题/408/2026年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+      "source_locator": "408-26-A-T44",
+      "question_hash_sha256": "b7c399a73e0ed808e99343ee70b68f6f5b6407ff64967adede09a480cf38df4d",
+      "question_id": "408-26-A-T44",
+      "annotation_file": "系统文件/题目标注/408_2013_2026_L3/question_annotations_cs408_2013_2026_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "CS408_PAST_PAPERS",
+      "official_scope_coarse": "408 > 计算机组成原理 > 中央处理器（CPU）与指令执行",
+      "main_knowledge": {
+        "id": "CS408_K_a1f3f51214520cc0",
+        "name": "多格式数据通路的控制信号"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.score_units.S0.points",
+          "reason": "元数据和完整分项合计9分，题干另称满分15分；不擅自选择有效总分。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "linear_algebra",
+      "paper_id": "M1-2011",
+      "year": 2011,
+      "question_number": "T21",
+      "original_points": 11,
+      "source_file": "核心真题/数学一/2011年全国硕士研究生招生考试数学一真题.md",
+      "source_locator": "M1-11-A-T21",
+      "question_hash_sha256": "a6f8f59e0df0270eba51218bc299a80214d1c8dd77db107c090732f7ce23ab2b",
+      "question_id": "M1-11-A-T21",
+      "annotation_file": "系统文件/题目标注/数学一_L2_L3/question_annotations_math1_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "MATH1_PAST_PAPERS",
+      "official_scope_coarse": "数学一 > 线性代数 > 矩阵的特征值和特征向量",
+      "main_knowledge": {
+        "id": "M1_K_8b7b334583306ca8",
+        "name": "由矩阵作用关系识别特征结构"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.secondary_knowledge",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.prerequisites",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.difficulty_band",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U02",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "题干未声明对称性，解析却用不同特征值特征向量正交来补足信息，完整解法需核对缺失条件",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "M1-2015",
+      "year": 2015,
+      "question_number": "T19",
+      "original_points": 10,
+      "source_file": "核心真题/数学一/2015年全国硕士研究生招生考试数学一真题.md",
+      "source_locator": "M1-15-A-T19",
+      "question_hash_sha256": "90282f2ee902877a809ab179e5b6c30d54d1e343ec474ea7ee91c2bafb631119",
+      "question_id": "M1-15-A-T19",
+      "annotation_file": "系统文件/题目标注/数学一_L2_L3/question_annotations_math1_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "MATH1_PAST_PAPERS",
+      "official_scope_coarse": "数学一 > 高等数学 > 多元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_8c01d0fdd0517c9b",
+        "name": "空间有向曲线积分"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "给定端点及解析参数式与曲面条件不相容，原稿与路径弧段需核对；未确认具体积分表达式",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "probability",
+      "paper_id": "M1-2016",
+      "year": 2016,
+      "question_number": "T22",
+      "original_points": 11,
+      "source_file": "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md",
+      "source_locator": "M1-16-A-T22",
+      "question_hash_sha256": "a749f43a8887d8a29bad8fe6607cb2eb6cc2eb250244530a02b53d5172f8cfc5",
+      "question_id": "M1-16-A-T22",
+      "annotation_file": "系统文件/题目标注/数学一_L2_L3/question_annotations_math1_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "MATH1_PAST_PAPERS",
+      "official_scope_coarse": "数学一 > 概率论与数理统计 > 多维随机变量及其分布",
+      "main_knowledge": {
+        "id": "M1_K_19de52d57a9cdc18",
+        "name": "二维均匀分布与分段变量变换"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l2.difficulty_band",
+          "reason": "现存区域满足Y小于X，故U退化，解析却使用不退化U且面积归一化不符；需核对根式边界，通用分区步骤仍可标但不能确认所述非独立结论",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "现存区域满足Y小于X，故U退化，解析却使用不退化U且面积归一化不符；需核对根式边界，通用分区步骤仍可标但不能确认所述非独立结论",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "M1-2016",
+      "year": 2016,
+      "question_number": "T12",
+      "original_points": 4,
+      "source_file": "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md",
+      "source_locator": "M1-16-F-T12",
+      "question_hash_sha256": "7a065fb9766116bbab356c4b13f39b42ed983a1c94a7fe5dc9b31e775c13db72",
+      "question_id": "M1-16-F-T12",
+      "annotation_file": "系统文件/题目标注/数学一_L2_L3/question_annotations_math1_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "MATH1_PAST_PAPERS",
+      "official_scope_coarse": "数学一 > 高等数学 > 一元函数微分学",
+      "main_knowledge": {
+        "id": "M1_K_a3337995f568e0c8",
+        "name": "高阶导数与参数确定"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.prerequisites",
+          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.difficulty_band",
+          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "题干为二阶导数而解析实际使用三阶导数，按现存题干条件不成立，需要核对原稿导数阶数",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "probability",
+      "paper_id": "M1-2021",
+      "year": 2021,
+      "question_number": "T22",
+      "original_points": 12,
+      "source_file": "核心真题/数学一/2021年全国硕士研究生招生考试数学一真题.md",
+      "source_locator": "M1-21-A-T22",
+      "question_hash_sha256": "e4fa9f75ea7f979893dd82313f18628eed0ab7b47ffb7a9a105beedffa7d628b",
+      "question_id": "M1-21-A-T22",
+      "annotation_file": "系统文件/题目标注/数学一_L2_L3/question_annotations_math1_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "MATH1_PAST_PAPERS",
+      "official_scope_coarse": "数学一 > 概率论与数理统计 > 随机变量及其分布",
+      "main_knowledge": {
+        "id": "M1_K_4398268e9e1437bf",
+        "name": "随机分点的长度变换分布"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps.U02",
+          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U03",
+          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.difficulty_band",
+          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "Z在题干转写成乘积而解析按长短段比值计算；第三问分式也粘连，不能确认具体变换，第一问密度证据完整",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "probability",
+      "paper_id": "M1-2021",
+      "year": 2021,
+      "question_number": "T08",
+      "original_points": 5,
+      "source_file": "核心真题/数学一/2021年全国硕士研究生招生考试数学一真题.md",
+      "source_locator": "M1-21-C-T08",
+      "question_hash_sha256": "4ca41a711fa66581837f2014fb3eda16c5bf77b64783f6c5a50d657b1a968be4",
+      "question_id": "M1-21-C-T08",
+      "annotation_file": "系统文件/题目标注/数学一_L2_L3/question_annotations_math1_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "MATH1_PAST_PAPERS",
+      "official_scope_coarse": "数学一 > 概率论与数理统计 > 随机事件和概率",
+      "main_knowledge": {
+        "id": "M1_K_b306c86445e8c7f1",
+        "name": "条件概率命题判断"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "题干补集与部分事件名称缺失，解析末尾选择与此前推导不能逐项对应；保留条件概率知识与通分方法，具体选项证据需核对",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "题干补集与部分事件名称缺失，解析末尾选择与此前推导不能逐项对应；保留条件概率知识与通分方法，具体选项证据需核对",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "M1-2026",
+      "year": 2026,
+      "question_number": "T04",
+      "original_points": 5,
+      "source_file": "核心真题/数学一/2026年全国硕士研究生招生考试数学一真题.md",
+      "source_locator": "M1-26-C-T04",
+      "question_hash_sha256": "18420bde477792ec3442846c0f128afca573ecb638b39d432b989a6cf16dbf08",
+      "question_id": "M1-26-C-T04",
+      "annotation_file": "系统文件/题目标注/数学一_L2_L3/question_annotations_math1_l23_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "MATH1_PAST_PAPERS",
+      "official_scope_coarse": "数学一 > 高等数学 > 多元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_1101c7b3b2e9caeb",
+        "name": "三重积分的坐标变换"
+      },
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.prerequisites",
+          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l2.difficulty_band",
+          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.isomorphic_relation",
+          "reason": "题干根号丢失使两曲面看似抛物面，解析明确按球与锥解释；具体原式需核对",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    }
+  ]
+}

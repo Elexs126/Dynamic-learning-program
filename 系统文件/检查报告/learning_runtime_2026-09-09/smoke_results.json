@@ -1,0 +1,66 @@
+{
+  "snapshot": {
+    "status": "PASS",
+    "source_file_count": 282,
+    "output_file_count": 8,
+    "errors": []
+  },
+  "default_budget": {
+    "allowed": false,
+    "reasons": [
+      "limit_unknown_or_invalid",
+      "used_unknown_or_invalid",
+      "reserved_unknown_or_invalid",
+      "estimate_unknown_or_invalid",
+      "retry_reserve_unknown_or_invalid",
+      "budget_week_invalid"
+    ],
+    "remaining_before_batch": null,
+    "remaining_after_batch": null
+  },
+  "navigation": [
+    {
+      "course": "m1_calculus",
+      "batch": "BATCH_TB_M1_CALC_01A",
+      "returned_sections": 2,
+      "status": "PASS"
+    },
+    {
+      "course": "m1_linear_algebra",
+      "batch": "BATCH_TB_M1_LA_B01A",
+      "returned_sections": 2,
+      "status": "PASS"
+    },
+    {
+      "course": "m1_prob",
+      "batch": "BATCH_TB_M1_PROB_B01A",
+      "returned_sections": 3,
+      "status": "PASS"
+    },
+    {
+      "course": "408_ds",
+      "batch": "BATCH_TB_408_DS_C01A",
+      "returned_sections": 2,
+      "status": "PASS"
+    },
+    {
+      "course": "408_co",
+      "batch": "BATCH_TB_408_CO_C01A",
+      "returned_sections": 3,
+      "status": "PASS"
+    },
+    {
+      "course": "408_os",
+      "batch": "BATCH_TB_408_OS_C01A",
+      "returned_sections": 2,
+      "status": "PASS"
+    },
+    {
+      "course": "408_cn",
+      "batch": "BATCH_TB_408_CN_C01A",
+      "returned_sections": 3,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}
