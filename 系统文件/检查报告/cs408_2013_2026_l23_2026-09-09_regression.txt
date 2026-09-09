@@ -1,0 +1,29 @@
+test_01_all_fourteen_years_and_original_layers (__main__.ReleaseTests.test_01_all_fourteen_years_and_original_layers) ... ok
+test_02_full_partitions_include_fractional_points (__main__.ReleaseTests.test_02_full_partitions_include_fractional_points) ... ok
+test_03_missing_subpoints_do_not_become_invented_partitions (__main__.ReleaseTests.test_03_missing_subpoints_do_not_become_invented_partitions) ... ok
+test_04_known_partition_cannot_be_redistributed (__main__.ReleaseTests.test_04_known_partition_cannot_be_redistributed) ... ok
+test_05_conflict_keeps_other_labels (__main__.ReleaseTests.test_05_conflict_keeps_other_labels) ... ok
+test_06_stated_full_mark_conflict_even_when_subpoints_match_metadata (__main__.ReleaseTests.test_06_stated_full_mark_conflict_even_when_subpoints_match_metadata) ... ok
+test_07_conditional_credit_above_bad_metadata_is_preserved_not_added (__main__.ReleaseTests.test_07_conditional_credit_above_bad_metadata_is_preserved_not_added) ... ok
+test_08_unknown_condition_scope_has_no_guessed_targets (__main__.ReleaseTests.test_08_unknown_condition_scope_has_no_guessed_targets) ... ok
+test_09_partial_points_equal_total_still_do_not_create_zero_for_ungraded_task (__main__.ReleaseTests.test_09_partial_points_equal_total_still_do_not_create_zero_for_ungraded_task) ... ok
+test_10_sidecar_scores_never_double_count (__main__.ReleaseTests.test_10_sidecar_scores_never_double_count) ... ok
+test_11_all_local_grading_cues_must_be_reviewed (__main__.ReleaseTests.test_11_all_local_grading_cues_must_be_reviewed) ... ok
+test_12_score_anchor_line_and_fragment_are_bound (__main__.ReleaseTests.test_12_score_anchor_line_and_fragment_are_bound) ... ok
+test_13_source_and_image_drift_are_rejected (__main__.ReleaseTests.test_13_source_and_image_drift_are_rejected) ... ok
+test_14_foreign_or_duplicate_question_ids_are_rejected (__main__.ReleaseTests.test_14_foreign_or_duplicate_question_ids_are_rejected) ... ok
+test_15_original_layers_cannot_change (__main__.ReleaseTests.test_15_original_layers_cannot_change) ... ok
+test_16_feasible_fields_cannot_be_omitted_silently (__main__.ReleaseTests.test_16_feasible_fields_cannot_be_omitted_silently) ... ok
+test_17_registered_but_wrong_semantic_label_is_rejected (__main__.ReleaseTests.test_17_registered_but_wrong_semantic_label_is_rejected) ... ok
+test_18_cross_question_dependency_and_shared_context_remain_distinct (__main__.ReleaseTests.test_18_cross_question_dependency_and_shared_context_remain_distinct) ... ok
+test_19_cycle_across_two_questions_is_rejected (__main__.ReleaseTests.test_19_cycle_across_two_questions_is_rejected) ... ok
+test_20_context_source_cannot_be_swapped (__main__.ReleaseTests.test_20_context_source_cannot_be_swapped) ... ok
+test_21_isomorphic_reciprocity_and_registry (__main__.ReleaseTests.test_21_isomorphic_reciprocity_and_registry) ... ok
+test_22_answer_student_and_role_payload_is_rejected (__main__.ReleaseTests.test_22_answer_student_and_role_payload_is_rejected) ... ok
+test_23_build_reuse_and_tamper_detection (__main__.ReleaseTests.test_23_build_reuse_and_tamper_detection) ... ok
+test_24_changed_inputs_cannot_reuse_snapshot (__main__.ReleaseTests.test_24_changed_inputs_cannot_reuse_snapshot) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 29.074s
+
+OK
