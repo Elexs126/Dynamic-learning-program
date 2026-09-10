@@ -1,0 +1,708 @@
+{
+  "version": "learning-runtime-v1.1.0",
+  "papers": [
+    {
+      "paper_id": "408-2009",
+      "exam_track": "CS408",
+      "year": 2009,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2010",
+      "exam_track": "CS408",
+      "year": 2010,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2011",
+      "exam_track": "CS408",
+      "year": 2011,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2012",
+      "exam_track": "CS408",
+      "year": 2012,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2013",
+      "exam_track": "CS408",
+      "year": 2013,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2014",
+      "exam_track": "CS408",
+      "year": 2014,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2015",
+      "exam_track": "CS408",
+      "year": 2015,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2016",
+      "exam_track": "CS408",
+      "year": 2016,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2017",
+      "exam_track": "CS408",
+      "year": 2017,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2018",
+      "exam_track": "CS408",
+      "year": 2018,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2019",
+      "exam_track": "CS408",
+      "year": 2019,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2020",
+      "exam_track": "CS408",
+      "year": 2020,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2021",
+      "exam_track": "CS408",
+      "year": 2021,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2022",
+      "exam_track": "CS408",
+      "year": 2022,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2023",
+      "exam_track": "CS408",
+      "year": 2023,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2024",
+      "exam_track": "CS408",
+      "year": 2024,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2025",
+      "exam_track": "CS408",
+      "year": 2025,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "408-2026",
+      "exam_track": "CS408",
+      "year": 2026,
+      "question_count": 47,
+      "local_main_label_verified_count": 47,
+      "atomization_unreviewed_count": 7,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2008",
+      "exam_track": "MATH1",
+      "year": 2008,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2009",
+      "exam_track": "MATH1",
+      "year": 2009,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2010",
+      "exam_track": "MATH1",
+      "year": 2010,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2011",
+      "exam_track": "MATH1",
+      "year": 2011,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2012",
+      "exam_track": "MATH1",
+      "year": 2012,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2013",
+      "exam_track": "MATH1",
+      "year": 2013,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2014",
+      "exam_track": "MATH1",
+      "year": 2014,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2015",
+      "exam_track": "MATH1",
+      "year": 2015,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2016",
+      "exam_track": "MATH1",
+      "year": 2016,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2017",
+      "exam_track": "MATH1",
+      "year": 2017,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2018",
+      "exam_track": "MATH1",
+      "year": 2018,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2019",
+      "exam_track": "MATH1",
+      "year": 2019,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2020",
+      "exam_track": "MATH1",
+      "year": 2020,
+      "question_count": 23,
+      "local_main_label_verified_count": 23,
+      "atomization_unreviewed_count": 9,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2021",
+      "exam_track": "MATH1",
+      "year": 2021,
+      "question_count": 22,
+      "local_main_label_verified_count": 22,
+      "atomization_unreviewed_count": 6,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2022",
+      "exam_track": "MATH1",
+      "year": 2022,
+      "question_count": 22,
+      "local_main_label_verified_count": 22,
+      "atomization_unreviewed_count": 6,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2023",
+      "exam_track": "MATH1",
+      "year": 2023,
+      "question_count": 22,
+      "local_main_label_verified_count": 22,
+      "atomization_unreviewed_count": 6,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2024",
+      "exam_track": "MATH1",
+      "year": 2024,
+      "question_count": 22,
+      "local_main_label_verified_count": 22,
+      "atomization_unreviewed_count": 6,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2025",
+      "exam_track": "MATH1",
+      "year": 2025,
+      "question_count": 22,
+      "local_main_label_verified_count": 22,
+      "atomization_unreviewed_count": 6,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    },
+    {
+      "paper_id": "M1-2026",
+      "exam_track": "MATH1",
+      "year": 2026,
+      "question_count": 22,
+      "local_main_label_verified_count": 22,
+      "atomization_unreviewed_count": 6,
+      "human_issue_question_count": 0,
+      "formal_sample_status": "not_established",
+      "eligible": false,
+      "unresolved_checks": [
+        "complete_paper_verified",
+        "teacher_visibility_and_role_verified",
+        "primary_stat_labels_verified",
+        "points_verified",
+        "atomic_units_verified",
+        "target_comparability_verified"
+      ]
+    }
+  ]
+}

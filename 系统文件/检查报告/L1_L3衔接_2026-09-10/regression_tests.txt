@@ -1,0 +1,20 @@
+test_01_current_release_and_l3_replay (test_l1_from_l3.ReleaseTests.test_01_current_release_and_l3_replay) ... ok
+test_02_core_L1_main_matches_reviewed_L2 (test_l1_from_l3.ReleaseTests.test_02_core_L1_main_matches_reviewed_L2) ... ok
+test_03_all_123_scope_decisions_resolved (test_l1_from_l3.ReleaseTests.test_03_all_123_scope_decisions_resolved) ... ok
+test_04_noncore_unmapped_not_silently_certified (test_l1_from_l3.ReleaseTests.test_04_noncore_unmapped_not_silently_certified) ... ok
+test_05_duplicate_review_is_reciprocal_and_keeps_all_ids (test_l1_from_l3.ReleaseTests.test_05_duplicate_review_is_reciprocal_and_keeps_all_ids) ... ok
+test_06_no_fingerprint_match_does_not_mean_no_duplicate (test_l1_from_l3.ReleaseTests.test_06_no_fingerprint_match_does_not_mean_no_duplicate) ... ok
+test_07_isomorphic_records_not_converted_to_duplicates (test_l1_from_l3.ReleaseTests.test_07_isomorphic_records_not_converted_to_duplicates) ... ok
+test_08_retired_fragment_mapping_has_one_existing_target (test_l1_from_l3.ReleaseTests.test_08_retired_fragment_mapping_has_one_existing_target) ... ok
+test_09_short_statement_confirmation_only_closes_length_flag (test_l1_from_l3.ReleaseTests.test_09_short_statement_confirmation_only_closes_length_flag) ... ok
+test_10_partial_scoring_keeps_whole_total_without_filling_difference (test_l1_from_l3.ReleaseTests.test_10_partial_scoring_keeps_whole_total_without_filling_difference) ... ok
+test_11_new_baseline_normalizes_old_alias (test_l1_from_l3.ReleaseTests.test_11_new_baseline_normalizes_old_alias) ... ok
+test_12_no_student_data_or_formal_E_created (test_l1_from_l3.ReleaseTests.test_12_no_student_data_or_formal_E_created) ... ok
+test_13_ambiguous_anchor_is_rejected (test_l1_from_l3.ReleaseTests.test_13_ambiguous_anchor_is_rejected) ... ok
+test_14_existing_valid_anchor_and_unique_relocation (test_l1_from_l3.ReleaseTests.test_14_existing_valid_anchor_and_unique_relocation) ... ok
+test_15_source_or_result_tampering_rejected (test_l1_from_l3.ReleaseTests.test_15_source_or_result_tampering_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 4.987s
+
+OK

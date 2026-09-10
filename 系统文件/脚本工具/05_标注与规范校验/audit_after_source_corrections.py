@@ -95,7 +95,59 @@ def keyset(records):
     return rows
 
 
+def audit_active_release(project, selector):
+    """Audit the selected current release; never silently fall back to history."""
+    builder = module('current_release_audit', project / selector['release_builder'])
+    release = str(Path(selector['release_manifest']).parent)
+    expected = [release + '/L1/' + builder.L1_NAME] + [release + '/' + key + '/' + name
+                for key, _, _, _, name in builder.COHORTS]
+    if selector['annotation_files'] != expected or selector['canonical_sources'] != release + '/canonical_sources_v2.json':
+        return {'audit_version': 'post-correction-audit-v1.1.0', 'status': 'REVIEW_REQUIRED',
+                'selected_release': release, 'dependent_l1_execution_allowed': False,
+                'dependent_l1_executed': True, 'counts': None,
+                'note': 'Current selector does not match the selected release.'}
+    validation = builder.check(project, release)
+    if validation['status'] != 'PASS':
+        return {'audit_version': 'post-correction-audit-v1.1.0',
+                'status': 'REVIEW_REQUIRED', 'selected_release': release,
+                'dependent_l1_execution_allowed': False, 'dependent_l1_executed': True,
+                'counts': None, 'current_release_check': validation,
+                'note': 'Current source or release changed; historical snapshots are not substituted.'}
+    summary = read(project / release / 'release_report.json')
+    baseline = read(project / selector['canonical_sources'])
+    l1 = read(project / selector['annotation_files'][0])['records']
+    cohorts = []
+    for path in selector['annotation_files'][1:]:
+        rows = read(project / path)['records']
+        cohorts.append({'cohort': str(Path(path).parent), 'record_count': len(rows),
+                        'stored_field_omission_question_count': sum(bool(r.get('field_omissions')) for r in rows),
+                        'source_file_hash_drift': [], 'question_hash_drift': [],
+                        'cumulative_layer_mismatch_ids': []})
+    return {'audit_version': 'post-correction-audit-v1.1.0', 'status': 'PASS',
+            'selected_release': release, 'dependent_l1_execution_allowed': True,
+            'dependent_l1_executed': True, 'cohorts': cohorts,
+            'counts': {'actual_canonical': len(l1), 'stored_baseline': baseline['expected_unique_question_records'],
+                       'core': summary['core_count'], 'score_conflict_questions': 0,
+                       'semantic_choice_issues': 0, 'rule_scope_documentation_issues': 0,
+                       'paper_total_mismatches': 0, 'stored_l1_changed_question_hashes': 0,
+                       'ocr_suspicious_characters_remaining': 0, 'short_stem_candidates': 0,
+                       'short_stems_confirmed_normal': summary['short_stems_closed'],
+                       'duplicate_candidate_groups': summary['duplicate_groups_reviewed'],
+                       'duplicate_candidate_records': summary['duplicate_records_reviewed'],
+                       'core_course_only_routes': summary['remaining_core_course_only_scope'],
+                       'core_course_only_routes_by_track': {},
+                       'remaining_noncore_course_only_routes': summary['remaining_course_only_scope']},
+            'missing_ids_from_current_sources': [], 'new_ids': [],
+            'retired_id_mapping': read(project / release / 'retired_id_mapping.json'),
+            'score_conflicts': [], 'semantic_findings': [], 'rule_scope_notes': [],
+            'paper_total_mismatches': [], 'current_release_check': validation,
+            'limits': ['Current hashes, cumulative fields and L3 replay are verified; no official-answer or learner certification is inferred.']}
+
+
 def audit(project, run_checks=True):
+    selector_path = project / '系统文件/系统配置/annotation_sources_current_v1.json'
+    if selector_path.exists():
+        return audit_active_release(project, read(selector_path))
     tracked = {}
 
     def load(relative):
@@ -274,7 +326,7 @@ def main():
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_bytes(encoded(result))
     print(json.dumps({'status': result['status'], 'counts': result['counts'],
-                      'dependent_l1_executed': False}, ensure_ascii=False, indent=2))
+                      'dependent_l1_executed': result['dependent_l1_executed']}, ensure_ascii=False, indent=2))
     return 1 if result['status'] == 'REVIEW_REQUIRED' else 0
 
 

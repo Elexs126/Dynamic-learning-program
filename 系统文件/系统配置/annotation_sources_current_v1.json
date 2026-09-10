@@ -1,0 +1,15 @@
+{
+  "selector_version": "annotation-sources-current-v1.0.0",
+  "selected_at": "2026-09-10",
+  "canonical_sources": "系统文件/题目标注/L1_L3衔接_20260910_v1/canonical_sources_v2.json",
+  "annotation_files": [
+    "系统文件/题目标注/L1_L3衔接_20260910_v1/L1/question_annotations_l1_v1.json",
+    "系统文件/题目标注/L1_L3衔接_20260910_v1/math1/question_annotations_math1_l23_v1.json",
+    "系统文件/题目标注/L1_L3衔接_20260910_v1/cs408_early/question_annotations_cs408_2009_2012_l23_v1.json",
+    "系统文件/题目标注/L1_L3衔接_20260910_v1/cs408_late/question_annotations_cs408_2013_2026_l23_v1.json"
+  ],
+  "release_manifest": "系统文件/题目标注/L1_L3衔接_20260910_v1/release_manifest.json",
+  "runtime_snapshot": "系统文件/学习运行/runtime_v2",
+  "legacy_snapshots_retained": true,
+  "release_builder": "系统文件/脚本工具/05_标注与规范校验/build_l1_from_l3.py"
+}

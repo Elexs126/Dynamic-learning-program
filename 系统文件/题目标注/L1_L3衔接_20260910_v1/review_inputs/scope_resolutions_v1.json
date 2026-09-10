@@ -1,0 +1,1391 @@
+{
+  "version": "core-scope-resolution-v1",
+  "records": [
+    {
+      "question_id": "408-09-A-T43",
+      "scope_ids": [
+        "SCOPE_408_CO_06"
+      ],
+      "reason": "主任务比较查询、中断、DMA的CPU占用与输入输出方式；对应已核对主知识：中断与DMA的CPU开销比较。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "中断与DMA的CPU开销比较"
+    },
+    {
+      "question_id": "408-09-C-T36",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：以太网交换机转发依据。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "以太网交换机转发依据"
+    },
+    {
+      "question_id": "408-10-A-T45",
+      "scope_ids": [
+        "SCOPE_408_OS_04",
+        "SCOPE_408_OS_05"
+      ],
+      "reason": "同时处理文件外存空间管理与磁盘访问时间，保留两条已有大纲路径；对应已核对主知识：磁盘空间管理与访问时间。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "磁盘空间管理与访问时间"
+    },
+    {
+      "question_id": "408-10-A-T46",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：分页置换后的物理地址。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "分页置换后的物理地址"
+    },
+    {
+      "question_id": "408-10-C-T09",
+      "scope_ids": [
+        "SCOPE_408_DS_06"
+      ],
+      "reason": "主任务分析有序查找、折半查找或分块查找的条件和代价；对应已核对主知识：折半查找的最坏比较次数。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "折半查找的最坏比较次数"
+    },
+    {
+      "question_id": "408-10-C-T17",
+      "scope_ids": [
+        "SCOPE_408_CO_03"
+      ],
+      "reason": "主任务为存储层次、介质、Cache或虚拟地址转换；对应已核对主知识：TLB与页面命中的约束。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "TLB与页面命中的约束"
+    },
+    {
+      "question_id": "408-10-C-T38",
+      "scope_ids": [
+        "SCOPE_408_CN_03",
+        "SCOPE_408_CN_04"
+      ],
+      "reason": "需要同时区别二层交换与三层转发的广播域边界；对应已核对主知识：网络设备与广播域隔离。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "网络设备与广播域隔离"
+    },
+    {
+      "question_id": "408-11-A-T47",
+      "scope_ids": [
+        "SCOPE_408_CN_03",
+        "SCOPE_408_CN_04",
+        "SCOPE_408_CN_06"
+      ],
+      "reason": "综合题同时使用以太帧、ARP与Web访问，不将明确的跨层目标强塞进单章；对应已核对主知识：以太帧解码与跨层Web访问。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "以太帧解码与跨层Web访问"
+    },
+    {
+      "question_id": "408-11-C-T21",
+      "scope_ids": [
+        "SCOPE_408_CO_06"
+      ],
+      "reason": "主任务为多级中断控制与屏蔽，归入程序中断输入输出方式；对应已核对主知识：中断屏蔽字设计。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "中断屏蔽字设计"
+    },
+    {
+      "question_id": "408-11-C-T30",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：链接阶段与完整逻辑地址空间。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "链接阶段与完整逻辑地址空间"
+    },
+    {
+      "question_id": "408-11-C-T36",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：无线MAC的确认机制。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "无线MAC的确认机制"
+    },
+    {
+      "question_id": "408-11-C-T39",
+      "scope_ids": [
+        "SCOPE_408_CN_05"
+      ],
+      "reason": "主任务是TCP序号、确认、窗口或连接状态与时序；对应已核对主知识：TCP连接建立的序号规则。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "TCP连接建立的序号规则"
+    },
+    {
+      "question_id": "408-12-A-T41",
+      "scope_ids": [
+        "SCOPE_408_DS_04",
+        "SCOPE_408_DS_07"
+      ],
+      "reason": "使用哈夫曼式最优合并结构组织有序表归并，树结构与外部排序共同构成任务；对应已核对主知识：不等长有序表的最优归并。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "不等长有序表的最优归并"
+    },
+    {
+      "question_id": "408-12-A-T43",
+      "scope_ids": [
+        "SCOPE_408_CO_01",
+        "SCOPE_408_CO_03",
+        "SCOPE_408_CO_06"
+      ],
+      "reason": "性能计算显式联合CPU指令率、Cache访存及DMA或总线带宽，保留跨章口径；对应已核对主知识：CPU访存与DMA带宽需求。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "CPU访存与DMA带宽需求"
+    },
+    {
+      "question_id": "408-12-A-T45",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：驻留集扫描与空闲页框复用。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "驻留集扫描与空闲页框复用"
+    },
+    {
+      "question_id": "408-12-A-T47",
+      "scope_ids": [
+        "SCOPE_408_CN_05"
+      ],
+      "reason": "主任务是TCP序号、确认、窗口或连接状态与时序；对应已核对主知识：TCP报文解码与累计确认。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "TCP报文解码与累计确认"
+    },
+    {
+      "question_id": "408-12-C-T15",
+      "scope_ids": [
+        "SCOPE_408_CO_02"
+      ],
+      "reason": "主任务是数据对齐及大小端存储表示；对应已核对主知识：结构体对齐与小端存储。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "结构体对齐与小端存储"
+    },
+    {
+      "question_id": "408-12-C-T16",
+      "scope_ids": [
+        "SCOPE_408_CO_03"
+      ],
+      "reason": "主任务为存储层次、介质、Cache或虚拟地址转换；对应已核对主知识：闪存的读写与非易失性。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "闪存的读写与非易失性"
+    },
+    {
+      "question_id": "408-12-C-T22",
+      "scope_ids": [
+        "SCOPE_408_CO_05"
+      ],
+      "reason": "主任务是指令执行数据通路、异常中断硬件机制或多处理器实现；对应已核对主知识：中断隐指令的硬件操作。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "中断隐指令的硬件操作"
+    },
+    {
+      "question_id": "408-12-C-T24",
+      "scope_ids": [
+        "SCOPE_408_OS_01"
+      ],
+      "reason": "主任务属于操作系统运行环境、引导和中断现场；对应已核对主知识：中断与子程序的现场保护。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "中断与子程序的现场保护"
+    },
+    {
+      "question_id": "408-12-C-T28",
+      "scope_ids": [
+        "SCOPE_408_OS_01",
+        "SCOPE_408_OS_04"
+      ],
+      "reason": "文件访问系统调用同时涉及内核运行环境与文件系统路径；对应已核对主知识：文件read调用的内核路径。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "文件read调用的内核路径"
+    },
+    {
+      "question_id": "408-12-C-T33",
+      "scope_ids": [
+        "SCOPE_408_CN_04"
+      ],
+      "reason": "主任务为IP与ICMP、虚电路、路由算法或SDN网络层控制；对应已核对主知识：ICMP与IP的封装关系。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "ICMP与IP的封装关系"
+    },
+    {
+      "question_id": "408-13-A-T43",
+      "scope_ids": [
+        "SCOPE_408_CO_01",
+        "SCOPE_408_CO_03",
+        "SCOPE_408_CO_06"
+      ],
+      "reason": "性能计算显式联合CPU指令率、Cache访存及DMA或总线带宽，保留跨章口径；对应已核对主知识：Cache缺失与突发总线的执行开销。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "Cache缺失与突发总线的执行开销"
+    },
+    {
+      "question_id": "408-13-A-T44",
+      "scope_ids": [
+        "SCOPE_408_CO_04",
+        "SCOPE_408_CO_05"
+      ],
+      "reason": "综合目标明确同时涉及指令编码寻址和CPU数据通路/流水线；对应已核对主知识：条件转移编码与PC数据通路。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "条件转移编码与PC数据通路"
+    },
+    {
+      "question_id": "408-13-C-T15",
+      "scope_ids": [
+        "SCOPE_408_CO_02"
+      ],
+      "reason": "海明校验码属于计算机数据校验表示，不按关键词误投网络课程；对应已核对主知识：海明码纠一位错的校验位数。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "海明码纠一位错的校验位数"
+    },
+    {
+      "question_id": "408-13-C-T16",
+      "scope_ids": [
+        "SCOPE_408_CO_03"
+      ],
+      "reason": "主任务为存储层次、介质、Cache或虚拟地址转换；对应已核对主知识：全相联TLB的地址转换。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "全相联TLB的地址转换"
+    },
+    {
+      "question_id": "408-13-C-T20",
+      "scope_ids": [
+        "SCOPE_408_CO_03"
+      ],
+      "reason": "主任务为存储层次、介质、Cache或虚拟地址转换；对应已核对主知识：RAID可靠性与性能机制。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "RAID可靠性与性能机制"
+    },
+    {
+      "question_id": "408-13-C-T21",
+      "scope_ids": [
+        "SCOPE_408_CO_03"
+      ],
+      "reason": "主任务为存储层次、介质、Cache或虚拟地址转换；对应已核对主知识：磁盘平均存取时间。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "磁盘平均存取时间"
+    },
+    {
+      "question_id": "408-13-C-T29",
+      "scope_ids": [
+        "SCOPE_408_OS_01"
+      ],
+      "reason": "主任务属于操作系统运行环境、引导和中断现场；对应已核对主知识：操作系统引导装入位置。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "操作系统引导装入位置"
+    },
+    {
+      "question_id": "408-13-C-T36",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：信道划分与随机接入冲突。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "信道划分与随机接入冲突"
+    },
+    {
+      "question_id": "408-14-A-T44",
+      "scope_ids": [
+        "SCOPE_408_CO_04",
+        "SCOPE_408_CO_05"
+      ],
+      "reason": "综合目标明确同时涉及指令编码寻址和CPU数据通路/流水线；对应已核对主知识：循环机器码的寻址与流水线相关。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "循环机器码的寻址与流水线相关"
+    },
+    {
+      "question_id": "408-14-C-T17",
+      "scope_ids": [
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "主任务为指令格式、扩展操作码、寻址、ISA约定或指令种类；对应已核对主知识：定长指令的偏移字段范围。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "定长指令的偏移字段范围"
+    },
+    {
+      "question_id": "408-14-C-T30",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：页面置换的Belady异常。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "页面置换的Belady异常"
+    },
+    {
+      "question_id": "408-14-C-T34",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：交换机自学习与未知单播转发。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "交换机自学习与未知单播转发"
+    },
+    {
+      "question_id": "408-14-C-T37",
+      "scope_ids": [
+        "SCOPE_408_CN_02"
+      ],
+      "reason": "CDMA码分复用及码片解扩归入物理层的信道复用；对应已核对主知识：CDMA码片解扩。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "CDMA码片解扩"
+    },
+    {
+      "question_id": "408-15-C-T07",
+      "scope_ids": [
+        "SCOPE_408_DS_06"
+      ],
+      "reason": "主任务分析有序查找、折半查找或分块查找的条件和代价；对应已核对主知识：折半查找比较序列合法性。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "折半查找比较序列合法性"
+    },
+    {
+      "question_id": "408-15-C-T13",
+      "scope_ids": [
+        "SCOPE_408_CO_02"
+      ],
+      "reason": "主任务是补码位表示与可表示极值；对应已核对主知识：固定一位数目的补码极值。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "固定一位数目的补码极值"
+    },
+    {
+      "question_id": "408-15-C-T20",
+      "scope_ids": [
+        "SCOPE_408_CO_03"
+      ],
+      "reason": "主任务为存储层次、介质、Cache或虚拟地址转换；对应已核对主知识：磁盘平均存取时间。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "磁盘平均存取时间"
+    },
+    {
+      "question_id": "408-15-C-T30",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：页框分配与置换范围的兼容性。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "页框分配与置换范围的兼容性"
+    },
+    {
+      "question_id": "408-15-C-T31",
+      "scope_ids": [
+        "SCOPE_408_OS_04"
+      ],
+      "reason": "主任务是文件系统位图、目录或打开文件表；对应已核对主知识：位图中盘块位的存储定位。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "位图中盘块位的存储定位"
+    },
+    {
+      "question_id": "408-15-C-T37",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：以太网交换机的桥接层次。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "以太网交换机的桥接层次"
+    },
+    {
+      "question_id": "408-16-A-T44",
+      "scope_ids": [
+        "SCOPE_408_CO_06"
+      ],
+      "reason": "主任务比较查询、中断、DMA的CPU占用与输入输出方式；对应已核对主知识：异步串行输入的中断重叠与CPU开销。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "异步串行输入的中断重叠与CPU开销"
+    },
+    {
+      "question_id": "408-16-C-T07",
+      "scope_ids": [
+        "SCOPE_408_DS_05"
+      ],
+      "reason": "主任务是图的存储表示、顶点度数或拓扑排序算法；对应已核对主知识：邻接表拓扑排序复杂度。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "邻接表拓扑排序复杂度"
+    },
+    {
+      "question_id": "408-16-C-T09",
+      "scope_ids": [
+        "SCOPE_408_DS_06"
+      ],
+      "reason": "主任务分析有序查找、折半查找或分块查找的条件和代价；对应已核对主知识：跳步顺序查找的比较成本。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "跳步顺序查找的比较成本"
+    },
+    {
+      "question_id": "408-16-C-T29",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：固定访问窗口的工作集。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "固定访问窗口的工作集"
+    },
+    {
+      "question_id": "408-16-C-T31",
+      "scope_ids": [
+        "SCOPE_408_OS_05"
+      ],
+      "reason": "主任务为设备共享、SPOOLing或DMA的设备管理过程；对应已核对主知识：SPOOLing的设备共享与系统控制。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "SPOOLing的设备共享与系统控制"
+    },
+    {
+      "question_id": "408-16-C-T35",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：交换机与集线器的物理可见范围。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "交换机与集线器的物理可见范围"
+    },
+    {
+      "question_id": "408-17-A-T45",
+      "scope_ids": [
+        "SCOPE_408_OS_02",
+        "SCOPE_408_OS_03",
+        "SCOPE_408_OS_05"
+      ],
+      "reason": "联合检查进程地址区、输入等待与进程状态，分别保留对应章级路径；对应已核对主知识：代码页定位与输入等待状态。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "代码页定位与输入等待状态"
+    },
+    {
+      "question_id": "408-17-C-T12",
+      "scope_ids": [
+        "SCOPE_408_CO_01",
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "同ISA条件下比较CPU执行时间，ISA是约束，性能指标是计算目标；对应已核对主知识：相同ISA程序的CPU时间比。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "相同ISA程序的CPU时间比"
+    },
+    {
+      "question_id": "408-17-C-T16",
+      "scope_ids": [
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "主任务为指令格式、扩展操作码、寻址、ISA约定或指令种类；对应已核对主知识：扩展操作码与最短指令长度。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "扩展操作码与最短指令长度"
+    },
+    {
+      "question_id": "408-17-C-T22",
+      "scope_ids": [
+        "SCOPE_408_CO_06"
+      ],
+      "reason": "主任务为多级中断控制与屏蔽，归入程序中断输入输出方式；对应已核对主知识：多重中断的开关中断时机。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "多重中断的开关中断时机"
+    },
+    {
+      "question_id": "408-17-C-T32",
+      "scope_ids": [
+        "SCOPE_408_OS_05"
+      ],
+      "reason": "主任务为设备共享、SPOOLing或DMA的设备管理过程；对应已核对主知识：DMA传输的阶段顺序。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "DMA传输的阶段顺序"
+    },
+    {
+      "question_id": "408-18-A-T43",
+      "scope_ids": [
+        "SCOPE_408_CO_06"
+      ],
+      "reason": "主任务比较查询、中断、DMA的CPU占用与输入输出方式；对应已核对主知识：查询中断和DMA的CPU开销。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "查询中断和DMA的CPU开销"
+    },
+    {
+      "question_id": "408-18-A-T45",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：两级页表地址与上下文切换。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "两级页表地址与上下文切换"
+    },
+    {
+      "question_id": "408-18-C-T01",
+      "scope_ids": [
+        "SCOPE_408_DS_03"
+      ],
+      "reason": "表达式求值的两栈操作归入栈与队列应用；对应已核对主知识：双栈表达式求值。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "双栈表达式求值"
+    },
+    {
+      "question_id": "408-18-C-T33",
+      "scope_ids": [
+        "SCOPE_408_CN_06"
+      ],
+      "reason": "主任务为应用协议选择及C/S、P2P网络应用模型；对应已核对主知识：应用协议的传输承载。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "应用协议的传输承载"
+    },
+    {
+      "question_id": "408-19-A-T45",
+      "scope_ids": [
+        "SCOPE_408_CO_02",
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "综合目标为机器代码寻址执行与乘法表示/溢出判断；对应已核对主知识：递归机器代码与乘法溢出。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "递归机器代码与乘法溢出"
+    },
+    {
+      "question_id": "408-19-C-T14",
+      "scope_ids": [
+        "SCOPE_408_CO_03"
+      ],
+      "reason": "主任务为存储层次、介质、Cache或虚拟地址转换；对应已核对主知识：缺页异常的处理与重启。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "缺页异常的处理与重启"
+    },
+    {
+      "question_id": "408-19-C-T17",
+      "scope_ids": [
+        "SCOPE_408_CO_05"
+      ],
+      "reason": "主任务是指令执行数据通路、异常中断硬件机制或多处理器实现；对应已核对主知识：指令取数执行所用部件。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "指令取数执行所用部件"
+    },
+    {
+      "question_id": "408-19-C-T39",
+      "scope_ids": [
+        "SCOPE_408_CN_05"
+      ],
+      "reason": "主任务是TCP序号、确认、窗口或连接状态与时序；对应已核对主知识：TCP握手确认号。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "TCP握手确认号"
+    },
+    {
+      "question_id": "408-19-C-T40",
+      "scope_ids": [
+        "SCOPE_408_CN_06"
+      ],
+      "reason": "主任务为应用协议选择及C/S、P2P网络应用模型；对应已核对主知识：C/S与P2P交互模型。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "C/S与P2P交互模型"
+    },
+    {
+      "question_id": "408-20-A-T43",
+      "scope_ids": [
+        "SCOPE_408_CO_02",
+        "SCOPE_408_CO_04",
+        "SCOPE_408_CO_05"
+      ],
+      "reason": "乘法同时从运算电路、指令序列和数据通路微操作比较；对应已核对主知识：乘法的软件微操作与硬件实现。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "乘法的软件微操作与硬件实现"
+    },
+    {
+      "question_id": "408-20-A-T44",
+      "scope_ids": [
+        "SCOPE_408_CO_03"
+      ],
+      "reason": "主任务为存储层次、介质、Cache或虚拟地址转换；对应已核对主知识：组相联Cache字段与数组缺失。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "组相联Cache字段与数组缺失"
+    },
+    {
+      "question_id": "408-20-C-T12",
+      "scope_ids": [
+        "SCOPE_408_CO_01"
+      ],
+      "reason": "机器字长作为计算机主要性能和结构指标；对应已核对主知识：机器字长与整数数据通路宽度。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "机器字长与整数数据通路宽度"
+    },
+    {
+      "question_id": "408-20-C-T18",
+      "scope_ids": [
+        "SCOPE_408_CO_05"
+      ],
+      "reason": "主任务是指令执行数据通路、异常中断硬件机制或多处理器实现；对应已核对主知识：陷阱异常的来源与返回。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "陷阱异常的来源与返回"
+    },
+    {
+      "question_id": "408-20-C-T20",
+      "scope_ids": [
+        "SCOPE_408_CO_05"
+      ],
+      "reason": "主任务是指令执行数据通路、异常中断硬件机制或多处理器实现；对应已核对主知识：外部中断与指令异常分类。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "外部中断与指令异常分类"
+    },
+    {
+      "question_id": "408-20-C-T23",
+      "scope_ids": [
+        "SCOPE_408_OS_04"
+      ],
+      "reason": "主任务是文件系统位图、目录或打开文件表；对应已核对主知识：多进程共享文件的打开表。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "多进程共享文件的打开表"
+    },
+    {
+      "question_id": "408-20-C-T28",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：请求分页平均访存时间因素。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "请求分页平均访存时间因素"
+    },
+    {
+      "question_id": "408-20-C-T33",
+      "scope_ids": [
+        "SCOPE_408_CN_01"
+      ],
+      "reason": "协议三要素及网络时延性能指标属于体系概述；对应已核对主知识：协议时序要素。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "协议时序要素"
+    },
+    {
+      "question_id": "408-20-C-T34",
+      "scope_ids": [
+        "SCOPE_408_CN_04"
+      ],
+      "reason": "主任务为IP与ICMP、虚电路、路由算法或SDN网络层控制；对应已核对主知识：虚电路转发与资源预留。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "虚电路转发与资源预留"
+    },
+    {
+      "question_id": "408-20-C-T35",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：网络设备划分冲突域广播域。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "网络设备划分冲突域广播域"
+    },
+    {
+      "question_id": "408-20-C-T39",
+      "scope_ids": [
+        "SCOPE_408_CN_05"
+      ],
+      "reason": "主任务是TCP序号、确认、窗口或连接状态与时序；对应已核对主知识：TCP序号差与应用数据量。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "TCP序号差与应用数据量"
+    },
+    {
+      "question_id": "408-21-A-T47",
+      "scope_ids": [
+        "SCOPE_408_CN_03",
+        "SCOPE_408_CN_04",
+        "SCOPE_408_CN_06"
+      ],
+      "reason": "综合题同时使用以太帧、ARP与Web访问，不将明确的跨层目标强塞进单章；对应已核对主知识：首次Web访问的ARP与交换机学习。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "首次Web访问的ARP与交换机学习"
+    },
+    {
+      "question_id": "408-21-C-T22",
+      "scope_ids": [
+        "SCOPE_408_CO_06"
+      ],
+      "reason": "主任务为多级中断控制与屏蔽，归入程序中断输入输出方式；对应已核对主知识：多重中断的响应环境。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "多重中断的响应环境"
+    },
+    {
+      "question_id": "408-21-C-T37",
+      "scope_ids": [
+        "SCOPE_408_CN_04"
+      ],
+      "reason": "主任务为IP与ICMP、虚电路、路由算法或SDN网络层控制；对应已核对主知识：距离向量逐邻居更新。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "距离向量逐邻居更新"
+    },
+    {
+      "question_id": "408-21-C-T38",
+      "scope_ids": [
+        "SCOPE_408_CN_05"
+      ],
+      "reason": "主任务是TCP序号、确认、窗口或连接状态与时序；对应已核对主知识：TCP主动关闭的状态转换。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "TCP主动关闭的状态转换"
+    },
+    {
+      "question_id": "408-22-A-T47",
+      "scope_ids": [
+        "SCOPE_408_CN_02",
+        "SCOPE_408_CN_03",
+        "SCOPE_408_CN_04"
+      ],
+      "reason": "混合局域网题联合介质距离约束、链路帧地址及DHCP网络配置；对应已核对主知识：混合局域网互连与逐帧地址。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "混合局域网互连与逐帧地址"
+    },
+    {
+      "question_id": "408-22-C-T18",
+      "scope_ids": [
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "主任务为指令格式、扩展操作码、寻址、ISA约定或指令种类；对应已核对主知识：ISA与硬件实现的边界。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "ISA与硬件实现的边界"
+    },
+    {
+      "question_id": "408-22-C-T19",
+      "scope_ids": [
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "主任务为指令格式、扩展操作码、寻址、ISA约定或指令种类；对应已核对主知识：扩展操作码剩余容量。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "扩展操作码剩余容量"
+    },
+    {
+      "question_id": "408-22-C-T20",
+      "scope_ids": [
+        "SCOPE_408_CO_01"
+      ],
+      "reason": "主任务为源程序到可执行文件的转换层次与系统概述；对应已核对主知识：源程序到可执行文件的阶段。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "源程序到可执行文件的阶段"
+    },
+    {
+      "question_id": "408-22-C-T22",
+      "scope_ids": [
+        "SCOPE_408_CO_05"
+      ],
+      "reason": "主任务是指令执行数据通路、异常中断硬件机制或多处理器实现；对应已核对主知识：并行体系结构与硬件多线程。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "并行体系结构与硬件多线程"
+    },
+    {
+      "question_id": "408-22-C-T30",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：缺页率与缺页处理代价。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "缺页率与缺页处理代价"
+    },
+    {
+      "question_id": "408-22-C-T37",
+      "scope_ids": [
+        "SCOPE_408_CN_04"
+      ],
+      "reason": "主任务为IP与ICMP、虚电路、路由算法或SDN网络层控制；对应已核对主知识：SDN控制与数据平面接口。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "SDN控制与数据平面接口"
+    },
+    {
+      "question_id": "408-22-C-T39",
+      "scope_ids": [
+        "SCOPE_408_CN_05"
+      ],
+      "reason": "主任务是TCP序号、确认、窗口或连接状态与时序；对应已核对主知识：TCP关闭最短时间。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "TCP关闭最短时间"
+    },
+    {
+      "question_id": "408-23-A-T44",
+      "scope_ids": [
+        "SCOPE_408_CO_03",
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "机器代码寻址及代码页驻留需要指令系统和存储层次共同解释；对应已核对主知识：数组机器码的寻址与代码驻留。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "数组机器码的寻址与代码驻留"
+    },
+    {
+      "question_id": "408-23-A-T46",
+      "scope_ids": [
+        "SCOPE_408_OS_01",
+        "SCOPE_408_OS_02",
+        "SCOPE_408_OS_05"
+      ],
+      "reason": "键盘输入联合内核态、阻塞唤醒及I/O软件层次；对应已核对主知识：键盘输入的阻塞唤醒与内核执行。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "键盘输入的阻塞唤醒与内核执行"
+    },
+    {
+      "question_id": "408-23-A-T47",
+      "scope_ids": [
+        "SCOPE_408_CN_05",
+        "SCOPE_408_CN_06"
+      ],
+      "reason": "应用服务时延与连接数量由传输协议及应用交互共同决定；对应已核对主知识：FTP连接与TCP序号窗口时间。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "FTP连接与TCP序号窗口时间"
+    },
+    {
+      "question_id": "408-23-C-T08",
+      "scope_ids": [
+        "SCOPE_408_DS_06"
+      ],
+      "reason": "主任务分析有序查找、折半查找或分块查找的条件和代价；对应已核对主知识：折半查找最多比较次数。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "折半查找最多比较次数"
+    },
+    {
+      "question_id": "408-23-C-T25",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：页框空闲位图空间。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "页框空闲位图空间"
+    },
+    {
+      "question_id": "408-23-C-T33",
+      "scope_ids": [
+        "SCOPE_408_CN_01"
+      ],
+      "reason": "协议三要素及网络时延性能指标属于体系概述；对应已核对主知识：多分组存储转发完成时间。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "多分组存储转发完成时间"
+    },
+    {
+      "question_id": "408-23-C-T36",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：二进制指数退避最大时间。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "二进制指数退避最大时间"
+    },
+    {
+      "question_id": "408-23-C-T37",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：CRC模二除法检测。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "CRC模二除法检测"
+    },
+    {
+      "question_id": "408-24-A-T43",
+      "scope_ids": [
+        "SCOPE_408_CO_04",
+        "SCOPE_408_CO_05"
+      ],
+      "reason": "综合目标明确同时涉及指令编码寻址和CPU数据通路/流水线；对应已核对主知识：指令格式与数据通路联合分析。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "指令格式与数据通路联合分析"
+    },
+    {
+      "question_id": "408-24-C-T04",
+      "scope_ids": [
+        "SCOPE_408_DS_05"
+      ],
+      "reason": "主任务是图的存储表示、顶点度数或拓扑排序算法；对应已核对主知识：邻接多重表的顶点度数。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "邻接多重表的顶点度数"
+    },
+    {
+      "question_id": "408-24-C-T05",
+      "scope_ids": [
+        "SCOPE_408_DS_06"
+      ],
+      "reason": "主任务分析有序查找、折半查找或分块查找的条件和代价；对应已核对主知识：折半查找的结构前提。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "折半查找的结构前提"
+    },
+    {
+      "question_id": "408-24-C-T11",
+      "scope_ids": [
+        "SCOPE_408_DS_07"
+      ],
+      "reason": "败者树与直接插入排序属于排序算法；对应已核对主知识：败者树冠军保存的信息。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "败者树冠军保存的信息"
+    },
+    {
+      "question_id": "408-24-C-T15",
+      "scope_ids": [
+        "SCOPE_408_CO_02"
+      ],
+      "reason": "主任务为乘除运算电路与数值运算的实现；对应已核对主知识：乘法的硬件与指令序列实现。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "乘法的硬件与指令序列实现"
+    },
+    {
+      "question_id": "408-24-C-T16",
+      "scope_ids": [
+        "SCOPE_408_CO_03"
+      ],
+      "reason": "主任务为存储层次、介质、Cache或虚拟地址转换；对应已核对主知识：Cache与分页存储层次比较。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "Cache与分页存储层次比较"
+    },
+    {
+      "question_id": "408-24-C-T18",
+      "scope_ids": [
+        "SCOPE_408_CO_03"
+      ],
+      "reason": "主任务为存储层次、介质、Cache或虚拟地址转换；对应已核对主知识：MMU地址转换的检测职责。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "MMU地址转换的检测职责"
+    },
+    {
+      "question_id": "408-24-C-T29",
+      "scope_ids": [
+        "SCOPE_408_OS_01",
+        "SCOPE_408_OS_04"
+      ],
+      "reason": "文件访问系统调用同时涉及内核运行环境与文件系统路径；对应已核对主知识：文件名解析与描述符访问。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "文件名解析与描述符访问"
+    },
+    {
+      "question_id": "408-24-C-T35",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：VLAN广播边界与ARP学习。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "VLAN广播边界与ARP学习"
+    },
+    {
+      "question_id": "408-24-C-T38",
+      "scope_ids": [
+        "SCOPE_408_CN_05"
+      ],
+      "reason": "主任务是TCP序号、确认、窗口或连接状态与时序；对应已核对主知识：TCP完整连接生命周期时间。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "TCP完整连接生命周期时间"
+    },
+    {
+      "question_id": "408-25-A-T44",
+      "scope_ids": [
+        "SCOPE_408_CO_02"
+      ],
+      "reason": "主任务为乘除运算电路与数值运算的实现；对应已核对主知识：补码除法器初值与异常。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "补码除法器初值与异常"
+    },
+    {
+      "question_id": "408-25-A-T46",
+      "scope_ids": [
+        "SCOPE_408_OS_02",
+        "SCOPE_408_OS_03",
+        "SCOPE_408_OS_05"
+      ],
+      "reason": "联合检查进程地址区、输入等待与进程状态，分别保留对应章级路径；对应已核对主知识：进程地址区域与I/O调用。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "进程地址区域与I/O调用"
+    },
+    {
+      "question_id": "408-25-A-T47",
+      "scope_ids": [
+        "SCOPE_408_CN_03",
+        "SCOPE_408_CN_04"
+      ],
+      "reason": "卫星链路可靠传输窗口和变长子网划分分别归入链路与网络层；对应已核对主知识：卫星链路窗口设计与变长子网。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "卫星链路窗口设计与变长子网"
+    },
+    {
+      "question_id": "408-25-C-T07",
+      "scope_ids": [
+        "SCOPE_408_DS_06"
+      ],
+      "reason": "主任务分析有序查找、折半查找或分块查找的条件和代价；对应已核对主知识：顺序分块查找的最优块长。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "顺序分块查找的最优块长"
+    },
+    {
+      "question_id": "408-25-C-T16",
+      "scope_ids": [
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "主任务为指令格式、扩展操作码、寻址、ISA约定或指令种类；对应已核对主知识：ISA与硬件实现的边界。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "ISA与硬件实现的边界"
+    },
+    {
+      "question_id": "408-25-C-T17",
+      "scope_ids": [
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "主任务为指令格式、扩展操作码、寻址、ISA约定或指令种类；对应已核对主知识：RISC常见实现特点。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "RISC常见实现特点"
+    },
+    {
+      "question_id": "408-25-C-T29",
+      "scope_ids": [
+        "SCOPE_408_OS_04"
+      ],
+      "reason": "主任务是文件系统位图、目录或打开文件表；对应已核对主知识：新建文件的目录项与inode。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "新建文件的目录项与inode"
+    },
+    {
+      "question_id": "408-25-C-T30",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：内存映射文件的虚拟空间与共享。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "内存映射文件的虚拟空间与共享"
+    },
+    {
+      "question_id": "408-25-C-T34",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：最小码距的检错纠错能力。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "最小码距的检错纠错能力"
+    },
+    {
+      "question_id": "408-25-C-T35",
+      "scope_ids": [
+        "SCOPE_408_CN_03"
+      ],
+      "reason": "主任务是链路层的交换、介质访问控制或差错控制；对应已核对主知识：截断二进制指数退避。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "截断二进制指数退避"
+    },
+    {
+      "question_id": "408-25-C-T39",
+      "scope_ids": [
+        "SCOPE_408_CN_05",
+        "SCOPE_408_CN_06"
+      ],
+      "reason": "应用服务时延与连接数量由传输协议及应用交互共同决定；对应已核对主知识：UDP与TCP首次服务时延。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "UDP与TCP首次服务时延"
+    },
+    {
+      "question_id": "408-26-C-T09",
+      "scope_ids": [
+        "SCOPE_408_DS_07"
+      ],
+      "reason": "败者树与直接插入排序属于排序算法；对应已核对主知识：直接插入排序实际比较数。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "直接插入排序实际比较数"
+    },
+    {
+      "question_id": "408-26-C-T12",
+      "scope_ids": [
+        "SCOPE_408_CO_01",
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "需要区分体系层次和ISA规范与微架构实现；对应已核对主知识：ISA微架构与电路层次。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "ISA微架构与电路层次"
+    },
+    {
+      "question_id": "408-26-C-T16",
+      "scope_ids": [
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "主任务为指令格式、扩展操作码、寻址、ISA约定或指令种类；对应已核对主知识：ISA规范与流水实现选择。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "ISA规范与流水实现选择"
+    },
+    {
+      "question_id": "408-26-C-T17",
+      "scope_ids": [
+        "SCOPE_408_CO_04"
+      ],
+      "reason": "主任务为指令格式、扩展操作码、寻址、ISA约定或指令种类；对应已核对主知识：控制转移指令的下一地址语义。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "控制转移指令的下一地址语义"
+    },
+    {
+      "question_id": "408-26-C-T21",
+      "scope_ids": [
+        "SCOPE_408_CO_05"
+      ],
+      "reason": "主任务是指令执行数据通路、异常中断硬件机制或多处理器实现；对应已核对主知识：系统调用指令与特权操作。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "系统调用指令与特权操作"
+    },
+    {
+      "question_id": "408-26-C-T22",
+      "scope_ids": [
+        "SCOPE_408_CO_05"
+      ],
+      "reason": "主任务是指令执行数据通路、异常中断硬件机制或多处理器实现；对应已核对主知识：中断断点的硬件保存。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "中断断点的硬件保存"
+    },
+    {
+      "question_id": "408-26-C-T29",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：平均访存时间的改进机制。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "平均访存时间的改进机制"
+    },
+    {
+      "question_id": "408-26-C-T30",
+      "scope_ids": [
+        "SCOPE_408_OS_03"
+      ],
+      "reason": "主任务为装入、地址空间、页表、驻留集或请求分页的内存管理；对应已核对主知识：共享映射的虚实地址关系。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "共享映射的虚实地址关系"
+    },
+    {
+      "question_id": "M1-21-F-T16",
+      "scope_ids": [
+        "SCOPE_M1_PROB_04"
+      ],
+      "reason": "主目标是协方差或相关系数，联合/条件分布是计算所需依据；对应已核对主知识：转移抽球的相关系数。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "转移抽球的相关系数"
+    },
+    {
+      "question_id": "M1-24-C-T09",
+      "scope_ids": [
+        "SCOPE_M1_PROB_04"
+      ],
+      "reason": "主目标是协方差或相关系数，联合/条件分布是计算所需依据；对应已核对主知识：条件密度求协方差。",
+      "reviewer_kind": "assistant_offline_semantic_review",
+      "basis": "current local L2 main_knowledge and assessed_construct + existing syllabus_scope_v0",
+      "human_review_performed": false,
+      "reviewed_main_knowledge": "条件密度求协方差"
+    }
+  ]
+}

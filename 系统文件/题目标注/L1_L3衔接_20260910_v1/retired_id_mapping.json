@@ -1,0 +1,7 @@
+{
+  "merges": {
+    "WD-OS-C-2.2-T00": "WD-OS-C-2.2-T26",
+    "WD-OS-C-2.2-T27": "WD-OS-C-2.2-T26"
+  },
+  "basis": "User-corrected source merges, not newly deleted records"
+}

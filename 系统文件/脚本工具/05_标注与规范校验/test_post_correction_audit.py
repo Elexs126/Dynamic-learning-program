@@ -64,20 +64,21 @@ class CurrentRepositoryTests(unittest.TestCase):
 
     def test_current_source_count_and_merged_fragment_ids(self):
         self.assertEqual(self.report['counts']['actual_canonical'], 8022)
-        self.assertEqual(self.report['missing_ids_from_current_sources'], ['WD-OS-C-2.2-T00', 'WD-OS-C-2.2-T27'])
+        self.assertEqual(self.report['missing_ids_from_current_sources'], [])
+        self.assertEqual(set(self.report['retired_id_mapping']['merges']), {'WD-OS-C-2.2-T00', 'WD-OS-C-2.2-T27'})
         self.assertEqual(self.report['counts']['ocr_suspicious_characters_remaining'], 0)
 
     def test_current_source_conflicts_survive_empty_omission_lists(self):
         self.assertTrue(all(c['stored_field_omission_question_count'] == 0 for c in self.report['cohorts']))
         self.assertEqual(self.report['counts']['score_conflict_questions'], 0)
         self.assertEqual(self.report['counts']['semantic_choice_issues'], 0)
-        self.assertFalse(self.report['dependent_l1_execution_allowed'])
-        self.assertEqual(self.report['status'], 'REVIEW_REQUIRED')
+        self.assertTrue(self.report['dependent_l1_execution_allowed'])
+        self.assertEqual(self.report['status'], 'PASS')
 
     def test_whole_paper_score_check_and_candidate_scope_are_separate(self):
         self.assertEqual(self.report['counts']['paper_total_mismatches'], 0)
-        self.assertEqual(self.report['counts']['core_course_only_routes_by_track'], {'MATH1': 2, 'CS408': 121})
-        self.assertFalse(self.report['dependent_l1_executed'])
+        self.assertEqual(self.report['counts']['core_course_only_routes_by_track'], {})
+        self.assertTrue(self.report['dependent_l1_executed'])
 
 
 if __name__ == '__main__': unittest.main()

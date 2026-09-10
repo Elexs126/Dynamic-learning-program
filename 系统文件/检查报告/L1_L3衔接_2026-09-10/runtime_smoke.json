@@ -1,0 +1,41 @@
+{
+  "snapshot": {
+    "status": "PASS",
+    "source_file_count": 944,
+    "output_file_count": 8,
+    "errors": []
+  },
+  "navigation": [
+    {
+      "course": "m1_calculus",
+      "status": "PASS"
+    },
+    {
+      "course": "m1_linear_algebra",
+      "status": "PASS"
+    },
+    {
+      "course": "m1_prob",
+      "status": "PASS"
+    },
+    {
+      "course": "408_ds",
+      "status": "PASS"
+    },
+    {
+      "course": "408_co",
+      "status": "PASS"
+    },
+    {
+      "course": "408_os",
+      "status": "PASS"
+    },
+    {
+      "course": "408_cn",
+      "status": "PASS"
+    }
+  ],
+  "budget_unknown_denied": true,
+  "selector_and_source_tamper_rejection": "PASS",
+  "status": "PASS"
+}

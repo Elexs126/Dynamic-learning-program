@@ -1,0 +1,43 @@
+{
+  "version": "learning-runtime-v1.1.0",
+  "question_count": 8022,
+  "core_question_count": 1277,
+  "core_paper_count": 37,
+  "source_counts": {
+    "CS408_PAST_PAPERS": 846,
+    "CS408_CLASSIC_EXERCISES": 1071,
+    "MATH1_PAST_PAPERS": 431,
+    "MATH2_PAST_PAPERS": 431,
+    "MATH3_PAST_PAPERS": 431,
+    "WANGDAO_408": 2895,
+    "ZHANGYU_1000": 1041,
+    "ZHANGYU_BASIC_30": 876
+  },
+  "human_issue_question_count": 0,
+  "human_issue_questions_by_track": {},
+  "teacher_semantically_exposed_question_count": 1277,
+  "human_signoff_inferred": false,
+  "student_seen_status": "unknown_current",
+  "scope_count": 166,
+  "section_count": 479,
+  "batch_count": 208,
+  "unbatched_section_count": 12,
+  "attempt_record_count": 0,
+  "offline_summary_count": 0,
+  "learner_state": null,
+  "current_frontier": null,
+  "review_queue": null,
+  "learner_status": "awaiting_feedback",
+  "formal_E": {
+    "status": "not_established",
+    "qualified_years": null,
+    "F": null,
+    "C": null,
+    "V": null,
+    "fallback": "course_coverage_and_primary_textbook_order",
+    "requires_all_L3_verified": false
+  },
+  "extra_background_API": "paused_numeric_budget_unknown",
+  "independent_measurement": "not_activated",
+  "batch_execution_count_this_build": 0
+}

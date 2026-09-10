@@ -18,7 +18,7 @@ import os
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-VERSION = 'learning-runtime-v1.0.0'
+VERSION = 'learning-runtime-v1.1.0'
 SYS = '系统文件/'
 POLICY = SYS + '系统配置/runtime_policy_v1.json'
 OFFLINE_SCHEMA = SYS + '数据规范/offline_assessment_summary.schema.json'
@@ -256,7 +256,30 @@ def build(project, policy):
         inputs[relative] = hashlib.sha256(raw).hexdigest()
         return loads(raw) if kind == 'json' else raw.decode('utf-8')
 
-    baseline = tracked(SYS + '系统配置/canonical_sources_v1.json')
+    selector_path = SYS + '系统配置/annotation_sources_current_v1.json'
+    if (project / selector_path).exists():
+        selector = tracked(selector_path)
+        annotation_paths = selector['annotation_files']
+        if len(annotation_paths) != 4 or len(set(annotation_paths)) != 4:
+            raise ValueError('Current annotation selector requires four distinct snapshots')
+        release_manifest = tracked(selector['release_manifest'])
+        release_root = Path(selector['release_manifest']).parent
+        for prefix, hashes in ((Path('.'), release_manifest['input_sha256']),
+                               (release_root, release_manifest['output_sha256'])):
+            for relative, expected in hashes.items():
+                source_path = (prefix / relative).as_posix()
+                current = sha(inside(project, source_path))
+                if current != expected:
+                    raise ValueError('Current release source/output changed: ' + source_path)
+                inputs[source_path] = current
+        builder_path = selector['release_builder']
+        inputs[builder_path] = sha(inside(project, builder_path))
+        if inputs[builder_path] != release_manifest['builder_sha256']:
+            raise ValueError('Current release builder changed')
+        baseline = tracked(selector['canonical_sources'])
+    else:
+        annotation_paths = ANNOTATIONS
+        baseline = tracked(SYS + '系统配置/canonical_sources_v1.json')
     contract = tracked(SYS + '系统配置/execution_contract_v1.json')
     if inputs[SYS + '系统配置/execution_contract_v1.json'] != policy['base_contract_sha256']:
         raise ValueError('Frozen base contract changed; policy needs a new version')
@@ -266,7 +289,7 @@ def build(project, policy):
                            '05_标注与规范校验/json_schema_runtime.py'):
         path = SYS + '脚本工具/' + implementation
         inputs[path] = sha(inside(project, path))
-    bundles = [(p, tracked(p)) for p in ANNOTATIONS]
+    bundles = [(p, tracked(p)) for p in annotation_paths]
     latest, paths = merge_annotations(bundles)
     if len(latest) != baseline['expected_unique_question_records']:
         raise ValueError('Canonical baseline count mismatch')
@@ -288,7 +311,7 @@ def build(project, policy):
             raise ValueError('Canonical source count mismatch: ' + s['source_id'])
 
     evidence = {}
-    for path in ANNOTATIONS[1:]:
+    for path in annotation_paths[1:]:
         ep = str(Path(path).parent / 'field_evidence_v1.jsonl')
         records = unique(jsonl(tracked(ep, 'text')), 'question_id')
         expected = {q for q, p in paths.items() if p == path}

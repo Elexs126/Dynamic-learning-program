@@ -1,0 +1,4334 @@
+{
+  "description": "无可靠子分值时保留整题单元；独立任务索引只支持步骤与依赖定位，不创建新评分原子。整题归属为主目标或综合目标，属于基于题意的结构性标注，并非官方细分评分标准。",
+  "schema_version": "math1-task-reference-index-v1.0.0",
+  "tasks": [
+    {
+      "description": "识别复合三角函数相消的阶；化简并求取首个非零项贡献",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T15",
+      "source_locator": "M1-08-A-T15",
+      "task_id": "M1-08-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把曲线及方向代入参数化公式；化简被积函数并完成定积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T16",
+      "source_locator": "M1-08-A-T16",
+      "task_id": "M1-08-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把空间点到平面的距离转化为目标函数；联立乘子方程和两个约束；比较候选点对应的距离",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T17",
+      "source_locator": "M1-08-A-T17",
+      "task_id": "M1-08-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由差商和连续性证明变上限积分可导",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T18",
+      "source_locator": "M1-08-A-T18",
+      "task_id": "M1-08-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造周期平移之差；证明差函数导数为零并用一点定常数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T18",
+      "source_locator": "M1-08-A-T18",
+      "task_id": "M1-08-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "计算常数项和余弦系数并写出展开式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T19",
+      "source_locator": "M1-08-A-T19",
+      "task_id": "M1-08-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "选择适当点代入展开式求数项级数和",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T19",
+      "source_locator": "M1-08-A-T19",
+      "task_id": "M1-08-A-T19#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由外积与加法的秩不等式证明上界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T20",
+      "source_locator": "M1-08-A-T20",
+      "task_id": "M1-08-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用向量相关性把外积和化为单个外积并收紧秩界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T20",
+      "source_locator": "M1-08-A-T20",
+      "task_id": "M1-08-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "建立三对角行列式递推并归纳证明",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T21",
+      "source_locator": "M1-08-A-T21",
+      "task_id": "M1-08-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用系数行列式判定唯一解并计算指定分量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T21",
+      "source_locator": "M1-08-A-T21",
+      "task_id": "M1-08-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "处理参数退化时的秩与通解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T21",
+      "source_locator": "M1-08-A-T21",
+      "task_id": "M1-08-A-T21#T03",
+      "task_index": 3
+    },
+    {
+      "description": "在给定离散取值条件下计算概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T22",
+      "source_locator": "M1-08-A-T22",
+      "task_id": "M1-08-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把和的分布函数写成加权平移之和；求导得到密度及支持范围",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T22",
+      "source_locator": "M1-08-A-T22",
+      "task_id": "M1-08-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "计算估计量期望并核对目标参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T23",
+      "source_locator": "M1-08-A-T23",
+      "task_id": "M1-08-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "使用样本统计量的独立性和矩公式计算估计量方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-A-T23",
+      "source_locator": "M1-08-A-T23",
+      "task_id": "M1-08-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "求出变上限积分的导函数；结合函数值和二阶导符号判定零点个数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-C-T01",
+      "source_locator": "M1-08-C-T01",
+      "task_id": "M1-08-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算两个一阶偏导；由偏导组成指定点的梯度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-C-T02",
+      "source_locator": "M1-08-C-T02",
+      "task_id": "M1-08-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别指数项和三角项对应的特征根；构造特征多项式并对应微分方程",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-C-T03",
+      "source_locator": "M1-08-C-T03",
+      "task_id": "M1-08-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把函数单调有界条件传递到复合数列；应用单调有界收敛准则",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-C-T04",
+      "source_locator": "M1-08-C-T04",
+      "task_id": "M1-08-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用矩阵幂零条件截断多项式乘积；用乘积为单位矩阵判定可逆",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-C-T05",
+      "source_locator": "M1-08-C-T05",
+      "task_id": "M1-08-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别图示双叶双曲面；由标准形正平方项数确定正惯性指数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-C-T06",
+      "source_locator": "M1-08-C-T06",
+      "task_id": "M1-08-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把最大值不超过阈值转为各变量同时不超过阈值；用独立同分布条件计算分布函数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-C-T07",
+      "source_locator": "M1-08-C-T07",
+      "task_id": "M1-08-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由完全正相关确定线性系数符号；利用均值关系排除不符选项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-C-T08",
+      "source_locator": "M1-08-C-T08",
+      "task_id": "M1-08-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分离自变量和因变量；积分后代入初值确定常数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-F-T09",
+      "source_locator": "M1-08-F-T09",
+      "task_id": "M1-08-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对隐式曲线关系求导；在给定点确定切线斜率并写点斜式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-F-T10",
+      "source_locator": "M1-08-F-T10",
+      "task_id": "M1-08-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由原中心两侧等距点的敛散确定收敛域；平移变量并保留端点的包含关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-F-T11",
+      "source_locator": "M1-08-F-T11",
+      "task_id": "M1-08-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "补成闭曲面并处理法向方向；用高斯公式和对称性简化体积分；计算补面上的平面积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-F-T12",
+      "source_locator": "M1-08-F-T12",
+      "task_id": "M1-08-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以线性无关向量构造可逆基矩阵；写出该基下矩阵并求其特征值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-F-T13",
+      "source_locator": "M1-08-F-T13",
+      "task_id": "M1-08-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由泊松分布的均值方差确定二阶矩；代入相应取值的概率公式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-08-F-T14",
+      "source_locator": "M1-08-F-T14",
+      "task_id": "M1-08-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在定义域内求驻点；计算二阶判别式并确定极值性质",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T15",
+      "source_locator": "M1-09-A-T15",
+      "task_id": "M1-09-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "建立相邻幂函数围成面积的通项；对全体面积通项裂项求和",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T16",
+      "source_locator": "M1-09-A-T16",
+      "task_id": "M1-09-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对奇数指标子列识别对数展开并求和",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T16",
+      "source_locator": "M1-09-A-T16",
+      "task_id": "M1-09-A-T16#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由平面曲线及切线写旋转曲面的方程",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T17",
+      "source_locator": "M1-09-A-T17",
+      "task_id": "M1-09-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定交界和截面范围；用体积差或截面积分求体积",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T17",
+      "source_locator": "M1-09-A-T17",
+      "task_id": "M1-09-A-T17#T02",
+      "task_index": 2
+    },
+    {
+      "description": "构造减去割线的辅助函数；用罗尔定理证明中值结论",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T18",
+      "source_locator": "M1-09-A-T18",
+      "task_id": "M1-09-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在端点邻域应用中值定理；利用导函数极限证明单侧导数存在",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T18",
+      "source_locator": "M1-09-A-T18",
+      "task_id": "M1-09-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "识别原点奇点并构造去心区域；将外曲面通量转移至小球面；利用球面对称性计算通量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T19",
+      "source_locator": "M1-09-A-T19",
+      "task_id": "M1-09-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求矩阵及其平方对应像方程的全部解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T20",
+      "source_locator": "M1-09-A-T20",
+      "task_id": "M1-09-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将任意解向量组成向量组；用行列式检验线性无关",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T20",
+      "source_locator": "M1-09-A-T20",
+      "task_id": "M1-09-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由二次型写矩阵并计算特征值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T21",
+      "source_locator": "M1-09-A-T21",
+      "task_id": "M1-09-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把规范形转为正负零特征值个数；逐种零特征值情形筛选参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T21",
+      "source_locator": "M1-09-A-T21",
+      "task_id": "M1-09-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "在无指定颜色的条件下计算取球事件概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T22",
+      "source_locator": "M1-09-A-T22",
+      "task_id": "M1-09-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "列出两个计数变量的可行取值；逐格计算联合概率并检查归一化",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T22",
+      "source_locator": "M1-09-A-T22",
+      "task_id": "M1-09-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "求总体一阶矩并以样本均值建立矩方程",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T23",
+      "source_locator": "M1-09-A-T23",
+      "task_id": "M1-09-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造联合似然并取对数；求参数极值满足的方程",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-A-T23",
+      "source_locator": "M1-09-A-T23",
+      "task_id": "M1-09-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "将等价条件转为比值趋于一；先消去低阶项再确定首项系数关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-C-T01",
+      "source_locator": "M1-09-C-T01",
+      "task_id": "M1-09-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "根据已查看的分区图判断各区对称性；比较积分的零值与正负并确定绝对值上界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-C-T02",
+      "source_locator": "M1-09-C-T02",
+      "task_id": "M1-09-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由原函数图像判断积分函数的正负和单调区间；核对零点起值及跨间断点的连续性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-C-T03",
+      "source_locator": "M1-09-C-T03",
+      "task_id": "M1-09-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分收敛与绝对收敛条件；用反例排除不成立命题并确认比较界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-C-T04",
+      "source_locator": "M1-09-C-T04",
+      "task_id": "M1-09-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "明确过渡矩阵的方向；把新基向量在旧基下的坐标按列排列",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-C-T05",
+      "source_locator": "M1-09-C-T05",
+      "task_id": "M1-09-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求反对角分块矩阵的行列式和逆；代入伴随矩阵公式处理块顺序与系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-C-T06",
+      "source_locator": "M1-09-C-T06",
+      "task_id": "M1-09-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分解混合分布的期望积分；对平移缩放的正态分量换元",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-C-T07",
+      "source_locator": "M1-09-C-T07",
+      "task_id": "M1-09-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按乘子为零或非零分类求分布函数；比较分段接点两侧的极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-C-T08",
+      "source_locator": "M1-09-C-T08",
+      "task_id": "M1-09-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对指定自变量求一阶偏导；继续求混合偏导并保留中间变量的依赖",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-F-T09",
+      "source_locator": "M1-09-F-T09",
+      "task_id": "M1-09-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由重根通解恢复方程系数；求多项式特解后用两个初值定常数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-F-T10",
+      "source_locator": "M1-09-F-T10",
+      "task_id": "M1-09-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将曲线参数代入弧长微元；完成带权弧长积分的换元计算",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-F-T11",
+      "source_locator": "M1-09-F-T11",
+      "task_id": "M1-09-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定球体在球坐标中的范围；写出含雅可比的积分并计算",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-F-T12",
+      "source_locator": "M1-09-F-T12",
+      "task_id": "M1-09-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用内积给定值计算外积矩阵对向量的作用；识别非零特征值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-F-T13",
+      "source_locator": "M1-09-F-T13",
+      "task_id": "M1-09-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把无偏性写为期望恒等式；按二项总体矩关系求组合系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-09-F-T14",
+      "source_locator": "M1-09-F-T14",
+      "task_id": "M1-09-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求齐次解并判断右端指数的共振重数；设置带补偿幂的特解并比较系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T15",
+      "source_locator": "M1-10-A-T15",
+      "task_id": "M1-10-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对含自变量的被积式求导并确定临界点；按积分上下限判断导数符号；据变化表判定单调区间和极值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T16",
+      "source_locator": "M1-10-A-T16",
+      "task_id": "M1-10-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由导数证明对数函数的比较不等式；积分得到统一上界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T17",
+      "source_locator": "M1-10-A-T17",
+      "task_id": "M1-10-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算或估计比较积分；利用上界趋零证明数列极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T17",
+      "source_locator": "M1-10-A-T17",
+      "task_id": "M1-10-A-T17#T02",
+      "task_index": 2
+    },
+    {
+      "description": "计算内部收敛范围并分别检验端点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T18",
+      "source_locator": "M1-10-A-T18",
+      "task_id": "M1-10-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把级数变形后逐项求导成几何级数；积分并用一点值恢复和函数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T18",
+      "source_locator": "M1-10-A-T18",
+      "task_id": "M1-10-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "用切平面垂直条件确定动点轨迹",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T19",
+      "source_locator": "M1-10-A-T19",
+      "task_id": "M1-10-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用隐函数偏导改写面积微元；在投影椭圆区域计算积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T19",
+      "source_locator": "M1-10-A-T19",
+      "task_id": "M1-10-A-T19#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由存在两个不同解确定系数矩阵奇异；分类参数并比较系数与增广矩阵秩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T20",
+      "source_locator": "M1-10-A-T20",
+      "task_id": "M1-10-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在相容参数下行化简并写特解加齐次通解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T20",
+      "source_locator": "M1-10-A-T20",
+      "task_id": "M1-10-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按给定特征向量构造正交补并重建对称矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T21",
+      "source_locator": "M1-10-A-T21",
+      "task_id": "M1-10-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求平移矩阵的特征值并验证正定",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T21",
+      "source_locator": "M1-10-A-T21",
+      "task_id": "M1-10-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "用配方和归一化确定常数；对联合密度积分求边缘；以联合除以边缘得到条件密度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T22",
+      "source_locator": "M1-10-A-T22",
+      "task_id": "M1-10-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算各取值频数的期望并比较参数幂系数；求使估计无偏的组合",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T23",
+      "source_locator": "M1-10-A-T23",
+      "task_id": "M1-10-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把组合化为常数减单一频数比例；据二项方差求估计量方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-A-T23",
+      "source_locator": "M1-10-A-T23",
+      "task_id": "M1-10-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "把幂式转为指数形式；计算指数中的一阶相对增量极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-C-T01",
+      "source_locator": "M1-10-C-T01",
+      "task_id": "M1-10-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对隐式复合关系求全微分；解出偏导并化简指定线性组合",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-C-T02",
+      "source_locator": "M1-10-C-T02",
+      "task_id": "M1-10-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分离区间两端瑕点；在每个端点比较标准幂积分的可积性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-C-T03",
+      "source_locator": "M1-10-C-T03",
+      "task_id": "M1-10-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "提取两个网格步长；识别矩形区域与二元被积函数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-C-T04",
+      "source_locator": "M1-10-C-T04",
+      "task_id": "M1-10-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从乘积为单位矩阵得到秩下界；用矩阵维数给出上界并合并",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-C-T05",
+      "source_locator": "M1-10-C-T05",
+      "task_id": "M1-10-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求特征值可取集合；结合秩确定非零特征值的重数与对角形式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-C-T06",
+      "source_locator": "M1-10-C-T06",
+      "task_id": "M1-10-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "读出指定点的分布函数值和左极限；求跳跃幅度对应的点概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-C-T07",
+      "source_locator": "M1-10-C-T07",
+      "task_id": "M1-10-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分别积分正态和均匀密度所占区间；建立系数的归一化关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-C-T08",
+      "source_locator": "M1-10-C-T08",
+      "task_id": "M1-10-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "先计算一阶参数导数比值；再对参数求导并换算为二阶导数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-F-T09",
+      "source_locator": "M1-10-F-T09",
+      "task_id": "M1-10-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按原解析作变量替换并调整积分限；用分部积分降次计算",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-F-T10",
+      "source_locator": "M1-10-F-T10",
+      "task_id": "M1-10-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按绝对值折点拆分有向路径；分别参数化求积后合并",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-F-T11",
+      "source_locator": "M1-10-F-T11",
+      "task_id": "M1-10-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定抛物面与平面之间的柱坐标积分限；计算体积和轴向静矩并取比值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-F-T12",
+      "source_locator": "M1-10-F-T12",
+      "task_id": "M1-10-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把空间维数改写为向量组秩；行化简后求使秩降至指定值的参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-F-T13",
+      "source_locator": "M1-10-F-T13",
+      "task_id": "M1-10-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由概率总和求归一化常数；识别泊松分布并求二阶矩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-10-F-T14",
+      "source_locator": "M1-10-F-T14",
+      "task_id": "M1-10-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把幂式转为指数的极限；识别对数与一次项相消并求二阶主项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T15",
+      "source_locator": "M1-11-A-T15",
+      "task_id": "M1-11-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "连续求复合函数的混合偏导；将内函数极值处一阶导数为零代入简化",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T16",
+      "source_locator": "M1-11-A-T16",
+      "task_id": "M1-11-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按参数确定临界点和单调区间；结合函数奇偶性与无穷远行为逐区间统计根",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T17",
+      "source_locator": "M1-11-A-T17",
+      "task_id": "M1-11-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造差函数证明对数的双边不等式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T18",
+      "source_locator": "M1-11-A-T18",
+      "task_id": "M1-11-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用不等式比较相邻项并给出下界；据单调有界证明收敛",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T18",
+      "source_locator": "M1-11-A-T18",
+      "task_id": "M1-11-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按一个坐标分部积分并使用边界零值；换序后对另一坐标分部积分；还原已知二重积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T19",
+      "source_locator": "M1-11-A-T19",
+      "task_id": "M1-11-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用一组基的满秩性和不可表示条件求参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T20",
+      "source_locator": "M1-11-A-T20",
+      "task_id": "M1-11-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对两组向量联合行化简；读取线性表示系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T20",
+      "source_locator": "M1-11-A-T20",
+      "task_id": "M1-11-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "从已知矩阵作用关系识别特征值与特征向量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T21",
+      "source_locator": "M1-11-A-T21",
+      "task_id": "M1-11-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "根据题设作用关系求矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T21",
+      "source_locator": "M1-11-A-T21",
+      "task_id": "M1-11-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由平方相等的必然事件确定联合分布的零格和剩余概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T22",
+      "source_locator": "M1-11-A-T22",
+      "task_id": "M1-11-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "合并乘积变量相同取值的格点概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T22",
+      "source_locator": "M1-11-A-T22",
+      "task_id": "M1-11-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "用联合矩求协方差并计算相关系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T22",
+      "source_locator": "M1-11-A-T22",
+      "task_id": "M1-11-A-T22#T03",
+      "task_index": 3
+    },
+    {
+      "description": "构造方差参数的对数似然并求估计量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T23",
+      "source_locator": "M1-11-A-T23",
+      "task_id": "M1-11-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将估计量标准化为卡方统计量；计算期望与方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-A-T23",
+      "source_locator": "M1-11-A-T23",
+      "task_id": "M1-11-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "比较备选零点的重数；由首个非零导数判断二阶导数是否变号",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-C-T01",
+      "source_locator": "M1-11-C-T01",
+      "task_id": "M1-11-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将系数部分和无界转为一个端点发散；用单调趋零证明另一端点收敛；确定半径并保留端点关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-C-T02",
+      "source_locator": "M1-11-C-T02",
+      "task_id": "M1-11-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用给定一阶导数条件确认驻点；把二阶充分条件转为函数值和二阶导的符号条件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-C-T03",
+      "source_locator": "M1-11-C-T03",
+      "task_id": "M1-11-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较指定区间内三角函数及其对数大小；用积分保序性推出积分顺序",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-C-T04",
+      "source_locator": "M1-11-C-T04",
+      "task_id": "M1-11-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按变换顺序建立初等矩阵等式；逆序消去初等变换恢复原矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-C-T05",
+      "source_locator": "M1-11-C-T05",
+      "task_id": "M1-11-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由原基础解系确定原矩阵及伴随矩阵的秩；利用伴随乘积恒等式获得解向量；排除已知相关列",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-C-T06",
+      "source_locator": "M1-11-C-T06",
+      "task_id": "M1-11-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "验证候选表达式非负；把积分写成分布函数乘积的端点差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-C-T07",
+      "source_locator": "M1-11-C-T07",
+      "task_id": "M1-11-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把最大最小的乘积还原为原变量乘积；据独立性分解期望",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-C-T08",
+      "source_locator": "M1-11-C-T08",
+      "task_id": "M1-11-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求出曲线导数；化简弧长微元并完成定积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-F-T09",
+      "source_locator": "M1-11-F-T09",
+      "task_id": "M1-11-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造积分因子并积分求通解；用初值确定积分常数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-F-T10",
+      "source_locator": "M1-11-F-T10",
+      "task_id": "M1-11-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确认现有表达式不含所求变量；依偏导定义判断对应二阶偏导",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-F-T11",
+      "source_locator": "M1-11-F-T11",
+      "task_id": "M1-11-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按投影方向选择三角参数；代入坐标微分并利用整周期奇偶性求积",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-F-T12",
+      "source_locator": "M1-11-F-T12",
+      "task_id": "M1-11-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由标准形读出特征值；利用行列式等于特征值乘积求参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-F-T13",
+      "source_locator": "M1-11-F-T13",
+      "task_id": "M1-11-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用联合正态与零相关判定独立；将混合矩分解为一阶矩与二阶矩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-11-F-T14",
+      "source_locator": "M1-11-F-T14",
+      "task_id": "M1-11-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把待证式移项构造差函数；按正负区间处理导数符号；结合零点值推出不等式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T15",
+      "source_locator": "M1-12-A-T15",
+      "task_id": "M1-12-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在定义域内求驻点；计算海森判别式并区分极大极小",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T16",
+      "source_locator": "M1-12-A-T16",
+      "task_id": "M1-12-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求收敛半径并检验两个端点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T17",
+      "source_locator": "M1-12-A-T17",
+      "task_id": "M1-12-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将系数分拆后分别求和；处理原点处的延拓值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T17",
+      "source_locator": "M1-12-A-T17",
+      "task_id": "M1-12-A-T17#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由切线方程和定长条件建立导数关系；用初值积分恢复参数函数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T18",
+      "source_locator": "M1-12-A-T18",
+      "task_id": "M1-12-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将面积转为参数积分并检查端点极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T18",
+      "source_locator": "M1-12-A-T18",
+      "task_id": "M1-12-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "添加坐标轴线段形成闭曲线；把闭积分化为区域积分并扣除补线段贡献",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T19",
+      "source_locator": "M1-12-A-T19",
+      "task_id": "M1-12-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用稀疏结构展开系数行列式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T20",
+      "source_locator": "M1-12-A-T20",
+      "task_id": "M1-12-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "枚举行列式为零的参数；用秩判断无穷多解并写通解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T20",
+      "source_locator": "M1-12-A-T20",
+      "task_id": "M1-12-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "将二次型秩条件转为原矩阵的秩条件求参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T21",
+      "source_locator": "M1-12-A-T21",
+      "task_id": "M1-12-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算格拉姆矩阵特征值与特征向量；单位化构造正交变换和标准形",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T21",
+      "source_locator": "M1-12-A-T21",
+      "task_id": "M1-12-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "筛选满足变量倍数关系的格点并求和",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T22",
+      "source_locator": "M1-12-A-T22",
+      "task_id": "M1-12-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求所需一二阶矩；用协方差线性运算计算组合协方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T22",
+      "source_locator": "M1-12-A-T22",
+      "task_id": "M1-12-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "利用独立性计算差变量的均值方差并写密度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T23",
+      "source_locator": "M1-12-A-T23",
+      "task_id": "M1-12-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造差变量样本的似然函数并求方差参数估计",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T23",
+      "source_locator": "M1-12-A-T23",
+      "task_id": "M1-12-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "计算估计量期望证明无偏性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-A-T23",
+      "source_locator": "M1-12-A-T23",
+      "task_id": "M1-12-A-T23#T03",
+      "task_index": 3
+    },
+    {
+      "description": "约分后区分可去点与无穷间断点；由无穷远极限判定水平或斜渐近线",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-C-T01",
+      "source_locator": "M1-12-C-T01",
+      "task_id": "M1-12-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将导数写为每个因子轮流求导的和；利用指定点唯一零因子保留有效项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-C-T02",
+      "source_locator": "M1-12-C-T02",
+      "task_id": "M1-12-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由连续性和给定极限确定函数值；检验增量能否写成线性部分与高阶余项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-C-T03",
+      "source_locator": "M1-12-C-T03",
+      "task_id": "M1-12-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由相邻半周期的正负性建立初步顺序；将较远积分平移后比较权函数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-C-T04",
+      "source_locator": "M1-12-C-T04",
+      "task_id": "M1-12-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "保留任意参数计算候选行列式；找出不依赖参数的相关关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-C-T05",
+      "source_locator": "M1-12-C-T05",
+      "task_id": "M1-12-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "写出新旧特征基的过渡矩阵；在相似对角式中代入并化简",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-C-T06",
+      "source_locator": "M1-12-C-T06",
+      "task_id": "M1-12-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以密度乘积写联合分布；在一变量小于另一变量的半平面求概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-C-T07",
+      "source_locator": "M1-12-C-T07",
+      "task_id": "M1-12-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把固定总长约束写成负斜率线性关系；据此判断相关方向与强度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-C-T08",
+      "source_locator": "M1-12-C-T08",
+      "task_id": "M1-12-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用共同的指数右端识别候选函数；同时代入两条方程核对约束",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-F-T09",
+      "source_locator": "M1-12-F-T09",
+      "task_id": "M1-12-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把二次式通过平移化为对称形式；去除奇函数部分并计算剩余积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-F-T10",
+      "source_locator": "M1-12-F-T10",
+      "task_id": "M1-12-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "根据明确的函数表达式计算偏导；以偏导分量组成指定点梯度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-F-T11",
+      "source_locator": "M1-12-F-T11",
+      "task_id": "M1-12-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "写出平面片的三角形投影区域；计算面积微元系数并化为二重积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-F-T12",
+      "source_locator": "M1-12-F-T12",
+      "task_id": "M1-12-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "证明单位向量外积的补矩阵幂等；结合零乘积与和为单位矩阵确定秩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-F-T13",
+      "source_locator": "M1-12-F-T13",
+      "task_id": "M1-12-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用互斥性判断交事件概率为零；按条件事件的概率归一化",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-12-F-T14",
+      "source_locator": "M1-12-F-T14",
+      "task_id": "M1-12-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求内层变限函数导数；分部积分消去嵌套积分；换元计算剩余积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T15",
+      "source_locator": "M1-13-A-T15",
+      "task_id": "M1-13-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "逐项求导并统一幂次；用递推消去系数证明微分方程",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T16",
+      "source_locator": "M1-13-A-T16",
+      "task_id": "M1-13-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从初始系数读取初值；解微分方程确定和函数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T16",
+      "source_locator": "M1-13-A-T16",
+      "task_id": "M1-13-A-T16#T02",
+      "task_index": 2
+    },
+    {
+      "description": "联立一阶偏导求全部驻点；逐点判断二阶判别式；确认极值性质",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T17",
+      "source_locator": "M1-13-A-T17",
+      "task_id": "M1-13-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用奇函数基点和端点构造等值函数；用罗尔定理取得一阶导数中值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T18",
+      "source_locator": "M1-13-A-T18",
+      "task_id": "M1-13-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用导数偶性取得两个零点；构造指数加权辅助函数并再用罗尔定理",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T18",
+      "source_locator": "M1-13-A-T18",
+      "task_id": "M1-13-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "将直线绕轴旋转并消去参数；求旋转面方程",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T19",
+      "source_locator": "M1-13-A-T19",
+      "task_id": "M1-13-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用对称性确定横向形心；按高度截面计算体积与静矩比",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T19",
+      "source_locator": "M1-13-A-T19",
+      "task_id": "M1-13-A-T19#T02",
+      "task_index": 2
+    },
+    {
+      "description": "把交换子等式展开为线性方程组；行化简确定可解参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T20",
+      "source_locator": "M1-13-A-T20",
+      "task_id": "M1-13-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求特解与齐次基础解；按元素位置组装全部矩阵解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T20",
+      "source_locator": "M1-13-A-T20",
+      "task_id": "M1-13-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "将线性式平方写成外积矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T21",
+      "source_locator": "M1-13-A-T21",
+      "task_id": "M1-13-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由正交单位向量计算矩阵作用；利用秩确定剩余特征值并形成标准形",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T21",
+      "source_locator": "M1-13-A-T21",
+      "task_id": "M1-13-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "分段分析变换阈值的原像；合并连续部分与跳跃点写分布函数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T22",
+      "source_locator": "M1-13-A-T22",
+      "task_id": "M1-13-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "依据分段定义把大小比较改写为原变量事件；对原密度积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T22",
+      "source_locator": "M1-13-A-T22",
+      "task_id": "M1-13-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "积分计算总体一阶矩；以样本矩替代理论矩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T23",
+      "source_locator": "M1-13-A-T23",
+      "task_id": "M1-13-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "建立联合密度与对数似然；求参数极值并核对参数域",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-A-T23",
+      "source_locator": "M1-13-A-T23",
+      "task_id": "M1-13-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "展开或求导识别消去后的阶；由有限非零极限约束参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-C-T01",
+      "source_locator": "M1-13-C-T01",
+      "task_id": "M1-13-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算指定点梯度；写出点法式切平面",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-C-T02",
+      "source_locator": "M1-13-C-T02",
+      "task_id": "M1-13-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别正弦展开对应的奇周期延拓；归约给定点并判断连续性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-C-T03",
+      "source_locator": "M1-13-C-T03",
+      "task_id": "M1-13-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将各闭曲线积分改写为面积积分；利用各区域和被积函数比较大小",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-C-T04",
+      "source_locator": "M1-13-C-T04",
+      "task_id": "M1-13-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "解释乘积矩阵列的线性表示；利用逆矩阵证明反向表示",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-C-T05",
+      "source_locator": "M1-13-C-T05",
+      "task_id": "M1-13-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算含参数特征多项式；用可对角化性把特征值一致转为相似条件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-C-T06",
+      "source_locator": "M1-13-C-T06",
+      "task_id": "M1-13-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "统一为标准正态概率；利用密度对称性与单调性比较区间面积",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-C-T07",
+      "source_locator": "M1-13-C-T07",
+      "task_id": "M1-13-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别t变量平方的F分布；把平方超界拆为双侧尾事件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-C-T08",
+      "source_locator": "M1-13-C-T08",
+      "task_id": "M1-13-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由隐式方程确定基点；把数列差商极限转为基点导数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-F-T09",
+      "source_locator": "M1-13-F-T09",
+      "task_id": "M1-13-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由三个特解之差取得两个独立齐次解；加回一个非齐次特解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-F-T10",
+      "source_locator": "M1-13-F-T10",
+      "task_id": "M1-13-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算一阶导数的参数表达；再按链式法则计算二阶导数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-F-T11",
+      "source_locator": "M1-13-F-T11",
+      "task_id": "M1-13-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以对数为分部积分对象；分解有理式并核对无穷端边界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-F-T12",
+      "source_locator": "M1-13-F-T12",
+      "task_id": "M1-13-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把元素条件写成伴随矩阵关系；结合非零性排除零行列式分支",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-F-T13",
+      "source_locator": "M1-13-F-T13",
+      "task_id": "M1-13-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把条件概率化为区间概率之比；计算指数尾概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-13-F-T14",
+      "source_locator": "M1-13-F-T14",
+      "task_id": "M1-13-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用对数等价式整理整体阶；求变限积分导数；计算消去一次项后的指数极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T15",
+      "source_locator": "M1-14-A-T15",
+      "task_id": "M1-14-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求隐函数一阶导数并联立原方程；筛选驻点；用二阶导数判断极值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T16",
+      "source_locator": "M1-14-A-T16",
+      "task_id": "M1-14-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算复合函数二阶偏导并消去交叉项；得到单变量微分方程；求通解并代入初值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T17",
+      "source_locator": "M1-14-A-T17",
+      "task_id": "M1-14-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "补水平盖面并核对内外侧；计算散度与对称项；求体积分并扣除盖面通量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T18",
+      "source_locator": "M1-14-A-T18",
+      "task_id": "M1-14-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由余弦关系比较两数列；利用已知级数收敛推出极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T19",
+      "source_locator": "M1-14-A-T19",
+      "task_id": "M1-14-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用和差化积与等价量建立比较；由已知正项级数推出目标收敛",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T19",
+      "source_locator": "M1-14-A-T19",
+      "task_id": "M1-14-A-T19#T02",
+      "task_index": 2
+    },
+    {
+      "description": "行化简求齐次基础解系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T20",
+      "source_locator": "M1-14-A-T20",
+      "task_id": "M1-14-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将右逆矩阵按列拆成多个非齐次方程；各取特解加齐次解并组装",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T20",
+      "source_locator": "M1-14-A-T20",
+      "task_id": "M1-14-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "识别两个秩一矩阵的谱；核对特征子空间维数；借共同对角形式证明相似",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T21",
+      "source_locator": "M1-14-A-T21",
+      "task_id": "M1-14-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按离散条件变量混合条件分布函数；处理各支持区间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T22",
+      "source_locator": "M1-14-A-T22",
+      "task_id": "M1-14-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由边缘密度积分求期望",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T22",
+      "source_locator": "M1-14-A-T22",
+      "task_id": "M1-14-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "从分布函数求密度；积分求一阶与二阶矩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T23",
+      "source_locator": "M1-14-A-T23",
+      "task_id": "M1-14-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造对数似然并极值求估计量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T23",
+      "source_locator": "M1-14-A-T23",
+      "task_id": "M1-14-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "将估计量识别为样本矩；用大数定律证明概率极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-A-T23",
+      "source_locator": "M1-14-A-T23",
+      "task_id": "M1-14-A-T23#T03",
+      "task_index": 3
+    },
+    {
+      "description": "比较各候选的无穷远增长；检验渐近线斜率与截距极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-C-T01",
+      "source_locator": "M1-14-C-T01",
+      "task_id": "M1-14-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别端点连线表达式；使用二阶导数符号确定曲线在弦线哪侧",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-C-T02",
+      "source_locator": "M1-14-C-T02",
+      "task_id": "M1-14-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由累次积分恢复区域；按角度分段确定径向边界；检查极坐标面积元",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-C-T03",
+      "source_locator": "M1-14-C-T03",
+      "task_id": "M1-14-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造误差平方积分函数；求参数驻点并利用正交性验证最小值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-C-T04",
+      "source_locator": "M1-14-C-T04",
+      "task_id": "M1-14-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "选择稀疏行逐次展开；合并低阶行列式并核对符号",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-C-T05",
+      "source_locator": "M1-14-C-T05",
+      "task_id": "M1-14-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用系数矩阵证明无关性的必要方向；以零向量构造逆向不成立的反例",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-C-T06",
+      "source_locator": "M1-14-C-T06",
+      "task_id": "M1-14-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将差事件写成原事件减交事件；利用独立性求未知概率并反向计算",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-C-T07",
+      "source_locator": "M1-14-C-T07",
+      "task_id": "M1-14-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分混合密度与变量平均；比较一阶矩；把方差差转为非负表达式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-C-T08",
+      "source_locator": "M1-14-C-T08",
+      "task_id": "M1-14-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求指定点两个偏导；以梯度法向量写点法式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-F-T09",
+      "source_locator": "M1-14-F-T09",
+      "task_id": "M1-14-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由导数积分并用奇函数基点定常数；把目标点归约至已知区间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-F-T10",
+      "source_locator": "M1-14-F-T10",
+      "task_id": "M1-14-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将对数比式化为齐次方程；比例代换后分离积分；代入初值确定常数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-F-T11",
+      "source_locator": "M1-14-F-T11",
+      "task_id": "M1-14-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由柱面和平面构造符合方向的参数；代入坐标微分计算一元积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-F-T12",
+      "source_locator": "M1-14-F-T12",
+      "task_id": "M1-14-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从固定平方项确定正负方向；结合行列式和零特征值边界限制参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-F-T13",
+      "source_locator": "M1-14-F-T13",
+      "task_id": "M1-14-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "积分求总体二阶矩；计算平方和期望并匹配目标参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-14-F-T14",
+      "source_locator": "M1-14-F-T14",
+      "task_id": "M1-14-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "使一次与二次系数消失；提取剩余最低非零阶；匹配等价式系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T15",
+      "source_locator": "M1-15-A-T15",
+      "task_id": "M1-15-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用切线截距表达面积；建立函数与导数关系；积分并用初值确定函数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T16",
+      "source_locator": "M1-15-A-T16",
+      "task_id": "M1-15-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把点处最大方向导数写成梯度模；在曲线约束下优化其平方；比较全部候选",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T17",
+      "source_locator": "M1-15-A-T17",
+      "task_id": "M1-15-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用加减项拆开乘积增量；分别取差商极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T18",
+      "source_locator": "M1-15-A-T18",
+      "task_id": "M1-15-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "反复应用二因子法则写出多因子求导结构",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T18",
+      "source_locator": "M1-15-A-T18",
+      "task_id": "M1-15-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "核对起终点与交线方向；构造满足曲面约束的参数；代入求有向定积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T19",
+      "source_locator": "M1-15-A-T19",
+      "task_id": "M1-15-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "写过渡矩阵并计算行列式证明新向量构成基",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T20",
+      "source_locator": "M1-15-A-T20",
+      "task_id": "M1-15-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把相同坐标转为过渡矩阵固定向量；讨论参数并求所有非零向量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T20",
+      "source_locator": "M1-15-A-T20",
+      "task_id": "M1-15-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "利用相似的迹与行列式约束参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T21",
+      "source_locator": "M1-15-A-T21",
+      "task_id": "M1-15-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "读取或计算谱；求各特征空间基；组装可逆对角化矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T21",
+      "source_locator": "M1-15-A-T21",
+      "task_id": "M1-15-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由密度积分取得超阈值概率；按第二次成功停止事件列分布律",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T22",
+      "source_locator": "M1-15-A-T22",
+      "task_id": "M1-15-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把期望级数转为几何级数二阶导数并求和",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T22",
+      "source_locator": "M1-15-A-T22",
+      "task_id": "M1-15-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "用均匀分布理论均值匹配样本均值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T23",
+      "source_locator": "M1-15-A-T23",
+      "task_id": "M1-15-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由样本支持约束限定参数；用似然单调性定位端点最大值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-A-T23",
+      "source_locator": "M1-15-A-T23",
+      "task_id": "M1-15-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "从二阶导数图像列出候选点；以两侧凹凸改变筛选拐点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-C-T01",
+      "source_locator": "M1-15-C-T01",
+      "task_id": "M1-15-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "根据指数项和共振多项式识别特征根；代回方程确定非齐次项系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-C-T02",
+      "source_locator": "M1-15-C-T02",
+      "task_id": "M1-15-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由边界条件收敛确定原级数半径；判断乘以次数后的半径；比较待判点与收敛区间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-C-T03",
+      "source_locator": "M1-15-C-T03",
+      "task_id": "M1-15-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "转写两条双曲线的径向界；确定射线角度界；补入面积元因子",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-C-T04",
+      "source_locator": "M1-15-C-T04",
+      "task_id": "M1-15-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "找出系数矩阵降秩参数；检查增广矩阵相容性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-C-T05",
+      "source_locator": "M1-15-C-T05",
+      "task_id": "M1-15-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "写出新旧正交基的变换关系；对应重排标准形系数并处理列变号",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-C-T06",
+      "source_locator": "M1-15-C-T06",
+      "task_id": "M1-15-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把交事件与两个原事件分别比较；相加形成普适不等式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-C-T07",
+      "source_locator": "M1-15-C-T07",
+      "task_id": "M1-15-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "展开多项式期望；由不相关分解乘积期望；用方差恢复二阶矩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-C-T08",
+      "source_locator": "M1-15-C-T08",
+      "task_id": "M1-15-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对分子分母求导；利用正切与自变量的等价关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-F-T09",
+      "source_locator": "M1-15-F-T09",
+      "task_id": "M1-15-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分离奇函数与绝对值项；将剩余偶函数积分化为半区间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-F-T10",
+      "source_locator": "M1-15-F-T10",
+      "task_id": "M1-15-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定指定自变量点的隐函数值；求两个偏导并组成全微分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-F-T11",
+      "source_locator": "M1-15-F-T11",
+      "task_id": "M1-15-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用坐标轮换对称合并积分；计算单纯形截面面积；完成一元积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-F-T12",
+      "source_locator": "M1-15-F-T12",
+      "task_id": "M1-15-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将n阶行列式归约到低一阶；平移递推并用初值求通项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-F-T13",
+      "source_locator": "M1-15-F-T13",
+      "task_id": "M1-15-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由零相关识别联合正态独立；中心化乘积事件；计算异号象限概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-15-F-T14",
+      "source_locator": "M1-15-F-T14",
+      "task_id": "M1-15-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由给定极坐标区域直接列累次积分；先径向积分；利用对称性处理角度积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T15",
+      "source_locator": "M1-16-A-T15",
+      "task_id": "M1-16-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算特征根并证明全为负；据通解验证反常积分收敛",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T16",
+      "source_locator": "M1-16-A-T16",
+      "task_id": "M1-16-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用初值确定通解系数；逐项积分并化简",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T16",
+      "source_locator": "M1-16-A-T16",
+      "task_id": "M1-16-A-T16#T02",
+      "task_index": 2
+    },
+    {
+      "description": "对给定偏导积分并用边界函数定积分常量；用端点差计算参数积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T17",
+      "source_locator": "M1-16-A-T17",
+      "task_id": "M1-16-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对所得参数函数求导；结合整体凸性确定最小值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T17",
+      "source_locator": "M1-16-A-T17",
+      "task_id": "M1-16-A-T17#T02",
+      "task_index": 2
+    },
+    {
+      "description": "核对闭曲面外侧；计算散度；依据四面体边界列体积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T18",
+      "source_locator": "M1-16-A-T18",
+      "task_id": "M1-16-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将相邻迭代差控制为几何衰减；证明差分级数绝对收敛",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T19",
+      "source_locator": "M1-16-A-T19",
+      "task_id": "M1-16-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用部分和与迭代项关系证明极限存在；把极限代入固定点方程确定范围",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T19",
+      "source_locator": "M1-16-A-T19",
+      "task_id": "M1-16-A-T19#T02",
+      "task_index": 2
+    },
+    {
+      "description": "合并多个右端项作行化简；区分满秩与降秩参数；逐一判断相容性与自由变量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T20",
+      "source_locator": "M1-16-A-T20",
+      "task_id": "M1-16-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造特征向量矩阵；用对角幂恢复指定矩阵幂",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T21",
+      "source_locator": "M1-16-A-T21",
+      "task_id": "M1-16-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由乘积约束归纳出幂关系；按列解释乘积系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T21",
+      "source_locator": "M1-16-A-T21",
+      "task_id": "M1-16-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由支持区域面积确定密度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T22",
+      "source_locator": "M1-16-A-T22",
+      "task_id": "M1-16-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按区域交集检验指示变量与原变量独立性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T22",
+      "source_locator": "M1-16-A-T22",
+      "task_id": "M1-16-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按指示变量取值拆开和变量事件；分区积分得到分布函数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T22",
+      "source_locator": "M1-16-A-T22",
+      "task_id": "M1-16-A-T22#T03",
+      "task_index": 3
+    },
+    {
+      "description": "以独立性求样本最大值分布函数；求导得到密度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T23",
+      "source_locator": "M1-16-A-T23",
+      "task_id": "M1-16-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "积分求最大值期望；按无偏条件确定缩放系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-A-T23",
+      "source_locator": "M1-16-A-T23",
+      "task_id": "M1-16-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "在有限瑕点比较幂指数；在无穷远比较合并幂指数；取两端条件交集",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-C-T01",
+      "source_locator": "M1-16-C-T01",
+      "task_id": "M1-16-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分别求两段原函数；匹配常数保证连接点可导",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-C-T02",
+      "source_locator": "M1-16-C-T02",
+      "task_id": "M1-16-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用两特解之差确定齐次系数；以两特解平均代入恢复非齐次项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-C-T03",
+      "source_locator": "M1-16-C-T03",
+      "task_id": "M1-16-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算两侧函数极限；用所在小区间夹逼右差商；比较左右导数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-C-T04",
+      "source_locator": "M1-16-C-T04",
+      "task_id": "M1-16-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "检查各变换使用的相似矩阵；区分可共同使用与不能共同使用的变换",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-C-T05",
+      "source_locator": "M1-16-C-T05",
+      "task_id": "M1-16-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "写出对称矩阵并求特征值符号；联系规范形与等值曲面类型",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-C-T06",
+      "source_locator": "M1-16-C-T06",
+      "task_id": "M1-16-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把阈值标准化；利用标准正态分布函数单调性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-C-T07",
+      "source_locator": "M1-16-C-T07",
+      "task_id": "M1-16-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定两计数的边缘均值方差；枚举非零乘积事件求混合矩；计算协方差与相关系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-C-T08",
+      "source_locator": "M1-16-C-T08",
+      "task_id": "M1-16-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对积分上限求导；化简对数三角因子的局部阶",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-F-T09",
+      "source_locator": "M1-16-F-T09",
+      "task_id": "M1-16-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按分量计算交叉偏导；核对旋度各分量符号",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-F-T10",
+      "source_locator": "M1-16-F-T10",
+      "task_id": "M1-16-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求基点隐函数值；分别偏导并在基点消去高阶因子；组成全微分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-F-T11",
+      "source_locator": "M1-16-F-T11",
+      "task_id": "M1-16-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算指定阶数导数；利用导数条件确定参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-F-T12",
+      "source_locator": "M1-16-F-T12",
+      "task_id": "M1-16-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "选择稀疏首行展开；保留含参数主子式；归并各次幂",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-F-T13",
+      "source_locator": "M1-16-F-T13",
+      "task_id": "M1-16-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别样本均值为区间中心；由上限恢复半宽与下限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-16-F-T14",
+      "source_locator": "M1-16-F-T14",
+      "task_id": "M1-16-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "沿两条内函数计算一阶导数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T15",
+      "source_locator": "M1-17-A-T15",
+      "task_id": "M1-17-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对一阶表达继续求导；代入基点合并混合偏导项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T15",
+      "source_locator": "M1-17-A-T15",
+      "task_id": "M1-17-A-T15#T02",
+      "task_index": 2
+    },
+    {
+      "description": "规范成区间等分黎曼和；转为定积分；分部积分计算",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T16",
+      "source_locator": "M1-17-A-T16",
+      "task_id": "M1-17-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对隐式方程求导；联立原方程筛驻点；用二阶导数分类",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T17",
+      "source_locator": "M1-17-A-T17",
+      "task_id": "M1-17-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用极限保号与端点异号取得内部零点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T18",
+      "source_locator": "M1-17-A-T18",
+      "task_id": "M1-17-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造函数与导数的乘积；先取得导数零点；在分离区间应用罗尔得到两个不同根",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T18",
+      "source_locator": "M1-17-A-T18",
+      "task_id": "M1-17-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "消去高度得到交线平面投影",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T19",
+      "source_locator": "M1-17-A-T19",
+      "task_id": "M1-17-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算曲面面积元；把密度质量积分投影；在偏心圆域用极坐标积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T19",
+      "source_locator": "M1-17-A-T19",
+      "task_id": "M1-17-A-T19#T02",
+      "task_index": 2
+    },
+    {
+      "description": "利用不同特征值和列相关夹定秩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T20",
+      "source_locator": "M1-17-A-T20",
+      "task_id": "M1-17-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由列关系读出齐次基与非齐次特解；合成通解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T20",
+      "source_locator": "M1-17-A-T20",
+      "task_id": "M1-17-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由缺失平方项识别零特征值并求参数；求全部特征空间；单位化组装正交矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T21",
+      "source_locator": "M1-17-A-T21",
+      "task_id": "M1-17-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "积分求连续变量期望；据期望阈值计算概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T22",
+      "source_locator": "M1-17-A-T22",
+      "task_id": "M1-17-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按离散变量值拆开和事件；分段写分布函数并求密度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T22",
+      "source_locator": "M1-17-A-T22",
+      "task_id": "M1-17-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由绝对值事件求折叠正态密度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T23",
+      "source_locator": "M1-17-A-T23",
+      "task_id": "M1-17-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算一阶绝对矩；匹配样本均值求尺度估计",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T23",
+      "source_locator": "M1-17-A-T23",
+      "task_id": "M1-17-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "构造误差样本似然；极值求尺度估计并核对参数域",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-A-T23",
+      "source_locator": "M1-17-A-T23",
+      "task_id": "M1-17-A-T23#T03",
+      "task_index": 3
+    },
+    {
+      "description": "求右侧三角式极限；匹配左侧常值和连接点值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-C-T01",
+      "source_locator": "M1-17-C-T01",
+      "task_id": "M1-17-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由乘积为正限制函数和导数同号；分别判断正负情况下的绝对值变化",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-C-T02",
+      "source_locator": "M1-17-C-T02",
+      "task_id": "M1-17-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算基点梯度；将给定方向单位化；求点积",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-C-T03",
+      "source_locator": "M1-17-C-T03",
+      "task_id": "M1-17-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "读取本地速度图的有向面积；累加双方位移差；与初始领先量比较确定追及时段",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-C-T04",
+      "source_locator": "M1-17-C-T04",
+      "task_id": "M1-17-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "证明外积幂等并确定谱；检查单位阵加倍数外积是否含零特征值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-C-T05",
+      "source_locator": "M1-17-C-T05",
+      "task_id": "M1-17-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "读取三角阵共同谱；对重复特征值计算秩与零空间维数；判断与对角阵的相似性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-C-T06",
+      "source_locator": "M1-17-C-T06",
+      "task_id": "M1-17-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "通分消去条件概率分母；整理为交概率与边缘乘积的比较；交换事件验证等价",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-C-T07",
+      "source_locator": "M1-17-C-T07",
+      "task_id": "M1-17-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "检查各平方和的标准化尺度；区分真均值与样本均值中心化；核对自由度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-C-T08",
+      "source_locator": "M1-17-C-T08",
+      "task_id": "M1-17-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "展开有理偶函数；读取指定阶导数对应系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-F-T09",
+      "source_locator": "M1-17-F-T09",
+      "task_id": "M1-17-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求共轭复根；写指数乘正弦余弦的实通解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-F-T10",
+      "source_locator": "M1-17-F-T10",
+      "task_id": "M1-17-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确认区域内分母无奇点；计算两个交叉偏导；匹配参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-F-T11",
+      "source_locator": "M1-17-F-T11",
+      "task_id": "M1-17-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别次数加权的几何级数导数；在收敛区间内求和函数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-F-T12",
+      "source_locator": "M1-17-F-T12",
+      "task_id": "M1-17-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把变换后向量组写成矩阵乘积；利用基矩阵可逆性化为求原矩阵秩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-F-T13",
+      "source_locator": "M1-17-F-T13",
+      "task_id": "M1-17-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别两个正态分布函数的位置与尺度；用混合权重合成期望",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-17-F-T14",
+      "source_locator": "M1-17-F-T14",
+      "task_id": "M1-17-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "选取反正切部分求导；消去指数复合；换元计算剩余根式积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T15",
+      "source_locator": "M1-18-A-T15",
+      "task_id": "M1-18-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以三段周长表示总面积；构造总长约束；求内部候选并检验边界最小值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T16",
+      "source_locator": "M1-18-A-T16",
+      "task_id": "M1-18-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对截取范围和前后侧；补坐标平面盖面；计算散度体积分并扣盖面",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T17",
+      "source_locator": "M1-18-A-T17",
+      "task_id": "M1-18-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "使用积分因子求给定右端项通解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T18",
+      "source_locator": "M1-18-A-T18",
+      "task_id": "M1-18-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将一般通解代入周期条件；利用周期函数积分平移；证明积分常数存在且唯一",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T18",
+      "source_locator": "M1-18-A-T18",
+      "task_id": "M1-18-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "用指数差商取得相邻项的大小界；归纳单调有界；取极限并证明固定点唯一",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T19",
+      "source_locator": "M1-18-A-T19",
+      "task_id": "M1-18-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把平方和为零转为各线性式为零；按参数讨论齐次解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T20",
+      "source_locator": "M1-18-A-T20",
+      "task_id": "M1-18-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用系数矩阵秩确定正惯性指数；写出规范形类型",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T20",
+      "source_locator": "M1-18-A-T20",
+      "task_id": "M1-18-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由秩相等确定参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T21",
+      "source_locator": "M1-18-A-T21",
+      "task_id": "M1-18-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对多右端项求通解；组装矩阵；用行列式筛可逆参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T21",
+      "source_locator": "M1-18-A-T21",
+      "task_id": "M1-18-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "展开与乘积变量的协方差；利用独立性计算混合矩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T22",
+      "source_locator": "M1-18-A-T22",
+      "task_id": "M1-18-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按乘积正负及零分解原事件；列出全体整数上的概率律",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T22",
+      "source_locator": "M1-18-A-T22",
+      "task_id": "M1-18-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "构造绝对值指数密度的对数似然；求尺度估计",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T23",
+      "source_locator": "M1-18-A-T23",
+      "task_id": "M1-18-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算绝对一阶矩与二阶矩；利用独立性得到估计量均值和方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-A-T23",
+      "source_locator": "M1-18-A-T23",
+      "task_id": "M1-18-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "分别提取函数增量阶；检验左右差商极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-C-T01",
+      "source_locator": "M1-18-C-T01",
+      "task_id": "M1-18-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "设未知切点并构造法向量；用两个给定点位于平面形成约束；联立求可能切点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-C-T02",
+      "source_locator": "M1-18-C-T02",
+      "task_id": "M1-18-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "拆分分子线性次数；分别匹配正弦与余弦的特定点级数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-C-T03",
+      "source_locator": "M1-18-C-T03",
+      "task_id": "M1-18-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "消去对称区间奇函数项；建立另外两个被积函数的上下界；比较积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-C-T04",
+      "source_locator": "M1-18-C-T04",
+      "task_id": "M1-18-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别共同单一特征值；比较移位矩阵秩并确定三阶块结构",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-C-T05",
+      "source_locator": "M1-18-C-T05",
+      "task_id": "M1-18-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把横向分块写成矩阵乘积；结合原矩阵子块形成秩上下界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-C-T06",
+      "source_locator": "M1-18-C-T06",
+      "task_id": "M1-18-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定密度对称中心；把中心区间外概率等分为两尾",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-C-T07",
+      "source_locator": "M1-18-C-T07",
+      "task_id": "M1-18-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别降低显著性水平扩大接受域；据包含关系判断结论蕴含",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-C-T08",
+      "source_locator": "M1-18-C-T08",
+      "task_id": "M1-18-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将底数写成一加无穷小；计算指数乘底数增量的极限；匹配指数目标",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-F-T09",
+      "source_locator": "M1-18-F-T09",
+      "task_id": "M1-18-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由相切读取函数值与导数；分部积分把二阶导积分化为边值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-F-T10",
+      "source_locator": "M1-18-F-T10",
+      "task_id": "M1-18-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求交叉偏导形成旋度；代入指定点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-F-T11",
+      "source_locator": "M1-18-F-T11",
+      "task_id": "M1-18-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将对称交叉项平均；用球面和平面方程化常数；计算圆周弧长",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-F-T12",
+      "source_locator": "M1-18-F-T12",
+      "task_id": "M1-18-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将矩阵平方作用分解到特征基；比较独立向量系数；结合特征值互异求行列式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-F-T13",
+      "source_locator": "M1-18-F-T13",
+      "task_id": "M1-18-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "化简条件交事件；利用互斥消去交集；用独立性建立未知概率方程",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-18-F-T14",
+      "source_locator": "M1-18-F-T14",
+      "task_id": "M1-18-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "积分因子求通解并用初值定常数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T15",
+      "source_locator": "M1-19-A-T15",
+      "task_id": "M1-19-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算二阶导数；分区判断符号及拐点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T15",
+      "source_locator": "M1-19-A-T15",
+      "task_id": "M1-19-A-T15#T02",
+      "task_index": 2
+    },
+    {
+      "description": "用梯度与给定方向同向及模长定参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T16",
+      "source_locator": "M1-19-A-T16",
+      "task_id": "M1-19-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由非负高度确定投影区域；计算面积元并极坐标积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T16",
+      "source_locator": "M1-19-A-T16",
+      "task_id": "M1-19-A-T16#T02",
+      "task_index": 2
+    },
+    {
+      "description": "把面积写为绝对值反常积分；按正弦变号区间分段；计算单段并合成衰减级数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T17",
+      "source_locator": "M1-19-A-T17",
+      "task_id": "M1-19-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较幂函数积分证明单调；三角代换建立隔项递推",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T18",
+      "source_locator": "M1-19-A-T18",
+      "task_id": "M1-19-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把递推与单调性结合夹逼相邻项比值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T18",
+      "source_locator": "M1-19-A-T18",
+      "task_id": "M1-19-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "利用对称性确定一个坐标；平移圆截面计算各静矩；除以体积得到形心",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T19",
+      "source_locator": "M1-19-A-T19",
+      "task_id": "M1-19-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "展开给定坐标表示求参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T20",
+      "source_locator": "M1-19-A-T20",
+      "task_id": "M1-19-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "验证新向量组行列式非零；按指定方向求过渡矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T20",
+      "source_locator": "M1-19-A-T20",
+      "task_id": "M1-19-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由迹和行列式确定参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T21",
+      "source_locator": "M1-19-A-T21",
+      "task_id": "M1-19-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按相同谱顺序分别求特征基；合成两个基变换得到相似矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T21",
+      "source_locator": "M1-19-A-T21",
+      "task_id": "M1-19-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按符号拆分乘积事件并求密度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T22",
+      "source_locator": "M1-19-A-T22",
+      "task_id": "M1-19-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "展开协方差并定不相关参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T22",
+      "source_locator": "M1-19-A-T22",
+      "task_id": "M1-19-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "比较联合事件与边缘乘积证明不独立",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T22",
+      "source_locator": "M1-19-A-T22",
+      "task_id": "M1-19-A-T22#T03",
+      "task_index": 3
+    },
+    {
+      "description": "标准化半轴积分确定密度常数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T23",
+      "source_locator": "M1-19-A-T23",
+      "task_id": "M1-19-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "建立对数似然；以尺度平方为参数求极值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-A-T23",
+      "source_locator": "M1-19-A-T23",
+      "task_id": "M1-19-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "消去正切与自变量的一次项；识别剩余最低阶",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-C-T01",
+      "source_locator": "M1-19-C-T01",
+      "task_id": "M1-19-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算连接点左右差商；独立比较邻域函数值与基点值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-C-T02",
+      "source_locator": "M1-19-C-T02",
+      "task_id": "M1-19-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由单调有界得到数列极限；对差分级数写望远镜部分和；以反例排除其他普适断言",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-C-T03",
+      "source_locator": "M1-19-C-T03",
+      "task_id": "M1-19-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算已知分量的交叉偏导；检查候选分量及区域内连续性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-C-T04",
+      "source_locator": "M1-19-C-T04",
+      "task_id": "M1-19-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求允许的特征值；利用行列式确定各重数；由符号写规范形类型",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-C-T05",
+      "source_locator": "M1-19-C-T05",
+      "task_id": "M1-19-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由两两相交判定法向量秩下界；由无公共交点判相容性；确定两种秩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-C-T06",
+      "source_locator": "M1-19-C-T06",
+      "task_id": "M1-19-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把两个事件分为共同与独有部分；比较独有部分概率得到充要关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-C-T07",
+      "source_locator": "M1-19-C-T07",
+      "task_id": "M1-19-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求两个正态量之差的分布；标准化对称区间；识别保留的参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-C-T08",
+      "source_locator": "M1-19-C-T08",
+      "task_id": "M1-19-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分别求两个偏导；按给定三角权重组合消项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-F-T09",
+      "source_locator": "M1-19-F-T09",
+      "task_id": "M1-19-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分离函数与自变量；积分求隐式关系；用初值选根式分支",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-F-T10",
+      "source_locator": "M1-19-F-T10",
+      "task_id": "M1-19-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把幂次写成平方根的偶次幂；匹配余弦级数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-F-T11",
+      "source_locator": "M1-19-F-T11",
+      "task_id": "M1-19-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用椭球方程改写被积函数；按上侧投影到圆域；利用绝对值对称性积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-F-T12",
+      "source_locator": "M1-19-F-T12",
+      "task_id": "M1-19-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由两个独立列和第三列表示确定秩；从列关系读出非零核向量；写齐次通解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-F-T13",
+      "source_locator": "M1-19-F-T13",
+      "task_id": "M1-19-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由密度求期望和分布函数；把分布函数值超界转为原变量区间事件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-19-F-T14",
+      "source_locator": "M1-19-F-T14",
+      "task_id": "M1-19-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "联立偏导求所有驻点；逐点计算Hessian判别式；分类并求极值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T15",
+      "source_locator": "M1-20-A-T15",
+      "task_id": "M1-20-A-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别原点奇性阻止直接套用格林；加入小椭圆内边界；在环域用格林转移积分；计算标准边界积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T16",
+      "source_locator": "M1-20-A-T16",
+      "task_id": "M1-20-A-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由系数递推求半径证明区间内收敛",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T17",
+      "source_locator": "M1-20-A-T17",
+      "task_id": "M1-20-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "逐项求导并使用递推；解和函数方程；由零点值确定常数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T17",
+      "source_locator": "M1-20-A-T17",
+      "task_id": "M1-20-A-T17#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由曲面求投影法向分量并核对下侧；消去未知函数项；对环域剩余项积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T18",
+      "source_locator": "M1-20-A-T18",
+      "task_id": "M1-20-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在最大模点两侧应用中值定理；依据较短区间取得导数下界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T19",
+      "source_locator": "M1-20-A-T19",
+      "task_id": "M1-20-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对两段积分同时应用导数上界；分析等号条件与导数连续性排除非零最大模",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T19",
+      "source_locator": "M1-20-A-T19",
+      "task_id": "M1-20-A-T19#T02",
+      "task_index": 2
+    },
+    {
+      "description": "用迹和行列式匹配目标参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T20",
+      "source_locator": "M1-20-A-T20",
+      "task_id": "M1-20-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按相同特征值顺序求两矩阵的正交基；合成正交变换并验证",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T20",
+      "source_locator": "M1-20-A-T20",
+      "task_id": "M1-20-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "反证向量与其像线性无关；证明基矩阵可逆",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T21",
+      "source_locator": "M1-20-A-T21",
+      "task_id": "M1-20-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用给定二次作用关系逐列表示线性变换；求新矩阵谱判断可对角化",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T21",
+      "source_locator": "M1-20-A-T21",
+      "task_id": "M1-20-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "分解选择变量两种状态；区分共用变量与独立变量分支；写联合分布函数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T22",
+      "source_locator": "M1-20-A-T22",
+      "task_id": "M1-20-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "单独按选择状态求边缘分布；证明与原正态分布一致",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T22",
+      "source_locator": "M1-20-A-T22",
+      "task_id": "M1-20-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "用生存函数计算尾概率与剩余寿命条件概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T23",
+      "source_locator": "M1-20-A-T23",
+      "task_id": "M1-20-A-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对分布函数求密度；构造样本对数似然；对已知形状下的尺度求极值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-A-T23",
+      "source_locator": "M1-20-A-T23",
+      "task_id": "M1-20-A-T23#T02",
+      "task_index": 2
+    },
+    {
+      "description": "识别各被积函数最低阶；合并积分升阶与上限复合阶；比较总体阶",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-C-T01",
+      "source_locator": "M1-20-C-T01",
+      "task_id": "M1-20-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分极限值与函数基点值；将可导性转为差商条件；检查各阶比较命题",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-C-T02",
+      "source_locator": "M1-20-C-T02",
+      "task_id": "M1-20-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "写出可微的一阶近似；将法向投影对应余项；按距离尺度取极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-C-T03",
+      "source_locator": "M1-20-C-T03",
+      "task_id": "M1-20-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "使用半径内绝对收敛传递到偶项子级数；取逆否命题判断发散点位置",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-C-T04",
+      "source_locator": "M1-20-C-T04",
+      "task_id": "M1-20-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将列变换表示为可逆右乘；用逆矩阵反向表示原矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-C-T05",
+      "source_locator": "M1-20-C-T05",
+      "task_id": "M1-20-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将两直线写成点加方向向量形式；用各自交点参数相等的空间点建立表示",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-C-T06",
+      "source_locator": "M1-20-C-T06",
+      "task_id": "M1-20-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由零交概率推出三重交概率为零；计算三个仅发生事件概率；互斥相加",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-C-T07",
+      "source_locator": "M1-20-C-T07",
+      "task_id": "M1-20-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算总和均值和方差；标准化给定阈值；用正态分布函数近似",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-C-T08",
+      "source_locator": "M1-20-C-T08",
+      "task_id": "M1-20-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "通分消去发散主项；辨认分母阶；求剩余二阶极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-F-T09",
+      "source_locator": "M1-20-F-T09",
+      "task_id": "M1-20-F-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算参数一阶导数比；再次按链式法则求导并代点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-F-T10",
+      "source_locator": "M1-20-F-T10",
+      "task_id": "M1-20-F-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "检查实根或复根实部均负；积分微分方程；以初值和无穷端衰减计算",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-F-T11",
+      "source_locator": "M1-20-F-T11",
+      "task_id": "M1-20-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "选择先对上限变量求导；再对含参数变量求导；代入指定点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-F-T12",
+      "source_locator": "M1-20-F-T12",
+      "task_id": "M1-20-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用行列加减保值化简；展开低阶子式并整理参数多项式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-F-T13",
+      "source_locator": "M1-20-F-T13",
+      "task_id": "M1-20-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由对称性求两个均值；积分计算变量与正弦的乘积矩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-20-F-T14",
+      "source_locator": "M1-20-F-T14",
+      "task_id": "M1-20-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "通分消除发散主项；分离积分一阶项与指数二阶项；计算有限余项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-A-T17",
+      "source_locator": "M1-21-A-T17",
+      "task_id": "M1-21-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分别确定两部分收敛条件并检查边界；取共同收敛域",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-A-T18",
+      "source_locator": "M1-21-A-T18",
+      "task_id": "M1-21-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "几何求和与分式拆系数求和；单独处理端点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-A-T18",
+      "source_locator": "M1-21-A-T18",
+      "task_id": "M1-21-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "把距离写成坐标绝对值；建立双约束乘子方程；求候选并比较距离",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-A-T19",
+      "source_locator": "M1-21-A-T19",
+      "task_id": "M1-21-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "取非负被积函数区域使面积积分最大；极坐标计算最大积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-A-T20",
+      "source_locator": "M1-21-A-T20",
+      "task_id": "M1-21-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别边界所围奇点；添加小椭圆内边界；在环域转移并计算积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-A-T20",
+      "source_locator": "M1-21-A-T20",
+      "task_id": "M1-21-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "求参数谱与特征空间；施密特正交化构造正交阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-A-T21",
+      "source_locator": "M1-21-A-T21",
+      "task_id": "M1-21-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对目标矩阵使用共同谱分解；取正平方根并还原矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-A-T21",
+      "source_locator": "M1-21-A-T21",
+      "task_id": "M1-21-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由较短段事件构造密度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-A-T22",
+      "source_locator": "M1-21-A-T22",
+      "task_id": "M1-21-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "根据长短段定义的目标变换求分布",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-A-T22",
+      "source_locator": "M1-21-A-T22",
+      "task_id": "M1-21-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "根据目标函数计算长短段变量的期望",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-A-T22",
+      "source_locator": "M1-21-A-T22",
+      "task_id": "M1-21-A-T22#T03",
+      "task_index": 3
+    },
+    {
+      "description": "验证极限等于补点值；计算补点处差商并判断极值必要条件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-C-T01",
+      "source_locator": "M1-21-C-T01",
+      "task_id": "M1-21-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在两条曲线上定位同一交点；分别对给定恒等式求导；解交点偏导线性方程",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-C-T02",
+      "source_locator": "M1-21-C-T02",
+      "task_id": "M1-21-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用已知三角展开；乘回分母；逐阶比较系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-C-T03",
+      "source_locator": "M1-21-C-T03",
+      "task_id": "M1-21-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别等分区间中点；匹配求和项数与小区间长度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-C-T04",
+      "source_locator": "M1-21-C-T04",
+      "task_id": "M1-21-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "合并平方和差的系数；求矩阵谱；统计正负惯性指数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-C-T05",
+      "source_locator": "M1-21-C-T05",
+      "task_id": "M1-21-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "先确定第二向量投影系数；再对第三向量建立两条正交条件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-C-T06",
+      "source_locator": "M1-21-C-T06",
+      "task_id": "M1-21-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "化简含乘积的分块矩阵；使用转置与Gram秩恒等式；构造不满足断言的具体反例",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-C-T07",
+      "source_locator": "M1-21-C-T07",
+      "task_id": "M1-21-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "通分改写条件概率命题；检查互补条件下的蕴含关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-C-T08",
+      "source_locator": "M1-21-C-T08",
+      "task_id": "M1-21-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算均值差的期望；利用组间独立保留配对协方差；计算方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-C-T09",
+      "source_locator": "M1-21-C-T09",
+      "task_id": "M1-21-C-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定备择参数下样本均值分布；对接受域标准化求概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-C-T10",
+      "source_locator": "M1-21-C-T10",
+      "task_id": "M1-21-C-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将二次分母配方；使用反正切原函数；计算上下端极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-F-T11",
+      "source_locator": "M1-21-F-T11",
+      "task_id": "M1-21-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算两个参数导数比；求二阶导数并代入参数点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-F-T12",
+      "source_locator": "M1-21-F-T12",
+      "task_id": "M1-21-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "采用指数换元转写导数算子；求常系数通解；还原并代入初值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-F-T13",
+      "source_locator": "M1-21-F-T13",
+      "task_id": "M1-21-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算散度；消去中心对称坐标奇项；求椭圆柱体积",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-F-T14",
+      "source_locator": "M1-21-F-T14",
+      "task_id": "M1-21-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将常行和写成全一向量特征关系；用伴随矩阵乘积关系求余子式和",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-F-T15",
+      "source_locator": "M1-21-F-T15",
+      "task_id": "M1-21-F-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "列第一次取色及第二次条件概率；合成二维分布；计算边缘矩和混合矩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-21-F-T16",
+      "source_locator": "M1-21-F-T16",
+      "task_id": "M1-21-F-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求通解并用初值定常数；检查定义域端点；求无穷远斜率与截距",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-A-T17",
+      "source_locator": "M1-22-A-T17",
+      "task_id": "M1-22-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "结合本地配图恢复圆弧和直线区域；按角度分区；先径向后角向积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-A-T18",
+      "source_locator": "M1-22-A-T18",
+      "task_id": "M1-22-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按右手法则确定三段交弧方向；利用坐标为零简化各段；将剩余微分式化为端点差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-A-T19",
+      "source_locator": "M1-22-A-T19",
+      "task_id": "M1-22-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造积分与中点值之差；用导数单调性证明必要性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-A-T20",
+      "source_locator": "M1-22-A-T20",
+      "task_id": "M1-22-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "假设某点二阶导数为负；在保号小区间反向推导形成矛盾",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-A-T20",
+      "source_locator": "M1-22-A-T20",
+      "task_id": "M1-22-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按双重求和系数写对称矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-A-T21",
+      "source_locator": "M1-22-A-T21",
+      "task_id": "M1-22-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由秩与迹识别谱；求零空间并正交单位化",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-A-T21",
+      "source_locator": "M1-22-A-T21",
+      "task_id": "M1-22-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "将平方型为零转为线性方程；写零空间通解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-A-T21",
+      "source_locator": "M1-22-A-T21",
+      "task_id": "M1-22-A-T21#T03",
+      "task_index": 3
+    },
+    {
+      "description": "按已知均值比例写两组密度；合并对数似然求共同参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-A-T22",
+      "source_locator": "M1-22-A-T22",
+      "task_id": "M1-22-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按样本组独立性和尺度关系计算估计量方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-A-T22",
+      "source_locator": "M1-22-A-T22",
+      "task_id": "M1-22-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由比值极限和对数极限求函数极限；区分去心信息与点值或导数条件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-C-T01",
+      "source_locator": "M1-22-C-T01",
+      "task_id": "M1-22-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对比例内变量求两个偏导；加权消去未知函数导数；恢复函数后求点值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-C-T02",
+      "source_locator": "M1-22-C-T02",
+      "task_id": "M1-22-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别外层函数在内层值域的单调性；用反函数传递极限；检验偶函数丢失符号的反例",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-C-T03",
+      "source_locator": "M1-22-C-T03",
+      "task_id": "M1-22-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对相同区间被积函数建立上下界；以导数证明对数比较；传递到积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-C-T04",
+      "source_locator": "M1-22-C-T04",
+      "task_id": "M1-22-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分互异特征值与完整特征基；检验两两无关和整体无关；用反例判断必要性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-C-T05",
+      "source_locator": "M1-22-C-T05",
+      "task_id": "M1-22-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把未知向量按块拆分；消元成两个子系统；用共同零空间判断同解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-C-T06",
+      "source_locator": "M1-22-C-T06",
+      "task_id": "M1-22-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "合并向量组行化简；分别处理退化参数；比较各组与联合组秩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-C-T07",
+      "source_locator": "M1-22-C-T07",
+      "task_id": "M1-22-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "读取均匀与泊松变量方差；展开仿射组合方差；代入给定协方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-C-T08",
+      "source_locator": "M1-22-C-T08",
+      "task_id": "M1-22-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算样本二阶矩均值；由四阶矩求其方差；按偏差阈值形成概率上界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-C-T09",
+      "source_locator": "M1-22-C-T09",
+      "task_id": "M1-22-C-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "边缘乘条件密度构造联合密度；积分或配方求边缘方差；识别相关系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-C-T10",
+      "source_locator": "M1-22-C-T10",
+      "task_id": "M1-22-C-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求指定点梯度；计算模长作为方向导数最大值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-F-T11",
+      "source_locator": "M1-22-F-T11",
+      "task_id": "M1-22-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用平方根作新变量；化为对数积分并计算端点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-F-T12",
+      "source_locator": "M1-22-F-T12",
+      "task_id": "M1-22-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把参数下界转为函数上确界；比较内部驻点和两条边界；核对无穷远衰减",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-F-T13",
+      "source_locator": "M1-22-F-T13",
+      "task_id": "M1-22-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算含参数相邻项比；分收敛发散参数区间；在临界点检查通项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-F-T14",
+      "source_locator": "M1-22-F-T14",
+      "task_id": "M1-22-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用已知可逆因子左乘；整理并约去可逆矩阵；求所需矩阵差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-F-T15",
+      "source_locator": "M1-22-F-T15",
+      "task_id": "M1-22-F-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由互斥和独立确定交概率；化简条件交事件；用容斥计算比值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-22-F-T16",
+      "source_locator": "M1-22-F-T16",
+      "task_id": "M1-22-F-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用切线纵截距表达几何条件；解方程并代初值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-A-T17",
+      "source_locator": "M1-23-A-T17",
+      "task_id": "M1-23-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由被积函数符号判断变限函数增减；求全局最大值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-A-T17",
+      "source_locator": "M1-23-A-T17",
+      "task_id": "M1-23-A-T17#T02",
+      "task_index": 2
+    },
+    {
+      "description": "求出全部驻点；对非退化点使用Hessian；对退化点构造异号邻近路径",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-A-T18",
+      "source_locator": "M1-23-A-T18",
+      "task_id": "M1-23-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算散度；消去关于对称坐标的奇项；将剩余体积分化为圆域积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-A-T19",
+      "source_locator": "M1-23-A-T19",
+      "task_id": "M1-23-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在中点展开两端值并相加；用连续二阶导数的介值性合并余项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-A-T20",
+      "source_locator": "M1-23-A-T20",
+      "task_id": "M1-23-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在内部极值点展开两端值；对余项取绝对值上界；推出某点二阶导下界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-A-T20",
+      "source_locator": "M1-23-A-T20",
+      "task_id": "M1-23-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "分别配方到共同规范形；合成可逆坐标变换",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-A-T21",
+      "source_locator": "M1-23-A-T21",
+      "task_id": "M1-23-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "假设正交等价则矩阵相似；比较迹判断是否存在",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-A-T21",
+      "source_locator": "M1-23-A-T21",
+      "task_id": "M1-23-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "利用区域和密度对称性求协方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-A-T22",
+      "source_locator": "M1-23-A-T22",
+      "task_id": "M1-23-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算边缘并检查联合密度是否可分解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-A-T22",
+      "source_locator": "M1-23-A-T22",
+      "task_id": "M1-23-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "将半径平方事件改为圆域；极坐标积分并求密度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-A-T22",
+      "source_locator": "M1-23-A-T22",
+      "task_id": "M1-23-A-T22#T03",
+      "task_index": 3
+    },
+    {
+      "description": "求无穷远函数与自变量比；对差值使用对数等价求截距",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-C-T01",
+      "source_locator": "M1-23-C-T01",
+      "task_id": "M1-23-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分实根重根和复根；分别核对正负无穷端；识别全体解有界的谱条件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-C-T02",
+      "source_locator": "M1-23-C-T02",
+      "task_id": "M1-23-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按参数符号消元为分段函数；检查函数与一阶导连续；比较二阶单侧差商",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-C-T03",
+      "source_locator": "M1-23-C-T03",
+      "task_id": "M1-23-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "证明差级数为收敛正项级数；分别用三角不等式传递绝对收敛",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-C-T04",
+      "source_locator": "M1-23-C-T04",
+      "task_id": "M1-23-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用单位块消去交叉块；代入三矩阵乘积为零；比较剩余乘积的秩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-C-T05",
+      "source_locator": "M1-23-C-T05",
+      "task_id": "M1-23-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对不同结构选取可对角化判据；对重复特征值计算几何重数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-C-T06",
+      "source_locator": "M1-23-C-T06",
+      "task_id": "M1-23-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "给共同向量设置两套系数；联立解出系数约束；还原交空间的生成向量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-C-T07",
+      "source_locator": "M1-23-C-T07",
+      "task_id": "M1-23-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以均值拆开绝对值；利用阶乘移位归并概率和",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-C-T08",
+      "source_locator": "M1-23-C-T08",
+      "task_id": "M1-23-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分别按总体方差标准化样本方差；使用独立性；核对F比值尺度与自由度顺序",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-C-T09",
+      "source_locator": "M1-23-C-T09",
+      "task_id": "M1-23-C-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求两观测差的正态分布；计算绝对一阶矩；按无偏条件定系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-C-T10",
+      "source_locator": "M1-23-C-T10",
+      "task_id": "M1-23-C-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "展开两侧最低有效阶；消去低阶系数；匹配目标系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-F-T11",
+      "source_locator": "M1-23-F-T11",
+      "task_id": "M1-23-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算两个偏导数；构造图面法向量；写切平面",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-F-T12",
+      "source_locator": "M1-23-F-T12",
+      "task_id": "M1-23-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对线性函数计算余弦系数；筛选偶下标系数；求对应数项级数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-F-T13",
+      "source_locator": "M1-23-F-T13",
+      "task_id": "M1-23-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把目标区间拆开；用平移函数恒等式替换移出部分；合并已知全段积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-F-T14",
+      "source_locator": "M1-23-F-T14",
+      "task_id": "M1-23-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "验证生成向量正交；逐个用内积条件求系数；计算系数平方和",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-F-T15",
+      "source_locator": "M1-23-F-T15",
+      "task_id": "M1-23-F-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定两个变量支持集交集；对相等原子事件乘边缘概率后相加",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-23-F-T16",
+      "source_locator": "M1-23-F-T16",
+      "task_id": "M1-23-F-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用关于横轴对称减半；按给定边界先对横坐标积分；处理剩余根式积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-A-T17",
+      "source_locator": "M1-24-A-T17",
+      "task_id": "M1-24-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算基点偏导并求切平面",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-A-T18",
+      "source_locator": "M1-24-A-T18",
+      "task_id": "M1-24-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由截距恢复三角投影域；求内部驻点；逐边及顶点比较函数值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-A-T18",
+      "source_locator": "M1-24-A-T18",
+      "task_id": "M1-24-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "构造函数与弦线之差的二次上下界；由端点和二阶导数符号证明误差界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-A-T19",
+      "source_locator": "M1-24-A-T19",
+      "task_id": "M1-24-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对逐点误差界积分；整理为端点均值积分误差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-A-T19",
+      "source_locator": "M1-24-A-T19",
+      "task_id": "M1-24-A-T19#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按观察方向确定跨面上侧；计算旋度并代入平面法向；由球面交线投影求椭圆域积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-A-T20",
+      "source_locator": "M1-24-A-T20",
+      "task_id": "M1-24-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从三条递推读取转移矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-A-T21",
+      "source_locator": "M1-24-A-T21",
+      "task_id": "M1-24-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求谱与特征基；计算矩阵一般次幂",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-A-T21",
+      "source_locator": "M1-24-A-T21",
+      "task_id": "M1-24-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "将矩阵幂乘初始向量；提取各数列通项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-A-T21",
+      "source_locator": "M1-24-A-T21",
+      "task_id": "M1-24-A-T21#T03",
+      "task_index": 3
+    },
+    {
+      "description": "求样本最大值密度及一阶矩；确定无偏缩放",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-A-T22",
+      "source_locator": "M1-24-A-T22",
+      "task_id": "M1-24-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "继续求二阶矩；展开均方误差为系数二次函数；求最优缩放",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-A-T22",
+      "source_locator": "M1-24-A-T22",
+      "task_id": "M1-24-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "判定被积函数偶性；利用零基点积分得到奇性；检查周期上限与非周期积分差别",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-C-T01",
+      "source_locator": "M1-24-C-T01",
+      "task_id": "M1-24-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算上侧投影法向分量；核对坐标微分交换顺序的符号",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-C-T02",
+      "source_locator": "M1-24-C-T02",
+      "task_id": "M1-24-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "展开平移对数；读取偶下标系数并乘次数；合并等比级数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-C-T03",
+      "source_locator": "M1-24-C-T03",
+      "task_id": "M1-24-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从存在点导数推出点值与极限一致；转写差商；区分点导数和导函数极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-C-T04",
+      "source_locator": "M1-24-C-T04",
+      "task_id": "M1-24-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "读取三平面公共交线；判断相容及至少两个独立法向；确定系数与增广秩",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-C-T05",
+      "source_locator": "M1-24-C-T05",
+      "task_id": "M1-24-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用三阶子式为零限制参数；排除两向量成比例分支；核对剩余相关条件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-C-T06",
+      "source_locator": "M1-24-C-T06",
+      "task_id": "M1-24-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从核方向和正交平面读出特征值；构成完整基；计算幂的特征值之和",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-C-T07",
+      "source_locator": "M1-24-C-T07",
+      "task_id": "M1-24-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求两组合的正态参数；统一标准正态分布函数；匹配标准化阈值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-C-T08",
+      "source_locator": "M1-24-C-T08",
+      "task_id": "M1-24-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "边缘乘条件密度构造联合支持；计算两均值和乘积期望；求协方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-C-T09",
+      "source_locator": "M1-24-C-T09",
+      "task_id": "M1-24-C-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将绝对差阈值写成带状区域；利用交换对称性积分；与已知分布匹配",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-C-T10",
+      "source_locator": "M1-24-C-T10",
+      "task_id": "M1-24-C-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把幂指式转为指数形式；合并正弦与对数的局部阶；匹配极限系数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-F-T11",
+      "source_locator": "M1-24-F-T11",
+      "task_id": "M1-24-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从全微分读取偏导；展开复合二阶导；利用内函数基点一阶导为零消去未知二阶项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-F-T12",
+      "source_locator": "M1-24-F-T12",
+      "task_id": "M1-24-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分部积分求线性函数余弦系数；筛选奇下标；计算缩放后的正弦极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-F-T13",
+      "source_locator": "M1-24-F-T13",
+      "task_id": "M1-24-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "令自变量与因变量之和为新变量；转为可分离方程；积分并应用初值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-F-T14",
+      "source_locator": "M1-24-F-T14",
+      "task_id": "M1-24-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "展开双线性式与二次型乘积的差；提取二维行列式平方；确定参数符号",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-F-T15",
+      "source_locator": "M1-24-F-T15",
+      "task_id": "M1-24-F-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以失败补事件求条件概率分母；列参数方程；筛选合法概率根",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-24-F-T16",
+      "source_locator": "M1-24-F-T16",
+      "task_id": "M1-24-F-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分解线性因子与不可约二次因子；匹配系数；分别对数及反正切积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-A-T17",
+      "source_locator": "M1-25-A-T17",
+      "task_id": "M1-25-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从对角线条件读取一元初值；计算二阶偏导组合；化为欧拉型方程；对导数降阶求解",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-A-T18",
+      "source_locator": "M1-25-A-T18",
+      "task_id": "M1-25-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由任意相邻割线严格有序建立导数有序；利用内部割线或排除恒值段保持严格性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-A-T19",
+      "source_locator": "M1-25-A-T19",
+      "task_id": "M1-25-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在两个相邻区间分别用中值定理；由导数严格递增比较割线斜率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-A-T19",
+      "source_locator": "M1-25-A-T19",
+      "task_id": "M1-25-A-T19#T02",
+      "task_index": 2
+    },
+    {
+      "description": "确定旋转锥面几何；补轴向盖面并核对外侧；用轴向坐标计算体积与盖面通量；扣除补面",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-A-T20",
+      "source_locator": "M1-25-A-T20",
+      "task_id": "M1-25-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用已有特征根的剩余因子约束参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-A-T21",
+      "source_locator": "M1-25-A-T21",
+      "task_id": "M1-25-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把两条作用式转为移位矩阵平方的核；求向量并排除零向量分支",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-A-T21",
+      "source_locator": "M1-25-A-T21",
+      "task_id": "M1-25-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "将正赔付事件改写为超免赔额；积分求概率与赔付期望",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-A-T22",
+      "source_locator": "M1-25-A-T22",
+      "task_id": "M1-25-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按损失次数混合二项理赔次数；展开并识别泊松分布",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-A-T22",
+      "source_locator": "M1-25-A-T22",
+      "task_id": "M1-25-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "求积分函数原点导数并判断极值；分析乘积积分函数的局部奇阶项或二阶符号",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-C-T01",
+      "source_locator": "M1-25-C-T01",
+      "task_id": "M1-25-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "提取三角项交错符号并验证递减趋零；比较绝对项与调和级数；对正切消去项比较幂级数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-C-T02",
+      "source_locator": "M1-25-C-T02",
+      "task_id": "M1-25-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由函数极限推导积分平均极限；用振荡或缓增长例子排除逆命题",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-C-T03",
+      "source_locator": "M1-25-C-T03",
+      "task_id": "M1-25-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从原上下限恢复抛物线外侧区域；固定纵坐标分左右区间；写交换次序积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-C-T04",
+      "source_locator": "M1-25-C-T04",
+      "task_id": "M1-25-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由交叉项写矩阵；计算特征多项式；计数正特征值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-C-T05",
+      "source_locator": "M1-25-C-T05",
+      "task_id": "M1-25-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "判定系数与增广秩相等；由自由变量数确定仿射维数；以右端非零判不过原点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-C-T06",
+      "source_locator": "M1-25-C-T06",
+      "task_id": "M1-25-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对三矩阵乘积逐级使用秩下界；由总等号推出中间等号；用反例排除满秩断言",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-C-T07",
+      "source_locator": "M1-25-C-T07",
+      "task_id": "M1-25-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "展开组合方差；用单位圆约束控制交叉项；按相关系数符号选极值方向",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-C-T08",
+      "source_locator": "M1-25-C-T08",
+      "task_id": "M1-25-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别伯努利总和的二项分布；匹配泊松参数；累加低计数概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-C-T09",
+      "source_locator": "M1-25-C-T09",
+      "task_id": "M1-25-C-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在零假设边界构造标准化统计量；按备择方向选择上尾；还原样本均值阈值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-C-T10",
+      "source_locator": "M1-25-C-T10",
+      "task_id": "M1-25-C-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把自幂转成指数乘积；比较指数增量和对数乘积",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-F-T11",
+      "source_locator": "M1-25-F-T11",
+      "task_id": "M1-25-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "归约区间外点到基本周期；识别分段跳跃；按左右极限平均求级数点值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-F-T12",
+      "source_locator": "M1-25-F-T12",
+      "task_id": "M1-25-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算三元单项式梯度；将方向单位化；代点求点积",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-F-T13",
+      "source_locator": "M1-25-F-T13",
+      "task_id": "M1-25-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按起终点取自变量参数范围；代入曲线和微分；利用奇偶性化简",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-F-T14",
+      "source_locator": "M1-25-F-T14",
+      "task_id": "M1-25-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "说明可逆矩阵两系统均只有零解；据不同解推出奇异性；计算必要的参数关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-F-T15",
+      "source_locator": "M1-25-F-T15",
+      "task_id": "M1-25-F-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用边缘比例和并概率求合法根；计算恰一发生概率；除以至少一发生概率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-25-F-T16",
+      "source_locator": "M1-25-F-T16",
+      "task_id": "M1-25-F-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "联立偏导求驻点；逐点计算判别式；区分鞍点与极值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-A-T17",
+      "source_locator": "M1-26-A-T17",
+      "task_id": "M1-26-A-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从全微分匹配交叉偏导；按比例变量化简；识别导数相等并积分为常数关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-A-T18",
+      "source_locator": "M1-26-A-T18",
+      "task_id": "M1-26-A-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用初值定关系常数；求二阶非齐次通解并定积分常数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-A-T18",
+      "source_locator": "M1-26-A-T18",
+      "task_id": "M1-26-A-T18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按方向补弦线形成半椭圆边界；求交叉偏导差；计算面积积分并扣弦线积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-A-T19",
+      "source_locator": "M1-26-A-T19",
+      "task_id": "M1-26-A-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把全区间积分分为正负半区；由严格单调比较两段证明半区积分为正",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-A-T20",
+      "source_locator": "M1-26-A-T20",
+      "task_id": "M1-26-A-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "验证辅助函数三个零点；两次分区应用罗尔得到二阶零点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-A-T20",
+      "source_locator": "M1-26-A-T20",
+      "task_id": "M1-26-A-T20#T02",
+      "task_index": 2
+    },
+    {
+      "description": "证明前两列独立且表示其余列",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-A-T21",
+      "source_locator": "M1-26-A-T21",
+      "task_id": "M1-26-A-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将各列坐标组成秩分解系数矩阵；转化大矩阵幂为低阶乘积幂；用幂零展开计算",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-A-T21",
+      "source_locator": "M1-26-A-T21",
+      "task_id": "M1-26-A-T21#T02",
+      "task_index": 2
+    },
+    {
+      "description": "以独立生存函数乘积求首次失效密度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-A-T22",
+      "source_locator": "M1-26-A-T22",
+      "task_id": "M1-26-A-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算首次失效的均值方差；确定无偏缩放与估计方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-A-T22",
+      "source_locator": "M1-26-A-T22",
+      "task_id": "M1-26-A-T22#T02",
+      "task_index": 2
+    },
+    {
+      "description": "对给定截尾似然取对数；求参数最大似然值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-A-T22",
+      "source_locator": "M1-26-A-T22",
+      "task_id": "M1-26-A-T22#T03",
+      "task_index": 3
+    },
+    {
+      "description": "计算两个隐式偏导；按指定和差组合化简",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-C-T01",
+      "source_locator": "M1-26-C-T01",
+      "task_id": "M1-26-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分奇偶分析系数根值；求半径并还原自变量平方；检查端点项是否趋零",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-C-T02",
+      "source_locator": "M1-26-C-T02",
+      "task_id": "M1-26-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分分段单调与基点极值；用凸性比较固定端点割线；检验逆命题",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-C-T03",
+      "source_locator": "M1-26-C-T03",
+      "task_id": "M1-26-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对球面与圆锥的范围；转换径向函数和球坐标体积元；确定角度与半径界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-C-T04",
+      "source_locator": "M1-26-C-T04",
+      "task_id": "M1-26-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由置换矩阵正交性判断逆仍为置换；考虑行列式正负区分伴随矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-C-T05",
+      "source_locator": "M1-26-C-T05",
+      "task_id": "M1-26-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把向量组可表示写为列空间包含；将有解条件转为右端所属空间；推导正确蕴含",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-C-T06",
+      "source_locator": "M1-26-C-T06",
+      "task_id": "M1-26-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求含参数谱；筛选一个零值与两个等号同符号值；核对等值面存在性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-C-T07",
+      "source_locator": "M1-26-C-T07",
+      "task_id": "M1-26-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "展开平移平方期望；用均值方差改写；求最小值点与值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-C-T08",
+      "source_locator": "M1-26-C-T08",
+      "task_id": "M1-26-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由分布函数单调与端点判正尺度；识别分布等价的线性变换；匹配零均值单位方差",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-C-T09",
+      "source_locator": "M1-26-C-T09",
+      "task_id": "M1-26-C-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求两个几何分量尾概率；写条件尾比值；比较条件权重与原混合权重",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-C-T10",
+      "source_locator": "M1-26-C-T10",
+      "task_id": "M1-26-C-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按方向计算两个向量叉积；对三个对应坐标偏导相加",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-F-T11",
+      "source_locator": "M1-26-F-T11",
+      "task_id": "M1-26-F-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "通分消去倒数主项；比较分子分母二阶零点；求有限极限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-F-T12",
+      "source_locator": "M1-26-F-T12",
+      "task_id": "M1-26-F-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算参数一阶导数比；再次求导除自变量导数；代入指定参数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-F-T13",
+      "source_locator": "M1-26-F-T13",
+      "task_id": "M1-26-F-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将对数作为求导因子；核对无穷端边界；分解剩余有理式积分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-F-T14",
+      "source_locator": "M1-26-F-T14",
+      "task_id": "M1-26-F-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分别求含参特征值；确认各参数区间内的最大谱值；求严格大小不等式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-F-T15",
+      "source_locator": "M1-26-F-T15",
+      "task_id": "M1-26-F-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将乘积拆为原变量乘差及平方；利用给定独立性；用泊松矩计算",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "M1-26-F-T16",
+      "source_locator": "M1-26-F-T16",
+      "task_id": "M1-26-F-T16#T01",
+      "task_index": 1
+    }
+  ]
+}

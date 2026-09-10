@@ -1,0 +1,14 @@
+{
+  "version": "learning-runtime-v1.1.0",
+  "policy_sha256": "e4c9e8c59f81b77a784b086e3f069e4b17804bb3c26de98ea109e373acd2128f",
+  "output_sha256": {
+    "course_navigation.json": "5a498381b095de8a98f60a5f11b899b7ab20df53dab7b5430a5ea5412912a068",
+    "paper_readiness.json": "f3f44af1bc4ecff74f432aed0edceb5ef3cdffbc9ddc4063e706dc0cd73d7dc3",
+    "pending_human_issues.json": "e9786fb6abbd803cc94e4d80a28593dc9a6400f78b98b9845a5293233bb358c1",
+    "question_catalog.json": "569166559d18f6a47d9512191a1660596b111814cc6bd47e6c34c108c44a2fa3",
+    "readiness.json": "6972335d5a61b353bbf55b06ceff80c1a8a89667303d15b30688d8897773997b",
+    "source_manifest.json": "fa3efcccc0c6ba28cf0b69ad5ba4be52b2080791416ab441609c9f0eb572c80f",
+    "teacher_exposure.json": "55425ec0f37b7eca55967df848278e13cec2b99dd83c1da227ebd11d68ba11c1",
+    "七门课按需导航.md": "440154d23cc45a52125feedd08a828bd6f8bd8dfe20c3ae372a7c4dd63b122b6"
+  }
+}

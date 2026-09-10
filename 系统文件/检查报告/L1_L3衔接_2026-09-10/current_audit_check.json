@@ -1,0 +1,77 @@
+{
+  "audit_version": "post-correction-audit-v1.1.0",
+  "status": "PASS",
+  "selected_release": "系统文件/题目标注/L1_L3衔接_20260910_v1",
+  "dependent_l1_execution_allowed": true,
+  "dependent_l1_executed": true,
+  "cohorts": [
+    {
+      "cohort": "系统文件/题目标注/L1_L3衔接_20260910_v1/math1",
+      "record_count": 431,
+      "stored_field_omission_question_count": 0,
+      "source_file_hash_drift": [],
+      "question_hash_drift": [],
+      "cumulative_layer_mismatch_ids": []
+    },
+    {
+      "cohort": "系统文件/题目标注/L1_L3衔接_20260910_v1/cs408_early",
+      "record_count": 188,
+      "stored_field_omission_question_count": 0,
+      "source_file_hash_drift": [],
+      "question_hash_drift": [],
+      "cumulative_layer_mismatch_ids": []
+    },
+    {
+      "cohort": "系统文件/题目标注/L1_L3衔接_20260910_v1/cs408_late",
+      "record_count": 658,
+      "stored_field_omission_question_count": 0,
+      "source_file_hash_drift": [],
+      "question_hash_drift": [],
+      "cumulative_layer_mismatch_ids": []
+    }
+  ],
+  "counts": {
+    "actual_canonical": 8022,
+    "stored_baseline": 8022,
+    "core": 1277,
+    "score_conflict_questions": 0,
+    "semantic_choice_issues": 0,
+    "rule_scope_documentation_issues": 0,
+    "paper_total_mismatches": 0,
+    "stored_l1_changed_question_hashes": 0,
+    "ocr_suspicious_characters_remaining": 0,
+    "short_stem_candidates": 0,
+    "short_stems_confirmed_normal": 11,
+    "duplicate_candidate_groups": 33,
+    "duplicate_candidate_records": 67,
+    "core_course_only_routes": 0,
+    "core_course_only_routes_by_track": {},
+    "remaining_noncore_course_only_routes": 93
+  },
+  "missing_ids_from_current_sources": [],
+  "new_ids": [],
+  "retired_id_mapping": {
+    "merges": {
+      "WD-OS-C-2.2-T00": "WD-OS-C-2.2-T26",
+      "WD-OS-C-2.2-T27": "WD-OS-C-2.2-T26"
+    },
+    "basis": "User-corrected source merges, not newly deleted records"
+  },
+  "score_conflicts": [],
+  "semantic_findings": [],
+  "rule_scope_notes": [],
+  "paper_total_mismatches": [],
+  "current_release_check": {
+    "status": "PASS",
+    "errors": [],
+    "question_count": 8022,
+    "core_count": 1277,
+    "paper_count": 37,
+    "all_papers_150": true,
+    "scope_resolutions": 123,
+    "input_file_count": 838
+  },
+  "limits": [
+    "Current hashes, cumulative fields and L3 replay are verified; no official-answer or learner certification is inferred."
+  ]
+}

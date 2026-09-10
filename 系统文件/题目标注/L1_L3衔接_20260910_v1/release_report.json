@@ -1,0 +1,170 @@
+{
+  "status": "PASS",
+  "version": "l1-from-l3-v1.0.0",
+  "generated_at": "2026-09-09T16:13:22.084530+00:00",
+  "question_count": 8022,
+  "core_count": 1277,
+  "paper_count": 37,
+  "all_papers_150": true,
+  "L2_main_reconciled": 1277,
+  "scope_resolved": 123,
+  "multi_scope_resolved": 24,
+  "remaining_course_only_scope": 93,
+  "remaining_core_course_only_scope": 0,
+  "duplicate_groups_reviewed": 33,
+  "duplicate_records_reviewed": 67,
+  "short_stems_closed": 11,
+  "changed_source_questions": 114,
+  "retired_fragment_ids": [
+    "WD-OS-C-2.2-T00",
+    "WD-OS-C-2.2-T27"
+  ],
+  "partial_scoring_normalized": [
+    "408-12-A-T43",
+    "408-14-A-T47",
+    "408-26-A-T41",
+    "408-26-A-T44"
+  ],
+  "canonical_baseline_repairs": [
+    {
+      "source_id": "WANGDAO_408",
+      "before": 2897,
+      "after": 2895,
+      "basis": "User-confirmed fragment merge and existing corrected expected_record_count"
+    }
+  ],
+  "preflight_validations": [
+    {
+      "status": "PASS",
+      "record_count": 431,
+      "error_count": 0,
+      "errors": [],
+      "checks": [
+        "v1.1 JSON schema",
+        "431 unique canonical ids",
+        "original L0/L1 exact preservation",
+        "reviewed source hashes and local images",
+        "one explicit-total score unit per original question",
+        "all omitted fields declared",
+        "task dependency references and acyclicity",
+        "reciprocal isomorphic references distinct from duplicates",
+        "knowledge and method registry",
+        "no answer/student/role payload"
+      ],
+      "semantic_limit": "PASS证明结构、引用、来源绑定及一致性；语义标签已逐题核对，但不是原稿答案认证或人工签核。"
+    },
+    {
+      "status": "PASS",
+      "record_count": 188,
+      "error_count": 0,
+      "errors": [],
+      "checks": [
+        "v1.1 JSON schema",
+        "188 unique canonical ids in 2009–2012",
+        "original L0/L1 exact preservation",
+        "reviewed source hashes and local images",
+        "explicit partitions equal raw totals and cover observable steps",
+        "partial and conditional scores cannot be added twice",
+        "source total conflict remains unresolved",
+        "all omitted fields declared with reviewed reasons",
+        "task dependency references and acyclicity",
+        "reciprocal isomorphic references distinct from duplicates",
+        "knowledge and method registry",
+        "no answer/student/role payload"
+      ],
+      "semantic_limit": "PASS证明结构、引用、来源绑定及一致性；语义标签已逐题核对，但不是原稿答案认证或人工签核。"
+    },
+    {
+      "status": "PASS",
+      "record_count": 658,
+      "error_count": 0,
+      "errors": [],
+      "checks": [
+        "v1.1 JSON schema",
+        "658 unique canonical ids in 2013–2026",
+        "original L0/L1 exact preservation",
+        "reviewed source hashes and local images",
+        "explicit partitions equal raw totals and cover observable steps",
+        "partial and conditional scores cannot be added twice",
+        "source total conflict remains unresolved",
+        "all omitted fields declared with reviewed reasons",
+        "task dependency references and acyclicity",
+        "reciprocal isomorphic references distinct from duplicates",
+        "knowledge and method registry",
+        "no answer/student/role payload"
+      ],
+      "semantic_limit": "PASS证明结构、引用、来源绑定及一致性；语义标签已逐题核对，但不是原稿答案认证或人工签核。"
+    }
+  ],
+  "final_validations": [
+    {
+      "status": "PASS",
+      "record_count": 431,
+      "error_count": 0,
+      "errors": [],
+      "checks": [
+        "v1.1 JSON schema",
+        "431 unique canonical ids",
+        "original L0/L1 exact preservation",
+        "reviewed source hashes and local images",
+        "one explicit-total score unit per original question",
+        "all omitted fields declared",
+        "task dependency references and acyclicity",
+        "reciprocal isomorphic references distinct from duplicates",
+        "knowledge and method registry",
+        "no answer/student/role payload"
+      ],
+      "semantic_limit": "PASS证明结构、引用、来源绑定及一致性；语义标签已逐题核对，但不是原稿答案认证或人工签核。",
+      "mode": "built"
+    },
+    {
+      "status": "PASS",
+      "record_count": 188,
+      "error_count": 0,
+      "errors": [],
+      "checks": [
+        "v1.1 JSON schema",
+        "188 unique canonical ids in 2009–2012",
+        "original L0/L1 exact preservation",
+        "reviewed source hashes and local images",
+        "explicit partitions equal raw totals and cover observable steps",
+        "partial and conditional scores cannot be added twice",
+        "source total conflict remains unresolved",
+        "all omitted fields declared with reviewed reasons",
+        "task dependency references and acyclicity",
+        "reciprocal isomorphic references distinct from duplicates",
+        "knowledge and method registry",
+        "no answer/student/role payload"
+      ],
+      "semantic_limit": "PASS证明结构、引用、来源绑定及一致性；语义标签已逐题核对，但不是原稿答案认证或人工签核。",
+      "mode": "built"
+    },
+    {
+      "status": "PASS",
+      "record_count": 658,
+      "error_count": 0,
+      "errors": [],
+      "checks": [
+        "v1.1 JSON schema",
+        "658 unique canonical ids in 2013–2026",
+        "original L0/L1 exact preservation",
+        "reviewed source hashes and local images",
+        "explicit partitions equal raw totals and cover observable steps",
+        "partial and conditional scores cannot be added twice",
+        "source total conflict remains unresolved",
+        "all omitted fields declared with reviewed reasons",
+        "task dependency references and acyclicity",
+        "reciprocal isomorphic references distinct from duplicates",
+        "knowledge and method registry",
+        "no answer/student/role payload"
+      ],
+      "semantic_limit": "PASS证明结构、引用、来源绑定及一致性；语义标签已逐题核对，但不是原稿答案认证或人工签核。",
+      "mode": "built"
+    }
+  ],
+  "anchor_relocations": [],
+  "student_records_created": 0,
+  "formal_E_activated": false,
+  "canonical_knowledge_dictionary_frozen": false,
+  "no_match_duplicates_left_unknown": true
+}

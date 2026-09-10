@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-10",
+  "provenance": "current conversation: user explicitly confirmed all five reported issue classes corrected and verified, and authorized next step",
+  "scope": "source score conflicts, M1-26-C-T04 option A, two rule scopes, 37 whole-paper totals, 8022 baseline, 11 short statements",
+  "short_stem_confirmed_normal_ids": [
+    "M1-10-F-T10",
+    "M1-12-F-T10",
+    "M1-12-F-T11",
+    "ZY30-GS-05-L5.12",
+    "M2-18-F-T11",
+    "M3-21-F-T12",
+    "M3-21-F-T14",
+    "M3-23-F-T13",
+    "WD-DS-A-5.1-T01",
+    "WD-DS-A-8.4-T01",
+    "WD-CN-A-6.4-T02"
+  ],
+  "retired_id_merges": {
+    "WD-OS-C-2.2-T00": "WD-OS-C-2.2-T26",
+    "WD-OS-C-2.2-T27": "WD-OS-C-2.2-T26"
+  },
+  "semantic_L2_L3_human_signoff_inferred": false
+}

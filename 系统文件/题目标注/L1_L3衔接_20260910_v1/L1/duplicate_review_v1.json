@@ -1,0 +1,303 @@
+{
+  "groups": [
+    {
+      "fingerprint_sha256": "009a11d7d9e946e9f393e583551a0d3a0ac548b57bfd24c668b9d14960cdfe5c",
+      "question_ids": [
+        "M1-20-A-T15",
+        "M2-20-A-T17"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "4053f9dbc118890ad8f88b357b51035851c70f35f04d543a71bf4069dd14888d",
+      "question_ids": [
+        "ZY30-GS-13-L13.12",
+        "ZY30-GS-13-L13.15"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "60f092ad09d3456f82c1ea973cefc7ef4bc431ffff9e0a567a83d6ed8b05fb94",
+      "question_ids": [
+        "M1-14-A-T15",
+        "M2-14-A-T15"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "a14414f1bd069bdae09e2a5f6f30a56d13e9b5aec9bc94199185c271da2b8703",
+      "question_ids": [
+        "M2-26-A-T18",
+        "M3-26-A-T18"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "c65b83e19fcf45e21d18b5c7a8f7c36ff8bb0cadaa4c4e1b68b94a2df76624e6",
+      "question_ids": [
+        "M1-26-A-T17",
+        "M3-26-A-T19"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "57c928748731a7f63c818c423a3bf7ee91f14856947bae1a96f27da3ce367e97",
+      "question_ids": [
+        "M1-08-C-T03",
+        "M2-08-C-T03"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "7460fc520b2e0088ba93ccd4146306bad0997073be2cbb5655ff58dd15619deb",
+      "question_ids": [
+        "M1-19-C-T01",
+        "M3-19-C-T01"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "d23da1943134bd25da94a9075575140e2b7cdc8111b7e75c430a1720870f5297",
+      "question_ids": [
+        "M1-12-C-T02",
+        "M2-12-C-T02",
+        "M3-12-C-T02"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "d24ed8709a53c0a639d0adca94eb9115232d6df91ab7a58c2606c6408db74e6c",
+      "question_ids": [
+        "M2-26-C-T06",
+        "M3-26-C-T03"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "eae99fc84b62da04501f3bb58bde9a86034c85cf26615eb1e3b02882340f9d3e",
+      "question_ids": [
+        "M2-26-C-T03",
+        "M3-26-C-T02"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "f274327ecf3e8464abd374f7cf0ee5336e6dfd698341ec458ade9e0913b305a7",
+      "question_ids": [
+        "M2-21-C-T01",
+        "M3-21-C-T01"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "27620498342aaac96597b166b47fac4c0ccd25f1d03b6fb9c1a4f1f2679ac351",
+      "question_ids": [
+        "M1-11-F-T09",
+        "M2-11-F-T11"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "6831b0f0671087877aad1d8443dd218f6d0caf3b5ab5204359316a4f0368420c",
+      "question_ids": [
+        "M1-11-F-T10",
+        "M2-11-F-T10"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "92d4b7e858d594fe9fff1b4127408a7bd2ad71e38aa554ce41bbfb39423b9026",
+      "question_ids": [
+        "M2-26-F-T11",
+        "M3-26-F-T13"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "b7cfa83e4fb6ad059d6d13aa3736c5d178f459a5488c2e2c917d956f27e4eb66",
+      "question_ids": [
+        "M2-20-F-T11",
+        "M3-20-F-T09"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "beb08bead65dbe466fded77df96fb09af10b4dfb09ba7838dec4fa821ee6f3a4",
+      "question_ids": [
+        "M2-25-F-T11",
+        "M3-25-F-T12"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "cfb3e51f08ad5641d2c0c89a60b579094fa983a3736e73852c30f4ced612c595",
+      "question_ids": [
+        "M2-24-F-T12",
+        "M3-24-F-T13"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "d0fad2d79d13af622f30ff933d25f9e6bf7bcd8ced5460b62b7fb73f3ef82000",
+      "question_ids": [
+        "M1-13-F-T12",
+        "M3-13-F-T11"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "f88c2941da54b23929072effb63171946e7746ce8bcaa320fdff8f36b3a65f92",
+      "question_ids": [
+        "M2-22-F-T11",
+        "M3-22-F-T11"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "83179c82477f0f2ab848441799620c9c7e5c5caea6bbfe9318a5c0430835eee6",
+      "question_ids": [
+        "M1-11-A-T20",
+        "M2-11-A-T22"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "99db20b05429ddc8f164d4f07a30dfca4a06f6399cbc64196b19479a5c53388e",
+      "question_ids": [
+        "M1-26-A-T21",
+        "M3-26-A-T21"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "1a1672d47dd232cf5ef1da5ae890314d0b69c3bb97f484ac2f1d323d2c445ab5",
+      "question_ids": [
+        "M2-26-C-T10",
+        "M3-26-C-T07"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "4f8e29df43acac1ff08736b624415d9fa2c1e5ba06b763d37aeab8e08d1f74c9",
+      "question_ids": [
+        "M2-26-C-T09",
+        "M3-26-C-T05"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "522d201343ed954f7208c7ab801327e048d15d953b11cb5e4fa52fedb4676e7d",
+      "question_ids": [
+        "M2-18-C-T08",
+        "M3-18-C-T06"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "79295a1d29ba8dfd488a2c24233fb4ccf1961823a683d40b3201302f7cb4f560",
+      "question_ids": [
+        "M2-20-F-T14",
+        "M3-20-F-T13"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "f2959847a9fad2eeb21f9922956a78af0e60a33bd267b5096a230e4b33453d7a",
+      "question_ids": [
+        "M2-26-F-T16",
+        "M3-26-F-T15"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "8629b10b757826d0fb77f6ec86d1e26716fefa1dfe5ab6138fc5156b7e58871d",
+      "question_ids": [
+        "WD-OS-A-2.3-T29",
+        "WD-OS-A-2.4-T29"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "87e94e067c6f897bd1557751890aa61d657160c11fdfff512890343399315c7e",
+      "question_ids": [
+        "WD-OS-A-4.2-T17",
+        "WD-OS-A-4.3-T02"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "b458aaf988d2aa0a9f43ec27496171baf8d8ddc9df68d6c3f4bdebc73d338cb8",
+      "question_ids": [
+        "WD-OS-A-4.2-T16",
+        "WD-OS-A-4.3-T01"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "89c31694a67ba96323a119fb66e9c74e5e4d7816c28d051cce4558835c1d9e54",
+      "question_ids": [
+        "M1-26-A-T22",
+        "M3-26-A-T22"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "73d44746a02471d6035d19c1056f868d1cc4589cacd8fb926418c8e96918dc5e",
+      "question_ids": [
+        "M1-26-C-T10",
+        "M3-26-C-T10"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "16b027cfa12312f94b4cfec191ca57ba9268e80089907e759857bea7e2095409",
+      "question_ids": [
+        "M1-26-F-T16",
+        "M3-26-F-T16"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    },
+    {
+      "fingerprint_sha256": "897965a43d704d56f8a31bf70acb056b357e5901563c1f1fa474077fd2d6e305",
+      "question_ids": [
+        "M1-15-F-T14",
+        "M3-15-F-T14"
+      ],
+      "status": "verified",
+      "verification_scope": "identical_local_statement_options_and_image_bytes_after_whitespace_normalization"
+    }
+  ],
+  "no_match_does_not_mean_unique": true
+}

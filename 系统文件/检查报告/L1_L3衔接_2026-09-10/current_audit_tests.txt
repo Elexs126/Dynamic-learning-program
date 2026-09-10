@@ -1,0 +1,15 @@
+test_current_source_conflicts_survive_empty_omission_lists (test_post_correction_audit.CurrentRepositoryTests.test_current_source_conflicts_survive_empty_omission_lists) ... ok
+test_current_source_count_and_merged_fragment_ids (test_post_correction_audit.CurrentRepositoryTests.test_current_source_count_and_merged_fragment_ids) ... ok
+test_whole_paper_score_check_and_candidate_scope_are_separate (test_post_correction_audit.CurrentRepositoryTests.test_whole_paper_score_check_and_candidate_scope_are_separate) ... ok
+test_duplicate_ids_are_rejected (test_post_correction_audit.ScoringTests.test_duplicate_ids_are_rejected) ... ok
+test_incomplete_scoring_does_not_imply_conflicting_total (test_post_correction_audit.ScoringTests.test_incomplete_scoring_does_not_imply_conflicting_total) ... ok
+test_matching_declared_total_is_not_flagged (test_post_correction_audit.ScoringTests.test_matching_declared_total_is_not_flagged) ... ok
+test_matching_partition_is_not_flagged (test_post_correction_audit.ScoringTests.test_matching_partition_is_not_flagged) ... ok
+test_total_claim_is_distinct_from_subquestion_points (test_post_correction_audit.ScoringTests.test_total_claim_is_distinct_from_subquestion_points) ... ok
+test_two_revised_coordinate_options_agree_for_two_integrands (test_post_correction_audit.ScoringTests.test_two_revised_coordinate_options_agree_for_two_integrands) ... ok
+test_whole_mode_does_not_erase_full_partition_conflict (test_post_correction_audit.ScoringTests.test_whole_mode_does_not_erase_full_partition_conflict) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 4.850s
+
+OK

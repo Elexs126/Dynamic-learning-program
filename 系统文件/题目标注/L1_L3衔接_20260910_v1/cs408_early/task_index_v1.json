@@ -1,0 +1,1942 @@
+{
+  "description": "可靠且完整、与原总分相符的评分项才成为可累加score_units；没有完整拆分依据时保留整题单元。局部已知分项及算法条件得分在scoring_evidence_v1.json中逐项保留，非额外可累加分数。总分与分项冲突时points置null，保留双方证据。",
+  "schema_version": "cs408-task-reference-index-v1.0.0",
+  "tasks": [
+    {
+      "description": "判断给定贪心策略是否保证目标",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T41",
+      "source_locator": "408-09-A-T41",
+      "task_id": "408-09-A-T41#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造符合非负权和可达条件的反例；比较策略行为与要求以支撑结论",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T41",
+      "source_locator": "408-09-A-T41",
+      "task_id": "408-09-A-T41#T02",
+      "task_index": 2
+    },
+    {
+      "description": "描述双指针间距不变量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T42",
+      "source_locator": "408-09-A-T42",
+      "task_id": "408-09-A-T42#T01",
+      "task_index": 1
+    },
+    {
+      "description": "给出初始化推进及越界判断步骤",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T42",
+      "source_locator": "408-09-A-T42",
+      "task_id": "408-09-A-T42#T02",
+      "task_index": 2
+    },
+    {
+      "description": "实现不改链表的查找；处理失败返回与成功输出；说明时间空间开销",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T42",
+      "source_locator": "408-09-A-T42",
+      "task_id": "408-09-A-T42#T03",
+      "task_index": 3
+    },
+    {
+      "description": "计算每次中断所用时钟周期；由吞吐率和传输宽度求中断频率；计算每秒中断总周期；归一化CPU时间占比",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T43",
+      "source_locator": "408-09-A-T43",
+      "task_id": "408-09-A-T43#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算DMA块传输频率；计算DMA预后处理总周期；归一化CPU时间占比",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T43",
+      "source_locator": "408-09-A-T43",
+      "task_id": "408-09-A-T43#T02",
+      "task_index": 2
+    },
+    {
+      "description": "解析指令操作数与写回目标；按图安排逐拍数据流；列出各拍必要使能与存储器信号；检查资源冲突",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T44",
+      "source_locator": "408-09-A-T44",
+      "task_id": "408-09-A-T44#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分容量互斥和两类就绪条件；定义信号量含义与初值；安排生产和分类消费操作；避免持锁等待和遗漏资源释放",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T45",
+      "source_locator": "408-09-A-T45",
+      "task_id": "408-09-A-T45#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分解每次虚地址页号和偏移；跟踪TLB与页表状态；累计命中缺失和缺页重启时间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T46",
+      "source_locator": "408-09-A-T46",
+      "task_id": "408-09-A-T46#T01",
+      "task_index": 1
+    },
+    {
+      "description": "依据访问历史确定被换出页框；将新页框与偏移合成物理地址",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T46",
+      "source_locator": "408-09-A-T46",
+      "task_id": "408-09-A-T46#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按主机数量确定子网前缀并给出合法分配",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T47",
+      "source_locator": "408-09-A-T47",
+      "task_id": "408-09-A-T47#T01",
+      "task_index": 1
+    },
+    {
+      "description": "据拓扑填写直连主机和默认路由；核对下一跳及接口",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T47",
+      "source_locator": "408-09-A-T47",
+      "task_id": "408-09-A-T47#T02",
+      "task_index": 2
+    },
+    {
+      "description": "求共同前缀并给出可聚合路径",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-A-T47",
+      "source_locator": "408-09-A-T47",
+      "task_id": "408-09-A-T47#T03",
+      "task_index": 3
+    },
+    {
+      "description": "识别输入输出顺序保持要求；选择符合顺序的逻辑结构",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T01",
+      "source_locator": "408-09-C-T01",
+      "task_id": "408-09-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用队列保持出栈顺序；模拟合法栈操作；统计最大同时在栈元素数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T02",
+      "source_locator": "408-09-C-T02",
+      "task_id": "408-09-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在图中定位根与左右子树；将给定序列逐层匹配遍历顺序",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T03",
+      "source_locator": "408-09-C-T03",
+      "task_id": "408-09-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "检查每个非叶结点的子树高度差；排除局部不平衡的候选",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T04",
+      "source_locator": "408-09-C-T04",
+      "task_id": "408-09-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分析给定层有叶结点允许的树高；用最后层缺失结点数确定最大总量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T05",
+      "source_locator": "408-09-C-T05",
+      "task_id": "408-09-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "枚举两层父链的左右组合；转换为原森林亲缘关系；核对候选关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T06",
+      "source_locator": "408-09-C-T06",
+      "task_id": "408-09-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "应用度数和与边数关系；检查树和环等边界例子排除过强断言",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T07",
+      "source_locator": "408-09-C-T07",
+      "task_id": "408-09-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "匹配B树定义各条件；辨别仅属于B加树的叶链结构",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T08",
+      "source_locator": "408-09-C-T08",
+      "task_id": "408-09-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将新关键字放入完全树下一位置；沿父链比较交换；恢复层序序列",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T09",
+      "source_locator": "408-09-C-T09",
+      "task_id": "408-09-C-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "检查端点最终位置与有序前缀；检查归并有序段长度；排除不符中间状态的算法",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T10",
+      "source_locator": "408-09-C-T10",
+      "task_id": "408-09-C-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分取指与执行阶段；说明相同二进制存储内容的解释依据",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T11",
+      "source_locator": "408-09-C-T11",
+      "task_id": "408-09-C-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按类型字长编码整数；对短整数符号扩展；执行定长加法并核对结果符号",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T12",
+      "source_locator": "408-09-C-T12",
+      "task_id": "408-09-C-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "小阶向大阶对齐；尾数相加并规格化；检查阶码溢出",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T13",
+      "source_locator": "408-09-C-T13",
+      "task_id": "408-09-C-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由块长分解地址；计算Cache组数；对主存块号取模",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T14",
+      "source_locator": "408-09-C-T14",
+      "task_id": "408-09-C-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分别确定ROM与RAM容量；计算位扩展倍数和字扩展倍数；合成芯片数量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T15",
+      "source_locator": "408-09-C-T15",
+      "task_id": "408-09-C-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按指令字节数更新PC；叠加相对位移形成目标地址",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T16",
+      "source_locator": "408-09-C-T16",
+      "task_id": "408-09-C-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分寄存器和访存指令设计；核对指令格式与控制器实现倾向",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T17",
+      "source_locator": "408-09-C-T17",
+      "task_id": "408-09-C-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较各段延迟；确定能容纳所有段操作的时钟周期",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T18",
+      "source_locator": "408-09-C-T18",
+      "task_id": "408-09-C-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分析控制信号形成方式；比较执行速度与可修改性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T19",
+      "source_locator": "408-09-C-T19",
+      "task_id": "408-09-C-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将时钟周期数换算成事务时间；用事务字节数求带宽",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T20",
+      "source_locator": "408-09-C-T20",
+      "task_id": "408-09-C-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由缺失次数求命中次数；计算命中比例",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T21",
+      "source_locator": "408-09-C-T21",
+      "task_id": "408-09-C-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分外设请求与指令执行内部事件；识别外部中断来源",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T22",
+      "source_locator": "408-09-C-T22",
+      "task_id": "408-09-C-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别单CPU对进程的限制；分析处理机设备通道之间的独立操作",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T23",
+      "source_locator": "408-09-C-T23",
+      "task_id": "408-09-C-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较各调度算法优先依据；识别同时包含等待和执行时间的指标",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T24",
+      "source_locator": "408-09-C-T24",
+      "task_id": "408-09-C-T24#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算每进程未满足最大需求时可占资源；检查资源能否全部占尽；求可能死锁的最少进程数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T25",
+      "source_locator": "408-09-C-T25",
+      "task_id": "408-09-C-T25#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别越界访问风险；匹配界限地址保护机制",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T26",
+      "source_locator": "408-09-C-T26",
+      "task_id": "408-09-C-T26#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分解逻辑地址字段；由段内偏移位数求可寻址范围",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T27",
+      "source_locator": "408-09-C-T27",
+      "task_id": "408-09-C-T27#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较各结构随机访问能力；检查扩展是否需要连续空间；匹配双重需求",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T28",
+      "source_locator": "408-09-C-T28",
+      "task_id": "408-09-C-T28#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按磁道号划分当前位置两侧请求；按方向排序服务；再处理反向请求",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T29",
+      "source_locator": "408-09-C-T29",
+      "task_id": "408-09-C-T29#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分文件描述元数据与分配表用途；定位访问控制信息",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T30",
+      "source_locator": "408-09-C-T30",
+      "task_id": "408-09-C-T30#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分软链接独立对象与硬链接共享对象；依次更新创建删除后的计数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T31",
+      "source_locator": "408-09-C-T31",
+      "task_id": "408-09-C-T31#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别系统调用面向的设备命名层次；区分逻辑设备与物理设备号",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T32",
+      "source_locator": "408-09-C-T32",
+      "task_id": "408-09-C-T32#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分各层通信端点；定位最先提供端到端服务的层次",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T33",
+      "source_locator": "408-09-C-T33",
+      "task_id": "408-09-C-T33#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算相位和幅度组合状态数；换算每码元比特数；求数据率上限",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T34",
+      "source_locator": "408-09-C-T34",
+      "task_id": "408-09-C-T34#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别累计确认覆盖的帧范围；从首个未确认帧确定超时重传集合",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T35",
+      "source_locator": "408-09-C-T35",
+      "task_id": "408-09-C-T35#T01",
+      "task_index": 1
+    },
+    {
+      "description": "辨别帧层次与网络层地址；匹配转发决策的目的地址",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T36",
+      "source_locator": "408-09-C-T36",
+      "task_id": "408-09-C-T36#T01",
+      "task_index": 1
+    },
+    {
+      "description": "建立最小帧发送时间与争用期关系；比较帧长变化对应传播范围变化；统一单位",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T37",
+      "source_locator": "408-09-C-T37",
+      "task_id": "408-09-C-T37#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从首字节序号定位连续数据末端；确定下一期待字节编号",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T38",
+      "source_locator": "408-09-C-T38",
+      "task_id": "408-09-C-T38#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按超时事件设置状态；分阶段逐RTT更新窗口；处理到达门限时的增长切换",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T39",
+      "source_locator": "408-09-C-T39",
+      "task_id": "408-09-C-T39#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别命令传递通道；匹配其传输层协议",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-09-C-T40",
+      "source_locator": "408-09-C-T40",
+      "task_id": "408-09-C-T40#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由装载率确定表长；按序处理冲突填表",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T41",
+      "source_locator": "408-10-A-T41",
+      "task_id": "408-10-A-T41#T01",
+      "task_index": 1
+    },
+    {
+      "description": "统计每个关键字的成功比较次数；在散列原像地址范围统计失败探测；分别求平均",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T41",
+      "source_locator": "408-10-A-T41",
+      "task_id": "408-10-A-T41#T02",
+      "task_index": 2
+    },
+    {
+      "description": "用分段逆置恒等式说明算法",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T42",
+      "source_locator": "408-10-A-T42",
+      "task_id": "408-10-A-T42#T01",
+      "task_index": 1
+    },
+    {
+      "description": "实现区间翻转并组合成循环位移",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T42",
+      "source_locator": "408-10-A-T42",
+      "task_id": "408-10-A-T42#T02",
+      "task_index": 2
+    },
+    {
+      "description": "分析三段操作总时间和额外空间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T42",
+      "source_locator": "408-10-A-T42",
+      "task_id": "408-10-A-T42#T03",
+      "task_index": 3
+    },
+    {
+      "description": "依据字段宽度求指令寄存器容量与MAR",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T43",
+      "source_locator": "408-10-A-T43",
+      "task_id": "408-10-A-T43#T01",
+      "task_index": 1
+    },
+    {
+      "description": "MDR位数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T43",
+      "source_locator": "408-10-A-T43",
+      "task_id": "408-10-A-T43#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按相对寻址和地址空间分析目标范围",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T43",
+      "source_locator": "408-10-A-T43",
+      "task_id": "408-10-A-T43#T03",
+      "task_index": 3
+    },
+    {
+      "description": "编码寻址与寄存器字段；区分指针值和存储单元值；跟踪运算写回与自增状态",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T43",
+      "source_locator": "408-10-A-T43",
+      "task_id": "408-10-A-T43#T04",
+      "task_index": 4
+    },
+    {
+      "description": "分解主存地址并计算数据及标记有效位总容量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T44",
+      "source_locator": "408-10-A-T44",
+      "task_id": "408-10-A-T44#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由数组首址和下标求元素块号；计算映射行",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T44",
+      "source_locator": "408-10-A-T44",
+      "task_id": "408-10-A-T44#T02",
+      "task_index": 2
+    },
+    {
+      "description": "分别跟踪行优先列优先访问的块复用；求命中率并比较执行性能",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T44",
+      "source_locator": "408-10-A-T44",
+      "task_id": "408-10-A-T44#T03",
+      "task_index": 3
+    },
+    {
+      "description": "按每块一位论证空闲管理结构",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T45",
+      "source_locator": "408-10-A-T45",
+      "task_id": "408-10-A-T45#T01",
+      "task_index": 1
+    },
+    {
+      "description": "根据扫描顺序累计磁道移动；加旋转等待和扇区传输时间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T45",
+      "source_locator": "408-10-A-T45",
+      "task_id": "408-10-A-T45#T02",
+      "task_index": 2
+    },
+    {
+      "description": "依据Flash无机械运动比较调度收益",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T45",
+      "source_locator": "408-10-A-T45",
+      "task_id": "408-10-A-T45#T03",
+      "task_index": 3
+    },
+    {
+      "description": "由页大小取得页号和偏移",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T46",
+      "source_locator": "408-10-A-T46",
+      "task_id": "408-10-A-T46#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按装入时间选FIFO淘汰页并合成新地址",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T46",
+      "source_locator": "408-10-A-T46",
+      "task_id": "408-10-A-T46#T02",
+      "task_index": 2
+    },
+    {
+      "description": "从图示指针按访问位扫描CLOCK；更新位并选择页框；合成物理地址",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T46",
+      "source_locator": "408-10-A-T46",
+      "task_id": "408-10-A-T46#T03",
+      "task_index": 3
+    },
+    {
+      "description": "构造同时发送和最迟竞争两种时序；求双方检测冲突的时延界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T47",
+      "source_locator": "408-10-A-T47",
+      "task_id": "408-10-A-T47#T01",
+      "task_index": 1
+    },
+    {
+      "description": "累计数据帧确认帧和往返传播时间；用有效载荷除以发送周期",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-A-T47",
+      "source_locator": "408-10-A-T47",
+      "task_id": "408-10-A-T47#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按固定入栈顺序重建操作；检查连续出栈次数限制",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T01",
+      "source_locator": "408-10-C-T01",
+      "task_id": "408-10-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "逐个分析两端插入可形成的排列；用禁止内部插入的不变量排除候选",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T02",
+      "source_locator": "408-10-C-T02",
+      "task_id": "408-10-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定后序序列；区分孩子指针和空域线索；核对每条线索目标",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T03",
+      "source_locator": "408-10-C-T03",
+      "task_id": "408-10-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "沿查找路径插入；自下而上确定失衡类型；旋转后读取指定结点关系",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T04",
+      "source_locator": "408-10-C-T04",
+      "task_id": "408-10-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "对各度结点计数求总数；用边数等于结点数减一；求叶结点数量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T05",
+      "source_locator": "408-10-C-T05",
+      "task_id": "408-10-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "检查度一结点与最小权兄弟关系；区分最优带权路径和完全树要求",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T06",
+      "source_locator": "408-10-C-T06",
+      "task_id": "408-10-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造最大分量加孤立点的不连通边界；由超过该边界保证连通",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T07",
+      "source_locator": "408-10-C-T07",
+      "task_id": "408-10-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "读取图的偏序约束；逐步删除零入度顶点；枚举不同合法序列",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T08",
+      "source_locator": "408-10-C-T08",
+      "task_id": "408-10-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按中点划分构造判定树；统计最深失败路径的关键字比较次数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T09",
+      "source_locator": "408-10-C-T09",
+      "task_id": "408-10-C-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分分区形状和处理先后；检查交换处理顺序是否改变递归结构",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T10",
+      "source_locator": "408-10-C-T10",
+      "task_id": "408-10-C-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "逐趟检查最大元素移动方式；比对候选排序不变量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T11",
+      "source_locator": "408-10-C-T11",
+      "task_id": "408-10-C-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将硬件和编译优化对应性能因子；判断对执行时间的可能影响",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T12",
+      "source_locator": "408-10-C-T12",
+      "task_id": "408-10-C-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将各机器数恢复有符号真值；比较乘积与目标位宽范围",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T13",
+      "source_locator": "408-10-C-T13",
+      "task_id": "408-10-C-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "检查整数可精确转换范围；分析小数截断及宽窄转换；判断大数加小数的精度丢失",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T14",
+      "source_locator": "408-10-C-T14",
+      "task_id": "408-10-C-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定每组芯片可覆盖的地址数量；定位给定地址所属组；求组起始地址",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T15",
+      "source_locator": "408-10-C-T15",
+      "task_id": "408-10-C-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分随机存取方式和器件名称；比较掉电保持与刷新属性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T16",
+      "source_locator": "408-10-C-T16",
+      "task_id": "408-10-C-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分页表项缓存和数据缓存；根据有效TLB项推导页面驻留；排除不可能组合",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T17",
+      "source_locator": "408-10-C-T17",
+      "task_id": "408-10-C-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分析汇编指令能否间接或直接影响寄存器；区分体系结构状态与内部数据通路",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T18",
+      "source_locator": "408-10-C-T18",
+      "task_id": "408-10-C-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分类冲突来源；识别旁路作为数据相关缓解措施",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T19",
+      "source_locator": "408-10-C-T19",
+      "task_id": "408-10-C-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别各缩写的所属概念；筛选全部为总线标准的集合",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T20",
+      "source_locator": "408-10-C-T20",
+      "task_id": "408-10-C-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "排除硬件完成的关中断保存断点；安排现场保护处理恢复与返回顺序",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T21",
+      "source_locator": "408-10-C-T21",
+      "task_id": "408-10-C-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求每帧比特量和每秒刷新流量；按带宽分配比例求总量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T22",
+      "source_locator": "408-10-C-T22",
+      "task_id": "408-10-C-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "辨别应用请求内核服务的正式接口；与库函数中断机制等概念区分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T23",
+      "source_locator": "408-10-C-T23",
+      "task_id": "408-10-C-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分析登录及程序启动等事件；区分资源分配与进程创建",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T24",
+      "source_locator": "408-10-C-T24",
+      "task_id": "408-10-C-T24#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从正数值确定可用资源；区分负数值对应的等待队列含义",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T25",
+      "source_locator": "408-10-C-T25",
+      "task_id": "408-10-C-T25#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较时间片用尽与I",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T26",
+      "source_locator": "408-10-C-T26",
+      "task_id": "408-10-C-T26#T01",
+      "task_index": 1
+    },
+    {
+      "description": "O完成等事件；选择合理的降优先级时机",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T26",
+      "source_locator": "408-10-C-T26",
+      "task_id": "408-10-C-T26#T02",
+      "task_index": 2
+    },
+    {
+      "description": "识别双方竞争时最后写入的让权状态；证明至多一方进入；检查等待是否有界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T27",
+      "source_locator": "408-10-C-T27",
+      "task_id": "408-10-C-T27#T01",
+      "task_index": 1
+    },
+    {
+      "description": "模拟申请释放后的空闲块；对每次申请使用最佳适配；求最终最大空闲块",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T28",
+      "source_locator": "408-10-C-T28",
+      "task_id": "408-10-C-T28#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算每个二级页表页的映射容量；据逻辑页总量计算目录项下界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T29",
+      "source_locator": "408-10-C-T29",
+      "task_id": "408-10-C-T29#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算索引块地址项容量；逐级计算可寻址数据块数；换算文件最大字节数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T30",
+      "source_locator": "408-10-C-T30",
+      "task_id": "408-10-C-T30#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分名字解析成本与数据读写成本；说明当前目录对检索的作用",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T31",
+      "source_locator": "408-10-C-T31",
+      "task_id": "408-10-C-T31#T01",
+      "task_index": 1
+    },
+    {
+      "description": "追踪键盘中断到系统上层的传递；定位首次读取输入的处理程序",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T32",
+      "source_locator": "408-10-C-T32",
+      "task_id": "408-10-C-T32#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别体系结构规定的抽象内容；排除具体内部实现",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T33",
+      "source_locator": "408-10-C-T33",
+      "task_id": "408-10-C-T33#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按有效载荷计算分组数；从图确定最短跳数；计算源端发送与末包后续转发时间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T34",
+      "source_locator": "408-10-C-T34",
+      "task_id": "408-10-C-T34#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别邻居公告的不可达度量；判断经该邻居路由是否可用",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T35",
+      "source_locator": "408-10-C-T35",
+      "task_id": "408-10-C-T35#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将拥塞丢包事件与原题列出的控制报文功能对应",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T36",
+      "source_locator": "408-10-C-T36",
+      "task_id": "408-10-C-T36#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把掩码转换为前缀长度；计算子网位数和主机位数；扣除不可分配主机地址",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T37",
+      "source_locator": "408-10-C-T37",
+      "task_id": "408-10-C-T37#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分冲突域和广播域；比较物理链路层与网络层设备的隔离能力",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T38",
+      "source_locator": "408-10-C-T38",
+      "task_id": "408-10-C-T38#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由通告和拥塞状态确定窗口上限；更新已确认和在途数据；计算还能发送的字节量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T39",
+      "source_locator": "408-10-C-T39",
+      "task_id": "408-10-C-T39#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分递归委托和迭代转介；按题设无缓存条件统计各参与方发起查询数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-10-C-T40",
+      "source_locator": "408-10-C-T40",
+      "task_id": "408-10-C-T40#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按行长度恢复上三角邻接矩阵",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T41",
+      "source_locator": "408-11-A-T41",
+      "task_id": "408-11-A-T41#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从有限权值绘制有向边并标权",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T41",
+      "source_locator": "408-11-A-T41",
+      "task_id": "408-11-A-T41#T02",
+      "task_index": 2
+    },
+    {
+      "description": "计算事件最早和最迟时间；比较活动时差；确定关键路径及长度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T41",
+      "source_locator": "408-11-A-T41",
+      "task_id": "408-11-A-T41#T03",
+      "task_index": 3
+    },
+    {
+      "description": "描述等量排除保持目标秩的思想",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T42",
+      "source_locator": "408-11-A-T42",
+      "task_id": "408-11-A-T42#T01",
+      "task_index": 1
+    },
+    {
+      "description": "实现奇偶长度和区间端点更新；处理相等及终止条件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T42",
+      "source_locator": "408-11-A-T42",
+      "task_id": "408-11-A-T42#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按每轮缩减规模分析时间和空间复杂度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T42",
+      "source_locator": "408-11-A-T42",
+      "task_id": "408-11-A-T42#T03",
+      "task_index": 3
+    },
+    {
+      "description": "计算无符号加减机器数并截取寄存器位宽",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T43",
+      "source_locator": "408-11-A-T43",
+      "task_id": "408-11-A-T43#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将相同机器数解释为有符号真值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T43",
+      "source_locator": "408-11-A-T43",
+      "task_id": "408-11-A-T43#T02",
+      "task_index": 2
+    },
+    {
+      "description": "说明加法器与取反加一如何统一四种运算",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T43",
+      "source_locator": "408-11-A-T43",
+      "task_id": "408-11-A-T43#T03",
+      "task_index": 3
+    },
+    {
+      "description": "用符号或进位判据检查有符号溢出",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T43",
+      "source_locator": "408-11-A-T43",
+      "task_id": "408-11-A-T43#T04",
+      "task_index": 4
+    },
+    {
+      "description": "确定虚页页框及偏移位宽",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T44",
+      "source_locator": "408-11-A-T44",
+      "task_id": "408-11-A-T44#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分解物理地址为Cache标记行号块内偏移",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T44",
+      "source_locator": "408-11-A-T44",
+      "task_id": "408-11-A-T44#T02",
+      "task_index": 2
+    },
+    {
+      "description": "查询页表并形成物理地址；检查对应Cache行标记",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T44",
+      "source_locator": "408-11-A-T44",
+      "task_id": "408-11-A-T44#T03",
+      "task_index": 3
+    },
+    {
+      "description": "分解虚页号为TLB组和标记；据命中判断驻留",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T44",
+      "source_locator": "408-11-A-T44",
+      "task_id": "408-11-A-T44#T04",
+      "task_index": 4
+    },
+    {
+      "description": "定义等待容量取号互斥和服务同步条件；设置初值；安排顾客与营业员P",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T45",
+      "source_locator": "408-11-A-T45",
+      "task_id": "408-11-A-T45#T01",
+      "task_index": 1
+    },
+    {
+      "description": "V操作；核对座位释放与服务时机",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T45",
+      "source_locator": "408-11-A-T45",
+      "task_id": "408-11-A-T45#T02",
+      "task_index": 2
+    },
+    {
+      "description": "根据不可修改特征选择数据组织；列出定位所需FCB字段",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T46",
+      "source_locator": "408-11-A-T46",
+      "task_id": "408-11-A-T46#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较FCB集中与分散带来的目录检索I",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T46",
+      "source_locator": "408-11-A-T46",
+      "task_id": "408-11-A-T46#T02",
+      "task_index": 2
+    },
+    {
+      "description": "O成本",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T46",
+      "source_locator": "408-11-A-T46",
+      "task_id": "408-11-A-T46#T03",
+      "task_index": 3
+    },
+    {
+      "description": "根据帧字节偏移读取服务器IP和链路目的MAC",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T47",
+      "source_locator": "408-11-A-T47",
+      "task_id": "408-11-A-T47#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按路由目的判断ARP解析对象及请求广播范围",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T47",
+      "source_locator": "408-11-A-T47",
+      "task_id": "408-11-A-T47#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按持续非流水线对象请求顺序计算RTT",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T47",
+      "source_locator": "408-11-A-T47",
+      "task_id": "408-11-A-T47#T03",
+      "task_index": 3
+    },
+    {
+      "description": "区分转发与NAT必需修改的头字段；区分分片时才改变的字段",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-A-T47",
+      "source_locator": "408-11-A-T47",
+      "task_id": "408-11-A-T47#T04",
+      "task_index": 4
+    },
+    {
+      "description": "写出迭代后变量量级；结合退出条件反解迭代次数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T01",
+      "source_locator": "408-11-C-T01",
+      "task_id": "408-11-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由首个出栈元素确定必须已入栈的前缀；枚举剩余元素合法插入位置",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T02",
+      "source_locator": "408-11-C-T02",
+      "task_id": "408-11-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "明确front与rear指向的对象；逆推模加后的首个存储位置；保持队头初值一致",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T03",
+      "source_locator": "408-11-C-T03",
+      "task_id": "408-11-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求最后有孩子结点位置；从总结点数扣除分支结点数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T04",
+      "source_locator": "408-11-C-T04",
+      "task_id": "408-11-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用根次序判断是否存在双子树结点；逐层检查中序端点条件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T05",
+      "source_locator": "408-11-C-T05",
+      "task_id": "408-11-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把转换后的右孩子缺失对应到每组最后兄弟；计入原根结点；用总结点与叶数求数量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T06",
+      "source_locator": "408-11-C-T06",
+      "task_id": "408-11-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "根据每次左转右转更新合法范围；检测后续关键字是否越界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T07",
+      "source_locator": "408-11-C-T07",
+      "task_id": "408-11-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分回路与简单路径；比较稀疏图存储开销；联系拓扑序存在与无环性",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T08",
+      "source_locator": "408-11-C-T08",
+      "task_id": "408-11-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较装填率增大带来的冲突；判断散列函数与冲突处理的改善方向",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T09",
+      "source_locator": "408-11-C-T09",
+      "task_id": "408-11-C-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分析分区过程需要的下标访问和交换；选择适配的存储结构",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T10",
+      "source_locator": "408-11-C-T10",
+      "task_id": "408-11-C-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "定位插入位置；逐层比较父结点；统计交换与不交换的比较",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T11",
+      "source_locator": "408-11-C-T11",
+      "task_id": "408-11-C-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别各缩写统计对象；匹配浮点操作速度指标",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T12",
+      "source_locator": "408-11-C-T12",
+      "task_id": "408-11-C-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "转换真值并规格化；计算偏置阶码；省略隐含首位并组合字段",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T13",
+      "source_locator": "408-11-C-T13",
+      "task_id": "408-11-C-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较半导体器件和光盘的寻址访问特征",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T14",
+      "source_locator": "408-11-C-T14",
+      "task_id": "408-11-C-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分架构地址空间与实际芯片容量；按最大地址数求位宽",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T15",
+      "source_locator": "408-11-C-T15",
+      "task_id": "408-11-C-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别寄存器加形式地址的机制；与间接取地址区分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T16",
+      "source_locator": "408-11-C-T16",
+      "task_id": "408-11-C-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将无符号大于转换为非借位且非零条件；排除符号及溢出标志的干扰",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T17",
+      "source_locator": "408-11-C-T17",
+      "task_id": "408-11-C-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将指令特征对应译码访存和周期组织简化；判断流水实现收益",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T18",
+      "source_locator": "408-11-C-T18",
+      "task_id": "408-11-C-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对无Cache下必需取指访问；分析空操作对PC的影响；确认中断检查边界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T19",
+      "source_locator": "408-11-C-T19",
+      "task_id": "408-11-C-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别指令数据和中断类型号的承载线；将握手应答归为控制信息",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T20",
+      "source_locator": "408-11-C-T20",
+      "task_id": "408-11-C-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分响应优先级与处理优先级；屏蔽自身及低优先级；按字段次序组合屏蔽字",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T21",
+      "source_locator": "408-11-C-T21",
+      "task_id": "408-11-C-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算每秒查询消耗的周期；归一化为CPU时间占比",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T22",
+      "source_locator": "408-11-C-T22",
+      "task_id": "408-11-C-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "说明相同等待时短任务优势；分析等待增长对长任务机会的改善",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T23",
+      "source_locator": "408-11-C-T23",
+      "task_id": "408-11-C-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分用户命令接口与缺页调度中断处理；匹配执行态",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T24",
+      "source_locator": "408-11-C-T24",
+      "task_id": "408-11-C-T24#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别代码全局数据和打开文件的共享性；区分线程栈指针等执行状态",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T25",
+      "source_locator": "408-11-C-T25",
+      "task_id": "408-11-C-T25#T01",
+      "task_index": 1
+    },
+    {
+      "description": "定位用户请求内核入口；依次连接驱动下发与中断完成阶段",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T26",
+      "source_locator": "408-11-C-T26",
+      "task_id": "408-11-C-T26#T01",
+      "task_index": 1
+    },
+    {
+      "description": "读取可用已分配与尚需资源；模拟满足进程后的资源释放；判断能否完成全序列",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T27",
+      "source_locator": "408-11-C-T27",
+      "task_id": "408-11-C-T27#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别缺页可能需要的页框分配；联系磁盘调入和页表状态更新",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T28",
+      "source_locator": "408-11-C-T28",
+      "task_id": "408-11-C-T28#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别频繁换入换出的原因；判断减少驻留需求的措施",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T29",
+      "source_locator": "408-11-C-T29",
+      "task_id": "408-11-C-T29#T01",
+      "task_index": 1
+    },
+    {
+      "description": "追踪多个目标模块合并和重定位；定位完整程序逻辑空间形成阶段",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T30",
+      "source_locator": "408-11-C-T30",
+      "task_id": "408-11-C-T30#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别单缓冲重新读入的等待约束；分析双缓冲交替重叠；计入启动和最后处理尾部",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T31",
+      "source_locator": "408-11-C-T31",
+      "task_id": "408-11-C-T31#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分寄存器私有状态与共享内存；跟踪读改写交错；枚举可能的最终写入值",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T32",
+      "source_locator": "408-11-C-T32",
+      "task_id": "408-11-C-T32#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分网络层尽力交付与传输层可靠服务；识别IP数据报语义",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T33",
+      "source_locator": "408-11-C-T33",
+      "task_id": "408-11-C-T33#T01",
+      "task_index": 1
+    },
+    {
+      "description": "求每个码元可携带的比特数；用数据率还原码元速率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T34",
+      "source_locator": "408-11-C-T34",
+      "task_id": "408-11-C-T34#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分选择确认与累计确认；仅重传已超时未确认的帧",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T35",
+      "source_locator": "408-11-C-T35",
+      "task_id": "408-11-C-T35#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别正确接收后发送确认的机制；与碰撞检测型协议区分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T36",
+      "source_locator": "408-11-C-T36",
+      "task_id": "408-11-C-T36#T01",
+      "task_index": 1
+    },
+    {
+      "description": "聚合两个连续子网；求对应掩码；按拓扑选择邻接路由器地址",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T37",
+      "source_locator": "408-11-C-T37",
+      "task_id": "408-11-C-T37#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由前缀划定子网地址范围；判断目标是否广播；计算最大可接收主机数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T38",
+      "source_locator": "408-11-C-T38",
+      "task_id": "408-11-C-T38#T01",
+      "task_index": 1
+    },
+    {
+      "description": "检查连接响应的标志位；按SYN占序号规则计算确认号；区分双方独立序号空间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T39",
+      "source_locator": "408-11-C-T39",
+      "task_id": "408-11-C-T39#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由后段序号和载荷倒推缺口；确认首个尚未连续收到的字节",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-11-C-T40",
+      "source_locator": "408-11-C-T40",
+      "task_id": "408-11-C-T40#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按当前表长选择合并对象并记录新长度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T41",
+      "source_locator": "408-12-A-T41",
+      "task_id": "408-12-A-T41#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按每次合并的最坏比较成本求和",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T41",
+      "source_locator": "408-12-A-T41",
+      "task_id": "408-12-A-T41#T02",
+      "task_index": 2
+    },
+    {
+      "description": "概括不等长表的一般合并策略；说明累计成本为何降低",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T41",
+      "source_locator": "408-12-A-T41",
+      "task_id": "408-12-A-T41#T03",
+      "task_index": 3
+    },
+    {
+      "description": "描述长度差对齐后保持同距尾部的不变量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T42",
+      "source_locator": "408-12-A-T42",
+      "task_id": "408-12-A-T42#T01",
+      "task_index": 1
+    },
+    {
+      "description": "实现长度统计对齐与同步移动；处理无公共结点及终止条件",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T42",
+      "source_locator": "408-12-A-T42",
+      "task_id": "408-12-A-T42#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按遍历次数和辅助状态分析复杂度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T42",
+      "source_locator": "408-12-A-T42",
+      "task_id": "408-12-A-T42#T03",
+      "task_index": 3
+    },
+    {
+      "description": "由主频和CPI求指令执行率；换算每秒Cache缺失次数；按块大小求主存带宽",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T43",
+      "source_locator": "408-12-A-T43",
+      "task_id": "408-12-A-T43#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按条件缺页率求每秒缺页次数；按每页数据和接口宽度求DMA请求频率",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T43",
+      "source_locator": "408-12-A-T43",
+      "task_id": "408-12-A-T43#T02",
+      "task_index": 2
+    },
+    {
+      "description": "比较同时请求时的总线优先级；说明外设实时传送需求",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T43",
+      "source_locator": "408-12-A-T43",
+      "task_id": "408-12-A-T43#T03",
+      "task_index": 3
+    },
+    {
+      "description": "按交错启动间隔求持续传输带宽",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T43",
+      "source_locator": "408-12-A-T43",
+      "task_id": "408-12-A-T43#T04",
+      "task_index": 4
+    },
+    {
+      "description": "依题内指令语义区分移位补位规则；将机器数按位处理",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T44",
+      "source_locator": "408-12-A-T44",
+      "task_id": "408-12-A-T44#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计入流水线装满和排空阶段求无阻塞周期",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T44",
+      "source_locator": "408-12-A-T44",
+      "task_id": "408-12-A-T44#T02",
+      "task_index": 2
+    },
+    {
+      "description": "识别读后写依赖；联系前级停顿对后续取指的阻塞",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T44",
+      "source_locator": "408-12-A-T44",
+      "task_id": "408-12-A-T44#T03",
+      "task_index": 3
+    },
+    {
+      "description": "将表达式映射为题内指令操作；标出寄存器依赖；按禁止同拍读写安排流水表",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T44",
+      "source_locator": "408-12-A-T44",
+      "task_id": "408-12-A-T44#T04",
+      "task_index": 4
+    },
+    {
+      "description": "按初次分配顺序定位页框",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T45",
+      "source_locator": "408-12-A-T45",
+      "task_id": "408-12-A-T45#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在扫描时回收未访问页；识别原内容尚存页框的复用",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T45",
+      "source_locator": "408-12-A-T45",
+      "task_id": "408-12-A-T45#T02",
+      "task_index": 2
+    },
+    {
+      "description": "区分重访问与新页缺页；按链头规则分配页框",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T45",
+      "source_locator": "408-12-A-T45",
+      "task_id": "408-12-A-T45#T03",
+      "task_index": 3
+    },
+    {
+      "description": "分析局部性对回收页复用概率的作用",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T45",
+      "source_locator": "408-12-A-T45",
+      "task_id": "408-12-A-T45#T04",
+      "task_index": 4
+    },
+    {
+      "description": "由系统块总数求块号最少字节；计算直接索引覆盖长度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T46",
+      "source_locator": "408-12-A-T46",
+      "task_id": "408-12-A-T46#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分别计算连续区和直接索引区容量；在固定字段预算下比较可寻址范围",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T46",
+      "source_locator": "408-12-A-T46",
+      "task_id": "408-12-A-T46#T02",
+      "task_index": 2
+    },
+    {
+      "description": "读取分组源地址；用标志与序号关联握手；按IP总长判断链路填充",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T47",
+      "source_locator": "408-12-A-T47",
+      "task_id": "408-12-A-T47#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分SYN占位和应用数据序号；由累计确认差计算已收数据量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T47",
+      "source_locator": "408-12-A-T47",
+      "task_id": "408-12-A-T47#T02",
+      "task_index": 2
+    },
+    {
+      "description": "匹配前后分组标识；比较TTL变化推断转发次数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-A-T47",
+      "source_locator": "408-12-A-T47",
+      "task_id": "408-12-A-T47#T03",
+      "task_index": 3
+    },
+    {
+      "description": "识别每次调用的规模变化；统计递归层数及每层工作量",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T01",
+      "source_locator": "408-12-C-T01",
+      "task_id": "408-12-C-T01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "逐字符判断运算符入栈和弹出；处理左右括号；记录同时在栈的最大个数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T02",
+      "source_locator": "408-12-C-T02",
+      "task_id": "408-12-C-T02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "定位根结点；比较前序首子树与后序末子树边界；判断根是否只有一个孩子",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T03",
+      "source_locator": "408-12-C-T03",
+      "task_id": "408-12-C-T03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由平衡因子确定两子树高度；建立含根结点的计数递推；从初值逐层计算",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T04",
+      "source_locator": "408-12-C-T04",
+      "task_id": "408-12-C-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "统计各顶点入队次数；统计邻接边扫描量；合并两个成本项",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T05",
+      "source_locator": "408-12-C-T05",
+      "task_id": "408-12-C-T05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将矩阵非零位置转为边方向约束；判断有向环能否形成；检查偏序是否强制唯一排列",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T06",
+      "source_locator": "408-12-C-T06",
+      "task_id": "408-12-C-T06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从图读取边及权值；更新暂定距离；逐次确定最小未定顶点",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T07",
+      "source_locator": "408-12-C-T07",
+      "task_id": "408-12-C-T07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分树形和最小总代价；检查等权边成环时的必选性；比较不同构造过程可能结果",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T08",
+      "source_locator": "408-12-C-T08",
+      "task_id": "408-12-C-T08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "检查删除后是否下溢；确定兄弟可借关键字；沿父结点执行上移和下移",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T09",
+      "source_locator": "408-12-C-T09",
+      "task_id": "408-12-C-T09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "逐个检查排序一趟后的保证；区分最终位置与局部有序段",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T10",
+      "source_locator": "408-12-C-T10",
+      "task_id": "408-12-C-T10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较两种查找插入点的方式；核对移动次数趟数和空间是否改变",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T11",
+      "source_locator": "408-12-C-T11",
+      "task_id": "408-12-C-T11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分解原总时间；仅缩短题设受影响部分；重新合并总执行时间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T12",
+      "source_locator": "408-12-C-T12",
+      "task_id": "408-12-C-T12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分有符号与无符号扩展；按目标位宽补齐高位",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T13",
+      "source_locator": "408-12-C-T13",
+      "task_id": "408-12-C-T13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别有限数允许的最大阶码；确定最大尾数字段；按位权表达可表示上界",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T14",
+      "source_locator": "408-12-C-T14",
+      "task_id": "408-12-C-T14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算成员偏移及填充位置；将整型机器数拆成字节；读取指定地址内容",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T15",
+      "source_locator": "408-12-C-T15",
+      "task_id": "408-12-C-T15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分读操作与擦写操作；核对非易失性和访问方式",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T16",
+      "source_locator": "408-12-C-T16",
+      "task_id": "408-12-C-T16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "明确题内解析采用的地址分组规则；逐次检查组内命中；更新LRU状态并统计命中",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T17",
+      "source_locator": "408-12-C-T17",
+      "task_id": "408-12-C-T17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "为每组保留不发命令状态；分别求最小编码位数；累加字段长度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T18",
+      "source_locator": "408-12-C-T18",
+      "task_id": "408-12-C-T18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "计算单次传输可带数据量；计入地址阶段；按总周期数换算时间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T19",
+      "source_locator": "408-12-C-T19",
+      "task_id": "408-12-C-T19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对热插拔与扩展连接特性；区分串行传输和同时并行比特数",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T20",
+      "source_locator": "408-12-C-T20",
+      "task_id": "408-12-C-T20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "判断接口寄存器字和中断类型号的承载通路；与控制线上的时序信号区分",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T21",
+      "source_locator": "408-12-C-T21",
+      "task_id": "408-12-C-T21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别硬件关中断保存断点和引出入口；区分软件保存通用寄存器",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T22",
+      "source_locator": "408-12-C-T22",
+      "task_id": "408-12-C-T22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "辨别用户运行期间能触发的事件；将进程切换操作定位到内核执行",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T23",
+      "source_locator": "408-12-C-T23",
+      "task_id": "408-12-C-T23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对两种控制转移需要的现场；识别中断额外保护的处理器状态",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T24",
+      "source_locator": "408-12-C-T24",
+      "task_id": "408-12-C-T24#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别虚拟存储所需的按需调入单位；排除仅凭内存或外存容量决定虚存的断言",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T25",
+      "source_locator": "408-12-C-T25",
+      "task_id": "408-12-C-T25#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分用户级设备无关驱动和中断处理层；按相邻层接口连接请求流程",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T26",
+      "source_locator": "408-12-C-T26",
+      "task_id": "408-12-C-T26#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由总资源和已分配量计算可用向量；计算尚需资源；逐步检验候选安全序列",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T27",
+      "source_locator": "408-12-C-T27",
+      "task_id": "408-12-C-T27#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别read使用已打开文件的描述符；说明请求内核服务的状态切换；分析未缓存数据时的等待",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T28",
+      "source_locator": "408-12-C-T28",
+      "task_id": "408-12-C-T28#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按到达时刻安排可执行段；重叠独立CPU和I",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T29",
+      "source_locator": "408-12-C-T29",
+      "task_id": "408-12-C-T29#T01",
+      "task_index": 1
+    },
+    {
+      "description": "O阶段；检查空闲区间并求最短完成时间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T29",
+      "source_locator": "408-12-C-T29",
+      "task_id": "408-12-C-T29#T02",
+      "task_index": 2
+    },
+    {
+      "description": "逐项检查调度发生条件；避免把占用一般临界资源等同禁止调度",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T30",
+      "source_locator": "408-12-C-T30",
+      "task_id": "408-12-C-T30#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分资源分配和执行调度单位；核对同进程地址空间共享；分析用户级线程切换范围",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T31",
+      "source_locator": "408-12-C-T31",
+      "task_id": "408-12-C-T31#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分析请求重排预读滞后写和物理布局的收益；区分简单分区与访问优化",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T32",
+      "source_locator": "408-12-C-T32",
+      "task_id": "408-12-C-T32#T01",
+      "task_index": 1
+    },
+    {
+      "description": "定位ICMP报文所处的IP载荷；区分直接承载和更低层间接服务",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T33",
+      "source_locator": "408-12-C-T33",
+      "task_id": "408-12-C-T33#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将事件顺序对应接口时序要求；区分线路含义与操作过程",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T34",
+      "source_locator": "408-12-C-T34",
+      "task_id": "408-12-C-T34#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别以太网连接状态；检查接收确认和重传责任；判断服务类型",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T35",
+      "source_locator": "408-12-C-T35",
+      "task_id": "408-12-C-T35#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按原题最短帧口径求发送时间；计入等长确认发送和往返传播；将所需窗口向上取整并匹配序号空间",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T36",
+      "source_locator": "408-12-C-T36",
+      "task_id": "408-12-C-T36#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对路由协议与目的地址转发职责；分析拥塞丢弃；区分首部校验和保证不丢包",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T37",
+      "source_locator": "408-12-C-T37",
+      "task_id": "408-12-C-T37#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分网络层地址链路地址及域名；确定ARP输入输出的地址层次",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T38",
+      "source_locator": "408-12-C-T38",
+      "task_id": "408-12-C-T38#T01",
+      "task_index": 1
+    },
+    {
+      "description": "划分网络位和主机位；保留主机所在前缀；构造子网广播地址",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T39",
+      "source_locator": "408-12-C-T39",
+      "task_id": "408-12-C-T39#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别提交和服务器转发阶段；区分收件用户主动取信阶段；匹配协议",
+      "kind": "statement_or_reasoning_task_not_score_atom",
+      "question_id": "408-12-C-T40",
+      "source_locator": "408-12-C-T40",
+      "task_id": "408-12-C-T40#T01",
+      "task_index": 1
+    }
+  ]
+}
