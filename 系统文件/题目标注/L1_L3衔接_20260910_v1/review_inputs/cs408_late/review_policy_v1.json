@@ -351,7 +351,7 @@
   "empty_policy": "空次知识点和软前置表示本题任务未确认额外项目；空备选表示本地解析未提供另一明确可行机制；空依赖表示未确认直接结果调用；同构null仅表示本批658题未确认可填写匹配，不推定库外没有。",
   "extra_omissions": {},
   "field_omissions": {},
-  "generated_at": "2026-09-09T16:13:22.084530+00:00",
+  "generated_at": "2026-09-13T09:55:37.909757+00:00",
   "global_skips": [],
   "main_overrides": {},
   "out_of_scope_missing_source_note": "年份、题号、题源名称和本地定位已在L0保留；独立原始出处核验材料未提供，L0.source_reliability保持unknown，不推断原始资料可靠等级。这不是遗漏本轮L2/L3字段。",

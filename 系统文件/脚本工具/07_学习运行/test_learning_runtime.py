@@ -151,7 +151,7 @@ class IndexTests(unittest.TestCase):
 
     def test_canonical_and_core_not_double_counted(self):
         r = self.data['readiness.json']
-        self.assertEqual((r['question_count'], r['core_question_count'], r['core_paper_count']), (8024, 1277, 37))
+        self.assertEqual((r['question_count'], r['core_question_count'], r['core_paper_count']), (8022, 1277, 37))
 
     def test_human_unresolved_not_confused_with_assistant_review(self):
         r = self.data['readiness.json']

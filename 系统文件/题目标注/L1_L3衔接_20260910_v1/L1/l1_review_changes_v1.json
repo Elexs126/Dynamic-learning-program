@@ -69257,7 +69257,7 @@
     },
     {
       "question_id": "M1-11-A-T20",
-      "source_hash": "3b1a518e58e5002b693cbee0ed849ad74c08ad041fa920fe1aae7f21a3b50bfb",
+      "source_hash": "de8e7f63873b9727261ee5ce48df62e9e705a2ad31bb4afd0a020c8b38b04f0f",
       "before_l1": {
         "official_scope_coarse": "数学一 > 线性代数 > 向量",
         "label_provenance": [
@@ -69409,7 +69409,7 @@
     },
     {
       "question_id": "M1-11-A-T22",
-      "source_hash": "c7542f0759c4b60f99d3d26b0badbd96acbb2679478f8f4ca5677c17b481b329",
+      "source_hash": "d2ee40e62d1a70af1616e0a4aecfb33b4f15b2b264e417c5e20f70e934014845",
       "before_l1": {
         "official_scope_coarse": "数学一 > 概率论与数理统计 > 多维随机变量及其分布",
         "label_provenance": [
@@ -69557,7 +69557,7 @@
     },
     {
       "question_id": "M1-11-C-T01",
-      "source_hash": "f56dfd36663e7cf7eb1cc2fb8108d7907c4526f9af3b30e6094e5c360488c5b6",
+      "source_hash": "a6b44d89099012a3bb263c1c2b3b2186a461273e3c3ead616a309915b94a29a6",
       "before_l1": {
         "official_scope_coarse": "数学一 > 高等数学 > 一元函数微分学",
         "label_provenance": [

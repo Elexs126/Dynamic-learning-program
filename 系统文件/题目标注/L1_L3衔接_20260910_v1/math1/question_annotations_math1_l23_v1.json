@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T16:13:22.084530+00:00",
+  "generated_at": "2026-09-13T09:55:37.909757+00:00",
   "record_count": 431,
   "records": [
     {
@@ -13334,7 +13334,7 @@
         "original_section": "2011年全国硕士研究生招生考试数学一真题 > 解答题",
         "paper_id": "M1-2011",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "3b1a518e58e5002b693cbee0ed849ad74c08ad041fa920fe1aae7f21a3b50bfb",
+        "question_hash_sha256": "de8e7f63873b9727261ee5ce48df62e9e705a2ad31bb4afd0a020c8b38b04f0f",
         "question_number": "T20",
         "question_source": "2011年全国硕士研究生招生考试数学一真题",
         "question_type": "analytical",
@@ -13702,7 +13702,7 @@
         "original_section": "2011年全国硕士研究生招生考试数学一真题 > 解答题",
         "paper_id": "M1-2011",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "c7542f0759c4b60f99d3d26b0badbd96acbb2679478f8f4ca5677c17b481b329",
+        "question_hash_sha256": "d2ee40e62d1a70af1616e0a4aecfb33b4f15b2b264e417c5e20f70e934014845",
         "question_number": "T22",
         "question_source": "2011年全国硕士研究生招生考试数学一真题",
         "question_type": "analytical",
@@ -14094,7 +14094,7 @@
         "original_section": "2011年全国硕士研究生招生考试数学一真题 > 选择题",
         "paper_id": "M1-2011",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "f56dfd36663e7cf7eb1cc2fb8108d7907c4526f9af3b30e6094e5c360488c5b6",
+        "question_hash_sha256": "a6b44d89099012a3bb263c1c2b3b2186a461273e3c3ead616a309915b94a29a6",
         "question_number": "T01",
         "question_source": "2011年全国硕士研究生招生考试数学一真题",
         "question_type": "choice",

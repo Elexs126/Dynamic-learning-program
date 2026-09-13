@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "version": "l1-from-l3-v1.0.0",
-  "generated_at": "2026-09-09T16:13:22.084530+00:00",
+  "generated_at": "2026-09-13T09:55:37.909757+00:00",
   "question_count": 8022,
   "core_count": 1277,
   "paper_count": 37,
@@ -14,7 +14,7 @@
   "duplicate_groups_reviewed": 33,
   "duplicate_records_reviewed": 67,
   "short_stems_closed": 11,
-  "changed_source_questions": 114,
+  "changed_source_questions": 116,
   "retired_fragment_ids": [
     "WD-OS-C-2.2-T00",
     "WD-OS-C-2.2-T27"
