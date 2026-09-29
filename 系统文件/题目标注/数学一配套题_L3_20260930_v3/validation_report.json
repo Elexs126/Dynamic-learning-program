@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "1917 source-locked canonical IDs",
+    "v1.2 schema",
+    "exact per-question values/statuses bound to explicit decisions",
+    "task/edge/alternative mechanism and evidence binding",
+    "partial task omissions retain confirmed evidence",
+    "267 explained L0 corrections; literal L1 preservation",
+    "no points/answers/student-role fabrication",
+    "source and auxiliary hashes; distinct provenance; immutable snapshots"
+  ],
+  "error_count": 0,
+  "errors": [],
+  "record_count": 1917,
+  "semantic_limit": "PASS检验输出与明确复核决定及来源一致；本轮语义复核653题，继承1264题，不把结构通过当作全部题目数学正确的证明。",
+  "status": "PASS"
+}

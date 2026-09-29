@@ -1,0 +1,337 @@
+{
+  "date": "2026-09-30",
+  "base_commit": "059d48a0e99df52befb53bee0fdc6620e36d3b8b",
+  "coverage": {
+    "alternative_method_question_count": 34,
+    "by_source": {
+      "zy1000": 1041,
+      "zy30": 876
+    },
+    "dependency_count": 146,
+    "external_api_calls": 0,
+    "field_coverage": {
+      "l2.assessed_construct": {
+        "filled": 1917,
+        "verified": 1917
+      },
+      "l2.difficulty_band": {
+        "filled": 1917,
+        "verified": 1917
+      },
+      "l2.main_knowledge": {
+        "filled": 1917,
+        "verified": 1917
+      },
+      "l2.prerequisites": {
+        "filled": 1917,
+        "verified": 1917
+      },
+      "l2.primary_method": {
+        "filled": 1905,
+        "needs_review": 12,
+        "verified": 1905
+      },
+      "l2.secondary_knowledge": {
+        "filled": 1917,
+        "verified": 1917
+      },
+      "l3.alternative_methods": {
+        "filled": 1917,
+        "verified": 1917
+      },
+      "l3.evidence_steps": {
+        "filled": 1901,
+        "needs_review": 23,
+        "verified": 1894
+      },
+      "l3.inter_question_dependency": {
+        "filled": 1917,
+        "verified": 1917
+      },
+      "l3.isomorphic_relation": {
+        "filled": 1917,
+        "verified": 1917
+      },
+      "l3.score_attribution": {
+        "filled": 1917,
+        "verified": 1917
+      },
+      "l3.score_units": {
+        "filled": 1917,
+        "verified": 1917
+      }
+    },
+    "fresh_semantic_rechecks": 653,
+    "inherited_v2_decisions": 1264,
+    "integration": "活动入口应通过annotation_sources_current_v1.json的practice_release指向本版；独立check仅验证本快照，是否接入由learning_runtime校验。",
+    "isomorphic_cluster_count": 17,
+    "isomorphic_question_count": 49,
+    "l0_type_correction_count": 267,
+    "omitted_task_count": 20,
+    "partial_evidence_question_count": 7,
+    "questions_all_l2_l3_fields_verified": 1894,
+    "questions_with_omitted_fields": 23,
+    "record_count": 1917,
+    "removed_duplicate_alternative_count": 8,
+    "semantics": "没有声称本轮重新求解全部1917题；逐题语义修订覆盖上述653题，其余1264题沿用源文锁定的v2决定。",
+    "source_issue_count": 42,
+    "source_issues": [
+      {
+        "question_id": "ZY30-GS-15-X09",
+        "reason": "题干漏写常系数；本地讲义同题15.9的解析明确使用特征方程，标签据此限定为常系数口径。"
+      },
+      {
+        "question_id": "ZY30-XD-03-X08",
+        "reason": "题中只定义β1而两问写β；本轮按唯一已定义的右端向量β1定位任务，未另造一个未定义的向量。"
+      },
+      {
+        "question_id": "ZY30-GL-01-X01",
+        "reason": "现存四个事件等式选项均缺少能保证结论的条件；第四项只能推出事件A为空，不能推出题列等式。"
+      },
+      {
+        "question_id": "ZY30-GL-01-X17",
+        "reason": "原球为白球的先验概率未给出；颜色未知本身不能推出等概率。"
+      },
+      {
+        "question_id": "ZY30-GL-02-L2.15",
+        "reason": "严格单调的分布函数可能有跳跃；概率积分变换需连续或明确反函数在整个(0,1)上存在。"
+      },
+      {
+        "question_id": "ZY30-GL-03-X05",
+        "reason": "所给二维分布函数在正象限靠近原点可为负，max指数项与正参数条件不相容。"
+      },
+      {
+        "question_id": "ZY30-GL-06-L6.08",
+        "reason": "开放参数域下部分样本只有似然上确界而无最大值；按样本分支处理，不把不允许的边界值当作估计。"
+      },
+      {
+        "question_id": "ZY30-GL-06-X11",
+        "reason": "参数严格大于一，样本最大值不超过一时仅有边界上确界而没有可取得的最大似然估计；保留样本分支判断。"
+      },
+      {
+        "question_id": "ZY1000-JC-GL03-T01",
+        "reason": "现存四个选项的变换一般均含负值或负支持，不能与非负整数支持的二项分布相符；需核对选项符号。"
+      },
+      {
+        "question_id": "ZY1000-JC-GL04-T03",
+        "reason": "题干引用三幅密度图，当前题块未包含图像或链接。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS00-T05",
+        "reason": "原题分式横线在文本提取中丢失；标签按上下两行的分式排版解释，未改写原题。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS00-T16",
+        "reason": "直线参数方程的第二个系数只残留分式中的3，无法核实是否原为√3；第一问直线数值方程待核原版，单位圆及第二问伸缩变换和线性目标仍可确认。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS03-T02",
+        "reason": "选项A与B在当前文本均为同一非零条件，疑有等号OCR丢失；理论必要条件可由商法核对。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS03-T04",
+        "reason": "题设函数值与差商分子的常数在当前文本不匹配，可能有上标或常数OCR丢失。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS07-T02",
+        "reason": "本题心跳图误附在同文件上一题T01后，已通过坐标轴核对并恢复引用；A/C选项重复且缺少图示对应的增速描述。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS08-T03",
+        "reason": "选项C与D在当前文本均列为4，保留选项排版问题；图像和带符号面积足以核对相遇任务。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS09-T01",
+        "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS09-T25",
+        "reason": "题块有括号转义残片；可辨认对称积分区间及指数倒数结构，具体原式仍需排版校对。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS10-T19",
+        "reason": "横坐标范围提取为2≤x≤2，可能缺失某端点的根号；上下界退化与通常面积、体积计算含义冲突，现有本地文本不能唯一确认非退化区域，未自行补为√2。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS14-T04",
+        "reason": "当前选项中有关参数符号的表述重复，缺少与积分对称性相符的完整选项。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS14-T20",
+        "reason": "当前分母仅显示xy，按该文本在轴边界附近积分发散；可能缺少根号，根式恢复会改变敛散性，不能默认有限值。"
+      },
+      {
+        "question_id": "ZY1000-JC-GS16-T07",
+        "reason": "按现存Σa_n(1)读取，初值解给出的积分项有1/n调和主项，与题称收敛冲突；可能遗漏项的平方或二次索引，第二任务证据待核对。"
+      },
+      {
+        "question_id": "ZY1000-JC-XD04-T16",
+        "reason": "三平面位置关系依赖题干所指示意图，当前题块没有图或链接。"
+      },
+      {
+        "question_id": "ZY1000-QH-GL08-T10",
+        "reason": "所给指数项为两个平方项的乘积，该表达式在全平面不可积，不能作为题称的联合密度；可能缺少加号。"
+      },
+      {
+        "question_id": "ZY1000-QH-GL09-T24",
+        "reason": "只给总体均值方差且样本量16，不能保证正态分位数区间的精确95%覆盖率；需正态总体条件或明确近似口径。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS01-T17",
+        "reason": "按现存(x-f(x))/ln(1+x)趋于1读取，三条叙述均非题设必然结论，选项未提供零条；需核对条件或第三叙述中的常数。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS05-T01",
+        "reason": "按现存双重绝对值表达式，选项B与C均成立，单选题选项存在冲突。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS07-T03",
+        "reason": "第二问运动点坐标的分式排版残损，当前所示横纵坐标与ln曲线及给定范围不能唯一核对；仅保留第一问已确认步骤。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS08-T17",
+        "reason": "原微分形式中(1+x)、y和常数项的括号位置残损；两种读取给出不同原点行为及可积性，不能直接确认f在原点可导。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS11-T04",
+        "reason": "嵌套积分限、微分与除数t的排版交错，无法由当前式子唯一核对目标1-sin1；求解方法与证据待原式恢复。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS14-T06",
+        "reason": "被积式的分数和指数层级交错，当前文本不能唯一区分分母与幂次；区域可辨，具体方法和证据待核对。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS14-T18",
+        "reason": "现存被积式显示|xy-|，减号位置或被减项缺失，无法区分变量差与乘积减常数；具体分区和证据不能唯一确认。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS14-T40",
+        "reason": "嵌套积分的幂次、外积分系数与目标ma-nb的分式位置残损，不能唯一核对整数系数；具体方法和证据待校对。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS15-T31",
+        "reason": "二阶项后的数字2与初值π的分式断行混排，无法唯一确认方程幂次及完整初始条件；不能验证唯一特解。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS15-T39",
+        "reason": "原式含孤立分子1，倒数与乘积结构不能唯一确认；若按分式读取则初值点分母为零，不能把零解和唯一性视为已成立。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS16-T11",
+        "reason": "按现存公式，函数在所给参数序列上不趋零，与假设级数收敛相冲突；按空可行参数集处理，不补造缺失常数。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS18-T12",
+        "reason": "交线为闭曲线，给出起终点后仍有两条弧可选，当前题干未指定取哪段或绕行方向。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS18-T17",
+        "reason": "闭路条件仅约束x>0，不能确定f在负半轴的取值；第二问椭圆穿越该未确定域，整曲线积分不唯一。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS18-T22",
+        "reason": "旋转轴方程与截取平面文字发生交错，无法唯一核对所指有限曲面。"
+      },
+      {
+        "question_id": "ZY1000-QH-GS18-T24",
+        "reason": "准线给出了角向范围，但现存题干未明确母线的有限截取比例；按完整锥面为无界曲面，第二问有限通量不能唯一确认。"
+      },
+      {
+        "question_id": "ZY1000-QH-XD05-T15",
+        "reason": "选项仅列①②③④的组合，当前题块缺少各序号所指的位置关系或示意图。"
+      },
+      {
+        "question_id": "ZY1000-ZH-S01-T03",
+        "reason": "按现存积分限和被积式，积分严格位于47/240与11e/96之间，现存四个选项均不匹配；不反向修改题式以凑选项。"
+      }
+    ],
+    "task_reference_count": 2116,
+    "version": "zhangyu-practice-l3-repaired-v3.0.0"
+  },
+  "runtime_readiness": {
+    "version": "learning-runtime-v1.2.0",
+    "question_count": 8022,
+    "core_question_count": 1277,
+    "practice_l3_question_count": 1917,
+    "core_paper_count": 37,
+    "source_counts": {
+      "CS408_PAST_PAPERS": 846,
+      "CS408_CLASSIC_EXERCISES": 1071,
+      "MATH1_PAST_PAPERS": 431,
+      "MATH2_PAST_PAPERS": 431,
+      "MATH3_PAST_PAPERS": 431,
+      "WANGDAO_408": 2895,
+      "ZHANGYU_1000": 1041,
+      "ZHANGYU_BASIC_30": 876
+    },
+    "human_issue_question_count": 23,
+    "human_issue_questions_by_track": {
+      "MATH1": 23
+    },
+    "teacher_semantically_exposed_question_count": 3194,
+    "human_signoff_inferred": false,
+    "student_seen_status": "unknown_current",
+    "scope_count": 166,
+    "section_count": 479,
+    "batch_count": 208,
+    "unbatched_section_count": 12,
+    "attempt_record_count": 0,
+    "offline_summary_count": 0,
+    "learner_state": null,
+    "current_frontier": null,
+    "review_queue": null,
+    "learner_status": "awaiting_feedback",
+    "formal_E": {
+      "status": "not_established",
+      "qualified_years": null,
+      "F": null,
+      "C": null,
+      "V": null,
+      "fallback": "course_coverage_and_primary_textbook_order",
+      "requires_all_L3_verified": false
+    },
+    "extra_background_API": "paused_numeric_budget_unknown",
+    "independent_measurement": "not_activated",
+    "batch_execution_count_this_build": 0
+  },
+  "checks": {
+    "installed_v3_check.json": {
+      "status": "PASS",
+      "record_count": 1917,
+      "error_count": 0,
+      "errors": [],
+      "checks": [
+        "1917 source-locked canonical IDs",
+        "v1.2 schema",
+        "exact per-question values/statuses bound to explicit decisions",
+        "task/edge/alternative mechanism and evidence binding",
+        "partial task omissions retain confirmed evidence",
+        "267 explained L0 corrections; literal L1 preservation",
+        "no points/answers/student-role fabrication",
+        "source and auxiliary hashes; distinct provenance; immutable snapshots"
+      ],
+      "semantic_limit": "PASS检验输出与明确复核决定及来源一致；本轮语义复核653题，继承1264题，不把结构通过当作全部题目数学正确的证明。"
+    },
+    "core_release_check.json": {
+      "status": "PASS",
+      "errors": [],
+      "question_count": 8022,
+      "core_count": 1277,
+      "paper_count": 37,
+      "all_papers_150": true,
+      "scope_resolutions": 123,
+      "input_file_count": 839
+    },
+    "runtime_v3_check.json": {
+      "status": "PASS",
+      "source_file_count": 975,
+      "output_file_count": 8,
+      "errors": []
+    }
+  },
+  "regression_tests": {
+    "practice": 30,
+    "runtime": 35,
+    "status": "PASS"
+  }
+}

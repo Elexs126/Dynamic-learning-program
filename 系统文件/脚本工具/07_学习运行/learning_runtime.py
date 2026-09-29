@@ -18,7 +18,7 @@ import os
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-VERSION = 'learning-runtime-v1.1.0'
+VERSION = 'learning-runtime-v1.2.0'
 SYS = '系统文件/'
 POLICY = SYS + '系统配置/runtime_policy_v1.json'
 OFFLINE_SCHEMA = SYS + '数据规范/offline_assessment_summary.schema.json'
@@ -94,7 +94,11 @@ def jsonl(text):
     return rows
 
 
-def merge_annotations(bundles):
+def merge_annotations(bundles, type_corrections=None):
+    # Exceptions are supplied only after the selected practice release passes
+    # its source/decision/manifest check. They permit one documented L0 field.
+    corrections = unique(type_corrections or [], 'question_id')
+    used_corrections = set()
     latest, paths = {}, {}
     for i, (path, bundle) in enumerate(bundles):
         records = unique(bundle['records'], 'question_id')
@@ -104,9 +108,23 @@ def merge_annotations(bundles):
             if i:
                 if qid not in latest or paths[qid] != bundles[0][0]:
                     raise ValueError('Missing L1 or conflicting L3 snapshot: ' + qid)
-                if record['l0'] != latest[qid]['l0'] or record['l1'] != latest[qid]['l1']:
+                original_l0 = latest[qid]['l0']
+                expected_l0 = original_l0
+                if qid in corrections:
+                    c = corrections[qid]
+                    if (c['before'] != original_l0['question_type'] or c['before'] != 'analytical'
+                            or c['after'] != 'fill'
+                            or c['source_file'] != original_l0['source_file']
+                            or c['question_hash_sha256'] != original_l0['question_hash_sha256']):
+                        raise ValueError('Invalid source-bound L0 correction: ' + qid)
+                    expected_l0 = {**original_l0, 'question_type': c['after'],
+                        'review_status_by_field': {**original_l0['review_status_by_field'], 'question_type': 'verified'}}
+                    used_corrections.add(qid)
+                if record['l0'] != expected_l0 or record['l1'] != latest[qid]['l1']:
                     raise ValueError('L0/L1 changed in overlay: ' + qid)
             latest[qid], paths[qid] = record, path
+    if used_corrections != corrections.keys():
+        raise ValueError('Unused L0 corrections in selected overlays')
     return latest, paths
 
 
@@ -256,12 +274,13 @@ def build(project, policy):
         inputs[relative] = hashlib.sha256(raw).hexdigest()
         return loads(raw) if kind == 'json' else raw.decode('utf-8')
 
+    type_corrections, practice_paths = [], []
     selector_path = SYS + '系统配置/annotation_sources_current_v1.json'
     if (project / selector_path).exists():
         selector = tracked(selector_path)
         annotation_paths = selector['annotation_files']
-        if len(annotation_paths) != 4 or len(set(annotation_paths)) != 4:
-            raise ValueError('Current annotation selector requires four distinct snapshots')
+        if len(annotation_paths) not in (4, 6) or len(set(annotation_paths)) != len(annotation_paths):
+            raise ValueError('Current selector requires four core snapshots and optionally two verified practice snapshots')
         release_manifest = tracked(selector['release_manifest'])
         release_root = Path(selector['release_manifest']).parent
         for prefix, hashes in ((Path('.'), release_manifest['input_sha256']),
@@ -277,6 +296,40 @@ def build(project, policy):
         if inputs[builder_path] != release_manifest['builder_sha256']:
             raise ValueError('Current release builder changed')
         baseline = tracked(selector['canonical_sources'])
+        if len(annotation_paths) == 6:
+            release = selector['practice_release']
+            practice_paths = release['annotation_files']
+            if len(practice_paths) != 2 or practice_paths != annotation_paths[4:]:
+                raise ValueError('Practice overlay paths do not match the selected release')
+            manifest_path = release['manifest']
+            practice_manifest = tracked(manifest_path)
+            practice_root = Path(manifest_path).parent
+            review_root = Path(release['review_directory'])
+            for prefix, hashes in ((Path('.'), practice_manifest['input_sha256']),
+                                   (practice_root, practice_manifest['output_sha256']),
+                                   (review_root, practice_manifest['review_sha256'])):
+                for relative, expected in hashes.items():
+                    source_path = (prefix / relative).as_posix()
+                    current = sha(inside(project, source_path))
+                    if current != expected:
+                        raise ValueError('Selected practice source/output/review changed: ' + source_path)
+                    inputs[source_path] = current
+            practice_builder = inside(project, release['builder'])
+            inputs[release['builder']] = sha(practice_builder)
+            if inputs[release['builder']] != practice_manifest['builder_sha256']:
+                raise ValueError('Selected practice builder changed')
+            spec = importlib.util.spec_from_file_location('selected_practice_builder', practice_builder)
+            checker = importlib.util.module_from_spec(spec); spec.loader.exec_module(checker)
+            result = checker.run(project, project / practice_root, project / review_root, 'check')
+            if result['status'] != 'PASS':
+                raise ValueError('Selected practice decision/source validation failed: ' + str(result))
+            expected_practice_paths = [(practice_root / c / 'question_annotations_l3_v1.json').as_posix()
+                                       for c in ('zy30', 'zy1000')]
+            if practice_paths != expected_practice_paths:
+                raise ValueError('Practice annotation files are outside the checked snapshot')
+            type_corrections = tracked((practice_root / 'l0_type_corrections_v1.json').as_posix())['changes']
+        elif selector.get('practice_release'):
+            raise ValueError('Practice release configured without its two overlays')
     else:
         annotation_paths = ANNOTATIONS
         baseline = tracked(SYS + '系统配置/canonical_sources_v1.json')
@@ -290,7 +343,7 @@ def build(project, policy):
         path = SYS + '脚本工具/' + implementation
         inputs[path] = sha(inside(project, path))
     bundles = [(p, tracked(p)) for p in annotation_paths]
-    latest, paths = merge_annotations(bundles)
+    latest, paths = merge_annotations(bundles, type_corrections)
     if len(latest) != baseline['expected_unique_question_records']:
         raise ValueError('Canonical baseline count mismatch')
     source_counts = Counter()
@@ -333,6 +386,9 @@ def build(project, policy):
                    source_id=source_by_qid[qid]['source_id'],
                    official_scope_coarse=r['l1']['official_scope_coarse'],
                    main_knowledge=(r['l2'] or {}).get('main_knowledge'),
+                   primary_method=(r['l2'] or {}).get('primary_method'),
+                   main_knowledge_status=(r['l2'] or {}).get('review_status_by_field', {}).get('main_knowledge'),
+                   evidence_steps_status=(r['l3'] or {}).get('review_status_by_field', {}).get('evidence_steps'),
                    field_omissions=r.get('field_omissions', []))
         questions.append(row)
         if source_by_qid[qid]['eligible_for_target_prior']:
@@ -413,6 +469,7 @@ def build(project, policy):
     status = {
         'version': VERSION,
         'question_count': len(questions), 'core_question_count': sum(len(rs) for rs in core.values()),
+        'practice_l3_question_count': sum(r['annotation_file'] in practice_paths for r in questions),
         'core_paper_count': len(papers), 'source_counts': dict(source_counts),
         'human_issue_question_count': len(pending),
         'human_issue_questions_by_track': dict(Counter(r['exam_track'] for r in pending)),
@@ -454,7 +511,7 @@ def navigation_markdown(data):
                       ', '.join(s['mapped_scope_ids']) or '未映射', ', '.join(s['batch_ids']) or '无既有批次']
             lines.append('| ' + ' | '.join(v.replace('|', '\\|').replace('\n', ' ') for v in values) + ' |')
         lines.append('')
-    return '\n'.join(lines) + '\n'
+    return '\n'.join(lines).rstrip() + '\n'
 
 
 def write_build(project, output, policy):

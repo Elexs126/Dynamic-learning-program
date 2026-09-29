@@ -1,0 +1,234 @@
+[
+  {
+    "cluster_id": "ZY_ISO_SPARSE_CYCLIC_DET_01",
+    "question_ids": [
+      "ZY30-XD-01-L1.01",
+      "ZY30-XD-01-X04"
+    ],
+    "structural_invariant": "对角线及单个循环移位位置非零；展开中保留恒等排列与循环排列，并核对循环排列符号。",
+    "transfer_axis": [
+      "对角元与循环边权变化"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_HOMOGENEOUS_SECOND_ORDER_IVP_01",
+    "question_ids": [
+      "ZY30-GS-15-L15.15",
+      "ZY30-GS-15-L15.16",
+      "ZY1000-JC-GS15-T13",
+      "ZY1000-JC-GS15-T14"
+    ],
+    "structural_invariant": "二阶常系数齐次方程由特征根构造二元解空间，再把给定点的函数值和导数条件化为常数线性约束。",
+    "transfer_axis": [
+      "特征根类型变化",
+      "导数条件由极值描述给出或直接给出"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_SHIFT_TRIG_RECURRENCE_01",
+    "question_ids": [
+      "ZY30-GS-01-L1.09",
+      "ZY1000-JC-GS01-T04"
+    ],
+    "structural_invariant": "对同一含正弦附加项的平移关系连续代入，利用半周期变号消去附加项。",
+    "transfer_axis": [
+      "周期性证明与指定区间函数延拓"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_UNKNOWN_FUNCTION_CUBIC_LIMIT_01",
+    "question_ids": [
+      "ZY30-GS-01-L1.27",
+      "ZY30-GS-01-X01"
+    ],
+    "structural_invariant": "由含未知函数的三阶比值极限确定低阶抵消，再把目标二阶比值写成已知比值与显式三角展开项之和。",
+    "transfer_axis": [
+      "三角函数形式及系数变化"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_CONTRACTION_ITERATION_02",
+    "question_ids": [
+      "ZY30-GS-02-L2.15",
+      "ZY1000-JC-GS02-T08",
+      "ZY1000-JC-GS02-T09",
+      "ZY1000-QH-GS02-T11"
+    ],
+    "structural_invariant": "建立固定点误差与上一步误差的统一比例上界，迭代为几何界后推出收敛或更高阶衰减。",
+    "transfer_axis": [
+      "三角具体递推与抽象可导映射",
+      "目标由收敛变为衰减速度"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_RIEMANN_UNIT_INTERVAL_03",
+    "question_ids": [
+      "ZY30-GS-08-L8.06",
+      "ZY30-GS-09-L9.12",
+      "ZY1000-JC-GS08-T17"
+    ],
+    "structural_invariant": "把每一项归一化为区间[0,1]上等距采样值乘1/n，再由连续性识别定积分。",
+    "transfer_axis": [
+      "有理或对数被积函数",
+      "序号与大参数的组合形式"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_PARTIAL_LINEAR_DIFFERENCE_04",
+    "question_ids": [
+      "ZY30-GS-13-L13.04",
+      "ZY1000-JC-GS13-T05"
+    ],
+    "structural_invariant": "先把积分视为自变量差的单变量函数，再应用链式法则得到一二阶偏导的符号与组合。",
+    "transfer_axis": [
+      "一般连续被积函数与指数函数",
+      "偏导等式判断与组合值计算"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_INVERT_VARIABLE_LINEAR_05",
+    "question_ids": [
+      "ZY30-GS-15-L15.08",
+      "ZY1000-JC-GS15-T04",
+      "ZY1000-QH-GS15-T09"
+    ],
+    "structural_invariant": "交换因自变量后成为关于原自变量的一阶线性方程，用积分因子求解并回查初始点及除法排除情形。",
+    "transfer_axis": [
+      "线性系数的函数形式",
+      "原题微分记号与初始点"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_EULER_LOG_CHANGE_06",
+    "question_ids": [
+      "ZY30-GS-15-L15.20-M1",
+      "ZY1000-JC-GS15-T21"
+    ],
+    "structural_invariant": "在正半轴令自变量为指数，将欧拉型二阶方程转成常系数方程，再把初始导数条件换到新变量。",
+    "transfer_axis": [
+      "欧拉系数与特征根类型",
+      "通解与初值特解"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_RANK_ONE_POWERS_07",
+    "question_ids": [
+      "ZY30-XD-02-L2.01",
+      "ZY30-XD-02-X07"
+    ],
+    "structural_invariant": "将矩阵分解为列向量与行向量的外积；连续乘法只产生一个标量内积，从而归约高次幂。",
+    "transfer_axis": [
+      "抽象向量外积与具体秩一矩阵"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_BASIS_COMBINATION_DETERMINANT_08",
+    "question_ids": [
+      "ZY30-XD-03-L3.04",
+      "ZY30-XD-03-X04",
+      "ZY1000-JC-XD03-T08",
+      "ZY1000-JC-XD04-T02"
+    ],
+    "structural_invariant": "在已知线性无关向量组上写出新向量的系数矩阵，原基可逆使相关性或非零解条件等价于系数矩阵奇异。",
+    "transfer_axis": [
+      "组合系数及维数",
+      "向量无关性与齐次方程非零解"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_SUM_SQUARES_POSITIVE_09",
+    "question_ids": [
+      "ZY30-XD-06-L6.11",
+      "ZY1000-JC-XD06-T22",
+      "ZY1000-QH-XD09-T22",
+      "ZY1000-ZH-S02-T05"
+    ],
+    "structural_invariant": "平方和写成线性形式系数矩阵的Gram矩阵，正定性等价于所有线性形式同时为零时只有零向量。",
+    "transfer_axis": [
+      "参数位置与向量维数",
+      "显式平方和与内积平方和"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_IID_ORDER_STATISTIC_10",
+    "question_ids": [
+      "ZY30-GL-03-L3.11",
+      "ZY30-GL-03-X04",
+      "ZY30-GL-03-X17"
+    ],
+    "structural_invariant": "将最大值的下尾或最小值的上尾事件写成独立同分布事件的交，先得分布函数，再按需求密度。",
+    "transfer_axis": [
+      "最大值与最小值",
+      "一般分布函数与均匀分布"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_DISCRETE_CONTINUOUS_MIXTURE_11",
+    "question_ids": [
+      "ZY30-GL-03-X15",
+      "ZY1000-JC-GL03-T02",
+      "ZY1000-JC-GL03-T03",
+      "ZY1000-QH-GL04-T02"
+    ],
+    "structural_invariant": "按二值离散随机变量分组，将和或积的概率事件变为连续变量的阈值事件，再用独立性加权。",
+    "transfer_axis": [
+      "连续变量的分布",
+      "和与乘积及正负阈值"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_CLT_STANDARDIZED_SUM_12",
+    "question_ids": [
+      "ZY30-GL-05-X01",
+      "ZY1000-JC-GL05-T03"
+    ],
+    "structural_invariant": "用独立同分布求和的均值与方差对给定事件重新中心化、标准化，再匹配标准正态分布函数。",
+    "transfer_axis": [
+      "指数与均匀总体",
+      "题设预先缩放的表达式"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_NORMAL_OVER_CHISQUARE_13",
+    "question_ids": [
+      "ZY30-GL-06-L6.04",
+      "ZY30-GL-06-X03",
+      "ZY1000-JC-GL06-T01"
+    ],
+    "structural_invariant": "分子化成标准正态，分母化成独立标准正态平方和的自由度平均的平方根，核对缩放后识别t分布。",
+    "transfer_axis": [
+      "分子所含样本数",
+      "分母自由度与绝对值表示"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_UNBIASED_VARIANCE_OPTIMIZATION_14",
+    "question_ids": [
+      "ZY30-GL-06-L6.11",
+      "ZY1000-QH-GL09-T23",
+      "ZY1000-ZH-S01-T10"
+    ],
+    "structural_invariant": "先由期望约束消去线性估计量的一个权重，再在独立性给出的方差二次型上求最小值。",
+    "transfer_axis": [
+      "样本数量与方差比例",
+      "等期望与不同尺度的期望"
+    ],
+    "status": "verified"
+  }
+]

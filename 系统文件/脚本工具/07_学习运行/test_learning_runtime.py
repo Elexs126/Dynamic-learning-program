@@ -155,8 +155,9 @@ class IndexTests(unittest.TestCase):
 
     def test_human_unresolved_not_confused_with_assistant_review(self):
         r = self.data['readiness.json']
-        self.assertEqual(r['human_issue_questions_by_track'], {})
-        self.assertEqual(r['human_issue_question_count'], 0)
+        practice = r['practice_l3_question_count']
+        self.assertEqual(r['human_issue_questions_by_track'], {'MATH1': 23} if practice else {})
+        self.assertEqual(r['human_issue_question_count'], 23 if practice else 0)
         self.assertFalse(r['human_signoff_inferred'])
 
     def test_no_feedback_does_not_imply_unlearned_or_zero(self):
@@ -174,7 +175,7 @@ class IndexTests(unittest.TestCase):
 
     def test_known_teacher_exposure_does_not_assert_student_exposure(self):
         rows = self.data['teacher_exposure.json']['records']
-        self.assertEqual(len(rows), 1277)
+        self.assertEqual(len(rows), 1277 + self.data['readiness.json']['practice_l3_question_count'])
         self.assertTrue(all(r['student_seen_status'] == 'unknown_current' and
                             not r['hidden_measurement_eligible'] for r in rows))
 
@@ -204,6 +205,70 @@ class IndexTests(unittest.TestCase):
 
     def test_path_escape_rejected(self):
         with self.assertRaises(ValueError): lr.inside(PROJECT, '../outside')
+
+    def test_selected_practice_labels_and_partial_omissions_are_visible(self):
+        selected = lr.read(PROJECT / '系统文件/系统配置/annotation_sources_current_v1.json')
+        if not selected.get('practice_release'):
+            self.assertEqual(self.data['readiness.json']['practice_l3_question_count'], 0)
+            return
+        self.assertEqual(self.data['readiness.json']['practice_l3_question_count'], 1917)
+        rows = {r['question_id']: r for r in self.data['question_catalog.json']['records']}
+        swap = rows['ZY30-XD-06-L6.09']
+        self.assertIn('置换矩阵', swap['primary_method']['name'])
+        partial = rows['ZY1000-JC-GS16-T07']
+        self.assertEqual(partial['evidence_steps_status'], 'needs_review')
+        self.assertIn('l3.evidence_steps.U02', [o['field_path'] for o in partial['field_omissions']])
+        pending = {r['question_id'] for r in self.data['pending_human_issues.json']['records']}
+        self.assertIn('ZY1000-QH-GL09-T24', pending)
+
+
+class PracticeOverlayTests(unittest.TestCase):
+    def fixtures(self):
+        q = 'ZY30-TEST'
+        old = {'question_id': q, 'l0': {'question_type': 'analytical',
+               'review_status_by_field': {'question_type': 'candidate'},
+               'source_file': '配套习题/张宇基础30讲/test.md',
+               'question_hash_sha256': 'a' * 64, 'original_points': None}, 'l1': {'preserved': True}}
+        new = copy.deepcopy(old)
+        new['l0']['question_type'] = 'fill'
+        new['l0']['review_status_by_field']['question_type'] = 'verified'
+        correction = {'question_id': q, 'before': 'analytical', 'after': 'fill',
+                      'source_file': old['l0']['source_file'], 'question_hash_sha256': 'a' * 64}
+        return [('l1', {'record_count': 1, 'records': [old]}),
+                ('practice', {'record_count': 1, 'records': [new]})], correction
+
+    def test_logged_type_correction_preserves_other_fields(self):
+        bundles, correction = self.fixtures()
+        rows, paths = lr.merge_annotations(bundles, [correction])
+        self.assertEqual(rows['ZY30-TEST']['l0']['question_type'], 'fill')
+        self.assertEqual(paths['ZY30-TEST'], 'practice')
+        self.assertEqual(rows['ZY30-TEST']['l1'], bundles[0][1]['records'][0]['l1'])
+
+    def test_unlogged_type_change_is_rejected(self):
+        bundles, _ = self.fixtures()
+        with self.assertRaisesRegex(ValueError, 'L0/L1 changed'): lr.merge_annotations(bundles)
+
+    def test_type_exception_cannot_modify_points_or_l1(self):
+        bundles, correction = self.fixtures()
+        for layer, field in [('l0', 'original_points'), ('l1', 'preserved')]:
+            changed = copy.deepcopy(bundles); changed[1][1]['records'][0][layer][field] = 'changed'
+            with self.assertRaisesRegex(ValueError, 'L0/L1 changed'): lr.merge_annotations(changed, [correction])
+
+    def test_type_exception_is_bound_to_source_and_allowed_transition(self):
+        bundles, correction = self.fixtures()
+        for field, value in [('source_file', 'other.md'), ('question_hash_sha256', 'b' * 64),
+                             ('before', 'choice'), ('after', 'analytical')]:
+            changed = {**correction, field: value}
+            with self.assertRaisesRegex(ValueError, 'source-bound L0 correction'): lr.merge_annotations(bundles, [changed])
+
+    def test_unused_or_duplicate_type_correction_is_rejected(self):
+        bundles, correction = self.fixtures()
+        with self.assertRaisesRegex(ValueError, 'Unused L0'): lr.merge_annotations(bundles[:1], [correction])
+        with self.assertRaisesRegex(ValueError, 'Duplicate question_id'): lr.merge_annotations(bundles, [correction, correction])
+
+    def test_overlapping_practice_overlays_are_rejected(self):
+        bundles, correction = self.fixtures()
+        with self.assertRaisesRegex(ValueError, 'conflicting L3'): lr.merge_annotations(bundles + [('other', bundles[1][1])], [correction])
 
 
 if __name__ == '__main__':

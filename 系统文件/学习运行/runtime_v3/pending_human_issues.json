@@ -1,0 +1,854 @@
+{
+  "version": "learning-runtime-v1.2.0",
+  "records": [
+    {
+      "exam_track": "MATH1",
+      "subject_area": "probability",
+      "paper_id": "SOURCE-ZHANGYU_1000-85d2244d4ba96241",
+      "year": "not_applicable",
+      "question_number": "T03",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/01_基础篇/概率论与数理统计/第04章_随机变量的数字特征.md",
+      "source_locator": "ZY1000-JC-GL04-T03",
+      "question_hash_sha256": "021dcf14bac47bafb9ac2c6528935c3d522d8f54157d53c0c563c06c982d5a01",
+      "question_id": "ZY1000-JC-GL04-T03",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 概率论与数理统计 > 随机变量的数字特征",
+      "main_knowledge": {
+        "id": "M1_K_8569cd2d4ca3e179",
+        "name": "方差与协方差"
+      },
+      "primary_method": {
+        "id": "M1_METHOD_90165893af9c6daf",
+        "name": "中心矩或二阶矩关系"
+      },
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "题干引用三幅密度图，当前题块未包含图像或链接。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-8ce5273cb2b80013",
+      "year": "not_applicable",
+      "question_number": "T16",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/01_基础篇/第00章_零基础.md",
+      "source_locator": "ZY1000-JC-GS00-T16",
+      "question_hash_sha256": "80fe5f123e4b4faf639c83091affbc5d41e6216bd20d43893dde3e8f958fd50e",
+      "question_id": "ZY1000-JC-GS00-T16",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学",
+      "main_knowledge": {
+        "id": "M1_K_c3d5edd8fdcd5308",
+        "name": "平面曲线方程与坐标变换"
+      },
+      "primary_method": {
+        "id": "M1_METHOD_12a20b0137b01e4d",
+        "name": "消去参数并执行坐标伸缩"
+      },
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps.U01",
+          "reason": "直线参数方程的第二个系数只残留分式中的3，无法核实是否原为√3；第一问直线数值方程待核原版，单位圆及第二问伸缩变换和线性目标仍可确认。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-f01498a96d3ca779",
+      "year": "not_applicable",
+      "question_number": "T04",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/01_基础篇/第03章_一元函数微分学的概念.md",
+      "source_locator": "ZY1000-JC-GS03-T04",
+      "question_hash_sha256": "55b8dab1a764af7a8dac196b0a6976becaaef9c7caffd6e5aab2d0346eacae77",
+      "question_id": "ZY1000-JC-GS03-T04",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 一元函数微分学",
+      "main_knowledge": {
+        "id": "M1_K_397ef5f897f4950f",
+        "name": "导数定义与可导性"
+      },
+      "primary_method": {
+        "id": "M1_METHOD_4b2554257f3fb0af",
+        "name": "将差商化为导数定义"
+      },
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "题设函数值与差商分子的常数在当前文本不匹配，可能有上标或常数OCR丢失。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-a05ab70202f958a8",
+      "year": "not_applicable",
+      "question_number": "T01",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/01_基础篇/第09章_一元函数积分学的计算.md",
+      "source_locator": "ZY1000-JC-GS09-T01",
+      "question_hash_sha256": "acd7e1101df46dd96f03f22dbec38d26010bbbc9fa14696b81a6bb1bc580fc8e",
+      "question_id": "ZY1000-JC-GS09-T01",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 一元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_9a368266ea129465",
+        "name": "多种被积函数的不定积分"
+      },
+      "primary_method": {
+        "id": "M1_METHOD_2f1401ba287a7e89",
+        "name": "按各被积函数分别作有理分解、换元或分部积分"
+      },
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps.U01",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U02",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U04",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U08",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U09",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U10",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U11",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U12",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U13",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U14",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U15",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U16",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U17",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps.U18",
+          "reason": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-23835a17e27301ac",
+      "year": "not_applicable",
+      "question_number": "T19",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/01_基础篇/第10章_一元函数积分学的几何应用.md",
+      "source_locator": "ZY1000-JC-GS10-T19",
+      "question_hash_sha256": "8f0a21035611175ebc399d39661fc0c111779a2c400121baf20f8341ad19f789",
+      "question_id": "ZY1000-JC-GS10-T19",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 一元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_e0597af0118f61ff",
+        "name": "平面区域面积与旋转体体积"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "横坐标范围提取为2≤x≤2，可能缺失某端点的根号；上下界退化与通常面积、体积计算含义冲突，现有本地文本不能唯一确认非退化区域，未自行补为√2。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "横坐标范围提取为2≤x≤2，可能缺失某端点的根号；上下界退化与通常面积、体积计算含义冲突，现有本地文本不能唯一确认非退化区域，未自行补为√2。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-bebfe13a726c79c5",
+      "year": "not_applicable",
+      "question_number": "T07",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/01_基础篇/第16章_无穷级数.md",
+      "source_locator": "ZY1000-JC-GS16-T07",
+      "question_hash_sha256": "baf462423eb5b54d86ce7356a66e3c292c7cfdbc31ea4f60e98df668afe4ccfb",
+      "question_id": "ZY1000-JC-GS16-T07",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 无穷级数",
+      "main_knowledge": {
+        "id": "M1_K_7faffa4a7cc6a5d1",
+        "name": "数项级数敛散性"
+      },
+      "primary_method": {
+        "id": "M1_METHOD_075da0bcc690d93d",
+        "name": "解初值方程后核对积分项的阶次与级数排版"
+      },
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps.U02",
+          "reason": "按现存Σa_n(1)读取，初值解给出的积分项有1/n调和主项，与题称收敛冲突；可能遗漏项的平方或二次索引，第二任务证据待核对。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "linear_algebra",
+      "paper_id": "SOURCE-ZHANGYU_1000-949c11c3f0da3881",
+      "year": "not_applicable",
+      "question_number": "T16",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md",
+      "source_locator": "ZY1000-JC-XD04-T16",
+      "question_hash_sha256": "b46964103adbbe8e85701b0cc2373074ffec210ad16cbaef1cb6c7bf22167b6c",
+      "question_id": "ZY1000-JC-XD04-T16",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 线性代数 > 线性方程组",
+      "main_knowledge": {
+        "id": "M1_K_53b9c6e9bf1169ab",
+        "name": "线性方程组的解与参数"
+      },
+      "primary_method": {
+        "id": "M1_METHOD_f19a3cffd03839ff",
+        "name": "比较系数矩阵与增广矩阵的秩"
+      },
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "三平面位置关系依赖题干所指示意图，当前题块没有图或链接。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "probability",
+      "paper_id": "SOURCE-ZHANGYU_1000-0a4b9eae0c606c23",
+      "year": "not_applicable",
+      "question_number": "T10",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第08章_统计量及其分布.md",
+      "source_locator": "ZY1000-QH-GL08-T10",
+      "question_hash_sha256": "801d872feae56d7cedb121db9c6904f7589e04e0bb9745c745c13e93f312e9c0",
+      "question_id": "ZY1000-QH-GL08-T10",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 概率论与数理统计 > 数理统计的基本概念",
+      "main_knowledge": {
+        "id": "M1_K_5fb2e5ccae4c3c96",
+        "name": "由联合分布构造统计量的分布"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "所给指数项为两个平方项的乘积，该表达式在全平面不可积，不能作为题称的联合密度；可能缺少加号。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "所给指数项为两个平方项的乘积，该表达式在全平面不可积，不能作为题称的联合密度；可能缺少加号。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "probability",
+      "paper_id": "SOURCE-ZHANGYU_1000-e9c925f7b63d9471",
+      "year": "not_applicable",
+      "question_number": "T24",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第09章_参数估计与假设检验.md",
+      "source_locator": "ZY1000-QH-GL09-T24",
+      "question_hash_sha256": "dc230cac5fd47e9b42feb690c447c0f3043824777e809ae2898fb8512b7b5649",
+      "question_id": "ZY1000-QH-GL09-T24",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 概率论与数理统计",
+      "main_knowledge": {
+        "id": "M1_K_1f4c5a343bb9cf6a",
+        "name": "参数置信区间"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "只给总体均值方差且样本量16，不能保证正态分位数区间的精确95%覆盖率；需正态总体条件或明确近似口径。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "只给总体均值方差且样本量16，不能保证正态分位数区间的精确95%覆盖率；需正态总体条件或明确近似口径。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-ae4c026c59b1bc74",
+      "year": "not_applicable",
+      "question_number": "T03",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第07章_一元函数微分学的物理应用.md",
+      "source_locator": "ZY1000-QH-GS07-T03",
+      "question_hash_sha256": "18ec394bdcd2833421e27a490f7d07ef64d37ee761ac93e00dc560a2c52027bf",
+      "question_id": "ZY1000-QH-GS07-T03",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 一元函数微分学",
+      "main_knowledge": {
+        "id": "M1_K_5899386298ddf0c8",
+        "name": "相关变化率"
+      },
+      "primary_method": {
+        "id": "M1_METHOD_bd19ab64cb541ed0",
+        "name": "切点参数的面积函数及相关变化率"
+      },
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps.U02",
+          "reason": "第二问运动点坐标的分式排版残损，当前所示横纵坐标与ln曲线及给定范围不能唯一核对；仅保留第一问已确认步骤。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-8122bfaf650b90f0",
+      "year": "not_applicable",
+      "question_number": "T17",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第08章_一元函数积分学的概念与性质.md",
+      "source_locator": "ZY1000-QH-GS08-T17",
+      "question_hash_sha256": "f3b53b02a3c64e277e66d4e3442fe8f39ab66e85929ebcd8420f03a83f66ee3c",
+      "question_id": "ZY1000-QH-GS08-T17",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 一元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_4d9361442a202bd1",
+        "name": "一阶线性微分方程"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "原微分形式中(1+x)、y和常数项的括号位置残损；两种读取给出不同原点行为及可积性，不能直接确认f在原点可导。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "原微分形式中(1+x)、y和常数项的括号位置残损；两种读取给出不同原点行为及可积性，不能直接确认f在原点可导。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-409c7546185a4717",
+      "year": "not_applicable",
+      "question_number": "T04",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第11章_一元函数积分学的积分等式与积分不等式.md",
+      "source_locator": "ZY1000-QH-GS11-T04",
+      "question_hash_sha256": "749780b47dd3439edaecfbdd854c19d6fa96f052baa640036166f578af4f7247",
+      "question_id": "ZY1000-QH-GS11-T04",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 一元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_385983a08f423094",
+        "name": "定积分计算"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "嵌套积分限、微分与除数t的排版交错，无法由当前式子唯一核对目标1-sin1；求解方法与证据待原式恢复。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "嵌套积分限、微分与除数t的排版交错，无法由当前式子唯一核对目标1-sin1；求解方法与证据待原式恢复。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-41bca5e65c291860",
+      "year": "not_applicable",
+      "question_number": "T06",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第14章_二重积分.md",
+      "source_locator": "ZY1000-QH-GS14-T06",
+      "question_hash_sha256": "39843657f4045256a64eb4fca562f26c5adf9abc2de622ae97975d75e71dc8a5",
+      "question_id": "ZY1000-QH-GS14-T06",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 多元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_9883511369af7d7f",
+        "name": "二重积分计算"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "被积式的分数和指数层级交错，当前文本不能唯一区分分母与幂次；区域可辨，具体方法和证据待核对。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "被积式的分数和指数层级交错，当前文本不能唯一区分分母与幂次；区域可辨，具体方法和证据待核对。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-41bca5e65c291860",
+      "year": "not_applicable",
+      "question_number": "T18",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第14章_二重积分.md",
+      "source_locator": "ZY1000-QH-GS14-T18",
+      "question_hash_sha256": "6fc26f45fa4c5c77d727d13ae6f7a6dc57b0644c8fa7a5a415d2dc2e78b0f69a",
+      "question_id": "ZY1000-QH-GS14-T18",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 多元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_9883511369af7d7f",
+        "name": "二重积分计算"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "现存被积式显示|xy-|，减号位置或被减项缺失，无法区分变量差与乘积减常数；具体分区和证据不能唯一确认。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "现存被积式显示|xy-|，减号位置或被减项缺失，无法区分变量差与乘积减常数；具体分区和证据不能唯一确认。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-41bca5e65c291860",
+      "year": "not_applicable",
+      "question_number": "T40",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第14章_二重积分.md",
+      "source_locator": "ZY1000-QH-GS14-T40",
+      "question_hash_sha256": "fd8c52b1b7e9776bfa76ff605fd6c3f749c955541d9b175d0d08302dccbdaa11",
+      "question_id": "ZY1000-QH-GS14-T40",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 多元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_4826ffca6d35a08c",
+        "name": "嵌套高斯积分的系数归约"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "嵌套积分的幂次、外积分系数与目标ma-nb的分式位置残损，不能唯一核对整数系数；具体方法和证据待校对。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "嵌套积分的幂次、外积分系数与目标ma-nb的分式位置残损，不能唯一核对整数系数；具体方法和证据待校对。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-beb90d60d34c504c",
+      "year": "not_applicable",
+      "question_number": "T31",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第15章_微分方程.md",
+      "source_locator": "ZY1000-QH-GS15-T31",
+      "question_hash_sha256": "92186adc6c0222b79021c5e3494463741413cbeafa27a64ba0f85278d270e9a0",
+      "question_id": "ZY1000-QH-GS15-T31",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 常微分方程",
+      "main_knowledge": {
+        "id": "M1_K_228f71e6b787782e",
+        "name": "对数变量代换的二阶微分方程"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "二阶项后的数字2与初值π的分式断行混排，无法唯一确认方程幂次及完整初始条件；不能验证唯一特解。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "二阶项后的数字2与初值π的分式断行混排，无法唯一确认方程幂次及完整初始条件；不能验证唯一特解。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-beb90d60d34c504c",
+      "year": "not_applicable",
+      "question_number": "T39",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第15章_微分方程.md",
+      "source_locator": "ZY1000-QH-GS15-T39",
+      "question_hash_sha256": "9566bbbb884593c3581d70e805e2962d0aa9e8d033323f5aaa0321b8a548d35d",
+      "question_id": "ZY1000-QH-GS15-T39",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 常微分方程",
+      "main_knowledge": {
+        "id": "M1_K_46cdf17b666e39f6",
+        "name": "微分方程初值点的定义域与唯一性条件"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "原式含孤立分子1，倒数与乘积结构不能唯一确认；若按分式读取则初值点分母为零，不能把零解和唯一性视为已成立。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "原式含孤立分子1，倒数与乘积结构不能唯一确认；若按分式读取则初值点分母为零，不能把零解和唯一性视为已成立。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-478aa159fbb636e4",
+      "year": "not_applicable",
+      "question_number": "T12",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第18章_多元函数积分学.md",
+      "source_locator": "ZY1000-QH-GS18-T12",
+      "question_hash_sha256": "8ff262a7ebf78ae992a043fa6b16354141202868ecf7951ada43c2a5bb9d1b3a",
+      "question_id": "ZY1000-QH-GS18-T12",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 多元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_b33c541469187bdd",
+        "name": "曲线积分"
+      },
+      "primary_method": {
+        "id": "M1_METHOD_6dcf628651bc0e76",
+        "name": "参数化或选用相应积分定理"
+      },
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "交线为闭曲线，给出起终点后仍有两条弧可选，当前题干未指定取哪段或绕行方向。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-478aa159fbb636e4",
+      "year": "not_applicable",
+      "question_number": "T17",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第18章_多元函数积分学.md",
+      "source_locator": "ZY1000-QH-GS18-T17",
+      "question_hash_sha256": "6ae75979c97bfb1bbd13b5b6aeebdb1ffe1b08f6847a50d79590effe4389c7eb",
+      "question_id": "ZY1000-QH-GS18-T17",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 多元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_67a42b021a564821",
+        "name": "局部闭路条件与跨域曲线积分"
+      },
+      "primary_method": {
+        "conditions": "闭路条件只在x>0区域确定函数；第二问越过该区域的部分证据缺失，见U02。",
+        "id": "M1_METHOD_abc33d08a7a2989b",
+        "name": "右半平面保守条件及整曲线定义域核对"
+      },
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps.U02",
+          "reason": "闭路条件仅约束x>0，不能确定f在负半轴的取值；第二问椭圆穿越该未确定域，整曲线积分不唯一。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-478aa159fbb636e4",
+      "year": "not_applicable",
+      "question_number": "T22",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第18章_多元函数积分学.md",
+      "source_locator": "ZY1000-QH-GS18-T22",
+      "question_hash_sha256": "85787d07840798b01559b62e441031d2fdc86bb5362bd963fe938fab86b2c7bb",
+      "question_id": "ZY1000-QH-GS18-T22",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 多元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_afb6686c6775aba5",
+        "name": "曲面积分"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "旋转轴方程与截取平面文字发生交错，无法唯一核对所指有限曲面。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "旋转轴方程与截取平面文字发生交错，无法唯一核对所指有限曲面。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "calculus",
+      "paper_id": "SOURCE-ZHANGYU_1000-478aa159fbb636e4",
+      "year": "not_applicable",
+      "question_number": "T24",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/第18章_多元函数积分学.md",
+      "source_locator": "ZY1000-QH-GS18-T24",
+      "question_hash_sha256": "6aa1b9064b948f5c8ef634669b134fa95b25382bad44bccc870b09e1cc80e371",
+      "question_id": "ZY1000-QH-GS18-T24",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 高等数学 > 多元函数积分学",
+      "main_knowledge": {
+        "id": "M1_K_afb6686c6775aba5",
+        "name": "曲面积分"
+      },
+      "primary_method": {
+        "id": "M1_METHOD_64b0cd1f13bb0110",
+        "name": "锥面母线参数化与上侧通量"
+      },
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps.U02",
+          "reason": "准线给出了角向范围，但现存题干未明确母线的有限截取比例；按完整锥面为无界曲面，第二问有限通量不能唯一确认。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "linear_algebra",
+      "paper_id": "SOURCE-ZHANGYU_1000-3e475f37d0bac391",
+      "year": "not_applicable",
+      "question_number": "T15",
+      "original_points": null,
+      "source_file": "配套习题/张宇1000题/02_强化篇/线性代数/第05章_线性方程组.md",
+      "source_locator": "ZY1000-QH-XD05-T15",
+      "question_hash_sha256": "17ca01ab0e76a6a80e3676318a4a8ea0276931d822361dc82a1d5d8f5dd837aa",
+      "question_id": "ZY1000-QH-XD05-T15",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_1000",
+      "official_scope_coarse": "数学一 > 线性代数 > 线性方程组",
+      "main_knowledge": {
+        "id": "M1_K_53b9c6e9bf1169ab",
+        "name": "线性方程组的解与参数"
+      },
+      "primary_method": {
+        "id": "M1_METHOD_f19a3cffd03839ff",
+        "name": "比较系数矩阵与增广矩阵的秩"
+      },
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l3.evidence_steps.U02",
+          "reason": "选项仅列①②③④的组合，当前题块缺少各序号所指的位置关系或示意图。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    },
+    {
+      "exam_track": "MATH1",
+      "subject_area": "probability",
+      "paper_id": "SOURCE-ZHANGYU_BASIC_30-757887c37865f467",
+      "year": "not_applicable",
+      "question_number": "L2.15",
+      "original_points": null,
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md",
+      "source_locator": "ZY30-GL-02-L2.15",
+      "question_hash_sha256": "92f6092763feb759756ffa85dce2f788254302f1dc1c6567b37bc730a8024a79",
+      "question_id": "ZY30-GL-02-L2.15",
+      "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy30/question_annotations_l3_v1.json",
+      "annotation_depth": "L3",
+      "source_id": "ZHANGYU_BASIC_30",
+      "official_scope_coarse": "数学一 > 概率论与数理统计 > 随机变量及其分布",
+      "main_knowledge": {
+        "id": "M1_K_b1d2ceb8e986fe86",
+        "name": "随机变量函数的分布"
+      },
+      "primary_method": null,
+      "main_knowledge_status": "verified",
+      "evidence_steps_status": "needs_review",
+      "field_omissions": [
+        {
+          "field_path": "l2.primary_method",
+          "reason": "严格单调的分布函数可能有跳跃；概率积分变换需连续或明确反函数在整个(0,1)上存在。",
+          "reason_type": "human_review_needed"
+        },
+        {
+          "field_path": "l3.evidence_steps",
+          "reason": "严格单调的分布函数可能有跳跃；概率积分变换需连续或明确反函数在整个(0,1)上存在。",
+          "reason_type": "human_review_needed"
+        }
+      ]
+    }
+  ]
+}

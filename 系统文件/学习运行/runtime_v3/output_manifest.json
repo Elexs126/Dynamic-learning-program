@@ -1,0 +1,14 @@
+{
+  "version": "learning-runtime-v1.2.0",
+  "policy_sha256": "e4c9e8c59f81b77a784b086e3f069e4b17804bb3c26de98ea109e373acd2128f",
+  "output_sha256": {
+    "course_navigation.json": "226cd87fc780c2d15d0e59b80a24b5e279478e27db9bdea95061dbab99c34891",
+    "paper_readiness.json": "0cf93ef197909b7fc881b505bfe3606aefa4a5a45956df643447f353480b36e4",
+    "pending_human_issues.json": "3f1df42c82965309aa9b86ad8b12e2140e64b3c6bdc73c85035501ba9a0c202e",
+    "question_catalog.json": "c573ca1781e06604d422d8283878a45b2dbdd75fc08f8777e15eddde7d9f239a",
+    "readiness.json": "7aaf6fe6a6cf0c39c3f7de26a68e9942fdb8b0ee38471b4fc3c221daa7db6cdc",
+    "source_manifest.json": "40570eecabbb2514dd3a6982dc3855eafa03cfc601651bc96ae3628e9f04ab67",
+    "teacher_exposure.json": "374d2ae9580d277d22478dbfb26080dfcbb775e77e104e578255e51f2cb66d0c",
+    "七门课按需导航.md": "099fc5ccc552f78b8a9f7c3d46395a3e29655fd04098dc0fa8209e43b181153f"
+  }
+}

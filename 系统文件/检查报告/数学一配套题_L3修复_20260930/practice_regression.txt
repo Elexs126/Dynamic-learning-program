@@ -1,0 +1,35 @@
+test_all_questions_need_explicit_decisions (__main__.RepairedPractice.test_all_questions_need_explicit_decisions) ... ok
+test_backward_dependency_fails (__main__.RepairedPractice.test_backward_dependency_fails) ... ok
+test_bayes_evidence_cannot_pass_without_hash_check (__main__.RepairedPractice.test_bayes_evidence_cannot_pass_without_hash_check) ... ok
+test_binding_survives_refreshing_output_hashes (__main__.RepairedPractice.test_binding_survives_refreshing_output_hashes) ... ok
+test_composite_question_covers_area_and_volume (__main__.RepairedPractice.test_composite_question_covers_area_and_volume) ... ok
+test_confidence_counterexample_and_unverified_fields (__main__.RepairedPractice.test_confidence_counterexample_and_unverified_fields) ... ok
+test_counts_provenance_and_reproducibility (__main__.RepairedPractice.test_counts_provenance_and_reproducibility) ... ok
+test_duplicate_alternative_mechanism_input_is_rejected (__main__.RepairedPractice.test_duplicate_alternative_mechanism_input_is_rejected) ... ok
+test_duplicate_mechanisms_removed_and_real_alternatives_retained (__main__.RepairedPractice.test_duplicate_mechanisms_removed_and_real_alternatives_retained) ... ok
+test_evidence_provenance_is_bound_to_decision (__main__.RepairedPractice.test_evidence_provenance_is_bound_to_decision) ... ok
+test_existing_snapshot_never_overwritten (__main__.RepairedPractice.test_existing_snapshot_never_overwritten) ... ok
+test_lifetime_has_three_real_tasks_and_open_parameter_check (__main__.RepairedPractice.test_lifetime_has_three_real_tasks_and_open_parameter_check) ... ok
+test_literal_l1_is_preserved (__main__.RepairedPractice.test_literal_l1_is_preserved) ... ok
+test_missing_manifest_hash_is_not_a_bypass (__main__.RepairedPractice.test_missing_manifest_hash_is_not_a_bypass) ... ok
+test_missing_plane_options_do_not_hide_confirmed_rank_task (__main__.RepairedPractice.test_missing_plane_options_do_not_hide_confirmed_rank_task) ... ok
+test_missing_task_cannot_be_reinserted_as_evidence (__main__.RepairedPractice.test_missing_task_cannot_be_reinserted_as_evidence) ... ok
+test_partial_omission_must_refer_to_real_task (__main__.RepairedPractice.test_partial_omission_must_refer_to_real_task) ... ok
+test_partial_series_omission_keeps_ode_solution_task (__main__.RepairedPractice.test_partial_series_omission_keeps_ode_solution_task) ... ok
+test_partial_task_status_cannot_be_verified (__main__.RepairedPractice.test_partial_task_status_cannot_be_verified) ... ok
+test_points_and_answer_fabrication_fail (__main__.RepairedPractice.test_points_and_answer_fabrication_fail) ... ok
+test_recovered_figure_remains_source_bound (__main__.RepairedPractice.test_recovered_figure_remains_source_bound) ... ok
+test_registered_bayes_method_cannot_replace_matrix_method (__main__.RepairedPractice.test_registered_bayes_method_cannot_replace_matrix_method) ... ok
+test_registered_but_wrong_main_knowledge_fails (__main__.RepairedPractice.test_registered_but_wrong_main_knowledge_fails) ... ok
+test_row_column_swap_requires_similarity_as_well_as_congruence (__main__.RepairedPractice.test_row_column_swap_requires_similarity_as_well_as_congruence) ... ok
+test_source_lock_and_auxiliary_cannot_be_silently_refreshed (__main__.RepairedPractice.test_source_lock_and_auxiliary_cannot_be_silently_refreshed) ... ok
+test_sphere_quadratic_requires_norm_preservation (__main__.RepairedPractice.test_sphere_quadratic_requires_norm_preservation) ... ok
+test_stale_question_hash_fails (__main__.RepairedPractice.test_stale_question_hash_fails) ... ok
+test_synthetic_task_input_is_rejected (__main__.RepairedPractice.test_synthetic_task_input_is_rejected) ... ok
+test_task_description_tampering_fails (__main__.RepairedPractice.test_task_description_tampering_fails) ... ok
+test_trajectory_precedes_curve_integral (__main__.RepairedPractice.test_trajectory_precedes_curve_integral) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 22.684s
+
+OK
