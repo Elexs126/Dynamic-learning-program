@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "1917 canonical IDs",
+    "v1.2 schema",
+    "source and question hashes",
+    "source-bound semantic review inputs",
+    "rule candidates never promoted to verified",
+    "L0 changes explained and L1 preserved",
+    "no invented points or scoring atomization",
+    "complete omission reasons",
+    "registered label references",
+    "reciprocal reviewed isomorphism",
+    "no answer/student/role payload"
+  ],
+  "error_count": 0,
+  "errors": [],
+  "record_count": 1917,
+  "semantic_limit": "PASS只证明结构、来源及声明一致性，不将规则候选认定为逐题语义审核通过。",
+  "status": "PASS"
+}

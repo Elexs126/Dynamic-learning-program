@@ -1,0 +1,1562 @@
+{
+  "ZY30-GS-01-L1.01": {
+    "profile": "function_expr",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "9d5986252898f3bb95e44368837c6fe76f3acbac585638aa38c2fb9f8ff75d9c",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "method": "用复合自变量及其平方化简有理式",
+    "steps": [
+      "把原式整理为复合自变量的有理式",
+      "核对复合自变量的可达范围"
+    ],
+    "hard": [
+      "代数恒等变形与复合函数"
+    ]
+  },
+  "ZY30-GS-01-L1.02": {
+    "profile": "function_expr",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "cadbfa7cb46ca8d3454329b0289487c50a0b0c0a3c8dbe024990bfc69ed3d9ff",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "method": "倒数代换后联立函数方程",
+    "steps": [
+      "以倒数代换获得第二个函数关系",
+      "联立消元并检查系数行列式及定义域"
+    ]
+  },
+  "ZY30-GS-01-L1.03": {
+    "profile": "inverse",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "58a0ba06d52195384d1ed738bf427462acb89cba3dac2ab9e7ce9dd748851d2e",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.04": {
+    "profile": "composition",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "e87587d16a9c02102c46aaa9b067499ece5869e06d775573910cfd29d38f9872",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "利用复合关系反解非负的内层函数",
+      "分别核对根号定义域及其像集"
+    ],
+    "hard": [
+      "复合函数与平方根定义域"
+    ]
+  },
+  "ZY30-GS-01-L1.05": {
+    "profile": "composition",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "b0ba4752a18d05ede75306c8dd68ecdb56ebfc5c0f1d47302ff2ad10b872e68a",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.06": {
+    "profile": "bound",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "80ec6b244d4c3889360c4c10ab78399232dba2d419f8f57ceec9cb55712453c3",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "method": "用平方非负性构造统一界",
+    "steps": [
+      "用代数不等式控制函数的绝对值",
+      "给出对整个定义域一致的界"
+    ],
+    "alternatives": [
+      {
+        "name": "求导确定全局极值",
+        "conditions": "函数在全实数上可导，需同时检查无穷远边界行为。"
+      }
+    ]
+  },
+  "ZY30-GS-01-L1.07": {
+    "profile": "monotone",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "9befc97ce11e6d91c5da95906b0f6bd10fa104ca2c9e0e2590551454e8acb518",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.08": {
+    "profile": "parity",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "54818bc8e8a201ddb84c57b4ca850a6daa83adb68cb2d523735b813301459e73",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.09": {
+    "profile": "period",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "561d2a0fd944d2794b0b7b21f5b8abb2aeedb5446de10f7092abdff701606361",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.10": {
+    "profile": "max_one",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "16e5d37a9114a7ab3bcb6033f6b0249e5294e00dcf652dffbe1703f1fa599f1e",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "method": "对数求导并分析导数符号",
+    "steps": [
+      "在函数为正的区间用对数求导定位驻点",
+      "核对驻点两侧变化及开区间边界行为"
+    ],
+    "alternatives": [
+      {
+        "name": "直接对乘积求导",
+        "conditions": "在给定开区间内可提取非零正因子，再比较驻点两侧符号。"
+      }
+    ]
+  },
+  "ZY30-GS-01-L1.11": {
+    "profile": "series_expand",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "b5211613f5c212d6cfcb398a7182130535f2162c75ea1dd0b795c7750d334a0b",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "把底数的指数表达为标准指数函数的复合",
+      "在已知幂级数中代换并核对求和起点"
+    ]
+  },
+  "ZY30-GS-01-L1.12": {
+    "profile": "inverse",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "e6c85a60128e7b583630832fc2891d03630a2fb3e1d16a1b8a78ee251e9c91b5",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.13": {
+    "profile": "floor",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "0587329d37f164e18469d4994faff7481385f85b783b2a71d0a961874687cfbd",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "按整数平移比较小数部分函数值",
+      "检验边界值并区分有界性单调性及奇偶性"
+    ]
+  },
+  "ZY30-GS-01-L1.14": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "19a5d961e2d54006d4aa76d723fa165cce6ba792b48e1cf0b8086634941a26bf",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "method": "令待求极限为未知量并建立极限方程",
+    "steps": [
+      "将已知比值极限换算到相同阶次",
+      "建立待求极限的代数方程并检验一致性"
+    ]
+  },
+  "ZY30-GS-01-L1.15": {
+    "profile": "limit_side",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "524b446e04e8b7ca7c9349b477a94ca08def86489b73f08129c20c558067d117",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.16": {
+    "profile": "limit_side",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "29abb1649fc7e5bae966c1e93b3b711f4d8279c3cdebce044d3f85d0fb9950c8",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.17": {
+    "profile": "bound",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "c2049e792026128ea2c600db9e77a7c1d6d5ac2ee0a072f138a3fe8e28fa757c",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.18": {
+    "profile": "limit_sign",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "e63e0b211820a1212bbc78bf70f5a40c854d105857f978cc74a8ea07100807cd",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.19": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "eca0ac6dcdaf8017cafa449f859b5d8ad1daeb8aaed07b90731613bc1cebd9a7",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "alternatives": [
+      {
+        "name": "指数函数中值定理结合三角等价变形",
+        "conditions": "先把指数之差化为中间指数因子乘指数自变量之差。"
+      }
+    ]
+  },
+  "ZY30-GS-01-L1.20": {
+    "profile": "limit_algebra",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "ed42306bdc2b550d9ada70abd0d97f3c45de1f097e9e021f18c96c5da9d1d8ff",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.21": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "9bd44cbfba276f98313e3fd5adb1d696f6f71a58a11b21ed70d9d62243f35b02",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "利用有限非零极限排除不能抵消分母常数项的参数",
+      "对剩余参数使用局部等价关系"
+    ]
+  },
+  "ZY30-GS-01-L1.22": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "4a1c65556076472e5f3964e370021843364e9466e3c097d44ca7c46da8bffeba",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.23": {
+    "profile": "growth",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "2d24288f20af03d2b7740a085fe056cf79fead651a09b136a02ddceb2e431d67",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.24": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "3a382edef50c086d399ee0a9809cd923e488bdd6286b09d1ed41467c3326dab3",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "alternatives": [
+      {
+        "name": "换元通分后应用洛必达法则",
+        "conditions": "需先整理为可验证的零比零型并核对每次求导条件。"
+      }
+    ]
+  },
+  "ZY30-GS-01-L1.25": {
+    "profile": "limit_rational",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "0e93713040d283f0e23df096f5bf537299648aee91088d03a7d2b85a41bd60f5",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.26": {
+    "profile": "limit_pointwise",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "9040260d154d27d3639d8e8a1add9f78860904f3ad8c62bb999d2387b5ec5a3a",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "按三角因子是否为零区分固定自变量",
+      "分别比较分子分母关于序号的主导项"
+    ]
+  },
+  "ZY30-GS-01-L1.27": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "81235c42e5b1318c84f2ad044fd6b7d2557e6794ee00e3c865db8adcde3bc401",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.28": {
+    "profile": "growth",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "9f9faebb5ca9e9638131c435a43c77b042b02d9a57ae5421044898a281a92ac4",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "method": "换元并使用对数与幂函数的增长阶比较",
+    "steps": [
+      "将左侧趋近转为正变量趋于零",
+      "控制对数因子与线性小量的乘积"
+    ]
+  },
+  "ZY30-GS-01-L1.29": {
+    "profile": "floor",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "71770f44da2d39e385d7cb96567b6187a24307fbc6b55cbcba643b4b98db6d3b",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.30": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "4eca5364da2cb2d3aab2f16d4e85762a13cf1e046f19e16b11b9bf579faeeaf7",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "重新核对倒数展开的符号，现有选项可覆盖题干极限；不登记源文冲突。",
+    "steps": [
+      "通分或倒数展开时跟踪减法顺序",
+      "核对抵消后的常数项及余项趋零"
+    ],
+    "alternatives": [
+      {
+        "name": "通分后应用洛必达法则",
+        "conditions": "近零去心邻域中对数有定义；通分后的分子分母均趋零，需正确处理减法顺序。"
+      }
+    ]
+  },
+  "ZY30-GS-01-L1.31": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "0276086931f8e3a9aab776f4d4d7e6159f1b47f08bab811245e1ccf53aae1697",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "alternatives": [
+      {
+        "name": "倒数代换后应用洛必达法则",
+        "conditions": "代换把无穷远转为零点极限，并先合并抵消项。"
+      }
+    ]
+  },
+  "ZY30-GS-01-L1.32": {
+    "profile": "limit_power",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "da10c3e767de2a962463c3dbaf480de3bddd3c4c8b580ffebd935b5fb6133b5a",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.33": {
+    "profile": "limit_power",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "054d4f1899b4f7b9a745b9a249e35f2e7dcceb91efbade33ace99172ea7f510a",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.34": {
+    "profile": "limit_local",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "6973408c167405cc4377df03e5769fdcdb8a05fe3b1ab495d67ef0719184cb34",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.35": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "e3f338e8dfd8fd20130f469ebc1959676e3a7e1fa73ba108b1e32395156cbf0d",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.36": {
+    "profile": "continuity",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "15e3a5e59af851131123bce5cef9fa017d34793b2471230be32987f61bb4f7ca",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.37": {
+    "profile": "discontinuity",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "9b364415a16ed62870bc9c0f2f8e91f738180def09c6da28a9a381cb91d1dffe",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-L1.38": {
+    "profile": "discontinuity",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "02dc381ba92b825deb893f09f483b96a542f3424455e5059cf73bf6475d0c471",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "先按固定自变量是否为整数求逐点极限",
+      "在可能的拼接点比较单侧极限与点值"
+    ]
+  },
+  "ZY30-GS-01-X01": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "326680d052792c43a690ecddfa6b6e788a86a8ae300f9224621741c3a9c0ccb6",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-X02": {
+    "profile": "continuity",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "845b5108932f8c1e80130f3c8f5a2020c432c118147c6bdca6872f732f727f4d",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-X03": {
+    "profile": "discontinuity",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "b5af1baaf07e8bab98aa7eeaf45a78c1666c70f873f70ad42cfa5acde98d09f5",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-X04": {
+    "profile": "discontinuity",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "8dd3ad3e616999ca4a8112c6487c18c127289b3da6ae84b001096331979cc4cc",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "先对非零的固定自变量计算定义函数的极限",
+      "单独核对原表达式未定义点附近能否连续延拓"
+    ]
+  },
+  "ZY30-GS-01-X05": {
+    "profile": "discontinuity",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "641fc04147a472e77f7b0f9ffc15858556e290705675367a3c100dd7a079a64a",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "按自变量绝对值与单位界的大小关系求逐点极限",
+      "逐个核对分界点的函数值与左右极限"
+    ]
+  },
+  "ZY30-GS-01-X06": {
+    "profile": "iteration",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "e6fd26eae520de443b9002eba14a6a04ab1b0a3283596a7c64ab23d099a79c2d",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-X07": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "55b4c91f7b426d089856192ea030799728f047bf4fbdf50ed4c80aaf450b8888",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "alternatives": [
+      {
+        "name": "有理化后使用等价无穷小",
+        "conditions": "保持右侧趋近及根式定义域，分别控制分子和分母的因子。"
+      }
+    ]
+  },
+  "ZY30-GS-01-X08": {
+    "profile": "limit_power",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "cc9d4c3f8f766f8e39af9245884b71bced54d8ec36420ff5d6784645552ef516",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-X09": {
+    "profile": "limit_local",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "bae3845c1e7ce40fe28eafc8f957bf4a158d84a2657376b41933c7320dd1d00b",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "alternatives": [
+      {
+        "name": "倒数代换后应用洛必达法则",
+        "conditions": "指数底数为正；代换后指数函数在零点可导。"
+      }
+    ]
+  },
+  "ZY30-GS-01-X10": {
+    "profile": "continuity",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "911abe81a24a3a35b328b3fe3f75cc77d8110bcb2f28194f42d9f04fd6034a2b",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-X11": {
+    "profile": "trig_graph",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "42b3af36d448b0c0add9e7ef825728efaafb8a67773dc9ebd15c0753f7d1853f",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-X12": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "c51afb00f2a1622888d7e0b99eb4609855e801a4732df92d459518bb9f9cd62a",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-X13": {
+    "profile": "limit_power",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "eb55745dd22b22d5e4fce20d99be281eb0aaa893619a6d888886087451e3a95c",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-X14": {
+    "profile": "limit_side",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "c34dec5af613c4e418a1e8d1ee6197319e7e6e7b25508daac3153f0e46e648af",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "分别处理指数项与含绝对值幂指项的单侧极限",
+      "匹配左右极限以确定参数条件"
+    ]
+  },
+  "ZY30-GS-01-X15": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "e02ff3e606c809ac004e409a673b3da584739fcd36aed39df5b9bb27ceba1836",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-01-X16": {
+    "profile": "limit_local",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "e189f3b823a80e3e8ca22ec551ed589c7d6ec84896225cab4c2add62afed8fa5",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-L1.01": {
+    "profile": "classical",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "e87048ae929433e0bfa6864effed10616ae0344026bf0d9897e6266258eebf64",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "以每个球的盒子选择定义等可能样本空间",
+      "区分指定盒和任选盒后分别计数",
+      "检查指定盒恰有一球对其余球的限制"
+    ]
+  },
+  "ZY30-GL-01-L1.02": {
+    "profile": "classical",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "68943f926ff0079920cd46623dada3404ad8f4675415df585d67a133e412e28d",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "alternatives": [
+      {
+        "name": "先计算对立事件",
+        "conditions": "分别在有放回和无放回模型中求两球均非目标颜色的概率。"
+      }
+    ]
+  },
+  "ZY30-GL-01-L1.03": {
+    "profile": "classical",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "d14272e36958dd3a4bce4de0f2ad2a7fff6509d7e0c571f99645d96590a9ebe8",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "区分有放回与无放回抽样的样本空间",
+      "分别处理总颜色数量和指定抽取位置的事件"
+    ]
+  },
+  "ZY30-GL-01-L1.04": {
+    "profile": "geometric",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "6e4fcc09f7f64ec0232592757bcfde5ec4ec5752eb8b21c8ff6e3d5f2b5789ab",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-L1.05": {
+    "profile": "prob_axioms",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "3eac2223c90f4b157aed781c0a374fcc1a4eb5af15ba26574c909ce65687cae8",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-L1.06": {
+    "profile": "prob_axioms",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "e8cabc0569889935c29290de925fd5b9374389b61b50829b958e711c54fa505e",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-L1.07": {
+    "profile": "conditional",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "45a605cfafb11d42360b0ef045eb0cb537ce972b4e1648226c3e0a72996bc8ec",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-L1.08": {
+    "profile": "conditional",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "4473beb385e49306d35b5a40daaf44512f671d1aced50319729bb69ba8e9bfef",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-L1.09": {
+    "profile": "classical",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "270a6243404756701168f0849d6d0e2e1e6fcd9289296d935363b99cbc51a9d3",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "method": "排列计数与容斥",
+    "steps": [
+      "以信件到信封的排列定义样本空间",
+      "对至少一封正确的事件应用容斥或错排计数"
+    ]
+  },
+  "ZY30-GL-01-L1.10": {
+    "profile": "total_prob",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "c630cb9b2e37b0c38a7a6e01aace5acf16371907ff993c9eeb7317589eb757df",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-L1.11": {
+    "profile": "total_prob",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "c8809840440b2b828ad5a9a25a4124ebcba488d9aa7c5a0f7d820e64559ea439",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "alternatives": [
+      {
+        "name": "利用随机排列的交换对称性",
+        "conditions": "均匀无放回抽样，各位置的边缘分布一致。"
+      }
+    ]
+  },
+  "ZY30-GL-01-L1.12": {
+    "profile": "bayes",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "9cb2edb05427594874e52deb8dc5746c044a06434d7a8263298915cab763e046",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "用首次观察更新所选批次的概率",
+      "按更新后的批次权重计算放回后再次抽取概率"
+    ]
+  },
+  "ZY30-GL-01-L1.13": {
+    "profile": "independence",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "06ca6643e4c720e3bbde351b78ff20195c65552c63a162cd8a4537f59034ac7f",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-L1.14": {
+    "profile": "bernoulli",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "3f217f5d4ff796622c79bbfdaa2fcbb7168a2f86dc80f874fb325880ee97b208",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-L1.15": {
+    "profile": "bernoulli",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "6fa5a8add37bbc321b8829dbfcb36852ac2a1c554d17b1af2664fe4c0abecbfe",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X01": {
+    "profile": "event_algebra",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "31096ab59c0ac1ddd3b189a2fa937fbe2067b21b0fbcf136a205b52f3319efaa",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "source_issue": "现存四个事件等式选项均缺少能保证结论的条件；第四项只能推出事件A为空，不能推出题列等式。",
+    "blocked": [
+      "l3.score_attribution"
+    ]
+  },
+  "ZY30-GL-01-X02": {
+    "profile": "prob_axioms",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "e480095ddcf5d625c683576fdcb55d13614de56b3d8f3788932ab050ef542c5e",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X03": {
+    "profile": "classical",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "203bdcbfe03c74928d2325f5ed8569ac0a87c70707070c4c4a6888b925a0ef5d",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X04": {
+    "profile": "classical",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "fc2b4d8d812eaa4b752712b3f147278dc80f0bb09ba7760f0cee6fb43c722056",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X05": {
+    "profile": "independence",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "1cc53a55449feb13960da98d6f1908ee207a7f88fa33478f06136580c8d7bef7",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X06": {
+    "profile": "geometric",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "875a2c0a47608a0f09684af513eb9db297158ec81b090b820982855cef9bc9e6",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X07": {
+    "profile": "geometric",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "099729bff391207cc43a64a78b472faa4759d4166b1a67b58e5f189a90661785",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X08": {
+    "profile": "prob_axioms",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "12a01b2b97df8b5f9d328ce649bb8dcdc6e642d033239443f9968b3ec989d230",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X09": {
+    "profile": "prob_axioms",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "110c316d521048d4e0f136b4b449bb80ff19ff4934c38207c423442a39871585",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X10": {
+    "profile": "conditional",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "5119884cc1de3e23068ca34cc34abc7a279d6ec51a194120691e564233b8f9c1",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X11": {
+    "profile": "prob_axioms",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "82da7f71587414817ba7131c8582092073f769a379450b639e0de70412872088",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X12": {
+    "profile": "independence",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "233dce42e61e28e684f62f0fc6462ff5b34988211182bd6efa803f3240f79ebc",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "method": "对立事件与独立性",
+    "steps": [
+      "用全部未成功表示目标事件的补事件",
+      "利用独立性合并失败概率"
+    ],
+    "alternatives": [
+      {
+        "name": "独立事件的容斥公式",
+        "conditions": "三个成功事件独立；需包含二重交和三重交。"
+      }
+    ]
+  },
+  "ZY30-GL-01-X13": {
+    "profile": "conditional",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "39d1bf0b9ca9e8a2b60fc38c07ea70ed48040fa35dfa27c1d707e6c7ffd33f95",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X14": {
+    "profile": "event_algebra",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "a5ae7b9074eab0ecc7519bbf1c740e83dd1904603a7c817172e3360fc62b38fa",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X15": {
+    "profile": "event_algebra",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "6f800d3a0ff69bb292469022aee9cb3123cf10cf9239f0f56913022d9108f32a",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X16": {
+    "profile": "event_algebra",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "6ec1ca100a581d199dc64bc15d1778f1565f16708259e13b4d2e0b62711564c5",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GL-01-X17": {
+    "profile": "bayes",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "c2a824fbbd72b7c3779ec8dbfe4c3494522ddb6086b030318f199ebcd3d3dbec",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "可核对贝叶斯任务和方法；没有推定缺失的先验值。",
+    "source_issue": "原球为白球的先验概率未给出；颜色未知本身不能推出等概率。",
+    "blocked": [
+      "l3.score_attribution"
+    ],
+    "steps": [
+      "明确原球颜色的先验概率是必要输入",
+      "按观察到的取球颜色构造后验关系"
+    ]
+  },
+  "ZY30-GL-01-X18": {
+    "profile": "bayes",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "ed9baa1d70ec0f427fd435b68e3a2360f0d054ffc7a2af1a2e8ded746e64d507",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "按箱子来源计算首次取到一等品的概率",
+      "利用首次结果更新来源权重",
+      "核对不放回抽样对第二次构成的改变"
+    ],
+    "tasks": [
+      [
+        "按箱子来源计算首次取到一等品的概率"
+      ],
+      [
+        "利用首次结果更新来源权重",
+        "核对不放回抽样对第二次构成的改变"
+      ]
+    ],
+    "dependencies": [
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "ZY30-GL-01-X19": {
+    "profile": "total_prob",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "7dccae5cb1a48e6897e85976c2c80ee7f799f4499d03fb4221d2762c2185fc0f",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "按箱内次品数分组并使用等可能先验",
+      "分别计算误判和漏判对验收事件的贡献",
+      "按分组权重汇总通过验收的概率"
+    ]
+  },
+  "ZY30-XD-01-L1.01": {
+    "profile": "det_compute",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "0da9f02baf07e05d26b63fe347b9263d1ed2de84d49843ca97aa724d1973f9b2",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-L1.02": {
+    "profile": "det_compute",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "b17817ba5e3c71ff8a46fa2d70d0ab72c6b7f1001cda65ebcfa079c097461478",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-L1.03": {
+    "profile": "det_compute",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "f7b6d58f581addaf6fee379fbaed3b05923ea26d87c2b1365c3a545c38cea535",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-L1.04": {
+    "profile": "det_compute",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "6d5e80525b7b6f555e9c57f31af5508817b759d70a6a14837fbaae4d939714c6",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "alternatives": [
+      {
+        "name": "标量矩阵加秩一矩阵的谱分解",
+        "conditions": "沿全一向量及其正交补分解作用，适用于题给常对角和常非对角结构。"
+      }
+    ]
+  },
+  "ZY30-XD-01-L1.05": {
+    "profile": "det_compute",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "b470787c5252c903f8011d13d3b10a8d4701e7092e3704cd2bfa85aa423dd41a",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-L1.06": {
+    "profile": "det_compute",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "cf552646321f46bfab468ca893998131398fd86cc771bea17f568c56ea0938c1",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-L1.07": {
+    "profile": "det_compute",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "f86f89565830d4698c6ea0346bfdc930e0a8254277448bee37dfbbff07d121ff",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-L1.08": {
+    "profile": "det_polynomial",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "060e002f32a25c95001474e05f6ab4349a1a4dd6907570b4002576c445e73a16",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-L1.09": {
+    "profile": "det_polynomial",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "462481c48dc31e65d349f165e834c22653d1778e48b8fa2bef875cd69584550f",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "将行列式整理为特征参数的多项式",
+      "联立多项式及其导数的共同根条件并核对重数"
+    ]
+  },
+  "ZY30-XD-01-L1.10": {
+    "profile": "det_linear",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "5aab56ce46ca26f1e5fbdf9aa3262497d4ab949f666c5decf5e90982ca5c5aa6",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-L1.11": {
+    "profile": "det_product",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "4c7c807bd45f64d51a404abd1e0cb93f2dbb797fab691549c34e2200b839ba0f",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-L1.12": {
+    "profile": "det_cofactor",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "ba8e68e4e4d5f5a6f3e4b13c9c6e08ec3cdef667096e6879db37e30405245975",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "把普通余子式转换为带正确符号的代数余子式",
+      "通过对应行替换表示余子式的线性组合"
+    ]
+  },
+  "ZY30-XD-01-L1.13": {
+    "profile": "hom_system",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "b031fb98e9b77095675062c4e868962149dea7984524b44ec8ecfdf62d05f667",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "由非零矩阵至少有一个非零列解确定系数矩阵奇异",
+      "用零空间维数约束各列张成空间",
+      "由列相关性判断目标行列式"
+    ],
+    "secondary": [
+      "矩阵的秩与零空间维数"
+    ],
+    "tasks": [
+      [
+        "由非零矩阵至少有一个非零列解确定系数矩阵奇异"
+      ],
+      [
+        "用零空间维数约束各列张成空间",
+        "由列相关性判断目标行列式"
+      ]
+    ],
+    "dependencies": [
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "ZY30-XD-01-X01": {
+    "profile": "det_polynomial",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "2e842282652037da80ef46a89986fa3eb7da74cc4d2da1b1e72bc8161ab23d96",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-X02": {
+    "profile": "det_cofactor",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "1d605a1a9f76c831d7424fb0baee8bcd3d48ded8aa9a0d62f3af34100b057387",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-X03": {
+    "profile": "det_polynomial",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "4b09df31534184f1146974592f44b819f33a6c50edbab7c2e08fa6430584602f",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-X04": {
+    "profile": "det_compute",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "cd3c9950fb674150c591070c7e6037747b6130c5b6d6efa721f09421c1a0b543",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-X05": {
+    "profile": "det_compute",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "142c301caf072afa64fe62a1d2ca006ea568217300a62d73e22d6c2334287239",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-X06": {
+    "profile": "det_compute",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "268fc871f5cc2b6bded1516d52301622ab87d69e46d4e0a78a0d406eced22f89",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-X07": {
+    "profile": "det_polynomial",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "a75fc9882c5e72e0a90cd158fbf7b0ad1101c231647f1330f1ae1ddf0eb2e083",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-X08": {
+    "profile": "det_linear",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "e04e7473e3312b55da76b41c36ec6045cedfa250aaf479efee701d1ceb031722",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-X09": {
+    "profile": "det_basis_map",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "cca36e338f5404e9a8673faeebf179a737e6ea828956f7b95047181eda4c13e3",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-X10": {
+    "profile": "hom_system",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "7c657f03e3559eb22e2cf2382c927ddf56e0dee98eec9114b4fcaab2aa5e4702",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-XD-01-X11": {
+    "profile": "hom_system",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "1641c9fa40540783519bf53daaa9fa7753eba7ffbfaafc554bacf7a3071710d4",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.01": {
+    "profile": "ode_extremum",
+    "difficulty_band": "basic",
+    "question_hash_sha256": "9057c90c172f46cfb4481e6a99d104ed44207d6e0346a0519c2452a2f149596f",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.02": {
+    "profile": "ode_limit",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "230a2a7e4c80a46f886abacd9ff0d47baaf448b06f76c6eb25d0b42d1e7b28be",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.03": {
+    "profile": "integral_primitive",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "f050db5a7e1e2479a960bab6dad99abb8f04b9b6ab8d60fb81c23be31cfa631e",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "把切线斜率识别为导数",
+      "求原函数后用经过点确定积分常数"
+    ]
+  },
+  "ZY30-GS-15-L15.04": {
+    "profile": "ode_separable",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "7606291958b4b359e60a67d6ac666c08392bbfc62367abd9638b463d714a65f7",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.05": {
+    "profile": "ode_shift",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "c9ee67768bce17d10f2da0e0aebff7ced7bf11b38b3c577b2ceefda5b8e55ab6",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.06": {
+    "profile": "ode_model",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "d394ccfa805ca5c9d9d57872cb4303d6d10a574d4a600aee3fcc33d1f0a48d58",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.07": {
+    "profile": "ode_first",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "b3c5e294b6df49d2746907f9f85296ac9ce8704f32dd796541b454557169e2dc",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "用积分因子求满足初始条件的解",
+      "按解的符号变化分割面积积分",
+      "检验无穷区间上面积积分的收敛"
+    ],
+    "secondary": [
+      "定积分表示平面区域面积"
+    ],
+    "tasks": [
+      [
+        "用积分因子求满足初始条件的解"
+      ],
+      [
+        "按解的符号变化分割面积积分",
+        "检验无穷区间上面积积分的收敛"
+      ]
+    ],
+    "dependencies": [
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "ZY30-GS-15-L15.08": {
+    "profile": "ode_first",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "7a3cbd6bd4a4a612ec8e74a91e39ad211d0dde9c6ef5ccd0518bbca8ce253f38",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "选择原因变量作自变量并化成一阶线性方程",
+      "积分后代入初始点",
+      "检查局部分支能否表示成原题所求函数"
+    ]
+  },
+  "ZY30-GS-15-L15.09": {
+    "profile": "ode_bound",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "cf459e85521e2a41363281b7d9faeca449905244c5880f47993b06a8d4c0ed03",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.10": {
+    "profile": "ode_bound",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "82334748e3fce880f608583047451446e35e8fbb18e5b74903cee818a2e9a1ef",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.11-M1": {
+    "profile": "ode_first",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "e8e53c343beb7ef6b5c3175e3abaa251efab407899bc08645377aa202be92fae",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "通过倒数未知量变换识别以原因变量为自变量的线性方程",
+      "求解并检查代换排除的特殊解及正值定义域"
+    ]
+  },
+  "ZY30-GS-15-L15.12": {
+    "profile": "ode_lower",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "b04af4c4454f5d6b00491db202e7608da423692e9e45de78136db83efae53c3e",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.13": {
+    "profile": "ode_lower",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "ec53dc91acb82945f07cfc6f4ec7a248cb94c773e02b104fb96f5b407e10bada",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "在非退化分支以导数为因变量并降阶",
+      "单独检查代换中排除的零解和过零情形",
+      "将初始条件与原方程共同核对"
+    ]
+  },
+  "ZY30-GS-15-L15.14-M1": {
+    "profile": "ode_exact",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "22453c79b1b7a29d2b90ec79c2c3751c63b688cc3933fd27dc0a96b49e61a0b9",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.15": {
+    "profile": "ode_hom",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "1c5b4e68df962fbde8858079647686b9f30d8e89704dd7d0a1273ff608e43751",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.16": {
+    "profile": "ode_hom",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "8fcdfe2422714671c46183092f5f40804b6c7a685cafd21b9a59aff63c46dee4",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.17": {
+    "profile": "ode_nonhom",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "db666077f8a792398b58631fcdb562fe149c6914c8f7a8ba4bcdf44f7b12bb46",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.18": {
+    "profile": "ode_inverse",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "c5651a94796f7b239ee3c6d8b0f0256a6fffacba15a2a97059fbcd3243fc82ca",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "代入给定解并按独立函数项比较系数",
+      "确定方程后写出齐次通解与一组特解"
+    ],
+    "tasks": [
+      [
+        "代入给定解并按独立函数项比较系数"
+      ],
+      [
+        "确定方程后写出齐次通解与一组特解"
+      ]
+    ],
+    "dependencies": [
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "ZY30-GS-15-L15.19": {
+    "profile": "ode_inverse",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "0c0314cca0978c48261e4474da11305bc62550624d1f29a2371e65ce38d8855b",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "由指数三角解和多项式解提取根及最低重数",
+      "利用给定阶数和首项归一化重建特征多项式"
+    ]
+  },
+  "ZY30-GS-15-L15.20-M1": {
+    "profile": "ode_euler",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "e61d295d75b29b46d8cab8da6a14c200fdb7fd800f6bf52d39007a0c95e4ccf1",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.21": {
+    "profile": "ode_model",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "38a8e2aab3c6287a45b8f298b7f051c6fc102da8e67b2e8603e91f58ebdf7064",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.22-M1": {
+    "profile": "ode_model",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "8d38e7e4b2c6bafbaf37b8d9280896116c1c46f4f7b0827f0a3a50dff17a9a9a",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-L15.23-M1": {
+    "profile": "ode_model",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "b4583a74379dca32a8885d38c3091fdfd63685d2ee8ce47383b9d381ecfe9035",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-X01": {
+    "profile": "ode_nonhom",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "a1a99764d92e1cb1115f7beade2b860d6d73b57365bf6101b461b4e1131b079d",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-X02": {
+    "profile": "ode_solution",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "7b8f29e48882ce807a640e05352938677f2bf696cffdf6f92f1e19557c85318a",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-X03": {
+    "profile": "ode_separable",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "3d546f8889090f9f9ed109e991bff154d3c5332920d26d1fdb35ad047d470c5d",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-X04": {
+    "profile": "ode_shift",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "50aa2d0c9d89247fec4be6a9664b3206fbef7e6a828acd7db1f07afe3fba112e",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-X05": {
+    "profile": "ode_first",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "75c822afe3ddddb8e16b798c748d70d74cf681e7763685a09d9eb9c53294d95b",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "用指数未知量代换化为一阶线性方程",
+      "求解后检查指数变量必须为正的解域"
+    ]
+  },
+  "ZY30-GS-15-X06": {
+    "profile": "ode_lower",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "114f456729d99920c0ca08b81e74689ea0cc0edeb4efc8198bf95fd1611ee364",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-X07": {
+    "profile": "ode_nonhom",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "035ba49354e5c44a05ca3af9cbca789be9725b5e0cc30257e6e6b04b37afa7b2",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-X08": {
+    "profile": "ode_euler",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "ac8a4d35b6a45e8b94ed51e7e76d8dbefd2e851ea6ab9201e7dabad456be1441",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  },
+  "ZY30-GS-15-X09": {
+    "profile": "ode_inverse",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "fcf635e7a210641e6e18e9a3aa9345f501a7549e404460a77edd98987d473274",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "识别为反求方程任务；不能擅自补上常系数假设。",
+    "main": "由给定解反求二阶线性微分方程",
+    "source_issue": "题干仅称二阶非齐次线性方程，未明确常系数或其他唯一性约束；不足以唯一确定一般变系数方程。",
+    "blocked": [
+      "l2.assessed_construct",
+      "l2.primary_method",
+      "l2.prerequisites",
+      "l2.difficulty_band",
+      "l3.evidence_steps",
+      "l3.score_attribution"
+    ]
+  },
+  "ZY30-GS-15-X10": {
+    "profile": "integral_equation",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "59d7470a19cad38758e001d7aa559121e9ac393951cf016dbd5acc5e12e2f630",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "以极坐标和径向代换把区域积分转为变限积分",
+      "求导建立一阶方程并从原式取得初始约束"
+    ],
+    "secondary": [
+      "二重积分的极坐标变换"
+    ]
+  },
+  "ZY30-GS-15-X11": {
+    "profile": "ode_hom",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "c0ceed233c467cefa12eed0a1d8cd0cf6b878e313ebf636bdf2c2768d4dd256d",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "由特征多项式求齐次解空间",
+      "把指定无穷小阶次转为初始导数约束",
+      "检查首个非零项确实满足所需阶次"
+    ],
+    "secondary": [
+      "高阶无穷小与局部展开"
+    ],
+    "tasks": [
+      [
+        "由特征多项式求齐次解空间"
+      ],
+      [
+        "把指定无穷小阶次转为初始导数约束",
+        "检查首个非零项确实满足所需阶次"
+      ]
+    ],
+    "dependencies": [
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "ZY30-GS-15-X12": {
+    "profile": "ode_model",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "e15f6c425d751b3d774156aeb0f935ad620fd82d498589b7d80b192760000ef4",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "用切线倾角正切表示一阶导数",
+      "由倾角变化关系建立可降阶方程",
+      "用切点位置和切向条件确定常数"
+    ]
+  },
+  "ZY30-GS-15-X13": {
+    "profile": "ode_model",
+    "difficulty_band": "advanced",
+    "question_hash_sha256": "fa0456d5519d2c55df295455885478708d3f4b03558bf66d441dc1cd0b6a0f84",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "将曲线下方面积与切线截距表示为积分和导数",
+      "由恒定面积比建立微分关系",
+      "核对原点条件和单调性要求"
+    ]
+  },
+  "ZY1000-JC-GS01-T04": {
+    "profile": "period",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "d6da47e47571884f53c58a6a3b68b65ab0c5750b15022b00310186f6a75cf78f",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。",
+    "steps": [
+      "在原区间上先迭代一次函数平移关系",
+      "逐区间延拓并核对端点归属"
+    ]
+  },
+  "ZY1000-JC-GS01-T05": {
+    "profile": "limit_local",
+    "difficulty_band": "intermediate",
+    "question_hash_sha256": "dddbdefe17fd1ae5781347c660f7a8a46a3bf5101505724e715ca337d14e1889",
+    "reviewer_kind": "assistant_offline_semantic_review",
+    "human_review_performed": false,
+    "note": "已逐题读取本地题干，核对主任务和所列方法适用性；未取得原书解析及评分细则。"
+  }
+}

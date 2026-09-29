@@ -1,0 +1,109 @@
+{
+  "alternative_method_question_count": 12,
+  "by_source": {
+    "zy1000": {
+      "candidate_profiles": 884,
+      "individual_semantic_reviews": 2,
+      "no_profile": 155,
+      "records": 1041
+    },
+    "zy30": {
+      "candidate_profiles": 665,
+      "individual_semantic_reviews": 148,
+      "no_profile": 63,
+      "records": 876
+    }
+  },
+  "dependency_count": 5,
+  "external_api_calls": 0,
+  "field_coverage": {
+    "l2.assessed_construct": {
+      "candidate": 1549,
+      "filled": 1698,
+      "needs_review": 219,
+      "verified": 149
+    },
+    "l2.difficulty_band": {
+      "filled": 149,
+      "needs_review": 1768,
+      "verified": 149
+    },
+    "l2.main_knowledge": {
+      "candidate": 1549,
+      "filled": 1699,
+      "needs_review": 218,
+      "verified": 150
+    },
+    "l2.prerequisites": {
+      "candidate": 1549,
+      "filled": 1698,
+      "needs_review": 219,
+      "verified": 149
+    },
+    "l2.primary_method": {
+      "candidate": 1549,
+      "filled": 1698,
+      "needs_review": 219,
+      "verified": 149
+    },
+    "l2.secondary_knowledge": {
+      "filled": 150,
+      "needs_review": 1767,
+      "verified": 150
+    },
+    "l3.alternative_methods": {
+      "filled": 12,
+      "needs_review": 1905,
+      "verified": 12
+    },
+    "l3.evidence_steps": {
+      "candidate": 1549,
+      "filled": 1698,
+      "needs_review": 219,
+      "verified": 149
+    },
+    "l3.inter_question_dependency": {
+      "filled": 150,
+      "needs_review": 1767,
+      "verified": 150
+    },
+    "l3.isomorphic_relation": {
+      "filled": 8,
+      "needs_review": 1909,
+      "verified": 8
+    },
+    "l3.score_attribution": {
+      "candidate": 1549,
+      "filled": 1696,
+      "needs_review": 221,
+      "verified": 147
+    },
+    "l3.score_units": {
+      "filled": 1917,
+      "verified": 1917
+    }
+  },
+  "integration": "独立增量批次；活动L1/L3发布与学习运行入口尚未切换。",
+  "isomorphic_cluster_count": 4,
+  "isomorphic_question_count": 8,
+  "l0_type_correction_count": 267,
+  "official_points": "全部1917题points=null，point_status=not_applicable；不设小问分值。",
+  "record_count": 1917,
+  "semantics": "150题有逐题语义核对输入，其余是明确标识的规则候选或字段留空；L3深度不代表精标完成。",
+  "source_issues": [
+    {
+      "question_id": "ZY30-GS-15-X09",
+      "reason": "题干仅称二阶非齐次线性方程，未明确常系数或其他唯一性约束；不足以唯一确定一般变系数方程。"
+    },
+    {
+      "question_id": "ZY30-GL-01-X01",
+      "reason": "现存四个事件等式选项均缺少能保证结论的条件；第四项只能推出事件A为空，不能推出题列等式。"
+    },
+    {
+      "question_id": "ZY30-GL-01-X17",
+      "reason": "原球为白球的先验概率未给出；颜色未知本身不能推出等概率。"
+    }
+  ],
+  "task_reference_count": 154,
+  "version": "zhangyu-practice-l3-v1.0.0"
+}

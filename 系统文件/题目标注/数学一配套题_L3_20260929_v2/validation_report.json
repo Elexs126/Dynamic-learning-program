@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "1917 canonical IDs",
+    "v1.2 schema",
+    "source and question hashes",
+    "source-bound semantic review inputs",
+    "rule candidates never promoted to verified",
+    "L0 changes explained and L1 preserved",
+    "no invented points or scoring atomization",
+    "complete omission reasons",
+    "registered label references",
+    "reciprocal reviewed isomorphism",
+    "task references and direct dependency direction",
+    "no answer/student/role payload"
+  ],
+  "error_count": 0,
+  "errors": [],
+  "record_count": 1917,
+  "semantic_limit": "PASS证明结构、来源和复核输入绑定一致；语义依据是1917条逐题复核记录，不是结构校验本身。",
+  "status": "PASS"
+}

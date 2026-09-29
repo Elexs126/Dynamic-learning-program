@@ -1,0 +1,2674 @@
+{
+  "changes": [
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 9,
+      "question_hash_sha256": "9d5986252898f3bb95e44368837c6fe76f3acbac585638aa38c2fb9f8ff75d9c",
+      "question_id": "ZY30-GS-01-L1.01",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 19,
+      "question_hash_sha256": "cadbfa7cb46ca8d3454329b0289487c50a0b0c0a3c8dbe024990bfc69ed3d9ff",
+      "question_id": "ZY30-GS-01-L1.02",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 49,
+      "question_hash_sha256": "b0ba4752a18d05ede75306c8dd68ecdb56ebfc5c0f1d47302ff2ad10b872e68a",
+      "question_id": "ZY30-GS-01-L1.05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 294,
+      "question_hash_sha256": "3a382edef50c086d399ee0a9809cd923e488bdd6286b09d1ed41467c3326dab3",
+      "question_id": "ZY30-GS-01-L1.24",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 314,
+      "question_hash_sha256": "9040260d154d27d3639d8e8a1add9f78860904f3ad8c62bb999d2387b5ec5a3a",
+      "question_id": "ZY30-GS-01-L1.26",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 434,
+      "question_hash_sha256": "15e3a5e59af851131123bce5cef9fa017d34793b2471230be32987f61bb4f7ca",
+      "question_id": "ZY30-GS-01-L1.36",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 552,
+      "question_hash_sha256": "e6fd26eae520de443b9002eba14a6a04ab1b0a3283596a7c64ab23d099a79c2d",
+      "question_id": "ZY30-GS-01-X06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 562,
+      "question_hash_sha256": "55b4c91f7b426d089856192ea030799728f047bf4fbdf50ed4c80aaf450b8888",
+      "question_id": "ZY30-GS-01-X07",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 572,
+      "question_hash_sha256": "cc9d4c3f8f766f8e39af9245884b71bced54d8ec36420ff5d6784645552ef516",
+      "question_id": "ZY30-GS-01-X08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 582,
+      "question_hash_sha256": "bae3845c1e7ce40fe28eafc8f957bf4a158d84a2657376b41933c7320dd1d00b",
+      "question_id": "ZY30-GS-01-X09",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 592,
+      "question_hash_sha256": "911abe81a24a3a35b328b3fe3f75cc77d8110bcb2f28194f42d9f04fd6034a2b",
+      "question_id": "ZY30-GS-01-X10",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第01讲_函数极限与连续.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 109,
+      "question_hash_sha256": "e1f6a8722c590b74877eef389e190337eeab86b16d76dfa6c7eb636b04a04782",
+      "question_id": "ZY30-GS-02-L2.09",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第02讲_数列极限.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 262,
+      "question_hash_sha256": "e1bb8d37c9101b4fbbc34bac81969e28ce05f3508192c5e8e8c8f0806ebecf3c",
+      "question_id": "ZY30-GS-02-X03",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第02讲_数列极限.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 272,
+      "question_hash_sha256": "30ee0dcbde20ff7d81d83405c0ba676650eb6237157d0635b7e2b208e8314b1b",
+      "question_id": "ZY30-GS-02-X04",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第02讲_数列极限.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 282,
+      "question_hash_sha256": "7b44b0eb8f22ab241610696f31e7e16731a7212bff64085d3bfdec921519a01a",
+      "question_id": "ZY30-GS-02-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第02讲_数列极限.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 292,
+      "question_hash_sha256": "e82e36988b2a89c4092ecf2e86037812bbed98b1e9dbe539713630a59d420b8d",
+      "question_id": "ZY30-GS-02-X06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第02讲_数列极限.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 24,
+      "question_hash_sha256": "b230cb3ed1ec00acf31f3334ea71b9f8ee9000a6ee76118c18bff5663b4fbe78",
+      "question_id": "ZY30-GS-03-ZL1-P103",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第03讲_一元函数微分学的概念.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 34,
+      "question_hash_sha256": "5c8e7038b12d82392fd6e139aab63ed5c23698cb4093b6ef0206b85ec821504d",
+      "question_id": "ZY30-GS-03-ZL2-P103",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第03讲_一元函数微分学的概念.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 44,
+      "question_hash_sha256": "9feb25890c232c4ff98de386439e999d332650121ad2a83d7cc602ff7c125c11",
+      "question_id": "ZY30-GS-03-Z02-P103",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第03讲_一元函数微分学的概念.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 164,
+      "question_hash_sha256": "e052278a97713a09f2d64fc5d21af09733995abaa81b2c7905efc5e8daffa436",
+      "question_id": "ZY30-GS-03-L3.08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第03讲_一元函数微分学的概念.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 292,
+      "question_hash_sha256": "c7af96150b79a6470fec8ebe23fc57823c470cfb8cb284a7040bbafcf150d6bf",
+      "question_id": "ZY30-GS-03-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第03讲_一元函数微分学的概念.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 302,
+      "question_hash_sha256": "6366f6fa1aed7fc677897bc3f672b60510f5ec713634ccd0b585f27c444c1eba",
+      "question_id": "ZY30-GS-03-X06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第03讲_一元函数微分学的概念.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 9,
+      "question_hash_sha256": "d4df5528dabfbdb7df3c5f5998b9dabfb18b9be70d3d7ef7bdb6114d73274cca",
+      "question_id": "ZY30-GS-04-L4.01",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 29,
+      "question_hash_sha256": "5a5db320780d2325d646c56205c6481bfb7a329d7370b60942a572c8b5672bb3",
+      "question_id": "ZY30-GS-04-L4.03",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 69,
+      "question_hash_sha256": "0d379c8286d113feae2d04c6a7c5159a3aae9f8dd9b1b0408b4e2cd810362204",
+      "question_id": "ZY30-GS-04-L4.07",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 89,
+      "question_hash_sha256": "88684393d123558956c7fdc26742f1b52ca8f53001a12b8043ee4b40ce9fb923",
+      "question_id": "ZY30-GS-04-L4.09",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 99,
+      "question_hash_sha256": "319eaa97deaec26ebd1f00464b4d0177247dae58458b71da9e605e86d12c0eb0",
+      "question_id": "ZY30-GS-04-L4.10",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 109,
+      "question_hash_sha256": "31d786748da5bf7b8fe4a74d45e20883f43a762e25005b665475d868b7c3b66c",
+      "question_id": "ZY30-GS-04-L4.11",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 164,
+      "question_hash_sha256": "aff4ee9a7991ede5aa16182e9d4ac8578a14330350a1856e7fd848e73b420fb1",
+      "question_id": "ZY30-GS-04-L4.16",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 174,
+      "question_hash_sha256": "99c4c379d59cd57e789df5d5e2c35f44798eeffcc3a84ec73d36cff23e071f86",
+      "question_id": "ZY30-GS-04-L4.17",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 199,
+      "question_hash_sha256": "f224c585661f7f1e53b008cc5243f80e1dbb9e6458b225ff7adf587d737cf184",
+      "question_id": "ZY30-GS-04-L4.19",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 227,
+      "question_hash_sha256": "7409d5dc360d513416df8950c371d6e57884e1d4cbb8bead6ccb516de00be3f5",
+      "question_id": "ZY30-GS-04-X02",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 237,
+      "question_hash_sha256": "00edf75a78473709dbce853892faa09e789c34a350af30124cbacc4ca42640c6",
+      "question_id": "ZY30-GS-04-X03",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 247,
+      "question_hash_sha256": "47b9e501ffdae85123f5606baddbf14aad93d6897f6b46d370dbf7b98e10819e",
+      "question_id": "ZY30-GS-04-X04",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 257,
+      "question_hash_sha256": "31f91459f350c90e04028d5c05e1558514e3e02cca6dd8a27db8a1af4a57b050",
+      "question_id": "ZY30-GS-04-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第04讲_一元函数微分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 194,
+      "question_hash_sha256": "77b2ab28c86f6b3930e262ddbe6ef19286ef726ac1a4fa7eb2b79b1a7df7a43b",
+      "question_id": "ZY30-GS-05-L5.15",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第05讲_一元函数微分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 237,
+      "question_hash_sha256": "3d9d63acd86833c529089037d4b99e28923a65daaa05bd59ff791c2df34e952f",
+      "question_id": "ZY30-GS-05-X03",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第05讲_一元函数微分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 247,
+      "question_hash_sha256": "64bf5ecb939cc9c052f59fe4fd26f10eaa6b2ae6836ea6625cfaec77fb892154",
+      "question_id": "ZY30-GS-05-X04",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第05讲_一元函数微分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 257,
+      "question_hash_sha256": "7920b657dfc745b5aea5ec802e305f6840a06d806dce1bd5972c4335641e7b86",
+      "question_id": "ZY30-GS-05-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第05讲_一元函数微分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 267,
+      "question_hash_sha256": "83ec35e5369000f791e7ee0ae1e6486e697b2db737a68483356f0332aea150fb",
+      "question_id": "ZY30-GS-05-X06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第05讲_一元函数微分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 277,
+      "question_hash_sha256": "3bd81d46a62a089d5d1611ceea4550ab84fe1f2d9d83333bda3a9cb4051cfdab",
+      "question_id": "ZY30-GS-05-X07",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第05讲_一元函数微分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 287,
+      "question_hash_sha256": "2c43cd964c5b84df8e10e95203e5f38969652f4c5e6820b29e73725220b329f4",
+      "question_id": "ZY30-GS-05-X08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第05讲_一元函数微分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 189,
+      "question_hash_sha256": "413893ad8ca6b81ec0e9028046872cb11040f49dd46ab40a9dad370c35801494",
+      "question_id": "ZY30-GS-06-L6.17",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第06讲_中值定理、微分等式与微分不等式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 9,
+      "question_hash_sha256": "c2329cc1fd0409679e9aefd42476514c499315890f9a1668bf72feb000aa1269",
+      "question_id": "ZY30-GS-07-L7.01",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第07讲_一元函数微分学的物理应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 22,
+      "question_hash_sha256": "39debef5830eb26c2679cc468706304fca7987d573faa7cbb3c769db4e2cb4b6",
+      "question_id": "ZY30-GS-07-X01",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第07讲_一元函数微分学的物理应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 219,
+      "question_hash_sha256": "32f0e79d0fdd63c0340796f3db9ee53ca34ea207740184662b211024452512c9",
+      "question_id": "ZY30-GS-08-L8.16",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第08讲_一元函数积分学的概念与性质.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 322,
+      "question_hash_sha256": "14cc29419682fdd2e5f4a02598f819c59d963b00f5cbb9b648b8eae80b683467",
+      "question_id": "ZY30-GS-08-X04",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第08讲_一元函数积分学的概念与性质.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 332,
+      "question_hash_sha256": "af14fc03897a1b989380d183766de0e7ef252cc254dcb10bc1f1352f2bc3c062",
+      "question_id": "ZY30-GS-08-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第08讲_一元函数积分学的概念与性质.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 342,
+      "question_hash_sha256": "11fb8f8adcadc814c7fc893baa4311bb9885e4c512d71126bcc02075e3e4f81c",
+      "question_id": "ZY30-GS-08-X06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第08讲_一元函数积分学的概念与性质.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 99,
+      "question_hash_sha256": "3f722de6fd767629b1a69debfda39250b6e1be21c065858a7557bf7a31a8675b",
+      "question_id": "ZY30-GS-09-L9.10",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 109,
+      "question_hash_sha256": "3bf0ec1ca773783812fb443cdc78e3770075c907bbcb0b8f807eab7a5071e772",
+      "question_id": "ZY30-GS-09-L9.11",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 119,
+      "question_hash_sha256": "f52a274a986f0fc479e5470593bad3a97cdafa85f0e8ce0a9cfeb69e8c8d09df",
+      "question_id": "ZY30-GS-09-L9.12",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 139,
+      "question_hash_sha256": "1466df3570aa7a4084174b9a2948a3b5181bf9a2d8caa6564475b2017ee52cb2",
+      "question_id": "ZY30-GS-09-L9.14",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 149,
+      "question_hash_sha256": "ad18ae1fb890104b4acc671d77da6fb9cd7405a48601df3d6fbdbf976bbc4b60",
+      "question_id": "ZY30-GS-09-L9.15",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 219,
+      "question_hash_sha256": "e116334db617fe6ba64bff2450d9579103bb4c525b065b313a8e669131b905df",
+      "question_id": "ZY30-GS-09-L9.21",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 309,
+      "question_hash_sha256": "b4e8f52f0a993f656ec887ee8f3a577c65cac9ad51968446353c09bd87ad9177",
+      "question_id": "ZY30-GS-09-L9.29",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 322,
+      "question_hash_sha256": "7cefa6ecd63dbc8716b9f970186f4eee1286fbd2756f53ff83aeb4913eb673a4",
+      "question_id": "ZY30-GS-09-X01",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 332,
+      "question_hash_sha256": "34259b41ed461009727b2e38e913a7846971646f40906322aec27767411950d3",
+      "question_id": "ZY30-GS-09-X02",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 342,
+      "question_hash_sha256": "070372173c9a48542894741dc0006660815ca1cf5a44bcf8d33bf109be90cac5",
+      "question_id": "ZY30-GS-09-X03",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 352,
+      "question_hash_sha256": "31752cfe0c4bc20454cffe4b06129283916e90fc13be265cd18509062b1ef423",
+      "question_id": "ZY30-GS-09-X04",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 362,
+      "question_hash_sha256": "1c23f29976911bc9ccf5bbc65c8830d11323c7aa83e0b5b8dd6455c28a585970",
+      "question_id": "ZY30-GS-09-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 372,
+      "question_hash_sha256": "bb5ac8274a33ad55eeb0a87d2e45e6078e344bd29e68562eb48b8a26d221acd7",
+      "question_id": "ZY30-GS-09-X06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第09讲_一元函数积分学的计算.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 9,
+      "question_hash_sha256": "085ed6883e9e5926c8e109241b21cc7c7fc6e839fe8925c670411c9f81c578f8",
+      "question_id": "ZY30-GS-10-L10.01",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 29,
+      "question_hash_sha256": "3ab114b9d6a2781bf1c266cfb49f03bd751293f9979237dbddbfa7a46be033f7",
+      "question_id": "ZY30-GS-10-L10.03",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 79,
+      "question_hash_sha256": "c9cd1c8d5d99cb0c54fd01128db1e6450e8910ac657f0062710b7cbcc1ac8863",
+      "question_id": "ZY30-GS-10-L10.08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 89,
+      "question_hash_sha256": "69bb4a1280934ce573f1df99701e99d1f317bc1cca15d523464d338ff0e5e369",
+      "question_id": "ZY30-GS-10-L10.09",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 99,
+      "question_hash_sha256": "b1190e3a50f1553c22e713accc2714673196375f183453d11de67450ee76efc0",
+      "question_id": "ZY30-GS-10-L10.10",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 109,
+      "question_hash_sha256": "70967194e4367c54756605af051094950edc68182ccbe74de90b9f15a1c4a30e",
+      "question_id": "ZY30-GS-10-L10.11",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 119,
+      "question_hash_sha256": "45b83e23b95c94dfa5132785776e69dc4a8ed3f221124d9f9ab23df344c9a99a",
+      "question_id": "ZY30-GS-10-L10.12",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 129,
+      "question_hash_sha256": "6a8e75e5dda76a734487cc1fcff2477fd63b5f02e15ded577512c99d5631c857",
+      "question_id": "ZY30-GS-10-L10.13",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 139,
+      "question_hash_sha256": "7809fd85fb5a1d2ee20ca105d5b8ab4ec7d9307492aedd92fe5d584a1ef9f92c",
+      "question_id": "ZY30-GS-10-L10.14",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 152,
+      "question_hash_sha256": "e167c966146bb889d303533b8e251f73906c4b00d62866d7c740e36ef14e414b",
+      "question_id": "ZY30-GS-10-X01",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 162,
+      "question_hash_sha256": "7164d9e576a11fdda9295cf7cb7d8173174ce0fd0dc7c7338b90298f94c01bf0",
+      "question_id": "ZY30-GS-10-X02",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 172,
+      "question_hash_sha256": "8085ffe856f0479fac205064d58d868ffc750e1348510590697d4132c59e4ac1",
+      "question_id": "ZY30-GS-10-X03",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 182,
+      "question_hash_sha256": "567aec0e2ba36d88a5b00da3fd4978ea20176ccb2e53c6d1b1694182fca5b999",
+      "question_id": "ZY30-GS-10-X04",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 192,
+      "question_hash_sha256": "9651047be90511a12bbcbb1ca04bbc26494abe4db0d24ca6a8da51ef7ac40816",
+      "question_id": "ZY30-GS-10-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第10讲_一元函数积分学的几何应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 54,
+      "question_hash_sha256": "4c7f9682a846eb1d8f71662da51b48a2ad11dc03593901781531f0f73fb64a07",
+      "question_id": "ZY30-GS-11-L11.05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第11讲_积分等式与积分不等式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 9,
+      "question_hash_sha256": "3a887e22b4e08875255e4c2eb25271fbd4ac00b13345acaf93a2fed777abbdae",
+      "question_id": "ZY30-GS-12-L12.01-M1",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第12讲_一元函数积分学的物理与经济应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 19,
+      "question_hash_sha256": "55ae95309c97a5dc4cec26664261df360ff2b1f8951a079c18fd3a78f0d825b6",
+      "question_id": "ZY30-GS-12-L12.02-M1",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第12讲_一元函数积分学的物理与经济应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 29,
+      "question_hash_sha256": "d0b36b847dc4430910293dd66befd0842b39c648855be872d2f0698d5bb8e070",
+      "question_id": "ZY30-GS-12-L12.03-M1",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第12讲_一元函数积分学的物理与经济应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 39,
+      "question_hash_sha256": "df1c4eb0198be87473be01b8c69029f310ef99767389d2c1cc5265454316ba20",
+      "question_id": "ZY30-GS-12-L注-M1",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第12讲_一元函数积分学的物理与经济应用.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 24,
+      "question_hash_sha256": "8275eed5dbd4abb6a4e56a2c9fe7229edf67a460d014a4634936c868643bacca",
+      "question_id": "ZY30-GS-13-L13.02",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第13讲_多元函数微分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 64,
+      "question_hash_sha256": "4eb71cf1c6ad4749a580cf4ff5cea2406805277c1739eb2233ec91c8a6e02fcf",
+      "question_id": "ZY30-GS-13-L13.05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第13讲_多元函数微分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 129,
+      "question_hash_sha256": "a50b07ac179be14b8bb45e8bdf575da6de6716da142c5a1616b145541899a712",
+      "question_id": "ZY30-GS-13-L13.10",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第13讲_多元函数微分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 149,
+      "question_hash_sha256": "9df2d7a40b5bfe955de3a52c345935814bbcb975e65ed03d6c6a84fcdf63a66c",
+      "question_id": "ZY30-GS-13-L13.12",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第13讲_多元函数微分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 189,
+      "question_hash_sha256": "d05bacfc39fae665204acd533f42c0cf43ad1ef745b23d94f9b385690d977ded",
+      "question_id": "ZY30-GS-13-L13.15",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第13讲_多元函数微分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 199,
+      "question_hash_sha256": "9c9a11458419323547fe5fc7f0f1f9837f06dff784852746c9b99137640f8920",
+      "question_id": "ZY30-GS-13-L13.16",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第13讲_多元函数微分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 357,
+      "question_hash_sha256": "5f936a2365f2a36a32df20a29b0e4005505850848d7121293a20a41f9c0765a4",
+      "question_id": "ZY30-GS-13-X07",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第13讲_多元函数微分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 367,
+      "question_hash_sha256": "63bdeaee84f800d0fba0d147a47afb349994d4d627a29623a2a2310dfe365697",
+      "question_id": "ZY30-GS-13-X08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第13讲_多元函数微分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 377,
+      "question_hash_sha256": "1b0be3b5eb892561a64c15d9ff6a41ae77f49317a84a1c7b6e3a38154f8cdd18",
+      "question_id": "ZY30-GS-13-X09",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第13讲_多元函数微分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 24,
+      "question_hash_sha256": "39521f4d1172133ff8ef6604976dfd3becb8a82a7eb7231382577701997455a0",
+      "question_id": "ZY30-GS-14-L14.02",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第14讲_二重积分.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 79,
+      "question_hash_sha256": "118273e08cee873571e5b32f6a0c34a7067cb0fb5594bab5f20d7653e3bb503e",
+      "question_id": "ZY30-GS-14-L14.06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第14讲_二重积分.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 99,
+      "question_hash_sha256": "3e25168a25a1e1e31162c3a222b0c1bc5362013e860ce077ea31438f7a72f8d5",
+      "question_id": "ZY30-GS-14-L14.08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第14讲_二重积分.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 159,
+      "question_hash_sha256": "46ec96ca024d047c8527c260fc5493ad3b04c8d48d8031f7f257283eacc2c95d",
+      "question_id": "ZY30-GS-14-L14.14",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第14讲_二重积分.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 179,
+      "question_hash_sha256": "b035eef786c4dbe4a05ba62972fa09c0626bcb5f239f3e644e289e0330b1364b",
+      "question_id": "ZY30-GS-14-L14.16",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第14讲_二重积分.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 189,
+      "question_hash_sha256": "7548320aa3fcf85f3de630f5e34b9342aaf249c2d0aedf661508b5f8770c271b",
+      "question_id": "ZY30-GS-14-L14.17",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第14讲_二重积分.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 262,
+      "question_hash_sha256": "554e5e499abc0db4479c831ea09bc0763bdbced0e51cdd8288f8ca9b6ec490bb",
+      "question_id": "ZY30-GS-14-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第14讲_二重积分.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 272,
+      "question_hash_sha256": "3eff3f1a5d3c4d423a09fa2965c5e28b337185a64ff7c7ff4875ab9e9fdd9688",
+      "question_id": "ZY30-GS-14-X06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第14讲_二重积分.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 282,
+      "question_hash_sha256": "bf313daf1e21eb587747e802f4942686af3aac6acecbace59680a17e05f42967",
+      "question_id": "ZY30-GS-14-X07",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第14讲_二重积分.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 24,
+      "question_hash_sha256": "230a2a7e4c80a46f886abacd9ff0d47baaf448b06f76c6eb25d0b42d1e7b28be",
+      "question_id": "ZY30-GS-15-L15.02",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 34,
+      "question_hash_sha256": "f050db5a7e1e2479a960bab6dad99abb8f04b9b6ab8d60fb81c23be31cfa631e",
+      "question_id": "ZY30-GS-15-L15.03",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 44,
+      "question_hash_sha256": "7606291958b4b359e60a67d6ac666c08392bbfc62367abd9638b463d714a65f7",
+      "question_id": "ZY30-GS-15-L15.04",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 84,
+      "question_hash_sha256": "7a3cbd6bd4a4a612ec8e74a91e39ad211d0dde9c6ef5ccd0518bbca8ce253f38",
+      "question_id": "ZY30-GS-15-L15.08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 159,
+      "question_hash_sha256": "1c5b4e68df962fbde8858079647686b9f30d8e89704dd7d0a1273ff608e43751",
+      "question_id": "ZY30-GS-15-L15.15",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 169,
+      "question_hash_sha256": "8fcdfe2422714671c46183092f5f40804b6c7a685cafd21b9a59aff63c46dee4",
+      "question_id": "ZY30-GS-15-L15.16",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 199,
+      "question_hash_sha256": "0c0314cca0978c48261e4474da11305bc62550624d1f29a2371e65ce38d8855b",
+      "question_id": "ZY30-GS-15-L15.19",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 209,
+      "question_hash_sha256": "e61d295d75b29b46d8cab8da6a14c200fdb7fd800f6bf52d39007a0c95e4ccf1",
+      "question_id": "ZY30-GS-15-L15.20-M1",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 244,
+      "question_hash_sha256": "b4583a74379dca32a8885d38c3091fdfd63685d2ee8ce47383b9d381ecfe9035",
+      "question_id": "ZY30-GS-15-L15.23-M1",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 272,
+      "question_hash_sha256": "7b8f29e48882ce807a640e05352938677f2bf696cffdf6f92f1e19557c85318a",
+      "question_id": "ZY30-GS-15-X02",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 282,
+      "question_hash_sha256": "3d546f8889090f9f9ed109e991bff154d3c5332920d26d1fdb35ad047d470c5d",
+      "question_id": "ZY30-GS-15-X03",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 292,
+      "question_hash_sha256": "50aa2d0c9d89247fec4be6a9664b3206fbef7e6a828acd7db1f07afe3fba112e",
+      "question_id": "ZY30-GS-15-X04",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 302,
+      "question_hash_sha256": "75c822afe3ddddb8e16b798c748d70d74cf681e7763685a09d9eb9c53294d95b",
+      "question_id": "ZY30-GS-15-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 312,
+      "question_hash_sha256": "114f456729d99920c0ca08b81e74689ea0cc0edeb4efc8198bf95fd1611ee364",
+      "question_id": "ZY30-GS-15-X06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 322,
+      "question_hash_sha256": "035ba49354e5c44a05ca3af9cbca789be9725b5e0cc30257e6e6b04b37afa7b2",
+      "question_id": "ZY30-GS-15-X07",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 332,
+      "question_hash_sha256": "ac8a4d35b6a45e8b94ed51e7e76d8dbefd2e851ea6ab9201e7dabad456be1441",
+      "question_id": "ZY30-GS-15-X08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第15讲_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 99,
+      "question_hash_sha256": "4ece96ded4eb20bde6ab8ba267bb1d9931822243c7894ec7afcb136d1245d4d3",
+      "question_id": "ZY30-GS-16-L16.09",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 249,
+      "question_hash_sha256": "d5311967fac657626a6ff4a1fc7b1cea27663ffc1a3c8bbcd03b9dd8ccc449ba",
+      "question_id": "ZY30-GS-16-L16.21",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 259,
+      "question_hash_sha256": "f2586824fa44882c505be5c52c7ac0e63c33fe74ff369702b534f683d0b75a3b",
+      "question_id": "ZY30-GS-16-L16.22",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 269,
+      "question_hash_sha256": "69ce7f4e89191399c21dfbec69bff31326d5a0f54ba941132680f92476c172bf",
+      "question_id": "ZY30-GS-16-L16.23",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 294,
+      "question_hash_sha256": "a75fca73ad7c9ce6be3448c11e79be14ec9ce43a9d757402d6f91a1c38dc56d2",
+      "question_id": "ZY30-GS-16-L16.25",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 319,
+      "question_hash_sha256": "d7a109da14b8b75500be7915371acbdf5f2a1c21b5845410cf19be9e1843a6e7",
+      "question_id": "ZY30-GS-16-L16.27",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 414,
+      "question_hash_sha256": "a4d5fef1d468b2f75084dd6138d880d36e29ae6f5db0b484fe0fca68a0fb8086",
+      "question_id": "ZY30-GS-16-L16.36",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 434,
+      "question_hash_sha256": "08db2df2f164a69a2fd78831a181fea583f31bfeaffee2fefdb6d00ade4843f5",
+      "question_id": "ZY30-GS-16-L16.38",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 517,
+      "question_hash_sha256": "1531f10597d6f07e63535d8004d3d2c09bff51ce01b427b9150bc0379a9aaadf",
+      "question_id": "ZY30-GS-16-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 527,
+      "question_hash_sha256": "3a4c20a73cca66b789fda1bc3bee57af06595dbafbc0953861c9c6319863f26e",
+      "question_id": "ZY30-GS-16-X06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 537,
+      "question_hash_sha256": "a53d4b670d118ddcdfe51d888634cc3b871b8cb04769565e911facab964c013e",
+      "question_id": "ZY30-GS-16-X07",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 547,
+      "question_hash_sha256": "fdec18d39954c8169ecafa7cea7328a968aeff45941b9ee2810fd0256104a8f8",
+      "question_id": "ZY30-GS-16-X08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第16讲_无穷级数.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 9,
+      "question_hash_sha256": "cebc9b03eb57bec1226b46e7482cbb53bef3b397222891d9bb9645a9af48d1d7",
+      "question_id": "ZY30-GS-17-L17.01",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 19,
+      "question_hash_sha256": "42ec2da02330a09238d0755eb62b563575041a4b0b3e4a91e15fe91a4acf04ae",
+      "question_id": "ZY30-GS-17-L17.02",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 54,
+      "question_hash_sha256": "c3e1a141a87542a3b6cc621bb4260aa2ba73fe6f11ff2e5dd5a74807344b6742",
+      "question_id": "ZY30-GS-17-L17.05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 64,
+      "question_hash_sha256": "36af24b5ca6f1c315fc5a758b63620264df054f6be7f6996aa1c41f757971515",
+      "question_id": "ZY30-GS-17-L17.06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 74,
+      "question_hash_sha256": "73898ac825031dc2e0d536c3ff51c8afd9bf2a98424b17d53e4431a82416cbd2",
+      "question_id": "ZY30-GS-17-L17.07",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 84,
+      "question_hash_sha256": "d5ab3f778a7b1ce7e2e3732935e0eee4bfddfa8b4d360dc848c0ed0f8170cb6e",
+      "question_id": "ZY30-GS-17-L17.08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 139,
+      "question_hash_sha256": "789325bcd7206eaff551d80c1c8eb5781bfb3e9758668f4b8072f5a9a8a48100",
+      "question_id": "ZY30-GS-17-L17.12",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 149,
+      "question_hash_sha256": "55bfe008f094b34c517884925edd8ffa57f42d2b5b02a03489a1a25942b1c7e2",
+      "question_id": "ZY30-GS-17-L17.13",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 207,
+      "question_hash_sha256": "520faebb9f49e965ef49012f901f15ff1bc826f6101cf3f23f0407ca2b847561",
+      "question_id": "ZY30-GS-17-X04",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 217,
+      "question_hash_sha256": "dd4ac671f63d639b6a7cce02ab5a7ce1c04e403a8a28fd889cb7ebf2ff876816",
+      "question_id": "ZY30-GS-17-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 227,
+      "question_hash_sha256": "d347d4e1879ed1d2d3e89add586f7a696d0c0a325614b03316b9dbec46d5b6c3",
+      "question_id": "ZY30-GS-17-X06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 237,
+      "question_hash_sha256": "456e5bc2bbf7f50d3443caf32dc3adde83bb973994f7ef9f78ff5ed933a8e3f4",
+      "question_id": "ZY30-GS-17-X07",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 247,
+      "question_hash_sha256": "10e43c906143d2ca0f450642ea666bc14887b747e51d156e76dfa575a5c88114",
+      "question_id": "ZY30-GS-17-X08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 257,
+      "question_hash_sha256": "11bd36cc03e055ecff423c1ba46eebdafe0bb7e3c811c2f1d840b9509cfea222",
+      "question_id": "ZY30-GS-17-X09",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 267,
+      "question_hash_sha256": "5f0b97c1b848a6911d802fd325b6b33bb03a80811d8a0eaf41df94a1894cda3a",
+      "question_id": "ZY30-GS-17-X10",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 9,
+      "question_hash_sha256": "98473fe1d135453e98e711193eacfa596dccb9dd9e3614925ce593ee08cf44c5",
+      "question_id": "ZY30-GS-18-L18.01",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 19,
+      "question_hash_sha256": "2bfb68849bbb1beaee8adbf00a7ca2e4cb7bd292dd3c182b071dd3d1494c2bf3",
+      "question_id": "ZY30-GS-18-L18.02",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 29,
+      "question_hash_sha256": "afd21e849346d5a863dc1c4f83bf04ad75c88db4a1cfdbafd15ee552a3839bb4",
+      "question_id": "ZY30-GS-18-L18.03",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 39,
+      "question_hash_sha256": "edab9d72a5a7c3eca2449a137d85f84879da6ae1657d27c3c6ffe85cb36f5591",
+      "question_id": "ZY30-GS-18-L18.04",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 49,
+      "question_hash_sha256": "3455dcc596b533c4b65577438a9672b72f26cb6cfec812517d984b02db1a2e3b",
+      "question_id": "ZY30-GS-18-L18.05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 59,
+      "question_hash_sha256": "ee7376e9b98a6b775a31ab3186524fbe9953fb0d693216b374b413ca8b1a079a",
+      "question_id": "ZY30-GS-18-L18.06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 69,
+      "question_hash_sha256": "ea9309fcd399114bf91c234270d3bdf32787dd74c9337ee85fca6ed27828318e",
+      "question_id": "ZY30-GS-18-L18.07",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 79,
+      "question_hash_sha256": "88ce06c5e1c2ccb55777454b113dd937138fdd4bf3b74831449f6670835e9646",
+      "question_id": "ZY30-GS-18-L18.08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 89,
+      "question_hash_sha256": "be3026814f490e402cfa1ae534f28dd50b163a284f258dac54d91cbd74dde35c",
+      "question_id": "ZY30-GS-18-L18.09",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 99,
+      "question_hash_sha256": "2ae27534df709ba97ed60a4d67571d8b27cea6c8c6f7b41cf4901bd748012f32",
+      "question_id": "ZY30-GS-18-L18.10",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 109,
+      "question_hash_sha256": "26324a70bbe8c0bd1fdbe90dcfb1356e2b3d903697d57daf2634fb7023396105",
+      "question_id": "ZY30-GS-18-L18.11",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 169,
+      "question_hash_sha256": "d0041e03a0685282dfb5705e6b39289c09af8105ebbf9af50a65dc33912605fe",
+      "question_id": "ZY30-GS-18-L18.17",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 199,
+      "question_hash_sha256": "9ea3ae4c79cb92218c7665d6b4c9e9dc3bfe297343c77d7890ade10f85d9c62d",
+      "question_id": "ZY30-GS-18-L18.20",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 279,
+      "question_hash_sha256": "cb2696c1309b9d50403eebe709e8ece07a39c2aaaadb8add277c782062d6c36c",
+      "question_id": "ZY30-GS-18-L18.28",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 342,
+      "question_hash_sha256": "6fd91ed8b53aa527703494857c9134b339ecbcb93e448d58b37e7638896b95e7",
+      "question_id": "ZY30-GS-18-X03",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 352,
+      "question_hash_sha256": "03d3fde564fa652eaf1aab8a99659886709a86674d3c19b5ef60daa17fb44001",
+      "question_id": "ZY30-GS-18-X04",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 362,
+      "question_hash_sha256": "70502dfeb305e700c08325a0bdb662b39f3e259cf88c8cb88e91b1fc7eddab37",
+      "question_id": "ZY30-GS-18-X05",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 372,
+      "question_hash_sha256": "6b09f3229a50214605d3c2a9393a6433a16b8b8bec6e0ea3c7a02a4ef39a7446",
+      "question_id": "ZY30-GS-18-X06",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 382,
+      "question_hash_sha256": "4e8a4cb5f940b9a307743545ab647d0381eb194ac4cabc0770d3e20f1c7b5322",
+      "question_id": "ZY30-GS-18-X07",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 392,
+      "question_hash_sha256": "190ed54eb461be1075e544701fee3ea71c87f7ef4bf086d6a6dcb13de29945ae",
+      "question_id": "ZY30-GS-18-X08",
+      "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 9,
+      "question_hash_sha256": "824752719ed64ba3863dd52fc6b160388593b41991d0c90ac1e6a9a29b6ba296",
+      "question_id": "ZY30-XD-00-ZL①-P3",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第00讲_零基础课线性代数入门.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 19,
+      "question_hash_sha256": "f5ce62daa69f7ead9bc022db43954df0c0c4ec8cc2cf54519937507a67b2cca2",
+      "question_id": "ZY30-XD-00-ZL②-P3",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第00讲_零基础课线性代数入门.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 29,
+      "question_hash_sha256": "6cc01773ecb55dba89466df85bf69ce8cddaa788b2fc58c60e69cabc38b1d65e",
+      "question_id": "ZY30-XD-00-ZL③-P3",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第00讲_零基础课线性代数入门.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 39,
+      "question_hash_sha256": "e35002a3c3980255b9b95ab0927ce0a03ad55def10357a77cbc04e29c21ebf40",
+      "question_id": "ZY30-XD-00-ZL④-P3",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第00讲_零基础课线性代数入门.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 49,
+      "question_hash_sha256": "fea3958988a231417200c3ddb2a178780dfc64f616be60d7b1103624c33c85d5",
+      "question_id": "ZY30-XD-00-ZL⑤-P3",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第00讲_零基础课线性代数入门.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 59,
+      "question_hash_sha256": "e9c04737cb6d9377c86bd6c286a5b8fc5e90ab1fa5a2a60a2e5de7085f94fee3",
+      "question_id": "ZY30-XD-00-ZL⑥-P3",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第00讲_零基础课线性代数入门.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 69,
+      "question_hash_sha256": "e483824b8a03fcf4ed03bd7d39260c4c39f8279814b5f2e1234fdf462dfa1868",
+      "question_id": "ZY30-XD-00-ZL⑦-P3",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第00讲_零基础课线性代数入门.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 79,
+      "question_hash_sha256": "a4bd20954d7c5b5417f75cf0b2599797a76ebabab77fe024b42128d5386e7d50",
+      "question_id": "ZY30-XD-00-ZL⑧-P3",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第00讲_零基础课线性代数入门.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 89,
+      "question_hash_sha256": "2236a4ad0c845969ed85bc60a79eb6d5f575a3b5fff1f663a00fcb642c9fdd4a",
+      "question_id": "ZY30-XD-00-ZL①-P4",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第00讲_零基础课线性代数入门.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 99,
+      "question_hash_sha256": "ab772af3c55f238f7f46994322d4aa69080e7b518c7c9890161482ce631b8039",
+      "question_id": "ZY30-XD-00-ZL②-P4",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第00讲_零基础课线性代数入门.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 34,
+      "question_hash_sha256": "f7b6d58f581addaf6fee379fbaed3b05923ea26d87c2b1365c3a545c38cea535",
+      "question_id": "ZY30-XD-01-L1.03",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 109,
+      "question_hash_sha256": "5aab56ce46ca26f1e5fbdf9aa3262497d4ab949f666c5decf5e90982ca5c5aa6",
+      "question_id": "ZY30-XD-01-L1.10",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 119,
+      "question_hash_sha256": "4c7c807bd45f64d51a404abd1e0cb93f2dbb797fab691549c34e2200b839ba0f",
+      "question_id": "ZY30-XD-01-L1.11",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 187,
+      "question_hash_sha256": "4b09df31534184f1146974592f44b819f33a6c50edbab7c2e08fa6430584602f",
+      "question_id": "ZY30-XD-01-X03",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 197,
+      "question_hash_sha256": "cd3c9950fb674150c591070c7e6037747b6130c5b6d6efa721f09421c1a0b543",
+      "question_id": "ZY30-XD-01-X04",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 207,
+      "question_hash_sha256": "142c301caf072afa64fe62a1d2ca006ea568217300a62d73e22d6c2334287239",
+      "question_id": "ZY30-XD-01-X05",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 217,
+      "question_hash_sha256": "268fc871f5cc2b6bded1516d52301622ab87d69e46d4e0a78a0d406eced22f89",
+      "question_id": "ZY30-XD-01-X06",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 227,
+      "question_hash_sha256": "a75fc9882c5e72e0a90cd158fbf7b0ad1101c231647f1330f1ae1ddf0eb2e083",
+      "question_id": "ZY30-XD-01-X07",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 237,
+      "question_hash_sha256": "e04e7473e3312b55da76b41c36ec6045cedfa250aaf479efee701d1ceb031722",
+      "question_id": "ZY30-XD-01-X08",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 247,
+      "question_hash_sha256": "cca36e338f5404e9a8673faeebf179a737e6ea828956f7b95047181eda4c13e3",
+      "question_id": "ZY30-XD-01-X09",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 257,
+      "question_hash_sha256": "7c657f03e3559eb22e2cf2382c927ddf56e0dee98eec9114b4fcaab2aa5e4702",
+      "question_id": "ZY30-XD-01-X10",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 267,
+      "question_hash_sha256": "1641c9fa40540783519bf53daaa9fa7753eba7ffbfaafc554bacf7a3071710d4",
+      "question_id": "ZY30-XD-01-X11",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第01讲_行列式.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 9,
+      "question_hash_sha256": "ff9249246691e6fddf1932d4a3cd62c210082da3e9880eb80a5283fd37e03ec7",
+      "question_id": "ZY30-XD-02-L2.01",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 19,
+      "question_hash_sha256": "fea45740a0ba628709ea556db010fa898953c6e224fa5edcbcc001c1d9e8a511",
+      "question_id": "ZY30-XD-02-L2.02",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 94,
+      "question_hash_sha256": "605086608408d4522329ef288bb73e00fe3abb32def04c7187b66bdde2db43aa",
+      "question_id": "ZY30-XD-02-L2.09",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 119,
+      "question_hash_sha256": "8b0b429b667fc21ff3053df8c322b76e67e2ba26f0f91ff933950b5a8e024c89",
+      "question_id": "ZY30-XD-02-L2.11",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 139,
+      "question_hash_sha256": "b9b8edd5387c74fe57fc39144e82267a10e09563d9b957d0c92b4ec5f41bd0ba",
+      "question_id": "ZY30-XD-02-L2.13",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 327,
+      "question_hash_sha256": "b8d1056240d81734b809c051142d5fa4b34386be3f4cbe5add420f22a20f0001",
+      "question_id": "ZY30-XD-02-X07",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 337,
+      "question_hash_sha256": "b4e2bb1048dfbee39f2730763c9bf8f84c7911dd7a6770eb7b38ef95d6b72446",
+      "question_id": "ZY30-XD-02-X08",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 347,
+      "question_hash_sha256": "2cf45fd117bee7cbdc75bb044851f1423aa358cce4c8c85c20cbd1a00956943b",
+      "question_id": "ZY30-XD-02-X09",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 357,
+      "question_hash_sha256": "dc7c2247c6eeda24ae93401a2da8334a85c5a061695cbebac56f0ed92096630c",
+      "question_id": "ZY30-XD-02-X10",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 367,
+      "question_hash_sha256": "fbbfaf5d284ee54fb56872f515b00d1b3be4e81c9d4e1104d79e02d818dcd504",
+      "question_id": "ZY30-XD-02-X11",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 377,
+      "question_hash_sha256": "810fa83f2f8e36b37b8545ab525bdaabae0d8bb20c3cbe7ca419d5344dc1d4e7",
+      "question_id": "ZY30-XD-02-X12",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第02讲_矩阵.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 159,
+      "question_hash_sha256": "51e06151a616730e19af9ded6e95a62fd019c31901075e552602e9ecc2217309",
+      "question_id": "ZY30-XD-03-L3.14-M1",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第03讲_向量组.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 262,
+      "question_hash_sha256": "9439375cb2719b16c84c8ac5a8b6b5dd365b5c5e2e7a9287b2c3ba45ae656608",
+      "question_id": "ZY30-XD-03-X07",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第03讲_向量组.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 19,
+      "question_hash_sha256": "706d54fcac949fb0e48e44c36f33eea7402472a409d8e38453a485db8725afa6",
+      "question_id": "ZY30-XD-04-L4.02",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第04讲_线性方程组.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 114,
+      "question_hash_sha256": "54db81bd608b4b379473e038fd81985d04ceda06c075de0b96f53fe24fa9f1ac",
+      "question_id": "ZY30-XD-04-L4.09",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第04讲_线性方程组.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 124,
+      "question_hash_sha256": "e10aa3465530e63487419967c3d58922975be4a2d4ce10b2cc9282ca152e4a9d",
+      "question_id": "ZY30-XD-04-L4.10",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第04讲_线性方程组.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 267,
+      "question_hash_sha256": "2060db924bf111beff926073417a4c62ed31ddd4fc6e87a76b3a68a9db0b6568",
+      "question_id": "ZY30-XD-04-X06",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第04讲_线性方程组.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 277,
+      "question_hash_sha256": "c5f43860749a37ab1110a2f2085f142e49620bd4d1cda4144f08b04dbf6906dc",
+      "question_id": "ZY30-XD-04-X07",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第04讲_线性方程组.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 39,
+      "question_hash_sha256": "fdac9b02984658ecc7ecf1db4a54e696836412dd87f2b3942b52d65e37b562e9",
+      "question_id": "ZY30-XD-05-L5.04",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第05讲_特征值与特征向量.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 49,
+      "question_hash_sha256": "e4ba86899593aeb73bd0a5f05679a81999050dd0d75bd34df4ebe87ada8e3f70",
+      "question_id": "ZY30-XD-05-L5.05",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第05讲_特征值与特征向量.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 74,
+      "question_hash_sha256": "87001e3c16a9dada078ff60c533fa26b6a2e4df6d213eff540082f6ef31ebdb1",
+      "question_id": "ZY30-XD-05-L5.07",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第05讲_特征值与特征向量.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 174,
+      "question_hash_sha256": "f90aa7d6ad9e632843e6bf122d4f4fd39bc360d0bf2e8188aecc6d3a55e8dc19",
+      "question_id": "ZY30-XD-05-L5.15",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第05讲_特征值与特征向量.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 184,
+      "question_hash_sha256": "31832d3468ca4a9afd747abf81dcf0579234a8cfecb4662c3ae8a60fe495df51",
+      "question_id": "ZY30-XD-05-L5.16",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第05讲_特征值与特征向量.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 287,
+      "question_hash_sha256": "fd8530438853ff97048b1c020208848b2a5739ced5f97456ee3c34b64f735053",
+      "question_id": "ZY30-XD-05-X05",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第05讲_特征值与特征向量.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 297,
+      "question_hash_sha256": "f1efc91294aad9f95e5f11b93b647f0296ed923a537393e9c95b6a1a1c763aca",
+      "question_id": "ZY30-XD-05-X06",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第05讲_特征值与特征向量.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 307,
+      "question_hash_sha256": "69d2e08c73ffe4652db69f3ead735f23115d9569f23d4e94d2bc521dfc7367b6",
+      "question_id": "ZY30-XD-05-X07",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第05讲_特征值与特征向量.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 317,
+      "question_hash_sha256": "3a6a0c4bd332092ed28cb9eed39c4afe89f8e7463f80116aec53b8a50a2d179a",
+      "question_id": "ZY30-XD-05-X08",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第05讲_特征值与特征向量.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 74,
+      "question_hash_sha256": "963876391253e24fae06cd359f1a2e00e5afb63aed7e73156078f3a2b60ab54a",
+      "question_id": "ZY30-XD-06-L6.07",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第06讲_二次型.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 124,
+      "question_hash_sha256": "09ed03fffc09234bf05dbd2b55411aac8ece80f7c95d0b690d0945ca4d9ac120",
+      "question_id": "ZY30-XD-06-L6.11",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第06讲_二次型.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 197,
+      "question_hash_sha256": "276a8fb1a2a330f4a2d5778e75f985ae1f0231344303cc130fe7529a1faa87de",
+      "question_id": "ZY30-XD-06-X04",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第06讲_二次型.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 207,
+      "question_hash_sha256": "6aa0a523d1376fb1d944e9db389ae3816a2797e703eda4d4ee997fb2b8f19ccf",
+      "question_id": "ZY30-XD-06-X05",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第06讲_二次型.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 217,
+      "question_hash_sha256": "4473d5e15a77768c99586df8a4b16e9983b755b6143e1bab4d572e1d08702bab",
+      "question_id": "ZY30-XD-06-X06",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第06讲_二次型.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 227,
+      "question_hash_sha256": "7ff6479a63eff8cb2a4351f40428b2b33ccbbbedbe200499f1afd8e973eaf196",
+      "question_id": "ZY30-XD-06-X07",
+      "source_file": "配套习题/张宇基础30讲/02_线性代数篇/第06讲_二次型.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 39,
+      "question_hash_sha256": "6e4fcc09f7f64ec0232592757bcfde5ec4ec5752eb8b21c8ff6e3d5f2b5789ab",
+      "question_id": "ZY30-GL-01-L1.04",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 79,
+      "question_hash_sha256": "45a605cfafb11d42360b0ef045eb0cb537ce972b4e1648226c3e0a72996bc8ec",
+      "question_id": "ZY30-GL-01-L1.07",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 89,
+      "question_hash_sha256": "4473beb385e49306d35b5a40daaf44512f671d1aced50319729bb69ba8e9bfef",
+      "question_id": "ZY30-GL-01-L1.08",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 109,
+      "question_hash_sha256": "c630cb9b2e37b0c38a7a6e01aace5acf16371907ff993c9eeb7317589eb757df",
+      "question_id": "ZY30-GL-01-L1.10",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 119,
+      "question_hash_sha256": "c8809840440b2b828ad5a9a25a4124ebcba488d9aa7c5a0f7d820e64559ea439",
+      "question_id": "ZY30-GL-01-L1.11",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 154,
+      "question_hash_sha256": "3f217f5d4ff796622c79bbfdaa2fcbb7168a2f86dc80f874fb325880ee97b208",
+      "question_id": "ZY30-GL-01-L1.14",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 257,
+      "question_hash_sha256": "875a2c0a47608a0f09684af513eb9db297158ec81b090b820982855cef9bc9e6",
+      "question_id": "ZY30-GL-01-X06",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 267,
+      "question_hash_sha256": "099729bff391207cc43a64a78b472faa4759d4166b1a67b58e5f189a90661785",
+      "question_id": "ZY30-GL-01-X07",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 277,
+      "question_hash_sha256": "12a01b2b97df8b5f9d328ce649bb8dcdc6e642d033239443f9968b3ec989d230",
+      "question_id": "ZY30-GL-01-X08",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 287,
+      "question_hash_sha256": "110c316d521048d4e0f136b4b449bb80ff19ff4934c38207c423442a39871585",
+      "question_id": "ZY30-GL-01-X09",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 297,
+      "question_hash_sha256": "5119884cc1de3e23068ca34cc34abc7a279d6ec51a194120691e564233b8f9c1",
+      "question_id": "ZY30-GL-01-X10",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 307,
+      "question_hash_sha256": "82da7f71587414817ba7131c8582092073f769a379450b639e0de70412872088",
+      "question_id": "ZY30-GL-01-X11",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 317,
+      "question_hash_sha256": "233dce42e61e28e684f62f0fc6462ff5b34988211182bd6efa803f3240f79ebc",
+      "question_id": "ZY30-GL-01-X12",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 327,
+      "question_hash_sha256": "39d1bf0b9ca9e8a2b60fc38c07ea70ed48040fa35dfa27c1d707e6c7ffd33f95",
+      "question_id": "ZY30-GL-01-X13",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第01讲_随机事件与概率.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 44,
+      "question_hash_sha256": "76791d872b8d45202f3b98dcd326058064a101f7c98c5860f5edd781ce56be92",
+      "question_id": "ZY30-GL-02-L2.04",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 109,
+      "question_hash_sha256": "ead591594834dcc61290e8b4e3f12cc0d3e410a63a526153deb342161297aef0",
+      "question_id": "ZY30-GL-02-L2.10",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 257,
+      "question_hash_sha256": "eb89468b0edd2a764ea608a2ef86c997d7ad60e35f3db7c14aa835c58a543c8c",
+      "question_id": "ZY30-GL-02-X04",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 267,
+      "question_hash_sha256": "bab4a6b9836b787dc1b744e23bf1c391ead725fe50b645d5bb8cc2b165e4e526",
+      "question_id": "ZY30-GL-02-X05",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 277,
+      "question_hash_sha256": "8322a60617c3cc2ac0794a6d9499a5ce1cf74315236af06efa6812c2446f2f4f",
+      "question_id": "ZY30-GL-02-X06",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 287,
+      "question_hash_sha256": "77695b045f1cbc465565a253b6c371f416ac079f8a3180d82cda896e616a155b",
+      "question_id": "ZY30-GL-02-X07",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 297,
+      "question_hash_sha256": "d635ed6a542b5253a3c19b7fcacb1c54a790f77f2934df2aece5501ea720e4c0",
+      "question_id": "ZY30-GL-02-X08",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 307,
+      "question_hash_sha256": "0bb0dbf95489d40ee2085956aa9afb61985d85d47fa75cdb0691b127de3ebbe8",
+      "question_id": "ZY30-GL-02-X09",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 317,
+      "question_hash_sha256": "082ceceb1773ead6e3dfe86a0605f4a4af58c583caa18b307fd844792a2c4e47",
+      "question_id": "ZY30-GL-02-X10",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 327,
+      "question_hash_sha256": "fdf507bd467d14680ceaa7d6ac5c3081fda6b3922eed08273b6d8fbeda74b257",
+      "question_id": "ZY30-GL-02-X11",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 337,
+      "question_hash_sha256": "5644137eb8e54613d7bc8848bf73b164ef99c481299d82d936b55dbce8c43c55",
+      "question_id": "ZY30-GL-02-X12",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 54,
+      "question_hash_sha256": "84581d62163206ed656f637450292c7c811a01daf77a0da2a6260f66531137b7",
+      "question_id": "ZY30-GL-03-L3.05",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第03讲_多维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 197,
+      "question_hash_sha256": "e3ce2e47c2c6141462ea334821ab8f75b5a156985e550a4f07742518dee52b10",
+      "question_id": "ZY30-GL-03-X05",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第03讲_多维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 207,
+      "question_hash_sha256": "ed81b1ef9c367862eb2c744949be9d0294d1f52648dd2e2483a165eb992db0c1",
+      "question_id": "ZY30-GL-03-X06",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第03讲_多维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 217,
+      "question_hash_sha256": "60d454a635ea80c530f3bae85595093a22e84b4316ec68ce9571e0a86505d522",
+      "question_id": "ZY30-GL-03-X07",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第03讲_多维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 227,
+      "question_hash_sha256": "1f53b28dd7b5d30f8cc31e56f245fb6d5b19dd68a6da3b204db9294412172f8b",
+      "question_id": "ZY30-GL-03-X08",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第03讲_多维随机变量及其分布.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 9,
+      "question_hash_sha256": "7b3e8a40de2eda8281d3018dc2a144839da1105b8959d90e43bf95322fff7dbf",
+      "question_id": "ZY30-GL-04-L4.01",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 44,
+      "question_hash_sha256": "3d6b53d4ae7c7e4acd8195b12a23ccfcee222255b12aba1d5ba782516d94314c",
+      "question_id": "ZY30-GL-04-L4.04",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 54,
+      "question_hash_sha256": "3680a27d6890071d6aac6462a792a6f018e7e8dcc64e3e2048c088fd0baf1e3c",
+      "question_id": "ZY30-GL-04-L4.05",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 64,
+      "question_hash_sha256": "22bf3e00b62cffbe99ec81233ec4024ae1ae7843607b6e603a1e67ab0fd1d132",
+      "question_id": "ZY30-GL-04-L4.06",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 124,
+      "question_hash_sha256": "7764fd758a64da224e3b39a22a29c6cdea4bd203f914d74e68d6a630cf458702",
+      "question_id": "ZY30-GL-04-L4.11",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 207,
+      "question_hash_sha256": "930b61b49359157282621f37dbb6b4c8b69b7259d21a1035ede1b168fbf1752c",
+      "question_id": "ZY30-GL-04-X05",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 217,
+      "question_hash_sha256": "b9747ffa1bde567fbcd8089f0c9dd61327cbd9129096b07160b17147ab73acef",
+      "question_id": "ZY30-GL-04-X06",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 227,
+      "question_hash_sha256": "584e6fc1f57caf924631a2d712653ea5e39d376c8b839a6c6b3b8112a5aab195",
+      "question_id": "ZY30-GL-04-X07",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 237,
+      "question_hash_sha256": "da47b27942f127b1c8c07c132a218c7b9493c1e0d27c817e41dd287292184371",
+      "question_id": "ZY30-GL-04-X08",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 247,
+      "question_hash_sha256": "30726a1f7d8c929d3447f6b4535b785a97184e87729bb923cdba7a84644eee3e",
+      "question_id": "ZY30-GL-04-X09",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 257,
+      "question_hash_sha256": "5ff847e3434ab02e24ce41df00db79adb693f245d7a7b7f4ed35955eafe572c0",
+      "question_id": "ZY30-GL-04-X10",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 267,
+      "question_hash_sha256": "aff7a077527e3ab73819cd61f88a71e7b253f86b8a610bd3e928660eb6a8f5d7",
+      "question_id": "ZY30-GL-04-X11",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 277,
+      "question_hash_sha256": "34ba0bbd377e0917d42cb60f499f6687c3ba759763d58535d677dea4965f7d96",
+      "question_id": "ZY30-GL-04-X12",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 122,
+      "question_hash_sha256": "81e948769a43076bd8dac7b3435f67dc1a252f5f88714f8c350b383a881c86af",
+      "question_id": "ZY30-GL-05-X03",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第05讲_大数定律与中心极限定理.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 132,
+      "question_hash_sha256": "239729c376281220e532973c9f358f28ca7ab30f17e7921ad141e708e2fbc19b",
+      "question_id": "ZY30-GL-05-X04",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第05讲_大数定律与中心极限定理.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 9,
+      "question_hash_sha256": "6a5c288c41f7a631d7b99fc8a89b37129616947f40bbb8ea5e6a04be6a39d3f6",
+      "question_id": "ZY30-GL-06-L6.01",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第06讲_数理统计.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 34,
+      "question_hash_sha256": "78592f252c8a6a57449f1ad9082e0bc7165c7ca46307e72a8f1a6652bcece6bc",
+      "question_id": "ZY30-GL-06-L6.03",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第06讲_数理统计.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 184,
+      "question_hash_sha256": "7839b591897506387311c439a52159e558a827ba53c3cabe27762fd638a2194e",
+      "question_id": "ZY30-GL-06-L6.14",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第06讲_数理统计.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 342,
+      "question_hash_sha256": "477a2fb5c83cde49b330c6f4951c754d27c44535fd65d0a5cf7cee91a2233081",
+      "question_id": "ZY30-GL-06-X08",
+      "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第06讲_数理统计.md"
+    },
+    {
+      "after": "fill",
+      "basis": "题干有明确填空占位符；选择题优先规则已应用。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 20,
+      "question_hash_sha256": "ed2a5f47a7d83f164a3217a5d10064873a55c55c65a8201c27bb3a201287312c",
+      "question_id": "ZY1000-JC-GS18-T02",
+      "source_file": "配套习题/张宇1000题/01_基础篇/第18章_多元函数积分学.md"
+    }
+  ]
+}

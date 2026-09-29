@@ -1,0 +1,1082 @@
+{
+  "tasks": [
+    {
+      "description": "把原式整理为复合自变量的有理式；核对复合自变量的可达范围",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.01",
+      "task_id": "ZY30-GS-01-L1.01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以倒数代换获得第二个函数关系；联立消元并检查系数行列式及定义域",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.02",
+      "task_id": "ZY30-GS-01-L1.02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定原函数可逆区间与值域；反解并核对反函数定义域",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.03",
+      "task_id": "ZY30-GS-01-L1.03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用复合关系反解非负的内层函数；分别核对根号定义域及其像集",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.04",
+      "task_id": "ZY30-GS-01-L1.04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定内外层函数适用的分段；写出各段表达式并检查分界",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.05",
+      "task_id": "ZY30-GS-01-L1.05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用代数不等式控制函数的绝对值；给出对整个定义域一致的界",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.06",
+      "task_id": "ZY30-GS-01-L1.06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "从条件判断原函数的单调方向；追踪复合或符号变换对次序的影响",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.07",
+      "task_id": "ZY30-GS-01-L1.07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "检查定义域关于原点对称；核对函数值在相反自变量处的关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.08",
+      "task_id": "ZY30-GS-01-L1.08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "连续应用平移等式；消去附加项或延拓区间上的函数值",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.09",
+      "task_id": "ZY30-GS-01-L1.09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在函数为正的区间用对数求导定位驻点；核对驻点两侧变化及开区间边界行为",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.10",
+      "task_id": "ZY30-GS-01-L1.10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把底数的指数表达为标准指数函数的复合；在已知幂级数中代换并核对求和起点",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.11",
+      "task_id": "ZY30-GS-01-L1.11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定原函数可逆区间与值域；反解并核对反函数定义域",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.12",
+      "task_id": "ZY30-GS-01-L1.12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按整数平移比较小数部分函数值；检验边界值并区分有界性单调性及奇偶性",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.13",
+      "task_id": "ZY30-GS-01-L1.13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将已知比值极限换算到相同阶次；建立待求极限的代数方程并检验一致性",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.14",
+      "task_id": "ZY30-GS-01-L1.14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别引起左右行为不同的项；比较两侧极限是否一致",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.15",
+      "task_id": "ZY30-GS-01-L1.15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别引起左右行为不同的项；比较两侧极限是否一致",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.16",
+      "task_id": "ZY30-GS-01-L1.16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "考查区间端点与内部奇点；给出统一界或无界的依据",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.17",
+      "task_id": "ZY30-GS-01-L1.17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别极限的非零符号；结合已知因子的符号确定函数的局部符号",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.18",
+      "task_id": "ZY30-GS-01-L1.18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.19",
+      "task_id": "ZY30-GS-01-L1.19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确认参与运算的极限存在；检查除法中的非零条件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.20",
+      "task_id": "ZY30-GS-01-L1.20#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用有限非零极限排除不能抵消分母常数项的参数；对剩余参数使用局部等价关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.21",
+      "task_id": "ZY30-GS-01-L1.21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.22",
+      "task_id": "ZY30-GS-01-L1.22#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将增长速度比较化为比值极限；根据极限推导最终大小关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.23",
+      "task_id": "ZY30-GS-01-L1.23#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.24",
+      "task_id": "ZY30-GS-01-L1.24#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较分子分母的最高次数；核对首项系数与趋近方向",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.25",
+      "task_id": "ZY30-GS-01-L1.25#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按三角因子是否为零区分固定自变量；分别比较分子分母关于序号的主导项",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.26",
+      "task_id": "ZY30-GS-01-L1.26#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.27",
+      "task_id": "ZY30-GS-01-L1.27#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将左侧趋近转为正变量趋于零；控制对数因子与线性小量的乘积",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.28",
+      "task_id": "ZY30-GS-01-L1.28#T01",
+      "task_index": 1
+    },
+    {
+      "description": "使用取整函数上下界或分段性质；核对边界值与极限过程",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.29",
+      "task_id": "ZY30-GS-01-L1.29#T01",
+      "task_index": 1
+    },
+    {
+      "description": "通分或倒数展开时跟踪减法顺序；核对抵消后的常数项及余项趋零",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.30",
+      "task_id": "ZY30-GS-01-L1.30#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.31",
+      "task_id": "ZY30-GS-01-L1.31#T01",
+      "task_index": 1
+    },
+    {
+      "description": "先确认底数在邻域内有意义；计算对数极限并恢复原极限",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.32",
+      "task_id": "ZY30-GS-01-L1.32#T01",
+      "task_index": 1
+    },
+    {
+      "description": "先确认底数在邻域内有意义；计算对数极限并恢复原极限",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.33",
+      "task_id": "ZY30-GS-01-L1.33#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.34",
+      "task_id": "ZY30-GS-01-L1.34#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.35",
+      "task_id": "ZY30-GS-01-L1.35#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定连接点两侧的极限；将极限与函数值匹配",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.36",
+      "task_id": "ZY30-GS-01-L1.36#T01",
+      "task_index": 1
+    },
+    {
+      "description": "定位定义域缺口或分段连接点；用左右极限区分间断类型",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.37",
+      "task_id": "ZY30-GS-01-L1.37#T01",
+      "task_index": 1
+    },
+    {
+      "description": "先按固定自变量是否为整数求逐点极限；在可能的拼接点比较单侧极限与点值",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-L1.38",
+      "task_id": "ZY30-GS-01-L1.38#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X01",
+      "task_id": "ZY30-GS-01-X01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定连接点两侧的极限；将极限与函数值匹配",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X02",
+      "task_id": "ZY30-GS-01-X02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "定位定义域缺口或分段连接点；用左右极限区分间断类型",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X03",
+      "task_id": "ZY30-GS-01-X03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "先对非零的固定自变量计算定义函数的极限；单独核对原表达式未定义点附近能否连续延拓",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X04",
+      "task_id": "ZY30-GS-01-X04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按自变量绝对值与单位界的大小关系求逐点极限；逐个核对分界点的函数值与左右极限",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X05",
+      "task_id": "ZY30-GS-01-X05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "识别迭代关系的结构；验证表达式满足初始值与递推关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X06",
+      "task_id": "ZY30-GS-01-X06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X07",
+      "task_id": "ZY30-GS-01-X07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "先确认底数在邻域内有意义；计算对数极限并恢复原极限",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X08",
+      "task_id": "ZY30-GS-01-X08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X09",
+      "task_id": "ZY30-GS-01-X09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定连接点两侧的极限；将极限与函数值匹配",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X10",
+      "task_id": "ZY30-GS-01-X10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对反三角函数的取值范围；分段还原并连接图像",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X11",
+      "task_id": "ZY30-GS-01-X11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X12",
+      "task_id": "ZY30-GS-01-X12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "先确认底数在邻域内有意义；计算对数极限并恢复原极限",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X13",
+      "task_id": "ZY30-GS-01-X13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "分别处理指数项与含绝对值幂指项的单侧极限；匹配左右极限以确定参数条件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X14",
+      "task_id": "ZY30-GS-01-X14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X15",
+      "task_id": "ZY30-GS-01-X15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-01-X16",
+      "task_id": "ZY30-GS-01-X16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在驻点处由方程确定二阶导数符号；使用二阶导数判别法",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.01",
+      "task_id": "ZY30-GS-15-L15.01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "使用初始条件消去低阶项；由方程确定首个非零阶并比较极限",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.02",
+      "task_id": "ZY30-GS-15-L15.02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把切线斜率识别为导数；求原函数后用经过点确定积分常数",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.03",
+      "task_id": "ZY30-GS-15-L15.03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分变量并积分；回查除法遗漏的常值解及定义域",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.04",
+      "task_id": "ZY30-GS-15-L15.04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "选择能封闭方程的组合变量；求解后回代并检查解域",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.05",
+      "task_id": "ZY30-GS-15-L15.05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "定义未知函数及初始条件；建立导数关系并核对模型条件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.06",
+      "task_id": "ZY30-GS-15-L15.06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用积分因子求满足初始条件的解",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.07",
+      "task_id": "ZY30-GS-15-L15.07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按解的符号变化分割面积积分；检验无穷区间上面积积分的收敛",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.07",
+      "task_id": "ZY30-GS-15-L15.07#T02",
+      "task_index": 2
+    },
+    {
+      "description": "选择原因变量作自变量并化成一阶线性方程；积分后代入初始点；检查局部分支能否表示成原题所求函数",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.08",
+      "task_id": "ZY30-GS-15-L15.08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以积分因子表示解；估计齐次衰减项和受迫积分项",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.09",
+      "task_id": "ZY30-GS-15-L15.09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以积分因子表示解；估计齐次衰减项和受迫积分项",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.10",
+      "task_id": "ZY30-GS-15-L15.10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "通过倒数未知量变换识别以原因变量为自变量的线性方程；求解并检查代换排除的特殊解及正值定义域",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.11-M1",
+      "task_id": "ZY30-GS-15-L15.11-M1#T01",
+      "task_index": 1
+    },
+    {
+      "description": "辨认方程中缺失的变量；降阶积分并检查特殊解",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.12",
+      "task_id": "ZY30-GS-15-L15.12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在非退化分支以导数为因变量并降阶；单独检查代换中排除的零解和过零情形；将初始条件与原方程共同核对",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.13",
+      "task_id": "ZY30-GS-15-L15.13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "比较交叉偏导并确定参数条件；积分恢复势函数",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.14-M1",
+      "task_id": "ZY30-GS-15-L15.14-M1#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按特征根结构写出解空间基底；将初始条件转为常数约束",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.15",
+      "task_id": "ZY30-GS-15-L15.15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按特征根结构写出解空间基底；将初始条件转为常数约束",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.16",
+      "task_id": "ZY30-GS-15-L15.16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造齐次解；按激励类型和重根情况选择特解形式",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.17",
+      "task_id": "ZY30-GS-15-L15.17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "代入给定解并按独立函数项比较系数",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.18",
+      "task_id": "ZY30-GS-15-L15.18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定方程后写出齐次通解与一组特解",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.18",
+      "task_id": "ZY30-GS-15-L15.18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "由指数三角解和多项式解提取根及最低重数；利用给定阶数和首项归一化重建特征多项式",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.19",
+      "task_id": "ZY30-GS-15-L15.19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对自变量定义域；将欧拉型方程化为常系数方程",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.20-M1",
+      "task_id": "ZY30-GS-15-L15.20-M1#T01",
+      "task_index": 1
+    },
+    {
+      "description": "定义未知函数及初始条件；建立导数关系并核对模型条件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.21",
+      "task_id": "ZY30-GS-15-L15.21#T01",
+      "task_index": 1
+    },
+    {
+      "description": "定义未知函数及初始条件；建立导数关系并核对模型条件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.22-M1",
+      "task_id": "ZY30-GS-15-L15.22-M1#T01",
+      "task_index": 1
+    },
+    {
+      "description": "定义未知函数及初始条件；建立导数关系并核对模型条件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-L15.23-M1",
+      "task_id": "ZY30-GS-15-L15.23-M1#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造齐次解；按激励类型和重根情况选择特解形式",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X01",
+      "task_id": "ZY30-GS-15-X01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分齐次解和非齐次特解；构造满足条件的线性组合",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X02",
+      "task_id": "ZY30-GS-15-X02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分变量并积分；回查除法遗漏的常值解及定义域",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X03",
+      "task_id": "ZY30-GS-15-X03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "选择能封闭方程的组合变量；求解后回代并检查解域",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X04",
+      "task_id": "ZY30-GS-15-X04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用指数未知量代换化为一阶线性方程；求解后检查指数变量必须为正的解域",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X05",
+      "task_id": "ZY30-GS-15-X05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "辨认方程中缺失的变量；降阶积分并检查特殊解",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X06",
+      "task_id": "ZY30-GS-15-X06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "构造齐次解；按激励类型和重根情况选择特解形式",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X07",
+      "task_id": "ZY30-GS-15-X07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对自变量定义域；将欧拉型方程化为常系数方程",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X08",
+      "task_id": "ZY30-GS-15-X08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以极坐标和径向代换把区域积分转为变限积分；求导建立一阶方程并从原式取得初始约束",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X10",
+      "task_id": "ZY30-GS-15-X10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由特征多项式求齐次解空间",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X11",
+      "task_id": "ZY30-GS-15-X11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把指定无穷小阶次转为初始导数约束；检查首个非零项确实满足所需阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X11",
+      "task_id": "ZY30-GS-15-X11#T02",
+      "task_index": 2
+    },
+    {
+      "description": "用切线倾角正切表示一阶导数；由倾角变化关系建立可降阶方程；用切点位置和切向条件确定常数",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X12",
+      "task_id": "ZY30-GS-15-X12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将曲线下方面积与切线截距表示为积分和导数；由恒定面积比建立微分关系；核对原点条件和单调性要求",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GS-15-X13",
+      "task_id": "ZY30-GS-15-X13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用结构选择变换或展开；跟踪交换倍乘对行列式的影响",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.01",
+      "task_id": "ZY30-XD-01-L1.01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用结构选择变换或展开；跟踪交换倍乘对行列式的影响",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.02",
+      "task_id": "ZY30-XD-01-L1.02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用结构选择变换或展开；跟踪交换倍乘对行列式的影响",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.03",
+      "task_id": "ZY30-XD-01-L1.03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用结构选择变换或展开；跟踪交换倍乘对行列式的影响",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.04",
+      "task_id": "ZY30-XD-01-L1.04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用结构选择变换或展开；跟踪交换倍乘对行列式的影响",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.05",
+      "task_id": "ZY30-XD-01-L1.05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用结构选择变换或展开；跟踪交换倍乘对行列式的影响",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.06",
+      "task_id": "ZY30-XD-01-L1.06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用结构选择变换或展开；跟踪交换倍乘对行列式的影响",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.07",
+      "task_id": "ZY30-XD-01-L1.07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用行列式结构提取参数项；核对根或系数所需的条件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.08",
+      "task_id": "ZY30-XD-01-L1.08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将行列式整理为特征参数的多项式；联立多项式及其导数的共同根条件并核对重数",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.09",
+      "task_id": "ZY30-XD-01-L1.09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用同列线性关系拆分；核对重复列与排列符号",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.10",
+      "task_id": "ZY30-XD-01-L1.10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "准确建立列变换的系数矩阵；利用乘积行列式性质",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.11",
+      "task_id": "ZY30-XD-01-L1.11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "把普通余子式转换为带正确符号的代数余子式；通过对应行替换表示余子式的线性组合",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.12",
+      "task_id": "ZY30-XD-01-L1.12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "由非零矩阵至少有一个非零列解确定系数矩阵奇异",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.13",
+      "task_id": "ZY30-XD-01-L1.13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用零空间维数约束各列张成空间；由列相关性判断目标行列式",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-L1.13",
+      "task_id": "ZY30-XD-01-L1.13#T02",
+      "task_index": 2
+    },
+    {
+      "description": "利用行列式结构提取参数项；核对根或系数所需的条件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-X01",
+      "task_id": "ZY30-XD-01-X01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "辨明余子式与代数余子式的符号；将线性组合还原为展开式",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-X02",
+      "task_id": "ZY30-XD-01-X02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用行列式结构提取参数项；核对根或系数所需的条件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-X03",
+      "task_id": "ZY30-XD-01-X03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用结构选择变换或展开；跟踪交换倍乘对行列式的影响",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-X04",
+      "task_id": "ZY30-XD-01-X04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用结构选择变换或展开；跟踪交换倍乘对行列式的影响",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-X05",
+      "task_id": "ZY30-XD-01-X05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用结构选择变换或展开；跟踪交换倍乘对行列式的影响",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-X06",
+      "task_id": "ZY30-XD-01-X06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用行列式结构提取参数项；核对根或系数所需的条件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-X07",
+      "task_id": "ZY30-XD-01-X07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用同列线性关系拆分；核对重复列与排列符号",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-X08",
+      "task_id": "ZY30-XD-01-X08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确认给定向量组成基；由像的坐标构造表示矩阵并用相似不变量",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-X09",
+      "task_id": "ZY30-XD-01-X09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "判定非零解存在条件；将自由变量与解空间维数对应",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-X10",
+      "task_id": "ZY30-XD-01-X10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "判定非零解存在条件；将自由变量与解空间维数对应",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-XD-01-X11",
+      "task_id": "ZY30-XD-01-X11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以每个球的盒子选择定义等可能样本空间；区分指定盒和任选盒后分别计数；检查指定盒恰有一球对其余球的限制",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.01",
+      "task_id": "ZY30-GL-01-L1.01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "明确抽取是否有序及是否放回；分别计数样本空间和目标事件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.02",
+      "task_id": "ZY30-GL-01-L1.02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分有放回与无放回抽样的样本空间；分别处理总颜色数量和指定抽取位置的事件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.03",
+      "task_id": "ZY30-GL-01-L1.03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定均匀样本空间；将事件条件转为区域并计算测度比",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.04",
+      "task_id": "ZY30-GL-01-L1.04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分事件相等与概率相等；利用互斥分解或加法公式核对关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.05",
+      "task_id": "ZY30-GL-01-L1.05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分事件相等与概率相等；利用互斥分解或加法公式核对关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.06",
+      "task_id": "ZY30-GL-01-L1.06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对条件事件具有正概率；使用条件概率定义或乘法关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.07",
+      "task_id": "ZY30-GL-01-L1.07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对条件事件具有正概率；使用条件概率定义或乘法关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.08",
+      "task_id": "ZY30-GL-01-L1.08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "以信件到信封的排列定义样本空间；对至少一封正确的事件应用容斥或错排计数",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.09",
+      "task_id": "ZY30-GL-01-L1.09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "选取互斥且覆盖全部情况的分组；汇总各分支条件概率",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.10",
+      "task_id": "ZY30-GL-01-L1.10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "选取互斥且覆盖全部情况的分组；汇总各分支条件概率",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.11",
+      "task_id": "ZY30-GL-01-L1.11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用首次观察更新所选批次的概率；按更新后的批次权重计算放回后再次抽取概率",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.12",
+      "task_id": "ZY30-GL-01-L1.12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分两两独立与相互独立；逐项核对所需的交事件关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.13",
+      "task_id": "ZY30-GL-01-L1.13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分成功次数与最后一次的位置约束；组合独立试验的概率因子",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.14",
+      "task_id": "ZY30-GL-01-L1.14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分成功次数与最后一次的位置约束；组合独立试验的概率因子",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-L1.15",
+      "task_id": "ZY30-GL-01-L1.15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将文字事件化为交并补关系；检查等价关系或构造反例",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X01",
+      "task_id": "ZY30-GL-01-X01#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分事件相等与概率相等；利用互斥分解或加法公式核对关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X02",
+      "task_id": "ZY30-GL-01-X02#T01",
+      "task_index": 1
+    },
+    {
+      "description": "明确抽取是否有序及是否放回；分别计数样本空间和目标事件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X03",
+      "task_id": "ZY30-GL-01-X03#T01",
+      "task_index": 1
+    },
+    {
+      "description": "明确抽取是否有序及是否放回；分别计数样本空间和目标事件",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X04",
+      "task_id": "ZY30-GL-01-X04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分两两独立与相互独立；逐项核对所需的交事件关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X05",
+      "task_id": "ZY30-GL-01-X05#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定均匀样本空间；将事件条件转为区域并计算测度比",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X06",
+      "task_id": "ZY30-GL-01-X06#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定均匀样本空间；将事件条件转为区域并计算测度比",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X07",
+      "task_id": "ZY30-GL-01-X07#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分事件相等与概率相等；利用互斥分解或加法公式核对关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X08",
+      "task_id": "ZY30-GL-01-X08#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分事件相等与概率相等；利用互斥分解或加法公式核对关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X09",
+      "task_id": "ZY30-GL-01-X09#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对条件事件具有正概率；使用条件概率定义或乘法关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X10",
+      "task_id": "ZY30-GL-01-X10#T01",
+      "task_index": 1
+    },
+    {
+      "description": "区分事件相等与概率相等；利用互斥分解或加法公式核对关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X11",
+      "task_id": "ZY30-GL-01-X11#T01",
+      "task_index": 1
+    },
+    {
+      "description": "用全部未成功表示目标事件的补事件；利用独立性合并失败概率",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X12",
+      "task_id": "ZY30-GL-01-X12#T01",
+      "task_index": 1
+    },
+    {
+      "description": "核对条件事件具有正概率；使用条件概率定义或乘法关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X13",
+      "task_id": "ZY30-GL-01-X13#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将文字事件化为交并补关系；检查等价关系或构造反例",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X14",
+      "task_id": "ZY30-GL-01-X14#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将文字事件化为交并补关系；检查等价关系或构造反例",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X15",
+      "task_id": "ZY30-GL-01-X15#T01",
+      "task_index": 1
+    },
+    {
+      "description": "将文字事件化为交并补关系；检查等价关系或构造反例",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X16",
+      "task_id": "ZY30-GL-01-X16#T01",
+      "task_index": 1
+    },
+    {
+      "description": "明确原球颜色的先验概率是必要输入；按观察到的取球颜色构造后验关系",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X17",
+      "task_id": "ZY30-GL-01-X17#T01",
+      "task_index": 1
+    },
+    {
+      "description": "按箱子来源计算首次取到一等品的概率",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X18",
+      "task_id": "ZY30-GL-01-X18#T01",
+      "task_index": 1
+    },
+    {
+      "description": "利用首次结果更新来源权重；核对不放回抽样对第二次构成的改变",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X18",
+      "task_id": "ZY30-GL-01-X18#T02",
+      "task_index": 2
+    },
+    {
+      "description": "按箱内次品数分组并使用等可能先验；分别计算误判和漏判对验收事件的贡献；按分组权重汇总通过验收的概率",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY30-GL-01-X19",
+      "task_id": "ZY30-GL-01-X19#T01",
+      "task_index": 1
+    },
+    {
+      "description": "在原区间上先迭代一次函数平移关系；逐区间延拓并核对端点归属",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY1000-JC-GS01-T04",
+      "task_id": "ZY1000-JC-GS01-T04#T01",
+      "task_index": 1
+    },
+    {
+      "description": "确定需要保留的最低阶次；检查抵消项与余项阶次",
+      "kind": "reasoning_reference_not_scoring_atom",
+      "question_id": "ZY1000-JC-GS01-T05",
+      "task_id": "ZY1000-JC-GS01-T05#T01",
+      "task_index": 1
+    }
+  ]
+}

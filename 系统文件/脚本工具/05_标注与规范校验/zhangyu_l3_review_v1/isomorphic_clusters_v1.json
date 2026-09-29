@@ -1,0 +1,51 @@
+[
+  {
+    "cluster_id": "ZY_ISO_SPARSE_CYCLIC_DET_01",
+    "question_ids": [
+      "ZY30-XD-01-L1.01",
+      "ZY30-XD-01-X04"
+    ],
+    "structural_invariant": "对角线及单个循环移位位置非零；展开中保留恒等排列与循环排列，并核对循环排列符号。",
+    "transfer_axis": [
+      "对角元与循环边权变化"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_HOMOGENEOUS_SECOND_ORDER_IVP_01",
+    "question_ids": [
+      "ZY30-GS-15-L15.15",
+      "ZY30-GS-15-L15.16"
+    ],
+    "structural_invariant": "二阶常系数齐次方程由特征根构造二元解空间，再把给定点的函数值和导数条件化为常数线性约束。",
+    "transfer_axis": [
+      "特征根类型变化",
+      "导数条件由极值描述给出或直接给出"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_SHIFT_TRIG_RECURRENCE_01",
+    "question_ids": [
+      "ZY30-GS-01-L1.09",
+      "ZY1000-JC-GS01-T04"
+    ],
+    "structural_invariant": "对同一含正弦附加项的平移关系连续代入，利用半周期变号消去附加项。",
+    "transfer_axis": [
+      "周期性证明与指定区间函数延拓"
+    ],
+    "status": "verified"
+  },
+  {
+    "cluster_id": "ZY_ISO_UNKNOWN_FUNCTION_CUBIC_LIMIT_01",
+    "question_ids": [
+      "ZY30-GS-01-L1.27",
+      "ZY30-GS-01-X01"
+    ],
+    "structural_invariant": "由含未知函数的三阶比值极限确定低阶抵消，再把目标二阶比值写成已知比值与显式三角展开项之和。",
+    "transfer_axis": [
+      "三角函数形式及系数变化"
+    ],
+    "status": "verified"
+  }
+]

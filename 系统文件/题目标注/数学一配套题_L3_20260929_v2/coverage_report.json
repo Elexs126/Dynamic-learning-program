@@ -1,0 +1,178 @@
+{
+  "alternative_method_question_count": 42,
+  "auxiliary_source_count": 7,
+  "by_source": {
+    "zy1000": {
+      "individual_semantic_reviews": 1041,
+      "no_profile": 0,
+      "records": 1041,
+      "remaining_candidates": 0
+    },
+    "zy30": {
+      "individual_semantic_reviews": 876,
+      "no_profile": 0,
+      "records": 876,
+      "remaining_candidates": 0
+    }
+  },
+  "dependency_count": 116,
+  "external_api_calls": 0,
+  "field_coverage": {
+    "l2.assessed_construct": {
+      "filled": 1917,
+      "verified": 1917
+    },
+    "l2.difficulty_band": {
+      "filled": 1917,
+      "verified": 1917
+    },
+    "l2.main_knowledge": {
+      "filled": 1917,
+      "verified": 1917
+    },
+    "l2.prerequisites": {
+      "filled": 1917,
+      "verified": 1917
+    },
+    "l2.primary_method": {
+      "filled": 1914,
+      "needs_review": 3,
+      "verified": 1914
+    },
+    "l2.secondary_knowledge": {
+      "filled": 1917,
+      "verified": 1917
+    },
+    "l3.alternative_methods": {
+      "filled": 1917,
+      "verified": 1917
+    },
+    "l3.evidence_steps": {
+      "filled": 1910,
+      "needs_review": 7,
+      "verified": 1910
+    },
+    "l3.inter_question_dependency": {
+      "filled": 1917,
+      "verified": 1917
+    },
+    "l3.isomorphic_relation": {
+      "filled": 1917,
+      "verified": 1917
+    },
+    "l3.score_attribution": {
+      "filled": 1917,
+      "verified": 1917
+    },
+    "l3.score_units": {
+      "filled": 1917,
+      "verified": 1917
+    }
+  },
+  "integration": "独立增量批次；活动L1/L3发布与学习运行入口尚未切换。",
+  "isomorphic_cluster_count": 17,
+  "isomorphic_question_count": 49,
+  "l0_type_correction_count": 267,
+  "official_points": "全部1917题points=null，point_status=not_applicable；不设小问分值。",
+  "questions_with_omitted_fields": 7,
+  "record_count": 1917,
+  "recovered_questions": [
+    {
+      "question_id": "ZY30-GS-15-X09",
+      "recovery": "从本地同题解析确认教学模型，不宣称原题文字本身足以确定一般变系数方程。"
+    },
+    {
+      "question_id": "ZY30-GS-08-L8.11",
+      "recovery": "配套题缺图已在本地讲义同题例8.11中找到并逐图核对。"
+    },
+    {
+      "question_id": "ZY1000-QH-GS02-T02",
+      "recovery": "重新逐行读取原题块，三个单位分子仍在原文，非缺失；据此恢复求和结构。"
+    }
+  ],
+  "semantics": "已逐题读取并独立核对全部1917题的语义标签；无法由现有题干唯一判断的字段逐项登记源文问题，无规则候选冒充审核。",
+  "source_issues": [
+    {
+      "question_id": "ZY30-GS-15-X09",
+      "reason": "题干漏写常系数；本地讲义同题15.9的解析明确使用特征方程，标签据此限定为常系数口径。"
+    },
+    {
+      "question_id": "ZY30-GL-01-X01",
+      "reason": "现存四个事件等式选项均缺少能保证结论的条件；第四项只能推出事件A为空，不能推出题列等式。"
+    },
+    {
+      "question_id": "ZY30-GL-01-X17",
+      "reason": "原球为白球的先验概率未给出；颜色未知本身不能推出等概率。"
+    },
+    {
+      "question_id": "ZY30-GL-02-L2.15",
+      "reason": "严格单调的分布函数可能有跳跃；概率积分变换需连续或明确反函数在整个(0,1)上存在。"
+    },
+    {
+      "question_id": "ZY30-GL-03-X05",
+      "reason": "所给二维分布函数在正象限靠近原点可为负，max指数项与正参数条件不相容。"
+    },
+    {
+      "question_id": "ZY1000-JC-GL03-T01",
+      "reason": "现存四个选项的变换一般均含负值或负支持，不能与非负整数支持的二项分布相符；需核对选项符号。"
+    },
+    {
+      "question_id": "ZY1000-JC-GL04-T03",
+      "reason": "题干引用三幅密度图，当前题块未包含图像或链接。"
+    },
+    {
+      "question_id": "ZY1000-JC-GS00-T05",
+      "reason": "原题分式横线在文本提取中丢失；标签按上下两行的分式排版解释，未改写原题。"
+    },
+    {
+      "question_id": "ZY1000-JC-GS03-T02",
+      "reason": "选项A与B在当前文本均为同一非零条件，疑有等号OCR丢失；理论必要条件可由商法核对。"
+    },
+    {
+      "question_id": "ZY1000-JC-GS03-T04",
+      "reason": "题设函数值与差商分子的常数在当前文本不匹配，可能有上标或常数OCR丢失。"
+    },
+    {
+      "question_id": "ZY1000-JC-GS07-T02",
+      "reason": "本题心跳图误附在同文件上一题T01后，已通过坐标轴核对并恢复引用；A/C选项重复且缺少图示对应的增速描述。"
+    },
+    {
+      "question_id": "ZY1000-JC-GS09-T25",
+      "reason": "题块有括号转义残片；可辨认对称积分区间及指数倒数结构，具体原式仍需排版校对。"
+    },
+    {
+      "question_id": "ZY1000-JC-GS14-T04",
+      "reason": "当前选项中有关参数符号的表述重复，缺少与积分对称性相符的完整选项。"
+    },
+    {
+      "question_id": "ZY1000-JC-XD04-T16",
+      "reason": "三平面位置关系依赖题干所指示意图，当前题块没有图或链接。"
+    },
+    {
+      "question_id": "ZY1000-QH-GL08-T10",
+      "reason": "所给指数项为两个平方项的乘积，该表达式在全平面不可积，不能作为题称的联合密度；可能缺少加号。"
+    },
+    {
+      "question_id": "ZY1000-QH-GL09-T24",
+      "reason": "只给总体均值方差且样本量16，不能保证正态分位数区间的精确95%覆盖率；需正态总体条件或明确近似口径。"
+    },
+    {
+      "question_id": "ZY1000-QH-GS05-T01",
+      "reason": "按现存双重绝对值表达式，选项B与C均成立，单选题选项存在冲突。"
+    },
+    {
+      "question_id": "ZY1000-QH-GS18-T12",
+      "reason": "交线为闭曲线，给出起终点后仍有两条弧可选，当前题干未指定取哪段或绕行方向。"
+    },
+    {
+      "question_id": "ZY1000-QH-GS18-T22",
+      "reason": "旋转轴方程与截取平面文字发生交错，无法唯一核对所指有限曲面。"
+    },
+    {
+      "question_id": "ZY1000-QH-XD05-T15",
+      "reason": "选项仅列①②③④的组合，当前题块缺少各序号所指的位置关系或示意图。"
+    }
+  ],
+  "task_reference_count": 2025,
+  "version": "zhangyu-practice-l3-full-v2.0.0"
+}
