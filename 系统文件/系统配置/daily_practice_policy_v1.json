@@ -1,0 +1,34 @@
+{
+  "version": "daily-practice-policy-v1.0.0",
+  "timezone": "Asia/Shanghai",
+  "practice_share": 0.5,
+  "score_threshold_pct": 80,
+  "personal_speed_min_samples": 3,
+  "maximum_paper_scale": 1.0,
+  "minimum_questions": {"MATH1": 5, "CS408": 7},
+  "default_minutes": {
+    "MATH1": {"choice": 4, "fill": 4, "analytical": 18},
+    "CS408": {"choice": 2, "analytical": 16}
+  },
+  "blueprints": {
+    "MATH1": {
+      "source": "考试大纲/2026考研数学一考试大纲.md",
+      "reference_year": 2026,
+      "counts": {"choice": 10, "fill": 6, "analytical": 6},
+      "points": {"choice": 5, "fill": 5, "analytical": [10, 12, 12, 12, 12, 12]}
+    },
+    "CS408": {
+      "source": "考试大纲/2026考研408考试大纲.md",
+      "reference_year": 2026,
+      "counts": {"choice": 40, "analytical": 7},
+      "points": {"choice": 2, "analytical": [13, 10, 13, 10, 7, 8, 9]}
+    }
+  },
+  "notes": [
+    "当前项目大纲的题型基线；大题单题分值槽取自项目2025真题，仅对无官方分值的练习题作为训练配分。",
+    "默认将每天每科净时间的一半用于作答，另一半留给教学、自核、复盘及维护；可用Teacher计划显式调整。",
+    "保留真题原分值，辅助题只标训练配分，不写回原标注，不用训练卷总分估计考试成绩。",
+    "题数采用最大余数法按真题数量比例取整，预算不足缩小整张卷，不靠只删大题凑时间。",
+    "没有可靠E样本时按到期复习、必要前置、薄弱点、核心覆盖及教材顺序推进。"
+  ]
+}
