@@ -53936,18 +53936,7 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l2.primary_method",
-          "reason": "原做题本第264页分子指数e^{x-}的减项缺失；积分上下限、分式和根号已恢复，但缺失指数尚无可信第二题面可确定。",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.evidence_steps",
-          "reason": "原做题本第264页分子指数e^{x-}的减项缺失；积分上下限、分式和根号已恢复，但缺失指数尚无可信第二题面可确定。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "MATH1",
         "locked": true,
@@ -53955,7 +53944,7 @@
         "original_section": "《张宇1000题》 · 基础篇 · 第14章 二重积分 > 第14章 二重积分",
         "paper_id": "SOURCE-ZHANGYU_1000-2db97a2b66ff1858",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "2b37c06edcef99e253f264559e0458e69cdf3849aea867b6db5ae1e6abe608ea",
+        "question_hash_sha256": "2387e2b2e701de20fd8da9c33ef65c7b1d29424100b83aae312f805b2b4f8dea",
         "question_number": "T06",
         "question_source": "《张宇1000题》 · 基础篇 · 第14章 二重积分",
         "question_type": "fill",
@@ -54013,13 +54002,13 @@
         }
       },
       "l2": {
-        "assessed_construct": "能由平方边界求出横向切片的根式下界；并能交换次序并核对整个变量范围；并能计算内层区间长度后化简剩余指数有理因子。",
+        "assessed_construct": "能由0≤x≤y²及0≤y≤1得到换序区域0≤x≤1、√x≤y≤1；并能先对y积分，用区间长度1−√x抵消原分母；并能计算剩余积分∫₀¹xeˣdx并核对边界。",
         "confidence_by_field": {
           "assessed_construct": "medium",
           "difficulty_band": "medium",
           "main_knowledge": "medium",
           "prerequisites": "medium",
-          "primary_method": "unknown",
+          "primary_method": "medium",
           "secondary_knowledge": "medium"
         },
         "difficulty_band": "intermediate",
@@ -54036,12 +54025,16 @@
           ],
           "soft_prerequisite": []
         },
+        "primary_method": {
+          "id": "M1_METHOD_fdbb8d4d448902d9",
+          "name": "根据区域形状交换积分次序"
+        },
         "review_status_by_field": {
           "assessed_construct": "verified",
           "difficulty_band": "verified",
           "main_knowledge": "verified",
           "prerequisites": "verified",
-          "primary_method": "needs_review",
+          "primary_method": "verified",
           "secondary_knowledge": "verified"
         },
         "secondary_knowledge": []
@@ -54050,12 +54043,23 @@
         "alternative_methods": [],
         "confidence_by_field": {
           "alternative_methods": "medium",
-          "evidence_steps": "unknown",
+          "evidence_steps": "medium",
           "inter_question_dependency": "medium",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
           "score_units": "high"
         },
+        "evidence_steps": [
+          {
+            "basis": "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md#ZY1000-JC-GS14-T06；本轮按源文重新核对本题。只记录有依据的可观察行为；缺失任务见field_omissions。",
+            "steps": [
+              "[ZY1000-JC-GS14-T06#T01] 由0≤x≤y²及0≤y≤1得到换序区域0≤x≤1、√x≤y≤1",
+              "[ZY1000-JC-GS14-T06#T01] 先对y积分，用区间长度1−√x抵消原分母",
+              "[ZY1000-JC-GS14-T06#T01] 计算剩余积分∫₀¹xeˣdx并核对边界"
+            ],
+            "unit_id": "ZY1000-JC-GS14-T06:S0"
+          }
+        ],
         "inter_question_dependency": {
           "relations": [],
           "unresolved_legacy_note": null
@@ -54063,7 +54067,7 @@
         "isomorphic_relation": null,
         "review_status_by_field": {
           "alternative_methods": "verified",
-          "evidence_steps": "needs_review",
+          "evidence_steps": "verified",
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
@@ -54098,7 +54102,6 @@
         "NO_LOCAL_SOLUTION_OR_OFFICIAL_RUBRIC",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
         "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SEMANTIC_ISSUE",
         "TEXTBOOK_POINTS_NOT_APPLICABLE"
       ],
       "schema_version": "question-annotation-v1.2.0"
@@ -75608,13 +75611,7 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.evidence_steps",
-          "reason": "三平面位置关系依赖题干所指示意图，当前题块没有图或链接。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "MATH1",
         "locked": true,
@@ -75622,7 +75619,7 @@
         "original_section": "《张宇1000题》· 基础篇 · 线性代数 · 第4章 线性方程组 > 第4章 线性方程组",
         "paper_id": "SOURCE-ZHANGYU_1000-949c11c3f0da3881",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "9a1af3f0e429defd8a895ed95eb0bd79ad8874ffc51e279ccacdde213ffc7b05",
+        "question_hash_sha256": "13860bbbf5da79decb486a0b71ae1308129f862f78cf212dab9bc94edf56319f",
         "question_number": "T16",
         "question_source": "《张宇1000题》· 基础篇 · 线性代数 · 第4章 线性方程组",
         "question_type": "choice",
@@ -75680,7 +75677,7 @@
         }
       },
       "l2": {
-        "assessed_construct": "能将图示平面位置关系转换成系数矩阵与增广矩阵的秩要求；并能对给定参数分支核对方程组的几何相容性。",
+        "assessed_construct": "能由原图确认三个不同平面共一条交线，对应系数矩阵与增广矩阵的秩均为2；并能核对a=−2、b=2时三个平面法向量和常数项均满足同一线性关系；并能排除三面重合或仅两面相交的其它参数选项。",
         "confidence_by_field": {
           "assessed_construct": "medium",
           "difficulty_band": "medium",
@@ -75721,12 +75718,23 @@
         "alternative_methods": [],
         "confidence_by_field": {
           "alternative_methods": "medium",
-          "evidence_steps": "unknown",
+          "evidence_steps": "medium",
           "inter_question_dependency": "medium",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
           "score_units": "high"
         },
+        "evidence_steps": [
+          {
+            "basis": "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md#ZY1000-JC-XD04-T16；本轮按源文重新核对本题。只记录有依据的可观察行为；缺失任务见field_omissions。",
+            "steps": [
+              "[ZY1000-JC-XD04-T16#T01] 由原图确认三个不同平面共一条交线，对应系数矩阵与增广矩阵的秩均为2",
+              "[ZY1000-JC-XD04-T16#T01] 核对a=−2、b=2时三个平面法向量和常数项均满足同一线性关系",
+              "[ZY1000-JC-XD04-T16#T01] 排除三面重合或仅两面相交的其它参数选项"
+            ],
+            "unit_id": "ZY1000-JC-XD04-T16:S0"
+          }
+        ],
         "inter_question_dependency": {
           "relations": [],
           "unresolved_legacy_note": null
@@ -75734,7 +75742,7 @@
         "isomorphic_relation": null,
         "review_status_by_field": {
           "alternative_methods": "verified",
-          "evidence_steps": "needs_review",
+          "evidence_steps": "verified",
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
@@ -75769,7 +75777,6 @@
         "NO_LOCAL_SOLUTION_OR_OFFICIAL_RUBRIC",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
         "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SEMANTIC_ISSUE",
         "TEXTBOOK_POINTS_NOT_APPLICABLE"
       ],
       "schema_version": "question-annotation-v1.2.0"
@@ -109037,7 +109044,7 @@
         "original_section": "《张宇1000题》 · 强化篇 · 第5章 一元函数微分学的应用(一)——几何应用 > 第5章 一元函数微分学的应用(一)——几何应用",
         "paper_id": "SOURCE-ZHANGYU_1000-6443919e273ab6ca",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "8977bc85dc8fb072b652db314ce0e63266d51f7b745a4183867455e36a0d08d1",
+        "question_hash_sha256": "231566c23e481d3907df5a694e0302f3e380ac7d842069c04b0d4badb3649408",
         "question_number": "T30",
         "question_source": "《张宇1000题》 · 强化篇 · 第5章 一元函数微分学的应用(一)——几何应用",
         "question_type": "analytical",
@@ -150220,7 +150227,7 @@
         "original_section": "《张宇1000题》 · 强化篇 · 第16章 无穷级数 > 第16章 无穷级数",
         "paper_id": "SOURCE-ZHANGYU_1000-e196d04a7bce7b5b",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "f0d14fbfccda3b1165a1c8cdf0deade6d2812d776acb1bb250fe2fc8a9644ce5",
+        "question_hash_sha256": "d5eafca538608e66226124c5eb298f54c54df2cee983fa7db255bd62f68c89df",
         "question_number": "T02",
         "question_source": "《张宇1000题》 · 强化篇 · 第16章 无穷级数",
         "question_type": "choice",
@@ -168288,13 +168295,7 @@
     },
     {
       "annotation_depth": "L3",
-      "field_omissions": [
-        {
-          "field_path": "l3.evidence_steps.U02",
-          "reason": "选项仅列①②③④的组合，当前题块缺少各序号所指的位置关系或示意图。",
-          "reason_type": "human_review_needed"
-        }
-      ],
+      "field_omissions": [],
       "l0": {
         "exam_track": "MATH1",
         "locked": true,
@@ -168302,7 +168303,7 @@
         "original_section": "《张宇1000题》· 强化篇 · 线性代数 · 第5章 线性方程组 > 第5章 线性方程组",
         "paper_id": "SOURCE-ZHANGYU_1000-3e475f37d0bac391",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "17ca01ab0e76a6a80e3676318a4a8ea0276931d822361dc82a1d5d8f5dd837aa",
+        "question_hash_sha256": "f77a7d540152b1a17d1dae251ed3bcbda7bfb17d69b5104aeaa5dbfae35558ef",
         "question_number": "T15",
         "question_source": "《张宇1000题》· 强化篇 · 线性代数 · 第5章 线性方程组",
         "question_type": "choice",
@@ -168360,7 +168361,7 @@
         }
       },
       "l2": {
-        "assessed_construct": "能把给定点落在直线上的条件写成三个法向量的线性关系；并能用该关系约束系数矩阵及增广矩阵的秩；并能据秩推断可确认的平面配置限制。",
+        "assessed_construct": "能把给定点落在直线上的条件写成三个法向量的线性关系；并能用该关系约束系数矩阵及增广矩阵的秩；并能据秩推断可确认的平面配置限制；并能将已确认的法向量线性关系与原图①②③④逐项对应；并能区分三面共线、两面重合且与第三面平行、三面两两交于平行线、两面平行且被第三面截交；并能用系数矩阵和增广矩阵的秩及重合条件确认可能配置②③。",
         "confidence_by_field": {
           "assessed_construct": "medium",
           "difficulty_band": "medium",
@@ -168401,7 +168402,7 @@
         "alternative_methods": [],
         "confidence_by_field": {
           "alternative_methods": "medium",
-          "evidence_steps": "low",
+          "evidence_steps": "medium",
           "inter_question_dependency": "medium",
           "isomorphic_relation": "medium",
           "score_attribution": "medium",
@@ -168413,7 +168414,10 @@
             "steps": [
               "[ZY1000-QH-XD05-T15#T01] 把给定点落在直线上的条件写成三个法向量的线性关系",
               "[ZY1000-QH-XD05-T15#T01] 用该关系约束系数矩阵及增广矩阵的秩",
-              "[ZY1000-QH-XD05-T15#T01] 据秩推断可确认的平面配置限制"
+              "[ZY1000-QH-XD05-T15#T01] 据秩推断可确认的平面配置限制",
+              "[ZY1000-QH-XD05-T15#T02] 将已确认的法向量线性关系与原图①②③④逐项对应",
+              "[ZY1000-QH-XD05-T15#T02] 区分三面共线、两面重合且与第三面平行、三面两两交于平行线、两面平行且被第三面截交",
+              "[ZY1000-QH-XD05-T15#T02] 用系数矩阵和增广矩阵的秩及重合条件确认可能配置②③"
             ],
             "unit_id": "ZY1000-QH-XD05-T15:S0"
           }
@@ -168421,7 +168425,7 @@
         "inter_question_dependency": {
           "relations": [
             {
-              "description": "后项“将第一问可确认配置与原题序号图或文字逐个对应”使用前项“据秩推断可确认的平面配置限制”所得对象或结论；这里只登记已确认的调用，未认定缺失任务已解出。",
+              "description": "后项“将已确认的法向量线性关系与原图①②③④逐项对应”使用前项“据秩推断可确认的平面配置限制”所得对象或结论；这里只登记已确认的调用，未认定缺失任务已解出。",
               "from_question_id": "ZY1000-QH-XD05-T15#T01",
               "status": "verified",
               "to_question_id": "ZY1000-QH-XD05-T15#T02"
@@ -168432,7 +168436,7 @@
         "isomorphic_relation": null,
         "review_status_by_field": {
           "alternative_methods": "verified",
-          "evidence_steps": "needs_review",
+          "evidence_steps": "verified",
           "inter_question_dependency": "verified",
           "isomorphic_relation": "verified",
           "score_attribution": "verified",
@@ -168467,7 +168471,6 @@
         "NO_LOCAL_SOLUTION_OR_OFFICIAL_RUBRIC",
         "SEMANTIC_COMPLETENESS_UNREVIEWED",
         "SOURCE_RELIABILITY_UNREVIEWED",
-        "SOURCE_SEMANTIC_ISSUE",
         "TEXTBOOK_POINTS_NOT_APPLICABLE"
       ],
       "schema_version": "question-annotation-v1.2.0"

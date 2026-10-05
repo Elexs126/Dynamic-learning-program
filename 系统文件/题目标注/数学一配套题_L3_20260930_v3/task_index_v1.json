@@ -10577,8 +10577,8 @@
       "task_index": 1
     },
     {
-      "description": "由平方边界求出横向切片的根式下界；交换次序并核对整个变量范围；计算内层区间长度后化简剩余指数有理因子",
-      "evidence_status": "needs_review",
+      "description": "由0≤x≤y²及0≤y≤1得到换序区域0≤x≤1、√x≤y≤1；先对y积分，用区间长度1−√x抵消原分母；计算剩余积分∫₀¹xeˣdx并核对边界",
+      "evidence_status": "verified",
       "kind": "reasoning_reference_not_scoring_atom",
       "question_id": "ZY1000-JC-GS14-T06",
       "task_id": "ZY1000-JC-GS14-T06#T01",
@@ -11649,8 +11649,8 @@
       "task_index": 1
     },
     {
-      "description": "将图示平面位置关系转换成系数矩阵与增广矩阵的秩要求；对给定参数分支核对方程组的几何相容性",
-      "evidence_status": "needs_review",
+      "description": "由原图确认三个不同平面共一条交线，对应系数矩阵与增广矩阵的秩均为2；核对a=−2、b=2时三个平面法向量和常数项均满足同一线性关系；排除三面重合或仅两面相交的其它参数选项",
+      "evidence_status": "verified",
       "kind": "reasoning_reference_not_scoring_atom",
       "question_id": "ZY1000-JC-XD04-T16",
       "task_id": "ZY1000-JC-XD04-T16#T01",
@@ -16385,8 +16385,8 @@
       "task_index": 1
     },
     {
-      "description": "将第一问可确认配置与原题序号图或文字逐个对应；在序号所指图文缺失时保留选项映射待核对",
-      "evidence_status": "needs_review",
+      "description": "将已确认的法向量线性关系与原图①②③④逐项对应；区分三面共线、两面重合且与第三面平行、三面两两交于平行线、两面平行且被第三面截交；用系数矩阵和增广矩阵的秩及重合条件确认可能配置②③",
+      "evidence_status": "verified",
       "kind": "reasoning_reference_not_scoring_atom",
       "question_id": "ZY1000-QH-XD05-T15",
       "task_id": "ZY1000-QH-XD05-T15#T02",

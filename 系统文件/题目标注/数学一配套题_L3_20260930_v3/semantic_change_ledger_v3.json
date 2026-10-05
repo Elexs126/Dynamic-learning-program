@@ -75195,7 +75195,7 @@
     {
       "changes": {
         "l2.assessed_construct": {
-          "after": "能由平方边界求出横向切片的根式下界；并能交换次序并核对整个变量范围；并能计算内层区间长度后化简剩余指数有理因子。",
+          "after": "能由0≤x≤y²及0≤y≤1得到换序区域0≤x≤1、√x≤y≤1；并能先对y积分，用区间长度1−√x抵消原分母；并能计算剩余积分∫₀¹xeˣdx并核对边界。",
           "before": "能准确描述平面区域；并能核对积分限与变换雅可比。"
         },
         "l2.prerequisites": {
@@ -75218,15 +75218,18 @@
             "soft_prerequisite": []
           }
         },
-        "l2.primary_method": {
-          "after": null,
-          "before": {
-            "id": "M1_METHOD_fdbb8d4d448902d9",
-            "name": "根据区域形状交换积分次序"
-          }
-        },
         "l3.evidence_steps": {
-          "after": null,
+          "after": [
+            {
+              "basis": "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md#ZY1000-JC-GS14-T06；本轮按源文重新核对本题。只记录有依据的可观察行为；缺失任务见field_omissions。",
+              "steps": [
+                "[ZY1000-JC-GS14-T06#T01] 由0≤x≤y²及0≤y≤1得到换序区域0≤x≤1、√x≤y≤1",
+                "[ZY1000-JC-GS14-T06#T01] 先对y积分，用区间长度1−√x抵消原分母",
+                "[ZY1000-JC-GS14-T06#T01] 计算剩余积分∫₀¹xeˣdx并核对边界"
+              ],
+              "unit_id": "ZY1000-JC-GS14-T06:S0"
+            }
+          ],
           "before": [
             {
               "basis": "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md#ZY1000-JC-GS14-T06；已逐题核对题干中的任务与方法，记录可观察行为；无数值评分细则。",
@@ -75261,7 +75264,7 @@
           ]
         }
       },
-      "question_hash_sha256": "2b37c06edcef99e253f264559e0458e69cdf3849aea867b6db5ae1e6abe608ea",
+      "question_hash_sha256": "2387e2b2e701de20fd8da9c33ef65c7b1d29424100b83aae312f805b2b4f8dea",
       "question_id": "ZY1000-JC-GS14-T06",
       "review_round": "corrected_v3"
     },
@@ -82961,7 +82964,7 @@
     {
       "changes": {
         "l2.assessed_construct": {
-          "after": "能将图示平面位置关系转换成系数矩阵与增广矩阵的秩要求；并能对给定参数分支核对方程组的几何相容性。",
+          "after": "能由原图确认三个不同平面共一条交线，对应系数矩阵与增广矩阵的秩均为2；并能核对a=−2、b=2时三个平面法向量和常数项均满足同一线性关系；并能排除三面重合或仅两面相交的其它参数选项。",
           "before": "能依据秩判定解的情况；并能求通解并检验参数分支。"
         },
         "l2.prerequisites": {
@@ -82983,6 +82986,20 @@
             ],
             "soft_prerequisite": []
           }
+        },
+        "l3.evidence_steps": {
+          "after": [
+            {
+              "basis": "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md#ZY1000-JC-XD04-T16；本轮按源文重新核对本题。只记录有依据的可观察行为；缺失任务见field_omissions。",
+              "steps": [
+                "[ZY1000-JC-XD04-T16#T01] 由原图确认三个不同平面共一条交线，对应系数矩阵与增广矩阵的秩均为2",
+                "[ZY1000-JC-XD04-T16#T01] 核对a=−2、b=2时三个平面法向量和常数项均满足同一线性关系",
+                "[ZY1000-JC-XD04-T16#T01] 排除三面重合或仅两面相交的其它参数选项"
+              ],
+              "unit_id": "ZY1000-JC-XD04-T16:S0"
+            }
+          ],
+          "before": null
         },
         "l3.score_units": {
           "after": [
@@ -83007,7 +83024,7 @@
           ]
         }
       },
-      "question_hash_sha256": "9a1af3f0e429defd8a895ed95eb0bd79ad8874ffc51e279ccacdde213ffc7b05",
+      "question_hash_sha256": "13860bbbf5da79decb486a0b71ae1308129f862f78cf212dab9bc94edf56319f",
       "question_id": "ZY1000-JC-XD04-T16",
       "review_round": "corrected_v3"
     },
@@ -95006,7 +95023,7 @@
           ]
         }
       },
-      "question_hash_sha256": "8977bc85dc8fb072b652db314ce0e63266d51f7b745a4183867455e36a0d08d1",
+      "question_hash_sha256": "231566c23e481d3907df5a694e0302f3e380ac7d842069c04b0d4badb3649408",
       "question_id": "ZY1000-QH-GS05-T30",
       "review_round": "inherited_v2"
     },
@@ -111465,7 +111482,7 @@
           ]
         }
       },
-      "question_hash_sha256": "f0d14fbfccda3b1165a1c8cdf0deade6d2812d776acb1bb250fe2fc8a9644ce5",
+      "question_hash_sha256": "d5eafca538608e66226124c5eb298f54c54df2cee983fa7db255bd62f68c89df",
       "question_id": "ZY1000-QH-GS16-T02",
       "review_round": "inherited_v2"
     },
@@ -118032,7 +118049,7 @@
     {
       "changes": {
         "l2.assessed_construct": {
-          "after": "能把给定点落在直线上的条件写成三个法向量的线性关系；并能用该关系约束系数矩阵及增广矩阵的秩；并能据秩推断可确认的平面配置限制。",
+          "after": "能把给定点落在直线上的条件写成三个法向量的线性关系；并能用该关系约束系数矩阵及增广矩阵的秩；并能据秩推断可确认的平面配置限制；并能将已确认的法向量线性关系与原图①②③④逐项对应；并能区分三面共线、两面重合且与第三面平行、三面两两交于平行线、两面平行且被第三面截交；并能用系数矩阵和增广矩阵的秩及重合条件确认可能配置②③。",
           "before": "能依据秩判定解的情况；并能求通解并检验参数分支。"
         },
         "l2.prerequisites": {
@@ -118062,7 +118079,10 @@
               "steps": [
                 "[ZY1000-QH-XD05-T15#T01] 把给定点落在直线上的条件写成三个法向量的线性关系",
                 "[ZY1000-QH-XD05-T15#T01] 用该关系约束系数矩阵及增广矩阵的秩",
-                "[ZY1000-QH-XD05-T15#T01] 据秩推断可确认的平面配置限制"
+                "[ZY1000-QH-XD05-T15#T01] 据秩推断可确认的平面配置限制",
+                "[ZY1000-QH-XD05-T15#T02] 将已确认的法向量线性关系与原图①②③④逐项对应",
+                "[ZY1000-QH-XD05-T15#T02] 区分三面共线、两面重合且与第三面平行、三面两两交于平行线、两面平行且被第三面截交",
+                "[ZY1000-QH-XD05-T15#T02] 用系数矩阵和增广矩阵的秩及重合条件确认可能配置②③"
               ],
               "unit_id": "ZY1000-QH-XD05-T15:S0"
             }
@@ -118082,7 +118102,7 @@
           "after": {
             "relations": [
               {
-                "description": "后项“将第一问可确认配置与原题序号图或文字逐个对应”使用前项“据秩推断可确认的平面配置限制”所得对象或结论；这里只登记已确认的调用，未认定缺失任务已解出。",
+                "description": "后项“将已确认的法向量线性关系与原图①②③④逐项对应”使用前项“据秩推断可确认的平面配置限制”所得对象或结论；这里只登记已确认的调用，未认定缺失任务已解出。",
                 "from_question_id": "ZY1000-QH-XD05-T15#T01",
                 "status": "verified",
                 "to_question_id": "ZY1000-QH-XD05-T15#T02"
@@ -118118,7 +118138,7 @@
           ]
         }
       },
-      "question_hash_sha256": "17ca01ab0e76a6a80e3676318a4a8ea0276931d822361dc82a1d5d8f5dd837aa",
+      "question_hash_sha256": "f77a7d540152b1a17d1dae251ed3bcbda7bfb17d69b5104aeaa5dbfae35558ef",
       "question_id": "ZY1000-QH-XD05-T15",
       "review_round": "corrected_v3"
     },

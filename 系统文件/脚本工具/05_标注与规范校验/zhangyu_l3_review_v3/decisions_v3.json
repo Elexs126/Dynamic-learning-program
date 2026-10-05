@@ -8155,29 +8155,25 @@
     ],
     "main": "二重积分计算",
     "method": "根据区域形状交换积分次序",
-    "question_hash_sha256": "2b37c06edcef99e253f264559e0458e69cdf3849aea867b6db5ae1e6abe608ea",
-    "review_note": "2026-10-05定点看原页并查第二版本；保留原题编号，未猜补指数，将依赖完整原式的方法与求解证据标为待核。",
+    "question_hash_sha256": "2387e2b2e701de20fd8da9c33ef65c7b1d29424100b83aae312f805b2b4f8dea",
+    "review_note": "2026-10-05按用户提供的完整同题照片补齐题面，并独立核算原先受缺项或缺图影响的证据；解除对应待核字段。",
     "review_round": "corrected_v3",
     "secondary": [],
     "soft": [],
     "steps": [
-      "由平方边界求出横向切片的根式下界",
-      "交换次序并核对整个变量范围",
-      "计算内层区间长度后化简剩余指数有理因子"
+      "由0≤x≤y²及0≤y≤1得到换序区域0≤x≤1、√x≤y≤1",
+      "先对y积分，用区间长度1−√x抵消原分母",
+      "计算剩余积分∫₀¹xeˣdx并核对边界"
     ],
     "tasks": [
       [
-        "由平方边界求出横向切片的根式下界",
-        "交换次序并核对整个变量范围",
-        "计算内层区间长度后化简剩余指数有理因子"
+        "由0≤x≤y²及0≤y≤1得到换序区域0≤x≤1、√x≤y≤1",
+        "先对y积分，用区间长度1−√x抵消原分母",
+        "计算剩余积分∫₀¹xeˣdx并核对边界"
       ]
     ],
-    "blocked": [
-      "l2.primary_method",
-      "l3.evidence_steps"
-    ],
-    "source_issue": "原做题本第264页分子指数e^{x-}的减项缺失；积分上下限、分式和根号已恢复，但缺失指数尚无可信第二题面可确定。",
-    "source_recovery": "部分恢复：积分0≤y≤1、0≤x≤y²及分母1−√x清楚；指数减号后的项仍缺失。"
+    "source_recovery": "用户照片第6题明确为xe^x/(1−√x)，原先指数中的减号为误抄；上下限和相邻题干均吻合。",
+    "additional_source_evidence": "用户附件codex-clipboard-cfe7fcb5-0842-44cf-89bb-a18f6e6952b3.png，第6题。"
   },
   "ZY1000-JC-GS14-T07": {
     "alternatives": [],
@@ -11477,9 +11473,6 @@
   },
   "ZY1000-JC-XD04-T16": {
     "alternatives": [],
-    "blocked": [
-      "l3.evidence_steps"
-    ],
     "dependencies": [],
     "difficulty_band": "intermediate",
     "hard": [
@@ -11487,22 +11480,26 @@
     ],
     "main": "线性方程组的解与参数",
     "method": "比较系数矩阵与增广矩阵的秩",
-    "question_hash_sha256": "9a1af3f0e429defd8a895ed95eb0bd79ad8874ffc51e279ccacdde213ffc7b05",
-    "review_note": "原题依赖缺失的示意图；保留受影响证据字段待核对，不臆造三平面配置。",
+    "question_hash_sha256": "13860bbbf5da79decb486a0b71ae1308129f862f78cf212dab9bc94edf56319f",
+    "review_note": "2026-10-05按用户提供的完整同题照片补齐题面，并独立核算原先受缺项或缺图影响的证据；解除对应待核字段。",
     "review_round": "corrected_v3",
     "secondary": [],
     "soft": [],
-    "source_issue": "三平面位置关系依赖题干所指示意图，当前题块没有图或链接。",
     "steps": [
-      "将图示平面位置关系转换成系数矩阵与增广矩阵的秩要求",
-      "对给定参数分支核对方程组的几何相容性"
+      "由原图确认三个不同平面共一条交线，对应系数矩阵与增广矩阵的秩均为2",
+      "核对a=−2、b=2时三个平面法向量和常数项均满足同一线性关系",
+      "排除三面重合或仅两面相交的其它参数选项"
     ],
     "tasks": [
       [
-        "将图示平面位置关系转换成系数矩阵与增广矩阵的秩要求",
-        "对给定参数分支核对方程组的几何相容性"
+        "由原图确认三个不同平面共一条交线，对应系数矩阵与增广矩阵的秩均为2",
+        "核对a=−2、b=2时三个平面法向量和常数项均满足同一线性关系",
+        "排除三面重合或仅两面相交的其它参数选项"
       ]
-    ]
+    ],
+    "images_reviewed": true,
+    "source_recovery": "用户附件IMG_20261005_201033..jpg，第16题；截取原书三平面示意图并加入题干。",
+    "additional_source_evidence": "配套习题/张宇1000题/01_基础篇/线性代数/images/ZY1000-JC-XD04-T16_source_photo.png"
   },
   "ZY1000-JC-XD04-T17": {
     "alternatives": [],
@@ -16544,7 +16541,7 @@
     ],
     "main": "曲线渐近线",
     "method": "以差值极限识别渐近行为",
-    "question_hash_sha256": "8977bc85dc8fb072b652db314ce0e63266d51f7b745a4183867455e36a0d08d1",
+    "question_hash_sha256": "231566c23e481d3907df5a694e0302f3e380ac7d842069c04b0d4badb3649408",
     "review_note": "本轮逐题读取题干及所需选项，独立核对任务、方法适用条件与得分行为。",
     "review_round": "inherited_v2",
     "secondary": [],
@@ -23117,7 +23114,7 @@
     ],
     "main": "数项级数敛散性",
     "method": "按项的性质选择收敛判据",
-    "question_hash_sha256": "f0d14fbfccda3b1165a1c8cdf0deade6d2812d776acb1bb250fe2fc8a9644ce5",
+    "question_hash_sha256": "d5eafca538608e66226124c5eb298f54c54df2cee983fa7db255bd62f68c89df",
     "review_note": "本轮逐题读取题干及所需选项，独立核对任务、方法适用条件与得分行为。",
     "review_round": "inherited_v2",
     "secondary": [],
@@ -26008,9 +26005,6 @@
   },
   "ZY1000-QH-XD05-T15": {
     "alternatives": [],
-    "blocked": [
-      "l3.evidence_steps.U02"
-    ],
     "dependencies": [
       [
         1,
@@ -26023,18 +26017,18 @@
     ],
     "main": "线性方程组的解与参数",
     "method": "比较系数矩阵与增广矩阵的秩",
-    "question_hash_sha256": "17ca01ab0e76a6a80e3676318a4a8ea0276931d822361dc82a1d5d8f5dd837aa",
-    "review_note": "按原题重新核对本题任务、方法条件和证据；见本题明确步骤及任务定位。",
+    "question_hash_sha256": "f77a7d540152b1a17d1dae251ed3bcbda7bfb17d69b5104aeaa5dbfae35558ef",
+    "review_note": "2026-10-05按用户提供的完整同题照片补齐题面，并独立核算原先受缺项或缺图影响的证据；解除对应待核字段。",
     "review_round": "corrected_v3",
     "secondary": [],
     "soft": [],
-    "source_issue": "选项仅列①②③④的组合，当前题块缺少各序号所指的位置关系或示意图。",
     "steps": [
       "把给定点落在直线上的条件写成三个法向量的线性关系",
       "用该关系约束系数矩阵及增广矩阵的秩",
       "据秩推断可确认的平面配置限制",
-      "将第一问可确认配置与原题序号图或文字逐个对应",
-      "在序号所指图文缺失时保留选项映射待核对"
+      "将已确认的法向量线性关系与原图①②③④逐项对应",
+      "区分三面共线、两面重合且与第三面平行、三面两两交于平行线、两面平行且被第三面截交",
+      "用系数矩阵和增广矩阵的秩及重合条件确认可能配置②③"
     ],
     "tasks": [
       [
@@ -26043,10 +26037,14 @@
         "据秩推断可确认的平面配置限制"
       ],
       [
-        "将第一问可确认配置与原题序号图或文字逐个对应",
-        "在序号所指图文缺失时保留选项映射待核对"
+        "将已确认的法向量线性关系与原图①②③④逐项对应",
+        "区分三面共线、两面重合且与第三面平行、三面两两交于平行线、两面平行且被第三面截交",
+        "用系数矩阵和增广矩阵的秩及重合条件确认可能配置②③"
       ]
-    ]
+    ],
+    "images_reviewed": true,
+    "source_recovery": "用户附件IMG_20261005_201053..jpg，第15题；保留①②③④原图形与序号，截取后加入题干。",
+    "additional_source_evidence": "配套习题/张宇1000题/02_强化篇/线性代数/images/ZY1000-QH-XD05-T15_source_photo.png"
   },
   "ZY1000-QH-XD06-T01": {
     "alternatives": [],

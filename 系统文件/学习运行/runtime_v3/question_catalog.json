@@ -144425,7 +144425,7 @@
       "original_points": null,
       "source_file": "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md",
       "source_locator": "ZY1000-JC-GS14-T06",
-      "question_hash_sha256": "2b37c06edcef99e253f264559e0458e69cdf3849aea867b6db5ae1e6abe608ea",
+      "question_hash_sha256": "2387e2b2e701de20fd8da9c33ef65c7b1d29424100b83aae312f805b2b4f8dea",
       "question_id": "ZY1000-JC-GS14-T06",
       "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
       "annotation_depth": "L3",
@@ -144435,21 +144435,13 @@
         "id": "M1_K_9883511369af7d7f",
         "name": "二重积分计算"
       },
-      "primary_method": null,
+      "primary_method": {
+        "id": "M1_METHOD_fdbb8d4d448902d9",
+        "name": "根据区域形状交换积分次序"
+      },
       "main_knowledge_status": "verified",
-      "evidence_steps_status": "needs_review",
-      "field_omissions": [
-        {
-          "field_path": "l2.primary_method",
-          "reason": "原做题本第264页分子指数e^{x-}的减项缺失；积分上下限、分式和根号已恢复，但缺失指数尚无可信第二题面可确定。",
-          "reason_type": "human_review_needed"
-        },
-        {
-          "field_path": "l3.evidence_steps",
-          "reason": "原做题本第264页分子指数e^{x-}的减项缺失；积分上下限、分式和根号已恢复，但缺失指数尚无可信第二题面可确定。",
-          "reason_type": "human_review_needed"
-        }
-      ]
+      "evidence_steps_status": "verified",
+      "field_omissions": []
     },
     {
       "exam_track": "MATH1",
@@ -147814,7 +147806,7 @@
       "original_points": null,
       "source_file": "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md",
       "source_locator": "ZY1000-JC-XD04-T16",
-      "question_hash_sha256": "9a1af3f0e429defd8a895ed95eb0bd79ad8874ffc51e279ccacdde213ffc7b05",
+      "question_hash_sha256": "13860bbbf5da79decb486a0b71ae1308129f862f78cf212dab9bc94edf56319f",
       "question_id": "ZY1000-JC-XD04-T16",
       "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
       "annotation_depth": "L3",
@@ -147829,14 +147821,8 @@
         "name": "比较系数矩阵与增广矩阵的秩"
       },
       "main_knowledge_status": "verified",
-      "evidence_steps_status": "needs_review",
-      "field_omissions": [
-        {
-          "field_path": "l3.evidence_steps",
-          "reason": "三平面位置关系依赖题干所指示意图，当前题块没有图或链接。",
-          "reason_type": "human_review_needed"
-        }
-      ]
+      "evidence_steps_status": "verified",
+      "field_omissions": []
     },
     {
       "exam_track": "MATH1",
@@ -153066,7 +153052,7 @@
       "original_points": null,
       "source_file": "配套习题/张宇1000题/02_强化篇/第05章_一元函数微分学的几何应用.md",
       "source_locator": "ZY1000-QH-GS05-T30",
-      "question_hash_sha256": "8977bc85dc8fb072b652db314ce0e63266d51f7b745a4183867455e36a0d08d1",
+      "question_hash_sha256": "231566c23e481d3907df5a694e0302f3e380ac7d842069c04b0d4badb3649408",
       "question_id": "ZY1000-QH-GS05-T30",
       "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
       "annotation_depth": "L3",
@@ -159527,7 +159513,7 @@
       "original_points": null,
       "source_file": "配套习题/张宇1000题/02_强化篇/第16章_无穷级数.md",
       "source_locator": "ZY1000-QH-GS16-T02",
-      "question_hash_sha256": "f0d14fbfccda3b1165a1c8cdf0deade6d2812d776acb1bb250fe2fc8a9644ce5",
+      "question_hash_sha256": "d5eafca538608e66226124c5eb298f54c54df2cee983fa7db255bd62f68c89df",
       "question_id": "ZY1000-QH-GS16-T02",
       "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
       "annotation_depth": "L3",
@@ -162362,7 +162348,7 @@
       "original_points": null,
       "source_file": "配套习题/张宇1000题/02_强化篇/线性代数/第05章_线性方程组.md",
       "source_locator": "ZY1000-QH-XD05-T15",
-      "question_hash_sha256": "17ca01ab0e76a6a80e3676318a4a8ea0276931d822361dc82a1d5d8f5dd837aa",
+      "question_hash_sha256": "f77a7d540152b1a17d1dae251ed3bcbda7bfb17d69b5104aeaa5dbfae35558ef",
       "question_id": "ZY1000-QH-XD05-T15",
       "annotation_file": "系统文件/题目标注/数学一配套题_L3_20260930_v3/zy1000/question_annotations_l3_v1.json",
       "annotation_depth": "L3",
@@ -162377,14 +162363,8 @@
         "name": "比较系数矩阵与增广矩阵的秩"
       },
       "main_knowledge_status": "verified",
-      "evidence_steps_status": "needs_review",
-      "field_omissions": [
-        {
-          "field_path": "l3.evidence_steps.U02",
-          "reason": "选项仅列①②③④的组合，当前题块缺少各序号所指的位置关系或示意图。",
-          "reason_type": "human_review_needed"
-        }
-      ]
+      "evidence_steps_status": "verified",
+      "field_omissions": []
     },
     {
       "exam_track": "MATH1",

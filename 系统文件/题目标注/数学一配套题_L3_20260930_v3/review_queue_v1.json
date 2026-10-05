@@ -188,17 +188,6 @@
       "source_issue": "当前选项中有关参数符号的表述重复，缺少与积分对称性相符的完整选项。"
     },
     {
-      "line_start": 77,
-      "missing_fields": [
-        "l2.primary_method",
-        "l3.evidence_steps"
-      ],
-      "priority": "L1_FIRST",
-      "question_id": "ZY1000-JC-GS14-T06",
-      "source_file": "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md",
-      "source_issue": "原做题本第264页分子指数e^{x-}的减项缺失；积分上下限、分式和根号已恢复，但缺失指数尚无可信第二题面可确定。"
-    },
-    {
       "line_start": 232,
       "missing_fields": [],
       "priority": "L1_FIRST",
@@ -215,16 +204,6 @@
       "question_id": "ZY1000-JC-GS16-T07",
       "source_file": "配套习题/张宇1000题/01_基础篇/第16章_无穷级数.md",
       "source_issue": "按现存Σa_n(1)读取，初值解给出的积分项有1/n调和主项，与题称收敛冲突；可能遗漏项的平方或二次索引，第二任务证据待核对。"
-    },
-    {
-      "line_start": 137,
-      "missing_fields": [
-        "l3.evidence_steps"
-      ],
-      "priority": "L1_FIRST",
-      "question_id": "ZY1000-JC-XD04-T16",
-      "source_file": "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md",
-      "source_issue": "三平面位置关系依赖题干所指示意图，当前题块没有图或链接。"
     },
     {
       "line_start": 82,
@@ -388,16 +367,6 @@
       "question_id": "ZY1000-QH-GS18-T24",
       "source_file": "配套习题/张宇1000题/02_强化篇/第18章_多元函数积分学.md",
       "source_issue": "准线给出了角向范围，但现存题干未明确母线的有限截取比例；按完整锥面为无界曲面，第二问有限通量不能唯一确认。"
-    },
-    {
-      "line_start": 118,
-      "missing_fields": [
-        "l3.evidence_steps.U02"
-      ],
-      "priority": "L1_FIRST",
-      "question_id": "ZY1000-QH-XD05-T15",
-      "source_file": "配套习题/张宇1000题/02_强化篇/线性代数/第05章_线性方程组.md",
-      "source_issue": "选项仅列①②③④的组合，当前题块缺少各序号所指的位置关系或示意图。"
     },
     {
       "line_start": 37,

@@ -3,11 +3,11 @@
   "scope": "当前活动L3题干与选项的一次性原文修复",
   "summary": {
     "coverage": 3194,
-    "changed": 1356,
+    "changed": 1357,
     "counts": {
       "408": 83,
       "M1": 406,
-      "ZY1000": 851,
+      "ZY1000": 852,
       "ZY30": 16
     },
     "source_files": 107,
@@ -11397,7 +11397,7 @@
       "question_id": "ZY1000-JC-GS14-T06",
       "source_file": "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md",
       "before": "1 y2 xex-\n6. \\int  dy\\int  dx=_____.\n0 0 1- x",
-      "after": "6. $\\int_0^1dy\\int_0^{y^2}\\frac{x e^{x-}}{1-\\sqrt{x}}\\,dx=\\underline{\\qquad}$.",
+      "after": "6. $\\int_0^1dy\\int_0^{y^2}\\frac{x e^x}{1-\\sqrt{x}}\\,dx=\\underline{\\qquad}$.",
       "evidence": [
         {
           "evidence": "定点检查用户高数PDF第264页：外积分上下限0、1；内积分上下限0、y²；分母1−√x、分子x乘e的幂、分式和dx均清晰。仅恢复这些确定结构。原稿自身的指数为x−且减号后缺项；不猜补，不标记完全修复。",
@@ -11417,6 +11417,13 @@
           "second_original_book_url": "https://www.scribd.com/document/783412566/25%E5%BC%A0%E5%AE%87-%E9%A2%98%E6%BA%901000%E9%A2%98-%E4%B9%A0%E9%A2%98%E5%86%8C-%E6%95%B0%E4%B8%80#page=38",
           "remaining": "e^{x-}中减号后的项，不补猜测值",
           "working_record": "zy1000/secondary_source_4_questions.json"
+        },
+        {
+          "source_kind": "user_supplied_original_book_photo",
+          "attachment_name": "codex-clipboard-cfe7fcb5-0842-44cf-89bb-a18f6e6952b3.png",
+          "attachment_sha256": "f5b1367dcddd750566c3ac4ab0466d58e3c1dd11c54a0ddac264d2f675dcbbf8",
+          "basis": "照片第6题直接可见指数仅为x；积分换序后区间长度抵消分母，剩余∫₀¹xeˣdx，与完整原式一致。",
+          "verified": "2026-10-05"
         }
       ]
     },
@@ -12736,7 +12743,7 @@
       "question_id": "ZY1000-JC-XD04-T16",
       "source_file": "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md",
       "before": "16. 在空间直角坐标系 $O-xyz$ 中，三张平面 $\\pi_1: ax+y-z=1, \\pi_2: x+y+bz=a, \\pi_3: x+ay-z=1$ 的位置关系如图所示，则（ ）.\n\nA. $a = -2, b = 2$\nB. $a \neq -2, b = 2$\nC. $a = 1, b = -1$\nD. $a = 1, b \neq -1$",
-      "after": "16. 在空间直角坐标系 $O-xyz$ 中，三张平面 $\\pi_1: ax+y-z=1, \\pi_2: x+y+bz=a, \\pi_3: x+ay-z=1$ 的位置关系如图所示，则（ ）.\n\nA. $a = -2, b = 2$\nB. $a \\neq -2, b = 2$\nC. $a = 1, b = -1$\nD. $a = 1, b \\neq -1$",
+      "after": "16. 在空间直角坐标系 $O-xyz$ 中，三张平面 $\\pi_1: ax+y-z=1, \\pi_2: x+y+bz=a, \\pi_3: x+ay-z=1$ 的位置关系如图所示，则（ ）.\n\n![三平面位置关系（原书图）](images/ZY1000-JC-XD04-T16_source_photo.png)\n\nA. $a = -2, b = 2$\nB. $a \\neq -2, b = 2$\nC. $a = 1, b = -1$\nD. $a = 1, b \\neq -1$",
       "evidence": [
         {
           "evidence": "neq命令被换行转义破坏；已定点对照本地PDF第61页，B项为a不等于-2，D项为b不等于-1。",
@@ -12752,6 +12759,13 @@
             }
           ],
           "working_record": "zy1000/repairs_linear.json"
+        },
+        {
+          "source_kind": "user_supplied_original_book_photo",
+          "attachment_name": "IMG_20261005_201033..jpg",
+          "attachment_sha256": "ed180cda759c54d70d353a493ac918a6acf0a914d6cdea54516a73b1e96fced7",
+          "basis": "照片第16题完整示意图；截取三个不同平面共一条交线，逐项核对参数给出的秩与重合条件。",
+          "verified": "2026-10-05"
         }
       ]
     },
@@ -14758,7 +14772,7 @@
       "question_id": "ZY1000-QH-GS05-T30",
       "source_file": "配套习题/张宇1000题/02_强化篇/第05章_一元函数微分学的几何应用.md",
       "before": "1 1\n30. 求曲线y=x3(ex +ex -2 )\n的全部渐近线.",
-      "after": "30. 求曲线 $y=x^3(e^{1/x}+e^{1/x}-2)$ 的全部渐近线。",
+      "after": "30. 求曲线 $y=x^3(e^{1/x}+e^{-1/x}-2)$ 的全部渐近线。",
       "evidence": [
         {
           "basis": [
@@ -14766,6 +14780,13 @@
             "P469和原stem两个指数均写1/x，本轮按现有原页恢复两个正指数，未擅自把第二项改成负指数。"
           ],
           "working_record": "repairs_strength_middle.json"
+        },
+        {
+          "source_kind": "user_supplied_original_book_photo",
+          "attachment_name": "IMG_20261005_201016..jpg",
+          "attachment_sha256": "fcec8e0e3f0d86e631f3e9dcc3ecb3ad9ef6f78d698fa537a5373adcb60952fc",
+          "basis": "照片第30题第二个指数明确为负1/x；恢复后无穷远差值极限和零点两侧行为可核算。",
+          "verified": "2026-10-05"
         }
       ]
     },
@@ -18229,7 +18250,7 @@
       "question_id": "ZY1000-QH-GS16-T02",
       "source_file": "配套习题/张宇1000题/02_强化篇/第16章_无穷级数.md",
       "before": "\\infty\n2. 若级数\\sum |u\nn\nv n|发散，则( ).\nn=1\n\\infty \\infty |v n| \\infty \\infty |v n|\nA. \\sum n|u n|收敛且\\sum  收敛 B. \\sum n|u n|发散且\\sum  收敛\nn n\nn=1 n=1 n=1 n=1\n\\infty \\infty \\infty \\infty\nv v\nC. \\sum n|u n|收敛或\\sum  n 发散 D. \\sum n|u n|收敛或\\sum  n 发散\nn n\nn=1 n=1 n=1 n=1",
-      "after": "2. 若级数 $\\displaystyle\\sum_{n=1}^\\infty|u_nv_n|$ 发散，则（ ）。\n\n- **A.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 收敛且 $\\displaystyle\\sum_{n=1}^\\infty\\frac{|v_n|}{n}$ 收敛\n- **B.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 发散且 $\\displaystyle\\sum_{n=1}^\\infty\\frac{|v_n|}{n}$ 收敛\n- **C.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 收敛或 $\\displaystyle\\sum_{n=1}^\\infty\\frac{v_n}{n}$ 发散\n- **D.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 收敛或 $\\displaystyle\\sum_{n=1}^\\infty\\frac{v_n}{n}$ 发散",
+      "after": "2. 若级数 $\\displaystyle\\sum_{n=1}^\\infty|u_nv_n|$ 发散，则（ ）。\n\n- **A.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 收敛且 $\\displaystyle\\sum_{n=1}^\\infty\\frac{|v_n|}{n}$ 收敛\n- **B.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 发散且 $\\displaystyle\\sum_{n=1}^\\infty\\frac{|v_n|}{n}$ 收敛\n- **C.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 收敛或 $\\displaystyle\\sum_{n=1}^\\infty\\frac{v_n}{n}$ 发散\n- **D.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 发散或 $\\displaystyle\\sum_{n=1}^\\infty\\frac{v_n}{n}$ 发散",
       "evidence": [
         {
           "reason": "定点对照原PDF恢复压平的数学题干结构",
@@ -18237,6 +18258,13 @@
           "reference_pdf": "/home/elexs/My Material/资料收集/Maths/张宇1000题（数一，高数）--张宇.pdf",
           "pdf_page": 706,
           "working_record": "zy1000/repairs_strength_late.json"
+        },
+        {
+          "source_kind": "user_supplied_original_book_photo",
+          "attachment_name": "IMG_20261005_200958..jpg",
+          "attachment_sha256": "17fe41c2fcb336bae98ba215b0c7ce01e3a22385ca17609e5ec8263d1ac77d99",
+          "basis": "照片第2题D第一项明确为Σn|u_n|发散，C第一项则为收敛；数学上D由相应收敛假设推出原绝对级数收敛的反证得到。",
+          "verified": "2026-10-05"
         }
       ]
     },
@@ -20459,6 +20487,21 @@
           "basis": "各表的列分隔符、表头及数据行完整保存在同一行的<br>分段中；只将表行边界恢复为Markdown真实换行，并在表与正文之间加空行。所有原表内容和空白格原样保留。",
           "source_reference": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第06讲_数理统计.md#ZY30-GL-06-L6.07",
           "working_record": "zy30/repairs.json"
+        }
+      ]
+    },
+    {
+      "question_id": "ZY1000-QH-XD05-T15",
+      "source_file": "配套习题/张宇1000题/02_强化篇/线性代数/第05章_线性方程组.md",
+      "before": "15. 设 $\\alpha_i = [a_i, b_i, c_i]^T (i=1,2,3)$ 均为非零列向量，且直线 $\\frac{x-a_1}{a_2} = \\frac{y-b_1}{b_2} = \\frac{z-c_1}{c_2}$ 过点 $(a_3, b_3, c_3)$，则可能是三个平面 $\\pi_i: \\alpha_i^T \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = 1 (i=1,2,3)$ 的位置关系的所有序号是（ ）.\n\nA. ①③\nB. ②③\nC. ②④\nD. ①③④",
+      "after": "15. 设 $\\alpha_i = [a_i, b_i, c_i]^T (i=1,2,3)$ 均为非零列向量，且直线 $\\frac{x-a_1}{a_2} = \\frac{y-b_1}{b_2} = \\frac{z-c_1}{c_2}$ 过点 $(a_3, b_3, c_3)$，则可能是三个平面 $\\pi_i: \\alpha_i^T \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = 1 (i=1,2,3)$ 的位置关系的所有序号是（ ）.\n\n![三平面位置关系①②③④（原书图）](images/ZY1000-QH-XD05-T15_source_photo.png)\n\nA. ①③\nB. ②③\nC. ②④\nD. ①③④",
+      "evidence": [
+        {
+          "source_kind": "user_supplied_original_book_photo",
+          "attachment_name": "IMG_20261005_201053..jpg",
+          "attachment_sha256": "24425e4a8c3c4a5a49263f1ac7b53b575cda54446a6fc4171fc62853bea18b4c",
+          "basis": "照片第15题四个图及①②③④序号完整；保留原图形关系，按法向量线性关系与增广矩阵秩核对配置映射。",
+          "verified": "2026-10-05"
         }
       ]
     }
@@ -40019,11 +40062,12 @@
     },
     "ZY1000-JC-GS14-T06": {
       "source_file": "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md",
-      "status": "partially_repaired_source_missing",
+      "status": "repaired",
       "reason": "双重积分、上下限、分式和根号已按P264恢复；原稿分子指数e^{x-}的减项仍缺失。公开26版拆分本基础二重积分页93–95和25版原书扫描基础二重积分页38–39无该题，未找到能唯一确定缺项的第二原稿。",
       "read_method": "逐题阅读，未猜测缺失运算",
       "partial_repair": true,
-      "question_body_sha256": "d1b25d499b217bbf054438741d4935a5e3076f47009409dc02a8957cb1accc0c"
+      "question_body_sha256": "8df84228b9741a7295753cc0c1d82b30a2e96f1e787ad2bd187480908195f327",
+      "photo_source_confirmed": "codex-clipboard-cfe7fcb5-0842-44cf-89bb-a18f6e6952b3.png"
     },
     "ZY1000-JC-GS14-T07": {
       "source_file": "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md",
@@ -40810,7 +40854,8 @@
       "reason": "neq已修；本地可信原稿PDF第61页也仅写“位置关系如图所示”而完全无图，不猜绘三平面位置图。",
       "reference_pdf": "/home/elexs/My Material/1PDF/考研资料/【横版】1000题数一线概篇.pdf",
       "pdf_page": 61,
-      "question_body_sha256": "f6760dff9d4996dae4d8aafcd17bbaa718fabfb10a483997d1b5e1e22b7163a9"
+      "question_body_sha256": "958d370144adc1d0cb758328403450d2d96c5990c7ef04c9efeaf3e17f9810f5",
+      "photo_source_confirmed": "IMG_20261005_201033..jpg"
     },
     "ZY1000-JC-XD04-T17": {
       "source_file": "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md",
@@ -41489,11 +41534,12 @@
     },
     "ZY1000-QH-XD05-T15": {
       "source_file": "配套习题/张宇1000题/02_强化篇/线性代数/第05章_线性方程组.md",
-      "status": "read_no_structural_loss",
+      "status": "repaired",
       "read_method": "逐题阅读题干、全部选项及分式、cases、矩阵行列、数学括号；仅明确损失位置恢复",
       "question_before_sha256": "14a4214ae2f9af901bbe4cbf6981b30aeb851afc09d4c8f9ae6fe511552d985e",
       "note": "已有①②③④示意图缺失，未据选项组合猜造。",
-      "question_body_sha256": "e3d58f9320d2993c739d1b26837b7a708138262ba150e36da1c99cc17e03c0aa"
+      "question_body_sha256": "023ea643d47d5679d65316dd9197a8a166253f854cfca029bcbf825cf7c721ab",
+      "photo_source_confirmed": "IMG_20261005_201053..jpg"
     },
     "ZY1000-QH-XD06-T01": {
       "source_file": "配套习题/张宇1000题/02_强化篇/线性代数/第06章_向量组.md",
@@ -42872,14 +42918,14 @@
       "question_id": "ZY1000-QH-GS05-T30",
       "source_file": "配套习题/张宇1000题/02_强化篇/第05章_一元函数微分学的几何应用.md",
       "page": 469,
-      "status": "repaired_with_unconfirmed_source_doubt",
+      "status": "repaired",
       "read_method": "逐题阅读原stem，并定点视觉核对本地做题本对应P页，恢复各公式与选项的层次",
       "notes": [
         "本地《张宇1000题（数一，高数）》做题本第469页：逐题视觉核对各上/下标、分式、根号、积分限及cases关系；仅恢复原题正文数学结构，保留编号、全部标签与原本地图链接。",
         "P469和原stem两个指数均写1/x，本轮按现有原页恢复两个正指数，未擅自把第二项改成负指数。"
       ],
-      "question_body_sha256": "cb9b0e7eb4ea757e1fea68aec380a9ba5aa6e3f3c7406d9c7c0b4887af17e55b",
-      "remaining_source_note": "指数位置已恢复；本地PDF两个指数均为正，是否缺负号尚无同题原稿确认。"
+      "question_body_sha256": "a80ee490007446bbfde5b4be87205fcf8ef53c6ac282230751f02834259b1295",
+      "photo_source_confirmed": "IMG_20261005_201016..jpg"
     },
     "ZY1000-QH-GS05-T31": {
       "question_id": "ZY1000-QH-GS05-T31",
@@ -44911,12 +44957,12 @@
     "ZY1000-QH-GS16-T02": {
       "source_file": "配套习题/张宇1000题/02_强化篇/第16章_无穷级数.md",
       "pdf_page": 706,
-      "status": "partially_repaired_original_options_unresolved",
+      "status": "repaired",
       "read_method": "实际逐题阅读Markdown与该题原PDF页顶题干，非全量OCR。",
       "question_hash_before": "947a4b96f750382a5a3ff055561bf0cfed86dc3c1205e446a86cd39a486cc705",
       "notes": "本地原题PDF C和D文字相同；只恢复既有上下标和分式，未自行改为绝对值或更换选项。",
-      "question_body_sha256": "c1772344ee159f04d7bd825832596af4fdc9ff4191c06f5b05e65d5cf0284264",
-      "remaining_source_note": "级数结构已恢复；原PDF的C/D重复，缺可信同题原稿。"
+      "question_body_sha256": "b2cf6039f18018e5d31a604b3f5fa701b35398001da11a47555ec1cea9e35edc",
+      "photo_source_confirmed": "IMG_20261005_200958..jpg"
     },
     "ZY1000-QH-GS16-T03": {
       "source_file": "配套习题/张宇1000题/02_强化篇/第16章_无穷级数.md",
@@ -45575,64 +45621,289 @@
       "question_body_sha256": "b8fa42833cf0e27e521dfe1f1a890db37c97527f26b5707b9113aab685cb4339"
     }
   },
-  "remaining_source_issues": [
-    {
-      "question_id": "ZY1000-QH-GS16-T02",
-      "status": "unresolved_original_options_retained",
-      "issue": "本地原题PDF第706页和当前题干均为Σ|unvn|发散，C/D都写Σn|un|收敛或Σvn/n发散，重复且无法仅凭题意判断原选项。",
-      "evidence": "已定点查看26真实原书纸面110页第16章第2题（网站物理111）：该题为Σan条件收敛、Σbn绝对收敛的四个结论，与当前题干不同；25真实原书纸面99第2题也为另一数列sin迭代题。针对当前完整题干再次检索未得到可信原稿，不把不同版本第2题移入替代，也不从数学正确性猜修某个标签。",
-      "original_references": [
-        "https://www.scribd.com/document/926043712/26%E5%BC%A0%E5%AE%871000%E9%A2%98%E6%95%B0%E4%B8%80-%E4%B9%A0%E9%A2%98%E5%88%86%E5%86%8C",
-        "https://www.scribd.com/document/783412566/25%E5%BC%A0%E5%AE%87-%E9%A2%98%E6%BA%901000%E9%A2%98-%E4%B9%A0%E9%A2%98%E5%86%8C-%E6%95%B0%E4%B8%80"
-      ],
-      "checked_original_locations": [
-        "26习题册纸面110页第2题，网站物理111页",
-        "25习题册纸面99页第2题，网页L4203-L4209"
-      ],
-      "stage_changed": false
-    },
-    {
-      "question_id": "ZY1000-QH-GS05-T30",
-      "status": "unresolved_original_expression_retained",
-      "issue": "当前本地PDF第469页与源题均为y=x³(e^(1/x)+e^(1/x)−2)，两个正指数重复。负号虽看似可能，缺少匹配真实原题不能确定。",
-      "evidence": "已按完整函数定点查看26真实原书第5章几何应用紙面81–84（网站物理82–85）；真实第30题为x²+xy+y³=3曲线在(1,1)附近凹凸性，与当前完整函数不同。所查渐近线题也未匹配x³(e^(1/x)+e^(1/x)−2)。25原书对应章的公开文本及针对该完整函数检索未确认同题，保留原指数。",
-      "original_references": [
-        "https://www.scribd.com/document/926043712/26%E5%BC%A0%E5%AE%871000%E9%A2%98%E6%95%B0%E4%B8%80-%E4%B9%A0%E9%A2%98%E5%88%86%E5%86%8C",
-        "https://www.scribd.com/document/783412566/25%E5%BC%A0%E5%AE%87-%E9%A2%98%E6%BA%901000%E9%A2%98-%E4%B9%A0%E9%A2%98%E5%86%8C-%E6%95%B0%E4%B8%80"
-      ],
-      "checked_original_locations": [
-        "26习题册纸面81–84，网站物理82–85",
-        "26习题册纸面83页真实第30题：x²+xy+y³=3"
-      ],
-      "stage_changed": false
-    },
-    {
-      "question_id": "ZY1000-JC-GS14-T06",
-      "status": "unresolved_original_exponent_retained",
-      "issue": "当前本地做题本PDF第264页被积函数指数只剩x−，缺减号后的内容；不能猜补1或其它变量。",
-      "evidence": "已按完整积分域、分母1−√x及被积函数前缀定点查看26真实原书基础二重积分纸面31（网站物理34）全部页顶/页底题面：第6题为积分换序∫1^e dy∫0^(ln y)f(x,y)dx，未匹配当前积分，未用该题号移题。已有base agent也报告25/26对应基础两页未匹配，当前仍无可确认指数缺项的同题原稿；保留源文并标明不可可靠使用。",
-      "original_references": [
-        "https://www.scribd.com/document/926043712/26%E5%BC%A0%E5%AE%871000%E9%A2%98%E6%95%B0%E4%B8%80-%E4%B9%A0%E9%A2%98%E5%88%86%E5%86%8C",
-        "https://www.scribd.com/document/783412566/25%E5%BC%A0%E5%AE%87-%E9%A2%98%E6%BA%901000%E9%A2%98-%E4%B9%A0%E9%A2%98%E5%86%8C-%E6%95%B0%E4%B8%80"
-      ],
-      "checked_original_locations": [
-        "26习题册基础二重积分纸面31，网站物理34，第6题为换序题",
-        "本地PDF264页对应截图remaining_integral_review.png"
-      ],
-      "stage_changed": false
-    },
-    {
-      "question_id": "ZY1000-JC-XD04-T16",
-      "status": "original_required_figure_missing",
-      "issue": "本地原PDF缺题目所需示意图，未编造补图。"
-    },
-    {
-      "question_id": "ZY1000-QH-XD05-T15",
-      "status": "original_required_figure_missing",
-      "issue": "本地原PDF缺题目所需示意图，未编造补图。"
-    }
-  ],
+  "remaining_source_issues": [],
   "validation": {
+    "integration": {
+      "source_files": [
+        "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md",
+        "配套习题/张宇1000题/02_强化篇/第05章_一元函数微分学的几何应用.md",
+        "配套习题/张宇1000题/02_强化篇/第16章_无穷级数.md",
+        "配套习题/张宇1000题/02_强化篇/线性代数/第05章_线性方程组.md",
+        "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md"
+      ],
+      "core": {
+        "status": "PASS",
+        "errors": [],
+        "question_count": 8022,
+        "core_count": 1277,
+        "paper_count": 37,
+        "all_papers_150": true,
+        "scope_resolutions": 123,
+        "input_file_count": 839
+      },
+      "practice": {
+        "status": "PASS",
+        "record_count": 1917,
+        "error_count": 0,
+        "errors": [],
+        "checks": [
+          "1917 source-locked canonical IDs",
+          "v1.2 schema",
+          "exact per-question values/statuses bound to explicit decisions",
+          "task/edge/alternative mechanism and evidence binding",
+          "partial task omissions retain confirmed evidence",
+          "267 explained L0 corrections; literal L1 preservation",
+          "no points/answers/student-role fabrication",
+          "source and auxiliary hashes; distinct provenance; immutable snapshots"
+        ],
+        "semantic_limit": "PASS检验输出与明确复核决定及来源一致；本轮语义复核653题，继承1264题，不把结构通过当作全部题目数学正确的证明。"
+      },
+      "runtime": {
+        "status": "PASS",
+        "source_file_count": 977,
+        "output_file_count": 8,
+        "errors": []
+      },
+      "semantic_layers_preserved_except_source_issue_corrections": [
+        "ZY1000-JC-GS14-T06",
+        "ZY1000-JC-XD04-T16",
+        "ZY1000-QH-XD05-T15"
+      ],
+      "new_original_figure_assets": [
+        "配套习题/张宇1000题/02_强化篇/线性代数/images/ZY1000-QH-XD05-T15_source_photo.png",
+        "配套习题/张宇1000题/01_基础篇/线性代数/images/ZY1000-JC-XD04-T16_source_photo.png"
+      ],
+      "source_binding_text_updated_question_ids": []
+    },
+    "existing_tests": {
+      "tests_run": 67,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    "five_question_extraction": {
+      "status": "PASS",
+      "question_count": 5,
+      "checks": [
+        {
+          "question_id": "ZY1000-JC-GS14-T06",
+          "question_extraction": "PASS",
+          "field_omissions": [],
+          "original_figure_embedded": false
+        },
+        {
+          "question_id": "ZY1000-QH-GS16-T02",
+          "question_extraction": "PASS",
+          "field_omissions": [],
+          "original_figure_embedded": false
+        },
+        {
+          "question_id": "ZY1000-QH-GS05-T30",
+          "question_extraction": "PASS",
+          "field_omissions": [],
+          "original_figure_embedded": false
+        },
+        {
+          "question_id": "ZY1000-JC-XD04-T16",
+          "question_extraction": "PASS",
+          "field_omissions": [],
+          "original_figure_embedded": true
+        },
+        {
+          "question_id": "ZY1000-QH-XD05-T15",
+          "question_extraction": "PASS",
+          "field_omissions": [],
+          "original_figure_embedded": true
+        }
+      ],
+      "resolved_question_ids_absent_from_pending": true
+    },
+    "five_question_rendering": {
+      "question_count": 5,
+      "formula_errors": [],
+      "original_figures": 2,
+      "images_loaded": true,
+      "engine": "项目自带MathJax，实际浏览器显示",
+      "preview_sha256": "f33a35e08041b7e4bede0a3e332bf5d4502869ee6c3a4f5cce577b29f527bd8a"
+    }
+  },
+  "photo_followup": {
+    "date": "2026-10-05",
+    "repairs": [
+      {
+        "question_id": "ZY1000-JC-GS14-T06",
+        "source_file": "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md",
+        "before": "6. $\\int_0^1dy\\int_0^{y^2}\\frac{x e^{x-}}{1-\\sqrt{x}}\\,dx=\\underline{\\qquad}$.",
+        "after": "6. $\\int_0^1dy\\int_0^{y^2}\\frac{x e^x}{1-\\sqrt{x}}\\,dx=\\underline{\\qquad}$.",
+        "evidence": {
+          "source_kind": "user_supplied_original_book_photo",
+          "attachment_name": "codex-clipboard-cfe7fcb5-0842-44cf-89bb-a18f6e6952b3.png",
+          "attachment_sha256": "f5b1367dcddd750566c3ac4ab0466d58e3c1dd11c54a0ddac264d2f675dcbbf8",
+          "basis": "照片第6题直接可见指数仅为x；积分换序后区间长度抵消分母，剩余∫₀¹xeˣdx，与完整原式一致。",
+          "verified": "2026-10-05"
+        }
+      },
+      {
+        "question_id": "ZY1000-QH-GS16-T02",
+        "source_file": "配套习题/张宇1000题/02_强化篇/第16章_无穷级数.md",
+        "before": "2. 若级数 $\\displaystyle\\sum_{n=1}^\\infty|u_nv_n|$ 发散，则（ ）。\n\n- **A.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 收敛且 $\\displaystyle\\sum_{n=1}^\\infty\\frac{|v_n|}{n}$ 收敛\n- **B.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 发散且 $\\displaystyle\\sum_{n=1}^\\infty\\frac{|v_n|}{n}$ 收敛\n- **C.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 收敛或 $\\displaystyle\\sum_{n=1}^\\infty\\frac{v_n}{n}$ 发散\n- **D.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 收敛或 $\\displaystyle\\sum_{n=1}^\\infty\\frac{v_n}{n}$ 发散",
+        "after": "2. 若级数 $\\displaystyle\\sum_{n=1}^\\infty|u_nv_n|$ 发散，则（ ）。\n\n- **A.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 收敛且 $\\displaystyle\\sum_{n=1}^\\infty\\frac{|v_n|}{n}$ 收敛\n- **B.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 发散且 $\\displaystyle\\sum_{n=1}^\\infty\\frac{|v_n|}{n}$ 收敛\n- **C.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 收敛或 $\\displaystyle\\sum_{n=1}^\\infty\\frac{v_n}{n}$ 发散\n- **D.** $\\displaystyle\\sum_{n=1}^\\infty n|u_n|$ 发散或 $\\displaystyle\\sum_{n=1}^\\infty\\frac{v_n}{n}$ 发散",
+        "evidence": {
+          "source_kind": "user_supplied_original_book_photo",
+          "attachment_name": "IMG_20261005_200958..jpg",
+          "attachment_sha256": "17fe41c2fcb336bae98ba215b0c7ce01e3a22385ca17609e5ec8263d1ac77d99",
+          "basis": "照片第2题D第一项明确为Σn|u_n|发散，C第一项则为收敛；数学上D由相应收敛假设推出原绝对级数收敛的反证得到。",
+          "verified": "2026-10-05"
+        }
+      },
+      {
+        "question_id": "ZY1000-QH-GS05-T30",
+        "source_file": "配套习题/张宇1000题/02_强化篇/第05章_一元函数微分学的几何应用.md",
+        "before": "30. 求曲线 $y=x^3(e^{1/x}+e^{1/x}-2)$ 的全部渐近线。",
+        "after": "30. 求曲线 $y=x^3(e^{1/x}+e^{-1/x}-2)$ 的全部渐近线。",
+        "evidence": {
+          "source_kind": "user_supplied_original_book_photo",
+          "attachment_name": "IMG_20261005_201016..jpg",
+          "attachment_sha256": "fcec8e0e3f0d86e631f3e9dcc3ecb3ad9ef6f78d698fa537a5373adcb60952fc",
+          "basis": "照片第30题第二个指数明确为负1/x；恢复后无穷远差值极限和零点两侧行为可核算。",
+          "verified": "2026-10-05"
+        }
+      },
+      {
+        "question_id": "ZY1000-JC-XD04-T16",
+        "source_file": "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md",
+        "before": "16. 在空间直角坐标系 $O-xyz$ 中，三张平面 $\\pi_1: ax+y-z=1, \\pi_2: x+y+bz=a, \\pi_3: x+ay-z=1$ 的位置关系如图所示，则（ ）.\n\nA. $a = -2, b = 2$\nB. $a \\neq -2, b = 2$\nC. $a = 1, b = -1$\nD. $a = 1, b \\neq -1$",
+        "after": "16. 在空间直角坐标系 $O-xyz$ 中，三张平面 $\\pi_1: ax+y-z=1, \\pi_2: x+y+bz=a, \\pi_3: x+ay-z=1$ 的位置关系如图所示，则（ ）.\n\n![三平面位置关系（原书图）](images/ZY1000-JC-XD04-T16_source_photo.png)\n\nA. $a = -2, b = 2$\nB. $a \\neq -2, b = 2$\nC. $a = 1, b = -1$\nD. $a = 1, b \\neq -1$",
+        "evidence": {
+          "source_kind": "user_supplied_original_book_photo",
+          "attachment_name": "IMG_20261005_201033..jpg",
+          "attachment_sha256": "ed180cda759c54d70d353a493ac918a6acf0a914d6cdea54516a73b1e96fced7",
+          "basis": "照片第16题完整示意图；截取三个不同平面共一条交线，逐项核对参数给出的秩与重合条件。",
+          "verified": "2026-10-05"
+        }
+      },
+      {
+        "question_id": "ZY1000-QH-XD05-T15",
+        "source_file": "配套习题/张宇1000题/02_强化篇/线性代数/第05章_线性方程组.md",
+        "before": "15. 设 $\\alpha_i = [a_i, b_i, c_i]^T (i=1,2,3)$ 均为非零列向量，且直线 $\\frac{x-a_1}{a_2} = \\frac{y-b_1}{b_2} = \\frac{z-c_1}{c_2}$ 过点 $(a_3, b_3, c_3)$，则可能是三个平面 $\\pi_i: \\alpha_i^T \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = 1 (i=1,2,3)$ 的位置关系的所有序号是（ ）.\n\nA. ①③\nB. ②③\nC. ②④\nD. ①③④",
+        "after": "15. 设 $\\alpha_i = [a_i, b_i, c_i]^T (i=1,2,3)$ 均为非零列向量，且直线 $\\frac{x-a_1}{a_2} = \\frac{y-b_1}{b_2} = \\frac{z-c_1}{c_2}$ 过点 $(a_3, b_3, c_3)$，则可能是三个平面 $\\pi_i: \\alpha_i^T \\begin{bmatrix} x \\\\ y \\\\ z \\end{bmatrix} = 1 (i=1,2,3)$ 的位置关系的所有序号是（ ）.\n\n![三平面位置关系①②③④（原书图）](images/ZY1000-QH-XD05-T15_source_photo.png)\n\nA. ①③\nB. ②③\nC. ②④\nD. ①③④",
+        "evidence": {
+          "source_kind": "user_supplied_original_book_photo",
+          "attachment_name": "IMG_20261005_201053..jpg",
+          "attachment_sha256": "24425e4a8c3c4a5a49263f1ac7b53b575cda54446a6fc4171fc62853bea18b4c",
+          "basis": "照片第15题四个图及①②③④序号完整；保留原图形关系，按法向量线性关系与增广矩阵秩核对配置映射。",
+          "verified": "2026-10-05"
+        }
+      }
+    ],
+    "resolved_previously_listed_issues": 5,
+    "validation": {
+      "integration": {
+        "source_files": [
+          "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md",
+          "配套习题/张宇1000题/02_强化篇/第05章_一元函数微分学的几何应用.md",
+          "配套习题/张宇1000题/02_强化篇/第16章_无穷级数.md",
+          "配套习题/张宇1000题/02_强化篇/线性代数/第05章_线性方程组.md",
+          "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md"
+        ],
+        "core": {
+          "status": "PASS",
+          "errors": [],
+          "question_count": 8022,
+          "core_count": 1277,
+          "paper_count": 37,
+          "all_papers_150": true,
+          "scope_resolutions": 123,
+          "input_file_count": 839
+        },
+        "practice": {
+          "status": "PASS",
+          "record_count": 1917,
+          "error_count": 0,
+          "errors": [],
+          "checks": [
+            "1917 source-locked canonical IDs",
+            "v1.2 schema",
+            "exact per-question values/statuses bound to explicit decisions",
+            "task/edge/alternative mechanism and evidence binding",
+            "partial task omissions retain confirmed evidence",
+            "267 explained L0 corrections; literal L1 preservation",
+            "no points/answers/student-role fabrication",
+            "source and auxiliary hashes; distinct provenance; immutable snapshots"
+          ],
+          "semantic_limit": "PASS检验输出与明确复核决定及来源一致；本轮语义复核653题，继承1264题，不把结构通过当作全部题目数学正确的证明。"
+        },
+        "runtime": {
+          "status": "PASS",
+          "source_file_count": 977,
+          "output_file_count": 8,
+          "errors": []
+        },
+        "semantic_layers_preserved_except_source_issue_corrections": [
+          "ZY1000-JC-GS14-T06",
+          "ZY1000-JC-XD04-T16",
+          "ZY1000-QH-XD05-T15"
+        ],
+        "new_original_figure_assets": [
+          "配套习题/张宇1000题/02_强化篇/线性代数/images/ZY1000-QH-XD05-T15_source_photo.png",
+          "配套习题/张宇1000题/01_基础篇/线性代数/images/ZY1000-JC-XD04-T16_source_photo.png"
+        ],
+        "source_binding_text_updated_question_ids": []
+      },
+      "existing_tests": {
+        "tests_run": 67,
+        "failures": 0,
+        "errors": 0,
+        "passed": true
+      },
+      "five_question_extraction": {
+        "status": "PASS",
+        "question_count": 5,
+        "checks": [
+          {
+            "question_id": "ZY1000-JC-GS14-T06",
+            "question_extraction": "PASS",
+            "field_omissions": [],
+            "original_figure_embedded": false
+          },
+          {
+            "question_id": "ZY1000-QH-GS16-T02",
+            "question_extraction": "PASS",
+            "field_omissions": [],
+            "original_figure_embedded": false
+          },
+          {
+            "question_id": "ZY1000-QH-GS05-T30",
+            "question_extraction": "PASS",
+            "field_omissions": [],
+            "original_figure_embedded": false
+          },
+          {
+            "question_id": "ZY1000-JC-XD04-T16",
+            "question_extraction": "PASS",
+            "field_omissions": [],
+            "original_figure_embedded": true
+          },
+          {
+            "question_id": "ZY1000-QH-XD05-T15",
+            "question_extraction": "PASS",
+            "field_omissions": [],
+            "original_figure_embedded": true
+          }
+        ],
+        "resolved_question_ids_absent_from_pending": true
+      },
+      "five_question_rendering": {
+        "question_count": 5,
+        "formula_errors": [],
+        "original_figures": 2,
+        "images_loaded": true,
+        "engine": "项目自带MathJax，实际浏览器显示",
+        "preview_sha256": "f33a35e08041b7e4bede0a3e332bf5d4502869ee6c3a4f5cce577b29f527bd8a"
+      }
+    }
+  },
+  "validation_before_photo_followup": {
     "integration": {
       "source_files": [
         "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",

@@ -14,9 +14,9 @@
     "ZHANGYU_1000": 1041,
     "ZHANGYU_BASIC_30": 876
   },
-  "human_issue_question_count": 23,
+  "human_issue_question_count": 20,
   "human_issue_questions_by_track": {
-    "MATH1": 23
+    "MATH1": 20
   },
   "teacher_semantically_exposed_question_count": 3194,
   "human_signoff_inferred": false,

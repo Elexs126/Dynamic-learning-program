@@ -24,9 +24,9 @@
       "verified": 1917
     },
     "l2.primary_method": {
-      "filled": 1905,
-      "needs_review": 12,
-      "verified": 1905
+      "filled": 1906,
+      "needs_review": 11,
+      "verified": 1906
     },
     "l2.secondary_knowledge": {
       "filled": 1917,
@@ -37,9 +37,9 @@
       "verified": 1917
     },
     "l3.evidence_steps": {
-      "filled": 1901,
-      "needs_review": 23,
-      "verified": 1894
+      "filled": 1903,
+      "needs_review": 20,
+      "verified": 1897
     },
     "l3.inter_question_dependency": {
       "filled": 1917,
@@ -64,14 +64,14 @@
   "isomorphic_cluster_count": 17,
   "isomorphic_question_count": 49,
   "l0_type_correction_count": 271,
-  "omitted_task_count": 20,
-  "partial_evidence_question_count": 7,
-  "questions_all_l2_l3_fields_verified": 1894,
-  "questions_with_omitted_fields": 23,
+  "omitted_task_count": 19,
+  "partial_evidence_question_count": 6,
+  "questions_all_l2_l3_fields_verified": 1897,
+  "questions_with_omitted_fields": 20,
   "record_count": 1917,
   "removed_duplicate_alternative_count": 8,
   "semantics": "没有声称本轮重新求解全部1917题；逐题语义修订覆盖上述653题，其余1264题沿用源文锁定的v2决定。",
-  "source_issue_count": 42,
+  "source_issue_count": 39,
   "source_issues": [
     {
       "question_id": "ZY30-GS-15-X09",
@@ -154,20 +154,12 @@
       "reason": "当前选项中有关参数符号的表述重复，缺少与积分对称性相符的完整选项。"
     },
     {
-      "question_id": "ZY1000-JC-GS14-T06",
-      "reason": "原做题本第264页分子指数e^{x-}的减项缺失；积分上下限、分式和根号已恢复，但缺失指数尚无可信第二题面可确定。"
-    },
-    {
       "question_id": "ZY1000-JC-GS14-T20",
       "reason": "当前分母仅显示xy，按该文本在轴边界附近积分发散；可能缺少根号，根式恢复会改变敛散性，不能默认有限值。"
     },
     {
       "question_id": "ZY1000-JC-GS16-T07",
       "reason": "按现存Σa_n(1)读取，初值解给出的积分项有1/n调和主项，与题称收敛冲突；可能遗漏项的平方或二次索引，第二任务证据待核对。"
-    },
-    {
-      "question_id": "ZY1000-JC-XD04-T16",
-      "reason": "三平面位置关系依赖题干所指示意图，当前题块没有图或链接。"
     },
     {
       "question_id": "ZY1000-QH-GL09-T24",
@@ -232,10 +224,6 @@
     {
       "question_id": "ZY1000-QH-GS18-T24",
       "reason": "准线给出了角向范围，但现存题干未明确母线的有限截取比例；按完整锥面为无界曲面，第二问有限通量不能唯一确认。"
-    },
-    {
-      "question_id": "ZY1000-QH-XD05-T15",
-      "reason": "选项仅列①②③④的组合，当前题块缺少各序号所指的位置关系或示意图。"
     },
     {
       "question_id": "ZY1000-ZH-S01-T03",
