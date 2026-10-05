@@ -8,7 +8,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1321,
+            "line": 1317,
             "match": "均不给分",
             "occurrence": 1
           },
@@ -25,7 +25,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1321,
+            "line": 1317,
             "match": "均可给 6 分",
             "occurrence": 1
           },
@@ -41,7 +41,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1321,
+            "line": 1317,
             "match": "可酌情给分",
             "occurrence": 1
           },
@@ -58,7 +58,7 @@
       "units": [
         {
           "anchor": {
-            "line": 1311,
+            "line": 1307,
             "match": "（4 分）",
             "occurrence": 1
           },
@@ -72,7 +72,7 @@
         },
         {
           "anchor": {
-            "line": 1313,
+            "line": 1309,
             "match": "（6 分）",
             "occurrence": 1
           },
@@ -96,7 +96,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1388,
+            "line": 1384,
             "match": "满分 15 分",
             "occurrence": 1
           },
@@ -114,7 +114,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1388,
+            "line": 1384,
             "match": "最高给 10 分",
             "occurrence": 1
           },
@@ -132,7 +132,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1388,
+            "line": 1384,
             "match": "若采用递归算法得到正确结果的",
             "occurrence": 1
           },
@@ -150,7 +150,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1388,
+            "line": 1384,
             "match": "大小与 k 有关的辅助数组",
             "occurrence": 1
           },
@@ -168,7 +168,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1390,
+            "line": 1386,
             "match": "能够清晰看出算法思想和步骤且正确",
             "occurrence": 1
           },
@@ -186,7 +186,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1392,
+            "line": 1388,
             "match": "可酌情给分",
             "occurrence": 1
           },
@@ -209,7 +209,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1434,
+            "line": 1430,
             "match": "每个给 2 分",
             "occurrence": 1
           },
@@ -227,7 +227,7 @@
       "units": [
         {
           "anchor": {
-            "line": 1420,
+            "line": 1416,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -241,7 +241,7 @@
         },
         {
           "anchor": {
-            "line": 1422,
+            "line": 1418,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -255,7 +255,7 @@
         },
         {
           "anchor": {
-            "line": 1424,
+            "line": 1420,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -269,7 +269,7 @@
         },
         {
           "anchor": {
-            "line": 1426,
+            "line": 1422,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -283,7 +283,7 @@
         },
         {
           "anchor": {
-            "line": 1428,
+            "line": 1424,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -297,7 +297,7 @@
         },
         {
           "anchor": {
-            "line": 1430,
+            "line": 1426,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -311,7 +311,7 @@
         },
         {
           "anchor": {
-            "line": 1432,
+            "line": 1428,
             "match": "（1 分）",
             "occurrence": 1
           },

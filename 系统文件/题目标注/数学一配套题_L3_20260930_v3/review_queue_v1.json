@@ -33,7 +33,7 @@
       "source_issue": "原球为白球的先验概率未给出；颜色未知本身不能推出等概率。"
     },
     {
-      "line_start": 169,
+      "line_start": 175,
       "missing_fields": [
         "l2.primary_method",
         "l3.evidence_steps"
@@ -44,7 +44,7 @@
       "source_issue": "严格单调的分布函数可能有跳跃；概率积分变换需连续或明确反函数在整个(0,1)上存在。"
     },
     {
-      "line_start": 197,
+      "line_start": 204,
       "missing_fields": [],
       "priority": "CORE_L2",
       "question_id": "ZY30-GL-03-X05",
@@ -52,7 +52,7 @@
       "source_issue": "所给二维分布函数在正象限靠近原点可为负，max指数项与正参数条件不相容。"
     },
     {
-      "line_start": 99,
+      "line_start": 105,
       "missing_fields": [],
       "priority": "CORE_L2",
       "question_id": "ZY30-GL-06-L6.08",
@@ -60,7 +60,7 @@
       "source_issue": "开放参数域下部分样本只有似然上确界而无最大值；按样本分支处理，不把不允许的边界值当作估计。"
     },
     {
-      "line_start": 372,
+      "line_start": 378,
       "missing_fields": [],
       "priority": "CORE_L2",
       "question_id": "ZY30-GL-06-X11",
@@ -86,7 +86,7 @@
       "source_issue": "题干引用三幅密度图，当前题块未包含图像或链接。"
     },
     {
-      "line_start": 58,
+      "line_start": 52,
       "missing_fields": [],
       "priority": "L1_FIRST",
       "question_id": "ZY1000-JC-GS00-T05",
@@ -94,7 +94,7 @@
       "source_issue": "原题分式横线在文本提取中丢失；标签按上下两行的分式排版解释，未改写原题。"
     },
     {
-      "line_start": 232,
+      "line_start": 183,
       "missing_fields": [
         "l3.evidence_steps.U01"
       ],
@@ -104,7 +104,7 @@
       "source_issue": "直线参数方程的第二个系数只残留分式中的3，无法核实是否原为√3；第一问直线数值方程待核原版，单位圆及第二问伸缩变换和线性目标仍可确认。"
     },
     {
-      "line_start": 23,
+      "line_start": 17,
       "missing_fields": [],
       "priority": "L1_FIRST",
       "question_id": "ZY1000-JC-GS03-T02",
@@ -112,7 +112,7 @@
       "source_issue": "选项A与B在当前文本均为同一非零条件，疑有等号OCR丢失；理论必要条件可由商法核对。"
     },
     {
-      "line_start": 62,
+      "line_start": 47,
       "missing_fields": [
         "l3.evidence_steps"
       ],
@@ -122,7 +122,7 @@
       "source_issue": "题设函数值与差商分子的常数在当前文本不匹配，可能有上标或常数OCR丢失。"
     },
     {
-      "line_start": 21,
+      "line_start": 19,
       "missing_fields": [],
       "priority": "L1_FIRST",
       "question_id": "ZY1000-JC-GS07-T02",
@@ -130,7 +130,7 @@
       "source_issue": "本题心跳图误附在同文件上一题T01后，已通过坐标轴核对并恢复引用；A/C选项重复且缺少图示对应的增速描述。"
     },
     {
-      "line_start": 64,
+      "line_start": 32,
       "missing_fields": [],
       "priority": "L1_FIRST",
       "question_id": "ZY1000-JC-GS08-T03",
@@ -161,7 +161,7 @@
       "source_issue": "20个积分中的三角函数幂次与倍角写法混淆，若干平方和或平方差的根号及平移分母范围缺失，11—13式还与5—7式出现相同OCR文本；只保留明确式的证据，逐式登记U01、U02、U04、U08—U18中的相应缺失，未补造根号。"
     },
     {
-      "line_start": 451,
+      "line_start": 304,
       "missing_fields": [],
       "priority": "L1_FIRST",
       "question_id": "ZY1000-JC-GS09-T25",
@@ -169,7 +169,7 @@
       "source_issue": "题块有括号转义残片；可辨认对称积分区间及指数倒数结构，具体原式仍需排版校对。"
     },
     {
-      "line_start": 301,
+      "line_start": 211,
       "missing_fields": [
         "l2.primary_method",
         "l3.evidence_steps"
@@ -180,7 +180,7 @@
       "source_issue": "横坐标范围提取为2≤x≤2，可能缺失某端点的根号；上下界退化与通常面积、体积计算含义冲突，现有本地文本不能唯一确认非退化区域，未自行补为√2。"
     },
     {
-      "line_start": 71,
+      "line_start": 52,
       "missing_fields": [],
       "priority": "L1_FIRST",
       "question_id": "ZY1000-JC-GS14-T04",
@@ -188,7 +188,18 @@
       "source_issue": "当前选项中有关参数符号的表述重复，缺少与积分对称性相符的完整选项。"
     },
     {
-      "line_start": 342,
+      "line_start": 77,
+      "missing_fields": [
+        "l2.primary_method",
+        "l3.evidence_steps"
+      ],
+      "priority": "L1_FIRST",
+      "question_id": "ZY1000-JC-GS14-T06",
+      "source_file": "配套习题/张宇1000题/01_基础篇/第14章_二重积分.md",
+      "source_issue": "原做题本第264页分子指数e^{x-}的减项缺失；积分上下限、分式和根号已恢复，但缺失指数尚无可信第二题面可确定。"
+    },
+    {
+      "line_start": 232,
       "missing_fields": [],
       "priority": "L1_FIRST",
       "question_id": "ZY1000-JC-GS14-T20",
@@ -196,7 +207,7 @@
       "source_issue": "当前分母仅显示xy，按该文本在轴边界附近积分发散；可能缺少根号，根式恢复会改变敛散性，不能默认有限值。"
     },
     {
-      "line_start": 145,
+      "line_start": 92,
       "missing_fields": [
         "l3.evidence_steps.U02"
       ],
@@ -206,7 +217,7 @@
       "source_issue": "按现存Σa_n(1)读取，初值解给出的积分项有1/n调和主项，与题称收敛冲突；可能遗漏项的平方或二次索引，第二任务证据待核对。"
     },
     {
-      "line_start": 127,
+      "line_start": 137,
       "missing_fields": [
         "l3.evidence_steps"
       ],
@@ -214,17 +225,6 @@
       "question_id": "ZY1000-JC-XD04-T16",
       "source_file": "配套习题/张宇1000题/01_基础篇/线性代数/第04章_线性方程组.md",
       "source_issue": "三平面位置关系依赖题干所指示意图，当前题块没有图或链接。"
-    },
-    {
-      "line_start": 127,
-      "missing_fields": [
-        "l2.primary_method",
-        "l3.evidence_steps"
-      ],
-      "priority": "L1_FIRST",
-      "question_id": "ZY1000-QH-GL08-T10",
-      "source_file": "配套习题/张宇1000题/02_强化篇/概率论与数理统计/第08章_统计量及其分布.md",
-      "source_issue": "所给指数项为两个平方项的乘积，该表达式在全平面不可积，不能作为题称的联合密度；可能缺少加号。"
     },
     {
       "line_start": 82,
@@ -238,7 +238,7 @@
       "source_issue": "只给总体均值方差且样本量16，不能保证正态分位数区间的精确95%覆盖率；需正态总体条件或明确近似口径。"
     },
     {
-      "line_start": 309,
+      "line_start": 187,
       "missing_fields": [],
       "priority": "L1_FIRST",
       "question_id": "ZY1000-QH-GS01-T17",
@@ -254,7 +254,7 @@
       "source_issue": "按现存双重绝对值表达式，选项B与C均成立，单选题选项存在冲突。"
     },
     {
-      "line_start": 30,
+      "line_start": 28,
       "missing_fields": [
         "l3.evidence_steps.U02"
       ],
@@ -264,7 +264,7 @@
       "source_issue": "第二问运动点坐标的分式排版残损，当前所示横纵坐标与ln曲线及给定范围不能唯一核对；仅保留第一问已确认步骤。"
     },
     {
-      "line_start": 354,
+      "line_start": 237,
       "missing_fields": [
         "l2.primary_method",
         "l3.evidence_steps"
@@ -275,7 +275,7 @@
       "source_issue": "原微分形式中(1+x)、y和常数项的括号位置残损；两种读取给出不同原点行为及可积性，不能直接确认f在原点可导。"
     },
     {
-      "line_start": 97,
+      "line_start": 47,
       "missing_fields": [
         "l2.primary_method",
         "l3.evidence_steps"
@@ -286,7 +286,7 @@
       "source_issue": "嵌套积分限、微分与除数t的排版交错，无法由当前式子唯一核对目标1-sin1；求解方法与证据待原式恢复。"
     },
     {
-      "line_start": 92,
+      "line_start": 72,
       "missing_fields": [
         "l2.primary_method",
         "l3.evidence_steps"
@@ -297,7 +297,7 @@
       "source_issue": "被积式的分数和指数层级交错，当前文本不能唯一区分分母与幂次；区域可辨，具体方法和证据待核对。"
     },
     {
-      "line_start": 275,
+      "line_start": 192,
       "missing_fields": [
         "l2.primary_method",
         "l3.evidence_steps"
@@ -308,7 +308,7 @@
       "source_issue": "现存被积式显示|xy-|，减号位置或被减项缺失，无法区分变量差与乘积减常数；具体分区和证据不能唯一确认。"
     },
     {
-      "line_start": 571,
+      "line_start": 417,
       "missing_fields": [
         "l2.primary_method",
         "l3.evidence_steps"
@@ -319,7 +319,7 @@
       "source_issue": "嵌套积分的幂次、外积分系数与目标ma-nb的分式位置残损，不能唯一核对整数系数；具体方法和证据待校对。"
     },
     {
-      "line_start": 459,
+      "line_start": 360,
       "missing_fields": [
         "l2.primary_method",
         "l3.evidence_steps"
@@ -330,7 +330,7 @@
       "source_issue": "二阶项后的数字2与初值π的分式断行混排，无法唯一确认方程幂次及完整初始条件；不能验证唯一特解。"
     },
     {
-      "line_start": 596,
+      "line_start": 448,
       "missing_fields": [
         "l2.primary_method",
         "l3.evidence_steps"
@@ -341,7 +341,7 @@
       "source_issue": "原式含孤立分子1，倒数与乘积结构不能唯一确认；若按分式读取则初值点分母为零，不能把零解和唯一性视为已成立。"
     },
     {
-      "line_start": 227,
+      "line_start": 157,
       "missing_fields": [],
       "priority": "L1_FIRST",
       "question_id": "ZY1000-QH-GS16-T11",
@@ -349,7 +349,7 @@
       "source_issue": "按现存公式，函数在所给参数序列上不趋零，与假设级数收敛相冲突；按空可行参数集处理，不补造缺失常数。"
     },
     {
-      "line_start": 186,
+      "line_start": 132,
       "missing_fields": [
         "l3.evidence_steps"
       ],
@@ -359,7 +359,7 @@
       "source_issue": "交线为闭曲线，给出起终点后仍有两条弧可选，当前题干未指定取哪段或绕行方向。"
     },
     {
-      "line_start": 262,
+      "line_start": 182,
       "missing_fields": [
         "l3.evidence_steps.U02"
       ],
@@ -369,7 +369,7 @@
       "source_issue": "闭路条件仅约束x>0，不能确定f在负半轴的取值；第二问椭圆穿越该未确定域，整曲线积分不唯一。"
     },
     {
-      "line_start": 346,
+      "line_start": 236,
       "missing_fields": [
         "l2.primary_method",
         "l3.evidence_steps"
@@ -380,7 +380,7 @@
       "source_issue": "旋转轴方程与截取平面文字发生交错，无法唯一核对所指有限曲面。"
     },
     {
-      "line_start": 387,
+      "line_start": 260,
       "missing_fields": [
         "l3.evidence_steps.U02"
       ],
@@ -390,7 +390,7 @@
       "source_issue": "准线给出了角向范围，但现存题干未明确母线的有限截取比例；按完整锥面为无界曲面，第二问有限通量不能唯一确认。"
     },
     {
-      "line_start": 112,
+      "line_start": 118,
       "missing_fields": [
         "l3.evidence_steps.U02"
       ],

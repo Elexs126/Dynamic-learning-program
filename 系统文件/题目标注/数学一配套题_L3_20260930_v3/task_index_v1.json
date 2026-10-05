@@ -10578,7 +10578,7 @@
     },
     {
       "description": "由平方边界求出横向切片的根式下界；交换次序并核对整个变量范围；计算内层区间长度后化简剩余指数有理因子",
-      "evidence_status": "verified",
+      "evidence_status": "needs_review",
       "kind": "reasoning_reference_not_scoring_atom",
       "question_id": "ZY1000-JC-GS14-T06",
       "task_id": "ZY1000-JC-GS14-T06#T01",
@@ -12169,8 +12169,8 @@
       "task_index": 1
     },
     {
-      "description": "先核对给定联合密度的全平面可积性；说明指数乘积结构导致归一化前提失效；在原式恢复前不按正态卡方比值认定目标分布",
-      "evidence_status": "needs_review",
+      "description": "将联合密度分解为X服从N(0,1)、Y服从N(1,4)的独立密度乘积；令Z=(Y-1)/2，将统计量写为X²/Z²；识别两个独立自由度1卡方变量之比服从F(1,1)",
+      "evidence_status": "verified",
       "kind": "reasoning_reference_not_scoring_atom",
       "question_id": "ZY1000-QH-GL08-T10",
       "task_id": "ZY1000-QH-GL08-T10#T01",

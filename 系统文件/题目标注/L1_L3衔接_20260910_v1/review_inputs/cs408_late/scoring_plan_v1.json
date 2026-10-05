@@ -3027,7 +3027,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1435,
+            "line": 1427,
             "match": "| 15 |",
             "occurrence": 1
           },
@@ -3044,7 +3044,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1436,
+            "line": 1428,
             "match": "| 14 |",
             "occurrence": 1
           },
@@ -3061,7 +3061,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1437,
+            "line": 1429,
             "match": "| 11 |",
             "occurrence": 1
           },
@@ -3078,7 +3078,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1438,
+            "line": 1430,
             "match": "| 9 |",
             "occurrence": 1
           },
@@ -3095,7 +3095,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1439,
+            "line": 1431,
             "match": "| ≤7 |",
             "occurrence": 1
           },
@@ -3112,7 +3112,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1441,
+            "line": 1433,
             "match": "可参照①的评分标准给分",
             "occurrence": 1
           },
@@ -3129,7 +3129,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1444,
+            "line": 1436,
             "match": "可不扣分",
             "occurrence": 1
           },
@@ -3145,7 +3145,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1447,
+            "line": 1439,
             "match": "可参照①的标准给分",
             "occurrence": 1
           },
@@ -3162,7 +3162,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1449,
+            "line": 1441,
             "match": "酌情给分",
             "occurrence": 1
           },
@@ -3180,7 +3180,7 @@
       "units": [
         {
           "anchor": {
-            "line": 1400,
+            "line": 1392,
             "match": "（3 分）",
             "occurrence": 1
           },
@@ -3194,7 +3194,7 @@
         },
         {
           "anchor": {
-            "line": 1402,
+            "line": 1394,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -3208,7 +3208,7 @@
         },
         {
           "anchor": {
-            "line": 1404,
+            "line": 1396,
             "match": "（10 分）",
             "occurrence": 1
           },
@@ -3232,7 +3232,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1490,
+            "line": 1482,
             "match": "酌情给分",
             "occurrence": 1
           },
@@ -3248,7 +3248,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1496,
+            "line": 1488,
             "match": "同样给分",
             "occurrence": 1
           },
@@ -3264,7 +3264,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1498,
+            "line": 1490,
             "match": "最高给 1 分",
             "occurrence": 1
           },
@@ -3280,7 +3280,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1500,
+            "line": 1492,
             "match": "酌情给分",
             "occurrence": 1
           },
@@ -3299,7 +3299,7 @@
       "units": [
         {
           "anchor": {
-            "line": 1489,
+            "line": 1481,
             "match": "给 1 分",
             "occurrence": 1
           },
@@ -3313,7 +3313,7 @@
         },
         {
           "anchor": {
-            "line": 1489,
+            "line": 1481,
             "match": "给 1 分",
             "occurrence": 1
           },
@@ -3327,7 +3327,7 @@
         },
         {
           "anchor": {
-            "line": 1489,
+            "line": 1481,
             "match": "给 1 分",
             "occurrence": 1
           },
@@ -3341,7 +3341,7 @@
         },
         {
           "anchor": {
-            "line": 1489,
+            "line": 1481,
             "match": "给 1 分",
             "occurrence": 1
           },
@@ -3355,7 +3355,7 @@
         },
         {
           "anchor": {
-            "line": 1492,
+            "line": 1484,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -3369,7 +3369,7 @@
         },
         {
           "anchor": {
-            "line": 1494,
+            "line": 1486,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -3392,7 +3392,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1632,
+            "line": 1623,
             "match": "即可给分",
             "occurrence": 1
           },
@@ -3408,7 +3408,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1638,
+            "line": 1629,
             "match": "即可给分",
             "occurrence": 1
           },
@@ -3424,7 +3424,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1648,
+            "line": 1639,
             "match": "即可给分",
             "occurrence": 1
           },
@@ -3441,7 +3441,7 @@
       "units": [
         {
           "anchor": {
-            "line": 1569,
+            "line": 1560,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -3455,7 +3455,7 @@
         },
         {
           "anchor": {
-            "line": 1575,
+            "line": 1566,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3469,7 +3469,7 @@
         },
         {
           "anchor": {
-            "line": 1589,
+            "line": 1580,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3483,7 +3483,7 @@
         },
         {
           "anchor": {
-            "line": 1591,
+            "line": 1582,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3497,7 +3497,7 @@
         },
         {
           "anchor": {
-            "line": 1611,
+            "line": 1602,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3511,7 +3511,7 @@
         },
         {
           "anchor": {
-            "line": 1613,
+            "line": 1604,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3525,7 +3525,7 @@
         },
         {
           "anchor": {
-            "line": 1630,
+            "line": 1621,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3539,7 +3539,7 @@
         },
         {
           "anchor": {
-            "line": 1634,
+            "line": 1625,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3553,7 +3553,7 @@
         },
         {
           "anchor": {
-            "line": 1636,
+            "line": 1627,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3567,7 +3567,7 @@
         },
         {
           "anchor": {
-            "line": 1640,
+            "line": 1631,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3581,7 +3581,7 @@
         },
         {
           "anchor": {
-            "line": 1644,
+            "line": 1635,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3595,7 +3595,7 @@
         },
         {
           "anchor": {
-            "line": 1646,
+            "line": 1637,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3614,7 +3614,7 @@
       "units": [
         {
           "anchor": {
-            "line": 1699,
+            "line": 1690,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3628,7 +3628,7 @@
         },
         {
           "anchor": {
-            "line": 1699,
+            "line": 1690,
             "match": "（1 分）",
             "occurrence": 2
           },
@@ -3642,7 +3642,7 @@
         },
         {
           "anchor": {
-            "line": 1701,
+            "line": 1692,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3656,7 +3656,7 @@
         },
         {
           "anchor": {
-            "line": 1701,
+            "line": 1692,
             "match": "（`1` 分）",
             "occurrence": 1
           },
@@ -3670,7 +3670,7 @@
         },
         {
           "anchor": {
-            "line": 1703,
+            "line": 1694,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3684,7 +3684,7 @@
         },
         {
           "anchor": {
-            "line": 1703,
+            "line": 1694,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -3698,7 +3698,7 @@
         },
         {
           "anchor": {
-            "line": 1705,
+            "line": 1696,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3712,7 +3712,7 @@
         },
         {
           "anchor": {
-            "line": 1705,
+            "line": 1696,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -3731,7 +3731,7 @@
       "units": [
         {
           "anchor": {
-            "line": 1742,
+            "line": 1733,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3745,7 +3745,7 @@
         },
         {
           "anchor": {
-            "line": 1746,
+            "line": 1737,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3759,7 +3759,7 @@
         },
         {
           "anchor": {
-            "line": 1747,
+            "line": 1738,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3773,7 +3773,7 @@
         },
         {
           "anchor": {
-            "line": 1749,
+            "line": 1740,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3787,7 +3787,7 @@
         },
         {
           "anchor": {
-            "line": 1750,
+            "line": 1741,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3801,7 +3801,7 @@
         },
         {
           "anchor": {
-            "line": 1750,
+            "line": 1741,
             "match": "（1 分）",
             "occurrence": 2
           },
@@ -3815,7 +3815,7 @@
         },
         {
           "anchor": {
-            "line": 1751,
+            "line": 1742,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3833,7 +3833,7 @@
       "documented_units": [
         {
           "anchor": {
-            "line": 1887,
+            "line": 1878,
             "match": "| 1 分 |",
             "occurrence": 1
           },
@@ -3847,7 +3847,7 @@
         },
         {
           "anchor": {
-            "line": 1888,
+            "line": 1879,
             "match": "| 3 分 |",
             "occurrence": 1
           },
@@ -3861,7 +3861,7 @@
         },
         {
           "anchor": {
-            "line": 1889,
+            "line": 1880,
             "match": "| 1 分 |",
             "occurrence": 1
           },
@@ -3882,7 +3882,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1891,
+            "line": 1882,
             "match": "最多给 2 分",
             "occurrence": 1
           },
@@ -3898,7 +3898,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 1893,
+            "line": 1884,
             "match": "酌情给分",
             "occurrence": 1
           },
@@ -3918,7 +3918,7 @@
       "documented_units": [
         {
           "anchor": {
-            "line": 1955,
+            "line": 1946,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3932,7 +3932,7 @@
         },
         {
           "anchor": {
-            "line": 1961,
+            "line": 1952,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3946,7 +3946,7 @@
         },
         {
           "anchor": {
-            "line": 1967,
+            "line": 1958,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3960,7 +3960,7 @@
         },
         {
           "anchor": {
-            "line": 1969,
+            "line": 1960,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3974,7 +3974,7 @@
         },
         {
           "anchor": {
-            "line": 1971,
+            "line": 1962,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -3988,7 +3988,7 @@
         },
         {
           "anchor": {
-            "line": 1977,
+            "line": 1968,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -4002,7 +4002,7 @@
         },
         {
           "anchor": {
-            "line": 1979,
+            "line": 1970,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -4023,7 +4023,7 @@
         {
           "additive": false,
           "anchor": {
-            "line": 2010,
+            "line": 2001,
             "match": "酌情给分",
             "occurrence": 1
           },
@@ -4585,7 +4585,7 @@
       "units": [
         {
           "anchor": {
-            "line": 2460,
+            "line": 2452,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -4599,7 +4599,7 @@
         },
         {
           "anchor": {
-            "line": 2462,
+            "line": 2454,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -4613,7 +4613,7 @@
         },
         {
           "anchor": {
-            "line": 2464,
+            "line": 2456,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -4628,7 +4628,7 @@
         },
         {
           "anchor": {
-            "line": 2474,
+            "line": 2466,
             "match": "（4 分）",
             "occurrence": 1
           },
@@ -4647,7 +4647,7 @@
       "documented_units": [
         {
           "anchor": {
-            "line": 2565,
+            "line": 2557,
             "match": "（1 分）",
             "occurrence": 1
           },
@@ -4661,7 +4661,7 @@
         },
         {
           "anchor": {
-            "line": 2567,
+            "line": 2559,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -4676,7 +4676,7 @@
         },
         {
           "anchor": {
-            "line": 2569,
+            "line": 2561,
             "match": "（4 分）",
             "occurrence": 1
           },
@@ -4692,7 +4692,7 @@
         },
         {
           "anchor": {
-            "line": 2571,
+            "line": 2563,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -4716,7 +4716,7 @@
       "units": [
         {
           "anchor": {
-            "line": 2629,
+            "line": 2621,
             "match": "（5 分）",
             "occurrence": 1
           },
@@ -4732,7 +4732,7 @@
         },
         {
           "anchor": {
-            "line": 2631,
+            "line": 2623,
             "match": "（2 分）",
             "occurrence": 1
           },
@@ -4752,7 +4752,7 @@
       "units": [
         {
           "anchor": {
-            "line": 2682,
+            "line": 2674,
             "match": "（3 分）",
             "occurrence": 1
           },
@@ -4768,7 +4768,7 @@
         },
         {
           "anchor": {
-            "line": 2684,
+            "line": 2676,
             "match": "（5 分）",
             "occurrence": 1
           },

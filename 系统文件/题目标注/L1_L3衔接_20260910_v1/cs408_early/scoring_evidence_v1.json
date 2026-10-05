@@ -13,7 +13,7 @@
           "scope_status": "verified",
           "source_anchor": {
             "fragment": "均不给分",
-            "line": 1321,
+            "line": 1317,
             "line_sha256": "f3be1b300f7c66685e498efd83e577b50cabbd53381137ffeb424dabb7e0be02",
             "occurrence": 1,
             "question_hash_sha256": "aa5549338fc91480b1d5251d98f2e75d25644c835dbf44d7554425235eef43a1",
@@ -35,7 +35,7 @@
           "scope_status": "verified",
           "source_anchor": {
             "fragment": "均可给 6 分",
-            "line": 1321,
+            "line": 1317,
             "line_sha256": "f3be1b300f7c66685e498efd83e577b50cabbd53381137ffeb424dabb7e0be02",
             "occurrence": 1,
             "question_hash_sha256": "aa5549338fc91480b1d5251d98f2e75d25644c835dbf44d7554425235eef43a1",
@@ -56,7 +56,7 @@
           "scope_status": "verified",
           "source_anchor": {
             "fragment": "可酌情给分",
-            "line": 1321,
+            "line": 1317,
             "line_sha256": "f3be1b300f7c66685e498efd83e577b50cabbd53381137ffeb424dabb7e0be02",
             "occurrence": 1,
             "question_hash_sha256": "aa5549338fc91480b1d5251d98f2e75d25644c835dbf44d7554425235eef43a1",
@@ -84,7 +84,7 @@
           "promoted_unit_id": "408-09-A-T41:S1",
           "source_anchor": {
             "fragment": "（4 分）",
-            "line": 1311,
+            "line": 1307,
             "line_sha256": "0d3722b3e5ab5ea6ba867859c646b0102b35dafdf28df333b1049e99f1b052f9",
             "occurrence": 1,
             "question_hash_sha256": "aa5549338fc91480b1d5251d98f2e75d25644c835dbf44d7554425235eef43a1",
@@ -112,7 +112,7 @@
           "promoted_unit_id": "408-09-A-T41:S2",
           "source_anchor": {
             "fragment": "（6 分）",
-            "line": 1313,
+            "line": 1309,
             "line_sha256": "77560124d77c00c730ff2d008582199dae581dff5cef6e639f89a92fd5c1a7a9",
             "occurrence": 1,
             "question_hash_sha256": "aa5549338fc91480b1d5251d98f2e75d25644c835dbf44d7554425235eef43a1",
@@ -151,7 +151,7 @@
           "scope_status": "verified",
           "source_anchor": {
             "fragment": "满分 15 分",
-            "line": 1388,
+            "line": 1384,
             "line_sha256": "299d043028762e4d0ca926b76521035672388f7a03be76c4c8a14521abe4f93c",
             "occurrence": 1,
             "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
@@ -174,7 +174,7 @@
           "scope_status": "verified",
           "source_anchor": {
             "fragment": "最高给 10 分",
-            "line": 1388,
+            "line": 1384,
             "line_sha256": "299d043028762e4d0ca926b76521035672388f7a03be76c4c8a14521abe4f93c",
             "occurrence": 1,
             "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
@@ -197,7 +197,7 @@
           "scope_status": "verified",
           "source_anchor": {
             "fragment": "若采用递归算法得到正确结果的",
-            "line": 1388,
+            "line": 1384,
             "line_sha256": "299d043028762e4d0ca926b76521035672388f7a03be76c4c8a14521abe4f93c",
             "occurrence": 1,
             "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
@@ -220,7 +220,7 @@
           "scope_status": "verified",
           "source_anchor": {
             "fragment": "大小与 k 有关的辅助数组",
-            "line": 1388,
+            "line": 1384,
             "line_sha256": "299d043028762e4d0ca926b76521035672388f7a03be76c4c8a14521abe4f93c",
             "occurrence": 1,
             "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
@@ -243,7 +243,7 @@
           "scope_status": "verified",
           "source_anchor": {
             "fragment": "能够清晰看出算法思想和步骤且正确",
-            "line": 1390,
+            "line": 1386,
             "line_sha256": "9b6eb5578d59fd4ad46ec8e367a7b3e86ff958d58c6eb54d3faf3cd0af9f15f4",
             "occurrence": 1,
             "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
@@ -266,7 +266,7 @@
           "scope_status": "verified",
           "source_anchor": {
             "fragment": "可酌情给分",
-            "line": 1392,
+            "line": 1388,
             "line_sha256": "5e55d3f1991ad52804b9fb39c9112c2b4e0658c5b92242e23ae2dddf5879d3eb",
             "occurrence": 1,
             "question_hash_sha256": "f5fade80c62518e7213badb847d59e1a22b1b53d9cb0c735dcd446ea3b4c52f5",
@@ -305,7 +305,7 @@
           "scope_status": "verified",
           "source_anchor": {
             "fragment": "每个给 2 分",
-            "line": 1434,
+            "line": 1430,
             "line_sha256": "c3443182b07f94e0d89171635104800c9e999e70d4c10bc6ea3ee4c0ab97a567",
             "occurrence": 1,
             "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
@@ -334,7 +334,7 @@
           "promoted_unit_id": "408-09-A-T43:S1",
           "source_anchor": {
             "fragment": "（2 分）",
-            "line": 1420,
+            "line": 1416,
             "line_sha256": "4ae989f7a59aea46ab2d44733686d1a2bad1f25a006896499e7360c5b2376595",
             "occurrence": 1,
             "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
@@ -362,7 +362,7 @@
           "promoted_unit_id": "408-09-A-T43:S2",
           "source_anchor": {
             "fragment": "（1 分）",
-            "line": 1422,
+            "line": 1418,
             "line_sha256": "92299ca1ca68a99051594032a0198b427db98ab06dc4725803d434da4fb5a37c",
             "occurrence": 1,
             "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
@@ -390,7 +390,7 @@
           "promoted_unit_id": "408-09-A-T43:S3",
           "source_anchor": {
             "fragment": "（1 分）",
-            "line": 1424,
+            "line": 1420,
             "line_sha256": "5ef268f6411836529caef08c7e7e0a427b2479bea1e5048b8652a4541c221113",
             "occurrence": 1,
             "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
@@ -418,7 +418,7 @@
           "promoted_unit_id": "408-09-A-T43:S4",
           "source_anchor": {
             "fragment": "（1 分）",
-            "line": 1426,
+            "line": 1422,
             "line_sha256": "c91c76b094abe582b9daa1e95cbbcda8965989a0fde7d4b176e782845f519f81",
             "occurrence": 1,
             "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
@@ -446,7 +446,7 @@
           "promoted_unit_id": "408-09-A-T43:S5",
           "source_anchor": {
             "fragment": "（1 分）",
-            "line": 1428,
+            "line": 1424,
             "line_sha256": "baff02624dbfefcbcb4a492c0473c945cae31db5a8cd3896cb0d4253e73ac4b5",
             "occurrence": 1,
             "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
@@ -474,7 +474,7 @@
           "promoted_unit_id": "408-09-A-T43:S6",
           "source_anchor": {
             "fragment": "（1 分）",
-            "line": 1430,
+            "line": 1426,
             "line_sha256": "9c7d46bb63189af92e4c17081c818eeac88793eaf1e55c99e95f0695a58213f1",
             "occurrence": 1,
             "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",
@@ -502,7 +502,7 @@
           "promoted_unit_id": "408-09-A-T43:S7",
           "source_anchor": {
             "fragment": "（1 分）",
-            "line": 1432,
+            "line": 1428,
             "line_sha256": "8cc62e4a4976c38fd1e699cd85874d0d036c512a9335a523b78f99c29d6c6ee9",
             "occurrence": 1,
             "question_hash_sha256": "811e1c20dcdcd6fc2c49b04217734b2c8813583adca3e09223c70ab9fb7e5957",

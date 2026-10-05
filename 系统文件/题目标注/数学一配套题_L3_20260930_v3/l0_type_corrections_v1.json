@@ -1276,7 +1276,7 @@
       "before": "analytical",
       "field": "l0.question_type",
       "line_start": 9,
-      "question_hash_sha256": "cebc9b03eb57bec1226b46e7482cbb53bef3b397222891d9bb9645a9af48d1d7",
+      "question_hash_sha256": "7b46a92a80322c6d636113a06d2b5c8b2ebee04ce9104274bd91986c7d178c7d",
       "question_id": "ZY30-GS-17-L17.01",
       "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
     },
@@ -1346,7 +1346,7 @@
       "before": "analytical",
       "field": "l0.question_type",
       "line_start": 149,
-      "question_hash_sha256": "55bfe008f094b34c517884925edd8ffa57f42d2b5b02a03489a1a25942b1c7e2",
+      "question_hash_sha256": "d8067bf80a053220c596ee518e35137009d8e1fd223fe787bdaedd23d57ba734",
       "question_id": "ZY30-GS-17-L17.13",
       "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
     },
@@ -1356,7 +1356,7 @@
       "before": "analytical",
       "field": "l0.question_type",
       "line_start": 207,
-      "question_hash_sha256": "520faebb9f49e965ef49012f901f15ff1bc826f6101cf3f23f0407ca2b847561",
+      "question_hash_sha256": "07a2ed71b9c69f6299da8ff2b1d52e0f084565679afc4cd3f2ef560fabf83273",
       "question_id": "ZY30-GS-17-X04",
       "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
     },
@@ -1406,7 +1406,7 @@
       "before": "analytical",
       "field": "l0.question_type",
       "line_start": 257,
-      "question_hash_sha256": "11bd36cc03e055ecff423c1ba46eebdafe0bb7e3c811c2f1d840b9509cfea222",
+      "question_hash_sha256": "5e6adf7b0f970c9d9c1cb82a964e4a9fdf8166e1985db36336642fabfc1e6c4e",
       "question_id": "ZY30-GS-17-X09",
       "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
     },
@@ -1416,7 +1416,7 @@
       "before": "analytical",
       "field": "l0.question_type",
       "line_start": 267,
-      "question_hash_sha256": "5f0b97c1b848a6911d802fd325b6b33bb03a80811d8a0eaf41df94a1894cda3a",
+      "question_hash_sha256": "de576e6ca14e7a938f2a7afa97ff915ec14bf5c203fbeb7821674b78985f8d06",
       "question_id": "ZY30-GS-17-X10",
       "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第17讲_多元函数积分学的预备知识.md"
     },
@@ -1536,7 +1536,7 @@
       "before": "analytical",
       "field": "l0.question_type",
       "line_start": 169,
-      "question_hash_sha256": "d0041e03a0685282dfb5705e6b39289c09af8105ebbf9af50a65dc33912605fe",
+      "question_hash_sha256": "77367ecbecbc6b52cf73efea8d1e817cbec6d3e7ad6072b3e7ea0416669124a6",
       "question_id": "ZY30-GS-18-L18.17",
       "source_file": "配套习题/张宇基础30讲/01_高等数学篇/第18讲_多元函数积分学.md"
     },
@@ -2315,7 +2315,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 44,
+      "line_start": 50,
       "question_hash_sha256": "76791d872b8d45202f3b98dcd326058064a101f7c98c5860f5edd781ce56be92",
       "question_id": "ZY30-GL-02-L2.04",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
@@ -2325,7 +2325,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 109,
+      "line_start": 115,
       "question_hash_sha256": "ead591594834dcc61290e8b4e3f12cc0d3e410a63a526153deb342161297aef0",
       "question_id": "ZY30-GL-02-L2.10",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
@@ -2335,7 +2335,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 257,
+      "line_start": 263,
       "question_hash_sha256": "eb89468b0edd2a764ea608a2ef86c997d7ad60e35f3db7c14aa835c58a543c8c",
       "question_id": "ZY30-GL-02-X04",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
@@ -2345,7 +2345,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 267,
+      "line_start": 273,
       "question_hash_sha256": "bab4a6b9836b787dc1b744e23bf1c391ead725fe50b645d5bb8cc2b165e4e526",
       "question_id": "ZY30-GL-02-X05",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
@@ -2355,7 +2355,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 277,
+      "line_start": 283,
       "question_hash_sha256": "8322a60617c3cc2ac0794a6d9499a5ce1cf74315236af06efa6812c2446f2f4f",
       "question_id": "ZY30-GL-02-X06",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
@@ -2365,7 +2365,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 287,
+      "line_start": 293,
       "question_hash_sha256": "77695b045f1cbc465565a253b6c371f416ac079f8a3180d82cda896e616a155b",
       "question_id": "ZY30-GL-02-X07",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
@@ -2375,7 +2375,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 297,
+      "line_start": 303,
       "question_hash_sha256": "d635ed6a542b5253a3c19b7fcacb1c54a790f77f2934df2aece5501ea720e4c0",
       "question_id": "ZY30-GL-02-X08",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
@@ -2385,7 +2385,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 307,
+      "line_start": 313,
       "question_hash_sha256": "0bb0dbf95489d40ee2085956aa9afb61985d85d47fa75cdb0691b127de3ebbe8",
       "question_id": "ZY30-GL-02-X09",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
@@ -2395,7 +2395,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 317,
+      "line_start": 323,
       "question_hash_sha256": "082ceceb1773ead6e3dfe86a0605f4a4af58c583caa18b307fd844792a2c4e47",
       "question_id": "ZY30-GL-02-X10",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
@@ -2405,7 +2405,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 327,
+      "line_start": 333,
       "question_hash_sha256": "fdf507bd467d14680ceaa7d6ac5c3081fda6b3922eed08273b6d8fbeda74b257",
       "question_id": "ZY30-GL-02-X11",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
@@ -2415,7 +2415,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 337,
+      "line_start": 343,
       "question_hash_sha256": "5644137eb8e54613d7bc8848bf73b164ef99c481299d82d936b55dbce8c43c55",
       "question_id": "ZY30-GL-02-X12",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第02讲_一维随机变量及其分布.md"
@@ -2425,7 +2425,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 54,
+      "line_start": 61,
       "question_hash_sha256": "84581d62163206ed656f637450292c7c811a01daf77a0da2a6260f66531137b7",
       "question_id": "ZY30-GL-03-L3.05",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第03讲_多维随机变量及其分布.md"
@@ -2435,7 +2435,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 197,
+      "line_start": 204,
       "question_hash_sha256": "e3ce2e47c2c6141462ea334821ab8f75b5a156985e550a4f07742518dee52b10",
       "question_id": "ZY30-GL-03-X05",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第03讲_多维随机变量及其分布.md"
@@ -2445,7 +2445,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 207,
+      "line_start": 214,
       "question_hash_sha256": "ed81b1ef9c367862eb2c744949be9d0294d1f52648dd2e2483a165eb992db0c1",
       "question_id": "ZY30-GL-03-X06",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第03讲_多维随机变量及其分布.md"
@@ -2455,7 +2455,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 217,
+      "line_start": 224,
       "question_hash_sha256": "60d454a635ea80c530f3bae85595093a22e84b4316ec68ce9571e0a86505d522",
       "question_id": "ZY30-GL-03-X07",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第03讲_多维随机变量及其分布.md"
@@ -2465,7 +2465,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 227,
+      "line_start": 234,
       "question_hash_sha256": "1f53b28dd7b5d30f8cc31e56f245fb6d5b19dd68a6da3b204db9294412172f8b",
       "question_id": "ZY30-GL-03-X08",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第03讲_多维随机变量及其分布.md"
@@ -2515,7 +2515,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 124,
+      "line_start": 136,
       "question_hash_sha256": "7764fd758a64da224e3b39a22a29c6cdea4bd203f914d74e68d6a630cf458702",
       "question_id": "ZY30-GL-04-L4.11",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
@@ -2525,7 +2525,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 207,
+      "line_start": 226,
       "question_hash_sha256": "930b61b49359157282621f37dbb6b4c8b69b7259d21a1035ede1b168fbf1752c",
       "question_id": "ZY30-GL-04-X05",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
@@ -2535,7 +2535,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 217,
+      "line_start": 236,
       "question_hash_sha256": "b9747ffa1bde567fbcd8089f0c9dd61327cbd9129096b07160b17147ab73acef",
       "question_id": "ZY30-GL-04-X06",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
@@ -2545,7 +2545,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 227,
+      "line_start": 246,
       "question_hash_sha256": "584e6fc1f57caf924631a2d712653ea5e39d376c8b839a6c6b3b8112a5aab195",
       "question_id": "ZY30-GL-04-X07",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
@@ -2555,7 +2555,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 237,
+      "line_start": 256,
       "question_hash_sha256": "da47b27942f127b1c8c07c132a218c7b9493c1e0d27c817e41dd287292184371",
       "question_id": "ZY30-GL-04-X08",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
@@ -2565,7 +2565,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 247,
+      "line_start": 266,
       "question_hash_sha256": "30726a1f7d8c929d3447f6b4535b785a97184e87729bb923cdba7a84644eee3e",
       "question_id": "ZY30-GL-04-X09",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
@@ -2575,7 +2575,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 257,
+      "line_start": 276,
       "question_hash_sha256": "5ff847e3434ab02e24ce41df00db79adb693f245d7a7b7f4ed35955eafe572c0",
       "question_id": "ZY30-GL-04-X10",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
@@ -2585,7 +2585,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 267,
+      "line_start": 286,
       "question_hash_sha256": "aff7a077527e3ab73819cd61f88a71e7b253f86b8a610bd3e928660eb6a8f5d7",
       "question_id": "ZY30-GL-04-X11",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
@@ -2595,7 +2595,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 277,
+      "line_start": 296,
       "question_hash_sha256": "34ba0bbd377e0917d42cb60f499f6687c3ba759763d58535d677dea4965f7d96",
       "question_id": "ZY30-GL-04-X12",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第04讲_随机变量的数字特征.md"
@@ -2645,7 +2645,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 184,
+      "line_start": 190,
       "question_hash_sha256": "7839b591897506387311c439a52159e558a827ba53c3cabe27762fd638a2194e",
       "question_id": "ZY30-GL-06-L6.14",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第06讲_数理统计.md"
@@ -2655,7 +2655,7 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 342,
+      "line_start": 348,
       "question_hash_sha256": "477a2fb5c83cde49b330c6f4951c754d27c44535fd65d0a5cf7cee91a2233081",
       "question_id": "ZY30-GL-06-X08",
       "source_file": "配套习题/张宇基础30讲/03_概率论与数理统计篇/第06讲_数理统计.md"
@@ -2665,10 +2665,50 @@
       "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
       "before": "analytical",
       "field": "l0.question_type",
-      "line_start": 20,
+      "line_start": 17,
       "question_hash_sha256": "ed2a5f47a7d83f164a3217a5d10064873a55c55c65a8201c27bb3a201287312c",
       "question_id": "ZY1000-JC-GS18-T02",
       "source_file": "配套习题/张宇1000题/01_基础篇/第18章_多元函数积分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 161,
+      "question_hash_sha256": "a1a319d176d10ef192ed47634801d79182d909ee3866461718c04099605f8729",
+      "question_id": "ZY1000-QH-GS13-T14",
+      "source_file": "配套习题/张宇1000题/02_强化篇/第13章_多元函数微分学.md"
+    },
+    {
+      "after": "fill",
+      "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 212,
+      "question_hash_sha256": "b52847ea75fa0a8d65d7d9fcc722551a1d04c756efe2eeaf13f1ed5c6f56db2d",
+      "question_id": "ZY1000-QH-GS14-T20",
+      "source_file": "配套习题/张宇1000题/02_强化篇/第14章_二重积分.md"
+    },
+    {
+      "after": "fill",
+      "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 137,
+      "question_hash_sha256": "7de0283e92182106f33efea1ba3804ee383f5748b52225f0714915ee1ed742d0",
+      "question_id": "ZY1000-QH-GS15-T11",
+      "source_file": "配套习题/张宇1000题/02_强化篇/第15章_微分方程.md"
+    },
+    {
+      "after": "fill",
+      "basis": "明确填空占位符；沿用v2已登记修正，选择题优先。",
+      "before": "analytical",
+      "field": "l0.question_type",
+      "line_start": 490,
+      "question_hash_sha256": "5a416986605e44a5ef274576c953d19506e0850385ae183f6076a8558e20d82f",
+      "question_id": "ZY1000-QH-GS16-T39",
+      "source_file": "配套习题/张宇1000题/02_强化篇/第16章_无穷级数.md"
     }
   ]
 }

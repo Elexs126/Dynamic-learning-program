@@ -130,14 +130,14 @@
         },
         "evidence_steps": [
           {
-            "basis": "本地解析明确标分位置1311；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "basis": "本地解析明确标分位置1307；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
               "[408-09-A-T41#T01] 判断给定贪心策略是否保证目标"
             ],
             "unit_id": "408-09-A-T41:S1"
           },
           {
-            "basis": "本地解析明确标分位置1313；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "basis": "本地解析明确标分位置1309；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
               "[408-09-A-T41#T02] 构造符合非负权和可达条件的反例",
               "[408-09-A-T41#T02] 比较策略行为与要求以支撑结论"
@@ -189,7 +189,7 @@
             "description": "策略正确性判断",
             "point_status": "explicit",
             "points": 4,
-            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1311；408-09-A-T41:D01，见scoring_evidence_v1.json。",
+            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1307；408-09-A-T41:D01，见scoring_evidence_v1.json。",
             "unit_id": "408-09-A-T41:S1"
           },
           {
@@ -197,7 +197,7 @@
             "description": "反例或原理说明",
             "point_status": "explicit",
             "points": 6,
-            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1313；408-09-A-T41:D02，见scoring_evidence_v1.json。",
+            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1309；408-09-A-T41:D02，见scoring_evidence_v1.json。",
             "unit_id": "408-09-A-T41:S2"
           }
         ]
@@ -553,49 +553,49 @@
         },
         "evidence_steps": [
           {
-            "basis": "本地解析明确标分位置1420；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "basis": "本地解析明确标分位置1416；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
               "[408-09-A-T43#T01] 计算每次中断所用时钟周期"
             ],
             "unit_id": "408-09-A-T43:S1"
           },
           {
-            "basis": "本地解析明确标分位置1422；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "basis": "本地解析明确标分位置1418；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
               "[408-09-A-T43#T01] 由吞吐率和传输宽度求中断频率"
             ],
             "unit_id": "408-09-A-T43:S2"
           },
           {
-            "basis": "本地解析明确标分位置1424；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "basis": "本地解析明确标分位置1420；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
               "[408-09-A-T43#T01] 计算每秒中断总周期"
             ],
             "unit_id": "408-09-A-T43:S3"
           },
           {
-            "basis": "本地解析明确标分位置1426；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "basis": "本地解析明确标分位置1422；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
               "[408-09-A-T43#T01] 归一化CPU时间占比"
             ],
             "unit_id": "408-09-A-T43:S4"
           },
           {
-            "basis": "本地解析明确标分位置1428；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "basis": "本地解析明确标分位置1424；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
               "[408-09-A-T43#T02] 计算DMA块传输频率"
             ],
             "unit_id": "408-09-A-T43:S5"
           },
           {
-            "basis": "本地解析明确标分位置1430；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "basis": "本地解析明确标分位置1426；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
               "[408-09-A-T43#T02] 计算DMA预后处理总周期"
             ],
             "unit_id": "408-09-A-T43:S6"
           },
           {
-            "basis": "本地解析明确标分位置1432；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
+            "basis": "本地解析明确标分位置1428；仅提取作答行为，非解答。条件分另见scoring_evidence_v1.json。",
             "steps": [
               "[408-09-A-T43#T02] 归一化CPU时间占比"
             ],
@@ -690,7 +690,7 @@
             "description": "单次中断时钟成本",
             "point_status": "explicit",
             "points": 2,
-            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1420；408-09-A-T43:D01，见scoring_evidence_v1.json。",
+            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1416；408-09-A-T43:D01，见scoring_evidence_v1.json。",
             "unit_id": "408-09-A-T43:S1"
           },
           {
@@ -698,7 +698,7 @@
             "description": "每秒中断频率",
             "point_status": "explicit",
             "points": 1,
-            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1422；408-09-A-T43:D02，见scoring_evidence_v1.json。",
+            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1418；408-09-A-T43:D02，见scoring_evidence_v1.json。",
             "unit_id": "408-09-A-T43:S2"
           },
           {
@@ -706,7 +706,7 @@
             "description": "每秒中断总成本",
             "point_status": "explicit",
             "points": 1,
-            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1424；408-09-A-T43:D03，见scoring_evidence_v1.json。",
+            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1420；408-09-A-T43:D03，见scoring_evidence_v1.json。",
             "unit_id": "408-09-A-T43:S3"
           },
           {
@@ -714,7 +714,7 @@
             "description": "中断CPU时间占比",
             "point_status": "explicit",
             "points": 1,
-            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1426；408-09-A-T43:D04，见scoring_evidence_v1.json。",
+            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1422；408-09-A-T43:D04，见scoring_evidence_v1.json。",
             "unit_id": "408-09-A-T43:S4"
           },
           {
@@ -722,7 +722,7 @@
             "description": "每秒DMA传输频率",
             "point_status": "explicit",
             "points": 1,
-            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1428；408-09-A-T43:D05，见scoring_evidence_v1.json。",
+            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1424；408-09-A-T43:D05，见scoring_evidence_v1.json。",
             "unit_id": "408-09-A-T43:S5"
           },
           {
@@ -730,7 +730,7 @@
             "description": "每秒DMA预后处理成本",
             "point_status": "explicit",
             "points": 1,
-            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1430；408-09-A-T43:D06，见scoring_evidence_v1.json。",
+            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1426；408-09-A-T43:D06，见scoring_evidence_v1.json。",
             "unit_id": "408-09-A-T43:S6"
           },
           {
@@ -738,7 +738,7 @@
             "description": "DMA的CPU时间占比",
             "point_status": "explicit",
             "points": 1,
-            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1432；408-09-A-T43:D07，见scoring_evidence_v1.json。",
+            "source_evidence": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md:1428；408-09-A-T43:D07，见scoring_evidence_v1.json。",
             "unit_id": "408-09-A-T43:S7"
           }
         ]
@@ -768,7 +768,7 @@
         "original_section": "2009年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2009",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "115d9c12901bfc94eb1a1663c750e1f2f16b342ea79bf52ac57476326cff0fbf",
+        "question_hash_sha256": "2fa12f0fcea0bd4597d8c1b559d005229d1344be976b0d7697ae16d79bebe45a",
         "question_number": "T44",
         "question_source": "2009年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -959,7 +959,7 @@
         "original_section": "2009年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2009",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "a097b31448382a71a51beead0c5000f51146a94e2ca77c7f35eb0541e6c896bd",
+        "question_hash_sha256": "07c7e4a5228a928be79d57edd07cd7fbce2409981f0dabffd6cf390238bc0f64",
         "question_number": "T45",
         "question_source": "2009年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -6096,7 +6096,7 @@
         "original_section": "2009年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 选择题",
         "paper_id": "408-2009",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "e1416d00ae055a933aca3ec7c8f4b2d114784d276a1153a50201fa5264bd1882",
+        "question_hash_sha256": "bc1909cb61201b34b7508fceee08f6c74474c4da587cc9aaee876f751283e89d",
         "question_number": "T27",
         "question_source": "2009年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "choice",
@@ -8727,7 +8727,7 @@
         "original_section": "2010年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2010",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "91ec2c0305bfa6cf3a67ae86ce20ba9d99a2fb886feebca310fd60ea9b7481d6",
+        "question_hash_sha256": "bfe635d6007a0488eb9e0804908f0eebfb91bdab0f56afc40409c66fbe22f639",
         "question_number": "T42",
         "question_source": "2010年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -14461,7 +14461,7 @@
         "original_section": "2010年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 选择题",
         "paper_id": "408-2010",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "200f1ef435ff74cd2dee6790e546f375a23aaac8154fc83fb4f404e15aa4f3c5",
+        "question_hash_sha256": "fd1ee1c0289f1b710508f74918cbacc40c1b327464767601b26c38edbe7aefaf",
         "question_number": "T27",
         "question_source": "2010年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "choice",
@@ -14813,7 +14813,7 @@
         "original_section": "2010年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 选择题",
         "paper_id": "408-2010",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "9405ecea5c2ae456f7d184175c3f5d6b17b9643b3b9b18dc3ce6561e16c1b3b8",
+        "question_hash_sha256": "152b572bd5f91cb537667fa4de706aaf37df5c64413c94cc624d3888ac468ed8",
         "question_number": "T29",
         "question_source": "2010年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "choice",
@@ -18279,7 +18279,7 @@
         "original_section": "2011年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 选择题",
         "paper_id": "408-2011",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "02ab281fcde44c7cd10ab466aeabe8eb145a68046ecc412fea80802aae69ebe4",
+        "question_hash_sha256": "d7812825464033d49fbc69637273d0d5dd9be3d87a34419fee4e21850a044bf5",
         "question_number": "T01",
         "question_source": "2011年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "choice",
@@ -21073,7 +21073,7 @@
         "original_section": "2011年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 选择题",
         "paper_id": "408-2011",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "0d8b8b68faa6e8127eb834af369b3e4f1a5de42eb064e3d61bf87e8de745e9d3",
+        "question_hash_sha256": "02618df3b77bd212e061ec22e2640a2bde734ff77994f06cf14101257a6c54f4",
         "question_number": "T17",
         "question_source": "2011年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "choice",
@@ -21787,7 +21787,7 @@
         "original_section": "2011年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 选择题",
         "paper_id": "408-2011",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "204450b776bda4dead202f019a8d57652292d364f3a533a7b8dc7766b96208b4",
+        "question_hash_sha256": "5b87dd17d959aec0ac37275eee91a31c31d0a98ed04fafc2b4db21aa53580046",
         "question_number": "T21",
         "question_source": "2011年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "choice",
@@ -26383,7 +26383,7 @@
         "original_section": "2012年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 综合应用题",
         "paper_id": "408-2012",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "e64ff697bf0296ae761d2269bdcd397434e8f97fca91bee0c02de414a9a17cab",
+        "question_hash_sha256": "2cb2eeba3dc70f99c05437bbd8cd02251c5a88be6a3ab870c4f426664ed7d37c",
         "question_number": "T46",
         "question_source": "2012年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "analytical",
@@ -26778,7 +26778,7 @@
         "original_section": "2012年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 选择题",
         "paper_id": "408-2012",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "fc021092d7f54f0a0251e0a644aa8527ebdae311154b13ca45516ef2a61896a2",
+        "question_hash_sha256": "65153090a583471c4267b077b73e6c66599123f7ecc9529f5a14e53725696dd3",
         "question_number": "T01",
         "question_source": "2012年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "choice",
@@ -29084,7 +29084,7 @@
         "original_section": "2012年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 选择题",
         "paper_id": "408-2012",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "a98940b47ac632e2714ea1a64dd1cc7747142ba63f7a0db89f8ed6530a1047d3",
+        "question_hash_sha256": "b50b038a954c1204bc6d77c946ec62a9d292037c74261870e11e259bd14af6d1",
         "question_number": "T14",
         "question_source": "2012年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "choice",
@@ -31404,7 +31404,7 @@
         "original_section": "2012年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 选择题",
         "paper_id": "408-2012",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "77d74fed65de86da1fc3180b53c26147c5552dc4d0b5c679d7e1ccf973c9be5b",
+        "question_hash_sha256": "403e185059163ef830e4aca12ceb9560cd0d19f9de341f1ef0b296a8dcf4e968",
         "question_number": "T27",
         "question_source": "2012年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "choice",
@@ -31771,7 +31771,7 @@
         "original_section": "2012年全国硕士研究生招生考试408计算机学科专业基础综合真题 > 选择题",
         "paper_id": "408-2012",
         "question_completeness": "needs_review",
-        "question_hash_sha256": "7484322b3a98fa43263975cff070c7ab97820069ef33529d7f852f9c4feadced",
+        "question_hash_sha256": "c0b37920b8706e281fae8d0a273f21650db849e9a67eb8c659856efcc1815d47",
         "question_number": "T29",
         "question_source": "2012年全国硕士研究生招生考试408计算机学科专业基础综合真题",
         "question_type": "choice",

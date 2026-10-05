@@ -63,7 +63,7 @@
   "integration": "活动入口应通过annotation_sources_current_v1.json的practice_release指向本版；独立check仅验证本快照，是否接入由learning_runtime校验。",
   "isomorphic_cluster_count": 17,
   "isomorphic_question_count": 49,
-  "l0_type_correction_count": 267,
+  "l0_type_correction_count": 271,
   "omitted_task_count": 20,
   "partial_evidence_question_count": 7,
   "questions_all_l2_l3_fields_verified": 1894,
@@ -154,6 +154,10 @@
       "reason": "当前选项中有关参数符号的表述重复，缺少与积分对称性相符的完整选项。"
     },
     {
+      "question_id": "ZY1000-JC-GS14-T06",
+      "reason": "原做题本第264页分子指数e^{x-}的减项缺失；积分上下限、分式和根号已恢复，但缺失指数尚无可信第二题面可确定。"
+    },
+    {
       "question_id": "ZY1000-JC-GS14-T20",
       "reason": "当前分母仅显示xy，按该文本在轴边界附近积分发散；可能缺少根号，根式恢复会改变敛散性，不能默认有限值。"
     },
@@ -164,10 +168,6 @@
     {
       "question_id": "ZY1000-JC-XD04-T16",
       "reason": "三平面位置关系依赖题干所指示意图，当前题块没有图或链接。"
-    },
-    {
-      "question_id": "ZY1000-QH-GL08-T10",
-      "reason": "所给指数项为两个平方项的乘积，该表达式在全平面不可积，不能作为题称的联合密度；可能缺少加号。"
     },
     {
       "question_id": "ZY1000-QH-GL09-T24",
