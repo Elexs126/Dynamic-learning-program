@@ -1,0 +1,244 @@
+{
+ "n_episodes": 279,
+ "sub_missing": 695,
+ "sub_null": 0,
+ "unclassified": 0,
+ "coarse_top": [
+  {
+   "name": "STATE_REREPRESENTATION",
+   "n": 110,
+   "pct": 39.42652329749104
+  },
+  {
+   "name": "RESTRICT_SLICE",
+   "n": 63,
+   "pct": 22.580645161290324
+  },
+  {
+   "name": "AUXILIARY_OBJECT",
+   "n": 51,
+   "pct": 18.27956989247312
+  },
+  {
+   "name": "EXACT_ELIMINATION",
+   "n": 34,
+   "pct": 12.186379928315413
+  },
+  {
+   "name": "BRIDGE_OBSERVABLE",
+   "n": 33,
+   "pct": 11.827956989247312
+  },
+  {
+   "name": "CRITICAL_SCALE_PROBE",
+   "n": 31,
+   "pct": 11.11111111111111
+  },
+  {
+   "name": "INFORMATION_AXIS_DECOMPOSITION",
+   "n": 31,
+   "pct": 11.11111111111111
+  },
+  {
+   "name": "DEPENDENCY_ORDERING",
+   "n": 29,
+   "pct": 10.394265232974911
+  },
+  {
+   "name": "CONSTRAINT_COLLISION",
+   "n": 26,
+   "pct": 9.31899641577061
+  },
+  {
+   "name": "SPACE_AUGMENTATION",
+   "n": 25,
+   "pct": 8.960573476702509
+  }
+ ],
+ "fine_top": [
+  {
+   "name": "STATE_REREPRESENTATION",
+   "n": 110,
+   "pct": 39.42652329749104
+  },
+  {
+   "name": "RESTRICT_SLICE",
+   "n": 63,
+   "pct": 22.580645161290324
+  },
+  {
+   "name": "AUXILIARY_OBJECT",
+   "n": 51,
+   "pct": 18.27956989247312
+  },
+  {
+   "name": "EXACT_ELIMINATION",
+   "n": 34,
+   "pct": 12.186379928315413
+  },
+  {
+   "name": "BRIDGE_OBSERVABLE",
+   "n": 33,
+   "pct": 11.827956989247312
+  },
+  {
+   "name": "CRITICAL_SCALE_PROBE",
+   "n": 31,
+   "pct": 11.11111111111111
+  },
+  {
+   "name": "INFORMATION_AXIS_DECOMPOSITION",
+   "n": 31,
+   "pct": 11.11111111111111
+  },
+  {
+   "name": "DEPENDENCY_ORDERING",
+   "n": 29,
+   "pct": 10.394265232974911
+  },
+  {
+   "name": "CONSTRAINT_COLLISION",
+   "n": 26,
+   "pct": 9.31899641577061
+  },
+  {
+   "name": "SPACE_AUGMENTATION",
+   "n": 25,
+   "pct": 8.960573476702509
+  },
+  {
+   "name": "LOW_BANDWIDTH_INTERFACE",
+   "n": 24,
+   "pct": 8.602150537634408
+  },
+  {
+   "name": "GLUE_LOCAL_TO_GLOBAL",
+   "n": 23,
+   "pct": 8.243727598566307
+  },
+  {
+   "name": "DEPENDENCY_REORGANIZATION",
+   "n": 22,
+   "pct": 7.885304659498208
+  },
+  {
+   "name": "COUNTEREXAMPLE_PROBE",
+   "n": 20,
+   "pct": 7.168458781362007
+  },
+  {
+   "name": "INVARIANT_BLOCK_DECOMPOSITION",
+   "n": 19,
+   "pct": 6.810035842293907
+  },
+  {
+   "name": "CERTIFICATE_PRODUCTION",
+   "n": 16,
+   "pct": 5.734767025089606
+  },
+  {
+   "name": "NORMALIZE",
+   "n": 16,
+   "pct": 5.734767025089606
+  },
+  {
+   "name": "PROBE",
+   "n": 15,
+   "pct": 5.376344086021505
+  },
+  {
+   "name": "INFORMATION_PRESERVATION",
+   "n": 13,
+   "pct": 4.659498207885305
+  },
+  {
+   "name": "RIGIDIFY",
+   "n": 13,
+   "pct": 4.659498207885305
+  }
+ ],
+ "coarse_anti_top": [
+  {
+   "name": "BAD_REPRESENTATION_LOCK_IN",
+   "n": 147,
+   "pct": 23.004694835680752
+  },
+  {
+   "name": "PROMISING_AS_PROVED",
+   "n": 63,
+   "pct": 9.859154929577464
+  },
+  {
+   "name": "PROXY_OBJECTIVE_DRIFT",
+   "n": 60,
+   "pct": 9.389671361502348
+  },
+  {
+   "name": "OVER_DECOUPLING",
+   "n": 58,
+   "pct": 9.076682316118935
+  },
+  {
+   "name": "PREMATURE_APPROXIMATION",
+   "n": 56,
+   "pct": 8.763693270735525
+  },
+  {
+   "name": "TARGET_DRIFT",
+   "n": 49,
+   "pct": 7.668231611893583
+  },
+  {
+   "name": "PREMATURE_INFORMATION_LOSS",
+   "n": 48,
+   "pct": 7.511737089201878
+  },
+  {
+   "name": "RECOMPUTE_WHOLE_FOR_LOCAL_CHANGE",
+   "n": 35,
+   "pct": 5.477308294209703
+  }
+ ],
+ "fine_anti_top": [
+  {
+   "name": "BAD_REPRESENTATION_LOCK_IN",
+   "n": 147,
+   "pct": 23.004694835680752
+  },
+  {
+   "name": "PROMISING_AS_PROVED",
+   "n": 63,
+   "pct": 9.859154929577464
+  },
+  {
+   "name": "PROXY_OBJECTIVE_DRIFT",
+   "n": 60,
+   "pct": 9.389671361502348
+  },
+  {
+   "name": "OVER_DECOUPLING",
+   "n": 58,
+   "pct": 9.076682316118935
+  },
+  {
+   "name": "PREMATURE_APPROXIMATION",
+   "n": 56,
+   "pct": 8.763693270735525
+  },
+  {
+   "name": "TARGET_DRIFT",
+   "n": 49,
+   "pct": 7.668231611893583
+  },
+  {
+   "name": "PREMATURE_INFORMATION_LOSS",
+   "n": 48,
+   "pct": 7.511737089201878
+  },
+  {
+   "name": "RECOMPUTE_WHOLE_FOR_LOCAL_CHANGE",
+   "n": 35,
+   "pct": 5.477308294209703
+  }
+ ]
+}

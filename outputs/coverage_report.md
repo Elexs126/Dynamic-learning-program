@@ -288,6 +288,36 @@ canonical 语料（`讲义/`+`核心真题/`+`配套习题/`，298 文件）全�
 > 后果与失效模式不同且可检验。
 > **分界问句：「被重复施加的是同一个手段，还是同一个对象集合？」**
 
+### 9.4 ⚠️ 拆分方案：**已完整制定，但尚未落到数据**
+
+任务书 §18 要求"如果一个标签什么题都能套，要求降级或拆分"。
+三份 Critic 与 `unexplained_cases.md` 独立给出方案，并已由 **`_index/split_scheme.md`
+合并为一份权威口径**（9 KB，含逐子类定义、分界问句、代表实例）：
+
+| 原标签 | 拆成 | 依据 |
+|---|---|---|
+| `STATE_REREPRESENTATION` | **9 个子类** + `null`（不属本算子）+ `UNCLASSIFIED` | `unexplained_cases.md` §4.1 合并三位 Critic 的命名 |
+| `RESTRICT_SLICE` | **4 个子类** + `null` | §4.2（两位 Critic 都漏了 M5 的 `CONSTANT_FIXING` 簇） |
+| `BAD_REPRESENTATION_LOCK_IN`（anti） | **5 个桶** + 1 类移出 | §4.4（`mixed` 的 4 桶漏了 `EXPENSIVE_BUT_VALID`，占 19.3%） |
+
+**但 `sub_operator` / `sub_failure_type` 字段尚未写入任何 Episode**——
+拆分是逐条语义判定（695 条算子匹配），不是批量替换。
+
+**当前集中度**（`_index/split_effect.md`，分母为全部 279 条）：
+
+| 口径 | top1 |
+|---|---:|
+| 粗粒度（父标签） | **39.4%** |
+| 细粒度（子标签） | 39.4%（**尚未拆分，故与粗粒度相同**） |
+
+> **⚠️ 分母口径**：本表分母是全部 279 条 Episode；
+> `aggregate.py` 的 `top1_coverage` 用的是**排除 UNKNOWN 条目之后**的分母（报 ~35%）。
+> **两者绝对值不可直接比较**，引用时必须写明口径。
+
+**下游若要应用拆分**：直接读 `_index/split_scheme.md`，它已给出每个子类的定义与判据。
+`_protocol/tools/measure_split.py` 可测量拆分前后的效果——
+**成功判据是"头号标签还占多少"，不是"拆出几个子类"。**
+
 ---
 
 ## 10. 机械聚类的碎片化（Family 阶段的警示）

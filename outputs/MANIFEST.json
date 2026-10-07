@@ -1,15 +1,15 @@
 {
  "manifest_version": "problem-space-trajectory-dataset-v1.0.0",
- "file_count": 166,
- "total_bytes": 10775385,
+ "file_count": 170,
+ "total_bytes": 10803441,
  "source_provenance": {
   "repo_root_basename": "_dlp_src",
-  "head_commit": "9d03a86bdec2e5c8a97b0b0263149020b2ac1bd7",
+  "head_commit": "48d243198b654ca87692f3d2026b3ff080af34d6",
   "branch": "main",
-  "commit_date": "2026-10-05 20:27:46 +0800",
-  "commit_subject": "fix: 按原书照片补全五题公式选项与示意图",
+  "commit_date": "2026-10-07 23:23:46 +0800",
+  "commit_subject": "feat: 新增「问题解决轨迹样本库」outputs/（279 Episode，7 门课）",
   "working_tree_clean": false,
-  "working_tree_dirty_entries": 1
+  "working_tree_dirty_entries": 6
  },
  "files": [
   {
@@ -181,6 +181,21 @@
    "path": "_index/source_marker_survey.md",
    "bytes": 4411,
    "sha256": "f647f86a66290a09e39e83d1d648bf757101e91266fc4e4008455c3f833b6146"
+  },
+  {
+   "path": "_index/split_effect.json",
+   "bytes": 4040,
+   "sha256": "d753d46028fad29791f77d187d9b2b57b41c8329ca38d05897b9ab7ad58db3b9"
+  },
+  {
+   "path": "_index/split_effect.md",
+   "bytes": 2891,
+   "sha256": "596dfb87678d207e0d19c2a999a97039634629a3361e6f5a0e576bee6c423174"
+  },
+  {
+   "path": "_index/split_scheme.md",
+   "bytes": 9137,
+   "sha256": "6670933a3e0dab4d8849b32cc55a06b73546aed176da493d951f57199543e4d7"
   },
   {
    "path": "_index/syllabus_map.json",
@@ -378,6 +393,11 @@
    "sha256": "48223c52df95b2ec18ed4526d50a4f5c994882e1407d8a6656e39720c917a24d"
   },
   {
+   "path": "_protocol/tools/measure_split.py",
+   "bytes": 10267,
+   "sha256": "843d526004dc4502cdf3ddc7cfb264ee87e13d3fa302e7e413c5373e94d7fa8c"
+  },
+  {
    "path": "_protocol/tools/package.py",
    "bytes": 13974,
    "sha256": "d3697f7b648fe4ac590ce1af6ee9cf3ace44ebc94abb0343e041d4e5e80a9523"
@@ -499,8 +519,8 @@
   },
   {
    "path": "coverage_report.md",
-   "bytes": 29792,
-   "sha256": "e84304cf01fb366af66b6b0444fd36c9b83cb8b4127546540b1c81a44374eb0e"
+   "bytes": 31513,
+   "sha256": "6f78ed49418894d6f2056ec729dd7d1dc2e663151c9b5ec34885a78f17f27d71"
   },
   {
    "path": "critic/_checks/_brli4.py",
