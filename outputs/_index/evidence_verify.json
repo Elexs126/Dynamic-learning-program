@@ -1,0 +1,195 @@
+{
+ "total": 279,
+ "corpus_files": 298,
+ "verdicts": {
+  "EXACT": 268,
+  "WRONG_QUESTION_BLOCK": 1,
+  "EXCERPT_TOO_SHORT": 10
+ },
+ "by_worker": {
+  "C1": {
+   "EXACT": 23,
+   "WRONG_QUESTION_BLOCK": 1
+  },
+  "C2": {
+   "EXACT": 26
+  },
+  "C3": {
+   "EXACT": 24
+  },
+  "C4": {
+   "EXACT": 24
+  },
+  "M1": {
+   "EXACT": 21,
+   "EXCERPT_TOO_SHORT": 1
+  },
+  "M2": {
+   "EXACT": 21,
+   "EXCERPT_TOO_SHORT": 1
+  },
+  "M3": {
+   "EXACT": 24,
+   "EXCERPT_TOO_SHORT": 1
+  },
+  "M4": {
+   "EXACT": 22
+  },
+  "M5": {
+   "EXACT": 16,
+   "EXCERPT_TOO_SHORT": 4
+  },
+  "M6": {
+   "EXACT": 19,
+   "EXCERPT_TOO_SHORT": 1
+  },
+  "M7": {
+   "EXACT": 24,
+   "EXCERPT_TOO_SHORT": 2
+  },
+  "M8": {
+   "EXACT": 24
+  }
+ },
+ "verbatim_ok": 268,
+ "suspect_forged": [],
+ "wrong_question_block": [
+  {
+   "file": "核心真题/408/2009年全国硕士研究生招生考试408计算机学科专业基础综合真题.md",
+   "ratio": 1.0,
+   "example_found": true,
+   "actual_file": null,
+   "excerpt_head": "图 (1) 中，设初始顶点为 1，目标顶点为 4，欲求从顶点 1 到顶点 4 之间的最短路径，显然这两点之间的最短路径长度为 2。利用给定方",
+   "verdict": "WRONG_QUESTION_BLOCK",
+   "actual_block": "408-09-A-T41",
+   "expected_block": "408-09-A-T42",
+   "worker": "C1",
+   "problem_id": "C1-004"
+  }
+ ],
+ "too_short": [
+  {
+   "file": "讲义/高等数学/01_强化篇/第02讲_数列极限.md",
+   "ratio": 0.0,
+   "example_found": null,
+   "actual_file": null,
+   "excerpt_head": "分析∞·sin∞型，使用归结原则.",
+   "verdict": "EXCERPT_TOO_SHORT",
+   "excerpt_len": 16,
+   "min_required": 20,
+   "worker": "M1",
+   "problem_id": "M1-014"
+  },
+  {
+   "file": "讲义/高等数学/01_强化篇/第06讲_一元函数微分学的应用_二__中值定理_微分等式与微分不等式.md",
+   "ratio": 0.0,
+   "example_found": null,
+   "actual_file": null,
+   "excerpt_head": "注新概念： $\\{ f_{n}(x) \\}$ 函数列———族函数.",
+   "verdict": "EXCERPT_TOO_SHORT",
+   "excerpt_len": 14,
+   "min_required": 20,
+   "worker": "M2",
+   "problem_id": "M2-022"
+  },
+  {
+   "file": "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md",
+   "ratio": 0.0,
+   "example_found": null,
+   "actual_file": null,
+   "excerpt_head": "要求原函数\n$F(x)$\n满足在\n$x=1$\n处连续。",
+   "verdict": "EXCERPT_TOO_SHORT",
+   "excerpt_len": 15,
+   "min_required": 20,
+   "worker": "M3",
+   "problem_id": "M3-025"
+  },
+  {
+   "file": "讲义/高等数学/01_强化篇/第15讲_微分方程.md",
+   "ratio": 0.0,
+   "example_found": null,
+   "actual_file": null,
+   "excerpt_head": "两端对x求导，有",
+   "verdict": "EXCERPT_TOO_SHORT",
+   "excerpt_len": 7,
+   "min_required": 20,
+   "worker": "M5",
+   "problem_id": "M5-007"
+  },
+  {
+   "file": "讲义/高等数学/01_强化篇/第15讲_微分方程.md",
+   "ratio": 0.0,
+   "example_found": null,
+   "actual_file": null,
+   "excerpt_head": "当 $x < 0$ 时，令 $x   =   - u$ ，原方程化为y关于u的方程",
+   "verdict": "EXCERPT_TOO_SHORT",
+   "excerpt_len": 19,
+   "min_required": 20,
+   "worker": "M5",
+   "problem_id": "M5-014"
+  },
+  {
+   "file": "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md",
+   "ratio": 0.0,
+   "example_found": null,
+   "actual_file": null,
+   "excerpt_head": "两解之差\n$y1−y2$\n是对应齐次方程",
+   "verdict": "EXCERPT_TOO_SHORT",
+   "excerpt_len": 16,
+   "min_required": 20,
+   "worker": "M5",
+   "problem_id": "M5-015"
+  },
+  {
+   "file": "核心真题/数学一/2012年全国硕士研究生招生考试数学一真题.md",
+   "ratio": 0.0,
+   "example_found": null,
+   "actual_file": null,
+   "excerpt_head": "**【解析】** 由观察知",
+   "verdict": "EXCERPT_TOO_SHORT",
+   "excerpt_len": 12,
+   "min_required": 20,
+   "worker": "M5",
+   "problem_id": "M5-019"
+  },
+  {
+   "file": "核心真题/数学一/2019年全国硕士研究生招生考试数学一真题.md",
+   "ratio": 0.0,
+   "example_found": null,
+   "actual_file": null,
+   "excerpt_head": "$∑n=0∞(2n)!(−1)n(x)2n=cosx$",
+   "verdict": "EXCERPT_TOO_SHORT",
+   "excerpt_len": 16,
+   "min_required": 20,
+   "worker": "M6",
+   "problem_id": "M6-013"
+  },
+  {
+   "file": "讲义/线性代数/01_基础篇/第04章_线性方程组.md",
+   "ratio": 0.0,
+   "example_found": null,
+   "actual_file": null,
+   "excerpt_head": "例3 【分析】由 AB = O,对 B 按列分块，",
+   "verdict": "EXCERPT_TOO_SHORT",
+   "excerpt_len": 16,
+   "min_required": 20,
+   "worker": "M7",
+   "problem_id": "M7-004"
+  },
+  {
+   "file": "讲义/线性代数/02_强化篇/第02章_矩阵.md",
+   "ratio": 0.0,
+   "example_found": null,
+   "actual_file": null,
+   "excerpt_head": "即",
+   "verdict": "EXCERPT_TOO_SHORT",
+   "excerpt_len": 1,
+   "min_required": 20,
+   "worker": "M7",
+   "problem_id": "M7-011"
+  }
+ ],
+ "mis_cited": [],
+ "condensed": [],
+ "weak": []
+}

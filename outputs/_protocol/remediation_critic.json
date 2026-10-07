@@ -1,0 +1,53 @@
+{
+ "purpose": "应用 408 组 Critic（critic/c2c3c4m7.md）中**机械可判**的整改项。需要回读原文的整改项不在此列，见 deferred。",
+ "not_a_verdict": "本清单只含 Critic 逐条点名、且有原文证据的改动。凡需判断的（如 C2 的 23 条 operation 是否真为动作）一律不在此列。",
+ "fixes": [
+  {
+   "worker": "C3",
+   "problem_id": "C3-012",
+   "kind": "strip_token_from_operation",
+   "token": "STRUCTURAL_PROGRESS",
+   "reason": "Critic A-3 问题 2：STRUCTURAL_PROGRESS 已被 OPERATOR_DEFINITIONS §2/§4 与 mixed_m5m6m8c1.md 判定『语义过泛、建议废弃』（实测 n=1），不应出现在描述动作的位置。worker 的 notes L135 声称已移除，但只改了 existing_operator_matches，未改 key_transitions[].operation。",
+   "source": "critic/c2c3c4m7.md A-3"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-015",
+   "kind": "strip_token_from_operation",
+   "token": "PROXY_OBJECTIVE_DRIFT",
+   "reason": "Critic A-3 附带：PROXY_OBJECTIVE_DRIFT 是 SPEC §8 的 anti-operator（描述失败），不应出现在描述『动作』的位置。",
+   "source": "critic/c2c3c4m7.md A-3"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-015",
+   "kind": "drop_operator_match",
+   "operator_id": "TARGET_DRIFT",
+   "reason": "Critic A-3 问题 1：TARGET_DRIFT 是 SPEC §8 的 anti-operator，被放进 existing_operator_matches（母算子数组）。且被用反了方向——TARGET_DRIFT 描述解题者的失败，而本条描述的是历史上 CISC 设计目标的修正（产业史，非解题失败）。",
+   "source": "critic/c2c3c4m7.md A-3 + _index/vocabulary_placement.md"
+  },
+  {
+   "worker": "C2",
+   "problem_id": "C2-018",
+   "kind": "set_notes_evidence_level",
+   "new": "E1",
+   "reason": "Critic 判定：摘录是『结论式定义陈述』（分页/分段的目的），主算子 INFORMATION_AXIS_DECOMPOSITION 在摘录里无对应文字支撑 → 属『从答案反推』而非『材料明说』。",
+   "source": "critic/c2c3c4m7.md（C2 的 E2 是否偏高）"
+  },
+  {
+   "worker": "C2",
+   "problem_id": "C2-020",
+   "kind": "set_notes_evidence_level",
+   "new": "E1",
+   "reason": "Critic 判定：摘录是『题面场景续写 + 反问』，主算子（逻辑删除/物理删除两阶段）那句话在源文件 L539，未被引 → 属『从答案反推』。",
+   "source": "critic/c2c3c4m7.md（C2 的 E2 是否偏高）"
+  }
+ ],
+ "deferred": [
+  "C2 的 23 条 key_transitions[].operation 需回读原文，把真动作从 after_state 移回 operation、把原假设移入 why_triggered。属内容改写，非机械可判。",
+  "M7 的 10 条截断摘录（含 M7-011 的 1 字符『即』）需回读原文补全。已由 verify_evidence.py 的 EXCERPT_TOO_SHORT 闸门标出。",
+  "C3 的 20 条 raw_problem 口径（题面归题面）需回读原文重做。已由 check_episode_basis.py 加 basis_flag 标记。",
+  "M7 的 34 条 operation 无算子标签——但 Critic 判其『是真动作、只是没写标签』，与 C2 的『不是动作』性质不同，改法也不同，需人工决定是否改。",
+  "C2-011 与 C2-014 的主算子错位（承重动作是候选新算子本身，primary 却挂了 STATE_REREPRESENTATION）——需判断是否改挂，属语义决定。"
+ ]
+}

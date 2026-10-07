@@ -1,0 +1,45 @@
+{
+ "axes": {
+  "representation_issue": {
+   "nonempty": 275,
+   "total": 279
+  },
+  "redundant_freedom": {
+   "nonempty": 153,
+   "total": 279
+  },
+  "coupling": {
+   "nonempty": 261,
+   "total": 279
+  },
+  "scale_competition": {
+   "nonempty": 75,
+   "total": 279
+  },
+  "dependency_structure": {
+   "nonempty": 242,
+   "total": 279
+  },
+  "information_risk": {
+   "nonempty": 248,
+   "total": 279
+  },
+  "state_transition_structure": {
+   "nonempty": 77,
+   "total": 279
+  },
+  "resource_or_bottleneck_structure": {
+   "nonempty": 98,
+   "total": 279
+  }
+ },
+ "domain_episode_counts": {
+  "数据结构": 24,
+  "操作系统": 26,
+  "计算机组成原理": 24,
+  "计算机网络": 24,
+  "高等数学": 131,
+  "线性代数": 26,
+  "概率论与数理统计": 24
+ }
+}

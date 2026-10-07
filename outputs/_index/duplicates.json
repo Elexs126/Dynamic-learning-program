@@ -1,0 +1,86 @@
+{
+ "total_episodes": 279,
+ "threshold": 0.62,
+ "duplicate_pairs": 3,
+ "cross_worker_pairs": 3,
+ "same_worker_pairs": 0,
+ "pairs_with_operator_disagreement": 2,
+ "duplicate_groups": 1,
+ "episodes_in_duplicate_groups": 3,
+ "estimated_unique_questions": 277,
+ "estimated_inflation": 2,
+ "operators_with_duplicates": {
+  "GLUE_LOCAL_TO_GLOBAL": {
+   "n_problem_ids": 3,
+   "problem_ids": [
+    "M1-021",
+    "M2-020",
+    "M6-018"
+   ]
+  },
+  "RIGIDIFY": {
+   "n_problem_ids": 3,
+   "problem_ids": [
+    "M1-021",
+    "M2-020",
+    "M6-018"
+   ]
+  }
+ },
+ "pairs": [
+  {
+   "similarity": 1.0,
+   "a": "M1-021",
+   "a_source": "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md",
+   "a_worker": "M1",
+   "b": "M2-020",
+   "b_source": "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md",
+   "b_worker": "M2",
+   "same_worker": false,
+   "same_source": true,
+   "a_ops": [
+    "RIGIDIFY"
+   ],
+   "b_ops": [
+    "GLUE_LOCAL_TO_GLOBAL"
+   ],
+   "ops_disagree": true
+  },
+  {
+   "similarity": 1.0,
+   "a": "M1-021",
+   "a_source": "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md",
+   "a_worker": "M1",
+   "b": "M6-018",
+   "b_source": "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md",
+   "b_worker": "M6",
+   "same_worker": false,
+   "same_source": true,
+   "a_ops": [
+    "RIGIDIFY"
+   ],
+   "b_ops": [
+    "GLUE_LOCAL_TO_GLOBAL"
+   ],
+   "ops_disagree": true
+  },
+  {
+   "similarity": 1.0,
+   "a": "M2-020",
+   "a_source": "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md",
+   "a_worker": "M2",
+   "b": "M6-018",
+   "b_source": "核心真题/数学一/2016年全国硕士研究生招生考试数学一真题.md",
+   "b_worker": "M6",
+   "same_worker": false,
+   "same_source": true,
+   "a_ops": [
+    "GLUE_LOCAL_TO_GLOBAL"
+   ],
+   "b_ops": [
+    "GLUE_LOCAL_TO_GLOBAL"
+   ],
+   "ops_disagree": false
+  }
+ ]
+}

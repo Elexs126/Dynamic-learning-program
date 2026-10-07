@@ -1,0 +1,990 @@
+{
+ "per_worker": {
+  "C1": {
+   "n": 24,
+   "overlap": 0,
+   "no_question_tail": 0
+  },
+  "C2": {
+   "n": 26,
+   "overlap": 0,
+   "no_question_tail": 2
+  },
+  "C3": {
+   "n": 24,
+   "overlap": 20,
+   "no_question_tail": 8
+  },
+  "C4": {
+   "n": 24,
+   "overlap": 12,
+   "no_question_tail": 13
+  },
+  "M1": {
+   "n": 22,
+   "overlap": 0,
+   "no_question_tail": 12
+  },
+  "M2": {
+   "n": 22,
+   "overlap": 0,
+   "no_question_tail": 5
+  },
+  "M3": {
+   "n": 25,
+   "overlap": 2,
+   "no_question_tail": 14
+  },
+  "M4": {
+   "n": 22,
+   "overlap": 0,
+   "no_question_tail": 15
+  },
+  "M5": {
+   "n": 20,
+   "overlap": 0,
+   "no_question_tail": 10
+  },
+  "M6": {
+   "n": 20,
+   "overlap": 0,
+   "no_question_tail": 11
+  },
+  "M7": {
+   "n": 26,
+   "overlap": 0,
+   "no_question_tail": 12
+  },
+  "M8": {
+   "n": 24,
+   "overlap": 0,
+   "no_question_tail": 10
+  }
+ },
+ "suspects": [
+  {
+   "problem_id": "C2-001",
+   "worker": "C2",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "进程在其生命周期中，由于与其他进程的相互制约以及系统运行环境的变化，其状态会不断发生转换。通常，进程具有以下五种状态，其中前三种为基本状态。"
+  },
+  {
+   "problem_id": "C2-004",
+   "worker": "C2",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "一张圆桌旁围坐5名哲学家，每两名相邻哲学家之间放置一根筷子，共5根筷子。哲学家饥饿时必须同时持有左右两根筷子才能开始进餐（筷子需要逐根拿起）。请用信号量描述并避免死锁。"
+  },
+  {
+   "problem_id": "C3-002",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "常被组织为多模块结构，允许多个模块并行工作，从而将总带宽提升至单模块带宽的若干倍。 27.多模块存储器之所以能提高存储器的访问速度，是因为（）。A. 采用了高速元器件 B. 模内有独立的读C. 采用了信息预读技术 D. 模块内各单元地址连续"
+  },
+  {
+   "problem_id": "C3-003",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "数量由行、列地址位数中的较大者决定，为最小化地址引脚数，应使r与c尽可能接近。此外，DRAM按行刷新，行数越少，刷新开销越低，故还需满足 $r \\leqslant c  。$ 综合考虑，通常将阵列设计为行数略小于或等于列数的近似正方形结构。"
+  },
+  {
+   "problem_id": "C3-004",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "位数（如4列×8位=32位）。当某一行被选中后，该行全部数据被一次性加载到行缓冲器中，后续可在每个时钟周期连续输出一个存储单元的数据（8位），从而支持突发传输，即在寻址阶段提供首地址，随后连续读取多个相邻存储单元的数据，显著 提升有效带宽。"
+  },
+  {
+   "problem_id": "C3-005",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "e结构。统一Cache的优点在于其设计和实现相对简单，但在流水线执行中，取指部件和执行部件同时访问同一Cache时容易产生冲突。通过采用分离Cache结构，不仅可以消除这类冲突，还能针对指令和数据的不同局部性特征进行优化，从而提升整体性能。"
+  },
+  {
+   "problem_id": "C3-006",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "为脏块，则写回L2；L2同理，在替换时写回主存。由于L2 Cache的访问速度远高于主存，L1无须在写命中时访问主存，仅更新本地Cache即可快速完成写操作；后续的脏块写回由L2高效承接，从而有效避免因频繁写操作导致的写缓冲饱和或溢出问题。"
+  },
+  {
+   "problem_id": "C3-008",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "策略：当页面被修改时，标记为脏页；仅在该页被置换出主存时，若为脏页，才将其写回辅存。这显著降低了I/O开销。此外，虚拟存储器的分页机制允许任一虚页装入主存中任意可用的物理页框（类似于全相联映射），从而提高主存利用率，并支持高效的地址重定位。"
+  },
+  {
+   "problem_id": "C3-010",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "。 根据程序访问的局部性原理，在一段时间内CPU往往集中访问少数页面。若将这些页面对应的页表项缓存在由高速SRAM构成的快表（TLB）中，则可在地址转换时避免访问主存中的页表，从而显著提升效率。相应地，主存中的页表常被称为慢表（Page）。"
+  },
+  {
+   "problem_id": "C3-012",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "_{\\mathrm{max}} + T_{\\mathrm{ setup}}$ ，其中组合逻辑延迟 $T _ { \\mathrm { m a x } }$ 是关键因素。可见，在CPU设计中，缩短组合逻辑的关键路径延迟是提升系统频率的关键手段。"
+  },
+  {
+   "problem_id": "C3-013",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": " 1）不允许短操作码成为长操作码的前缀，即短操作码不能与长操作码的前面部分相同。 2）各指令的操作码一定不能重复。 通常情况下，对使用频率较高的指令分配较短的操作码，对使用频率较低的指令分配较长的操作码，从而尽可能减少指令译码和分析的时间。"
+  },
+  {
+   "problem_id": "C3-014",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "码难度B. 可缩短指令字长，扩大寻址空间，提高编程的灵活性C. 实现程序控制 D. 三者都正确 采用不同寻址方式的目的是为了缩短指令字长，扩大寻址空间，提高编程的灵活性，但这也提高了指令译码的复杂度。程序控制是靠转移指令而非寻址方式实现的。"
+  },
+  {
+   "problem_id": "C3-015",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "统计分析表明：各种指令的使用频率相差悬殊，约80%的程序执行仅依赖于20%的简单指令，而其余80%的复杂指令使用频率极低。基于这一观察，设计者开始尝试仅保留高频使用的简单指令，并通过它们组合实现不常用的复杂指令功能，由此催生了RISC架构。"
+  },
+  {
+   "problem_id": "C3-016",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "PI=1）。其实现机制是：每个时钟周期启动一条新指令，使多条指令在流水线中重叠执行，各自处于不同的执行阶段（如取指、译码、执行、写回等）。尽管单条指令从开始到完成仍需要多个周期（执行延迟未减少），但整体吞吐率显著提高，大幅提升了处理器效率。"
+  },
+  {
+   "problem_id": "C3-017",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "完成指令的执行。 与硬布线控制器相比，微程序控制器具有结构规整、灵活性强和易于维护的优势。其设计基于存储程序原理，便于对微程序进行修改与扩展。不过，由于每条微指令均需从控制存储器中读取，导致指令执行所需的微周期数增加，从而影响整体运行速度。"
+  },
+  {
+   "problem_id": "C3-018",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "同的操作数，ALU的一个输入端与总线相连，另一个输入端需通过一个寄存器与总线相连。此外，ALU的输出端也不能直接与内部总线相连，否则其输出又会通过总线反馈到输入端，影响运算结果，因此输出端需通过一个暂存器（用来暂存结果的寄存器）与总线相连。"
+  },
+  {
+   "problem_id": "C3-019",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "）增加硬件资源：例如，将寄存器堆的读口与写口分离，支持在一个周期的前半拍写、后半拍读；或将指令存储器与数据存储器分离。现代处理器的L1 Cache通常采用指令Cache与数据Cache分离的设计，从根本上消除了取指与数据访存之间的资源竞争。"
+  },
+  {
+   "problem_id": "C3-020",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "但在流水线中，I2在ID流水段就要读取R1，而I1要到WB段才将结果写回寄存器堆，导致I2读取的是R1的旧值。 设置相关转发通路，使后续指令无须等待前一条指令将计算结果写回寄存器堆，而是将其在执行阶段生成的中间结果直接转发至ALU的输入端。"
+  },
+  {
+   "problem_id": "C3-021",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": " 插入空操作指令，使相关指令延迟执行，可以避免数据冒险。采用转发技术，将数据通路中生成的中间数据直接转发到ALU的输入端，可以解决部分数据冒险，但不能解决load-use类型的数据冒险。通过编译器调整相关指令的顺序，也可以解决部分数据冒险。"
+  },
+  {
+   "problem_id": "C3-022",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "预测技术用于处理控制冒险。静态预测技术假定分支总是不发生或者总是发生，每次预测结果是一样的。动态预测技术根据之前条件转移的比较结果来预测，根据局部性原理，其预测成功率通常比静态预测技术高。预测错误时，已被错误放入流水线执行的指令必须被舍弃。"
+  },
+  {
+   "problem_id": "C3-023",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "期，从而可以提高时钟频率。但是，流水段之间的流水段寄存器也随之增多，增加了流水段之间的额外缓存开销，因此加倍增加流水段个数不能成倍提高指令执行效率，且流水段个数也不能无限制地增加。此外，随着流水段个数的增加，也将导致流水段的控制逻辑更复杂。"
+  },
+  {
+   "problem_id": "C3-024",
+   "worker": "C3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "Threading）技术是 SMT的典型代表。它在一个物理核心中维护两套完整的线程状态部件（包括寄存器组、程序计数器等），而高速缓存、ALU等执行资源则由两个逻辑核心共享，从而在单核上实现接近双核的并发处理能力（实际提升10%\\~30%）。"
+  },
+  {
+   "problem_id": "C4-001",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "低整个系统的复杂度。2）各层之间的接口清晰、简洁，相互依赖尽可能少，便于理解与维护。3）各层功能的定义独立于具体实现方法，可采用最合适的技术来实现。4）保持下层对上层的独立性，上层单向使用下层提供的服务。5）整个分层结构应有利于标准化工作。"
+  },
+  {
+   "problem_id": "C4-003",
+   "worker": "C4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "R1、R2、R3 采用 RIP 协议交换路由信息，且均已收敛。若 R3 检测到网络 201.1.2.0/25 不可达，并向 R2 通告一次新的距离向量，则 R2 更新后，其到达该网络的距离是（ ）。A. 2　B. 3　C. 16　D. 17"
+  },
+  {
+   "problem_id": "C4-004",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "干数据段，并封装成携带完整源地址和目的地址的独立分组。中间节点对分组短暂缓存，独立选路后随即转发。网络层不提供服务质量保证，也不确保可靠传输，因此分组可能丢失、重复、失序或出错。这就使得网络中的路由器比较简单，且造价低廉（与电话网络相比）。"
+  },
+  {
+   "problem_id": "C4-005",
+   "worker": "C4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "下列关于虚电路网络的叙述中错误的是（ ）。A. 可以确保数据分组传输顺序；B. 需要为每条虚电路预分配带宽；C. 建立虚电路时需要进行路由选择；D. 依据虚电路号（VCID）进行数据分组转发。"
+  },
+  {
+   "problem_id": "C4-006",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "网络号和主机号）存在以下主要缺点。●地址空间利用率低：为每个物理网络分配一个完整网络号，导致大量主机号未被使用。●路由表规模过大：网络数量增长使路由表膨胀，从而影响转发性能。●地址分配缺乏灵活性：无法根据实际需求，对网络进行更细粒度的划分。"
+  },
+  {
+   "problem_id": "C4-007",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "与路由聚合机制，旨在消除传统A、B、C类地址的限制，并提升IP地址空间的利用效率。其核心思想是：不再区分网络类别，而使用「网络前缀」来标识网络部分。网络前缀的长度（掩码中连续1的数量）可根据实际需求灵活指定，不再局限于8位、16位或24位。"
+  },
+  {
+   "problem_id": "C4-008",
+   "worker": "C4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "前缀匹配（也称最佳匹配）：使用CIDR时，路由表项由「网络前缀」和「下一跳地址」组成。当查找路由表时，目的地址可能匹配多个路由项。此时，应选择网络前缀最长（前缀位数最多）的那条路由，因为前缀越长，对应的地址块越小，路由信息就越具体、越精确。"
+  },
+  {
+   "problem_id": "C4-009",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "实现与互联网的通信，并对外隐藏内部网络的结构。它使得整个专用网通常只需一个全球IP地址即可与互联网连通；由于私有IP地址可在不同专用网络中重复使用，NAT有效地缓解了IP地址短缺的问题。此外，NAT还在一定程度上降低了内部网络受攻击的风险。"
+  },
+  {
+   "problem_id": "C4-010",
+   "worker": "C4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "55.128，则下列现象中可能发生的是（ ）。A. H1 不能与 H2 进行正常 IP 通信　B. H2 与 H4 均不能访问 Internet　C. H1 不能与 H3 进行正常 IP 通信　D. H3 不能与 H4 进行正常 IP 通信"
+  },
+  {
+   "problem_id": "C4-011",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "（讲义正文）IP地址是网络层及以上使用的分层式地址，而硬件地址（MAC地址）是数据链路层使用的平面式地址。IP地址置于IP数据报的首部，而MAC地址则置于MAC帧的首部。当IP数据报被封装为MAC帧后，数据链路层无法感知其中的IP地址。"
+  },
+  {
+   "problem_id": "C4-012",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "（讲义正文）DHCP之所以采用UDP而非TCP，是因为DHCP客户在初始阶段既无IP地址，又不知道DHCP服务器地址，无法建立TCP连接；而UDP无须连接，且支持广播，满足DHCP的通信需求。"
+  },
+  {
+   "problem_id": "C4-013",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "较低，为降低开销，一般不要求数据链路层提供可靠传输服务；即使出现少量误码，也可由上层（如传输层）通过端到端机制处理。无线网络的链路易受干扰，误码率较高，因此要求数据链路层必须向上层提供可靠传输服务，以避免大量错误帧传递至上层，提升整体效率。"
+  },
+  {
+   "problem_id": "C4-014",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "A到最远节点的传播时延）内未检测到冲突，说明：●此时帧的首部已到达所有其他节点；●其他节点在侦听到信道忙后，不会启动新发送。因此，只要在冲突窗口内未发生冲突，此后信道已被该帧「占据」，其他节点将持续侦听到载波而保持沉默，不可能再产生新冲突。"
+  },
+  {
+   "problem_id": "C4-015",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "正文）不难看出，GBN协议一方面通过连续发送多个帧显著提高了信道利用率；另一方面，在发生差错时却必须重传大量已正确到达的帧（仅因这些帧前面有一帧出错），从而造成带宽浪费。因此，当信道误码率较高时，GBN协议的性能可能反而不如停止-等待协议。"
+  },
+  {
+   "problem_id": "C4-016",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "接收到的信号强度通常远小于其发送信号的强度，且无线信道中信号强度的动态范围极大，若要实现冲突检测，硬件上的成本将会过高。2）在无线通信中，并非所有站点都能互相侦听到对方（却可能产生冲突），即存在隐蔽站问题，导致冲突检测机制无法发现所有冲突。"
+  },
+  {
+   "problem_id": "C4-018",
+   "worker": "C4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "eq = 501、接收窗口 rcvwnd = 500B 的段，则甲在未收到新的确认段之前，可以继续向乙发送的数据序号范围是（ ）。A. 501 ~ 1000　B. 601 ~ 1100　C. 701 ~ 1000　D. 801 ~ 1100"
+  },
+  {
+   "problem_id": "C4-019",
+   "worker": "C4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "TCP 连接时发送的 SYN 段中的序号为 1000，在断开连接时，甲发送给乙的 FIN 段中的序号为 5001，则在无任何重传的情况下，甲向乙已经发送的应用层数据的字节数为：A. 4002；B. 4001；C. 4000；D. 3999；"
+  },
+  {
+   "problem_id": "C4-021",
+   "worker": "C4",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": false,
+   "raw_problem_tail": "赖邻居的路由决策，避免了距离-向量算法中的无穷计数等问题；②每个节点获得完整拓扑后，可本地计算全局最优路径，收敛过程通常较快且无环：③链路状态报文仅包含本节点的直连链路信息，单个报文大小与网络总规模无关，因此在大型网络中具有更好的可扩展性。"
+  },
+  {
+   "problem_id": "C4-022",
+   "worker": "C4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "最大段长 MSS = 1 KB，甲一直有数据向乙发送，当甲的拥塞窗口为 16KB 时，计时器发生了超时，则甲的拥塞窗口再次增长到 16KB 所需要的时间至少是（ ）。A. 4 RTT　B. 5 RTT　C. 11 RTT　D. 16 RTT"
+  },
+  {
+   "problem_id": "C4-023",
+   "worker": "C4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "均采用迭代查询方式进行域名解析。当主机访问规范域名为 www.abc.xyz.com的网站时，本地域名服务器在完成该域名解析的过程中，可能发出DNS查询的最少和最多次数分别是（）。A. 0, 3 B. 1, 3 C. 0,4 D. 1, 4"
+  },
+  {
+   "problem_id": "C4-024",
+   "worker": "C4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "留较久，A超时后重传并完成后续通信。但这些旧报文段在连接早已释放后才到达B，而此时A与B已建立一条新的TCP连接。由于新连接仍使用相同的初始序号，旧报文段的序号可能落在新连接的有效窗口内，导致B误将其当作新数据接收，造成数据混乱或协议错误。"
+  },
+  {
+   "problem_id": "M1-001",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "cos x}$，则 $\\lim_{x \\to 0} \\frac{f(x)}{x^2}$( ).(A) $-\\frac{1}{3}$ (B) $\\frac{1}{3}$ (C) $\\frac{1}{6}$ (D) $-\\frac{1}{6}$"
+  },
+  {
+   "problem_id": "M1-002",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "在下列区间内，函数 $f(x) = \\frac{x\\sin(x - 3)}{(x - 1)(x - 3)^2}$ 有界的是( ).(A) $(-2, 1)$ (B) $(-1, 0)$ (C) $(1, 2)$ (D) $(2, 3)$"
+  },
+  {
+   "problem_id": "M1-003",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "in(-\\delta,0)$ 时 $f(x)>0$；当 $x\\in(0,\\delta)$ 时 $f(x)>0$ (D) 当 $x\\in(-\\delta,0)$ 时 $f(x)<0$；当 $x\\in(0,\\delta)$ 时 $f(x)<0$"
+  },
+  {
+   "problem_id": "M1-004",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "设 $x\\to 0$ 时，$\\mathrm{e}^{\\tan x} - \\mathrm{e}^{\\sin x}$ 与 $x^{n}$ 是同阶无穷小，则 n 为( ).(A) 1 (B) 2 (C) 3 (D) 4"
+  },
+  {
+   "problem_id": "M1-005",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "10}}$，则当 x 充分大时，有( ).(A) $g(x) < h(x) < f(x)$ (B) $h(x) < g(x) < f(x)$ (C) $f(x) < g(x) < h(x)$ (D) $g(x) < f(x) < h(x)$"
+  },
+  {
+   "problem_id": "M1-006",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "设函数 $f(x)=\\lim_{n \\to \\infty} \\frac{x^2 + nx(1-x)\\sin^2 \\pi x}{1+n\\sin^2 \\pi x}$，则 $f(x) =$"
+  },
+  {
+   "problem_id": "M1-007",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "{\\sin x^3} = 0$，则 $\\lim_{x \\to 0} \\frac{2 + f(x)}{x^2} =$ (A) $\\frac{13}{9}$ (B) 4 (C) $\\frac{10}{3}$ (D) $-\\frac{8}{3}$"
+  },
+  {
+   "problem_id": "M1-012",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "a=1, b=0, c=-\\frac{7}{6}$ (B) $a=1, b=0, c=\\frac{7}{6}$ (C) $a=-1, b=-1, c=-\\frac{7}{6}$ (D) $a=-1, b=-1, c=\\frac{7}{6}$"
+  },
+  {
+   "problem_id": "M1-013",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "rac{1}{x - 1}}\\ln\\left| 1 + x \\right|}{\\left( \\mathrm{e}^{x} - 1 \\right)(x - 2)}$ 的第二类间断点的个数为( ).(A) 1 (B) 2 (C) 3 (D) 4"
+  },
+  {
+   "problem_id": "M1-014",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "当 $x \\to 0$ 时，$\\frac{1}{x}\\sin\\frac{1}{x}$ 是( ).(A) 无穷大量 (B) 无界量，但不是无穷大量 (C) 有界量，但不是无穷小量 (D) 无穷小量"
+  },
+  {
+   "problem_id": "M1-019",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "eft| x_{n} - a \\right| \\leqslant \\frac{1}{n}$」是数列 $\\{x_n\\}$ 收敛于 a 的( ).(A) 充分不必要条件 (B) 必要不充分条件 (C) 充分必要条件 (D) 既不充分也不必要条件"
+  },
+  {
+   "problem_id": "M1-022",
+   "worker": "M1",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": " $\\lim _{n\\to \\infty } \\sin(\\cos x_{n})$ 存在，则 $\\lim _{n\\to \\infty } \\cos x_{n}$ 存在，但 $\\lim _{n\\to \\infty } x_{n}$ 不一定存在."
+  },
+  {
+   "problem_id": "M2-009",
+   "worker": "M2",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "rac{1}{2}\\right) < 0$ (C) 当f'(x)>0时， $f\\left(\\frac{1}{2}\\right) < 0$ (D)当 $f''(x) > 0$ 时， $f\\left(\\frac{1}{2}\\right)<0.$"
+  },
+  {
+   "problem_id": "M2-014",
+   "worker": "M2",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "athrm{e}^{nx} - n)$ ，其中 n为正整数，则f'(0) =().(A) $(-1)^{n-1}(n-1)!$ (B) $(-1)^{n}(n-1)!$ (C) $(-1)^{n-1}n!$ (D) $(-1)^{n}n!$"
+  },
+  {
+   "problem_id": "M2-015",
+   "worker": "M2",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": " }$ ，则（）.(A) $n_{2} < n_{1} < n_{3}$ (B) $n_{1} < n_{2} < n_{3}$ (C) $n_{3} < n_{2} < n_{1}$ (D) $n_{2} < n_{3} < n_{1}$"
+  },
+  {
+   "problem_id": "M2-016",
+   "worker": "M2",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "}(0) = 0$ ，则（).(A) f(0)是f(x)的极大值 (B) f(0)是f(x)的极小值 (C) 点(0， f(0))是曲线y =f(x)的拐点 (D)f(0)不是f(x)的极值，点(0,f(0))也不是曲线y =f(x)的拐点"
+  },
+  {
+   "problem_id": "M2-021",
+   "worker": "M2",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "k_2$ 为 $n_i>1$ 且为偶数的个数、$k_3$ 为 $n_i>1$ 且为奇数的个数，则极值点个数为 $k_{1} + 2k_{2} + k_{3} - 1$，拐点个数为 $k_{1} + 2k_{2} + 3k_{3} - 2$）"
+  },
+  {
+   "problem_id": "M3-001",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "0}^{b}\\varphi(y)\\mathrm{d}y$，常数 $a,b>0$，当 $a<\\varphi(b)$ 时，则（　）.(A) $I>ab$ (B) $I<ab$ (C) $I=ab$ (D) $I$ 与 $ab$ 的大小关系不确定"
+  },
+  {
+   "problem_id": "M3-002",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "m_{k=0}^{n}\\left|\\int_{k\\pi}^{(k+1)\\pi}\\mathrm{e}^{-x}\\sin x\\,\\mathrm{d}x\\right|$ 其中正确表达式的个数是（　）.(A) 0 (B) 1 (C) 2 (D) 3"
+  },
+  {
+   "problem_id": "M3-003",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "nfty}\\frac{1}{x^{a}+x^{b}}\\mathrm{d}x$ 收敛，则（　）.(A) $a>1$ 且 $b>1$ (B) $a>1$ 且 $b<1$ (C) $a<1$ 且 $a+b>1$ (D) $a<1$ 且 $b<1$"
+  },
+  {
+   "problem_id": "M3-004",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "∞}f(x)dx；当 f(x) 为奇函数且 ∫_0^{+∞}f(x)dx 收敛时，∫_{-∞}^{+∞}f(x)dx=0。同节正文另举反例：∫_{-∞}^{+∞}x^{3}dx ≠ lim_{R→+∞}∫_{-R}^{R}x^{3}dx。）"
+  },
+  {
+   "problem_id": "M3-005",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": " x)\\mathrm{d}x$，$N=\\int_{0}^{\\frac{\\pi}{2}}\\cos(\\cos x)\\mathrm{d}x$，则（　）.(A) $M<1<N$ (B) $M<N<1$ (C) $N<M<1$ (D) $1<M<N$"
+  },
+  {
+   "problem_id": "M3-006",
+   "worker": "M3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "2}\\pm2\\pi,\\cdots$。上、下限有多种组合可满足定理条件。但被积函数中 $\\sqrt{1-x^{2}}=\\sqrt{1-\\sin^{2}t}=|\\cos t|$ 在不同组合中，此绝对值的处理有简有繁，应引起注意，不要自找麻烦。）"
+  },
+  {
+   "problem_id": "M3-007",
+   "worker": "M3",
+   "excerpt_in_raw_problem": true,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "t(\\frac{\\pi}{4}-x\\right)\\right]\\mathrm{d}x=\\int_{0}^{\\frac{\\pi}{4}}\\ln\\frac{2}{1+\\tan x}\\mathrm{d}x=\\frac{\\pi}{8}\\ln2$。）"
+  },
+  {
+   "problem_id": "M3-009",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "\\mathrm{e}^{-1}+1)$ (B) $\\frac{1}{4}(\\mathrm{e}^{-1}-1)$ (C) $\\frac{1}{4}(\\mathrm{e}+1)$ (D) $\\frac{1}{4}(\\mathrm{e}-1)$"
+  },
+  {
+   "problem_id": "M3-011",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "$\\Gamma(\\alpha)=\\int_{0}^{+\\infty}x^{\\alpha-1}\\mathrm{e}^{-x}\\mathrm{d}x$ 与递推式 $\\Gamma(\\alpha+1)=\\alpha\\Gamma(\\alpha)$。）"
+  },
+  {
+   "problem_id": "M3-014",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "=\\sqrt{x}$ 与 $y=x$ 所围平面有界区域绕直线 $y=x$ 旋转一周所得旋转体的体积为____。（讲义旁注：公式(10-1) 使用前提是'过 L0 的任一条垂线与 L 至多有一个交点'；若出现 2 个及以上的交点，则不适用。）"
+  },
+  {
+   "problem_id": "M3-015",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "{e}^{-\\eta_{n}^{n}}$，$\\eta_{n}\\in(1,2)$，$\\eta_{n}$ 亦与 n 有关，考生需注意，此时不能用 $\\lim_{n\\to\\infty}\\mathrm{e}^{-\\eta_{n}^{n}}=0$。）"
+  },
+  {
+   "problem_id": "M3-017",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "设函数 $f(x)=x-[x]$，其中 $[x]$ 表示不超过 x 的最大整数，则 $\\lim_{x\\to+\\infty}\\frac{1}{x}\\int_{0}^{x}f(t)\\mathrm{d}t=$____"
+  },
+  {
+   "problem_id": "M3-020",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "m{d}x\\ (k=1,2,3)$，则有( )  (A) $I_{1}<I_{2}<I_{3}$ (B) $I_{3}<I_{2}<I_{1}$ (C) $I_{2}<I_{3}<I_{1}$ (D) $I_{2}<I_{1}<I_{3}$"
+  },
+  {
+   "problem_id": "M3-025",
+   "worker": "M3",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "cases}(x-1)^2,&x<1\\\\x(\\ln x+1)+1,&x\\ge1\\end{cases}$ (D) $F(x)=\\begin{cases}(x-1)^2,&x<1\\\\x(\\ln x-1)+1,&x\\ge1\\end{cases}$"
+  },
+  {
+   "problem_id": "M4-001",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "}\\frac{|xy|}{x^2+y^2}$，则（　）。 (A) $I_1$ 存在，$I_2$ 不存在　(B) $I_1$ 存在，$I_2$ 存在 (C) $I_1$ 不存在，$I_2$ 存在　(D) $I_1$ 不存在，$I_2$ 不存在"
+  },
+  {
+   "problem_id": "M4-002",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "\\dfrac{\\sqrt[3]{1-(x^2+y^2)}-1}{\\mathrm{e}^{x^2+y^2}-1}, & x^2+y^2\\neq 0,\\\\ a, & x^2+y^2=0\\end{cases}$ 为连续函数，则 $a=$ ____"
+  },
+  {
+   "problem_id": "M4-003",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": ")}$ 均存在 (D) $\\left.\\frac{\\partial f}{\\partial x}\\right|_{(0,1)},\\left.\\frac{\\partial f}{\\partial y}\\right|_{(0,1)}$ 均不存在"
+  },
+  {
+   "problem_id": "M4-004",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "$ 处不可微，$z_2$ 在点 $(0,0)$ 处可微 (C) $z_1$ 在点 $(0,0)$ 处可微，$z_2$ 在点 $(0,0)$ 处不可微 (D) $z_1$ 在点 $(0,0)$ 处可微，$z_2$ 在点 $(0,0)$ 处可微"
+  },
+  {
+   "problem_id": "M4-005",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "thrm{e}^x)=x+\\mathrm{e}^x$，且 $f_x'(x,y)\\big|_{y=\\mathrm{e}^x}=1+2\\mathrm{e}^x$，则 $f_y'(x,y)\\big|_{y=\\mathrm{e}^x}=$ ____"
+  },
+  {
+   "problem_id": "M4-007",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "导数的隐函数 $y=y(x,z)$ 和 $z=z(x,y)$ (C) 可确定两个具有连续偏导数的隐函数 $x=x(y,z)$ 和 $z=z(x,y)$ (D) 可确定两个具有连续偏导数的隐函数 $x=x(y,z)$ 和 $y=y(x,z)$"
+  },
+  {
+   "problem_id": "M4-008",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": ")=0$ 在点 $(x_0,y_0)$ 的某邻域内能确定一个连续函数 $y=y(x)$，且满足 $y_0=y(x_0)$ 并有连续导数的（　）。 (A) 必要非充分条件　(B) 充分非必要条件　(C) 充要条件　(D) 既不充分又不必要条件"
+  },
+  {
+   "problem_id": "M4-010",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "在点 $(x_0,y_0)$ 处取得极值是一元函数 $f(x,y_0)$ 和 $f(x_0,y)$ 分别在 $x_0$ 和 $y_0$ 处取得极值的（　）。 (A) 充分条件　(B) 必要条件　(C) 充要条件　(D) 既非充分也非必要条件"
+  },
+  {
+   "problem_id": "M4-013",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "u\\mathrm{d}v$ (C) $\\iint_{D(x)}\\ln(u^2+v^2)\\mathrm{d}u\\mathrm{d}v$　(D) $2\\iint_{D(x)}\\ln(u^2+v^2)\\mathrm{d}u\\mathrm{d}v$"
+  },
+  {
+   "problem_id": "M4-015",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "$\\int_0^1\\mathrm{d}x\\int_{1-x}^{\\sqrt{1-x^2}}\\frac{x+y}{x^2+y^2}\\mathrm{d}y=$ ____"
+  },
+  {
+   "problem_id": "M4-016",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "设 $\\Omega$ 是由平面 $x+y+z=1$ 与三个坐标平面所围成的空间区域，则 $\\iiint_\\Omega (x+2y+3z)\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z=$ ____"
+  },
+  {
+   "problem_id": "M4-017",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "设 $\\Gamma$ 是空间曲线 $\\begin{cases}x^2+y^2+z^2=1,\\\\ x+y+z=0,\\end{cases}$ 则 $\\oint_\\Gamma (x^2+y^2)\\mathrm{d}s=$ ____"
+  },
+  {
+   "problem_id": "M4-018",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": " $\\oint_\\Sigma\\frac{x\\mathrm{d}y\\mathrm{d}z+y\\mathrm{d}z\\mathrm{d}x+z\\mathrm{d}x\\mathrm{d}y}{(x^2+y^2+z^2)^{3/2}}=$ ____"
+  },
+  {
+   "problem_id": "M4-019",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "(x,y)}{|x|+|y|}$ 存在 (D) 若 $f(x,y)$ 在 $(0,0)$ 处可微，则极限 $\\lim\\limits_{\\substack{x\\to 0\\\\ y\\to 0}}\\frac{f(x,y)}{x^2+y^2}$ 存在"
+  },
+  {
+   "problem_id": "M4-020",
+   "worker": "M4",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "函数 $f(x,y)=x^2+2y^2$ 在点 $(0,1)$ 处的最大方向导数为______．"
+  },
+  {
+   "problem_id": "M5-001",
+   "worker": "M5",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "微分方程 $y\\mathrm{d}x + (x - 3y^{2})\\mathrm{d}y = 0$ 满足条件 $y \\big|_{x = 1} = 1$ 的解为 $y =$"
+  },
+  {
+   "problem_id": "M5-003",
+   "worker": "M5",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "微分方程 $y^{\\prime} + 1 = \\mathrm{e}^{- y} \\sin x$ 的通解为"
+  },
+  {
+   "problem_id": "M5-009",
+   "worker": "M5",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": " \\right]$ (B) $x(t) = \\frac{m}{k} \\left[ v(t) - v(0) \\right]$ (C) $x(t) = km[(v(0) - v(t)]$ (D) $x(t) = km[v(t) - v(0)]$"
+  },
+  {
+   "problem_id": "M5-011",
+   "worker": "M5",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "解，若 $f(x_{0}) > 0$ ，且 $f^{\\prime}(x_0) = 0$ ，则函数f(x)在点 $x _ { 0 }$ 处( ). (A) 取得极大值 (B) 取得极小值 (C) 某个邻域内单调增加 (D) 某个邻域内单调减少"
+  },
+  {
+   "problem_id": "M5-013",
+   "worker": "M5",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "欧拉方程 $x^{2}\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}+4x\\frac{\\mathrm{d}y}{\\mathrm{d}x}+2y=0$ $(x>0)$ 的通解为"
+  },
+  {
+   "problem_id": "M5-014",
+   "worker": "M5",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "(仅数学一)方程 $x^{2}\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}-2y=x^{2}$ 的通解为"
+  },
+  {
+   "problem_id": "M5-015",
+   "worker": "M5",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": ")$ (A) $3x \\left( 1 + x^{2}\\right) $ (B) $-3x \\left( 1 + x^{2}\\right) $ (C) $\\frac{x}{1+x^{2}}$ (D) $-\\frac{x}{1+x^{2}}$"
+  },
+  {
+   "problem_id": "M5-017",
+   "worker": "M5",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "by = 0$ 的解在 $(-\\infty , +\\infty )$ 上有界，则（  ） (A) $a < 0, b > 0$ (B) $a > 0, b > 0$ (C) $a = 0, b > 0$ (D) $a = 0, b < 0$"
+  },
+  {
+   "problem_id": "M5-018",
+   "worker": "M5",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "微分方程 $\\frac{y\\mathrm{d}y}{1 + y^{2}} = \\frac{\\mathrm{d}x}{x(1 + x^{2})}$ 的解为"
+  },
+  {
+   "problem_id": "M5-019",
+   "worker": "M5",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "（填空题）若函数 $f(x)$ 满足方程 $f''(x)+f'(x)-2f(x)=0$ 及 $f''(x)+f(x)=2e^{x}$ ，则 $f(x)=$ ______。"
+  },
+  {
+   "problem_id": "M6-006",
+   "worker": "M6",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "（填空题）已知级数 $\\sum_{n=1}^{\\infty} \\frac{n!}{n^{n}}e^{-nx}$ 的收敛域为 $(a, +\\infty )$ ，则 $a =$ ______．"
+  },
+  {
+   "problem_id": "M6-007",
+   "worker": "M6",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "1}^{\\infty} \\left( \\frac{3+(-1)^{n}}{4}\\right) ^{n} x^{2n}$ 的收敛域是（　　）A. $[-2, 2]$ B. $[-1, 1]$ C. $(-2, 2)$ D. $(-1, 1)$"
+  },
+  {
+   "problem_id": "M6-008",
+   "worker": "M6",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "，则 $x = \\sqrt{3}$ 与 $x = 3$ 对于幂级数 $\\sum_{n=1}^{\\infty } na_{n}(x - 1)^{n}$ 的 A. 收敛点，收敛点 B. 收敛点，发散点 C. 发散点，收敛点 D. 发散点，发散点"
+  },
+  {
+   "problem_id": "M6-009",
+   "worker": "M6",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": " $\\sum_{n=0}^{\\infty} a_{n}(x + 2)^{n}$ 在 $x = 0$ 处收敛，在 $x = -4$ 处发散，则幂级数 $\\sum_{n=0}^{\\infty} a_{n}(x - 3)^{n}$ 的收敛域为（）"
+  },
+  {
+   "problem_id": "M6-010",
+   "worker": "M6",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": ", 2, \\cdots  )$ 无界，则幂级数 $\\sum _{n=1}^{\\infty } a_{n}(x - 1)^{n}$ 的收敛域为（）。A. $(-1,1]$ B. $[-1,1)$ C. $[0, 2)$ D. $(0, 2]$"
+  },
+  {
+   "problem_id": "M6-011",
+   "worker": "M6",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "\\le R$ C. $|r| \\ge R$ 时, $\\sum_{n=1}^{\\infty } a_{2n}r^{2n}$ 发散 D. $|r| \\le R$ 时, $\\sum_{n=1}^{\\infty } a_{2n}r^{2n}$ 收敛"
+  },
+  {
+   "problem_id": "M6-012",
+   "worker": "M6",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "\\frac{2n+3}{(2n+1)!} = ()$ A. $\\sin 1 + \\cos 1$ B. $2 \\sin 1 + \\cos 1$ C. $2 \\sin 1 + 2 \\cos 1$ D. $2 \\sin 1 + 3 \\cos 1$"
+  },
+  {
+   "problem_id": "M6-014",
+   "worker": "M6",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": " (2 + x)$ ，则 $\\sum _{n=0}^{\\infty } n a_{2n} =$ （ ）A. $-\\frac{1}{6}$ B. $-\\frac{1}{3}$ C. $\\frac{1}{6}$ D. $\\frac{1}{3}$"
+  },
+  {
+   "problem_id": "M6-015",
+   "worker": "M6",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "{1}{\\sqrt[3]{n^{2}}} - \\tan  \\frac{1}{\\sqrt[3]{n^{2}}}\\right) $ ，则 A. ①与②均条件收敛 B. ①条件收敛，②绝对收敛 C. ①绝对收敛，②条件收敛 D. ①与②均绝对收敛"
+  },
+  {
+   "problem_id": "M6-016",
+   "worker": "M6",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "\\sum _{n=1}^{\\infty } a_{n}$ 绝对收敛”是“级数 $\\sum _{n=1}^{\\infty } b_{n}$ 绝对收敛”的（）A. 充分必要条件 B. 充分不必要条件 C. 必要不充分条件 D. 既不充分也不必要"
+  },
+  {
+   "problem_id": "M6-019",
+   "worker": "M6",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "判别级数 $\\sum_{n = 2}^{\\infty}\\frac{( - 1)^{n}}{\\sqrt{n} + (-1)^{n}}$ 的敛散性."
+  },
+  {
+   "problem_id": "M7-008",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "设 $\\boldsymbol{A}=\\begin{bmatrix}1&a&0\\\\a&1&1\\\\1&1&-1\\end{bmatrix}$，$B$ 为三阶非零矩阵，且 $AB=0$，则 $a=$"
+  },
+  {
+   "problem_id": "M7-009",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "设 $A,B$ 为三阶矩阵，且 $|A|=3,\\ |B|=2,\\ |A+B|=a$，则 $|A^{-1}+B^{-1}|=$"
+  },
+  {
+   "problem_id": "M7-010",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "matrix}1&3&3\\\\2&6&9\\\\-1&-3&3\\end{bmatrix}$，$\\boldsymbol{B}=\\begin{bmatrix}2&-1&1\\\\7&4&-1\\\\4&13&-7\\end{bmatrix}$，则矩阵 $X=$"
+  },
+  {
+   "problem_id": "M7-011",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "-BXB=BXA-AXB+E$，其中 $E$ 是三阶单位矩阵，则 $X=$（A）$(A^{2}-B^{2})^{-1}$　（B）$(A-B)^{-1}(A+B)^{-1}$　（C）$(A+B)^{-1}(A-B)$　（D）条件不足，不能确定"
+  },
+  {
+   "problem_id": "M7-013",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "设 $\\alpha,\\beta$ 是相互正交的 $n$ 维列向量，$E$ 是 $n$ 阶单位矩阵，$A=E+\\alpha\\beta^{\\mathrm{T}}$，则 $A^{-1}=$"
+  },
+  {
+   "problem_id": "M7-014",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "s,\\alpha_{s-1}$ 线性相关．（D）如果 $\\alpha_{s}$ 不能由 $\\alpha_{1},\\cdots,\\alpha_{s-1}$ 线性表出，则 $\\alpha_{1},\\cdots,\\alpha_{s}$ 线性无关．"
+  },
+  {
+   "problem_id": "M7-015",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": ")^{\\mathrm{T}},\\beta_{2}=(5,2,2)^{\\mathrm{T}},\\beta_{3}=(1,3,4)^{\\mathrm{T}}$ 是 $\\mathbf{R}^{3}$ 的两组基，那么，在这两组基下有相同坐标的向量是"
+  },
+  {
+   "problem_id": "M7-017",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "已知 $A\\sim B$，且 $\\boldsymbol{B}=\\begin{bmatrix}2&1&3\\\\1&1&0\\\\3&0&1\\end{bmatrix}$，则秩 $r(A^{2}+A-2E)=$"
+  },
+  {
+   "problem_id": "M7-021",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": " & 0 & 1 \\\\ 0 & \\cdots  & 0 & 2 \\\\ \\vdots  & \\vdots  & \\vdots  & \\vdots  \\\\ 0 & \\cdots  & 0 & n \\end{array}\\right) $ 相似。"
+  },
+  {
+   "problem_id": "M7-024",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "（填空题）设 $A = (a_{ij})$ 为3阶矩阵， $A_{ij}$ 为代数余子式，若 A 的每行元素之和均为2，且 $\\vert A\\vert  = 3$ ， 则 $A_{11} + A_{21} + A_{31} =$"
+  },
+  {
+   "problem_id": "M7-025",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "（填空题）已知矩阵A和E - A可逆，其中E为单位矩阵，若矩阵B满足 $[E - (E - A)^{-1}]B = A$ ，则 $B - A =$ ______．"
+  },
+  {
+   "problem_id": "M7-026",
+   "worker": "M7",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "nd{array}\\right) $ ， $(\\alpha ^{T}A\\beta )^{2} \\le  \\alpha ^{T}A\\alpha  \\cdot  \\beta ^{T}A\\beta $ 都成立，则 $a$ 的取值范围是______"
+  },
+  {
+   "problem_id": "M8-002",
+   "worker": "M8",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": " $P\\left\\{ \\frac{X}{Y} < 0 \\right\\}$ 为().(A $) \\frac{1}{4}$ (B $0 \\frac{1}{2}$ (C $) \\frac{1}{3}$ (D) $0 \\frac{1}{2\\pi}$"
+  },
+  {
+   "problem_id": "M8-005",
+   "worker": "M8",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "P\\{ Y = 0\\} = P\\{ Y = 1\\} = \\frac{1}{2}$ 记 $F_{z}(z)$ 为随机变量 $Z = XY$ 的分布函数，则函数 $F_{z}(z)$ 的间断点个数为( ).(A)0 (B)1 (C)2 (D)3"
+  },
+  {
+   "problem_id": "M8-006",
+   "worker": "M8",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "C为三个随机事件，且A与B相互独立，B与C相互独立，A与C互不相容，若  $P(A)=P(C)=\\frac{1}{4},P(B)=\\frac{1}{2}$ ,则在事件A,B,C至少有一个发生的条件下，三个事件A,B,C中恰有一个发生的概率为"
+  },
+  {
+   "problem_id": "M8-008",
+   "worker": "M8",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "X_{1},X_{2},\\cdots,X_{n}$ 相互独立且均服从参数为2的指数分布，则当 $n \\to \\infty$ 时， $Y_{n} = \\frac{1}{n} \\sum_{i = 1}^{n} X_{i}^{2}$ 依概率收敛于"
+  },
+  {
+   "problem_id": "M8-009",
+   "worker": "M8",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "【例1.7】设两个相互独立的事件A和B都不发生的概率为 $\\frac{1}{9}, \\dot{A}$ 发生B不发生的概率与B发生A不发生的概率相等,则P(A)= "
+  },
+  {
+   "problem_id": "M8-010",
+   "worker": "M8",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "$ ,则 $P\\{ X = Y\\}$ 等于( ).(A) $\\frac{p}{2 - p}$ (B $\\frac{1 - p}{2 - p}$ (C $\\frac { p } { 1 - p }$ (D $\\frac{2p}{1 - p}$"
+  },
+  {
+   "problem_id": "M8-015",
+   "worker": "M8",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "】设随机变量X的分布函数为 $F(x)=0.3\\Phi(x)+0.7\\Phi\\left(\\frac{x-1}{2}\\right)$ ,其中 Φ(x) 为标准正态分布函数，则 E(X) =().(A)0 (B)0.3 (C )0.7 (D)1"
+  },
+  {
+   "problem_id": "M8-016",
+   "worker": "M8",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "\\\\ \\vdots & \\vdots &  & \\vdots \\\\ X_{_{n1}} & X_{_{n2}} & \\cdots & X_{_{nn}} \\end{vmatrix}\\end{aligned} $$  的数学期望 E(Y)= "
+  },
+  {
+   "problem_id": "M8-022",
+   "worker": "M8",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "【例5.8】设随机变量 $X \\sim \\chi^{2}(200)$ ，则由中心极限定理，得 $P\\left\\{X\\leq240\\right\\}$ 近似等于.（结果用标准正态分布函数φ(x)表示)"
+  },
+  {
+   "problem_id": "M8-023",
+   "worker": "M8",
+   "excerpt_in_raw_problem": false,
+   "tail_has_no_question_marker": true,
+   "raw_problem_tail": "，则 $Cov(X, Y) =$ （  ）  - **A.** $-\\frac{1}{36}$ - **B.** $-\\frac{1}{72}$ - **C.** $\\frac{1}{72}$ - **D.** $\\frac{1}{36}$"
+  }
+ ]
+}

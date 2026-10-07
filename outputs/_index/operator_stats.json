@@ -1,0 +1,1657 @@
+{
+ "total_episodes": 279,
+ "operators_seen": 32,
+ "operators_entering_ontology": 32,
+ "operators_cross_domain": 29,
+ "unknown_episodes_excluded_from_operator_stats": {
+  "count": 41,
+  "note": "这些 Episode 的 worker 自己标了 UNKNOWN/UNEXPLAINED，但 existing_operator_matches 里仍有 is_primary_move: true 的母算子。本脚本已把它们**排除在算子统计之外**，以免污染覆盖率与 E4/E5 判定。原始数据未改动——是否清理由聚合/人工决定。",
+  "episodes": [
+   {
+    "problem_id": "C1-006",
+    "worker": "C1",
+    "domain": "数据结构",
+    "confidence": "medium",
+    "claimed_operators": [
+     "STATE_REREPRESENTATION",
+     "AUXILIARY_OBJECT",
+     "INFORMATION_PRESERVATION"
+    ],
+    "claimed_primary": [
+     "STATE_REREPRESENTATION",
+     "AUXILIARY_OBJECT"
+    ]
+   },
+   {
+    "problem_id": "C1-007",
+    "worker": "C1",
+    "domain": "数据结构",
+    "confidence": "medium",
+    "claimed_operators": [
+     "RESTRICT_SLICE",
+     "STATE_REREPRESENTATION",
+     "GLUE_LOCAL_TO_GLOBAL"
+    ],
+    "claimed_primary": [
+     "RESTRICT_SLICE",
+     "STATE_REREPRESENTATION"
+    ]
+   },
+   {
+    "problem_id": "C1-013",
+    "worker": "C1",
+    "domain": "数据结构",
+    "confidence": "medium",
+    "claimed_operators": [
+     "NORMALIZE",
+     "INVARIANT_BLOCK_DECOMPOSITION",
+     "STRUCTURAL_PROGRESS"
+    ],
+    "claimed_primary": [
+     "NORMALIZE",
+     "INVARIANT_BLOCK_DECOMPOSITION"
+    ]
+   },
+   {
+    "problem_id": "C1-014",
+    "worker": "C1",
+    "domain": "数据结构",
+    "confidence": "medium",
+    "claimed_operators": [
+     "LOW_BANDWIDTH_INTERFACE",
+     "RIGIDIFY",
+     "GLUE_LOCAL_TO_GLOBAL"
+    ],
+    "claimed_primary": [
+     "LOW_BANDWIDTH_INTERFACE",
+     "RIGIDIFY"
+    ]
+   },
+   {
+    "problem_id": "C1-015",
+    "worker": "C1",
+    "domain": "数据结构",
+    "confidence": "high",
+    "claimed_operators": [
+     "SPACE_AUGMENTATION",
+     "PROBE",
+     "INFORMATION_PRESERVATION"
+    ],
+    "claimed_primary": [
+     "SPACE_AUGMENTATION",
+     "PROBE",
+     "INFORMATION_PRESERVATION"
+    ]
+   },
+   {
+    "problem_id": "C1-016",
+    "worker": "C1",
+    "domain": "数据结构",
+    "confidence": "medium",
+    "claimed_operators": [
+     "INFORMATION_AXIS_DECOMPOSITION",
+     "CONSTRAINT_COLLISION"
+    ],
+    "claimed_primary": [
+     "INFORMATION_AXIS_DECOMPOSITION",
+     "CONSTRAINT_COLLISION"
+    ]
+   },
+   {
+    "problem_id": "C1-017",
+    "worker": "C1",
+    "domain": "数据结构",
+    "confidence": "high",
+    "claimed_operators": [
+     "LOW_BANDWIDTH_INTERFACE",
+     "AUXILIARY_OBJECT",
+     "REPAIR_SCALE_MATCHING"
+    ],
+    "claimed_primary": [
+     "LOW_BANDWIDTH_INTERFACE",
+     "AUXILIARY_OBJECT"
+    ]
+   },
+   {
+    "problem_id": "C1-019",
+    "worker": "C1",
+    "domain": "数据结构",
+    "confidence": "high",
+    "claimed_operators": [
+     "CONSTRAINT_COLLISION",
+     "BRIDGE_OBSERVABLE",
+     "GLUE_LOCAL_TO_GLOBAL"
+    ],
+    "claimed_primary": [
+     "CONSTRAINT_COLLISION",
+     "BRIDGE_OBSERVABLE"
+    ]
+   },
+   {
+    "problem_id": "C1-021",
+    "worker": "C1",
+    "domain": "数据结构",
+    "confidence": "medium",
+    "claimed_operators": [
+     "RESTRICT_SLICE",
+     "AUXILIARY_OBJECT"
+    ],
+    "claimed_primary": [
+     "RESTRICT_SLICE",
+     "AUXILIARY_OBJECT"
+    ]
+   },
+   {
+    "problem_id": "C2-011",
+    "worker": "C2",
+    "domain": "操作系统",
+    "confidence": "medium",
+    "claimed_operators": [
+     "STATE_REREPRESENTATION",
+     "AUXILIARY_OBJECT",
+     "DEPENDENCY_ORDERING"
+    ],
+    "claimed_primary": [
+     "STATE_REREPRESENTATION"
+    ]
+   },
+   {
+    "problem_id": "C2-013",
+    "worker": "C2",
+    "domain": "操作系统",
+    "confidence": "high",
+    "claimed_operators": [
+     "AUXILIARY_OBJECT",
+     "STATE_REREPRESENTATION",
+     "SPACE_AUGMENTATION"
+    ],
+    "claimed_primary": [
+     "AUXILIARY_OBJECT"
+    ]
+   },
+   {
+    "problem_id": "C2-014",
+    "worker": "C2",
+    "domain": "操作系统",
+    "confidence": "medium",
+    "claimed_operators": [
+     "STATE_REREPRESENTATION",
+     "PROBE"
+    ],
+    "claimed_primary": [
+     "STATE_REREPRESENTATION"
+    ]
+   },
+   {
+    "problem_id": "C3-021",
+    "worker": "C3",
+    "domain": "计算机组成原理",
+    "confidence": "unknown",
+    "claimed_operators": [
+     "CRITICAL_SCALE_PROBE",
+     "COUNTEREXAMPLE_PROBE"
+    ],
+    "claimed_primary": [
+     "CRITICAL_SCALE_PROBE"
+    ]
+   },
+   {
+    "problem_id": "C3-022",
+    "worker": "C3",
+    "domain": "计算机组成原理",
+    "confidence": "unknown",
+    "claimed_operators": [
+     "PROBE",
+     "SELF_IMPROVING_CLOSURE",
+     "COUNTEREXAMPLE_PROBE"
+    ],
+    "claimed_primary": [
+     "PROBE"
+    ]
+   },
+   {
+    "problem_id": "C4-017",
+    "worker": "C4",
+    "domain": "计算机网络",
+    "confidence": "high",
+    "claimed_operators": [
+     "CONSTRAINT_COLLISION",
+     "RIGIDIFY"
+    ],
+    "claimed_primary": [
+     "CONSTRAINT_COLLISION"
+    ]
+   },
+   {
+    "problem_id": "C4-023",
+    "worker": "C4",
+    "domain": "计算机网络",
+    "confidence": "medium",
+    "claimed_operators": [
+     "INFORMATION_AXIS_DECOMPOSITION",
+     "PROBE"
+    ],
+    "claimed_primary": [
+     "INFORMATION_AXIS_DECOMPOSITION"
+    ]
+   },
+   {
+    "problem_id": "C4-024",
+    "worker": "C4",
+    "domain": "计算机网络",
+    "confidence": "medium",
+    "claimed_operators": [
+     "SPACE_AUGMENTATION",
+     "CONSTRAINT_COLLISION"
+    ],
+    "claimed_primary": [
+     "SPACE_AUGMENTATION"
+    ]
+   },
+   {
+    "problem_id": "M1-005",
+    "worker": "M1",
+    "domain": "高等数学",
+    "confidence": "low",
+    "claimed_operators": [
+     "CRITICAL_SCALE_PROBE",
+     "UNIFORMIZATION"
+    ],
+    "claimed_primary": [
+     "CRITICAL_SCALE_PROBE"
+    ]
+   },
+   {
+    "problem_id": "M1-019",
+    "worker": "M1",
+    "domain": "高等数学",
+    "confidence": "high",
+    "claimed_operators": [
+     "CONSTRAINT_COLLISION",
+     "INFORMATION_AXIS_DECOMPOSITION",
+     "COUNTEREXAMPLE_PROBE"
+    ],
+    "claimed_primary": [
+     "CONSTRAINT_COLLISION"
+    ]
+   },
+   {
+    "problem_id": "M2-021",
+    "worker": "M2",
+    "domain": "高等数学",
+    "confidence": "unknown",
+    "claimed_operators": [
+     "DEFECT_FACTORIZATION",
+     "UNKNOWN"
+    ],
+    "claimed_primary": [
+     "DEFECT_FACTORIZATION"
+    ]
+   },
+   {
+    "problem_id": "M2-022",
+    "worker": "M2",
+    "domain": "高等数学",
+    "confidence": "unknown",
+    "claimed_operators": [
+     "SPACE_AUGMENTATION"
+    ],
+    "claimed_primary": []
+   },
+   {
+    "problem_id": "M3-014",
+    "worker": "M3",
+    "domain": "高等数学",
+    "confidence": "unknown",
+    "claimed_operators": [
+     "STATE_REREPRESENTATION",
+     "UNIFORMIZATION",
+     "INTERFACE_RENORMALIZATION"
+    ],
+    "claimed_primary": [
+     "STATE_REREPRESENTATION"
+    ]
+   },
+   {
+    "problem_id": "M3-018",
+    "worker": "M3",
+    "domain": "高等数学",
+    "confidence": "low",
+    "claimed_operators": [
+     "RESTRICT_SLICE",
+     "INFORMATION_AXIS_DECOMPOSITION",
+     "FREEDOM_REORGANIZATION"
+    ],
+    "claimed_primary": [
+     "RESTRICT_SLICE",
+     "INFORMATION_AXIS_DECOMPOSITION"
+    ]
+   },
+   {
+    "problem_id": "M4-011",
+    "worker": "M4",
+    "domain": "高等数学",
+    "confidence": "medium",
+    "claimed_operators": [
+     "RESTRICT_SLICE",
+     "EXACT_ELIMINATION"
+    ],
+    "claimed_primary": [
+     "RESTRICT_SLICE",
+     "EXACT_ELIMINATION"
+    ]
+   },
+   {
+    "problem_id": "M4-020",
+    "worker": "M4",
+    "domain": "高等数学",
+    "confidence": "low",
+    "claimed_operators": [
+     "STATE_REREPRESENTATION",
+     "RIGIDIFY"
+    ],
+    "claimed_primary": []
+   },
+   {
+    "problem_id": "M5-018",
+    "worker": "M5",
+    "domain": "高等数学",
+    "confidence": "unknown",
+    "claimed_operators": [
+     "RESTRICT_SLICE"
+    ],
+    "claimed_primary": []
+   },
+   {
+    "problem_id": "M5-019",
+    "worker": "M5",
+    "domain": "高等数学",
+    "confidence": "low",
+    "claimed_operators": [
+     "CONSTRAINT_COLLISION",
+     "PROBE"
+    ],
+    "claimed_primary": [
+     "PROBE"
+    ]
+   },
+   {
+    "problem_id": "M5-020",
+    "worker": "M5",
+    "domain": "高等数学",
+    "confidence": "medium",
+    "claimed_operators": [
+     "STATE_REREPRESENTATION",
+     "UNIFORMIZATION"
+    ],
+    "claimed_primary": [
+     "STATE_REREPRESENTATION"
+    ]
+   },
+   {
+    "problem_id": "M6-011",
+    "worker": "M6",
+    "domain": "高等数学",
+    "confidence": "unknown",
+    "claimed_operators": [
+     "RESTRICT_SLICE",
+     "DEPENDENCY_ORDERING"
+    ],
+    "claimed_primary": [
+     "RESTRICT_SLICE"
+    ]
+   },
+   {
+    "problem_id": "M7-005",
+    "worker": "M7",
+    "domain": "线性代数",
+    "confidence": "medium",
+    "claimed_operators": [
+     "PROBE",
+     "INVARIANT_BLOCK_DECOMPOSITION"
+    ],
+    "claimed_primary": [
+     "PROBE"
+    ]
+   },
+   {
+    "problem_id": "M7-018",
+    "worker": "M7",
+    "domain": "线性代数",
+    "confidence": "high",
+    "claimed_operators": [
+     "BRIDGE_OBSERVABLE",
+     "RESTRICT_SLICE",
+     "CERTIFICATE_PRODUCTION"
+    ],
+    "claimed_primary": [
+     "BRIDGE_OBSERVABLE",
+     "CERTIFICATE_PRODUCTION"
+    ]
+   },
+   {
+    "problem_id": "M7-022",
+    "worker": "M7",
+    "domain": "线性代数",
+    "confidence": "high",
+    "claimed_operators": [
+     "PROBE",
+     "CERTIFICATE_PRODUCTION"
+    ],
+    "claimed_primary": [
+     "CERTIFICATE_PRODUCTION"
+    ]
+   },
+   {
+    "problem_id": "M7-024",
+    "worker": "M7",
+    "domain": "线性代数",
+    "confidence": "high",
+    "claimed_operators": [
+     "BRIDGE_OBSERVABLE",
+     "STATE_REREPRESENTATION"
+    ],
+    "claimed_primary": [
+     "BRIDGE_OBSERVABLE",
+     "STATE_REREPRESENTATION"
+    ]
+   },
+   {
+    "problem_id": "M7-026",
+    "worker": "M7",
+    "domain": "线性代数",
+    "confidence": "unknown",
+    "claimed_operators": [
+     "STATE_REREPRESENTATION",
+     "INVARIANT_BLOCK_DECOMPOSITION",
+     "EXACT_ELIMINATION"
+    ],
+    "claimed_primary": [
+     "STATE_REREPRESENTATION"
+    ]
+   },
+   {
+    "problem_id": "M8-002",
+    "worker": "M8",
+    "domain": "概率论与数理统计",
+    "confidence": "high",
+    "claimed_operators": [
+     "INFORMATION_AXIS_DECOMPOSITION",
+     "RESTRICT_SLICE"
+    ],
+    "claimed_primary": [
+     "INFORMATION_AXIS_DECOMPOSITION"
+    ]
+   },
+   {
+    "problem_id": "M8-007",
+    "worker": "M8",
+    "domain": "概率论与数理统计",
+    "confidence": "high",
+    "claimed_operators": [
+     "CONSTRAINT_COLLISION",
+     "FRONTIER_NAVIGATION",
+     "STATE_REREPRESENTATION"
+    ],
+    "claimed_primary": [
+     "CONSTRAINT_COLLISION",
+     "FRONTIER_NAVIGATION"
+    ]
+   },
+   {
+    "problem_id": "M8-011",
+    "worker": "M8",
+    "domain": "概率论与数理统计",
+    "confidence": "medium",
+    "claimed_operators": [
+     "EXACT_ELIMINATION",
+     "SHARED_WORLD_EMBEDDING",
+     "NORMALIZE"
+    ],
+    "claimed_primary": [
+     "EXACT_ELIMINATION",
+     "SHARED_WORLD_EMBEDDING"
+    ]
+   },
+   {
+    "problem_id": "M8-013",
+    "worker": "M8",
+    "domain": "概率论与数理统计",
+    "confidence": "high",
+    "claimed_operators": [
+     "STATE_REREPRESENTATION",
+     "RESTRICT_SLICE",
+     "SHARED_WORLD_EMBEDDING"
+    ],
+    "claimed_primary": [
+     "STATE_REREPRESENTATION",
+     "RESTRICT_SLICE"
+    ]
+   },
+   {
+    "problem_id": "M8-014",
+    "worker": "M8",
+    "domain": "概率论与数理统计",
+    "confidence": "medium",
+    "claimed_operators": [
+     "RESTRICT_SLICE",
+     "SHARED_WORLD_EMBEDDING",
+     "GLUE_LOCAL_TO_GLOBAL"
+    ],
+    "claimed_primary": [
+     "RESTRICT_SLICE",
+     "SHARED_WORLD_EMBEDDING"
+    ]
+   },
+   {
+    "problem_id": "M8-019",
+    "worker": "M8",
+    "domain": "概率论与数理统计",
+    "confidence": "medium",
+    "claimed_operators": [
+     "RESTRICT_SLICE",
+     "GLUE_LOCAL_TO_GLOBAL",
+     "SHARED_WORLD_EMBEDDING"
+    ],
+    "claimed_primary": [
+     "RESTRICT_SLICE",
+     "GLUE_LOCAL_TO_GLOBAL"
+    ]
+   },
+   {
+    "problem_id": "M8-021",
+    "worker": "M8",
+    "domain": "概率论与数理统计",
+    "confidence": "high",
+    "claimed_operators": [
+     "CONSTRAINT_COLLISION",
+     "FRONTIER_NAVIGATION",
+     "STATE_REREPRESENTATION"
+    ],
+    "claimed_primary": [
+     "CONSTRAINT_COLLISION",
+     "FRONTIER_NAVIGATION"
+    ]
+   }
+  ]
+ },
+ "operators_cross_domain_meaningful": 28,
+ "cross_domain_caveat": "cross_domain 只表示该算子在 >=2 个领域出现过。一个覆盖率很高的万能标签会必然跨领域，因此 cross_domain 本身不构成迁移证据；只有 cross_domain_meaningful（跨领域且覆盖率 < 25%）才是。",
+ "non_operator_labels": {
+  "MISSING_SHARED_WITNESS": {
+   "count": 1,
+   "examples": [
+    "M1-014"
+   ]
+  }
+ },
+ "concentration": {
+  "top1_coverage": 0.348,
+  "top2_coverage": 0.534,
+  "top3_coverage": 0.699,
+  "overused_threshold": 0.25,
+  "overused_operators": [
+   {
+    "operator_id": "STATE_REREPRESENTATION",
+    "n_episodes": 97,
+    "coverage": 0.348,
+    "as_primary": 70,
+    "primary_share": 0.251
+   }
+  ],
+  "verdict": "WARNING: 单一算子覆盖 >= 25%%，存在万能标签风险，必须拆分或降级",
+  "ranking": [
+   {
+    "operator_id": "STATE_REREPRESENTATION",
+    "n_episodes": 97,
+    "coverage": 0.348,
+    "as_primary": 70,
+    "primary_share": 0.251
+   },
+   {
+    "operator_id": "RESTRICT_SLICE",
+    "n_episodes": 52,
+    "coverage": 0.186,
+    "as_primary": 28,
+    "primary_share": 0.1
+   },
+   {
+    "operator_id": "AUXILIARY_OBJECT",
+    "n_episodes": 46,
+    "coverage": 0.165,
+    "as_primary": 29,
+    "primary_share": 0.104
+   },
+   {
+    "operator_id": "EXACT_ELIMINATION",
+    "n_episodes": 31,
+    "coverage": 0.111,
+    "as_primary": 9,
+    "primary_share": 0.032
+   },
+   {
+    "operator_id": "BRIDGE_OBSERVABLE",
+    "n_episodes": 30,
+    "coverage": 0.108,
+    "as_primary": 13,
+    "primary_share": 0.047
+   },
+   {
+    "operator_id": "CRITICAL_SCALE_PROBE",
+    "n_episodes": 29,
+    "coverage": 0.104,
+    "as_primary": 13,
+    "primary_share": 0.047
+   },
+   {
+    "operator_id": "DEPENDENCY_ORDERING",
+    "n_episodes": 27,
+    "coverage": 0.097,
+    "as_primary": 16,
+    "primary_share": 0.057
+   },
+   {
+    "operator_id": "INFORMATION_AXIS_DECOMPOSITION",
+    "n_episodes": 26,
+    "coverage": 0.093,
+    "as_primary": 17,
+    "primary_share": 0.061
+   },
+   {
+    "operator_id": "DEPENDENCY_REORGANIZATION",
+    "n_episodes": 22,
+    "coverage": 0.079,
+    "as_primary": 17,
+    "primary_share": 0.061
+   },
+   {
+    "operator_id": "LOW_BANDWIDTH_INTERFACE",
+    "n_episodes": 22,
+    "coverage": 0.079,
+    "as_primary": 4,
+    "primary_share": 0.014
+   },
+   {
+    "operator_id": "SPACE_AUGMENTATION",
+    "n_episodes": 21,
+    "coverage": 0.075,
+    "as_primary": 16,
+    "primary_share": 0.057
+   },
+   {
+    "operator_id": "CONSTRAINT_COLLISION",
+    "n_episodes": 18,
+    "coverage": 0.065,
+    "as_primary": 9,
+    "primary_share": 0.032
+   },
+   {
+    "operator_id": "GLUE_LOCAL_TO_GLOBAL",
+    "n_episodes": 18,
+    "coverage": 0.065,
+    "as_primary": 9,
+    "primary_share": 0.032
+   },
+   {
+    "operator_id": "COUNTEREXAMPLE_PROBE",
+    "n_episodes": 17,
+    "coverage": 0.061,
+    "as_primary": 9,
+    "primary_share": 0.032
+   },
+   {
+    "operator_id": "INVARIANT_BLOCK_DECOMPOSITION",
+    "n_episodes": 16,
+    "coverage": 0.057,
+    "as_primary": 9,
+    "primary_share": 0.032
+   },
+   {
+    "operator_id": "CERTIFICATE_PRODUCTION",
+    "n_episodes": 14,
+    "coverage": 0.05,
+    "as_primary": 3,
+    "primary_share": 0.011
+   },
+   {
+    "operator_id": "NORMALIZE",
+    "n_episodes": 14,
+    "coverage": 0.05,
+    "as_primary": 5,
+    "primary_share": 0.018
+   },
+   {
+    "operator_id": "INFORMATION_PRESERVATION",
+    "n_episodes": 11,
+    "coverage": 0.039,
+    "as_primary": 3,
+    "primary_share": 0.011
+   },
+   {
+    "operator_id": "QUOTIENT_KERNEL",
+    "n_episodes": 11,
+    "coverage": 0.039,
+    "as_primary": 9,
+    "primary_share": 0.032
+   },
+   {
+    "operator_id": "RIGIDIFY",
+    "n_episodes": 10,
+    "coverage": 0.036,
+    "as_primary": 4,
+    "primary_share": 0.014
+   },
+   {
+    "operator_id": "DEFECT_FACTORIZATION",
+    "n_episodes": 8,
+    "coverage": 0.029,
+    "as_primary": 6,
+    "primary_share": 0.022
+   },
+   {
+    "operator_id": "PROBE",
+    "n_episodes": 8,
+    "coverage": 0.029,
+    "as_primary": 5,
+    "primary_share": 0.018
+   },
+   {
+    "operator_id": "SELF_IMPROVING_CLOSURE",
+    "n_episodes": 8,
+    "coverage": 0.029,
+    "as_primary": 2,
+    "primary_share": 0.007
+   },
+   {
+    "operator_id": "UNIFORMIZATION",
+    "n_episodes": 8,
+    "coverage": 0.029,
+    "as_primary": 5,
+    "primary_share": 0.018
+   },
+   {
+    "operator_id": "INTERFACE_RENORMALIZATION",
+    "n_episodes": 7,
+    "coverage": 0.025,
+    "as_primary": 3,
+    "primary_share": 0.011
+   },
+   {
+    "operator_id": "DEFECT_CENTERING",
+    "n_episodes": 4,
+    "coverage": 0.014,
+    "as_primary": 3,
+    "primary_share": 0.011
+   },
+   {
+    "operator_id": "REPAIR_SCALE_MATCHING",
+    "n_episodes": 4,
+    "coverage": 0.014,
+    "as_primary": 0,
+    "primary_share": 0.0
+   },
+   {
+    "operator_id": "SHARED_WORLD_EMBEDDING",
+    "n_episodes": 4,
+    "coverage": 0.014,
+    "as_primary": 2,
+    "primary_share": 0.007
+   },
+   {
+    "operator_id": "ENVIRONMENT_REWEIGHTING",
+    "n_episodes": 3,
+    "coverage": 0.011,
+    "as_primary": 2,
+    "primary_share": 0.007
+   },
+   {
+    "operator_id": "FRONTIER_NAVIGATION",
+    "n_episodes": 3,
+    "coverage": 0.011,
+    "as_primary": 2,
+    "primary_share": 0.007
+   },
+   {
+    "operator_id": "FREEDOM_REORGANIZATION",
+    "n_episodes": 2,
+    "coverage": 0.007,
+    "as_primary": 2,
+    "primary_share": 0.007
+   },
+   {
+    "operator_id": "THICKNESS_EXTRACTION",
+    "n_episodes": 2,
+    "coverage": 0.007,
+    "as_primary": 0,
+    "primary_share": 0.0
+   }
+  ]
+ },
+ "anti_operator_concentration": {
+  "total_naive_routes": 639,
+  "distinct_failure_types": 21,
+  "top1_share": 0.23,
+  "top3_share": 0.423,
+  "distribution": [
+   {
+    "failure_type": "BAD_REPRESENTATION_LOCK_IN",
+    "count": 147,
+    "share": 0.23,
+    "examples": [
+     "C1-001",
+     "C1-002",
+     "C1-003",
+     "C1-004",
+     "C1-005"
+    ]
+   },
+   {
+    "failure_type": "PROMISING_AS_PROVED",
+    "count": 63,
+    "share": 0.099,
+    "examples": [
+     "C2-003",
+     "C2-005",
+     "C2-006",
+     "C2-007",
+     "C2-014"
+    ]
+   },
+   {
+    "failure_type": "PROXY_OBJECTIVE_DRIFT",
+    "count": 60,
+    "share": 0.094,
+    "examples": [
+     "C1-003",
+     "C1-006",
+     "C1-012",
+     "C1-013",
+     "C1-016"
+    ]
+   },
+   {
+    "failure_type": "OVER_DECOUPLING",
+    "count": 58,
+    "share": 0.091,
+    "examples": [
+     "C1-004",
+     "C1-007",
+     "C1-010",
+     "C1-018",
+     "C2-001"
+    ]
+   },
+   {
+    "failure_type": "PREMATURE_APPROXIMATION",
+    "count": 56,
+    "share": 0.088,
+    "examples": [
+     "C1-005",
+     "C1-008",
+     "C1-011",
+     "C1-013",
+     "C1-014"
+    ]
+   },
+   {
+    "failure_type": "TARGET_DRIFT",
+    "count": 49,
+    "share": 0.077,
+    "examples": [
+     "C1-011",
+     "C1-013",
+     "C1-016",
+     "C1-017",
+     "C1-019"
+    ]
+   },
+   {
+    "failure_type": "PREMATURE_INFORMATION_LOSS",
+    "count": 48,
+    "share": 0.075,
+    "examples": [
+     "C1-002",
+     "C1-003",
+     "C1-006",
+     "C1-009",
+     "C1-015"
+    ]
+   },
+   {
+    "failure_type": "RECOMPUTE_WHOLE_FOR_LOCAL_CHANGE",
+    "count": 35,
+    "share": 0.055,
+    "examples": [
+     "C1-001",
+     "C1-004",
+     "C1-007",
+     "C1-008",
+     "C1-009"
+    ]
+   },
+   {
+    "failure_type": "MISSING_SHARED_WITNESS",
+    "count": 28,
+    "share": 0.044,
+    "examples": [
+     "C1-019",
+     "C4-010",
+     "C4-016",
+     "C4-020",
+     "M1-014"
+    ]
+   },
+   {
+    "failure_type": "LOCAL_REPAIR_GLOBAL_ERROR",
+    "count": 24,
+    "share": 0.038,
+    "examples": [
+     "C1-008",
+     "C1-014",
+     "C1-015",
+     "C2-002",
+     "C2-007"
+    ]
+   },
+   {
+    "failure_type": "DEPTH_TUNNEL_VISION",
+    "count": 17,
+    "share": 0.027,
+    "examples": [
+     "C1-012",
+     "C2-005",
+     "C2-019",
+     "C2-024",
+     "C3-004"
+    ]
+   },
+   {
+    "failure_type": "SEARCH_EXHAUSTED_AS_REFUTED",
+    "count": 16,
+    "share": 0.025,
+    "examples": [
+     "C1-020",
+     "M1-019",
+     "M1-022",
+     "M2-011",
+     "M2-021"
+    ]
+   },
+   {
+    "failure_type": "DEPENDENCY_CYCLE",
+    "count": 11,
+    "share": 0.017,
+    "examples": [
+     "C1-024",
+     "C2-004",
+     "C4-012",
+     "M1-016",
+     "M2-018"
+    ]
+   },
+   {
+    "failure_type": "BRANCH_EXPLOSION",
+    "count": 8,
+    "share": 0.013,
+    "examples": [
+     "C1-005",
+     "C1-020",
+     "M5-015",
+     "M7-021",
+     "M7-025"
+    ]
+   },
+   {
+    "failure_type": "MISSING_BOUNDARY_CASE",
+    "count": 5,
+    "share": 0.008,
+    "examples": [
+     "M6-003",
+     "M6-004",
+     "M6-006",
+     "M6-009",
+     "M6-010"
+    ]
+   },
+   {
+    "failure_type": "UNRESOLVED_CONSTRAINT_CONFLICT",
+    "count": 3,
+    "share": 0.005,
+    "examples": [
+     "C3-001",
+     "C3-003",
+     "C3-010"
+    ]
+   },
+   {
+    "failure_type": "NEWTON_LEIBNIZ_BLIND_APPLICATION",
+    "count": 3,
+    "share": 0.005,
+    "examples": [
+     "M3-010",
+     "M3-010",
+     "M3-017"
+    ]
+   },
+   {
+    "failure_type": "PREMATURE_ABSOLUTE_VALUE",
+    "count": 3,
+    "share": 0.005,
+    "examples": [
+     "M3-018",
+     "M3-024",
+     "M6-016"
+    ]
+   },
+   {
+    "failure_type": "MISMATCHED_ENCODING_ORDER",
+    "count": 3,
+    "share": 0.005,
+    "examples": [
+     "M6-001",
+     "M6-003",
+     "M6-004"
+    ]
+   },
+   {
+    "failure_type": "UNJUSTIFIED_SYMMETRY_TRANSFER",
+    "count": 1,
+    "share": 0.002,
+    "examples": [
+     "M3-004"
+    ]
+   },
+   {
+    "failure_type": "DEPENDENCY_ORDERING",
+    "count": 1,
+    "share": 0.002,
+    "examples": [
+     "M5-015"
+    ]
+   }
+  ]
+ },
+ "operators": {
+  "AUXILIARY_OBJECT": {
+   "operator_id": "AUXILIARY_OBJECT",
+   "n_episodes": 46,
+   "n_domains": 7,
+   "n_distinct_sections": 45,
+   "coverage": 0.165,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "概率论与数理统计",
+    "线性代数",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 29,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "BRIDGE_OBSERVABLE": {
+   "operator_id": "BRIDGE_OBSERVABLE",
+   "n_episodes": 30,
+   "n_domains": 7,
+   "n_distinct_sections": 29,
+   "coverage": 0.108,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "概率论与数理统计",
+    "线性代数",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 13,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "CERTIFICATE_PRODUCTION": {
+   "operator_id": "CERTIFICATE_PRODUCTION",
+   "n_episodes": 14,
+   "n_domains": 4,
+   "n_distinct_sections": 14,
+   "coverage": 0.05,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "线性代数",
+    "高等数学"
+   ],
+   "n_primary_move": 3,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "CONSTRAINT_COLLISION": {
+   "operator_id": "CONSTRAINT_COLLISION",
+   "n_episodes": 18,
+   "n_domains": 5,
+   "n_distinct_sections": 18,
+   "coverage": 0.065,
+   "domains": [
+    "操作系统",
+    "线性代数",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 9,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "COUNTEREXAMPLE_PROBE": {
+   "operator_id": "COUNTEREXAMPLE_PROBE",
+   "n_episodes": 17,
+   "n_domains": 4,
+   "n_distinct_sections": 17,
+   "coverage": 0.061,
+   "domains": [
+    "概率论与数理统计",
+    "线性代数",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 9,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "CRITICAL_SCALE_PROBE": {
+   "operator_id": "CRITICAL_SCALE_PROBE",
+   "n_episodes": 29,
+   "n_domains": 6,
+   "n_distinct_sections": 29,
+   "coverage": 0.104,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "概率论与数理统计",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 13,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "DEFECT_CENTERING": {
+   "operator_id": "DEFECT_CENTERING",
+   "n_episodes": 4,
+   "n_domains": 2,
+   "n_distinct_sections": 4,
+   "coverage": 0.014,
+   "domains": [
+    "操作系统",
+    "高等数学"
+   ],
+   "n_primary_move": 3,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "DEFECT_FACTORIZATION": {
+   "operator_id": "DEFECT_FACTORIZATION",
+   "n_episodes": 8,
+   "n_domains": 2,
+   "n_distinct_sections": 8,
+   "coverage": 0.029,
+   "domains": [
+    "线性代数",
+    "高等数学"
+   ],
+   "n_primary_move": 6,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "DEPENDENCY_ORDERING": {
+   "operator_id": "DEPENDENCY_ORDERING",
+   "n_episodes": 27,
+   "n_domains": 6,
+   "n_distinct_sections": 27,
+   "coverage": 0.097,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "概率论与数理统计",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 16,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "DEPENDENCY_REORGANIZATION": {
+   "operator_id": "DEPENDENCY_REORGANIZATION",
+   "n_episodes": 22,
+   "n_domains": 5,
+   "n_distinct_sections": 20,
+   "coverage": 0.079,
+   "domains": [
+    "数据结构",
+    "概率论与数理统计",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 17,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "ENVIRONMENT_REWEIGHTING": {
+   "operator_id": "ENVIRONMENT_REWEIGHTING",
+   "n_episodes": 3,
+   "n_domains": 2,
+   "n_distinct_sections": 3,
+   "coverage": 0.011,
+   "domains": [
+    "操作系统",
+    "计算机组成原理"
+   ],
+   "n_primary_move": 2,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "EXACT_ELIMINATION": {
+   "operator_id": "EXACT_ELIMINATION",
+   "n_episodes": 31,
+   "n_domains": 4,
+   "n_distinct_sections": 30,
+   "coverage": 0.111,
+   "domains": [
+    "概率论与数理统计",
+    "线性代数",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 9,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "FREEDOM_REORGANIZATION": {
+   "operator_id": "FREEDOM_REORGANIZATION",
+   "n_episodes": 2,
+   "n_domains": 1,
+   "n_distinct_sections": 2,
+   "coverage": 0.007,
+   "domains": [
+    "高等数学"
+   ],
+   "n_primary_move": 2,
+   "derived_evidence_level": "E4",
+   "cross_domain": false,
+   "cross_domain_meaningful": false,
+   "enters_stable_ontology": true
+  },
+  "FRONTIER_NAVIGATION": {
+   "operator_id": "FRONTIER_NAVIGATION",
+   "n_episodes": 3,
+   "n_domains": 2,
+   "n_distinct_sections": 3,
+   "coverage": 0.011,
+   "domains": [
+    "计算机组成原理",
+    "高等数学"
+   ],
+   "n_primary_move": 2,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "GLUE_LOCAL_TO_GLOBAL": {
+   "operator_id": "GLUE_LOCAL_TO_GLOBAL",
+   "n_episodes": 18,
+   "n_domains": 5,
+   "n_distinct_sections": 18,
+   "coverage": 0.065,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "概率论与数理统计",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 9,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "INFORMATION_AXIS_DECOMPOSITION": {
+   "operator_id": "INFORMATION_AXIS_DECOMPOSITION",
+   "n_episodes": 26,
+   "n_domains": 6,
+   "n_distinct_sections": 26,
+   "coverage": 0.093,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "概率论与数理统计",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 17,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "INFORMATION_PRESERVATION": {
+   "operator_id": "INFORMATION_PRESERVATION",
+   "n_episodes": 11,
+   "n_domains": 4,
+   "n_distinct_sections": 11,
+   "coverage": 0.039,
+   "domains": [
+    "数据结构",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 3,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "INTERFACE_RENORMALIZATION": {
+   "operator_id": "INTERFACE_RENORMALIZATION",
+   "n_episodes": 7,
+   "n_domains": 3,
+   "n_distinct_sections": 7,
+   "coverage": 0.025,
+   "domains": [
+    "线性代数",
+    "计算机组成原理",
+    "高等数学"
+   ],
+   "n_primary_move": 3,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "INVARIANT_BLOCK_DECOMPOSITION": {
+   "operator_id": "INVARIANT_BLOCK_DECOMPOSITION",
+   "n_episodes": 16,
+   "n_domains": 6,
+   "n_distinct_sections": 16,
+   "coverage": 0.057,
+   "domains": [
+    "数据结构",
+    "概率论与数理统计",
+    "线性代数",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 9,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "LOW_BANDWIDTH_INTERFACE": {
+   "operator_id": "LOW_BANDWIDTH_INTERFACE",
+   "n_episodes": 22,
+   "n_domains": 6,
+   "n_distinct_sections": 22,
+   "coverage": 0.079,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "概率论与数理统计",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 4,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "NORMALIZE": {
+   "operator_id": "NORMALIZE",
+   "n_episodes": 14,
+   "n_domains": 5,
+   "n_distinct_sections": 14,
+   "coverage": 0.05,
+   "domains": [
+    "数据结构",
+    "概率论与数理统计",
+    "线性代数",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 5,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "PROBE": {
+   "operator_id": "PROBE",
+   "n_episodes": 8,
+   "n_domains": 3,
+   "n_distinct_sections": 8,
+   "coverage": 0.029,
+   "domains": [
+    "概率论与数理统计",
+    "线性代数",
+    "高等数学"
+   ],
+   "n_primary_move": 5,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "QUOTIENT_KERNEL": {
+   "operator_id": "QUOTIENT_KERNEL",
+   "n_episodes": 11,
+   "n_domains": 3,
+   "n_distinct_sections": 11,
+   "coverage": 0.039,
+   "domains": [
+    "线性代数",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 9,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "REPAIR_SCALE_MATCHING": {
+   "operator_id": "REPAIR_SCALE_MATCHING",
+   "n_episodes": 4,
+   "n_domains": 3,
+   "n_distinct_sections": 4,
+   "coverage": 0.014,
+   "domains": [
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 0,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "RESTRICT_SLICE": {
+   "operator_id": "RESTRICT_SLICE",
+   "n_episodes": 52,
+   "n_domains": 6,
+   "n_distinct_sections": 50,
+   "coverage": 0.186,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "概率论与数理统计",
+    "线性代数",
+    "计算机组成原理",
+    "高等数学"
+   ],
+   "n_primary_move": 28,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "RIGIDIFY": {
+   "operator_id": "RIGIDIFY",
+   "n_episodes": 10,
+   "n_domains": 6,
+   "n_distinct_sections": 10,
+   "coverage": 0.036,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "概率论与数理统计",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 4,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "SELF_IMPROVING_CLOSURE": {
+   "operator_id": "SELF_IMPROVING_CLOSURE",
+   "n_episodes": 8,
+   "n_domains": 2,
+   "n_distinct_sections": 8,
+   "coverage": 0.029,
+   "domains": [
+    "数据结构",
+    "高等数学"
+   ],
+   "n_primary_move": 2,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "SHARED_WORLD_EMBEDDING": {
+   "operator_id": "SHARED_WORLD_EMBEDDING",
+   "n_episodes": 4,
+   "n_domains": 3,
+   "n_distinct_sections": 4,
+   "coverage": 0.014,
+   "domains": [
+    "数据结构",
+    "概率论与数理统计",
+    "高等数学"
+   ],
+   "n_primary_move": 2,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "SPACE_AUGMENTATION": {
+   "operator_id": "SPACE_AUGMENTATION",
+   "n_episodes": 21,
+   "n_domains": 6,
+   "n_distinct_sections": 21,
+   "coverage": 0.075,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "概率论与数理统计",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 16,
+   "derived_evidence_level": "E5",
+   "cross_domain": true,
+   "cross_domain_meaningful": true,
+   "enters_stable_ontology": true
+  },
+  "STATE_REREPRESENTATION": {
+   "operator_id": "STATE_REREPRESENTATION",
+   "n_episodes": 97,
+   "n_domains": 7,
+   "n_distinct_sections": 94,
+   "coverage": 0.348,
+   "domains": [
+    "操作系统",
+    "数据结构",
+    "概率论与数理统计",
+    "线性代数",
+    "计算机组成原理",
+    "计算机网络",
+    "高等数学"
+   ],
+   "n_primary_move": 70,
+   "derived_evidence_level": "E4",
+   "cross_domain": true,
+   "cross_domain_meaningful": false,
+   "enters_stable_ontology": true
+  },
+  "THICKNESS_EXTRACTION": {
+   "operator_id": "THICKNESS_EXTRACTION",
+   "n_episodes": 2,
+   "n_domains": 1,
+   "n_distinct_sections": 2,
+   "coverage": 0.007,
+   "domains": [
+    "高等数学"
+   ],
+   "n_primary_move": 0,
+   "derived_evidence_level": "E4",
+   "cross_domain": false,
+   "cross_domain_meaningful": false,
+   "enters_stable_ontology": true
+  },
+  "UNIFORMIZATION": {
+   "operator_id": "UNIFORMIZATION",
+   "n_episodes": 8,
+   "n_domains": 1,
+   "n_distinct_sections": 8,
+   "coverage": 0.029,
+   "domains": [
+    "高等数学"
+   ],
+   "n_primary_move": 5,
+   "derived_evidence_level": "E4",
+   "cross_domain": false,
+   "cross_domain_meaningful": false,
+   "enters_stable_ontology": true
+  }
+ }
+}

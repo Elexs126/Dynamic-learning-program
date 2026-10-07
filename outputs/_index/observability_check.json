@@ -1,0 +1,2159 @@
+{
+ "total_triggers": 1019,
+ "verdicts": {
+  "NO_SYMBOLS": 620,
+  "OK": 201,
+  "SYMBOL_MISSING": 198
+ },
+ "by_worker": {
+  "C1": {
+   "NO_SYMBOLS": 85,
+   "OK": 11,
+   "SYMBOL_MISSING": 9
+  },
+  "C2": {
+   "SYMBOL_MISSING": 12,
+   "NO_SYMBOLS": 86,
+   "OK": 5
+  },
+  "C3": {
+   "NO_SYMBOLS": 55,
+   "OK": 17,
+   "SYMBOL_MISSING": 4
+  },
+  "C4": {
+   "NO_SYMBOLS": 56,
+   "OK": 9,
+   "SYMBOL_MISSING": 7
+  },
+  "M1": {
+   "OK": 30,
+   "NO_SYMBOLS": 27,
+   "SYMBOL_MISSING": 13
+  },
+  "M2": {
+   "OK": 16,
+   "NO_SYMBOLS": 55,
+   "SYMBOL_MISSING": 11
+  },
+  "M3": {
+   "OK": 33,
+   "NO_SYMBOLS": 54,
+   "SYMBOL_MISSING": 14
+  },
+  "M4": {
+   "NO_SYMBOLS": 43,
+   "SYMBOL_MISSING": 18,
+   "OK": 8
+  },
+  "M5": {
+   "SYMBOL_MISSING": 27,
+   "NO_SYMBOLS": 38,
+   "OK": 14
+  },
+  "M6": {
+   "SYMBOL_MISSING": 20,
+   "NO_SYMBOLS": 38,
+   "OK": 22
+  },
+  "M7": {
+   "NO_SYMBOLS": 40,
+   "OK": 19,
+   "SYMBOL_MISSING": 40
+  },
+  "M8": {
+   "OK": 17,
+   "NO_SYMBOLS": 43,
+   "SYMBOL_MISSING": 23
+  }
+ },
+ "suspects": [
+  {
+   "problem_id": "C1-003",
+   "worker": "C1",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "data"
+   ],
+   "trigger": "结点 data 域可被覆盖 → 说明结点的\"内容身份\"可以搬移，而\"存储位置身份\"不必改变"
+  },
+  {
+   "problem_id": "C1-013",
+   "worker": "C1",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "O(logn)"
+   ],
+   "trigger": "查找代价只要求树高为 O(log n)，不要求最优 → 说明平衡标准可以放宽"
+  },
+  {
+   "problem_id": "C1-013",
+   "worker": "C1",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "O(logn)"
+   ],
+   "trigger": "由性质④⑤可推出最长路径不超过最短路径的 2 倍 → 说明放宽后的不变量仍足以保证 O(log n) 的高度"
+  },
+  {
+   "problem_id": "C1-014",
+   "worker": "C1",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "log_m(n+1)"
+   ],
+   "trigger": "每个结点最多 m 棵子树 → 说明扇出 m 决定树高（h ≥ log_m(n+1)）"
+  },
+  {
+   "problem_id": "C1-015",
+   "worker": "C1",
+   "index": 4,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "ASL"
+   ],
+   "trigger": "ASL 主要依赖装填因子而不直接依赖 n 或 m → 说明效率的控制量是\"填充程度\"而非绝对规模"
+  },
+  {
+   "problem_id": "C1-017",
+   "worker": "C1",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "O(logk)"
+   ],
+   "trigger": "存在完全二叉树形的比较结构（k 个叶结点） → 说明可以用树形比较把\"选最小\"的代价降到树高 O(log k)"
+  },
+  {
+   "problem_id": "C1-021",
+   "worker": "C1",
+   "index": 4,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "O(logk)"
+   ],
+   "trigger": "替换后需要维持堆序 → 说明每次替换只需 O(log k) 的向下调整"
+  },
+  {
+   "problem_id": "C1-024",
+   "worker": "C1",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "O(n)"
+   ],
+   "trigger": "要求每个顶点仅被访问一次 → 说明需要 O(n) 的状态数组"
+  },
+  {
+   "problem_id": "C1-024",
+   "worker": "C1",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "DAG"
+   ],
+   "trigger": "对 DAG 中任意两点，若 u 是 v 的祖先则 u 的结束时间大于 v 的结束时间 → 说明按结束时间降序排列恰好把\"先决条件\"排在前面"
+  },
+  {
+   "problem_id": "C2-001",
+   "worker": "C2",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "CPU"
+   ],
+   "trigger": "事件描述里出现'获得/失去 CPU'（时间片完、被抢占、被调度）→ 指向就绪↔运行边，不是阻塞边"
+  },
+  {
+   "problem_id": "C2-003",
+   "worker": "C2",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "writer",
+    "reader"
+   ],
+   "trigger": "同一资源上存在两类访问模式（读/写）且模式间强度不同 → 典型 reader-writer 结构"
+  },
+  {
+   "problem_id": "C2-007",
+   "worker": "C2",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "TRUE",
+    "FALSE"
+   ],
+   "trigger": "退出区出现 lock=TRUE → 这是方向性错误（应为释放，即 FALSE）"
+  },
+  {
+   "problem_id": "C2-008",
+   "worker": "C2",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "signal"
+   ],
+   "trigger": "signal 中出现 'if(S.value<=0)' 而非 '<0' → 说明判断的是'释放后是否仍有人在等'"
+  },
+  {
+   "problem_id": "C2-017",
+   "worker": "C2",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "CPU"
+   ],
+   "trigger": "题面同时给出'磁盘交换区利用率极高'与'CPU 利用率极低'→ 说明瓶颈在 I/O 而非 CPU，是抖动的典型信号"
+  },
+  {
+   "problem_id": "C2-019",
+   "worker": "C2",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "inode"
+   ],
+   "trigger": "inode 中地址项个数（13）与各类地址项的分工被明确给出 → 说明这是按文件大小分段的混合结构"
+  },
+  {
+   "problem_id": "C2-022",
+   "worker": "C2",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "CPU"
+   ],
+   "trigger": "题面出现'CPU 的绝大部分时间都处于等待 I/O 设备状态的循环测试中'→ 说明瓶颈是缺少通知通路"
+  },
+  {
+   "problem_id": "C2-022",
+   "worker": "C2",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "CPU"
+   ],
+   "trigger": "出现'数据经过 CPU 中的寄存器'这一描述 → 说明下一步应建立设备到内存的直接通路"
+  },
+  {
+   "problem_id": "C2-022",
+   "worker": "C2",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "CPU"
+   ],
+   "trigger": "出现'CPU 以字（节）为单位进行干预'→ 说明下一步应提高传送单位到数据块"
+  },
+  {
+   "problem_id": "C2-022",
+   "worker": "C2",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "CPU"
+   ],
+   "trigger": "出现'CPU 需预设数据块大小、内存始址等参数'→ 说明下一步应让参数由程序动态确定（通道）"
+  },
+  {
+   "problem_id": "C2-023",
+   "worker": "C2",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "out"
+   ],
+   "trigger": "循环缓冲中出现'in 追上 out'与'out 追上 in'两种情形 → 说明需要两个指针与相应的阻塞条件"
+  },
+  {
+   "problem_id": "C2-026",
+   "worker": "C2",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "Trap"
+   ],
+   "trigger": "出现'访管指令（Trap指令）是一条在用户态下执行的指令'→ 说明它是用户可控的入口"
+  },
+  {
+   "problem_id": "C3-003",
+   "worker": "C3",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "max"
+   ],
+   "trigger": "题面同时给出\"总容量 2^n\"与\"行数 r、列数 c\"→ 提示要用 n = log2 r + log2 c 约束，并注意引脚数取 max"
+  },
+  {
+   "problem_id": "C3-012",
+   "worker": "C3",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "Tmax",
+    "Tsetup"
+   ],
+   "trigger": "题面给出 Tclk_to_q、Tmax、Tsetup 三个延迟 → 说明要求的是时钟周期下界，而不是频率的倒数计算"
+  },
+  {
+   "problem_id": "C3-020",
+   "worker": "C3",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "MEM"
+   ],
+   "trigger": "题面提到\"前一条指令在 EX 段结束时已算出结果并暂存于 EX/MEM 流水段寄存器\"→ 提示中间结果已存在，可被转发"
+  },
+  {
+   "problem_id": "C3-021",
+   "worker": "C3",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "MEM"
+   ],
+   "trigger": "题面出现\"load 指令只在 MEM 段结束时才能取到主存中的数据\"→ 提示值产生晚于使用时刻"
+  },
+  {
+   "problem_id": "C4-011",
+   "worker": "C4",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "ARP"
+   ],
+   "trigger": "出现「路由器隔离广播域」→ 说明 MAC 广播不能跨网，ARP 只能逐跳进行"
+  },
+  {
+   "problem_id": "C4-011",
+   "worker": "C4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "ARP"
+   ],
+   "trigger": "要求「跨网通信」→ 说明 ARP 解析的目标是下一跳路由器接口，而不是最终目的主机"
+  },
+  {
+   "problem_id": "C4-015",
+   "worker": "C4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "W_R",
+    "ARQ"
+   ],
+   "trigger": "给出「接收窗口大小」→ 说明 W_R 是区分三种 ARQ 协议的关键参数"
+  },
+  {
+   "problem_id": "C4-016",
+   "worker": "C4",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "SIFS",
+    "NAV",
+    "DIFS",
+    "CTS",
+    "RTS"
+   ],
+   "trigger": "出现「DIFS / SIFS / RTS / CTS / NAV」→ 说明要按时序与时长通告来协调，而不是靠检测"
+  },
+  {
+   "problem_id": "C4-017",
+   "worker": "C4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "W_R",
+    "W_T"
+   ],
+   "trigger": "要求「窗口取最大值」→ 必须同时满足 W_T + W_R ≤ 2^n，而不是直接取 2^n"
+  },
+  {
+   "problem_id": "C4-022",
+   "worker": "C4",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "cwnd"
+   ],
+   "trigger": "题面出现「计时器发生了超时」→ 说明触发的是超时处理（cwnd=1）而不是快恢复（cwnd 减半）"
+  },
+  {
+   "problem_id": "C4-022",
+   "worker": "C4",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "ssthresh"
+   ],
+   "trigger": "给出「拥塞窗口为 16KB 时超时」→ 说明 ssthresh 将被设为 8KB"
+  },
+  {
+   "problem_id": "M1-001",
+   "worker": "M1",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\sim",
+    "sim"
+   ],
+   "trigger": "两个分母分别是 $x^2$ 与 $1-\\cos x$，而 $1-\\cos x \\sim x^2/2$ → 两个极限之间只差一个已知常数倍，可以互相换算，未知量个数从 2 降到 1"
+  },
+  {
+   "problem_id": "M1-002",
+   "worker": "M1",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "to3"
+   ],
+   "trigger": "分子含 $\\sin(x-3)$ 与分母的 $(x-3)^2$ 配对 → $x\\to3$ 时分子是一阶量、分母是二阶量，比值必然爆破"
+  },
+  {
+   "problem_id": "M1-004",
+   "worker": "M1",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "cos",
+    "\\cos"
+   ],
+   "trigger": "指数差 $\\tan x-\\sin x$ 可因式分解出 $1-\\cos x$ 因子 → 三阶"
+  },
+  {
+   "problem_id": "M1-011",
+   "worker": "M1",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "sim(1+2+3)",
+    "\\sim"
+   ],
+   "trigger": "底数是三个同族指数函数的算术平均 → 一阶展开天然可分离：$u-1=[(\\mathrm{e}^x-1)+(\\mathrm{e}^{2x}-1)+(\\mathrm{e}^{3x}-1)]/3\\sim(1+2+3)x/3$"
+  },
+  {
+   "problem_id": "M1-015",
+   "worker": "M1",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "max",
+    "L^n"
+   ],
+   "trigger": "结构是「先求 n 次方和，再开 n 次根」→ 提示这是 $L^n$ 范数在 $n\\to\\infty$ 时的极限，必然收敛到 max 范数"
+  },
+  {
+   "problem_id": "M1-015",
+   "worker": "M1",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "a^n"
+   ],
+   "trigger": "所有 $a_i$ 非负 → 保证 $a^n$ 单调可比，可以用「最大项」做上下界"
+  },
+  {
+   "problem_id": "M1-015",
+   "worker": "M1",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "m^{1"
+   ],
+   "trigger": "根号内的项数 m 固定（不随 n 变）→ 提示 $m^{1/n}\\to1$，乘性因子会被开根抹平"
+  },
+  {
+   "problem_id": "M1-016",
+   "worker": "M1",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "Rightarrow",
+    "\\Rightarrow"
+   ],
+   "trigger": "cos 在 $(0,\\pi/2)$ 上严格单调递减 → 提示「$\\cos a_n<\\cos b_n\\Rightarrow a_n>b_n$」，可用来定界"
+  },
+  {
+   "problem_id": "M1-017",
+   "worker": "M1",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(x_n)"
+   ],
+   "trigger": "递推形式 $x_{n+1}=f(x_n)$ 且 f 单调递增 → 提示可以用「$x_2$ 与 $x_1$ 的大小关系」决定整个数列的单调方向"
+  },
+  {
+   "problem_id": "M1-017",
+   "worker": "M1",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(x)"
+   ],
+   "trigger": "$f(x)=2\\ln(1+x)$ 是凹函数且 $f'(1)=1$ → 提示不动点 $\\xi>1$，从而在 $\\xi$ 附近 $f'(x)<1$，具有压缩性"
+  },
+  {
+   "problem_id": "M1-018",
+   "worker": "M1",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\leqslant",
+    "x_n-a",
+    "leqslant",
+    "sqrt3",
+    "\\xi",
+    "sin",
+    "\\sin"
+   ],
+   "trigger": "cos 的差可以用中值定理写成 $|\\sin\\xi|\\cdot|x_n-a|$，而区间是 $(0,\\pi/3)$ → $\\sin\\xi\\leqslant\\sqrt3/2<1$，压缩常数出现"
+  },
+  {
+   "problem_id": "M1-019",
+   "worker": "M1",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\varepsilon",
+    "varepsilon"
+   ],
+   "trigger": "题面条件与收敛定义逐字相似，只有「界」从 $\\varepsilon$ 换成了 $1/n$ → 提示差别就在这个替换上，必须检查 $\\varepsilon$ 是否依赖 n"
+  },
+  {
+   "problem_id": "M1-019",
+   "worker": "M1",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\varepsilon",
+    "varepsilon"
+   ],
+   "trigger": "出现「存在正整数 N」这一量词 → 提示条件里有存在性，需要判断它是否足以替代「任意 $\\varepsilon>0$」的全称量词"
+  },
+  {
+   "problem_id": "M2-002",
+   "worker": "M2",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(0)"
+   ],
+   "trigger": "题面同时给出 f(1)>0 与 lim f(x)/x<0 → 一正一负 → 零点定理/介值定理可用；且该极限存在意味着 f(0)=0 是一个免费零点"
+  },
+  {
+   "problem_id": "M2-007",
+   "worker": "M2",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "F(a)"
+   ],
+   "trigger": "f(0)=0 被给出 → F(0)=0，这是差商 F(a)-F(0) 的分母端点"
+  },
+  {
+   "problem_id": "M2-007",
+   "worker": "M2",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "F(a)"
+   ],
+   "trigger": "“f 不恒等于零”这个条件本身很反常 → 它的唯一用途是保证存在一个函数值严格非零，从而 F(a)>0（平方严格大于 0）"
+  },
+  {
+   "problem_id": "M2-008",
+   "worker": "M2",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "g(b)",
+    "g(a)"
+   ],
+   "trigger": "结论右端是“f'(ξ) 乘以一个 ξ 的函数”（此处 ξ ln(b/a)）→ 柯西中值定理的形式是 (f(b)-f(a))/(g(b)-g(a))=f'(ξ)/g'(ξ)，右端天然是 f'(ξ) 除以 g'(ξ)；若 g'(x)=1/x 则"
+  },
+  {
+   "problem_id": "M2-008",
+   "worker": "M2",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "g(b)",
+    "g(x)",
+    "g(a)"
+   ],
+   "trigger": "结论里出现 ln(b/a) → 提示 g(x)=ln x，因为 g(b)-g(a)=ln b-ln a=ln(b/a)"
+  },
+  {
+   "problem_id": "M2-009",
+   "worker": "M2",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(1/2)"
+   ],
+   "trigger": "展开点应选在待判断的点 1/2 而不是端点 → 因为结论问的是 f(1/2)"
+  },
+  {
+   "problem_id": "M2-011",
+   "worker": "M2",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(x)"
+   ],
+   "trigger": "讲义明确指出：若 f^{(n)}(x)≠0（无实根），则 f(x)=0 至多有 n 个根 → 阶数换个数"
+  },
+  {
+   "problem_id": "M2-014",
+   "worker": "M2",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^0-k",
+    "e^{kx}",
+    "e^0-1"
+   ],
+   "trigger": "求值点是 x=0，而因式形如 (e^{kx}-k) → 在 x=0 处 e^0-1=0 而 e^0-k=1-k≠0（k≥2）→ 只有一个因式在求值点为零"
+  },
+  {
+   "problem_id": "M2-017",
+   "worker": "M2",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "G(x)",
+    "e^x"
+   ],
+   "trigger": "(II) 目标 f''+f'=1 形如 g'+g=0（g=f'-1）→ 见到 f'+f 型 → 乘 e^x：G(x)=e^x[f'(x)-1]，则 G'=e^x[f''+f'-1]，目标变成 G'(η)=0"
+  },
+  {
+   "problem_id": "M2-022",
+   "worker": "M2",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x_2",
+    "f_n(x)"
+   ],
+   "trigger": "讲义紧接着写“注新概念：{f_n(x)} 函数列———族函数”，并把 x_1,x_2,…,x_n 并列 → 这是把单方程提升为问题族的明确信号"
+  },
+  {
+   "problem_id": "M2-022",
+   "worker": "M2",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f_n(1)",
+    "f_n(0)"
+   ],
+   "trigger": "讲义给出的范围 0<x_n<1（由 f_n(0)<0<f_n(1)）在 n→∞ 时会退化 → 提示解族在大 n 时趋向一个端点，但讲义没有继续"
+  },
+  {
+   "problem_id": "M3-005",
+   "worker": "M3",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(g(x)"
+   ],
+   "trigger": "被积函数是复合函数 f(g(x))，且 g 在 sin 与 cos 之间 → 提示用换元把内外层对齐到同一种函数，使单调性比较可用"
+  },
+  {
+   "problem_id": "M3-009",
+   "worker": "M3",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(1)"
+   ],
+   "trigger": "f 的积分下限取 1 且上限是 x²，x=1 时上限等于下限 → 提示 f(1)=0 这个边界值可以直接读出，是分部积分的边界项"
+  },
+  {
+   "problem_id": "M3-010",
+   "worker": "M3",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "sec",
+    "tan"
+   ],
+   "trigger": "凑微分得到的原函数里含 tan x 或 sec x 这类在区间内部发散的因子 → 立刻警觉：它可能不是整个区间上的原函数"
+  },
+  {
+   "problem_id": "M3-010",
+   "worker": "M3",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "tan"
+   ],
+   "trigger": "积分区间跨越 π/2（tan 的奇点）→ 提示必须拆区间"
+  },
+  {
+   "problem_id": "M3-011",
+   "worker": "M3",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "I_{n-1}"
+   ],
+   "trigger": "被积函数是 x^n 乘 e^{-x}：x^n 求导降幂、e^{-x} 求导只差符号 → 提示分部积分会产生 I_n 与 I_{n-1} 的关系"
+  },
+  {
+   "problem_id": "M3-012",
+   "worker": "M3",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x(t)"
+   ],
+   "trigger": "x(t)=a(t-sin t) 无法初等反解 → 立刻放弃消参，转向整体换元"
+  },
+  {
+   "problem_id": "M3-012",
+   "worker": "M3",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "y(t)"
+   ],
+   "trigger": "y(t)=a(1-cos t) 在 t=0,2π 处为 0 → 提示一拱的 t 区间端点可由 y=0 定出"
+  },
+  {
+   "problem_id": "M3-013",
+   "worker": "M3",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "V_y"
+   ],
+   "trigger": "题面明确要求'绕直线 x=1'而不是绕 y 轴 → 提示不能用现成的 V_y=2π∫x|y|dx，需要把半径改成 (1-x)"
+  },
+  {
+   "problem_id": "M3-014",
+   "worker": "M3",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "V_x",
+    "V_y"
+   ],
+   "trigger": "旋转轴是 y=x 这类非坐标直线 → 提示 V_x、V_y 公式均不适用，要回到平行截面原理"
+  },
+  {
+   "problem_id": "M3-015",
+   "worker": "M3",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x^n+1"
+   ],
+   "trigger": "要估计 ∫_1^2 e^{-x^n}dx → 提示用 e^{x^n}>x^n+1 做放缩，把它换成可积的 x^{-n}"
+  },
+  {
+   "problem_id": "M3-016",
+   "worker": "M3",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(π/2)"
+   ],
+   "trigger": "f(π/2)=1≠2 → 提示可再用拉格朗日得到一个导数为负的点"
+  },
+  {
+   "problem_id": "M3-019",
+   "worker": "M3",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(t)"
+   ],
+   "trigger": "结论是严格不等式且 f 严格单调 → 提示辅助函数的导数可以用'f(x) 与 f(t) 的大小关系'来定符号，而 f(t) 可以提出积分号"
+  },
+  {
+   "problem_id": "M3-019",
+   "worker": "M3",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "F(b)"
+   ],
+   "trigger": "目标不等式的形式 (a+b)∫f<2∫xf 在 t=a 时两端都为零 → 提示辅助函数在左端点取零值，从而 F'<0 ⟹ F(b)<0"
+  },
+  {
+   "problem_id": "M3-023",
+   "worker": "M3",
+   "index": 4,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "F(b)"
+   ],
+   "trigger": "结论右边是 ∫_a^b f g 而左边上限含 ∫_a^b g → 提示把两个积分写成同一个辅助函数的两项，用 F(b)≤0 收口"
+  },
+  {
+   "problem_id": "M4-001",
+   "worker": "M4",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "rho"
+   ],
+   "trigger": "$I_1$ 分子次数(2) > 分母次数(1) → 次数差为 1，比值被 rho 压向 0，夹逼可行"
+  },
+  {
+   "problem_id": "M4-001",
+   "worker": "M4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "rho^0"
+   ],
+   "trigger": "$I_2$ 分子分母同为 2 次 → 次数差为 0，比值是 rho^0 的有界方向函数 → 必须检验方向"
+  },
+  {
+   "problem_id": "M4-002",
+   "worker": "M4",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(0,0)"
+   ],
+   "trigger": "函数值与 a 的关系是 f(0,0)=a，而连续要求 a = 二重极限 → 先把问题归约为求极限"
+  },
+  {
+   "problem_id": "M4-002",
+   "worker": "M4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^u-1"
+   ],
+   "trigger": "分子是 (1-u)^{1/3}-1，分母是 e^u-1 → 两个标准等价无穷小形态同时出现 → 定阶（1/3 与 1）即可相比"
+  },
+  {
+   "problem_id": "M4-003",
+   "worker": "M4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(0,1)"
+   ],
+   "trigger": "外层是 ln(y+·)，在 y=1 处内层自变量为 1 → f(0,1)=ln1=0，差商化简后只剩 ln(1+|x sin 1|)"
+  },
+  {
+   "problem_id": "M4-004",
+   "worker": "M4",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "rho"
+   ],
+   "trigger": "两个函数在 (0,0) 的偏导都恰为 0 → 可微判据退化为纯比值 Δz/rho 的二重极限 → 只需比阶"
+  },
+  {
+   "problem_id": "M4-005",
+   "worker": "M4",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(x,e^x)"
+   ],
+   "trigger": "同时给出 f(x,e^x) 与 f_x'(x,y)|_{y=e^x} → 前者可算出全导数，后者是链式法则中的一项 → 两者相减即得另一项"
+  },
+  {
+   "problem_id": "M4-005",
+   "worker": "M4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f_1"
+   ],
+   "trigger": "记号中同时出现 f_x' 与 f_1' 的可能 → 先分清『对第几个位置求导』与『先复合再求导』"
+  },
+  {
+   "problem_id": "M4-006",
+   "worker": "M4",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f_y"
+   ],
+   "trigger": "代换同时替换两个自变量 → g 的两个偏导都是 f_x、f_y 的线性组合 → 平方后必产生交叉项"
+  },
+  {
+   "problem_id": "M4-006",
+   "worker": "M4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f_y"
+   ],
+   "trigger": "给定约束 (f_x)^2+(f_y)^2=4 恰是二次型 → 可用它把一个平方项换成另一个，把二次型归一"
+  },
+  {
+   "problem_id": "M4-007",
+   "worker": "M4",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "F_z"
+   ],
+   "trigger": "点 (0,1,1) 中 y=1 → ln y = 0 → 预判 F_z' 可能退化"
+  },
+  {
+   "problem_id": "M4-007",
+   "worker": "M4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "F_z"
+   ],
+   "trigger": "F_z' 中含因子 x → 在 x=0 处该因子归零 → 进一步预判 F_z'(0,1,1)=0"
+  },
+  {
+   "problem_id": "M4-012",
+   "worker": "M4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "a^2+b"
+   ],
+   "trigger": "积分约束 ∫|x|dx 在 a<=0<=b 时可拆成两段绝对值 → 能显式算出 a^2+b^2=1"
+  },
+  {
+   "problem_id": "M4-013",
+   "worker": "M4",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "g(v,u)"
+   ],
+   "trigger": "区域 D 的表达式在 u↔v 下不变 → 存在轮换对称性 → 积分值等于换成 g(v,u) 后的积分值"
+  },
+  {
+   "problem_id": "M4-013",
+   "worker": "M4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "g(v,u)",
+    "g(u,v)"
+   ],
+   "trigger": "g(u,v)+g(v,u) 中的分母 u+v 相同、分子 v+u 也相同 → 不对称因子恰好相消 → 和的表达式比原式简单得多"
+  },
+  {
+   "problem_id": "M4-018",
+   "worker": "M4",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "div"
+   ],
+   "trigger": "div F = 0（除奇点外） → 通量在包围奇点的任意曲面上相同 → 曲面形状可自由替换"
+  },
+  {
+   "problem_id": "M4-019",
+   "worker": "M4",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "o(√(Δx²+Δy²)",
+    "o(1阶)"
+   ],
+   "trigger": "可微定义中出现 o(√(Δx²+Δy²))，即 o(1 阶) → 与选项分母的阶数直接可比"
+  },
+  {
+   "problem_id": "M4-019",
+   "worker": "M4",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(0,0)"
+   ],
+   "trigger": "题设给了『f 在 (0,0) 连续』 → 说明极限存在时可推出 f(0,0)=0，使差商写法合法"
+  },
+  {
+   "problem_id": "M5-001",
+   "worker": "M5",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "Q(x,y)",
+    "P(x,y)"
+   ],
+   "trigger": "方程以对称形式 P(x,y)dx + Q(x,y)dy = 0 给出，dx 与 dy 并列而没有人为指定自变量 → 说明角色分配尚未固定，应当两个方向各试一次，而不是沿用默认习惯"
+  },
+  {
+   "problem_id": "M5-002",
+   "worker": "M5",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "y^n",
+    "x^2"
+   ],
+   "trigger": "交换角色后 x 以二次幂单独出现（x^2 项），且其余项都是 x 的一次式 → 这是伯努利方程 y' + p y = q y^n 的标准指纹，n = 2"
+  },
+  {
+   "problem_id": "M5-002",
+   "worker": "M5",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x^{1-n}"
+   ],
+   "trigger": "方程中只有一个变量以高次幂出现、其余结构线性 → 说明高次项可以用 z = x^{1-n} 整体消掉，而不是需要更复杂的换元"
+  },
+  {
+   "problem_id": "M5-002",
+   "worker": "M5",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "y^{1-n}"
+   ],
+   "trigger": "题设给出 y > 0 的定义域限制 → 提示换元中会出现 ln y、y^{1-n} 等需要定义域保证的表达式"
+  },
+  {
+   "problem_id": "M5-004",
+   "worker": "M5",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(ax+by+c)"
+   ],
+   "trigger": "右端只依赖 x 与 y 的一个线性组合 ax + by + c，且 a、b 均不为零 → 这是 f(ax + by + c) 型的指纹，令 u = ax + by + c 可整体压缩为一维自治方程"
+  },
+  {
+   "problem_id": "M5-005",
+   "worker": "M5",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(y')"
+   ],
+   "trigger": "方程中 x 与 y 都不出现，只出现 y' 与 y'' → 属于 y''=f(y') 型，应把 y' 整体提升为新未知函数 p"
+  },
+  {
+   "problem_id": "M5-005",
+   "worker": "M5",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "p^3"
+   ],
+   "trigger": "右端是 p 的非线性函数（同时含 p 与 p^3）→ 降阶后是一维自治方程，可用分离变量处理，不需要任何线性工具"
+  },
+  {
+   "problem_id": "M5-005",
+   "worker": "M5",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "p(1+p^2)"
+   ],
+   "trigger": "降阶后得到 dp/dx = p(1+p^2)，右端不显含 x → 自治性保证可以用 p 自身作自变量，也保证 p 的零点决定解的定性行为"
+  },
+  {
+   "problem_id": "M5-006",
+   "worker": "M5",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "p(y)",
+    "f(y,y')"
+   ],
+   "trigger": "方程中完全不出现自变量 x，只含 y、y'、y'' → 属于 y''=f(y,y') 型，应把 y 当作自变量、令 p = p(y)，用 y'' = p dp/dy"
+  },
+  {
+   "problem_id": "M5-006",
+   "worker": "M5",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "y^k"
+   ],
+   "trigger": "方程是 y、y'、y'' 的齐次组合（每项都是 y 与 y' 的幂次乘积）→ 提示分离变量后会得到幂函数关系 p = C y^k，k 由系数比决定"
+  },
+  {
+   "problem_id": "M5-008",
+   "worker": "M5",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(r/2)"
+   ],
+   "trigger": "积分区域是以原点为心、半径含 t 的圆域，且被积函数只依赖半径 → 极坐标是天然选择，可把二重积分降为 ∫_0^{2t} r f(r/2) dr"
+  },
+  {
+   "problem_id": "M5-009",
+   "worker": "M5",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x(0)"
+   ],
+   "trigger": "题设明确交代计时起点 x(0)=0 → 这是定积分常数的边界条件，必须在换自变量前记下"
+  },
+  {
+   "problem_id": "M5-012",
+   "worker": "M5",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "p(x)"
+   ],
+   "trigger": "通解公式中出现 ∫ p(x)dx 这类不定积分，而目标是要估计解的大小 → 说明应当把不定积分改写为从固定点出发的定积分（材料明确指出 x0 可按方便解题的原则取）"
+  },
+  {
+   "problem_id": "M5-012",
+   "worker": "M5",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^{-ax}"
+   ],
+   "trigger": "参数 a > 0 被专门给出 → 它是有界性机制的关键：e^{-ax} 的衰减必须强于积分项的增长"
+  },
+  {
+   "problem_id": "M5-012",
+   "worker": "M5",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^{-"
+   ],
+   "trigger": "材料在通解公式的注中给出定积分写法 y = e^{-∫_{x0}^x p}[∫_{x0}^x q e^{∫_{x0}^t p}dt + C] → 这是把'大小可估计'的表示直接摆出来"
+  },
+  {
+   "problem_id": "M5-013",
+   "worker": "M5",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^t"
+   ],
+   "trigger": "方程的系数是 x 的幂，且幂次与导数阶数一一配对（x^2 配 y''、x 配 y'、x^0 配 y）→ 这是欧拉方程的标准指纹，令 x = e^t 可把变系数化为常系数"
+  },
+  {
+   "problem_id": "M5-013",
+   "worker": "M5",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^t"
+   ],
+   "trigger": "方程中出现 x d/dx 这样的组合 → 注意 x d/dx = d/dt（当 x = e^t），即'x 乘以导数'恰好等于对 t 的导数，幂次与导数阶数配对的原因在此"
+  },
+  {
+   "problem_id": "M5-013",
+   "worker": "M5",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^t"
+   ],
+   "trigger": "题设给出 x > 0 的限制 → 保证 x = e^t 可逆（t = ln x 有定义），这是换元合法性的前提"
+  },
+  {
+   "problem_id": "M5-014",
+   "worker": "M5",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^t"
+   ],
+   "trigger": "欧拉方程的标准换元是 x = e^t，而 e^t > 0 → 题目若未限定 x 的符号，换元只覆盖 x > 0，必须对 x < 0 另作处理"
+  },
+  {
+   "problem_id": "M5-014",
+   "worker": "M5",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^{2t}"
+   ],
+   "trigger": "方程右端非零（x^2）→ 非齐次，换元后仍需设特解（本题在 t 坐标下右端为 e^{2t}，是特征单根，故特解形如 A t e^{2t}）"
+  },
+  {
+   "problem_id": "M5-016",
+   "worker": "M5",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "Q(x)",
+    "x^k",
+    "e^{ax}"
+   ],
+   "trigger": "自由项的形状是 γe^x（单一指数）→ 它规定了非齐次特解只能形如 Q(x)e^x·x^k；任何形如 e^{ax}（a ≠ 1）的项都不可能是非齐次特解，只能是齐次解"
+  },
+  {
+   "problem_id": "M5-016",
+   "worker": "M5",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "xe^x"
+   ],
+   "trigger": "已知特解是多项之和（e^{2x} + e^x + xe^x）→ 必须按项拆开判断身份，不能整体代入"
+  },
+  {
+   "problem_id": "M5-016",
+   "worker": "M5",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "xe^x"
+   ],
+   "trigger": "出现 xe^x 而自由项含 e^x → 提示共振（x 因子来自重根），但必须与其他项一致才能确认重数"
+  },
+  {
+   "problem_id": "M5-017",
+   "worker": "M5",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^{rx}"
+   ],
+   "trigger": "定义域写成 (-∞, +∞) 而不是 [0, +∞) → 双边约束，任何 e^{rx}（r ≠ 0）都必然在一个方向发散，可用条件被大幅收紧"
+  },
+  {
+   "problem_id": "M5-020",
+   "worker": "M5",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "f(x)",
+    "F(D)"
+   ],
+   "trigger": "方程是常系数线性方程，且系数构成一个关于 D 的多项式 F(D) → 可以把 d/dx 符号化为代数变量 D，把微分方程变成形式代数方程 F(D)y = f(x)"
+  },
+  {
+   "problem_id": "M5-020",
+   "worker": "M5",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x^k",
+    "sin"
+   ],
+   "trigger": "自由项形如 e^{αx}[P cos βx + Q sin βx] → 只需知道 α ± βi 是否为 F 的根以及重数，就能定出 x^k 因子，无需真正求导代入"
+  },
+  {
+   "problem_id": "M5-020",
+   "worker": "M5",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "F(D)",
+    "D^2-3D+2"
+   ],
+   "trigger": "F(D) 可因式分解（本题 D^2-3D+2 = (D-1)(D-2)）→ 因式分解后可逐因子求逆，把高阶求逆拆成低阶操作"
+  },
+  {
+   "problem_id": "M6-001",
+   "worker": "M6",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "shift"
+   ],
+   "trigger": "递推式同时出现 a_n 与 a_{n-2}，即 shift = 2 → 一阶导（shift 1）不够，二阶导恰好把指标移动 2"
+  },
+  {
+   "problem_id": "M6-001",
+   "worker": "M6",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "shift",
+    "x^{n-2}"
+   ],
+   "trigger": "递推权重是 n(n-1)（n 的二次式）→ 二阶逐项求导恰好产生 n(n-1)a_n x^{n-2}，权重阶数与 shift 完全同阶匹配 → 微分编码是自然动作"
+  },
+  {
+   "problem_id": "M6-001",
+   "worker": "M6",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "shift",
+    "weight"
+   ],
+   "trigger": "题目直接要求证明 S''(x) - S(x) = 0 → 题面已把'二阶导'这一动作暴露出来，等于公开提示 shift 与 weight 的匹配关系"
+  },
+  {
+   "problem_id": "M6-002",
+   "worker": "M6",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "shift",
+    "weight"
+   ],
+   "trigger": "递推式同时出现 n a_n 与 (n+1)a_{n+1} → shift 与 n-weight 同时存在 → 生成函数/微分编码可能自然出现"
+  },
+  {
+   "problem_id": "M6-003",
+   "worker": "M6",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "arctan"
+   ],
+   "trigger": "分母是 2n+1（奇数一次式）→ 与 arctan 展开式的分母同形 → 提示 arctan 型编码（先导后积）"
+  },
+  {
+   "problem_id": "M6-004",
+   "worker": "M6",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x^{2n-1}"
+   ],
+   "trigger": "分母是 2n-1（奇数一次式）、幂次是 x^{2n} → 提一个 x 后幂次变成 x^{2n-1}，与分母同阶 → 求导即可消掉分母"
+  },
+  {
+   "problem_id": "M6-004",
+   "worker": "M6",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x^{2n-2}"
+   ],
+   "trigger": "求导后 (-1)^{n-1}x^{2n-2} 是公比 -x² 的等比级数 → 直接得到 1/(1+x²)"
+  },
+  {
+   "problem_id": "M6-004",
+   "worker": "M6",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "arctan"
+   ],
+   "trigger": "1/(1+x²) 是 arctan 的导函数 → 逆动作（积分）把和函数还原"
+  },
+  {
+   "problem_id": "M6-005",
+   "worker": "M6",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^{-x}"
+   ],
+   "trigger": "e^{-nx}=(e^{-x})^n → 这是指数级数而非幂级数，没有'收敛半径'这一概念 → 必须直接对 x 分类"
+  },
+  {
+   "problem_id": "M6-006",
+   "worker": "M6",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^{-1-x}",
+    "e^{-x}"
+   ],
+   "trigger": "通项含 e^{-nx}=(e^{-x})^n 与 n!/n^n → 是函数项级数（非幂级数），比值法给出 ρ=e^{-1-x}"
+  },
+  {
+   "problem_id": "M6-006",
+   "worker": "M6",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "u_{n+1}",
+    "u_n"
+   ],
+   "trigger": "在 x=-1 处 u_{n+1}/u_n = e/(1+1/n)^n > 1（因为 (1+1/n)^n 单调增且 <e）→ 无需取极限就能判定通项不趋零"
+  },
+  {
+   "problem_id": "M6-007",
+   "worker": "M6",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "limsup"
+   ],
+   "trigger": "根值/比值判别法失效（极限不存在）不等于收敛半径不存在 → 应改用 limsup 或按奇偶拆成两个子级数"
+  },
+  {
+   "problem_id": "M6-008",
+   "worker": "M6",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x^n"
+   ],
+   "trigger": "'Σa_n 条件收敛'等价于'Σa_n x^n 在 x=1 处条件收敛' → 条件收敛点必是收敛域端点 → R=|1-0|=1 被恰好锁定"
+  },
+  {
+   "problem_id": "M6-013",
+   "worker": "M6",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "cos",
+    "e^y+e"
+   ],
+   "trigger": "分母含 (2n)!（偶阶乘）→ 指向 cos y 或 (e^y+e^{-y})/2 这两个基"
+  },
+  {
+   "problem_id": "M6-013",
+   "worker": "M6",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x^{2n}"
+   ],
+   "trigger": "幂次是 x^n 而非 x^{2n} → 与分母的 2n 错位 → 需要变量代换使幂次与阶乘同步"
+  },
+  {
+   "problem_id": "M6-013",
+   "worker": "M6",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "cos",
+    "e^y+e"
+   ],
+   "trigger": "系数是 (-1)^n → 在偶阶乘的两个候选基中选 cos（另一个 (e^y+e^{-y})/2 无 (-1)^n）"
+  },
+  {
+   "problem_id": "M6-018",
+   "worker": "M6",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x_1",
+    "S_n"
+   ],
+   "trigger": "级数通项是相邻两项之差 x_{n+1}-x_n → 部分和是望远镜 S_n = x_{n+1}-x_1 → 级数收敛 ⇔ 数列收敛"
+  },
+  {
+   "problem_id": "M6-018",
+   "worker": "M6",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x_2-x"
+   ],
+   "trigger": "压缩给出 |x_{n+1}-x_n| < (1/2)|x_n-x_{n-1}| < ... < (1/2)^{n-1}|x_2-x_1| → 被几何级数控制"
+  },
+  {
+   "problem_id": "M6-019",
+   "worker": "M6",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "u_n"
+   ],
+   "trigger": "分母含 (-1)^n 且与 √n 相加 → u_n 在奇偶两条子列上分别单调递减，但整体不单调"
+  },
+  {
+   "problem_id": "M6-020",
+   "worker": "M6",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "cos"
+   ],
+   "trigger": "展开式中含 cos nx，取 x=0 使 cos nx≡1 → 展开式退化为一个纯数项级数等式"
+  },
+  {
+   "problem_id": "M7-002",
+   "worker": "M7",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "X(\\cdot)"
+   ],
+   "trigger": "$X$ 的左右两侧分别出现 $A$ 与 $B$，四项的系数模式是 $++,-+,+-,--$ 型交错 → 提示这是某个双侧乘积 $(\\cdot)X(\\cdot)$ 展开后的四项"
+  },
+  {
+   "problem_id": "M7-002",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "X(\\cdot)"
+   ],
+   "trigger": "右端是单位矩阵 $E$ 而不是零矩阵 → 一旦化成 $(\\cdot)X(\\cdot)=E$，两个因子自动可逆"
+  },
+  {
+   "problem_id": "M7-004",
+   "worker": "M7",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "kernel",
+    "\\beta",
+    "beta"
+   ],
+   "trigger": "$AB=O$ 而 $B\\neq O$ → 存在非零向量 $\\beta$ 使 $A\\beta=0$ → $A$ 的 kernel 非平凡"
+  },
+  {
+   "problem_id": "M7-005",
+   "worker": "M7",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "lambda",
+    "\\lambda"
+   ],
+   "trigger": "题面出现二重特征值（特征多项式含 $(\\lambda-1)^2$ 因子）→ 必须立刻追问该重根有几个线性无关的特征向量"
+  },
+  {
+   "problem_id": "M7-005",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "lambda",
+    "r(\\lambdaE-A)",
+    "\\lambda"
+   ],
+   "trigger": "重根 $\\lambda$ 的几何重数 $=n-r(\\lambda E-A)$，是一个可以用秩直接算出的量 → 无需真的解出特征向量"
+  },
+  {
+   "problem_id": "M7-005",
+   "worker": "M7",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\Lambda",
+    "Lambda"
+   ],
+   "trigger": "要求的结论是『可/不可对角化』这个二元事实 → 只需比较维数与重数，不需要 $P$ 或 $\\Lambda$"
+  },
+  {
+   "problem_id": "M7-006",
+   "worker": "M7",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "p(A)"
+   ],
+   "trigger": "条件是关于矩阵的多项式方程 $p(A)=O$，结论是关于特征值 $\\lambda$ 的取值 → 需要一条从矩阵多项式到标量多项式的通道"
+  },
+  {
+   "problem_id": "M7-006",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "A^k"
+   ],
+   "trigger": "$A\\alpha=\\lambda\\alpha$ 反复作用会把 $A^k\\alpha$ 换成 $\\lambda^k\\alpha$ → 特征向量是这条通道的载体"
+  },
+  {
+   "problem_id": "M7-006",
+   "worker": "M7",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "neq0"
+   ],
+   "trigger": "右端是零矩阵而不是零标量 → 只能得到 $p(\\lambda)\\alpha=0$，必须再借助 $\\alpha\\neq0$ 才能推出 $p(\\lambda)=0$"
+  },
+  {
+   "problem_id": "M7-007",
+   "worker": "M7",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "A^{-1}"
+   ],
+   "trigger": "目标矩阵 $A^{*}$ 与 $A$ 的关系是 $A^{*}=|A|A^{-1}$（乘积关系，不是多项式也不是相似）→ 提示需要用『用 $A$ 做变量替换』把 $A^{-1}$ 消掉"
+  },
+  {
+   "problem_id": "M7-007",
+   "worker": "M7",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\forall",
+    "neq0",
+    "forall"
+   ],
+   "trigger": "结论是『$A^{*}$ 正定』，而正定的定义是 $\\forall x\\neq0: x^{\\mathrm{T}}A^{*}x>0$ → 只要把二次型 $x^{\\mathrm{T}}A^{*}x$ 变成 $|A|\\,y^{\\mathrm{T}}"
+  },
+  {
+   "problem_id": "M7-008",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "Leftrightarrow",
+    "\\Leftrightarrow"
+   ],
+   "trigger": "$A$ 是方阵 → 非零解存在 $\\Leftrightarrow |A|=0$（克拉默法则的逆否）"
+  },
+  {
+   "problem_id": "M7-009",
+   "worker": "M7",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "neq0"
+   ],
+   "trigger": "$A,B$ 都可逆（$|A|,|B|\\neq0$）→ 允许自由地左右乘逆矩阵"
+  },
+  {
+   "problem_id": "M7-010",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\mid",
+    "mid"
+   ],
+   "trigger": "$B$ 是三列而非一列，且三个列方程共享同一个 $A$ → 消元可以一次做完（对增广矩阵 $[A\\mid B]$ 统一操作）"
+  },
+  {
+   "problem_id": "M7-010",
+   "worker": "M7",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "r(\\overline{A})",
+    "\\overline",
+    "r(A)"
+   ],
+   "trigger": "$r(A)=r(\\overline{A})$ 决定相容性 → 必须显式检查增广矩阵最后一列有没有出现矛盾行"
+  },
+  {
+   "problem_id": "M7-011",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "X(\\cdot)"
+   ],
+   "trigger": "右端是单位矩阵 $E$ 而不是零矩阵 → 一旦化成 $(\\cdot)X(\\cdot)=E$，两个因子自动可逆"
+  },
+  {
+   "problem_id": "M7-012",
+   "worker": "M7",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "geq2"
+   ],
+   "trigger": "已知 $A$ 含非零二阶子式 → $r(A)\\geq2$，直接砍掉两个分支"
+  },
+  {
+   "problem_id": "M7-012",
+   "worker": "M7",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "Leftrightarrow",
+    "\\Leftrightarrow"
+   ],
+   "trigger": "题面问的是 $a$ 而不是 $r(A)$ → 一旦定出 $r(A)$，还要用『$r(A)=2\\Leftrightarrow|A|=0$ 且存在非零二阶子式』把它翻译成关于 $a$ 的方程"
+  },
+  {
+   "problem_id": "M7-015",
+   "worker": "M7",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "kernel"
+   ],
+   "trigger": "题设给出两组**不同**的基，但要求坐标**相同** → 这是一个把差异塞进 kernel 的条件"
+  },
+  {
+   "problem_id": "M7-015",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\gamma",
+    "gamma",
+    "x_2",
+    "x_3",
+    "x_1"
+   ],
+   "trigger": "把 $\\gamma$ 的两种表示写成同一个等式后，$\\gamma$ 可以整体消掉 → 未知量只剩坐标 $(x_1,x_2,x_3)$"
+  },
+  {
+   "problem_id": "M7-015",
+   "worker": "M7",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\gamma",
+    "gamma",
+    "x_2",
+    "x_3",
+    "kernel",
+    "x_1"
+   ],
+   "trigger": "消掉 $\\gamma$ 后得到 $x_1(\\alpha_1-\\beta_1)+x_2(\\alpha_2-\\beta_2)+x_3(\\alpha_3-\\beta_3)=0$ → 系数矩阵的行是两组基的差，问题变成求它的 kernel"
+  },
+  {
+   "problem_id": "M7-016",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "Rightarrow",
+    "\\ker",
+    "\\Rightarrow",
+    "ker(B)",
+    "\\subseteq",
+    "subseteq"
+   ],
+   "trigger": "$\\ker(B)\\subseteq\\ker(AB)$ 对任意 $A$ 成立（$Bx=0\\Rightarrow ABx=0$）→ 反向包含是唯一的难点"
+  },
+  {
+   "problem_id": "M7-016",
+   "worker": "M7",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\Rightarrow",
+    "Rightarrow"
+   ],
+   "trigger": "$r(A)=n$ 且 $A$ 是 $m\\times n$ → $A$ 的列向量线性无关，即 $A$ 作为映射是单射，等价于 $Ay=0\\Rightarrow y=0$"
+  },
+  {
+   "problem_id": "M7-018",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\ker",
+    "ker",
+    "r(A)",
+    "\\dim",
+    "dim"
+   ],
+   "trigger": "题面额外给出『$\\alpha_1$ 是 $Ax=0$ 的基础解系』 → 这是在提供重数与秩的信息（$\\dim\\ker A=1$，故 $r(A)=2$）"
+  },
+  {
+   "problem_id": "M7-018",
+   "worker": "M7",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "P^{-1}",
+    "\\Lambda",
+    "Lambda"
+   ],
+   "trigger": "目标是『求二次型表达式』 → 等价于求 $A$，而 $A$ 可以由『正交特征基 $+$ 谱』唯一重构（$A=P\\Lambda P^{-1}$）"
+  },
+  {
+   "problem_id": "M7-019",
+   "worker": "M7",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "lambda_i",
+    "\\lambda"
+   ],
+   "trigger": "$A$ 正定 ⇒ $A$ 的特征值 $\\lambda_i>0$ → 取倒数仍为正，谱路线可行"
+  },
+  {
+   "problem_id": "M7-020",
+   "worker": "M7",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "x_{ij}"
+   ],
+   "trigger": "未知量是矩阵 $C$，而 $AC-CA$ 对 $C$ 是线性的 → 设 $C=(x_{ij})$ 后整个等式就是一个线性方程组"
+  },
+  {
+   "problem_id": "M7-020",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "r(\\overline{A})",
+    "\\Leftrightarrow",
+    "\\overline",
+    "Leftrightarrow"
+   ],
+   "trigger": "问题是『存在矩阵 $C$』→ 存在性 $\\Leftrightarrow$ 方程组相容 $\\Leftrightarrow r(A)=r(\\overline{A})$"
+  },
+  {
+   "problem_id": "M7-021",
+   "worker": "M7",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "A^2"
+   ],
+   "trigger": "$A$ 是全 1 矩阵 → $A^2=nA$ 且更精细地 $A$ 的秩为 1，容易验证幂等或直接算出零特征值的几何重数"
+  },
+  {
+   "problem_id": "M7-021",
+   "worker": "M7",
+   "index": 4,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "r(B)"
+   ],
+   "trigger": "$B$ 只有最后一列非零 → $r(B)=1$，零特征值的几何重数为 $n-1$，等于其代数重数"
+  },
+  {
+   "problem_id": "M7-022",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "leq2"
+   ],
+   "trigger": "$\\alpha_3=\\alpha_1+2\\alpha_2$ 是一条**显式的线性关系** → 直接给 $r(A)\\leq2$"
+  },
+  {
+   "problem_id": "M7-022",
+   "worker": "M7",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "geq2"
+   ],
+   "trigger": "$A$ 有 3 个**互异**特征值 → $A$ 可对角化，零特征值至多一个 → $r(A)\\geq2$"
+  },
+  {
+   "problem_id": "M7-023",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "Leftrightarrow",
+    "\\Leftrightarrow"
+   ],
+   "trigger": "平方和为零 $\\Leftrightarrow$ 每一项为零 → $f=0$ 等价于齐次方程组 $Cx=0$"
+  },
+  {
+   "problem_id": "M7-023",
+   "worker": "M7",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "neq2"
+   ],
+   "trigger": "规范形由 $C$ 的可逆性决定 → 必须先算 $|C|=a-2$，据此分 $a\\neq2$ 与 $a=2$ 两种情形"
+  },
+  {
+   "problem_id": "M7-023",
+   "worker": "M7",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "y_3",
+    "y_2",
+    "y_1"
+   ],
+   "trigger": "$C$ 可逆时 $y=Cx$ 就是一个（非正交的）坐标变换，直接把 $f$ 变成标准形 $y_1^2+y_2^2+y_3^2$"
+  },
+  {
+   "problem_id": "M7-024",
+   "worker": "M7",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\mathbf",
+    "mathbf"
+   ],
+   "trigger": "『每行元素之和均为 2』是一个**标量**条件，但它对每一行都成立 → 可以打包成向量等式 $A\\mathbf{1}=2\\mathbf{1}$"
+  },
+  {
+   "problem_id": "M7-024",
+   "worker": "M7",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "A_{ji}"
+   ],
+   "trigger": "目标是 $A_{11}+A_{21}+A_{31}$ → 这是 $A^{*}$ 的第 1 行元素之和（因为 $A^{*}=[A_{ji}]$，$A_{ij}$ 在第 $j$ 行第 $i$ 列）"
+  },
+  {
+   "problem_id": "M7-024",
+   "worker": "M7",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "\\mathbf",
+    "mathbf"
+   ],
+   "trigger": "$A^{*}$ 与 $A$ 通过 $A^{*}A=|A|E$ 相连 → 只要知道 $A$ 作用在 $\\mathbf{1}$ 上的结果，就能推出 $A^{*}$ 作用在 $\\mathbf{1}$ 上的结果"
+  },
+  {
+   "problem_id": "M7-024",
+   "worker": "M7",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "neq0"
+   ],
+   "trigger": "$|A|=3\\neq0$ → $A$ 可逆，$A^{*}=|A|A^{-1}$，特征向量的传递合法"
+  },
+  {
+   "problem_id": "M7-026",
+   "worker": "M7",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "Cauchy",
+    "Schwarz"
+   ],
+   "trigger": "不等式的形式是 $(\\alpha^{\\mathrm{T}}A\\beta)^2\\leq(\\alpha^{\\mathrm{T}}A\\alpha)(\\beta^{\\mathrm{T}}A\\beta)$ → 这是 Cauchy–Schwarz 对双"
+  },
+  {
+   "problem_id": "M8-002",
+   "worker": "M8",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "N(0,1)"
+   ],
+   "trigger": "边缘分布关于 0 对称（N(0,1)）→ 每个象限的概率都是 1/4，分区求和几乎不用计算"
+  },
+  {
+   "problem_id": "M8-003",
+   "worker": "M8",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "g(X,Y)"
+   ],
+   "trigger": "目标是随机变量函数 g(X,Y) 的分布，而 g 是乘积（非线性），联合密度在支撑集上是常数 → 分布函数法可用而卷积公式不占优"
+  },
+  {
+   "problem_id": "M8-004",
+   "worker": "M8",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "F(u)"
+   ],
+   "trigger": "两个变量同分布 → 乘积塌缩成幂 [F(u)]^2，无需区分变量"
+  },
+  {
+   "problem_id": "M8-008",
+   "worker": "M8",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "g(X_i)"
+   ],
+   "trigger": "统计量形如 (1/n)Σ g(X_i)，其中 g 是非线性函数 → 大数定律要作用在 g(X_i) 这个新序列上，而不是 X_i 上"
+  },
+  {
+   "problem_id": "M8-008",
+   "worker": "M8",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "g(X_i)"
+   ],
+   "trigger": "题干给出「相互独立且均服从同一分布」→ 该性质在逐项连续函数作用下保持，g(X_i) 仍独立同分布，定律可用"
+  },
+  {
+   "problem_id": "M8-008",
+   "worker": "M8",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "E(X)",
+    "E(X^2)",
+    "D(X)"
+   ],
+   "trigger": "指数分布的 E(X)=1/λ、D(X)=1/λ^2 都已知 → 新序列的期望 E(X^2)=D+[E]^2 可直接算出"
+  },
+  {
+   "problem_id": "M8-009",
+   "worker": "M8",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "P(B)"
+   ],
+   "trigger": "题面给出的都是「差事件」或「补事件的交」这类复合事件 → 需要用减法公式或独立性把它们翻译成 P(A)、P(B)、P(AB) 三种基础量"
+  },
+  {
+   "problem_id": "M8-010",
+   "worker": "M8",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "q^2",
+    "q^{2(k-1)"
+   ],
+   "trigger": "格点概率形如 p^2 q^{2(k-1)} → 等比级数，可用 1/(1-q^2) 收口"
+  },
+  {
+   "problem_id": "M8-011",
+   "worker": "M8",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "C_n"
+   ],
+   "trigger": "被求和的项含 C_n^m/n! 与两个指数底数（1/4 与 3/4 的幂、8^n）→ 组合数可与 n! 约化，两个指数底数可合并成一个新的 λ"
+  },
+  {
+   "problem_id": "M8-012",
+   "worker": "M8",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^{-t",
+    "e^{-(y-x)"
+   ],
+   "trigger": "配方后出现 e^{-(y-x)^2} 与 ∫e^{-t^2}dt=√π → 一维高斯积分可直接收口"
+  },
+  {
+   "problem_id": "M8-015",
+   "worker": "M8",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "mixture"
+   ],
+   "trigger": "随机变量的分布只以「若干分布函数的非负线性组合、系数和为 1」的形式给出 → 这是混合分布（mixture）的特征形式"
+  },
+  {
+   "problem_id": "M8-015",
+   "worker": "M8",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "N(0,1)",
+    "N(1,4)"
+   ],
+   "trigger": "两个分量都是已知的具名分布（N(0,1) 与 N(1,4)）→ 分量的期望已知（0 与 1）"
+  },
+  {
+   "problem_id": "M8-016",
+   "worker": "M8",
+   "index": 0,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "Leibniz"
+   ],
+   "trigger": "目标是行列式的期望 → 行列式有 Leibniz 展开式，把问题变成 n! 个乘积项的和"
+  },
+  {
+   "problem_id": "M8-016",
+   "worker": "M8",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "E(X_{i,σ(i)"
+   ],
+   "trigger": "所有元素独立同分布 → 每个乘积项 ∏X_{i,σ(i)} 的期望可拆成 ∏E(X_{i,σ(i)})"
+  },
+  {
+   "problem_id": "M8-016",
+   "worker": "M8",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "sgn(σ)"
+   ],
+   "trigger": "剩下的是 Σ_σ sgn(σ)（n! 个 ±1 的和）→ 当 n≥2 时成对抵消为 0"
+  },
+  {
+   "problem_id": "M8-017",
+   "worker": "M8",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "D(Y)",
+    "cov",
+    "D(X+Y)",
+    "D(X)"
+   ],
+   "trigger": "讲义方法小结列出 cov 的第二种算法 cov=(D(X+Y)-D(X)-D(Y))/2 → 与「X+Y 可换成 2-Z」正好配套"
+  },
+  {
+   "problem_id": "M8-020",
+   "worker": "M8",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "e^{-"
+   ],
+   "trigger": "N(t) 的分布已给出且在 k=0 时形式极简（e^{-λt}）→ 翻译后一步可算"
+  },
+  {
+   "problem_id": "M8-021",
+   "worker": "M8",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "max"
+   ],
+   "trigger": "估计量是 max{Xi} → 求其期望必须走次序统计量的分布 [F(x)]^n"
+  },
+  {
+   "problem_id": "M8-022",
+   "worker": "M8",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "CLT"
+   ],
+   "trigger": "参数 n=200 充分大 → CLT 的近似条件满足"
+  },
+  {
+   "problem_id": "M8-023",
+   "worker": "M8",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "E(X)",
+    "E(Y)"
+   ],
+   "trigger": "目标是一个数值（四选一）→ 只需 E(XY)、E(X)、E(Y) 三个矩，不需要完整分布"
+  },
+  {
+   "problem_id": "M8-024",
+   "worker": "M8",
+   "index": 1,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "E(X)",
+    "E(Y)",
+    "E(Z)"
+   ],
+   "trigger": "两个总体的均值相同（都是 μ）→ E(Z)=E(X)-E(Y)=0，Z 的密度不含位置参数，问题只剩一个尺度参数 σ²"
+  },
+  {
+   "problem_id": "M8-024",
+   "worker": "M8",
+   "index": 2,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "D(Z)"
+   ],
+   "trigger": "两个总体的方差成比例（σ² 与 2σ²）→ D(Z)=(1)²σ²+(-1)²·2σ²=3σ²，σ² 以一个干净的倍数出现"
+  },
+  {
+   "problem_id": "M8-024",
+   "worker": "M8",
+   "index": 3,
+   "verdict": "SYMBOL_MISSING",
+   "missing": [
+    "E(Z²)",
+    "E(Z)",
+    "D(Z)"
+   ],
+   "trigger": "第 (Ⅲ) 段要求证明无偏，而 E(Z)=0 使 E(Z²)=D(Z) → 二阶矩可直接由方差读出，无需另算"
+  }
+ ]
+}

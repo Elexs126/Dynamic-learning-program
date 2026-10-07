@@ -1,0 +1,1371 @@
+{
+ "total_episodes": 279,
+ "candidate_new_operators": 28,
+ "candidates_recommended_for_promotion": 1,
+ "promotion_threshold": 3,
+ "unknown_episodes": 38,
+ "episodes_without_operator_match": 0,
+ "candidates": [
+  {
+   "name": "CANDIDATE_CONDITIONAL_MIXTURE_EMBEDDING",
+   "occurrences": 4,
+   "domains": [
+    "概率论与数理统计"
+   ],
+   "recommend_promotion": true,
+   "instances": [
+    {
+     "problem_id": "M8-011",
+     "worker": "M8",
+     "domain": "概率论与数理统计",
+     "why_existing_fails": "DEPENDENCY_REORGANIZATION 描述的是「重排依赖顺序」，SHARED_WORLD_EMBEDDING 描述的是「把多主体嵌入同一世界」；都不能自然刻画这里的关键动作：当目标变量的分布**只在中间变量的条件下被给出**时，把目标重表示为「先按中间变量分区、再在每片上用该片的分布」，然后对分区求和——这正是混合（mixture）结构，且中间变量的支撑集分段常迫使分支讨论。",
+     "definition": "目标变量的分布只在条件变量 C 的每个取值 c 上给出；把目标重表示为按 C 的分区混合 Y=Σ 1_{C=c}·Y_c，边缘分布由对 c 求和（或积分）得到；C 的支撑集分段时需分支处理。",
+     "confidence": "medium"
+    },
+    {
+     "problem_id": "M8-013",
+     "worker": "M8",
+     "domain": "概率论与数理统计",
+     "why_existing_fails": "同 M8-011：现有 DEPENDENCY_REORGANIZATION 与 SHARED_WORLD_EMBEDDING 都不能刻画「先按分区变量切开、再在每片上用该片的分布、最后加权求和」这一混合结构。本题的特殊之处在于分区变量 Z=[X] 是由连续变量本身派生的离散量，因此该结构同时承担了「消解取整函数不连续性」的作用。",
+     "definition": "同 M8-011 的定义；本题为其派生情形：分区变量由连续变量经分段常函数导出。",
+     "confidence": "high"
+    },
+    {
+     "problem_id": "M8-014",
+     "worker": "M8",
+     "domain": "概率论与数理统计",
+     "why_existing_fails": "同 M8-011/M8-013。本题的关键是分区变量是题面显式给出的「随机开关」，且各分区的依赖结构不同——这一点现有算子都无法刻画（RESTRICT_SLICE 只描述切片动作，不描述「各片结构不同」这一后果）。",
+     "definition": "同 M8-011；本题为其显式开关情形。",
+     "confidence": "medium"
+    },
+    {
+     "problem_id": "M8-019",
+     "worker": "M8",
+     "domain": "概率论与数理统计",
+     "why_existing_fails": "同 M8-011。本题的特殊形态是：分区变量是连续变量 X，而条件概率 P(B|X) 是 X 的分片常函数——「连续样本空间按常数片粗粒化」这一步现有算子未覆盖（RESTRICT_SLICE 只说切片，不说「粗粒化到常数片从而使全概率可用」）。",
+     "definition": "同 M8-011；本题为其连续分区变量 + 分片常数条件概率的情形。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_SUPPORT_BOUNDARY_ARGMAX",
+   "occurrences": 2,
+   "domains": [
+    "概率论与数理统计"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M8-007",
+     "worker": "M8",
+     "domain": "概率论与数理统计",
+     "why_existing_fails": "CONSTRAINT_COLLISION 描述的是「两个约束互相打架导致无解」，FRONTIER_NAVIGATION 描述的是「沿边界搜索」；都不精确刻画这里的关键：似然函数的**支撑集本身依赖待估参数**，使参数空间成为数据依赖的区间，从而极值必然落在由数据（min 或 max）给出的那个边界上，估计量因此是次序统计量。",
+     "definition": "当目标函数的定义域（而非目标函数本身）依赖待定参数时，驻点条件失效；最大值由参数可行域的数据依赖边界取得，估计量形如 min{Xi} 或 max{Xi}。",
+     "confidence": "high"
+    },
+    {
+     "problem_id": "M8-021",
+     "worker": "M8",
+     "domain": "概率论与数理统计",
+     "why_existing_fails": "同 M8-007。CONSTRAINT_COLLISION 与 FRONTIER_NAVIGATION 都不能刻画「似然函数的支撑集依赖待估参数，使参数空间成为数据依赖区间，极值必落在由 min/max 给出的边界上，估计量因此是次序统计量」这一完整结构。",
+     "definition": "同 M8-007 的定义。本题与 M8-007 构成同结构对偶（一个取 max、一个取 min）。",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_REVERSIBLE_STORAGE_REUSE",
+   "occurrences": 1,
+   "domains": [
+    "数据结构"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C1-006",
+     "worker": "C1",
+     "domain": "数据结构",
+     "why_existing_fails": "STATE_REREPRESENTATION 只能描述\"换一种结构表示\"，无法表达本题的核心：在\"占用空间只增不减\"的约束下，把已出队（已消费）的空间重新变成队尾方向的可写资源。SPACE_AUGMENTATION 讲的是\"增加空间\"，而这里恰恰是\"不增加空间、只复用\"。",
+     "definition": "当资源被约束为\"总量单调不减、但已消费的部分必须可再次使用\"时，把线性/单调推进的资源视图改为环状视图，并保留一个结构性空位（或标记位）使\"满/空\"这对偶状态可判定。适用判据：出现\"只增不减 + 可复用 + O(1) 操作\"三条同时成立。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_INPLACE_DIRECTION_FLIP",
+   "occurrences": 1,
+   "domains": [
+    "数据结构"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C1-007",
+     "worker": "C1",
+     "domain": "数据结构",
+     "why_existing_fails": "RESTRICT_SLICE 只覆盖\"切出后半段\"；STATE_REREPRESENTATION 暗示换了表示，但逆置并未改变数据表示，只是把访问方向翻转。现有词表中没有\"就地翻转某一侧以消除方向不匹配\"这一动作。",
+     "definition": "当目标序列的取用方向与存储结构的访问方向相反、且额外空间被限定为 O(1) 时，就地翻转其中一侧的方向，使两段方向一致，从而把\"交替取两端\"退化为一次线性归并。与\"逆序输出\"不同：翻转的对象是结构本身（持久改动），而非输出顺序。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_INVARIANT_RELAXATION",
+   "occurrences": 1,
+   "domains": [
+    "数据结构"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C1-013",
+     "worker": "C1",
+     "domain": "数据结构",
+     "why_existing_fails": "NORMALIZE / INVARIANT_BLOCK_DECOMPOSITION 描述的是\"把不变量分解或规范化\"，都属于加强或重组约束；而红黑树是主动把 AVL 的高度差不变量放宽为颜色/黑高条件，以维护成本换查找路径长度。词表中没有\"放宽不变量\"这一方向的动作。",
+     "definition": "当某个不变量过强以致维护（插入/删除后的修复）代价过高时，用一个\"仍足以保证目标复杂度、但局部可检查且修复代价更低\"的较弱不变量替代它；并允许把局部无法完成的修复任务上推给父结点（延迟处理）以摊薄成本。判据：出现\"维护动作过于频繁/代价大\"这类对不变量强度的抱怨。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_PHYSICAL_UNIT_SIZING",
+   "occurrences": 1,
+   "domains": [
+    "数据结构"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C1-014",
+     "worker": "C1",
+     "domain": "数据结构",
+     "why_existing_fails": "RIGIDIFY 只表达\"把结构收紧\"，LOW_BANDWIDTH_INTERFACE 只表达\"接口暴露的信息少\"。本题的核心是让数据结构的结点尺寸去匹配物理 I/O 单位（磁盘块），并由此反推结点关键字数的上下限；\"按物理单位反推结构参数\"在现有词表中没有对应项。",
+     "definition": "当主要代价来自某个物理单位（磁盘块、Cache 行、网络 MTU）的访问次数时，把结构的结点/块尺寸与该物理单位对齐，用物理单位反推结构的容量参数与上下限，使\"访问次数 = 结构高度\"这一等式成立，从而把性能目标化归为压高度。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_TOMBSTONE_DELETION",
+   "occurrences": 1,
+   "domains": [
+    "数据结构"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C1-015",
+     "worker": "C1",
+     "domain": "数据结构",
+     "why_existing_fails": "INFORMATION_PRESERVATION 只表达\"不要丢失信息\"，没有表达\"删除这一动作本身会破坏其他元素的可达路径\"。本题的约束来自探测链的连通性：物理删除会截断链，因此必须把删除降级为标记。",
+     "definition": "当元素的\"存在性\"与\"其他元素的定位路径\"共享同一表示（如开放定址的探测链、带探测的哈希桶、依赖邻接记录的索引）时，删除不能物理清除该位置，只能写入墓碑标记以保持路径完整；代价是空间利用率下降，需配合周期性整理。",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_TREE_REDUCTION_OF_SELECTION",
+   "occurrences": 1,
+   "domains": [
+    "数据结构"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C1-017",
+     "worker": "C1",
+     "domain": "数据结构",
+     "why_existing_fails": "LOW_BANDWIDTH_INTERFACE 描述的是\"窄接口只暴露少量信息\"，而败者树是把 k 路线性扫描改为完全二叉树上的分层归约，使单次选择的比较次数从 O(k) 降为 O(log k)；同时内部结点记录\"败者段号\"而非值，使输出后能直接定位来源。这两个要点在现有词表中都没有对应项。",
+     "definition": "当\"从 k 个候选中反复选出极值\"成为内层循环的瓶颈、且 k 本身是可调参数时，用完全二叉树（败者树/锦标赛树）组织比较，使单次选择代价为树高 O(log k)；结点中记录候选的\"来源标识\"而非值，以便消费后沿一条路径 O(log k) 恢复。目的是让\"选极值\"的代价与 k 解耦，从而使增大 k 只剩收益。",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_THRESHOLD_CONTAINER_SELECTION",
+   "occurrences": 1,
+   "domains": [
+    "数据结构"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C1-021",
+     "worker": "C1",
+     "domain": "数据结构",
+     "why_existing_fails": "RESTRICT_SLICE 只表达\"把范围限制到 k\"，AUXILIARY_OBJECT 只表达\"引入辅助结构\"。本题的关键是：把\"是否需要保留该元素\"这一判断压缩为与容器阈值的一次比较，并让阈值随扫描动态更新（大根堆堆顶）；同时\"按输出需求把全序目标降级为前 k 小\"也不是 PROXY_OBJECTIVE_DRIFT（并非追错了目标，而是算多了）。",
+     "definition": "当只需要前 k 个极值（k 远小于 n）时，维护一个大小为 k 的候选容器，使容器顶端恰好是\"当前最该被淘汰者\"（求最小 k 个用大根堆、求最大 k 个用小根堆），于是每个新元素只需与顶端比较一次即可决定去留；代价与 k 相关而与 n 仅线性相关。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_DUAL_ROLE_RESOURCE_SPLIT",
+   "occurrences": 1,
+   "domains": [
+    "操作系统"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C2-011",
+     "worker": "C2",
+     "domain": "操作系统",
+     "why_existing_fails": "INFORMATION_AXIS_DECOMPOSITION 描述的是把复合状态沿信息轴拆开，不强调'同一份物理资源在上游与下游各有一个计数视图、且两视图之和守恒'。本题的关键不在于拆轴，而在于识别出 pits 与 empty 其实是同一批坑位的两个记账口径，并用守恒关系（pits+empty=3）把它们绑定。SPACE_AUGMENTATION 只说明增加变量，不说明两个变量必须守恒耦合。",
+     "definition": "当一份有限资源同时被上游当作'还可生产多少'的额度、被下游当作'已可消费多少'的库存时，用一对互补的计数信号量分别记账，并以二者之和恒等于资源上限作为正确性证书；额度由下游归还，库存由上游交付。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_SELF_APPLICATION_RECURSION",
+   "occurrences": 1,
+   "domains": [
+    "操作系统"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C2-013",
+     "worker": "C2",
+     "domain": "操作系统",
+     "why_existing_fails": "SPACE_AUGMENTATION 只说明'增加了变量/维度'，无法表达'新加的维度就是把原手段再施加到原结构自身'这一自指特征。SELF_IMPROVING_CLOSURE 强调系统自身改进，不是结构自指。本题的关键在于识别出：索引结构自身又产生了它本来要消除的问题（连续性、全量常驻），解法是把同一手段递归施加一次。",
+     "definition": "当一个为消除问题 P 而引入的结构 S 自身又具有问题 P 时，不引入异质的新机制，而是把同一手段施加到 S 上，形成自指层级；层级数由'原问题规模 / 单层容量'的量级比决定。",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_SELF_REFERENTIAL_LOCALIZATION",
+   "occurrences": 1,
+   "domains": [
+    "操作系统"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C2-014",
+     "worker": "C2",
+     "domain": "操作系统",
+     "why_existing_fails": "所有现有标签都假定'被定位的对象'与'用于定位的机构'是分离的。本题中要被写入的页表项自身就是一个虚拟地址，必须经过页表翻译才能得到物理地址——定位工具就是被定位对象的一部分。STATE_REREPRESENTATION 只说明'换表示'，不能表达'表示机构把自己也纳入表示范围'；AUXILIARY_OBJECT 只说明'引入新实体'；SPACE_AUGMENTATION 只说明'增加维度'。三者都无法刻画'自指'这一结构，因此不硬塞。",
+     "definition": "当用于定位/翻译的机构自身也属于被定位/翻译的对象集合时，定位必须分成两步：先在机构自身的坐标里算出目标的机构内坐标，再用该机构把这一坐标翻译成另一套坐标；两步之间需要额外确认机构本身在该坐标下是否已就位（本题即'页表页是否已在内存'）。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_MECHANISM_COVERAGE_BOUNDARY",
+   "occurrences": 1,
+   "domains": [
+    "计算机组成原理"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C3-021",
+     "worker": "C3",
+     "domain": "计算机组成原理",
+     "why_existing_fails": "现有标签中没有任何一个表达\"某个已确立的机制（转发）的适用范围边界，以及该边界由两个时间尺度（值产生时刻 vs 值使用时刻）的比较唯一确定\"这一结构。CRITICAL_SCALE_PROBE 表达的是\"探尺度\"，但它不表达\"该尺度比较的结论是给一个已有机制划定边界\"；CONSTRAINT_COLLISION 表达\"两条约束打架\"，而此处并非两条约束同时满足导出矛盾，而是\"一个机制的前提在某个时间窗口内不成立\"。RESTRICT_SLICE 表达\"限制到子集\"，但这里不是主动选择限制，而是机制本身覆盖不到。因此三个最接近的标签都无法自然承载这一结构。",
+     "definition": "识别一个已确立机制 M 的适用前提 P（如转发的前提是\"值已存在于流水段寄存器中\"），并找出使 P 失效的参数区域（如\"值产生时刻晚于值使用时刻\"），从而给出 M 的精确覆盖边界；边界之外的代价（等待窗口）由该参数的差值唯一确定。",
+     "confidence": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_INDISTINGUISHABILITY_BOUND",
+   "occurrences": 1,
+   "domains": [
+    "计算机网络"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C4-017",
+     "worker": "C4",
+     "domain": "计算机网络",
+     "why_existing_fails": "现有标签描述的都是「如何算得更多/更快」或「如何消掉未知量」，没有一个描述「机制自身引入了新的不可分辨性，因此必须把参数压回可分辨范围内」。CONSTRAINT_COLLISION 只说到「两条约束打架」，没有刻画冲突的后果是「接收方无法区分两个对象」；RIGIDIFY 只说到「把柔性目标收紧为硬约束」，没有说明这个硬约束从何而来。本条的真正动作是：先识别出「序号回绕使新旧帧的序号集合可以完全重叠」这一不可分辨性，再把窗口大小压到 2^n − 1 以下以恢复可分辨性——这是一个独立的、可复用的结构动作。",
+     "definition": "识别出某个机制在参数取到边界值时会自行引入「两个不同对象无法区分」的歧义（如序号回绕后新帧与重传帧、复用 PID 后新旧进程、缺 fencing token 时的陈旧写），并把参数压回可分辨范围内，使歧义在结构上不可能发生，而不是在事后检测。",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_SUBJECT_RETARGETING",
+   "occurrences": 1,
+   "domains": [
+    "计算机网络"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C4-023",
+     "worker": "C4",
+     "domain": "计算机网络",
+     "why_existing_fails": "现有标签无一描述「把计数/度量对象从常识主语换成题目实际主语」这一动作。INFORMATION_AXIS_DECOMPOSITION 是「按信息维度拆开」；RESTRICT_SLICE 是「限制到一个子集」；TARGET_DRIFT 是 anti-operator（目标漂移，恰好相反）。而本条的关键一步是识别出「查询次数」的主语是本地域名服务器而非主机——主语一换，最小值就从 1 变成 0，整个答案随之改变。这是对象识别，不是维度拆分。",
+     "definition": "识别题目中度量/计数动作的实际主语与直觉主语不一致，并据此替换被计数或度量的对象，从而改变该量的取值范围（常见于「谁发出」「谁承担」「谁观测」这类被隐含的主语）。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_GENERATION_TAGGING",
+   "occurrences": 1,
+   "domains": [
+    "计算机网络"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "C4-024",
+     "worker": "C4",
+     "domain": "计算机网络",
+     "why_existing_fails": "本条与「窗口不能等于 2^n」同源，都是「有限命名空间 + 必须可分辨」的冲突，但现有标签都只描述「空间不够」而不描述「空间被不同世代复用」。SPACE_AUGMENTATION 是「补维度」，CONSTRAINT_COLLISION 是「约束对撞」，二者都停在「发现了冲突」，没有刻画「如何让冲突不可能发生」。真正的结构动作是：给每一次新的使用分配一个随时间推进的世代标识，使旧世代的标识自动落在新世代的有效范围之外——这是一类可复用的设计模式，值得单列。",
+     "definition": "在有限的命名空间上，为每一次新的使用分配一个随时间单调推进的世代标识（epoch / fencing token / 随机化初值），使得上一世代的残留标识自动落在当前有效范围之外，从而无需检测即可排除陈旧对象。典型实例：TCP 随机化初始序号、TIME-WAIT 等待 2MSL、分布式系统的 fencing token、滑动窗口的 W_T + W_R ≤ 2^n 约束。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_SCALE_FAMILY_TOTAL_ORDER",
+   "occurrences": 1,
+   "domains": [
+    "高等数学"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M1-005",
+     "worker": "M1",
+     "domain": "高等数学",
+     "why_existing_fails": "CRITICAL_SCALE_PROBE 只说「探测临界尺度」，用于单个对象内部找主导项；本题的动作是给三个分属不同函数族的对象排出一条与系数无关的全序，并判定「参数只影响常数、不影响层级」。现有标签没有表达「族级别的全序」和「参数无关性」这两点。",
+     "definition": "把若干对象按所属尺度族（对数幂／幂／指数／…）归并，建立与系数无关的全序链，从而把含参数的比较降维为族比较。",
+     "confidence": "low"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_QUANTIFIER_SCOPE_AUDIT",
+   "occurrences": 1,
+   "domains": [
+    "高等数学"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M1-019",
+     "worker": "M1",
+     "domain": "高等数学",
+     "why_existing_fails": "CONSTRAINT_COLLISION 描述的是约束之间撞车，不描述「定义式中量词的作用域本身就是一条隐藏约束」。本题的核心动作是审计定义式中每个量词的依赖域（ε 是否依赖 n），据此判断某个改写是否等价于加强了条件。现有标签无对应物。",
+     "definition": "面对一个与标准定义形式相近的命题时，逐量词检查其依赖域；凡把「不依赖某参数的任意量」替换为「依赖该参数的特定量」，即等价于附加了额外约束（如收敛速度），据此判定充分性/必要性。",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_MULTIPLICITY_INDEX_CODING",
+   "occurrences": 1,
+   "domains": [
+    "高等数学"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M2-021",
+     "worker": "M2",
+     "domain": "高等数学",
+     "why_existing_fails": "DEFECT_FACTORIZATION 只解释“把缺陷按重数分解出来”，无法解释“如何把一族重数直接编码成全局计数的封闭公式”；RIGIDIFY 与 DEPENDENCY_ORDERING 也不涉及局部重数与全局计数之间的映射。材料对该公式只写“可直接使用，不必证明”，因此这一步在本材料内不可解释。",
+     "definition": "把局部重数的多重集直接映射为全局计数（极值点个数、拐点个数等）的封闭公式，跳过逐点判定。",
+     "confidence": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_PARAMETRIC_FAMILY_LIFT",
+   "occurrences": 1,
+   "domains": [
+    "高等数学"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M2-022",
+     "worker": "M2",
+     "domain": "高等数学",
+     "why_existing_fails": "SPACE_AUGMENTATION 解释的是“把常数变量化”（M2-012），而这里是把单个方程提升为一族方程 {f_n=0} 并抽取一族解 {x_n}；母算子表中没有刻画“解族”这一对象的标签，且讲义只用“新概念”一句带过，未说明该提升要解决什么问题。",
+     "definition": "把带参数的问题提升为参数化的问题族，使每个参数值对应一个解对象，从而把“解一个方程”变成“研究解对参数的依赖”。",
+     "confidence": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_SYMMETRY_ANNIHILATED_APPROXIMATION",
+   "occurrences": 1,
+   "domains": [
+    "高等数学"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M3-014",
+     "worker": "M3",
+     "domain": "高等数学",
+     "why_existing_fails": "本题的动作是'用一个在一般情况下不成立的微元替换（Δu≈√2Δx）来算旋转体体积，其合法性来自构型的对称性使一阶误差整体相消'。现有母算子中没有描述'近似误差被对称性整体消灭，因而近似合法'的正面算子：NORMALIZE / UNIFORMIZATION 只描述把对象化到标准形，不涉及误差相消；PREMATURE_APPROXIMATION 是 anti-operator，只能标记'不该近似'，无法表达'此处近似是对的、且对的原因是误差相消'；STATE_REREPRESENTATION 只覆盖'换成垂直截面'这一步，覆盖不到'为何该近似合法'。",
+     "definition": "当一个微元/局部替换在一般情形下有 O(Δ) 量级的误差，但构型存在一个使误差正负成对出现的对称（如本题中切线与轴的夹角 α 与轴的倾角 β 在整段上交替相等/相消）时，误差在整体求和后相消为 0，从而使该替换合法。识别标志：源材料对该步骤只给出'由对称性，误差抵消'一类非严格论证，并自述需要经验/直觉。",
+     "confidence": "unknown"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_SOLUTION_HUNTING_BY_INSPECTION",
+   "occurrences": 1,
+   "domains": [
+    "高等数学"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M4-011",
+     "worker": "M4",
+     "domain": "高等数学",
+     "why_existing_fails": "现有标签没有一个描述『求解过程本身不可算法化、只能靠对结构形式的观察猜出解再验证』。EXACT_ELIMINATION 描述的是消元动作（确实做了），但它解释不了消元之后那一步——方程 ln z - 2/z + 2 = 0 是超越方程，没有任何标准解法，讲义只能写『观察法求解』。而这一步恰恰是本题唯一的卡点：前面的隐式求导、闭环、二阶判别都是机械流程，只有这一步需要『猜』。SEARCH_EXHAUSTED_AS_REFUTED 是反算子，描述的是失败，不是这里的成功策略。",
+     "definition": "当方程化归后得到的是超越方程（或含 ln、e、三角函数与多项式的混合式），且系数被刻意设计过时，不要启动数值求解：先检验若干个『结构上自然』的候选值（如 0、1、e、-1，以及使各项同时取到简单值的那个值），用一个候选值验证后收口。判据是：候选值让方程中每一项都退化为简单常数。讲义在此处的旁注就是『观察法求解』。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_CONTINUUM_OPTIMUM_CLOSURE",
+   "occurrences": 1,
+   "domains": [
+    "高等数学"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M4-020",
+     "worker": "M4",
+     "domain": "高等数学",
+     "why_existing_fails": "现有标签里，STATE_REREPRESENTATION 只描述了『换成内积形式』这一表示动作，RESTRICT_SLICE 描述的是切片，RIGIDIFY 描述的是加约束；没有任何一个描述『把一个连续统上的优化（单位圆上取内积最大）用一个代数恒等式（柯西-施瓦茨）一次性给出闭式最优值与最优方向』。而这个动作恰恰是本题从『无法枚举』到『一行搞定』的唯一原因：它把无穷多个候选点一次性压成一个等式，并且同时给出取到最优的自变量（方向）。",
+     "definition": "当一个优化问题的自变量集合是连续统（曲线/曲面/单位球面），且目标函数对该自变量是线性（或双线性）时，不要枚举也不要做变分：寻找一个代数恒等式把该线性泛函的极值直接表示为对偶量的范数，并同时读出取到极值的自变量。典型形态：单位球面上最大化 <a,x> ⇒ 答案 |a|，x* = a/|a|；算子范数 ⇒ 奇异值；Rayleigh 商 ⇒ 最大特征值。",
+     "confidence": "low"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_INTERSECTION_PROBE",
+   "occurrences": 1,
+   "domains": [
+    "高等数学"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M5-019",
+     "worker": "M5",
+     "domain": "高等数学",
+     "why_existing_fails": "现有 PROBE 只描述'用一个候选去试探'，不描述'在两条约束的交集上定位候选'；CONSTRAINT_COLLISION 描述约束冲突，方向相反；EXACT_ELIMINATION 描述消元，而本题（按材料做法）并未消元。缺少的是'多个约束同时作用于同一对象时，用共享结构定位交集候选'这一动作。",
+     "definition": "当同一对象被多条约束同时限定、且每条约束单独留下自由度时，不分别求解再匹配，而是先识别各约束解空间的共享结构（共享频率/共享特征子空间/共享特解），用共享结构直接定位交集的候选，再以代入检验确认。",
+     "confidence": "low"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_OPERATOR_ALGEBRAIZATION",
+   "occurrences": 1,
+   "domains": [
+    "高等数学"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M5-020",
+     "worker": "M5",
+     "domain": "高等数学",
+     "why_existing_fails": "STATE_REREPRESENTATION 只说明'换了表示'，不刻画本条最关键的结构：把一个作用在函数上的算子当作可参与代数运算的不定元，从而使'根的阶数'成为可读的结构信息。UNIFORMIZATION 只说明形式统一，不涉及'算子可代数化'这一前提。缺少的是'算子的符号化与其代数性质的使用'这一动作。",
+     "definition": "把作用于某类对象的算子形式化为一个符号（如 D = d/dx），使该符号与其系数构成的表达式满足普通代数的运算规则（因式分解、求值、泰勒展开、位移），从而把原问题中的结构信息（如零点阶数、重数）翻译为代数量，并在代数层面完成求解后再回代。",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_SPECTRAL_INVERSION",
+   "occurrences": 1,
+   "domains": [
+    "线性代数"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M7-018",
+     "worker": "M7",
+     "domain": "线性代数",
+     "why_existing_fails": "现有母算子（BRIDGE_OBSERVABLE、RESTRICT_SLICE、CERTIFICATE_PRODUCTION、RIGIDIFY）各自只能描述本题的一个片段：桥接候选谱、限制到不变子空间、产出证书。本题真正可迁移的复合动作是『由算子满足的方程与低维核信息，反演出算子本身』——这是一条**逆问题**通路：正向是『算子 → 谱与核』，本题反向走了一遍。母算子表里全是正向构造的语言，没有描述『从约束反演对象』的标签，因此用任何一个都只能覆盖局部。",
+     "definition": "给定算子 $A$ 满足的多项式型约束 $p(A)=O$（只给出谱的候选集）以及关于 $\\ker A$ / $r(A)$ 的维数信息，先由候选集与维数定出谱及重数，再由对称性/正交性补齐特征向量基，最后由谱分解重构 $A$。适用信号：题面不给算子元素，只给算子方程 + 核/秩信息，并要求求出算子或其导出的二次型。",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_SCALAR_TO_SPECTRAL_WITNESS",
+   "occurrences": 1,
+   "domains": [
+    "线性代数"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M7-024",
+     "worker": "M7",
+     "domain": "线性代数",
+     "why_existing_fails": "BRIDGE_OBSERVABLE 描述的是『在两个层面之间建立桥』（本题中 $A$ 与 $A^{*}$ 之间的桥），但它不描述**信息升级**这一步：把一组分散的标量等式（三行的行和分别等于 2）识别为**单个向量等式**（$A\\mathbf{1}=2\\mathbf{1}$），从而把一个几乎无信息量的条件变成一条完整的特征结构信息。STATE_REREPRESENTATION 描述的是换表示，但它不刻画『为什么这个换表示是必然的、以及它把信息密度提高了多少』。本题真正可迁移的动作是『发现若干条同构的标量条件其实是一个向量条件的各个分量 → 打包后信息量跃升为谱信息』，这在母算子表里没有对应标签。",
+     "definition": "当题面给出一组形式相同、逐分量成立的标量条件（每行和相同、每个度相同、每个分量满足同一线性关系）时，把它们打包成一个向量等式 $A v=c v$；一旦认出 $v$ 是特征向量或不动点，原本『约束远少于未知量』的欠定问题就升级为一条完整的谱/结构信息。适用信号：条件以『每一行/每一列/每个分量都……』的形式出现，且这些条件形式完全相同。",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "name": "CANDIDATE_SIGN_PARTITION",
+   "occurrences": 1,
+   "domains": [
+    "概率论与数理统计"
+   ],
+   "recommend_promotion": false,
+   "instances": [
+    {
+     "problem_id": "M8-002",
+     "worker": "M8",
+     "domain": "概率论与数理统计",
+     "why_existing_fails": "现有 RESTRICT_SLICE 描述的是『固定某个变量取值后看截面』，INFORMATION_AXIS_DECOMPOSITION 描述的是『把信息拆到若干独立轴上』，都不能自然刻画『不等式只约束符号时，按符号把样本空间切成互斥象限并丢弃幅值』这一动作——它的关键不是切片也不是拆轴，而是识别出目标函数对幅值不敏感。",
+     "definition": "当目标事件只依赖若干个量的符号（或序关系）时，不构造目标量的分布，而是把样本空间按各量的符号划分为互斥区域，只在区域层面求和。",
+     "confidence": "high"
+    }
+   ]
+  }
+ ],
+ "unknowns": [
+  {
+   "problem_id": "C1-006",
+   "worker": "C1",
+   "domain": "数据结构",
+   "main_obstacle": "顺序存储无法满足\"占用空间随入队增加\"；而普通链式队列每次入队都要新开辟结点，无法满足\"出队后空间可复用、占用空间只增不减\"。两条约束同时要求：已出队的结点不能释放，且必须能在 O(1) 内被重新写入。真正的问题结构是：队满与队空在同一个指针等式下不可区分，需要一个额外的空闲结点作为分隔。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": true,
+     "why": "把队列重新表示为循环单链表 + 一个保留空闲结点，改变了队空/队满的判定方式"
+    },
+    {
+     "operator_id": "AUXILIARY_OBJECT",
+     "is_primary_move": true,
+     "why": "保留的空闲结点是把\"队满\"与\"队空\"分开的辅助对象"
+    },
+    {
+     "operator_id": "INFORMATION_PRESERVATION",
+     "is_primary_move": false,
+     "why": "出队不释放结点，刻意保留已用空间的信息以支持复用"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2（真题参考答案逐条对应题目四条要求给出推理，并明确写出\"这就需要设计成一个首尾相接的循环单链表，类似于循环队列的思想\"以及\"参考循环队列牺牲一个单元来判断\"）。\nUNKNOWN：现有标签无法自然解释的是\"资源只增不减且必须复用\"这一对偶约束。STATE_REREPRESENTATION 只覆盖\"改用循环结构\"这一步，INFORMATION_PRESERVATION 只覆盖\"出队不释放\"，两者都没有表达\"把已消费的空间重新变成队尾方向的可写资源\"这一动机。另有 UNEXPLAINED：题目四条要求与\"循环单链表 + 保留一个空闲结点\"之间为何恰好是唯一自然解，原文未论证。\nadditional_evidence（逐字，核心真题/408/2019年全国硕士研究生招生考试408计算机学科专业基础综合真题.md L1516-L1516）：2）该循环链式队列的实现"
+  },
+  {
+   "problem_id": "C1-007",
+   "worker": "C1",
+   "domain": "数据结构",
+   "main_obstacle": "目标序列要求交替地从两端取元素，但单链表只能从头向尾访问：若不改变结构，每次取\"倒数第 i 个\"都要重新遍历，总代价 O(n²)。O(1) 空间又禁止用栈把后半段缓存下来。因此困难在于：在不增加空间的前提下，让\"从尾向前\"变成\"从头向后\"可取。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "RESTRICT_SLICE",
+     "is_primary_move": true,
+     "why": "用快慢指针把链表限制到后半段这一切片上，再对切片整体做变换"
+    },
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": true,
+     "why": "逆置改变了后半段的表示方向，把\"从尾向前取\"变成\"从头向后取\""
+    },
+    {
+     "operator_id": "GLUE_LOCAL_TO_GLOBAL",
+     "is_primary_move": false,
+     "why": "三段局部操作（切分、逆置、交错）拼成全局重排结果"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1（真题参考答案执行了\"切分中点→原地逆置→交错合并\"并说明\"否则每取最后一个结点都需要遍历一次链表\"这一必要性，但未说明\"逆置把方向问题化为顺序问题\"这一抽象；本条的算子判定是我方归纳）。\nUNKNOWN：把\"逆置\"贴上 STATE_REREPRESENTATION 并不自然——逆置并没有换表示，而是翻转了访问方向；贴上 RESTRICT_SLICE 也只覆盖切分中点那一步。\"方向不匹配 → 就地翻转一侧使两段同向\"这一动作在现有词表中没有对应项。\nadditional_evidence（逐字，讲义/数据结构/第02章_线性表.md L2317-L2317）：先观察 $L = ( a _ { 1 } , a _ { 2 } , a _ { 3 } , \\cdots , a _ { n - 2 } , a _ { n - 1 } , a _ { n } )"
+  },
+  {
+   "problem_id": "C1-013",
+   "worker": "C1",
+   "domain": "数据结构",
+   "main_obstacle": "AVL 的平衡标准（|bf|≤1）非常严格，导致插入删除后要非常频繁地调整全树的整体拓扑结构，维护代价大。困难在于：既要保证查找代价为 O(log n)，又不能让维护动作过于频繁——即\"平衡\"这一不变量本身需要被放松到一个维护成本更低的档位。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "NORMALIZE",
+     "is_primary_move": true,
+     "why": "把平衡标准从严格高度差规范化为较松的颜色/黑高条件"
+    },
+    {
+     "operator_id": "INVARIANT_BLOCK_DECOMPOSITION",
+     "is_primary_move": true,
+     "why": "把平衡不变量分解为五条可局部检查的性质，每次只需修复一小块"
+    },
+    {
+     "operator_id": "STRUCTURAL_PROGRESS",
+     "is_primary_move": false,
+     "why": "情形1 把 x 上移一层，保证调整过程单调推进（每次至少上升一层）"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2（讲义明确写出引入红黑树的动机\"为了保持AVL树的平衡性，在插入和删除操作后，会非常频繁地调整全树的整体拓扑结构，代价较大。为此，在AVL树的平衡标准基础上进一步放宽条件，引入了红黑树的结构\"，并逐条列出性质与外部叶结点的作用）。\nUNKNOWN：红黑树的引入本质是\"把过严的不变量放宽到维护成本更低的档位\"，NORMALIZE 与 INVARIANT_BLOCK_DECOMPOSITION 只能描述\"分解/规范化\"，无法表达\"主动降低不变量强度以换取维护成本\"这一取舍。\nadditional_evidence（逐字，讲义/数据结构/第07章_查找.md L1057-L1057）：归纳总结：在情形4中，因x的兄弟结点w及左右孩子都是黑色，可以从x和w中各提取一重黑色（以让x变为普通黑结点），不会破坏性质④，并把调整任务向上“推”给它们的父结点x.p。在情形"
+  },
+  {
+   "problem_id": "C1-014",
+   "worker": "C1",
+   "domain": "数据结构",
+   "main_obstacle": "B 树面对的不是内存中的指针操作，而是磁盘 I/O：一次磁盘访问的代价远高于结点内的比较。因此问题的真正形状是\"把树高压到最低\"——这要求每个结点尽量装满关键字（高扇出），但装满后插入就会溢出。困难在于：既要维持\"每层结点数尽量多\"（低树高），又要允许插入删除，且不能破坏\"结点内关键字划分出的区间\"这一全局有序性。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "LOW_BANDWIDTH_INTERFACE",
+     "is_primary_move": true,
+     "why": "把结点大小与磁盘块匹配，用\"一次 I/O 读入一个结点\"这一窄接口换取 I/O 次数的最小化"
+    },
+    {
+     "operator_id": "RIGIDIFY",
+     "is_primary_move": true,
+     "why": "用上下限约束每个结点的关键字个数，把树高压在可界定的范围内"
+    },
+    {
+     "operator_id": "GLUE_LOCAL_TO_GLOBAL",
+     "is_primary_move": false,
+     "why": "局部分裂/合并通过向上/向下传播，最终维持整棵树的全局不变量"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2（讲义明确写出 B 树与磁盘的绑定关系\"B树常存储在磁盘上，因此前一操作是在磁盘上进行的，而后一操作是在内存中进行的……在磁盘上的查找次数（目标结点在B树中的层次数）是决定查找效率的关键因素\"，并给出分裂的完整规则与向上传播条件）。\nUNKNOWN：把\"结点关键字数的上下限\"贴上 RIGIDIFY 会丢失关键区别——这里被收紧的不是某个结构的形态，而是\"一个物理 I/O 单位里能放多少信息\"；瓶颈量（树高）与约束量（结点容量）之间的换算关系在现有词表中无处安放。\nadditional_evidence（逐字，讲义/数据结构/第07章_查找.md L1706-L1706）：B树的查找包含两个基本操作：①在B树中定位目标结点；②在结点内查找关键字。B树常存储在磁盘上，因此前一操作是在磁盘上进行的，而后一操作是在内存中进行的，即在磁盘上找到目标结点后，先将结点"
+  },
+  {
+   "problem_id": "C1-015",
+   "worker": "C1",
+   "domain": "数据结构",
+   "main_obstacle": "散列把关键字直接映射到地址，但映射是多对一的，冲突必然发生。困难在于：冲突后\"下一个候选地址\"的选取规则会带来副作用——线性探测让非同义词互相排挤形成堆积，平方探测无法覆盖全部位置，开放定址法又不能真正删除元素（会截断别人的查找路径）。每种处理方法的优点都伴随一个结构性的代价。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "SPACE_AUGMENTATION",
+     "is_primary_move": true,
+     "why": "用额外空间（散列表的多个空闲地址 + 探测序列）换取 O(1) 的直接寻址"
+    },
+    {
+     "operator_id": "PROBE",
+     "is_primary_move": true,
+     "why": "冲突后沿探测序列逐次试探下一个候选地址，是本题的核心动作"
+    },
+    {
+     "operator_id": "INFORMATION_PRESERVATION",
+     "is_primary_move": true,
+     "why": "开放定址法必须用删除标记保留\"此处曾有元素\"的信息，否则探测链被截断"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2（讲义逐条说明三种处理方法的机制与缺点，明确写出\"线性探测法容易引发“聚集（或称堆积）”现象\"与\"平方探测法能有效避免“堆积”问题……其缺点是无法探测散列表中的所有位置\"，并说明开放定址法不能物理删除的原因）。\nUNKNOWN：开放定址法\"不能物理删除、必须打删除标记\"这一约束，现有 INFORMATION_PRESERVATION 只表达\"不要丢信息\"，没有表达\"删除动作会破坏其他元素的可达路径，因此必须把删除降级为标记\"。\nadditional_evidence（逐字，讲义/数据结构/第07章_查找.md L2152-L2152）：应当注意到，任何散列函数都无法绝对避免冲突。因此，必须设计有效的冲突处理机制，即为发生冲突的关键字寻找下一个可用的散列地址。设 $H _ { i }$ 表示第i次探测所得的散列地址。若初始地址 $H _ { 0 } = H"
+  },
+  {
+   "problem_id": "C1-016",
+   "worker": "C1",
+   "domain": "数据结构",
+   "main_obstacle": "排序算法的选择不是单目标优化：时间复杂度、空间复杂度、稳定性、对存储结构的适配性、元素移动的实际开销这几个维度同时存在，且没有一个算法在所有维度上占优（例如\"平均 O(n log n) 且稳定\"只有归并排序，但它需要 O(n) 辅助空间）。困难在于识别当前场景中真正起决定作用的那个约束。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "INFORMATION_AXIS_DECOMPOSITION",
+     "is_primary_move": true,
+     "why": "把选型问题沿规模/初始状态/关键字结构/稳定性/存储结构/记录大小多个正交轴分解"
+    },
+    {
+     "operator_id": "CONSTRAINT_COLLISION",
+     "is_primary_move": true,
+     "why": "利用多约束的碰撞（稳定 + O(n log n) 唯一指向归并排序）直接确定答案"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2（讲义以\"选取排序算法需要考虑的因素\"与\"排序算法选型小结\"两节明确列出五个考虑因素与六条选型规则，把选型表述为多约束决策）。\nUNEXPLAINED：讲义给出了完整的排序选型规则清单，但没有说明这些规则之间的优先级——当\"要求稳定\"与\"辅助空间受限\"同时成立时如何取舍，原文未给出判据。该缺口不构成新算子，仅记录为未解释。\nadditional_evidence（逐字，讲义/数据结构/第08章_排序.md L45-L45）：算法的稳定性。若待排序表中有两个元素 $R _ { i }$ 和 $R _ { j }$ ，则其关键字相同 $\\left( \\mathrm{key}_{i} = \\mathrm{key}_{j} \\right)$ ，且排序前 $R _ { i }$ 位于 $R _ { j }$ 之前；若使用某一排序算法排序后， $R _ { i }$"
+  },
+  {
+   "problem_id": "C1-017",
+   "worker": "C1",
+   "domain": "数据结构",
+   "main_obstacle": "外部排序的总代价由两部分组成：归并趟数 S（决定磁盘 I/O）与每趟的内部比较次数。增大 k 能减少 S，但\"从 k 个元素中选最小\"若用线性比较需要 k−1 次，内部开销随之增长，部分抵消了 I/O 的收益。困难在于：两个代价被同一个参数 k 绑在一起且方向相反，需要一个把\"选最小\"的代价从 O(k) 降到 O(log k) 的方法，才能让 k 的增大只有收益。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "LOW_BANDWIDTH_INTERFACE",
+     "is_primary_move": true,
+     "why": "用完全二叉树这一窄结构承载 k 路比较，把每次选择的比较次数压到树高"
+    },
+    {
+     "operator_id": "AUXILIARY_OBJECT",
+     "is_primary_move": true,
+     "why": "败者树本身是引入的辅助结构（内部结点只存败者段号），s[0] 存冠军段号"
+    },
+    {
+     "operator_id": "REPAIR_SCALE_MATCHING",
+     "is_primary_move": false,
+     "why": "把\"k 路选择\"的代价尺度与\"树高 log k\"匹配起来，使 k 可自由增大"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2（讲义明确写出矛盾与解法：\"增大归并路数k可减少归并趟数S，从而降低I/O次数。然而，随着k的增大，内部归并的时间开销也会显著增加……因此，不能直接使用普通的多路归并方法\"与\"为使内部归并的时间复杂度不受k增大的影响，引入了败者树\"，并给出败者树的深度与比较次数结论）。\nUNKNOWN：败者树把\"k 路选择\"换成\"完全二叉树上的 log k 层比较\"，LOW_BANDWIDTH_INTERFACE 讲的是\"窄接口暴露少量信息\"，与此处的\"用树形归约把线性扫描压成对数层\"不是同一件事。\nadditional_evidence（逐字，讲义/数据结构/第08章_排序.md L2087-L2087）：可见，使用败者树后，内部归并的比较次数与归并路数k无关。因此，在内存空间允许的前提下，增大k可有效降低归并树高度，减少I/O次数，从而提高外部排序的效率。\naddi"
+  },
+  {
+   "problem_id": "C1-019",
+   "worker": "C1",
+   "domain": "数据结构",
+   "main_obstacle": "工程总工期等于源点到汇点所有路径长度的最大值。因此\"缩短工期\"不是缩短某一条路径，而是要把这个最大值降下来。当存在多条并列最长路径时，只加快其中一条上的关键活动，最大值仍由其他路径决定，工期不变；而且过度压缩会使原关键路径让位给别的路径，压缩的收益被\"关键路径转移\"吞掉。困难在于：目标量是\"最大路径长度\"这一非光滑的量，其控制权分散在所有并列最长路径的公共部分上。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "CONSTRAINT_COLLISION",
+     "is_primary_move": true,
+     "why": "把多条关键路径作为一组同时必须满足的约束列出，识别其公共活动"
+    },
+    {
+     "operator_id": "BRIDGE_OBSERVABLE",
+     "is_primary_move": true,
+     "why": "用可计算的时间余量 d(i)=l(i)−e(i)=0 作为\"关键\"的可观测判据，把抽象的\"决定工期\"变为可检验的量"
+    },
+    {
+     "operator_id": "GLUE_LOCAL_TO_GLOBAL",
+     "is_primary_move": false,
+     "why": "把各活动的 ve/vl 局部分量拼接为全局的关键路径"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2（讲义以\"对于关键路径，需要注意以下几点\"明确写出\"网中的关键路径可能不止一条。当存在多条关键路径时，仅提高其中某一条路径上的关键活动速度，并不能缩短整个工程的工期。只有加快那些同时出现在所有关键路径上的关键活动（公共关键活动），才能达到缩短工期的目的\"，以及关键路径转移的警告）。\nUNKNOWN：多关键路径下\"只有公共关键活动才有效\"这一约束，CONSTRAINT_COLLISION 描述的是\"约束之间相互冲突\"，而这里约束之间是\"并列取最大\"的关系，并且存在有效压缩区间（越界即关键路径转移）这一非光滑行为，现有标签无法表达。\nadditional_evidence（逐字，讲义/数据结构/第06章_图.md L1748-L1748）：在AOE网中，有些活动可以并行进行。从源点到汇点可能存在多条有向路径，且这些路径的长度（路径上各边权值之和）可能不同。尽"
+  },
+  {
+   "problem_id": "C1-021",
+   "worker": "C1",
+   "domain": "数据结构",
+   "main_obstacle": "要在一个规模为 n（n>100000）的数组中找出最小的 k=10 个元素。若先全排序再取前 k 个，需要 O(n log n) 次比较，而目标只要求这 10 个元素的集合、不要求其余元素的相对次序。困难在于：如何在不保留全部次序信息的前提下，仍能保证不漏掉真正最小的 10 个。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "RESTRICT_SLICE",
+     "is_primary_move": true,
+     "why": "把问题限制在\"大小为 k 的候选容器\"这一切片上，而不是处理全部 n 个元素的次序"
+    },
+    {
+     "operator_id": "AUXILIARY_OBJECT",
+     "is_primary_move": true,
+     "why": "引入大根堆作为候选容器，使\"淘汰最差候选\"退化为一次堆顶比较"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1（真题只给出两种可行方案与\"比较次数尽可能少\"的要求，未说明\"输出信息量远小于全序\"这一动机；该抽象是我方归纳）。\nUNKNOWN：把\"全排序再取前 k 个\"判为 PROXY_OBJECTIVE_DRIFT 并不准确——全排序并非追逐了错误的代理目标，而是计算了超出需求的更强结论（全序 vs 前 k 小）。\"按输出需求降级目标\"在现有词表中没有对应项。\nadditional_evidence（逐字，核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md L1614-L1624）：【答案 2】\n\n定义含 10 个元素的大根堆 H，元素值均为该堆元素类型能表示的最大数 MAX。\n\n```\nfor M 中的每个元素 s\n    if （s < H 的堆顶元素）\n```\n\n删除堆顶元素并将 s 插入到 H 中；\n当数据全部扫描完"
+  },
+  {
+   "problem_id": "C2-011",
+   "worker": "C2",
+   "domain": "操作系统",
+   "main_obstacle": "这是一条流水线，但'坑数上限为 3'使甲与乙之间不是简单的一次性握手，而是有界缓冲：甲可以领先乙最多 3 步。因此需要一对互补信号量（额度与库存）来表达有界性，而不是一个信号量。此外铁锹被甲、乙在不同阶段共用，形成跨进程的互斥资源，与顺序同步叠加。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": true,
+     "why": "把'四步串行过程'重表示为'流水线 + 容量 3 的有界缓冲'，问题整体在新表示下讨论"
+    },
+    {
+     "operator_id": "AUXILIARY_OBJECT",
+     "is_primary_move": false,
+     "why": "引入 pits/empty/water/mutex 四个信号量分别承载额度、库存、阶段通知与铁锹互斥"
+    },
+    {
+     "operator_id": "DEPENDENCY_ORDERING",
+     "is_primary_move": false,
+     "why": "排出 wait(资源) 先于 wait(mutex) 的顺序"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2（真题解析明确把问题识别为流水线结构并说明'不允许同时存在 4 个未被乙使用的树坑'）。OCR 噪声照实保留：原文 'semaphore' 两处被 OCR 成 'sempahore'。UNEXPLAINED：源解析写 '同时还需要一个 water 信号量来实现乙和丁的同步'，但题面只给出甲、乙、丙三个人，正文中并不存在'丁'；解析代码块中的进程名又写作 '丙()'。这是源文件自身的指代不一致，无法从上下文无歧义恢复原意，未作改写。题型标签：同步问题设计/有界缓冲。confidence=medium 的理由：把该题重标定为「有界缓冲 + 额度守恒(pits+empty=3)」是本 worker 的归纳，源解析只说了「近似于流水线的结构」与「不允许同时存在 4 个未被乙使用的树坑」，未使用守恒关系这一表述。"
+  },
+  {
+   "problem_id": "C2-014",
+   "worker": "C2",
+   "domain": "操作系统",
+   "main_obstacle": "要写一个页表项，必须先算出这个页表项自己住在哪里。而页表项的地址本身是一个虚拟地址，需要经过页表翻译才能变成物理地址——被写入的对象就是翻译机构的一部分。因此障碍是自指定位：不能直接用'页表基址 + 偏移'一步算出，必须分两步（先算虚拟地址，再经页表翻译得物理地址），并在翻译时确认该页表页已在内存中。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": true,
+     "why": "把页表也表示为占据虚拟地址空间的对象，建立'虚拟视图 / 物理视图'两套坐标"
+    },
+    {
+     "operator_id": "PROBE",
+     "is_primary_move": false,
+     "why": "按页大小逐段拆解地址位段以定位页表项"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1（真题解析执行了'页表项偏移 = 页号×4、并把页表起始虚拟地址也拆成页号'这些步骤，但未陈述其动机，也未提出'页表自身占据虚拟地址空间'这一自指性质；自指定位的洞见是本 worker 的归纳，故 confidence 降为 medium）。UNKNOWN：该真题文件存在无法无歧义恢复的 OCR 损坏——L2025 '由于页表项的大小为字节'（应为'4 字节'，但 L1994 题面同时写'页表项的大小为 4 字节'且'页大小为 4MB'，而解析 L2016/L2021 又按'页号占 10 位、偏移 22 位'推算，即 4MB 页；两处数字表述不自洽，未按'应该是什么'改写）；L2029 '经过 U 地址转换后' 中的 'U' 疑为 'MMU'，无法从上下文无歧义确定；'顷表项'/'贡表项' 为 '页表项' 的 OCR 误识；原文 '654 0000H' "
+  },
+  {
+   "problem_id": "C3-021",
+   "worker": "C3",
+   "domain": "计算机组成原理",
+   "main_obstacle": "转发的前提是\"值已经存在于某个流水段寄存器中\"。而 load 的值要到 MEM 段结束才产生，紧随的 add 指令在 EX 段就要用——值在需要时还不存在。这不是通路没接对，而是产生延迟本身晚于使用时刻。因此问题不是\"再增加一条转发通路\"，而是\"承认存在一个必须等待的时间窗口\"。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "CRITICAL_SCALE_PROBE",
+     "is_primary_move": true,
+     "why": "比较\"产生时刻\"与\"使用时刻\"两个时间尺度，定位机制的覆盖边界"
+    },
+    {
+     "operator_id": "COUNTEREXAMPLE_PROBE",
+     "is_primary_move": false,
+     "why": "备选：load-use 可视为对\"转发覆盖全部 RAW\"这一命题的反例；但本题的动作是\"比较尺度以定位边界\"，而非\"主动构造两条路径否证命题\"。"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2\n题型标签：概念/计算；考点追踪：指令流水的数据冒险（2012、2014、2016、2019、2023）；本条被标 UNKNOWN（见 notes）\nocr_fixed: 无。本条不涉及位宽/地址位数，无需恢复。\nadditional_evidence（逐字，讲义/计算机组成原理/第05章_中央处理器.md L2354-L2354）：插入空操作指令，使相关指令延迟执行，可以避免数据冒险。采用转发技术，将数据通路中生成的中间数据直接转发到ALU的输入端，可以解决部分数据冒险，但不能解决load-use类型的数据冒险。通过编译器调整相关指令的顺序，也可以解决部分数据冒险。\nadditional_evidence（逐字，讲义/计算机组成原理/第05章_中央处理器.md L2095-L2095）：设置相关转发通路，使后续指令无须等待前一条指令将计算结果写回寄存器"
+  },
+  {
+   "problem_id": "C3-022",
+   "worker": "C3",
+   "domain": "计算机组成原理",
+   "main_obstacle": "流水线要求每个时钟周期都取指，但转移是否成立要到 EX 段才确定，于是\"该取哪条指令\"这个信息在需要它的时刻还不存在。等待就等于让流水线断流；不等待就必须猜。问题不是\"如何更快地算出转移结果\"，而是\"在信息不存在时如何继续取指，以及猜错后如何恢复\"。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "PROBE",
+     "is_primary_move": true,
+     "why": "在信息缺失时先试探性推进（按预测取指），不预设要探什么"
+    },
+    {
+     "operator_id": "SELF_IMPROVING_CLOSURE",
+     "is_primary_move": false,
+     "why": "动态预测根据历史比较结果更新预测，是一个自我改进的闭合过程"
+    },
+    {
+     "operator_id": "COUNTEREXAMPLE_PROBE",
+     "is_primary_move": false,
+     "why": "备选：预测错误相当于对预测的反例；但此处反例由程序行为自然产生，不是主动构造。"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2\n题型标签：概念选择题；考点追踪：分析指令之间的控制冒险（2014、2023）、导致流水线阻塞的各种原因（2010、2025）；本条被标 UNKNOWN（见 notes）\nocr_fixed: 无。本条不涉及位宽/地址位数，无需恢复。\nadditional_evidence（逐字，讲义/计算机组成原理/第05章_中央处理器.md L2354-L2354）：插入空操作指令，使相关指令延迟执行，可以避免数据冒险。采用转发技术，将数据通路中生成的中间数据直接转发到ALU的输入端，可以解决部分数据冒险，但不能解决load-use类型的数据冒险。通过编译器调整相关指令的顺序，也可以解决部分数据冒险。\nadditional_evidence（逐字，讲义/计算机组成原理/第05章_中央处理器.md L2708-L2708）：指令流水线是一种将指令执行划分为若于有序阶段"
+  },
+  {
+   "problem_id": "C4-023",
+   "worker": "C4",
+   "domain": "计算机网络",
+   "main_obstacle": "题目问的是「本地域名服务器发出几次查询」，而这个次数同时受「本地是否有缓存」与「迭代要经过几级域名服务器」两个互不相关的因素支配；把两者混成一个「解析深度」来数，就会既算错下限也算错上限。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "INFORMATION_AXIS_DECOMPOSITION",
+     "is_primary_move": true,
+     "why": "把查询次数拆成缓存命中轴与迭代层级轴两个独立维度（但见 notes 的 UNKNOWN 说明：本条关键动作其实是主语识别）"
+    },
+    {
+     "operator_id": "PROBE",
+     "is_primary_move": false,
+     "why": "分别取两个轴的下限与上限得到最少/最多"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2（讲义习题解析明确给出最少 0 次与最多 4 次两个取值及其理由）。检索标签：DNS、迭代查询、查询次数、缓存、2016 真题\n⚠️ UNKNOWN：本条是本次抽取中无法用现有算子自然解释的一条。现有标签里最接近的是 INFORMATION_AXIS_DECOMPOSITION（拆出「缓存命中」与「迭代层级」两个轴），但该标签的定义是「按信息维度拆开分析」，而本条的核心动作其实是「识别出题目的主语（本地域名服务器）与常识主语（主机）不一致，从而把被计数的对象换掉」——这是对象识别问题，不是维度拆分问题；硬贴该标签会让「为什么最少是 0 而不是 1」这一关键洞察被掩盖。故如实标 UNKNOWN 并列出候选新算子。\nadditional_evidence（逐字，讲义/计算机网络/第06章_应用层.md L207）：在递归查询中，若本地域名服务器不知道被查询域"
+  },
+  {
+   "problem_id": "C4-024",
+   "worker": "C4",
+   "domain": "计算机网络",
+   "main_obstacle": "序号空间是有限的，而连接会被反复建立；如果每次都用同一个初始序号，那么「历史上发出但仍在网络中滞留的旧报文段」的序号就会落进新连接的有效窗口。接收方没有任何手段区分它与新数据——问题不是「序号够不够用」，而是「不同世代的序号区间会不会重叠」。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "SPACE_AUGMENTATION",
+     "is_primary_move": true,
+     "why": "把「时间/连接世代」这一维度补进序号空间的考量，使跨连接重叠成为可分析的问题"
+    },
+    {
+     "operator_id": "CONSTRAINT_COLLISION",
+     "is_primary_move": false,
+     "why": "「序号空间有限」与「连接反复建立」两条约束对撞，冲突点正指出了初始序号必须随时间变化"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2（讲义章末疑难点完整论证了固定初始序号导致旧报文段被误收的机制）。检索标签：TCP 初始序号、旧报文段、序号空间、TIME-WAIT、不可分辨性\n⚠️ UNKNOWN：本条同样无法用现有算子自然解释。现有标签里最接近的是 SPACE_AUGMENTATION（补进时间维度）与 CONSTRAINT_COLLISION（有限空间 vs 反复建立），但本条的真正困难是「同一序号空间被不同世代的连接共享，而接收端无法区分世代」——这是一个「命名空间跨世代复用导致不可分辨」的结构，与「补维度」或「约束对撞」都不是同一件事。它与「窗口不能等于 2^n」同源：两者都是「有限命名空间 + 必须可分辨」的冲突，但一个发生在连接内（新帧 vs 重传帧），一个发生在连接之间（新数据 vs 陈旧报文段）。故如实标 UNKNOWN；该结构已由窗口条目的 CANDIDATE_NE"
+  },
+  {
+   "problem_id": "M1-005",
+   "worker": "M1",
+   "domain": "高等数学",
+   "main_obstacle": "三个函数分属三个不同的增长层级，题面无法直接看出谁主导；而且参数 10 被放在不同位置（ln 的幂次 vs 指数函数的系数），使「哪个 10 更强」无法靠直觉判断，必须把两两比较都归约为极限并逐层求导降阶。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "CRITICAL_SCALE_PROBE",
+     "is_primary_move": true,
+     "why": "识别三个对象所属的尺度族"
+    },
+    {
+     "operator_id": "UNIFORMIZATION",
+     "is_primary_move": false,
+     "why": "用统一的尺度链一次性排序"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1; UNKNOWN/UNEXPLAINED。题型标签：无穷大比阶／尺度层级。判定理由：讲义本条只有「分析用洛必达法则，计算极限.」（第1998行）与一条陈述结论的「注」（第2004行），【没有任何文字解释为什么可以按函数族整体排序、为什么参数 10 的位置无关】。我给出的 CRITICAL_SCALE_PROBE + UNIFORMIZATION 属于从答案反推的标签，不够自然，故标 UNKNOWN。confidence=low。"
+  },
+  {
+   "problem_id": "M2-021",
+   "worker": "M2",
+   "domain": "高等数学",
+   "main_obstacle": "目标是由因式重数直接给出全局计数，但重数只描述每个根附近的局部性态。从局部重数到全局计数之间隔着两个问题：求导链上重数如何迁移；罗尔定理还会额外产生多少个非因式临界点。讲义把结果作为“可直接使用，不必证明”的结论给出，材料里没有任何推导，因此这一步在本材料内不可解释。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "DEFECT_FACTORIZATION",
+     "is_primary_move": true,
+     "why": "把函数按因式重数分解，是材料中唯一被明确使用的结构动作"
+    },
+    {
+     "operator_id": "UNKNOWN",
+     "is_primary_move": false,
+     "why": "从重数谱到全局计数的映射在材料中是黑箱，无算子可贴"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1；UNEXPLAINED：讲义把计数公式作为“可直接使用，不必证明”的结论给出（见 additional_evidence），本 worker 无法从材料中恢复其推导。题型标签：拐点/重数编码。E 级理由：讲义把结论作为“可直接使用，不必证明”给出，无推导\nadditional_evidence（逐字，讲义/高等数学/01_强化篇/第05讲_一元函数微分学的应用_一__几何应用.md L463）：以下结论均可直接使用，不必证明. ｜ additional_evidence（逐字，讲义/高等数学/01_强化篇/第05讲_一元函数微分学的应用_一__几何应用.md L473）：②设多项式函数 $f(x)=(x-a)^{n}g(x)(n>1)$ ，且 $g(a) \\neq 0$ ，则当n为偶数时，x=a是f(x)的极值点；当n为奇数时，点(a,0)是曲线f(x"
+  },
+  {
+   "problem_id": "M2-022",
+   "worker": "M2",
+   "domain": "高等数学",
+   "main_obstacle": "单个方程的存在唯一性本身不难（单调 + 零点定理）。真正的结构问题是：讲义在证完之后引入“函数列——族函数”这一新概念，并把 n=1,2,…,n 的解并列写出 x_1,…,x_n，却没有说明这一提升要解决什么问题。材料引入了一个“解族”对象却未给出它的用途（例如 {x_n} 的单调性、收敛性与极限），使这一步的动机在材料内不可恢复。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "SPACE_AUGMENTATION",
+     "is_primary_move": false,
+     "why": "讲义确实把单个方程提升为函数族，但材料未说明提升的动机；且母算子表中 SPACE_AUGMENTATION 指的是“把常数换成变量”这一更窄的动作（见 M2-012）"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1；UNEXPLAINED：讲义只写“注新概念：{f_n(x)} 函数列———族函数.”并列出 x_1,…,x_n，未说明这一提升的用途，也未继续研究 {x_n}。MISS：本题在材料中的自然续问（{x_n} 的单调性与极限）缺失。题型标签：含参方程/解族。E 级理由：讲义只以“新概念”一句引入函数族，无动机说明"
+  },
+  {
+   "problem_id": "M3-014",
+   "worker": "M3",
+   "domain": "高等数学",
+   "main_obstacle": "旋转轴 y=x 既不是坐标轴，也与区域边界有两个交点，现成的旋转体公式全部不适用。必须回到'平行截面面积已知'这一更一般的原理，把旋转半径重新表示为点到 y=x 的垂直距离，并把沿轴方向的长度元用 √2 dx 表示。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": true,
+     "why": "把旋转体重新表示为'垂直于任意轴的一族截面'，是本题唯一的结构动作"
+    },
+    {
+     "operator_id": "UNIFORMIZATION",
+     "is_primary_move": false,
+     "why": "把非坐标轴统一处理为'到轴的距离'有统一化色彩，但核心是回到更一般原理"
+    },
+    {
+     "operator_id": "INTERFACE_RENORMALIZATION",
+     "is_primary_move": false,
+     "why": "√2 因子是换坐标的接口代价，属副产物"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1. 题型标签：绕非坐标轴旋转 / 平行截面原理 / 公式前提验证。\nadditional_evidence（逐字，L612）：分析 $r = \\frac{\\sqrt{x} - x}{\\sqrt{2}}$\nadditional_evidence（逐字，L614）：取微元： $\\mathrm{d}V = \\pi \\cdot \\left( \\frac{\\sqrt{x} - x}{\\sqrt{2}} \\right)^{2} \\cdot \\sqrt{2} \\mathrm{d}x$ $\\frac{\\sqrt{2}}{60}\\pi$ A(x)解 应填\nadditional_evidence（逐字，L623）：注①事实上， $V = \\int_{a}^{b} A(x) \\mathrm{d}x$ 就是 $V = \\int_{a}^{b} \\pi f^{2}(x) \\mat"
+  },
+  {
+   "problem_id": "M3-018",
+   "worker": "M3",
+   "domain": "高等数学",
+   "main_obstacle": "关于 f 只有'导数界 M'与'两端为零'两类信息；任一端点条件单独使用只能给出 |f(x)|≤Mx 或 ≤M(1-x)，从而得到 M/2 的松界。必须把区间在某点 x 处切开，左右两段各自用一端条件，再把两个估计相加，最后对自由的分割点 x 取最优值。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "RESTRICT_SLICE",
+     "is_primary_move": true,
+     "why": "引入自由分割点把区间切开，是本题能同时使用两端条件的唯一入口"
+    },
+    {
+     "operator_id": "INFORMATION_AXIS_DECOMPOSITION",
+     "is_primary_move": true,
+     "why": "把 |∫f| 沿 x 轴分解为左右两段分别估计，是估计的主结构"
+    },
+    {
+     "operator_id": "FREEDOM_REORGANIZATION",
+     "is_primary_move": false,
+     "why": "分割点 x 的自由度最后被最优化掉，但主要动作是分解而非重组织自由度"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1. 题型标签：积分不等式 / 双侧拉格朗日 / 自由分割点。\nadditional_evidence（逐字，L279）：\n$$\n\\left| f(x) \\right| \\leqslant Mx,\\ \\left| f(x) \\right| \\leqslant M(1-x),\n$$\nadditional_evidence（逐字，L287）：\n$$\n\\begin{aligned}\\left| \\int_{0}^{1} f(x) \\mathrm{d}x \\right| = & \\left| \\int_{0}^{x} f(t) \\mathrm{d}t + \\int_{x}^{1} f(t) \\mathrm{d}t \\right| \\leq \\left| \\int_{0}^{x} f(t) \\mathrm{d}t \\right| + \\left| \\int_{x}^"
+  },
+  {
+   "problem_id": "M4-020",
+   "worker": "M4",
+   "domain": "高等数学",
+   "main_obstacle": "『求所有方向导数中的最大值』表面上是无穷多个方向上的逐一比较，无法枚举。真正的结构是方向导数可写成梯度与单位方向向量的内积，因此『在单位圆上取内积最大』是一个有闭式解的问题：最大值等于梯度的模，取到最大值的方向就是梯度方向。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": false,
+     "why": "『把方向导数改写成内积』这一步确实是把问题换了个表示，但它只是套公式，并没有真正改变问题的结构；改写成内积之后，无穷多个方向仍然摆在那里。所以它解释不了本题为什么变容易。"
+    },
+    {
+     "operator_id": "RIGIDIFY",
+     "is_primary_move": false,
+     "why": "柯西-施瓦茨确实把连续统比较固定成一个等式，但 RIGIDIFY 通常指给柔性对象加约束使其刚性；本题并没有添加约束（单位约束本来就是定义的一部分），所以标签不自然。"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1. UNKNOWN / UNEXPLAINED。降级说明：真题解析**只是复述了结论**『沿着梯度方向的方向导数最大，且最大值为梯度的模』，完全没有解释这个结论为什么成立；而这句话在讲义（第17讲 §5.3）同样是以结论形式给出的。也就是说，本题真正的难点——『为什么在单位圆上最大化一个内积有闭式解、而且最优方向就是梯度方向』——在所有材料中都没有被解释。confidence=low：我能识别出问题结构，但找不到任何原文支持我对该结构的算子归属，故标 UNKNOWN 并提交候选算子。题型标签：方向导数、梯度、连续统优化。 additional_evidence: 降级理由：真题解析只是复述了结论『沿着梯度方向的方向导数最大，且最大值为梯度的模』，完全没有解释这个结论为什么成立；而这句话在讲义（第17讲 §5.3）同样是以结论形式给出的。本题真正的难点——"
+  },
+  {
+   "problem_id": "M5-018",
+   "worker": "M5",
+   "domain": "高等数学",
+   "main_obstacle": "方程本身是标准的可分离变量型，分离与积分都没有障碍；真正的结构异常在于解出后任意常数 C 的取值范围被解流形本身的几何限制住了（C > 1），这与'通解中的常数在实数范围内任意取值'的默认图景不符。这一现象无法用现有算子标签自然刻画：它不是解题者主动施加的限制（不是取切片），而是解集作为流形在参数空间中的内蕴像。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "RESTRICT_SLICE",
+     "is_primary_move": false,
+     "why": "表面上像'在解族上取切片'，但 RESTRICT_SLICE 指解题者主动用条件限制解族（如代入初值），而本题的限制是解流形自身的内蕴像，并非主动选择；用这个标签会误导"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2（现象本身在原文中被明文陈述）；confidence: unknown —— UNEXPLAINED。现有母算子无法自然刻画本条的核心结构：'任意常数的可达范围由解流形的内蕴几何决定，而非解题者主动施加'。最接近的 RESTRICT_SLICE 语义不匹配（它是主动取切片）。疑似缺失概念：解映射的像（image of the solution map）/ 解流形在参数空间中的可达范围——即'解集作为一个几何对象，其形状反过来约束了通解公式中参数的有效域'。这条样本的价值恰在于它无法被现有标签吸收。evidence_excerpt 为讲义第 190 行单行逐字原文。题型标签：可分离变量、通解常数范围。"
+  },
+  {
+   "problem_id": "M5-019",
+   "worker": "M5",
+   "domain": "高等数学",
+   "main_obstacle": "函数 f 被两个不同的二阶线性方程同时约束，每个方程单独都留下二维自由度；障碍在于两条约束的交集如何求出。材料的做法是'由观察知 f''+f=2e^x 的一特解为 f(x)=e^x，将其代入 f''+f'-2f=0 中满足'——即用一个方程的便宜候选直接去检验另一个，而不是分别求解再匹配。这个跳跃的理由（为什么第二个方程的特定特解值得作为候选、为什么交集恰好是这个点）在材料中完全没有交代。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "CONSTRAINT_COLLISION",
+     "is_primary_move": false,
+     "why": "两条约束确实同时作用，但 CONSTRAINT_COLLISION 刻画的是约束互相冲突/碰撞，而本题两条约束在 e^x 处相容，语义方向相反，用这个标签会误导"
+    },
+    {
+     "operator_id": "PROBE",
+     "is_primary_move": true,
+     "why": "用一个便宜候选去探测约束是否被满足，动作层面匹配；但 PROBE 没有刻画'候选如何被定位'，这正是本条缺失的部分"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1（降级说明：原文只写了执行动作'由观察知'与随后的代入检验，没有任何关于'为什么选择方程二的特解作为候选''为什么交集是这一点'的说明；main_obstacle 与 key_transitions.why_triggered 系我从答案反推，故按 SPEC §5 降为 E1）；confidence: low —— UNEXPLAINED。evidence_excerpt 为 2012 真题文件第 431 行单行逐字原文，该行本身就是'材料未给出理由'的直接证据（全部论证只有'由观察知'四个字）。additional_evidence: 第 433 行 '的一特解为'；第 435 行 '，将其代入'；第 437 行 '中满足，故'。CANDIDATE_NEW_OPERATOR 为弱候选（仅 1 题出现），仅作登记，不建议直接进入 ontology。题型标"
+  },
+  {
+   "problem_id": "M6-011",
+   "worker": "M6",
+   "domain": "高等数学",
+   "main_obstacle": "UNKNOWN。题面把四个选项设计成'单向蕴含'与'双向等价'的对照，说明命题人认为子列级数的敛散与 |r|、R 的关系存在非对称性；但材料（真题解析）只用一个逆否命题推出 A，既没有说明子列级数的收敛半径与 R 的关系，也没有说明 B/C/D 为何不成立。我无法从材料中确认真正的障碍结构",
+   "existing_operator_matches": [
+    {
+     "operator_id": "RESTRICT_SLICE",
+     "is_primary_move": true,
+     "why": "把原级数限制到偶下标子列上，改变了问题对象"
+    },
+    {
+     "operator_id": "DEPENDENCY_ORDERING",
+     "is_primary_move": false,
+     "why": "确认可用链条的方向：只能从原级数收敛推子列收敛"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1。★ UNKNOWN / UNEXPLAINED 样本。问题：(1) 材料（真题解析）只有一句推理，用逆否命题得到 A，从未说明子列级数 Σa_{2n}r^{2n} 的收敛半径与原级数半径 R 的定量关系；(2) 因而无法解释 B/C/D 为何不成立，也无法判断命题人设计的真正障碍是什么；(3) 我在 initial_geometry.scale_competition 中曾推测'子列半径放大到 √R'，但材料无任何支持，属 E0 联想，故不写入 key_transitions 作为解释，仅保留为未证实的假设。这是本 worker 中价值最高的一类样本：现有算子（RESTRICT_SLICE / DEPENDENCY_ORDERING）只能描述'抽了子列'和'方向是单向的'，无法描述'抽子列究竟如何改变半径'。疑似缺失概念：子列抽取对收敛尺度的定量影响（"
+  },
+  {
+   "problem_id": "M7-005",
+   "worker": "M7",
+   "domain": "线性代数",
+   "main_obstacle": "『能否相似对角化』问的不是特征值是什么，而是每个特征值对应的特征子空间维数是否足够张满全空间。特征多项式只给出特征值及其代数重数，代数重数完全不能推出几何重数；必须对重根逐个计算 $n-r(\\lambda E-A)$ 才能判定。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "PROBE",
+     "is_primary_move": true,
+     "why": "用 $n-r(\\lambda E-A)$ 探测特征子空间的真实维数，而不是相信重数"
+    },
+    {
+     "operator_id": "INVARIANT_BLOCK_DECOMPOSITION",
+     "is_primary_move": false,
+     "why": "对角化本身是不变子空间分解，但这里判定的正是『分解是否可能』，标签只描述了成功的情形"
+    }
+   ],
+   "notes_excerpt": "题型标签：相似对角化·几何重数与代数重数。evidence_level: E2。UNEXPLAINED: 本题真正可迁移的结构是『重数有余而维数不足 ⇒ 不可完全分解』这一**亏空诊断**，而 SPEC §7 的母算子几乎全是『成功分解』的语言（INVARIANT_BLOCK_DECOMPOSITION、RESTRICT_SLICE、QUOTIENT_KERNEL），没有一个标签描述『为什么分解会失败、失败量有多大』（即几何重数与代数重数之差、Jordan 块规模）。因此本条不强行贴标签，possible_new_operator 留 null，供聚合阶段判定是否需要新算子。additional_evidence: 解答『即 $(E - A)x = 0$ 只有1个线性无关的解. 亦 $\\lambda_{1} = \\lambda_{2} = 1$ 只有1个线性无关的特征向量，所以A不能相似对"
+  },
+  {
+   "problem_id": "M7-022",
+   "worker": "M7",
+   "domain": "线性代数",
+   "main_obstacle": "第 (Ⅰ) 问要证一个秩的**等式**，需要同时给出上界与下界，而两条已知条件分属完全不同的语言（谱 vs 列向量的线性关系），必须分别翻译成秩的不等式再夹逼。第 (Ⅱ) 问则相反：题面把 $\\beta$ 显式写成列向量的线性组合，系数向量 $(1,1,1)^{\\mathrm{T}}$ 本身就是一个特解，而齐次部分的解向量可以从第 (Ⅰ) 问中用过的那条线性关系里直接读出，整个过程几乎不需要消元。",
+   "existing_operator_matches": [
+    {
+     "operator_id": "PROBE",
+     "is_primary_move": false,
+     "why": "用谱的互异性探测秩的下界"
+    },
+    {
+     "operator_id": "CERTIFICATE_PRODUCTION",
+     "is_primary_move": true,
+     "why": "秩的上下界合并构成等式证明的证书"
+    }
+   ],
+   "notes_excerpt": "题型标签：秩的夹逼·直接读出解。evidence_level: E2。UNEXPLAINED: 第 (Ⅱ) 问的核心动作是『题面已经把 $\\beta$ 写成列向量的线性组合，所以系数向量 $(1,1,1)^{\\mathrm{T}}$ 就是特解；题面给出的列向量关系 $\\alpha_1+2\\alpha_2-\\alpha_3=0$ 就是齐次解』——即**把题面已有的表示直接当作答案读出，完全不做计算**。SPEC §7 的母算子都是『对问题做变换』的语言（重表示、消元、增广、商掉核……），没有一个描述『认出目标已经在题面中被显式表示，从而计算量为零』这一动作。这不是 BRIDGE_OBSERVABLE（它描述的是建立两个层面之间的桥），也不是 EXACT_ELIMINATION（它的反面才是这里的要点）。因此本条不强行贴标签，possible_new_operator 留 null，供聚合阶段"
+  },
+  {
+   "problem_id": "M7-026",
+   "worker": "M7",
+   "domain": "线性代数",
+   "main_obstacle": "不等式两端都是关于 $\\alpha,\\beta$ 的双线性量，直接按四个分量展开会得到大量分支。转折点有两个：先把不等式移项整理成 $\\alpha^{\\mathrm{T}}A(\\beta\\alpha^{\\mathrm{T}}-\\alpha\\beta^{\\mathrm{T}})A\\beta\\leq0$，再把 $\\beta\\alpha^{\\mathrm{T}}-\\alpha\\beta^{\\mathrm{T}}$ 这个**外积差**分解成『标量 $(x_1y_2-x_2y_1)$ $\\times$ 固定的反对称型 $\\begin{bmatrix}0&1\\\\-1&0\\end{bmatrix}$』。分解",
+   "existing_operator_matches": [
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": true,
+     "why": "把不等式两端合并，露出共同的中间因子 $\\beta\\alpha^{\\mathrm{T}}-\\alpha\\beta^{\\mathrm{T}}$"
+    },
+    {
+     "operator_id": "INVARIANT_BLOCK_DECOMPOSITION",
+     "is_primary_move": false,
+     "why": "把外积差按反对称型与标量不变量分解"
+    },
+    {
+     "operator_id": "EXACT_ELIMINATION",
+     "is_primary_move": false,
+     "why": "代入具体的 $A$ 后得到的标量条件是机械计算"
+    }
+   ],
+   "notes_excerpt": "题型标签：双线性型·Cauchy–Schwarz 型不等式。evidence_level: E1（真题解析以计算步骤呈现，未叙述『为什么要这样分解』；核心动作由计算反推）。UNKNOWN: 本题最关键的一步是把外积差 $\\beta\\alpha^{\\mathrm{T}}-\\alpha\\beta^{\\mathrm{T}}$ 识别为『标量不变量 $x_1y_2-x_2y_1$ $\\times$ 固定的反对称型 $\\begin{bmatrix}0&1\\\\-1&0\\end{bmatrix}$』，从而把含四个自由实数的恒成立不等式塌缩成一个标量的符号条件。SPEC §7 的母算子无法自然覆盖这一步：STATE_REREPRESENTATION 太宽泛（它描述任何换表示，不刻画『一个秩 2 对象被识别为标量乘固定型』这一具体机制）；INVARIANT_BLOCK_DECOMPOSITION 描述的是按不"
+  },
+  {
+   "problem_id": "M8-002",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "main_obstacle": "目标事件 {X/Y<0} 里出现了商的除法，看似必须先知道商的分布；但实际上不等号只对分子的分母的符号敏感，除法带来的全部数值信息都是无关的冗余自由度",
+   "existing_operator_matches": [
+    {
+     "operator_id": "INFORMATION_AXIS_DECOMPOSITION",
+     "is_primary_move": true,
+     "why": "把样本空间按符号轴切成两个互斥象限"
+    },
+    {
+     "operator_id": "RESTRICT_SLICE",
+     "is_primary_move": false,
+     "why": "把商事件切回 (X,Y) 的符号约束"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E2\nreasoning_source: 强化篇同章性质与基础篇 ch03 良哥解读 (line 898) 原话明确给出「看到二维正态且不相关 ⇒ 当作独立用」这一触发器；本题正是靠它把象限概率拆成乘积。\nadditional_evidence (连续原文, 同文件 line 904): (3)由性质(4),若在题干中看到(X,Y) 服从二维正态分布,且 $X_{1},Y_{1}$ 均为 X和 Y的非零线性组合，则 $(X_{1},Y_{1})$ 服从二维正态分布.\nocr_fixed: 选项 (B)(D) 在源文件中被 OCR 粘连为 \"$0 \\frac{1}{2}$\"，实为 (B) $\\frac{1}{2}$ 与 (D) $\\frac{1}{2\\pi}$；题面保留原样未改写。\n检索标签: 二维正态 / 商的符号 / 样本空间分区\nUNKNOWN 子步骤:"
+  },
+  {
+   "problem_id": "M8-004",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "main_obstacle": "取极值运算把「两个变量各自的分布」变成了「两个变量必须同时满足同一约束」的联合事件；直接对 max/min 做运算无处下手，必须先把事件改写成关于全体变量的合取（或合取的否定）",
+   "existing_operator_matches": [
+    {
+     "operator_id": "DEPENDENCY_REORGANIZATION",
+     "is_primary_move": true,
+     "why": "把关于极值的事件重排成关于全体变量的合取，改变依赖方向"
+    },
+    {
+     "operator_id": "INFORMATION_AXIS_DECOMPOSITION",
+     "is_primary_move": true,
+     "why": "合取在独立下沿变量轴分解为乘积"
+    },
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": false,
+     "why": "对 min 用补事件把合取换成合取的否定"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1\nreasoning_source: 该例题本身无「良哥解读」；上面的 excerpt 取自同节基础知识的推导原文（连续原文），它确实展示了「min ⇒ 补事件 ⇒ 合取 ⇒ 独立拆乘积」这一结构动作，但它是对公式的推导而非对本题思路的评述，故按 E1 计。\nadditional_evidence (连续原文, 同文件 line 1186): 即有 $F_{M}(z) = F_{X}(z)F_{Y}(z)$\n检索标签: max/min 分布 / 极值运算 / 合取改写\n基础篇侧样本。强化篇 ch03 例3.25 是同一结构但 X,Y 不独立（必须回到联合密度做二重积分，不能拆乘积），构成有价值的对照，已在 notes 中记录。\nconfidence 说明: 降为 medium。\nUNKNOWN 子步骤: 「为什么不按 X≥Y 分区求 max 的分布，而改"
+  },
+  {
+   "problem_id": "M8-005",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "main_obstacle": "题目问的不是 Z 的分布本身，而是它的分布函数在哪些点不连续；这个性质不由 Z 的显式表达式给出，而等价于「Z 在哪些点有正的概率质量」——而 Z 的支撑集上恰好有一个由 Y=0 分支制造出来的原子，且它与连续部分在 0 处叠加",
+   "existing_operator_matches": [
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": true,
+     "why": "把「分布函数间断」重表示为「该点有概率质量」"
+    },
+    {
+     "operator_id": "PROBE",
+     "is_primary_move": true,
+     "why": "用 z=0 与 z0≠0 两类探针点区分出唯一原子"
+    },
+    {
+     "operator_id": "INFORMATION_AXIS_DECOMPOSITION",
+     "is_primary_move": false,
+     "why": "按 Y 的取值把样本空间分成两个分支"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1\nreasoning_source: 本例无「良哥解读」；excerpt 取自解析中法二的第一句（连续原文），它明确给出了「连续性 ⇔ 该点无质量」这一等价刻画，是本条 operation 的直接来源。但它是解析而非方法小结，故按 E1 计。\nadditional_evidence (连续原文, 同文件 line 1323): P\\left\\{ Z = 0 \\right\\} &= P\\left\\{ XY = 0 \\right\\} = P\\left\\{ X = 0 \\cup Y = 0 \\right\\}\n检索标签: 混合型随机变量 / 分布函数连续性 / 原子 / 重表示\nUNKNOWN 子步骤: 「为什么会想到不去算 F_Z 而是去数原子」——讲义只给了等价刻画，没有给动机，这一步的 trigger 是我从「目标只问个数」反推的（E1 成分）。"
+  },
+  {
+   "problem_id": "M8-009",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "main_obstacle": "题面给的三个事件（ĀB̄、AB̄、BĀ）都不是基础形式，每个都要先用减法公式或独立性翻译成 P(A)、P(B)、P(AB) 的语言，才能看出未知量个数与方程个数是否匹配；而「独立性可传递到补事件」是让 ĀB̄ 这个式子和前两个式子进入同一语言的关键一步",
+   "existing_operator_matches": [
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": true,
+     "why": "把复合事件翻译成 P(A)、P(B)、P(AB) 的基础语言"
+    },
+    {
+     "operator_id": "EXACT_ELIMINATION",
+     "is_primary_move": true,
+     "why": "镜像差事件相减消去 P(AB)"
+    },
+    {
+     "operator_id": "SHARED_WORLD_EMBEDDING",
+     "is_primary_move": false,
+     "why": "把 ĀB̄ 嵌入到由独立性给出的乘积世界"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1\nreasoning_source: 强化篇 ch01 本例无「良哥解读」；excerpt 取自解析（连续原文），它展示了「独立性传递到补事件」这一步，但没有说明为什么想到用减法公式消去 P(AB)。故计 E1。\nadditional_evidence (连续原文, 同文件 line 289): ②若一个试验可以看成分两个阶段完成,第一个阶段的具体结果未知,但所有可能结果已知,求第二个阶段某个结果发生的概率,用全概率公式.全概率公式的关键是完全事件组,第一个阶段的所有可能结果即为完全事件组\n检索标签: 事件独立性 / 减法公式 / 补事件封闭性\n强化篇侧样本。基础篇 ch01 的对应结构是「三事件恰有一个发生」的条件化问题（M8-006），但两者的问题结构并不相同（一个是集合恒等式降阶，一个是复合事件翻译 + 消元），因此**没有**构成基础/强化同结构"
+  },
+  {
+   "problem_id": "M8-010",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "main_obstacle": "{X=Y} 是二维样本空间里的一条对角线，无法用矩形区域或逐点密度处理；必须先把这条对角线沿 k 切成可数个互斥的格点，才能把二维事件降成一维可数求和",
+   "existing_operator_matches": [
+    {
+     "operator_id": "RESTRICT_SLICE",
+     "is_primary_move": true,
+     "why": "把二维对角线事件沿 k 切成互斥格点"
+    },
+    {
+     "operator_id": "GLUE_LOCAL_TO_GLOBAL",
+     "is_primary_move": true,
+     "why": "把可数多个局部格点概率求和成全局概率"
+    },
+    {
+     "operator_id": "INFORMATION_AXIS_DECOMPOSITION",
+     "is_primary_move": false,
+     "why": "用独立性把格点概率分解为两个因子的乘积"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1\nreasoning_source: 本例无「良哥解读」；excerpt 取自解析的第一步（连续原文，含换行，为一段连续公式链），它展示了「对角线事件 → 可数并 → 独立拆乘积」这一动作。但它是解析而非方法小结，故计 E1。\n检索标签: 二维离散型 / 对角线事件 / 可数分区 / 等比级数\n强化篇侧样本。基础篇 ch03 的对应结构是「泊松到达 × 二项下车」用条件分布律 × 边缘构造联合（M8-011 同族），以及「离散 X + 连续 Y 用全概率」（基础篇 ch03 第九节）。本条与基础篇没有严格同结构对照。\nconfidence 说明: 降为 medium。\nUNKNOWN 子步骤: 「为什么会漏掉一个因子」——naive_route 中「漏一个因子恰好得到选项 C」是我从选项设置反推的命题意图，非讲义原文。"
+  },
+  {
+   "problem_id": "M8-011",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "main_obstacle": "M 的边缘分布被一层中间随机变量 N 遮蔽：只有条件分布 P{M|N} 和 N 的分布可用，而边缘分布必须把 N 从 0 到 ∞ 全部求和消去；同时 N=0 的分支与 n≥1 的分支在条件分布的定义域上不连续（n≥1 时才有二项），m=0 与 m≥1 必须分开处理，否则求和下限写错",
+   "existing_operator_matches": [
+    {
+     "operator_id": "EXACT_ELIMINATION",
+     "is_primary_move": true,
+     "why": "对中间变量 N 求和把它精确消去"
+    },
+    {
+     "operator_id": "SHARED_WORLD_EMBEDDING",
+     "is_primary_move": true,
+     "why": "把 M 嵌入到由 N 参数化的条件世界，再对各世界加权"
+    },
+    {
+     "operator_id": "NORMALIZE",
+     "is_primary_move": false,
+     "why": "用 C_n^m/n!=1/(m!(n-m)!) 把求和项归一化成标准指数级数"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1\nreasoning_source: 本例无「良哥解读」；excerpt 取自解析（连续原文，含公式块），它明确把 n=0 与 n≥1 分成两支求和——这正是本条的核心结构动作。但它是解析而非方法小结，故计 E1。\n检索标签: 条件分布 / 边缘化 / 混合分布 / 泊松稀释\n强化篇侧样本。基础篇 ch03 有同一问题结构的**基础阶段版本**：「起点站上客人数 X~P(λ)，每位乘客下车概率 p 且相互独立，求 (X,Y) 的联合分布」——基础篇只要求写出联合分布（条件分布律 × 边缘分布律），强化篇则要求把中间变量求和消去得到边缘分布。两条已分别立为 Episode，构成 E4 候选对照（详见 notes.md）。\nCANDIDATE_NEW_OPERATOR 出现题数（本 worker 视野内）: 7 —— 强化 ch03 例3.7 / 例3.29"
+  },
+  {
+   "problem_id": "M8-014",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "main_obstacle": "Y 不是 X_1,X_2,X_3 的固定函数，而是「按 X_3 随机选择来源」的混合体；两个分支下 (X_1,Y) 的依赖结构截然不同（一个完全耦合、一个独立），因此联合分布函数必须按 X_3 的取值分区后分别计算再加权，无法用一个统一的表达式处理",
+   "existing_operator_matches": [
+    {
+     "operator_id": "RESTRICT_SLICE",
+     "is_primary_move": true,
+     "why": "按开关变量 X_3 把样本空间切片"
+    },
+    {
+     "operator_id": "SHARED_WORLD_EMBEDDING",
+     "is_primary_move": true,
+     "why": "把两个分支嵌入同一加权分布函数"
+    },
+    {
+     "operator_id": "GLUE_LOCAL_TO_GLOBAL",
+     "is_primary_move": false,
+     "why": "由分片结果拼出全局联合分布，再由全局取边缘"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1\nreasoning_source: 本例无「良哥解读」；excerpt 取自解析第一步（连续原文），它展示了「按 X_3=0/1 分区展开全概率」这一动作。但它是解析而非方法小结，故计 E1。\n检索标签: 随机选择器 / 混合分布 / 联合分布函数 / 开关分区\n强化篇侧样本。CANDIDATE_NEW_OPERATOR 出现题数（本 worker 视野内）: 7（同 M8-011）。\nconfidence 说明: 降为 medium。\nUNKNOWN 子步骤: 「X_3=1 分支必须取交集而非乘积」——该警示来自我对解析形态的反推，讲义没有原话点出这个易错点。"
+  },
+  {
+   "problem_id": "M8-016",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "main_obstacle": "目标是一个 n 阶行列式，展开有 n! 项，逐项求期望在组合上不可行；必须找到「期望」与「行列式」这两个运算之间的交换通道，而这条通道的合法性来自各元素相互独立这一前提",
+   "existing_operator_matches": [
+    {
+     "operator_id": "EXACT_ELIMINATION",
+     "is_primary_move": true,
+     "why": "用 Leibniz 展开把行列式化成可逐项处理的乘积和"
+    },
+    {
+     "operator_id": "AUXILIARY_OBJECT",
+     "is_primary_move": true,
+     "why": "引入期望矩阵 det(E X) 作为收口对象"
+    },
+    {
+     "operator_id": "BRIDGE_OBSERVABLE",
+     "is_primary_move": false,
+     "why": "只用一阶矩这一可观测量"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1\nreasoning_source: 本例无「良哥解读」；excerpt 取自解析（连续原文，含公式块），它明确用独立性把乘积的期望拆开——这是本条 operation 的关键一步。但它是解析而非方法小结，故计 E1。\n检索标签: 随机矩阵 / 行列式的期望 / Leibniz 展开 / 跨领域（线代 × 概率）\nUNKNOWN 子步骤: 「为什么会想到把结果重新识别为 det(E X) 而不是停在 2^n Σsgn(σ)」——讲义解析直接把求和写成了行列式，没有说明这一识别的动机；这一步依赖对 Leibniz 展开的双向熟悉度，属跨领域模式匹配，本 worker 无法从题面结构自然推出（E1 成分）。\nconfidence 说明: 降为 medium —— 上述识别步骤的 trigger 不是题面可观察的。\n跨领域价值: 本条是本 worker 唯一一"
+  },
+  {
+   "problem_id": "M8-017",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "main_obstacle": "X 与 Y 通过「三类结果互斥」这一约束耦合：一次试验里 A_1 发生则 A_2 不发生，负相关是必然的，但相关系数的计算需要一个能反映这种耦合的桥梁；直接算联合分布表繁琐，而 D(X+Y) 又因不独立而不可拆",
+   "existing_operator_matches": [
+    {
+     "operator_id": "SPACE_AUGMENTATION",
+     "is_primary_move": true,
+     "why": "补出第三类结果 Z，扩大样本空间"
+    },
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": true,
+     "why": "把 D(X+Y) 替换为 D(Z)"
+    },
+    {
+     "operator_id": "EXACT_ELIMINATION",
+     "is_primary_move": false,
+     "why": "用 D 相等把表达式中的 D(Z) 消去"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1\nreasoning_source: 本例无「良哥解读」；excerpt 取自本章「考点及方法小结」中协方差三种算法的第 ② 条（连续原文）。它给出了本题实际使用的算法，但没有说明「为什么要补出 Z」——补 Z 这一步是本 worker 从解析反推的，故整体计 E1（尽管 excerpt 本身来自方法小结）。\nocr_note: excerpt 中「若随机变量的方差 D(X),D(Y) 及」一段，源文件此处**缺少开区间定界符 `$`**（OCR 丢字），本 worker 按「evidence_excerpt 必须逐字连续」的要求保留源文件原样，未补 `$`。\nadditional_evidence (连续原文, 同文件 line 847): 又 $D(X+Y)=D(X)+D(Y)+2\\mathrm{cov}(X,Y)$ ,故 $\\mathrm{cov}"
+  },
+  {
+   "problem_id": "M8-019",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "main_obstacle": "损坏概率 B 只在电压的三个区间上以条件概率给出，而电压是连续变量：连续统本身不能承载「分片常数」的条件概率，必须先把连续样本空间按题面给出的区间粗粒化成有限个完备事件，才能让全概率公式有落脚点",
+   "existing_operator_matches": [
+    {
+     "operator_id": "RESTRICT_SLICE",
+     "is_primary_move": true,
+     "why": "把连续样本空间按区间切成有限片"
+    },
+    {
+     "operator_id": "GLUE_LOCAL_TO_GLOBAL",
+     "is_primary_move": true,
+     "why": "用全概率把分片信息拼成全局概率"
+    },
+    {
+     "operator_id": "SHARED_WORLD_EMBEDDING",
+     "is_primary_move": false,
+     "why": "把 B 嵌入到由 Ai 参数化的条件世界再加权"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1\nreasoning_source: 强化篇 ch02 本例无「良哥解读」；excerpt 取自解析（连续原文），它明确声明「A1,A2,A3 可以构成一个完备事件组」，这是本条 operation 的直接来源。但它是解析而非方法小结，故计 E1。\n**跨文件佐证（非本条 excerpt，仅作 additional_evidence，出处为 `讲义/概率论与数理统计/02_强化篇/第01章_随机事件和概率.md` line 289，属另一文件，故不计入本条证据等级）**：②若一个试验可以看成分两个阶段完成,第一个阶段的具体结果未知,但所有可能结果已知,求第二个阶段某个结果发生的概率,用全概率公式.全概率公式的关键是完全事件组,第一个阶段的所有可能结果即为完全事件组\n检索标签: 全概率 / 贝叶斯 / 连续样本空间分区 / 粗粒化\n强化篇侧样本。CANDI"
+  },
+  {
+   "problem_id": "M8-022",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "main_obstacle": "题面给的是一个「具名分布」的记号，而中心极限定理要求「独立同分布之和」这一结构；两者形式不匹配，必须先把具名分布按定义展开成和，才能让定理的条件与结论都有落脚点",
+   "existing_operator_matches": [
+    {
+     "operator_id": "STATE_REREPRESENTATION",
+     "is_primary_move": true,
+     "why": "把具名分布重表示为独立同分布之和"
+    },
+    {
+     "operator_id": "SPACE_AUGMENTATION",
+     "is_primary_move": true,
+     "why": "补出 200 个隐分量，扩大样本空间"
+    },
+    {
+     "operator_id": "NORMALIZE",
+     "is_primary_move": false,
+     "why": "标准化后读标准正态分布函数"
+    }
+   ],
+   "notes_excerpt": "evidence_level: E1\nreasoning_source: 本例无「良哥解读」；excerpt 取自解析（连续原文），它明确执行了「按 χ² 定义把 X 展开成 200 个独立标准正态平方和」这一步。但它是解析而非方法小结，故计 E1。\n检索标签: 中心极限定理 / 具名分布展开 / χ² 分布 / 标准化\nUNKNOWN 子步骤: 「为什么会想到去展开 χ²(200)」——题面只说「由中心极限定理」，触发这一动作的信息来自**题面的元信息（点名定理）**与对 χ² 定义的记忆，而不是题面自身的结构特征。因此本条 trigger_signals 的第 1 条是题面可观察的，但第 2 条依赖外部知识。这是本 worker 唯一一条 trigger 部分依赖题面之外信息的 Episode。\nconfidence 说明: 降为 medium。\n强化篇侧样本。基础篇 ch05 的同族"
+  }
+ ],
+ "no_match": []
+}

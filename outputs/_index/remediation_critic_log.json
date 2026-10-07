@@ -1,0 +1,52 @@
+{
+ "applied": true,
+ "fixes_in_spec": 5,
+ "records_changed": 5,
+ "log": [
+  {
+   "worker": "C2",
+   "problem_id": "C2-018",
+   "kind": "set_notes_evidence_level",
+   "reason": "Critic 判定：摘录是『结论式定义陈述』（分页/分段的目的），主算子 INFORMATION_AXIS_DECOMPOSITION 在摘录里无对应文字支撑 → 属『从答案反推』而非『材料明说』。",
+   "source": "critic/c2c3c4m7.md（C2 的 E2 是否偏高）",
+   "changed": true,
+   "note": "evidence_level E2 -> E1"
+  },
+  {
+   "worker": "C2",
+   "problem_id": "C2-020",
+   "kind": "set_notes_evidence_level",
+   "reason": "Critic 判定：摘录是『题面场景续写 + 反问』，主算子（逻辑删除/物理删除两阶段）那句话在源文件 L539，未被引 → 属『从答案反推』。",
+   "source": "critic/c2c3c4m7.md（C2 的 E2 是否偏高）",
+   "changed": true,
+   "note": "evidence_level E2 -> E1"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-012",
+   "kind": "strip_token_from_operation",
+   "reason": "Critic A-3 问题 2：STRUCTURAL_PROGRESS 已被 OPERATOR_DEFINITIONS §2/§4 与 mixed_m5m6m8c1.md 判定『语义过泛、建议废弃』（实测 n=1），不应出现在描述动作的位置。worker 的 notes L135 声称已移除，但只改了 existing_operator_matches，未改 key_transitions[].operation。",
+   "source": "critic/c2c3c4m7.md A-3",
+   "changed": true,
+   "note": "从 operation 中移除 STRUCTURAL_PROGRESS（1 处）"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-015",
+   "kind": "strip_token_from_operation",
+   "reason": "Critic A-3 附带：PROXY_OBJECTIVE_DRIFT 是 SPEC §8 的 anti-operator（描述失败），不应出现在描述『动作』的位置。",
+   "source": "critic/c2c3c4m7.md A-3",
+   "changed": true,
+   "note": "从 operation 中移除 PROXY_OBJECTIVE_DRIFT（1 处）"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-015",
+   "kind": "drop_operator_match",
+   "reason": "Critic A-3 问题 1：TARGET_DRIFT 是 SPEC §8 的 anti-operator，被放进 existing_operator_matches（母算子数组）。且被用反了方向——TARGET_DRIFT 描述解题者的失败，而本条描述的是历史上 CISC 设计目标的修正（产业史，非解题失败）。",
+   "source": "critic/c2c3c4m7.md A-3 + _index/vocabulary_placement.md",
+   "changed": true,
+   "note": "移除母算子数组中的 TARGET_DRIFT（2 -> 1 条）"
+  }
+ ]
+}

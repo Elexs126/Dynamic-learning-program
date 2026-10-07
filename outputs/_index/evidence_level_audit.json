@@ -1,0 +1,226 @@
+{
+ "total_episodes": 279,
+ "evidence_level_distribution": {
+  "E2": 212,
+  "E1": 67
+ },
+ "by_worker": {
+  "C1": {
+   "E2": 20,
+   "E1": 4
+  },
+  "C2": {
+   "E2": 23,
+   "E1": 3
+  },
+  "C3": {
+   "E2": 20,
+   "E1": 4
+  },
+  "C4": {
+   "E2": 24
+  },
+  "M1": {
+   "E2": 17,
+   "E1": 5
+  },
+  "M2": {
+   "E2": 14,
+   "E1": 8
+  },
+  "M3": {
+   "E2": 23,
+   "E1": 2
+  },
+  "M4": {
+   "E2": 17,
+   "E1": 5
+  },
+  "M5": {
+   "E2": 16,
+   "E1": 4
+  },
+  "M6": {
+   "E1": 14,
+   "E2": 6
+  },
+  "M7": {
+   "E2": 21,
+   "E1": 5
+  },
+  "M8": {
+   "E2": 11,
+   "E1": 13
+  }
+ },
+ "e1_total": 67,
+ "e1_with_cross_file_candidate": 15,
+ "suspects": [
+  {
+   "problem_id": "C3-023",
+   "worker": "C3",
+   "domain": "计算机组成原理",
+   "markers_in_notes": [
+    "注意"
+   ],
+   "confidence": "medium",
+   "repo_path": "讲义/计算机组成原理/第05章_中央处理器.md",
+   "notes_excerpt": "evidence_level: E1 题型标签：概念/计算；考点追踪：超流水线（讲义第2175、2204、2208 行）、基本流水线与超标量流水线 CPU 的 CPI（2020）、超标量流水线的特性（2017） ocr_fixed: 无。本条不涉及位宽/地址位数，无需恢复。 additional_evidence（逐字，讲义/计算机组成原理/第05章_中央处理器.md L2163-L2163）：在理想情况下：超流水线CPU在流水线充满后，每个时钟周期完成一条指令，CPI=1，但主频更高；多发射CPU每个时钟周期可完"
+  },
+  {
+   "problem_id": "M1-015",
+   "worker": "M1",
+   "domain": "高等数学",
+   "markers_in_notes": [
+    "分析"
+   ],
+   "confidence": "medium",
+   "repo_path": "讲义/高等数学/01_强化篇/第02讲_数列极限.md",
+   "notes_excerpt": "evidence_level: E1; 题型标签：夹逼准则／最大项主导／L^∞ 范数。降级理由：本条【没有「分析」段】，讲义只有解题步骤与一句「注这是一个结论，应当记住.」（第529行）——即材料自己也没解释「为什么会想到答案是 max」，故「主导项/最大项」的框架是我从解答反推的（E1）。additional_evidence: 「注这是一个结论，应当记住.」（第529行）。"
+  },
+  {
+   "problem_id": "M1-017",
+   "worker": "M1",
+   "domain": "高等数学",
+   "markers_in_notes": [
+    "分析"
+   ],
+   "confidence": "medium",
+   "repo_path": "讲义/高等数学/01_强化篇/第02讲_数列极限.md",
+   "notes_excerpt": "evidence_level: E1; 题型标签：先猜后证／不动点。降级理由：讲义「分析」（第636行）明确表达的只是「用单调有界准则、先证存在再求极限」这条常规路线；而「必须先造不动点 ξ 当靶子，否则无从谈下界」这一层是我从解答结构反推的（E1）。additional_evidence: 「注题目解答过程需要背诵.」（第742行）。"
+  },
+  {
+   "problem_id": "M2-013",
+   "worker": "M2",
+   "domain": "高等数学",
+   "markers_in_notes": [
+    "分析"
+   ],
+   "confidence": "medium",
+   "repo_path": "讲义/高等数学/01_强化篇/第06讲_一元函数微分学的应用_二__中值定理_微分等式与微分不等式.md",
+   "notes_excerpt": "evidence_level: E1；confidence medium。题型标签：双中值点/乘积条件逆向设计。E 级理由：习题只有解答，无“分析”行 additional_evidence（逐字，讲义/高等数学/01_强化篇/第06讲_一元函数微分学的应用_二__中值定理_微分等式与微分不等式.md L1007）：f^{\\prime}(\\eta)=\\frac{f(\\xi)-f(0)}{\\xi}=\\frac{1-\\xi}{\\xi}, f^{\\prime}(\\tau)=\\frac{f(1)-f(\\xi)}{1-\\xi"
+  },
+  {
+   "problem_id": "M3-014",
+   "worker": "M3",
+   "domain": "高等数学",
+   "markers_in_notes": [
+    "分析"
+   ],
+   "confidence": "unknown",
+   "repo_path": "讲义/高等数学/01_强化篇/第10讲_一元函数积分学的应用_一__几何应用.md",
+   "notes_excerpt": "evidence_level: E1. 题型标签：绕非坐标轴旋转 / 平行截面原理 / 公式前提验证。 additional_evidence（逐字，L612）：分析 $r = \\frac{\\sqrt{x} - x}{\\sqrt{2}}$ additional_evidence（逐字，L614）：取微元： $\\mathrm{d}V = \\pi \\cdot \\left( \\frac{\\sqrt{x} - x}{\\sqrt{2}} \\right)^{2} \\cdot \\sqrt{2} \\mathrm{d}x$ $\\fr"
+  },
+  {
+   "problem_id": "M5-008",
+   "worker": "M5",
+   "domain": "高等数学",
+   "markers_in_notes": [
+    "分析"
+   ],
+   "confidence": "medium",
+   "repo_path": "讲义/高等数学/01_强化篇/第15讲_微分方程.md",
+   "notes_excerpt": "evidence_level: E1（解答给出了求导这一步，但没有写出'为什么要先极坐标化、求导时换元对齐尺度'的分析文字，关键动作是事后从解答推断的）；题型标签：积分方程转微分方程、极坐标、一阶线性。evidence_excerpt 为讲义第 1476 行单行逐字原文。additional_evidence: 第 1467 行 '15.10 解 显然f(0) =1.由'；第 1470 行 '\\iint _ { x ^ { 2 } + y ^ { 2 } \\leq 4 t ^ { 2 } } f \\left( \\f"
+  },
+  {
+   "problem_id": "M6-001",
+   "worker": "M6",
+   "domain": "高等数学",
+   "markers_in_notes": [
+    "方法总结"
+   ],
+   "confidence": "medium",
+   "repo_path": "核心真题/数学一/2013年全国硕士研究生招生考试数学一真题.md",
+   "notes_excerpt": "evidence_level: E1。confidence=medium 的理由：真题解析只给出计算（求 S''、换指标、用递推化为 0），从未说明'为什么取二阶导'；'shift=2 与 n(n-1) 权重同阶匹配'是我据题面结构作出的抽象，属事后推断，故不升为 E2。题型标签：抽象递推型幂级数和函数。 additional_evidence（逐字，讲义/高等数学/01_强化篇/第16讲_无穷级数.md L1384-L1384）：方法总结当幂函数是抽象形式，但给出了递推公式时，可以考虑求导，建立微分方程，该方法也"
+  },
+  {
+   "problem_id": "M6-012",
+   "worker": "M6",
+   "domain": "高等数学",
+   "markers_in_notes": [
+    "分析"
+   ],
+   "confidence": "medium",
+   "repo_path": "核心真题/数学一/2018年全国硕士研究生招生考试数学一真题.md",
+   "notes_excerpt": "evidence_level: E1。confidence=medium 的理由：真题解析把拆分写出来了，但拆分规则来自讲义中**另一道例题**（Σ(-1)^n(2n+2)/(2n+1)!）的 `注`，不是本题自己的分析文字；本题没有解释为何按 (2n+1) 拆。 additional_evidence（逐字，讲义/高等数学/01_强化篇/第16讲_无穷级数.md L1623-L1623）：因为分母是(2n+1)！，所以分子拆为2n+1+1。 additional_evidence（逐字，讲义/高等数学/01_强化"
+  },
+  {
+   "problem_id": "M6-017",
+   "worker": "M6",
+   "domain": "高等数学",
+   "markers_in_notes": [
+    "分析"
+   ],
+   "confidence": "high",
+   "repo_path": "核心真题/数学一/2014年全国硕士研究生招生考试数学一真题.md",
+   "notes_excerpt": "evidence_level: E1。真题解析给出 `方法一`（和差化积 + 比较）与 `方法二`（比值极限 + 比较）两条完整路径，但无方法性叙述文字，故为 E1。题型标签：隐式定义数列、比阶判敛。 additional_evidence（逐字，讲义/高等数学/01_强化篇/第16讲_无穷级数.md L331-L331）：(1) $\\lim_{n \\to \\infty} a_n = 0$ ；常见题型： ，题型归纳不是关键，要学会分析题目，回归定义与性质(2) 级数 $\\sum_{n = 1}^{\\infty}\\f"
+  },
+  {
+   "problem_id": "M8-004",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "markers_in_notes": [
+    "良哥解读"
+   ],
+   "confidence": "medium",
+   "repo_path": "讲义/概率论与数理统计/01_基础篇/第03章_多维随机变量及其分布.md",
+   "notes_excerpt": "evidence_level: E1 reasoning_source: 该例题本身无「良哥解读」；上面的 excerpt 取自同节基础知识的推导原文（连续原文），它确实展示了「min ⇒ 补事件 ⇒ 合取 ⇒ 独立拆乘积」这一结构动作，但它是对公式的推导而非对本题思路的评述，故按 E1 计。 additional_evidence (连续原文, 同文件 line 1186): 即有 $F_{M}(z) = F_{X}(z)F_{Y}(z)$ 检索标签: max/min 分布 / 极值运算 / 合取改写 基础篇侧样"
+  },
+  {
+   "problem_id": "M8-005",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "markers_in_notes": [
+    "良哥解读"
+   ],
+   "confidence": "high",
+   "repo_path": "讲义/概率论与数理统计/01_基础篇/第03章_多维随机变量及其分布.md",
+   "notes_excerpt": "evidence_level: E1 reasoning_source: 本例无「良哥解读」；excerpt 取自解析中法二的第一句（连续原文），它明确给出了「连续性 ⇔ 该点无质量」这一等价刻画，是本条 operation 的直接来源。但它是解析而非方法小结，故按 E1 计。 additional_evidence (连续原文, 同文件 line 1323): P\\left\\{ Z = 0 \\right\\} &= P\\left\\{ XY = 0 \\right\\} = P\\left\\{ X = 0 \\cup Y ="
+  },
+  {
+   "problem_id": "M8-009",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "markers_in_notes": [
+    "良哥解读"
+   ],
+   "confidence": "medium",
+   "repo_path": "讲义/概率论与数理统计/02_强化篇/第01章_随机事件和概率.md",
+   "notes_excerpt": "evidence_level: E1 reasoning_source: 强化篇 ch01 本例无「良哥解读」；excerpt 取自解析（连续原文），它展示了「独立性传递到补事件」这一步，但没有说明为什么想到用减法公式消去 P(AB)。故计 E1。 additional_evidence (连续原文, 同文件 line 289): ②若一个试验可以看成分两个阶段完成,第一个阶段的具体结果未知,但所有可能结果已知,求第二个阶段某个结果发生的概率,用全概率公式.全概率公式的关键是完全事件组,第一个阶段的所有可能结果即为"
+  },
+  {
+   "problem_id": "M8-017",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "markers_in_notes": [
+    "良哥解读",
+    "考点及方法小结"
+   ],
+   "confidence": "medium",
+   "repo_path": "讲义/概率论与数理统计/02_强化篇/第04章_随机变量的数字特征.md",
+   "notes_excerpt": "evidence_level: E1 reasoning_source: 本例无「良哥解读」；excerpt 取自本章「考点及方法小结」中协方差三种算法的第 ② 条（连续原文）。它给出了本题实际使用的算法，但没有说明「为什么要补出 Z」——补 Z 这一步是本 worker 从解析反推的，故整体计 E1（尽管 excerpt 本身来自方法小结）。 ocr_note: excerpt 中「若随机变量的方差 D(X),D(Y) 及」一段，源文件此处**缺少开区间定界符 `$`**（OCR 丢字），本 worker 按「e"
+  },
+  {
+   "problem_id": "M8-019",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "markers_in_notes": [
+    "良哥解读"
+   ],
+   "confidence": "medium",
+   "repo_path": "讲义/概率论与数理统计/02_强化篇/第02章_一维随机变量及其分布.md",
+   "notes_excerpt": "evidence_level: E1 reasoning_source: 强化篇 ch02 本例无「良哥解读」；excerpt 取自解析（连续原文），它明确声明「A1,A2,A3 可以构成一个完备事件组」，这是本条 operation 的直接来源。但它是解析而非方法小结，故计 E1。 **跨文件佐证（非本条 excerpt，仅作 additional_evidence，出处为 `讲义/概率论与数理统计/02_强化篇/第01章_随机事件和概率.md` line 289，属另一文件，故不计入本条证据等级）**：②若一个"
+  },
+  {
+   "problem_id": "M8-021",
+   "worker": "M8",
+   "domain": "概率论与数理统计",
+   "markers_in_notes": [
+    "良哥解读"
+   ],
+   "confidence": "high",
+   "repo_path": "讲义/概率论与数理统计/02_强化篇/第07章_参数估计.md",
+   "notes_excerpt": "evidence_level: E1 reasoning_source: 本例无「良哥解读」；excerpt 取自解析（连续原文），它明确展示了「支撑约束 ⇒ 可行域边界 ⇒ 取 max」这一动作。但它是解析而非方法小结，故计 E1。 additional_evidence (连续原文, 同文件 line 211): 两边再对θ求导，得 $\\frac{\\mathrm{d}}{\\mathrm{d}\\theta}\\ln L(\\theta)=$ $-\\frac{n}{\\theta} < 0$ ,故 L(θ) 单调递减. "
+  }
+ ]
+}

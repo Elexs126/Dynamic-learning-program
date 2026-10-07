@@ -1,0 +1,28 @@
+{
+ "mother_vocab_size": 34,
+ "anti_vocab_size": 16,
+ "counts": {
+  "ANTI_OPERATOR_IN_MOTHER_ARRAY": 1,
+  "PLACEHOLDER_IN_MOTHER_ARRAY": 1
+ },
+ "items": [
+  {
+   "problem_id": "M1-014",
+   "worker": "M1",
+   "index": 2,
+   "operator_id": "MISSING_SHARED_WITNESS",
+   "kind": "ANTI_OPERATOR_IN_MOTHER_ARRAY",
+   "is_primary_move": false,
+   "suggested_fix": "移入 naive_routes[].failure_type（它是 anti-operator）"
+  },
+  {
+   "problem_id": "M2-021",
+   "worker": "M2",
+   "index": 1,
+   "operator_id": "UNKNOWN",
+   "kind": "PLACEHOLDER_IN_MOTHER_ARRAY",
+   "is_primary_move": false,
+   "suggested_fix": "移出数组，改由 notes / possible_new_operator 表达"
+  }
+ ]
+}

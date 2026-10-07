@@ -1,0 +1,376 @@
+{
+ "applied": true,
+ "fixes_in_spec": 41,
+ "records_changed": 41,
+ "log": [
+  {
+   "worker": "C3",
+   "problem_id": "C3-002",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-003",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-004",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-005",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-006",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-008",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-010",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-012",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-013",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-014",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-015",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-016",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-017",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-018",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-019",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-020",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-021",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-022",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-023",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C3",
+   "problem_id": "C3-024",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-001",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-003",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-004",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-006",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-007",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-009",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-010",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-011",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-012",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-014",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-015",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-016",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-017",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-019",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-020",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-021",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-022",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-023",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "C4",
+   "problem_id": "C4-024",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "M3",
+   "problem_id": "M3-006",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  },
+  {
+   "worker": "M3",
+   "problem_id": "M3-007",
+   "kind": "set_field",
+   "reason": "408 组 Critic（c2c3c4m7.md A-1）发现：部分条目的 evidence_excerpt 与 raw_problem 大面积重合，即\"题面\"与\"证据\"是同一段文字，会使 E2（材料明确陈述该思路）退化为自证，并使 trigger 的题面可观察性不可判定。本字段只记录**可测量的事实**（excerpt 落在 raw_problem 内），不判定题面真伪。",
+   "source": "critic/c2c3c4m7.md A-1 + _index/episode_basis.md",
+   "changed": true,
+   "note": "basis_flag: None -> 'evidence_excerpt_within_raw_problem'"
+  }
+ ]
+}
