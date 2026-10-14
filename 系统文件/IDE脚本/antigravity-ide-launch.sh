@@ -10,6 +10,7 @@ REPAIR_SCRIPT=""
 CANDIDATES=(
     "$SCRIPT_DIR/agy-repair-conversations.py"
     "$HOME/.local/share/antigravity-ide/scripts/agy-repair-conversations.py"
+    "$HOME/My Material/Dynamic-learning-program/系统文件/IDE脚本/agy-repair-conversations.py"
     "$HOME/Dynamic-learning-program/系统文件/IDE脚本/agy-repair-conversations.py"
 )
 
@@ -27,7 +28,7 @@ if [ -n "$REPAIR_SCRIPT" ]; then
     
     # Run repair and capture output to log as well as stdout if running interactively
     if [ -t 1 ]; then
-        python3 "$REPAIR_SCRIPT" 2>&1 | tee -a "$LOG_FILE" | head -20
+        python3 "$REPAIR_SCRIPT" 2>&1 | tee -a "$LOG_FILE" | head -30
     else
         python3 "$REPAIR_SCRIPT" >> "$LOG_FILE" 2>&1
     fi
