@@ -1,5 +1,6 @@
 """Small, evidence-based extensions to the existing daily learning loop."""
 from datetime import datetime
+from collections import defaultdict
 
 import learning_runtime as lr
 
@@ -71,9 +72,15 @@ def primary(q, mapping):
 
 
 def aliases(records, mapping):
-    # A legacy whole-question score cannot certify separate parts of a composite.
-    return {knowledge(records[qid]): link['primary_ability_id'] for qid, link in mapping['questions'].items()
-            if link['score_supports_primary']}
+    # A legacy tag is an alias only when every question carrying it supports
+    # the same observable ability. One checked question cannot rename a broader
+    # tag, and a composite whole score cannot certify its separate parts.
+    routes = defaultdict(set)
+    for qid, q in records.items():
+        kid = knowledge(q)
+        link = mapping['questions'].get(qid)
+        routes[kid].add(link['primary_ability_id'] if link and link['score_supports_primary'] else kid)
+    return {kid: next(iter(ids)) for kid, ids in routes.items() if len(ids) == 1 and kid not in ids}
 
 
 def observations(a, q, mapping):

@@ -28,8 +28,9 @@ from zoneinfo import ZoneInfo
 
 import learning_runtime as lr
 import learning_actions as la
+import method_reuse as mr
 
-VERSION = 'daily-practice-v1.1.0'
+VERSION = 'daily-practice-v1.2.0'
 CONFIG = '系统文件/系统配置/daily_practice_policy_v1.json'
 SELECTOR = '系统文件/系统配置/annotation_sources_current_v1.json'
 ROOT = '系统文件/学习运行/每日练习'
@@ -66,8 +67,9 @@ def validate_attempts(project, rows, records):
     spec.loader.exec_module(validator)
     schema_class = lr.schema_runtime(project).__class__
     schemas = {'attempt-record-v1.0.0': schema_class(project / '系统文件/数据规范/attempt_record.schema.json')}
-    mapping = la.load_map(project, records) if any(isinstance(r, dict) and r.get('schema_version') == 'attempt-record-v1.1.0' for r in rows) else {'questions': {}}
-    ids, errors, by_question, batches = set(), [], defaultdict(list), defaultdict(list)
+    mapping = la.load_map(project, records) if any(isinstance(r, dict) and (
+        r.get('schema_version') == 'attempt-record-v1.1.0' or r.get('is_mixed')) for r in rows) else {'questions': {}}
+    ids, errors, by_question, by_stem, batches = set(), [], defaultdict(list), defaultdict(list), defaultdict(list)
     for i, row in enumerate(rows, 1):
         version = row.get('schema_version') if isinstance(row, dict) else None
         if version == 'attempt-record-v1.1.0' and version not in schemas:
@@ -103,15 +105,32 @@ def validate_attempts(project, rows, records):
         except (ValueError, TypeError) as exc:
             errors.append(f'第{i}条: {exc}')
         by_question[row['question_id']].append(row)
+        if q is not None:
+            by_stem[q['l0']['question_hash_sha256']].append(row)
         if row['is_mixed']:
             batches[row['batch_id']].append(row)
     for qid, qs in by_question.items():
         ordered = sorted(qs, key=lambda a: aware(a['attempted_at']))
         if any(a['is_unseen'] for a in ordered[1:]):
             errors.append('重复题不能仍标陌生: ' + qid)
+    for qs in by_stem.values():
+        ordered = sorted(qs, key=lambda a: aware(a['attempted_at']))
+        if len({a['question_id'] for a in qs}) > 1 and any(a['is_unseen'] for a in ordered[1:]):
+            errors.append('同题干的其他题号不能再次标陌生: ' + ordered[-1]['question_id'])
     for batch, qs in batches.items():
-        if len({a['question_id'] for a in qs}) < 2 or len({a['target_ability_id'] for a in qs if a['target_ability_id']}) < 2:
+        # Legacy labels can now be aliases of the very same capability. The
+        # actual observed targets, not different spellings, define diversity.
+        targets = set()
+        for a in qs:
+            q = records.get(a['question_id'])
+            if q is not None:
+                targets.add(a['target_ability_id'] if a['schema_version'] == 'attempt-record-v1.1.0'
+                            else la.observations(a, q, mapping)[0]['ability_id'])
+        targets.discard(None)
+        if len({a['question_id'] for a in qs}) < 2 or len(targets) < 2:
             errors.append('混合题组必须含至少两题及两个目标能力: ' + str(batch))
+        if len({a['exam_track'] for a in qs}) > 1:
+            errors.append('混合题组必须在同一学科内检查调用: ' + str(batch))
     if errors:
         raise ValueError('作答日志校验失败: ' + '; '.join(errors[:12]))
 
@@ -206,8 +225,9 @@ def derive_state(records, rows, summaries, as_of, threshold, mapping=None):
             'notes': ['整科总分不推导单项掌握；训练反馈不自动激活独立认证；未观察五维保持null。']}, usable
 
 
-def validate_teacher_plan(plan, records, mapping=None):
+def validate_teacher_plan(plan, records, mapping=None, methods=None):
     mapping = mapping or {'abilities': {}, 'questions': {}}
+    methods = methods or {'methods': {}}
     if not isinstance(plan, dict) or set(plan) - {'version', 'effective_week_start', 'weekly_allocation', 'subjects'}:
         raise ValueError('Teacher计划只接受版本、预算周、周分配及subjects')
     if plan.get('version') != 'daily-teacher-plan-v1':
@@ -219,7 +239,7 @@ def validate_teacher_plan(plan, records, mapping=None):
     scopes = {scope(q): q['l0']['exam_track'] for q in records.values()}
     fields = {'priority_knowledge_ids', 'required_knowledge_ids', 'working_knowledge_ids',
               'frontier_scopes', 'exclude_question_ids', 'practice_minutes', 'mode',
-              'priority_ability_ids', 'required_ability_ids', 'working_ability_ids'}
+              'priority_ability_ids', 'required_ability_ids', 'working_ability_ids', 'preferred_method_ids'}
     for track, subject in plan.get('subjects', {}).items():
         if not isinstance(subject, dict) or set(subject) - fields:
             raise ValueError('未知Teacher学科计划字段')
@@ -234,6 +254,11 @@ def validate_teacher_plan(plan, records, mapping=None):
                 continue
             if not isinstance(values, list) or any(not isinstance(v, str) for v in values):
                 raise ValueError(key + '必须为字符串数组')
+            if key == 'preferred_method_ids':
+                if len(set(values)) != len(values) or any(mid not in methods['methods'] or
+                        methods['methods'][mid]['exam_track'] != track for mid in values):
+                    raise ValueError('优先方法重复、未知或跨科')
+                continue
             universe = scopes if key == 'frontier_scopes' else records if key == 'exclude_question_ids' else known
             if any(v not in universe for v in values):
                 raise ValueError(key + '含未知题号/知识点/章节')
@@ -332,8 +357,10 @@ def scope_order(navigation, records):
     return order
 
 
-def prepare_candidates(project, records, state, attempts, navigation, track, teacher):
+def prepare_candidates(project, records, state, attempts, navigation, track, teacher, methods=None):
     subject = teacher.get('subjects', {}).get(track, {})
+    method_index = mr.checked_index(methods, records) if methods else {}
+    preferred_methods = set(subject.get('preferred_method_ids', []))
     excluded, blocked_papers = role_exclusions(project, attempts)
     excluded.update(subject.get('exclude_question_ids', []))
     abilities, latest = state['abilities'], state['latest_questions']
@@ -415,13 +442,15 @@ def prepare_candidates(project, records, state, attempts, navigation, track, tea
         preferred_source = (l0['source_file'].startswith(('配套习题/张宇基础30讲/', '配套习题/张宇1000题/'))
                             if track == 'MATH1' else l0['source_file'].startswith('核心真题/'))
         seed = hashlib.sha256((str(state['as_of']) + qid).encode()).hexdigest()
+        matched_methods = sorted({link['method_id'] for link in method_index.get(qid, [])} & preferred_methods)
         # Current repaired mathematical sources are preferred within an equal
         # learning need. Source preference never overrides due/Teacher priorities.
         candidates.append({'question_id': qid, 'q': q, 'knowledge_id': kid, 'reason': reason,
                            'preparation': missing,
                            'ability_ids': sorted(ids),
+                           'preferred_method_ids': matched_methods,
                            'review_tasks': [t for t in due_tasks if t['ability_id'] == kid],
-                           'rank': (rank, 1 if qid in seen else 0, order.get(sc, 999), difficulty,
+                           'rank': (rank, 1 if qid in seen else 0, 0 if matched_methods else 1, order.get(sc, 999), difficulty,
                                     0 if preferred_source else 1, seed)})
     return sorted(candidates, key=lambda c: c['rank']), due, order
 
@@ -615,6 +644,7 @@ def select_paper(project, candidates, due, order, track, budget, speed, policy, 
                           'source_sha256': lr.sha(lr.inside(project, l0['source_file'])),
                           'scope': scope(q), 'knowledge_id': knowledge(q),
                           'target_ability_id': c['knowledge_id'], 'ability_ids': c.get('ability_ids', [c['knowledge_id']]),
+                          'preferred_method_ids': c.get('preferred_method_ids', []),
                           'reason': c['reason'], 'preparation': c.get('preparation', []),
                           'review_task_ids': [t['task_id'] for t in tasks],
                           'review_error_codes': sorted({t['error_code'] for t in tasks if t['error_code']}),
@@ -640,7 +670,8 @@ def build_day(project, as_of, teacher=None, new_rows=None):
     records, rows, summaries, navigation, selector = load_inputs(project)
     teacher = teacher or {'version': 'daily-teacher-plan-v1', 'subjects': {}}
     mapping = la.load_map(project, records)
-    validate_teacher_plan(teacher, records, mapping)
+    methods = mr.load_library(project, records)
+    validate_teacher_plan(teacher, records, mapping, methods)
     if new_rows:
         rows = rows + new_rows
         validate_attempts(project, rows, records)
@@ -653,15 +684,15 @@ def build_day(project, as_of, teacher=None, new_rows=None):
     papers = {}
     for track in TRACKS:
         speed = estimate_speed(records, usable, track, policy)
-        candidates, due, order = prepare_candidates(project, records, state, usable, navigation, track, teacher)
         scheduled = 'exam' if target.weekday() in policy.get('exam_weekdays', []) else 'maintenance' if target.weekday() in policy.get('maintenance_weekdays', []) else policy.get('default_mode', 'repair')
         mode = teacher.get('subjects', {}).get(track, {}).get('mode', scheduled)
         observed = {k for k, a in state['abilities'].items() if a['exam_track'] == track}
+        if mode == 'maintenance' and not observed:
+            mode = 'repair'  # no invented learner baseline
+        candidates, due, order = prepare_candidates(project, records, state, usable, navigation, track,
+                                                    teacher, methods if mode == 'repair' else None)
         if mode == 'maintenance':
-            if observed:
-                candidates = [c for c in candidates if c['knowledge_id'] in observed and not c['preparation']]
-            else:
-                mode = 'repair'  # no invented learner baseline
+            candidates = [c for c in candidates if c['knowledge_id'] in observed and not c['preparation']]
         if mode == 'exam':
             candidates = [c for c in candidates if not c['preparation']]
         papers[track] = select_paper(project, candidates, due, order, track, budgets[track], speed, policy, mode)
@@ -675,12 +706,14 @@ def build_day(project, as_of, teacher=None, new_rows=None):
             q['ordinary_cold_test_eligible'] = (mode == 'maintenance' and not q['was_attempted'] and not q['preparation'])
             q['last_learning_at'] = state['abilities'].get(q['target_ability_id'], {}).get('last_attempted_at')
         paper['learning_blocks'] = la.learning_blocks(paper, state, mapping)
+        paper['method_blocks'] = mr.learning_blocks(paper, methods, records)
         paper['unplaced_review_tasks'] = [t for t in state['review_tasks'] if t['exam_track'] == track and t['due'] and t['task_id'] not in paper.get('planned_review_task_ids', [])]
     result = {'version': VERSION, 'as_of': str(as_of), 'target_date': str(target),
               'learner_feedback_count': state['attempt_count'], 'state': state, 'papers': papers,
               'teacher_plan': teacher, 'policy': policy,
               'catalog_snapshot': selector['runtime_snapshot'],
-              'input_digest': digest({'attempts': rows, 'summaries': summaries, 'teacher': teacher, 'policy': policy, 'capability_map': mapping})}
+              'input_digest': digest({'attempts': rows, 'summaries': summaries, 'teacher': teacher,
+                                     'policy': policy, 'capability_map': mapping, 'method_library': methods})}
     return result, rows, new_rows or []
 
 
@@ -815,6 +848,13 @@ def write_artifacts(day, destination):
                 shown.add(item['mechanism_id'])
                 blocks.append('<p>' + html.escape(item['mechanism']['model']) + '</p><p>适用边界：' + html.escape(item['mechanism']['boundaries']) + '</p>')
             blocks.append('<p>要看到的改变：' + html.escape(item['expected_change']) + '。' + html.escape(item['verification']) + '。</p>')
+        for item in paper.get('method_blocks', []):
+            uses = '；'.join(q['question_id'] + ('（子步骤）' if q['extent'] == 'step' else '（完整路线）')
+                            for q in item['questions'])
+            blocks.append('<p><b>本次复用：' + html.escape(item['name']) + '</b>。' + html.escape(uses) + '</p>'
+                          + '<p>' + html.escape(item['principle']) + '</p><p>适用条件：'
+                          + html.escape(item['conditions']) + '</p><p>适用边界：'
+                          + html.escape(item['boundaries']) + '</p><p>' + html.escape(item['verification']) + '</p>')
         if paper['unplaced_review_tasks']:
             blocks.append('<p>仍有' + str(len(paper['unplaced_review_tasks'])) + '个到期能力或误区任务未安排；明日建议中保留清单。</p>')
         blocks.append('</section>')
@@ -828,6 +868,11 @@ def write_artifacts(day, destination):
                    '用途：' + la.MODES[p['mode']], '题型：' + '、'.join(f'{TYPE_NAMES[k]}{v}题' for k, v in p['counts'].items()), '', '[打开试卷](' + NAMES[track] + '.html)', '']
         for item in p['learning_blocks']:
             report += ['- ' + item['ability_name'] + '：' + item['action'], '  先确认：' + item['diagnostic_question'], '  预期改变：' + item['expected_change'], '  检查方式：' + item['verification']]
+        for item in p.get('method_blocks', []):
+            report += ['', '本次复用方法：' + item['name'], item['principle'],
+                       '适用条件：' + item['conditions'], '边界：' + item['boundaries'],
+                       '关联：' + '；'.join(q['question_id'] + ('（子步骤）' if q['extent'] == 'step' else '（完整路线）')
+                                        for q in item['questions']), item['verification'], '']
         for q in p['questions']:
             report.append(f'- {q["question_id"]}：{q["reason"]}；{q["scope"]}')
         preparation = {item['id']: item['name'] for q in p['questions'] for item in q['preparation']}
@@ -923,11 +968,21 @@ def main():
     check.add_argument('--output', type=Path, required=True)
     validate = sub.add_parser('validate-feedback')
     validate.add_argument('--feedback', type=Path, action='append', required=True)
+    methods = sub.add_parser('method-report', help='只读查询知识点与方法的多对多关系，不生成最优解')
+    methods.add_argument('--question')
+    methods.add_argument('--method')
+    methods.add_argument('--knowledge')
     args = parser.parse_args()
     try:
         project = args.project.resolve()
         if args.command == 'check':
             result = {'status': 'PASS', 'manifest': verify_frozen(args.output.resolve())}
+        elif args.command == 'method-report':
+            records, rows, _, _, _ = load_inputs(project)
+            library = mr.load_library(project, records)
+            excluded, blocked = role_exclusions(project, rows)
+            visible = {qid: q for qid, q in records.items() if qid not in excluded and q['l0']['paper_id'] not in blocked}
+            result = mr.report(library, visible, args.question, args.method, args.knowledge)
         elif args.command == 'validate-feedback':
             records, current, _, _, _ = load_inputs(project)
             supplied = [r for p in args.feedback for r in lr.jsonl(p.read_text(encoding='utf-8'))]

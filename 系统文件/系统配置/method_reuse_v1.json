@@ -1,0 +1,63 @@
+{
+  "version": "method-reuse-v1",
+  "methods": {
+    "MR_MATH1_PARTS": {
+      "name": "从乘积求导选择分部积分",
+      "exam_track": "MATH1",
+      "principle": "利用乘积求导的逆向关系，将一部分求导、另一部分积分；只有变换后更易处理或能使用已有边界信息时才继续。",
+      "conditions": "相关函数在所讨论区间满足分部积分的条件，能识别可求原函数的一部分及另一部分的导数；定积分保留上下限与端点值。",
+      "boundaries": "这是可复用的子过程，不能单独替代换元、读取题设边界或后续积分；同样用了分部积分，不代表整题同构或其他能力已经掌握。",
+      "decision_use": "Teacher在近期积分修补中复用同一操作，并分别检查选取依据、变换后的计算与端点信息，避免重新讲一套孤立技巧。"
+    },
+    "MR_MATH1_SUBSTITUTION": {
+      "name": "把复合表达式换成可直接处理的变量",
+      "exam_track": "MATH1",
+      "principle": "根据复合函数及其微分关系选择变量，整体改写被积函数和微分，再判断是否确实简化。",
+      "conditions": "核对变量变换、定义域和所用换元定理的条件；定积分同时换上下限，不定积分最后核对变量还原。",
+      "boundaries": "只改函数而漏改微分无效；有根式时还需检查实数定义域和分支。换元与分部积分可组合，不是互斥题型。",
+      "decision_use": "与分部积分分别检索、组合，比较当前解题所需的步骤；不以方法名称相似自动归一化答案。"
+    }
+  },
+  "links": [
+    {
+      "question_id": "M1-10-F-T10",
+      "method_id": "MR_MATH1_PARTS",
+      "question_hash_sha256": "79db2d6feb56a4e93a72033f1f3acdc7e080ae00c49e8b814d08e1a772bf30bb",
+      "status": "checked",
+      "extent": "step",
+      "basis": "2026-10-15 assistant_source_review：核对2010年数学一第10题原题与已核对L2的“先换元再连续分部积分”。仅确认这一步可用，未读取学生外部答案，未比较全部解法或判定个人最优。"
+    },
+    {
+      "question_id": "M1-10-F-T10",
+      "method_id": "MR_MATH1_SUBSTITUTION",
+      "question_hash_sha256": "79db2d6feb56a4e93a72033f1f3acdc7e080ae00c49e8b814d08e1a772bf30bb",
+      "status": "checked",
+      "extent": "step",
+      "basis": "2026-10-15 assistant_source_review：原题含根式复合的三角函数，可在核对微分及积分区间后换元；已有已核对L2亦记录先换元。仅确认子过程。"
+    },
+    {
+      "question_id": "M1-18-A-T15",
+      "method_id": "MR_MATH1_PARTS",
+      "question_hash_sha256": "c9e4ac380041f811888089652ee8fa0bc7c702dfd59fa43bda518b62544263ce",
+      "status": "checked",
+      "extent": "step",
+      "basis": "2026-10-15 assistant_source_review：核对2018年数学一第15题原题及已核对L2的“分部积分后指数根式换元”。这里只记录可复用步骤，不把该题剩余计算纳入共同模板，也不宣称最快。"
+    },
+    {
+      "question_id": "M1-18-A-T15",
+      "method_id": "MR_MATH1_SUBSTITUTION",
+      "question_hash_sha256": "c9e4ac380041f811888089652ee8fa0bc7c702dfd59fa43bda518b62544263ce",
+      "status": "checked",
+      "extent": "step",
+      "basis": "2026-10-15 assistant_source_review：题中指数根式与反三角函数支持在定义域内进行变量变换；已有已核对L2记录指数根式换元。不规定它与分部积分的唯一先后顺序。"
+    },
+    {
+      "question_id": "M1-18-F-T10",
+      "method_id": "MR_MATH1_PARTS",
+      "question_hash_sha256": "07a9b97339ebc426037982188f8a3dce6dcc8475a65d70916edf85fb953d69ab",
+      "status": "checked",
+      "extent": "step",
+      "basis": "2026-10-15 assistant_source_review：核对2018年数学一第10题原题、连续导数及相切条件和已核对L2。分部积分可使用导数边界信息，但读取边界条件仍是另外的观察目标。"
+    }
+  ]
+}

@@ -146,6 +146,29 @@ class EvidenceTests(unittest.TestCase):
         with patch.object(la, 'load_map', return_value=self.mapping):
             dp.validate_attempts(PROJECT, rows, self.records)
 
+    def test_legacy_names_of_same_capability_do_not_make_a_mixed_cold_test(self):
+        rows = [attempt(qid, target_ability_id='K' + qid, attempt_kind='cold_test',
+                        interval_hours=72, is_mixed=True, batch_id='C') for qid in ['Q1', 'Q2']]
+        with patch.object(la, 'load_map', return_value=self.mapping):
+            with self.assertRaisesRegex(ValueError, '两个目标能力'):
+                dp.validate_attempts(PROJECT, rows, self.records)
+
+    def test_duplicate_stem_under_another_id_is_not_unseen(self):
+        self.records['Q2']['l0']['question_hash_sha256'] = self.records['Q1']['l0']['question_hash_sha256']
+        with self.assertRaisesRegex(ValueError, '同题干'):
+            dp.validate_attempts(PROJECT, [attempt('Q1'), attempt('Q2')], self.records)
+
+    def test_alias_requires_agreement_of_every_question_with_that_tag(self):
+        for q in self.records.values():
+            q['l2']['main_knowledge']['id'] = 'K'
+        self.assertEqual(la.aliases(self.records, self.mapping), {'K': 'A'})
+        self.mapping['questions']['Q2']['score_supports_primary'] = False
+        self.assertEqual(la.aliases(self.records, self.mapping), {})
+        self.mapping['questions'].pop('Q2')
+        self.assertEqual(la.aliases(self.records, self.mapping), {})
+        split = mapping(self.records, {'Q1': ['A'], 'Q2': ['B'], 'Q3': ['A']})
+        self.assertEqual(la.aliases(self.records, split), {})
+
     def test_map_requires_unchanged_source_and_concrete_decision_use(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
