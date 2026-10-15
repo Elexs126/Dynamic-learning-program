@@ -1,0 +1,85 @@
+{
+  "version": "capability-map-v1",
+  "mechanisms": {
+    "MECH_CS408_OS_PAGE_FAULT": {
+      "name": "请求分页与指令重试",
+      "model": "一次访存所需页不在内存，当前指令无法完成；系统取得页框、调入页并更新映射后，恢复这次尚未完成的指令。",
+      "boundaries": "有空闲页框与必须置换是不同条件；合法缺页与地址越界是不同事件；共同机制不能替代对恢复位置、映射更新和置换条件的分别检查。",
+      "decision_use": "对相关题复用机制解释，按具体能力挑选变式和复习探针。"
+    }
+  },
+  "abilities": {
+    "AB_CS408_OS_FAULT_ACTIONS": {
+      "name": "识别缺页所需处理阶段",
+      "exam_track": "CS408",
+      "mechanism_id": "MECH_CS408_OS_PAGE_FAULT",
+      "decision_use": "选择调入、分配与页表更新的阶段检查。"
+    },
+    "AB_CS408_OS_REPLACEMENT": {
+      "name": "判断缺页时何时需要置换",
+      "exam_track": "CS408",
+      "mechanism_id": "MECH_CS408_OS_PAGE_FAULT",
+      "decision_use": "用有空闲页框和无空闲页框的对照检查条件。"
+    },
+    "AB_CS408_OS_ADDRESS_LEGALITY": {
+      "name": "区分合法缺页与越界",
+      "exam_track": "CS408",
+      "mechanism_id": "MECH_CS408_OS_PAGE_FAULT",
+      "decision_use": "分别观察合法缺页与地址保护的判断。"
+    },
+    "AB_CS408_OS_INSTRUCTION_RETRY": {
+      "name": "判断异常后的指令恢复位置",
+      "exam_track": "CS408",
+      "mechanism_id": "MECH_CS408_OS_PAGE_FAULT",
+      "decision_use": "合并2019与2021题的重试位置证据和复习。"
+    }
+  },
+  "questions": {
+    "408-11-C-T28": {
+      "primary_ability_id": "AB_CS408_OS_FAULT_ACTIONS",
+      "ability_ids": [
+        "AB_CS408_OS_FAULT_ACTIONS"
+      ],
+      "score_supports_primary": true,
+      "question_hash_sha256": "7dab3d7c3a1acafca2c1729f53594d08024dc48c2bb73b0cf5aa6fb5760662eb",
+      "basis": "核心真题/408/2011年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-11-C-T28；依据原题任务和已核对assessed_construct，按观察行为合并，非全库自动相似度聚类。"
+    },
+    "408-13-C-T30": {
+      "primary_ability_id": "AB_CS408_OS_REPLACEMENT",
+      "ability_ids": [
+        "AB_CS408_OS_REPLACEMENT",
+        "AB_CS408_OS_ADDRESS_LEGALITY"
+      ],
+      "score_supports_primary": false,
+      "question_hash_sha256": "22ea90d1db37f3e8018c35f57edf0ffd8029f54a2c369412192c025a3e71f83b",
+      "basis": "核心真题/408/2013年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-13-C-T30；依据原题任务和已核对assessed_construct，按观察行为合并，非全库自动相似度聚类。"
+    },
+    "408-19-C-T14": {
+      "primary_ability_id": "AB_CS408_OS_INSTRUCTION_RETRY",
+      "ability_ids": [
+        "AB_CS408_OS_INSTRUCTION_RETRY"
+      ],
+      "score_supports_primary": true,
+      "question_hash_sha256": "3a3ebf120d61f1d1ebc9e925568b7c40ea14cedf73b6f7cc6300475dd733a6df",
+      "basis": "核心真题/408/2019年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-19-C-T14；依据原题任务和已核对assessed_construct，按观察行为合并，非全库自动相似度聚类。"
+    },
+    "408-21-C-T21": {
+      "primary_ability_id": "AB_CS408_OS_INSTRUCTION_RETRY",
+      "ability_ids": [
+        "AB_CS408_OS_INSTRUCTION_RETRY"
+      ],
+      "score_supports_primary": true,
+      "question_hash_sha256": "8951634d2f821b266ac6fe4be0d2d501aaea4100e8ca7c1e212a98da0fc1fb46",
+      "basis": "核心真题/408/2021年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-21-C-T21；依据原题任务和已核对assessed_construct，按观察行为合并，非全库自动相似度聚类。"
+    },
+    "408-22-C-T29": {
+      "primary_ability_id": "AB_CS408_OS_REPLACEMENT",
+      "ability_ids": [
+        "AB_CS408_OS_REPLACEMENT"
+      ],
+      "score_supports_primary": true,
+      "question_hash_sha256": "f7b67ede1d8f4744370a32359e78523680f43f042227f3ba60a8c6d7a6324f4c",
+      "basis": "核心真题/408/2022年全国硕士研究生招生考试408计算机学科专业基础综合真题.md#408-22-C-T29；依据原题任务和已核对assessed_construct，按观察行为合并，非全库自动相似度聚类。"
+    }
+  }
+}

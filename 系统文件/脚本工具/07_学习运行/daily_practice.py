@@ -27,8 +27,9 @@ import tempfile
 from zoneinfo import ZoneInfo
 
 import learning_runtime as lr
+import learning_actions as la
 
-VERSION = 'daily-practice-v1.0.0'
+VERSION = 'daily-practice-v1.1.0'
 CONFIG = '系统文件/系统配置/daily_practice_policy_v1.json'
 SELECTOR = '系统文件/系统配置/annotation_sources_current_v1.json'
 ROOT = '系统文件/学习运行/每日练习'
@@ -63,10 +64,15 @@ def validate_attempts(project, rows, records):
     spec = importlib.util.spec_from_file_location('practice_attempt_validator', path)
     validator = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(validator)
-    schema = lr.schema_runtime(project).__class__(project / '系统文件/数据规范/attempt_record.schema.json')
+    schema_class = lr.schema_runtime(project).__class__
+    schemas = {'attempt-record-v1.0.0': schema_class(project / '系统文件/数据规范/attempt_record.schema.json')}
+    mapping = la.load_map(project, records) if any(isinstance(r, dict) and r.get('schema_version') == 'attempt-record-v1.1.0' for r in rows) else {'questions': {}}
     ids, errors, by_question, batches = set(), [], defaultdict(list), defaultdict(list)
     for i, row in enumerate(rows, 1):
-        e = schema.validate(row)
+        version = row.get('schema_version') if isinstance(row, dict) else None
+        if version == 'attempt-record-v1.1.0' and version not in schemas:
+            schemas[version] = schema_class(project / '系统文件/数据规范/attempt_record_v1_1.schema.json')
+        e = schemas[version].validate(row) if version in schemas else ['未知作答记录版本']
         if e:
             errors.extend(f'第{i}条: {x}' for x in e)
             continue
@@ -78,6 +84,18 @@ def validate_attempts(project, rows, records):
             errors.append('题号与学科不匹配: ' + row['question_id'])
         elif row['paper_id'] not in (None, q['l0']['paper_id']):
             errors.append('paper_id与题库不匹配: ' + row['question_id'])
+        if q is not None and version == 'attempt-record-v1.1.0':
+            observations = row['ability_observations']
+            observed_ids = [o['ability_id'] for o in observations]
+            if len(observed_ids) != len(set(observed_ids)) or any(a not in la.targets(q, mapping) for a in observed_ids):
+                errors.append('能力观察重复或未关联该题: ' + row['question_id'])
+            if row['target_ability_id'] not in la.targets(q, mapping):
+                errors.append('目标能力未关联该题: ' + row['question_id'])
+            for obs in observations:
+                if not row['is_timed'] and obs['dimensions']['timed_fluency'] is not None:
+                    errors.append('未限时不能观察限时流畅')
+                if obs['dimensions']['delayed_retention'] is not None and row['interval_hours'] is None:
+                    errors.append('延迟保持观察需要间隔')
         try:
             for k in ('attempted_at', 'verified_at', 'next_review_at'):
                 aware(row[k])
@@ -125,59 +143,71 @@ def load_inputs(project):
 
 
 def knowledge(q):
-    l2 = q.get('l2') or {}
-    if l2.get('main_knowledge') and l2.get('review_status_by_field', {}).get('main_knowledge') == 'verified':
-        return l2['main_knowledge']['id']
-    return 'scope:' + q['l1']['official_scope_coarse']
+    return la.knowledge(q)
 
 
 def scope(q):
     return q['l1']['official_scope_coarse']
 
 
-def derive_state(records, rows, summaries, as_of, threshold):
+def derive_state(records, rows, summaries, as_of, threshold, mapping=None):
+    mapping = mapping or {'abilities': {}, 'questions': {}, 'mechanisms': {}}
     cutoff = end_of_day(as_of)
     usable = [a for a in rows if aware(a['attempted_at']) < cutoff and aware(a['verified_at']) < cutoff]
     usable.sort(key=lambda a: (aware(a['attempted_at']), a['attempt_id']))
     groups, latest = defaultdict(list), {}
     for a in usable:
         latest[a['question_id']] = a
-        groups[knowledge(records[a['question_id']])].append(a)
+        if a['usage_role'] not in {'TRAIN', 'AUX_OFFPOLICY'}:
+            continue
+        for observation in la.observations(a, records[a['question_id']], mapping):
+            groups[observation['ability_id']].append((a, observation))
     abilities = {}
     for kid, attempts in groups.items():
         dims = {k: None for k in lr.DIMENSIONS}
         successes = set()
-        for a in attempts:
-            for k, v in a['dimensions'].items():
+        successes_qids = set()
+        for a, observation in attempts:
+            for k, v in observation['dimensions'].items():
                 if v is not None:
                     dims[k] = v
-            if (a['is_unseen'] and a['highest_hint_level_used'] == 'L0'
-                    and a['first_score_pct'] >= threshold
-                    and a['attempt_kind'] == 'near_variant'
+            failed = observation['first_score_pct'] < threshold or any(v in {'fail', 'partial'} for v in observation['dimensions'].values())
+            if failed:
+                successes.clear()
+                successes_qids.clear()
+            if (not failed and a['is_unseen'] and a['highest_hint_level_used'] == 'L0'
+                    and observation['first_score_pct'] >= threshold
+                    and a['attempt_kind'] in {'near_variant', 'cold_test'}
                     and a['usage_role'] in {'TRAIN', 'AUX_OFFPOLICY'}):
-                successes.add(a['question_id'])
-        last = attempts[-1]
+                successes.add(records[a['question_id']]['l0']['question_hash_sha256'])
+                successes_qids.add(a['question_id'])
+        last, last_observation = attempts[-1]
         q = records[last['question_id']]
-        recent_fail = last['first_score_pct'] < threshold or any(v in {'fail', 'partial'} for v in dims.values())
+        recent_fail = last_observation['first_score_pct'] < threshold or any(v in {'fail', 'partial'} for v in dims.values())
         abilities[kid] = {
-            'knowledge_id': kid, 'name': (q.get('l2') or {}).get('main_knowledge', {}).get('name', scope(q)),
+            'knowledge_id': kid, 'name': mapping['abilities'].get(kid, {}).get('name', (q.get('l2') or {}).get('main_knowledge', {}).get('name', scope(q))),
             'exam_track': last['exam_track'], 'scope': scope(q),
             'stage': '工作掌握' if len(successes) >= 2 and not kid.startswith('scope:') else '已接触',
             'independent_certification': 'unverified',
             'weak': recent_fail, 'dimensions': dims, 'attempt_count': len(attempts),
-            'last_score_pct': last['first_score_pct'], 'last_attempted_at': last['attempted_at'],
+            'last_score_pct': last_observation['first_score_pct'], 'last_attempted_at': last['attempted_at'],
+            'primary_error_code': last_observation['error_code'],
+            'successful_question_ids': sorted(successes_qids),
+            'ordinary_cold_test_passed': any(a['attempt_kind'] == 'cold_test' and a['question_id'] in successes_qids for a, _ in attempts),
             'next_review_at': last['next_review_at'],
             'due': aware(last['next_review_at']) < end_of_day(as_of + timedelta(days=1))
         }
     return {'version': VERSION, 'as_of': str(as_of), 'attempt_count': len(usable),
             'unobserved_ability_status': None, 'abilities': abilities,
-            'latest_questions': latest,
+            'latest_questions': latest, 'capability_map': mapping,
+            'review_tasks': la.review_queue(records, usable, mapping, end_of_day(as_of + timedelta(days=1)), threshold),
             'whole_exam_summaries': [s for s in summaries if aware(s['verified_at']) < cutoff],
             'E_metrics': None,
             'notes': ['整科总分不推导单项掌握；训练反馈不自动激活独立认证；未观察五维保持null。']}, usable
 
 
-def validate_teacher_plan(plan, records):
+def validate_teacher_plan(plan, records, mapping=None):
+    mapping = mapping or {'abilities': {}, 'questions': {}}
     if not isinstance(plan, dict) or set(plan) - {'version', 'effective_week_start', 'weekly_allocation', 'subjects'}:
         raise ValueError('Teacher计划只接受版本、预算周、周分配及subjects')
     if plan.get('version') != 'daily-teacher-plan-v1':
@@ -185,13 +215,19 @@ def validate_teacher_plan(plan, records):
     if set(plan.get('subjects', {})) - set(TRACKS):
         raise ValueError('未知学科')
     known = {knowledge(q): q['l0']['exam_track'] for q in records.values()}
+    known.update({aid: a['exam_track'] for aid, a in mapping['abilities'].items()})
     scopes = {scope(q): q['l0']['exam_track'] for q in records.values()}
     fields = {'priority_knowledge_ids', 'required_knowledge_ids', 'working_knowledge_ids',
-              'frontier_scopes', 'exclude_question_ids', 'practice_minutes'}
+              'frontier_scopes', 'exclude_question_ids', 'practice_minutes', 'mode',
+              'priority_ability_ids', 'required_ability_ids', 'working_ability_ids'}
     for track, subject in plan.get('subjects', {}).items():
         if not isinstance(subject, dict) or set(subject) - fields:
             raise ValueError('未知Teacher学科计划字段')
         for key, values in subject.items():
+            if key == 'mode':
+                if values not in la.MODES:
+                    raise ValueError('mode必须为repair、maintenance或exam')
+                continue
             if key == 'practice_minutes':
                 if not lr.finite(values, 1):
                     raise ValueError('practice_minutes必须为正数')
@@ -301,16 +337,21 @@ def prepare_candidates(project, records, state, attempts, navigation, track, tea
     excluded, blocked_papers = role_exclusions(project, attempts)
     excluded.update(subject.get('exclude_question_ids', []))
     abilities, latest = state['abilities'], state['latest_questions']
+    mapping = state['capability_map']
+    aliases = la.aliases(records, mapping)
+    def normalize(values):
+        return {aliases.get(k, k) for k in values}
+    due_tasks = [t for t in state['review_tasks'] if t['due'] and t['exam_track'] == track]
+    due_abilities = {t['ability_id'] for t in due_tasks}
     seen = set(latest)
     seen_hashes = {records[q]['l0']['question_hash_sha256'] for q in seen}
-    due = {q for q, a in latest.items() if a['exam_track'] == track and q not in excluded
-           and records[q]['l0']['paper_id'] not in blocked_papers
-           and aware(a['next_review_at']) < end_of_day(date.fromisoformat(state['as_of']) + timedelta(days=1))}
+    due = {q for t in due_tasks for q in t['question_ids'] if q in latest and q not in excluded
+           and records[q]['l0']['paper_id'] not in blocked_papers}
     weak = {k for k, a in abilities.items() if a['exam_track'] == track and a['weak']}
     weak_scopes = {a['scope'] for a in abilities.values() if a['exam_track'] == track and a['weak']}
-    working = {k for k, a in abilities.items() if a['stage'] == '工作掌握' and not a['weak']} | set(subject.get('working_knowledge_ids', []))
-    priority = set(subject.get('priority_knowledge_ids', []))
-    required = set(subject.get('required_knowledge_ids', []))
+    working = {k for k, a in abilities.items() if a['stage'] == '工作掌握' and not a['weak']} | normalize(subject.get('working_knowledge_ids', []) + subject.get('working_ability_ids', []))
+    priority = normalize(subject.get('priority_knowledge_ids', []) + subject.get('priority_ability_ids', []))
+    required = normalize(subject.get('required_knowledge_ids', []) + subject.get('required_ability_ids', []))
     order = scope_order(navigation, records)
     covered = {scope(records[q]) for q in seen}
     frontier = set(subject.get('frontier_scopes', []))
@@ -329,30 +370,34 @@ def prepare_candidates(project, records, state, attempts, navigation, track, tea
     candidates = []
     for qid, q in records.items():
         l0, l2, l3 = q['l0'], q.get('l2') or {}, q.get('l3') or {}
-        kid, sc = knowledge(q), scope(q)
+        ids, sc = set(la.targets(q, mapping)), scope(q)
+        matches = ids & (due_abilities | required | priority | weak)
+        kid = min(matches, key=lambda k: (0 if k in due_abilities else 1 if k in required else 2 if k in priority else 3, k)) if matches else la.primary(q, mapping)
         if l0['exam_track'] != track or qid in excluded or l0['paper_id'] in blocked_papers:
             continue
         if l0['question_type'] not in TYPE_NAMES or (track == 'CS408' and l0['question_type'] == 'fill'):
             continue
         if (qid in seen or l0['question_hash_sha256'] in seen_hashes) and qid not in due:
             continue
-        if qid not in due and kid not in required | priority | weak and sc not in covered | frontier:
+        if qid not in due and kid not in due_abilities | required | priority | weak and sc not in covered | frontier:
             continue
         prereqs = l2.get('prerequisites') or {}
-        missing = [p for p in prereqs.get('hard_prerequisite', []) if p['id'] not in working]
+        missing = [p for p in prereqs.get('hard_prerequisite', []) if aliases.get(p['id'], p['id']) not in working]
         # Missing observations are not failed prerequisites. At the initial
         # frontier, unknown prerequisites become explicit preparation tasks;
         # observed insufficient prerequisites do block new downstream work.
-        blocked = [p for p in missing if p['id'] in abilities]
-        if blocked and qid not in due:
+        blocked = [p for p in missing if aliases.get(p['id'], p['id']) in abilities]
+        if blocked and qid not in due and kid not in due_abilities:
             continue
+        if kid in working and not blocked:
+            missing = []  # reuse demonstrated ability; do not infer separate prerequisite mastery
         dependency = l3.get('inter_question_dependency') or {}
         if dependency.get('unresolved_legacy_note'):
             continue
         if any(r['from_question_id'].split('#')[0] != qid or r['to_question_id'].split('#')[0] != qid
                for r in dependency.get('relations', [])):
             continue  # keep internally dependent subparts intact; no orphan cross-question context
-        if qid in due:
+        if qid in due or kid in due_abilities:
             reason, rank = '到期复习', 0
         elif kid in required:
             reason, rank = '必要前置 / 预定核心任务', 1
@@ -374,7 +419,9 @@ def prepare_candidates(project, records, state, attempts, navigation, track, tea
         # learning need. Source preference never overrides due/Teacher priorities.
         candidates.append({'question_id': qid, 'q': q, 'knowledge_id': kid, 'reason': reason,
                            'preparation': missing,
-                           'rank': (rank, order.get(sc, 999), difficulty,
+                           'ability_ids': sorted(ids),
+                           'review_tasks': [t for t in due_tasks if t['ability_id'] == kid],
+                           'rank': (rank, 1 if qid in seen else 0, order.get(sc, 999), difficulty,
                                     0 if preferred_source else 1, seed)})
     return sorted(candidates, key=lambda c: c['rank']), due, order
 
@@ -476,89 +523,124 @@ def render_markdown(text, source, project):
     return rendered
 
 
-def select_paper(project, candidates, due, order, track, budget, speed, policy):
+def select_paper(project, candidates, due, order, track, budget, speed, policy, mode='exam'):
     blueprint = policy['blueprints'][track]
-    unavailable = {}
-    bodies = {}
+    unavailable, bodies = {}, {}
     limit = math.floor(sum(blueprint['counts'].values()) * policy['maximum_paper_scale'])
+
+    def eligible(c, hashes, clusters):
+        qid, q = c['question_id'], c['q']
+        fingerprint = q['l0']['question_hash_sha256']
+        relation = (q.get('l3') or {}).get('isomorphic_relation') or {}
+        cluster = relation.get('cluster_id') if relation.get('status') == 'verified' else None
+        if fingerprint in hashes or (cluster and cluster in clusters and mode != 'repair') or qid in unavailable:
+            return False
+        try:
+            if qid not in bodies:
+                body, source = question_body(project, q)
+                bodies[qid] = render_markdown(body, source, project)
+        except ValueError as error:
+            unavailable[qid] = str(error)
+            return False
+        hashes.add(fingerprint)
+        if cluster:
+            clusters.add(cluster)
+        return True
+
     best = None
-    for total in range(limit, policy['minimum_questions'][track] - 1, -1):
-        counts = proportional_counts(total, blueprint['counts'])
-        if not all(counts.values()):
-            continue
-        estimate = sum(counts[k] * speed[k]['minutes'] for k in counts)
-        if estimate > budget['practice_minutes']:
-            continue
-        selected, hashes, clusters, remaining = [], set(), set(), dict(counts)
+    if mode != 'exam':
+        selected, hashes, clusters, focus, task_ids = [], set(), set(), set(), set()
+        counts = {k: 0 for k in blueprint['counts']}
+        estimate = 0
         for c in candidates:
-            qid, q = c['question_id'], c['q']
-            kind = q['l0']['question_type']
-            fingerprint = q['l0']['question_hash_sha256']
-            relation = (q.get('l3') or {}).get('isomorphic_relation') or {}
-            cluster = relation.get('cluster_id') if relation.get('status') == 'verified' else None
-            if not remaining.get(kind) or fingerprint in hashes or (cluster and cluster in clusters and c['reason'] != '到期复习'):
+            kid, kind = c['knowledge_id'], c['q']['l0']['question_type']
+            tasks = {t['task_id'] for t in c.get('review_tasks', [])}
+            if tasks and tasks <= task_ids:
+                continue  # one probe per ability/error task; completion still needs real feedback
+            if mode == 'repair' and kid not in focus and len(focus) >= policy.get('focus_ability_limit', 3):
                 continue
-            if qid in unavailable:
+            cost = speed[kind]['minutes']
+            if len(selected) >= limit or estimate + cost > budget['practice_minutes']:
                 continue
-            try:
-                if qid not in bodies:
-                    body, source = question_body(project, q)
-                    bodies[qid] = render_markdown(body, source, project)
-            except ValueError as error:
-                unavailable[qid] = str(error)
+            if not eligible(c, hashes, clusters):
                 continue
             selected.append(c)
-            hashes.add(fingerprint)
-            if cluster:
-                clusters.add(cluster)
-            remaining[kind] -= 1
-        if any(remaining.values()):
-            continue
-        best = (selected, counts, estimate)
-        break
+            focus.add(kid)
+            task_ids.update(tasks)
+            counts[kind] += 1
+            estimate += cost
+        if selected:
+            best = selected, counts, estimate
+    else:
+        for total in range(limit, policy['minimum_questions'][track] - 1, -1):
+            counts = proportional_counts(total, blueprint['counts'])
+            if not all(counts.values()):
+                continue
+            estimate = sum(counts[k] * speed[k]['minutes'] for k in counts)
+            if estimate > budget['practice_minutes']:
+                continue
+            selected, hashes, clusters, remaining = [], set(), set(), dict(counts)
+            for c in candidates:
+                kind = c['q']['l0']['question_type']
+                if not remaining.get(kind) or not eligible(c, hashes, clusters):
+                    continue
+                selected.append(c)
+                remaining[kind] -= 1
+            if not any(remaining.values()):
+                best = selected, counts, estimate
+                break
     if best is None:
-        return {'exam_track': track, 'status': 'insufficient_eligible_questions_or_time', 'questions': [],
+        return {'exam_track': track, 'mode': mode, 'status': 'insufficient_eligible_questions_or_time', 'questions': [],
                 'counts': {k: 0 for k in blueprint['counts']}, 'budget': budget, 'speed': speed,
-                'warnings': ['当前学习前沿/完整题干/时间不足以组成含全部题型的小卷；保留教学与复习任务，补充Teacher学习前沿后再生成。'],
+                'warnings': ['当前用途下可用题干或时间不足；保留教学和到期任务，补充学习前沿或预算后再生成。'],
                 'unplaced_due_question_ids': sorted(due), 'unavailable_questions': unavailable}
     selected, counts, estimate = best
-    selected.sort(key=lambda c: (list(blueprint['counts']).index(c['q']['l0']['question_type']), c['rank']))
-    questions, slots = [], Counter()
+    if mode == 'exam':
+        selected.sort(key=lambda c: (list(blueprint['counts']).index(c['q']['l0']['question_type']), c['rank']))
+    questions, slots, planned_tasks = [], Counter(), set()
     for number, c in enumerate(selected, 1):
         q, qid = c['q'], c['question_id']
         l0, kind = q['l0'], q['l0']['question_type']
-        points = l0['original_points']
-        training = blueprint['points'][kind]
+        points, training = l0['original_points'], blueprint['points'][kind]
         if points is None:
             points = training[slots[kind] % len(training)] if isinstance(training, list) else training
         slots[kind] += 1
+        tasks = c.get('review_tasks', [])
+        planned_tasks.update(t['task_id'] for t in tasks)
         questions.append({'number': number, 'question_id': qid, 'paper_id': l0['paper_id'],
                           'question_type': kind, 'points': points,
                           'point_basis': 'original' if l0['original_points'] is not None else 'training_assignment',
                           'estimated_minutes': speed[kind]['minutes'],
                           'source_file': l0['source_file'], 'source_locator': l0['source_locator'],
                           'source_sha256': lr.sha(lr.inside(project, l0['source_file'])),
-                          'scope': scope(q), 'knowledge_id': c['knowledge_id'],
-                          'target_ability_id': c['knowledge_id'], 'reason': c['reason'],
-                          'preparation': c.get('preparation', []),
+                          'scope': scope(q), 'knowledge_id': knowledge(q),
+                          'target_ability_id': c['knowledge_id'], 'ability_ids': c.get('ability_ids', [c['knowledge_id']]),
+                          'reason': c['reason'], 'preparation': c.get('preparation', []),
+                          'review_task_ids': [t['task_id'] for t in tasks],
+                          'review_error_codes': sorted({t['error_code'] for t in tasks if t['error_code']}),
                           'was_attempted': qid in due,
                           'usage_role': 'TRAIN' if l0['source_file'].startswith('核心真题/') else 'AUX_OFFPOLICY',
                           'body_html': bodies[qid]})
-    outstanding = sorted(due - {q['question_id'] for q in questions})
-    warnings = ['整数题量按真题数量比例取整，分值保留原题；旧年份及不同大题分值会使分值占比略有偏差。']
+    due_task_map = {t['task_id']: t for c in candidates for t in c.get('review_tasks', [])}
+    represented = {qid for tid in planned_tasks for qid in due_task_map[tid]['question_ids']}
+    outstanding = sorted(due - represented - {q['question_id'] for q in questions})
+    warnings = (['考试练习按真题题型数量比例取整，保留原分值；这是训练反馈，独立审计仍按原隔离要求执行。'] if mode == 'exam'
+                else ['按当前障碍或已学能力选题，允许只有一种题型；完整大题及考试节奏由周期练习检查。'])
     if outstanding:
-        warnings.append(f'{len(outstanding)}道到期题未装入比例小卷，已列入单独强制复习清单；优先占用预留时间，不因卷面比例删除复习债务。')
-    return {'exam_track': track, 'status': 'ready', 'counts': counts, 'reference_counts': blueprint['counts'],
+        warnings.append(f'{len(outstanding)}道题关联的到期任务尚未安排探针，继续保留债务。')
+    return {'exam_track': track, 'mode': mode, 'status': 'ready', 'counts': counts, 'reference_counts': blueprint['counts'],
             'estimated_minutes': round(estimate, 2), 'budget': budget, 'speed': speed,
             'maximum_points': sum(q['points'] for q in questions), 'questions': questions,
             'focus_scopes': list(dict.fromkeys(q['scope'] for q in questions)),
-            'warnings': warnings, 'unplaced_due_question_ids': outstanding, 'unavailable_questions': unavailable}
+            'warnings': warnings, 'unplaced_due_question_ids': outstanding,
+            'planned_review_task_ids': sorted(planned_tasks), 'unavailable_questions': unavailable}
 
 
 def build_day(project, as_of, teacher=None, new_rows=None):
     records, rows, summaries, navigation, selector = load_inputs(project)
     teacher = teacher or {'version': 'daily-teacher-plan-v1', 'subjects': {}}
-    validate_teacher_plan(teacher, records)
+    mapping = la.load_map(project, records)
+    validate_teacher_plan(teacher, records, mapping)
     if new_rows:
         rows = rows + new_rows
         validate_attempts(project, rows, records)
@@ -566,18 +648,39 @@ def build_day(project, as_of, teacher=None, new_rows=None):
             raise ValueError('新增反馈的自核日期不能晚于本次日结')
     policy = lr.read(project / CONFIG)
     target = as_of + timedelta(days=1)
-    state, usable = derive_state(records, rows, summaries, as_of, policy['score_threshold_pct'])
+    state, usable = derive_state(records, rows, summaries, as_of, policy['score_threshold_pct'], mapping)
     budgets = time_budgets(lr.read(project / '系统文件/系统配置/execution_contract_v1.json'), policy, teacher, target)
     papers = {}
     for track in TRACKS:
         speed = estimate_speed(records, usable, track, policy)
         candidates, due, order = prepare_candidates(project, records, state, usable, navigation, track, teacher)
-        papers[track] = select_paper(project, candidates, due, order, track, budgets[track], speed, policy)
+        scheduled = 'exam' if target.weekday() in policy.get('exam_weekdays', []) else 'maintenance' if target.weekday() in policy.get('maintenance_weekdays', []) else policy.get('default_mode', 'repair')
+        mode = teacher.get('subjects', {}).get(track, {}).get('mode', scheduled)
+        observed = {k for k, a in state['abilities'].items() if a['exam_track'] == track}
+        if mode == 'maintenance':
+            if observed:
+                candidates = [c for c in candidates if c['knowledge_id'] in observed and not c['preparation']]
+            else:
+                mode = 'repair'  # no invented learner baseline
+        if mode == 'exam':
+            candidates = [c for c in candidates if not c['preparation']]
+        papers[track] = select_paper(project, candidates, due, order, track, budgets[track], speed, policy, mode)
+        paper = papers[track]
+        for q in paper['questions']:
+            q['was_attempted'] = q['question_id'] in state['latest_questions']
+            fine_name = (records[q['question_id']].get('l2') or {}).get('main_knowledge', {}).get('name', q['scope'])
+            q['ability_names'] = {aid: mapping['abilities'].get(aid, {}).get('name', fine_name) for aid in q['ability_ids']}
+            link = mapping['questions'].get(q['question_id'], {})
+            q['score_supports_primary'] = link.get('score_supports_primary', True)
+            q['ordinary_cold_test_eligible'] = (mode == 'maintenance' and not q['was_attempted'] and not q['preparation'])
+            q['last_learning_at'] = state['abilities'].get(q['target_ability_id'], {}).get('last_attempted_at')
+        paper['learning_blocks'] = la.learning_blocks(paper, state, mapping)
+        paper['unplaced_review_tasks'] = [t for t in state['review_tasks'] if t['exam_track'] == track and t['due'] and t['task_id'] not in paper.get('planned_review_task_ids', [])]
     result = {'version': VERSION, 'as_of': str(as_of), 'target_date': str(target),
               'learner_feedback_count': state['attempt_count'], 'state': state, 'papers': papers,
               'teacher_plan': teacher, 'policy': policy,
               'catalog_snapshot': selector['runtime_snapshot'],
-              'input_digest': digest({'attempts': rows, 'summaries': summaries, 'teacher': teacher, 'policy': policy})}
+              'input_digest': digest({'attempts': rows, 'summaries': summaries, 'teacher': teacher, 'policy': policy, 'capability_map': mapping})}
     return result, rows, new_rows or []
 
 
@@ -600,22 +703,29 @@ def html_paper(day, track):
             kind = q['question_type']
             content.append('<h2>' + TYPE_NAMES[kind] + '</h2>')
         basis = '原题分值' if q['point_basis'] == 'original' else '训练配分'
+        ability_feedback = ('<label><input class="primary-observed" type="checkbox"' + (' checked' if q['score_supports_primary'] else '') + '>本题得分率能可靠反映目标能力：' + html.escape(q['ability_names'][q['target_ability_id']]) + '</label>')
+        if not q['score_supports_primary'] or len(q['ability_ids']) > 1:
+            ability_feedback += '<details><summary>能分别核对的能力（未观察留空）</summary>' + ''.join(
+                '<label>' + html.escape(q['ability_names'][aid]) + '<input class="ability-score" data-ability="' + html.escape(aid, quote=True) + '" type="number" min="0" max="100" placeholder="该能力得分率 %"></label>' for aid in q['ability_ids']) + '</details>'
+        ability_feedback += ''.join('<label><input class="checked-error" type="checkbox" value="' + html.escape(code, quote=True) + '">本题确实检查了既往误区：' + html.escape(code) + '</label>' for code in q['review_error_codes'])
+        if q['ordinary_cold_test_eligible']:
+            ability_feedback += '<label><input class="cold" type="checkbox">本次实际为间隔至少48小时的陌生、无提示、限时、混合冷测</label>'
         content.append(f'<article id="q{q["number"]}"><div class="qheading"><b>第{q["number"]}题 · {q["points"]}分</b><small>{basis} · 预计{q["estimated_minutes"]}分钟</small></div>'
-                       + '<div class="stem">' + q['body_html'] + '</div><button class="question-start">开始本题</button><label class="response">答题区<textarea placeholder="在这里记录作答，或在纸上完成"></textarea></label>'
+                       + '<div class="stem">' + q['body_html'] + '</div><button class="question-start">开始本题</button> <button class="question-finish">完成第一遍</button><label class="response">答题区<textarea placeholder="在这里记录作答，或在纸上完成"></textarea></label>'
                        + f'<details class="feedback"><summary>完成第一遍并用外部答案自核后，填写反馈</summary><div class="fields">'
                        + '<label>本题作答开始时间<input class="attempted" type="datetime-local" step="1"></label>'
                        + '<label>第一遍得分率 %<input class="score" type="number" min="0" max="100"></label>'
                        + '<label>用时（分钟）<input class="duration" type="number" min="0.02" step="0.1"></label>'
                        + '<label>最高提示等级<select class="hint"><option>L0</option><option>L1</option><option>L2</option><option>L3</option><option>L4</option></select></label>'
                        + '<label><input class="unseen" type="checkbox">题目陌生</label><label><input class="timed" type="checkbox">限时完成</label>'
-                       + '<label>距离上次学习（小时，可空）<input class="interval" type="number" min="0"></label>'
+                       + '<label>距离上次学习（小时，记录估算可改）<input class="interval" type="number" min="0"></label>'
                        + '<label>复习间隔（天）<input class="review" type="number" min="1" value="2"></label>'
-                       + '<label>主要错误（可空）<input class="error" type="text"></label>'
+                       + '<label>主要障碍（可空）<select class="error"><option value="">尚未确定 / 无错误</option>' + ''.join('<option value="' + code + '">' + label + '</option>' for code, label in [('concept','概念或条件不清'),('method','方法选择'),('procedure','步骤执行'),('transfer','条件变化'),('speed','超时'),('retention','延迟遗忘')]) + '</select></label>'
                        + ''.join(f'<label>{label}<select class="dim" data-dim="{dim}"><option value="">未观察</option><option value="pass">通过</option><option value="partial">部分通过</option><option value="fail">失败</option></select></label>' for dim, label in zip(lr.DIMENSIONS, ['独立辨型', '步骤执行', '综合迁移', '限时流畅', '延迟保持']))
-                       + '</div><label><input class="confirmed" type="checkbox">已完成第一遍作答，并用外部权威答案自行核对分数</label></details></article>')
-    meta = {'track': track, 'date': day['target_date'], 'questions': [dict({k: q[k] for k in ('number', 'question_id', 'paper_id', 'target_ability_id', 'usage_role', 'was_attempted')}, requires_preparation=bool(q['preparation'])) for q in paper['questions']]}
+                       + '</div>' + ability_feedback + '<label><input class="confirmed" type="checkbox">已完成第一遍作答，并用外部权威答案自行核对分数</label></details></article>')
+    meta = {'track': track, 'date': day['target_date'], 'mode': paper['mode'], 'questions': [dict({k: q[k] for k in ('number', 'question_id', 'paper_id', 'target_ability_id', 'usage_role', 'was_attempted', 'ordinary_cold_test_eligible', 'last_learning_at')}, requires_preparation=bool(q['preparation'])) for q in paper['questions']]}
     payload = json.dumps(meta, ensure_ascii=False).replace('<', '\\u003c')
-    scopes = '；'.join(paper.get('focus_scopes', [])) or '暂无足够可用题目'
+    scopes = ('；'.join(paper.get('focus_scopes', [])) or '暂无足够可用题目') if paper['mode'] == 'repair' else '混合调用时不给章节或方法提示'
     counts = ' · '.join(f'{TYPE_NAMES[k]} {n}题' for k, n in paper['counts'].items())
     warnings = ''.join('<li>' + html.escape(w) + '</li>' for w in paper['warnings'])
     title = day['target_date'] + ' · ' + NAMES[track] + '明日练习卷'
@@ -638,14 +748,15 @@ function controls(card){return [...card.querySelectorAll('input,select,textarea'
 function save(){try{localStorage.setItem(key,JSON.stringify(cards.map(c=>controls(c).map(e=>e.type==='checkbox'?e.checked:e.value))));status.textContent='草稿已保存在本机';}catch(e){status.textContent='浏览器未允许保存草稿，请导出反馈';}}
 try{const stored=JSON.parse(localStorage.getItem(key));if(stored)cards.forEach((c,i)=>controls(c).forEach((e,j)=>{if(stored[i]&&stored[i][j]!==undefined){if(e.type==='checkbox')e.checked=stored[i][j];else e.value=stored[i][j];}}));}catch(e){}
 document.querySelector('#save').onclick=save;
-cards.forEach(c=>{c.querySelector('.question-start').onclick=()=>{const now=new Date();const local=new Date(now.getTime()-now.getTimezoneOffset()*60000).toISOString().slice(0,19);c.querySelector('.attempted').value=local;save();};});
+cards.forEach((c,i)=>{c.querySelector('.question-start').onclick=()=>{const now=new Date();const local=new Date(now.getTime()-now.getTimezoneOffset()*60000).toISOString().slice(0,19);c.querySelector('.attempted').value=local;const prior=META.questions[i].last_learning_at;if(prior)c.querySelector('.interval').value=Math.max(0,(now-new Date(prior))/3600000).toFixed(2);save();};c.querySelector('.question-finish').onclick=()=>{const start=new Date(c.querySelector('.attempted').value);if(isNaN(start.getTime())||start>new Date()){status.textContent='请先记录本题实际开始时间';return;}c.querySelector('.duration').value=Math.max(0.02,(Date.now()-start.getTime())/60000).toFixed(2);save();status.textContent='已记录第一遍用时，再用外部答案自核';};});
 let started=null;document.querySelector('#start').onclick=()=>{if(started)return;started=Date.now();document.querySelector('#start').textContent='计时中';setInterval(()=>{const s=Math.floor((Date.now()-started)/1000);document.querySelector('#timer').textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');},1000);};
 document.querySelector('#export').onclick=()=>{
  try{
  const now=new Date(), batch='practice-'+META.date+'-'+META.track;
  const mixed=META.questions.length>=2&&new Set(META.questions.map(q=>q.target_ability_id)).size>=2;
  const rows=META.questions.flatMap((q,i)=>{
-  const c=cards[i], field=s=>c.querySelector(s), score=field('.score').value, duration=field('.duration').value;
+  const c=cards[i], field=s=>c.querySelector(s), score=field('.score').value;
+  let duration=field('.duration').value;
   if(score===''&&duration==='')return [];
   if(score===''||duration===''||!field('.confirmed').checked)throw Error('第'+q.number+'题请补齐分数、用时和自核确认');
   const attempted=new Date(field('.attempted').value);if(!field('.attempted').value||isNaN(attempted.getTime())||attempted>now)throw Error('第'+q.number+'题请填写实际作答开始时间，或使用开始本题按钮');
@@ -653,15 +764,22 @@ document.querySelector('#export').onclick=()=>{
   const timed=field('.timed').checked, unseen=field('.unseen').checked;
   if(q.was_attempted&&unseen)throw Error('第'+q.number+'题有既往作答，不能再标陌生');
   const interval=field('.interval').value===''?null:Number(field('.interval').value);
+  if(interval!==null&&(!Number.isFinite(interval)||interval<0))throw Error('学习间隔无效');
   const dimensions=Object.fromEntries([...c.querySelectorAll('.dim')].map(e=>[e.dataset.dim,e.value||null]));
   if(!timed&&dimensions.timed_fluency!==null)throw Error('第'+q.number+'题未限时，请保留限时流畅为未观察');
   if(dimensions.delayed_retention!==null&&interval===null)throw Error('第'+q.number+'题延迟保持需填写间隔');
   const review=Number(field('.review').value);if(!Number.isFinite(review)||review<1)throw Error('复习间隔至少1天');
   const verified=new Date(verificationTimes[q.question_id]||now.toISOString());if(attempted>verified)throw Error('第'+q.number+'题开始时间晚于此前自核时间，请核对实际时间');
   verificationTimes[q.question_id]=verified.toISOString();const next=new Date(verified.getTime()+review*86400000);
-  return [{schema_version:'attempt-record-v1.0.0',attempt_id:'practice-'+META.date+'-'+META.track+'-'+q.question_id,
+  const checked=[...c.querySelectorAll('.checked-error:checked')].map(e=>e.value);
+  const observations=[];
+  if(field('.primary-observed').checked)observations.push({ability_id:q.target_ability_id,first_score_pct:Number(score),dimensions,error_code:field('.error').value||null,checked_error_codes:checked});
+  [...c.querySelectorAll('.ability-score')].forEach(e=>{if(e.value==='')return;const value=Number(e.value);if(!Number.isFinite(value)||value<0||value>100)throw Error('能力得分率无效');const primary=e.dataset.ability===q.target_ability_id;const obs={ability_id:e.dataset.ability,first_score_pct:value,dimensions:primary?dimensions:Object.fromEntries(Object.keys(dimensions).map(k=>[k,null])),error_code:primary?(field('.error').value||null):null,checked_error_codes:primary?checked:[]};const old=observations.findIndex(o=>o.ability_id===obs.ability_id);if(old>=0)observations[old]=obs;else observations.push(obs);});
+  const cold=field('.cold')?.checked||false;
+  if(cold&&(!q.ordinary_cold_test_eligible||!unseen||!timed||interval===null||interval<48||field('.hint').value!=='L0'))throw Error('普通冷测需陌生、无提示、限时，且间隔至少48小时');
+  return [{schema_version:'attempt-record-v1.1.0',attempt_id:'practice-'+META.date+'-'+META.track+'-'+q.question_id,
    attempted_at:attempted.toISOString(),verified_at:verified.toISOString(),question_id:q.question_id,paper_id:q.paper_id,exam_track:META.track,
-   usage_role:q.usage_role,attempt_kind:q.was_attempted?'review_probe':q.requires_preparation?'initial':'near_variant',target_ability_id:q.target_ability_id,
+   usage_role:q.usage_role,attempt_kind:cold?'cold_test':q.was_attempted?'review_probe':q.requires_preparation?'initial':'near_variant',target_ability_id:observations[0]?.ability_id||q.target_ability_id,ability_observations:observations,
    batch_id:mixed?batch:null,first_score_pct:Number(score),duration_seconds:Math.max(1,Math.round(Number(duration)*60)),
    highest_hint_level_used:field('.hint').value,is_unseen:unseen,is_timed:timed,is_mixed:false,
    interval_hours:interval,primary_error_code:field('.error').value||null,dimensions,next_review_at:next.toISOString(),
@@ -669,6 +787,7 @@ document.querySelector('#export').onclick=()=>{
  });
  if(!rows.length)throw Error('请先填写至少一题自核反馈');
  if(document.querySelector('#mixed').checked){if(rows.length<2||new Set(rows.map(r=>r.target_ability_id)).size<2)throw Error('混合反馈必须包含至少两题、两个能力');rows.forEach(r=>{r.is_mixed=true;});}
+ if(rows.some(r=>r.attempt_kind==='cold_test'&&!r.is_mixed))throw Error('普通冷测还需确认实际混合调用，并导出至少两题、两个能力');
  const serialized=rows.map(r=>JSON.stringify(r)).join('\\n')+'\\n';
  const blob=new Blob([serialized],{type:'application/x-ndjson'});
  if(downloadLink.href.startsWith('blob:'))URL.revokeObjectURL(downloadLink.href);
@@ -687,21 +806,36 @@ def write_artifacts(day, destination):
     for track in TRACKS:
         (destination / (NAMES[track] + '.html')).write_text(html_paper(day, track), encoding='utf-8')
     links = ''.join(f'<li><a href="{NAMES[t]}.html">{NAMES[t]}练习卷</a> · {sum(day["papers"][t]["counts"].values())}题</li>' for t in TRACKS)
-    (destination / 'index.html').write_text('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>明日练习</title><style>' + CSS + '</style><body><header><h1>' + day['target_date'] + ' 明日练习</h1><ul>' + links + '</ul><p>完成后用外部答案自核，导出反馈进行日结。</p></header></body></html>', encoding='utf-8')
+    blocks, shown = [], set()
+    for track, paper in day['papers'].items():
+        blocks.append('<section><h2>' + NAMES[track] + ' · ' + la.MODES[paper['mode']] + '</h2>')
+        for item in paper['learning_blocks']:
+            blocks.append('<p><b>' + html.escape(item['ability_name']) + '</b>：' + html.escape(item['action']) + '</p><p>先确认：' + html.escape(item['diagnostic_question']) + '</p>')
+            if item['mechanism'] and item['mechanism_id'] not in shown:
+                shown.add(item['mechanism_id'])
+                blocks.append('<p>' + html.escape(item['mechanism']['model']) + '</p><p>适用边界：' + html.escape(item['mechanism']['boundaries']) + '</p>')
+            blocks.append('<p>要看到的改变：' + html.escape(item['expected_change']) + '。' + html.escape(item['verification']) + '。</p>')
+        if paper['unplaced_review_tasks']:
+            blocks.append('<p>仍有' + str(len(paper['unplaced_review_tasks'])) + '个到期能力或误区任务未安排；明日建议中保留清单。</p>')
+        blocks.append('</section>')
+    (destination / 'index.html').write_text('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>明日练习</title><style>' + CSS + '</style><body><header><h1>' + day['target_date'] + ' 明日练习</h1><ul>' + links + '</ul><p>完成后用外部答案自核，导出反馈进行日结。</p>' + ''.join(blocks) + '</header></body></html>', encoding='utf-8')
     report = [f'# {day["target_date"]} 明日学习建议', '', f'截至{day["as_of"]}收到{day["learner_feedback_count"]}条真实反馈。', '']
     if not day['learner_feedback_count']:
         report += ['没有真实逐题反馈，个人掌握度保持未知；本卷按教材顺序及核心覆盖生成。', '']
     for track in TRACKS:
         p = day['papers'][track]
         report += [f'## {NAMES[track]}', '', f'净时间{p["budget"]["net_minutes"]}分钟，作答预算{p["budget"]["practice_minutes"]}分钟，教学/自核/复盘预留{p["budget"]["reserved_minutes"]}分钟。',
-                   '题型：' + '、'.join(f'{TYPE_NAMES[k]}{v}题' for k, v in p['counts'].items()), '', '[打开试卷](' + NAMES[track] + '.html)', '']
+                   '用途：' + la.MODES[p['mode']], '题型：' + '、'.join(f'{TYPE_NAMES[k]}{v}题' for k, v in p['counts'].items()), '', '[打开试卷](' + NAMES[track] + '.html)', '']
+        for item in p['learning_blocks']:
+            report += ['- ' + item['ability_name'] + '：' + item['action'], '  先确认：' + item['diagnostic_question'], '  预期改变：' + item['expected_change'], '  检查方式：' + item['verification']]
         for q in p['questions']:
             report.append(f'- {q["question_id"]}：{q["reason"]}；{q["scope"]}')
         preparation = {item['id']: item['name'] for q in p['questions'] for item in q['preparation']}
         if preparation:
             report += ['', '作答前先在预留时间内核对/学习这些尚无可靠观察的前置；这类题用于教学后训练，不能当作前置已掌握或冷测认证：', '', *['- ' + name for name in preparation.values()]]
-        if p['unplaced_due_question_ids']:
-            report += ['', '必须补做的到期复习（先占用预留时间，超时则保留债务并反馈）：', ''] + ['- ' + q for q in p['unplaced_due_question_ids']]
+        if p['unplaced_review_tasks']:
+            report += ['', '未安排的到期能力 / 误区任务（保留债务，不机械重做所有原题）：', ''] + ['- ' + t['ability_id'] + '；误区：' + (t['error_code'] or '一般保持') for t in p['unplaced_review_tasks']]
+        report += ['', '已安排探针也不等于复习完成；只由真实反馈更新实际覆盖的能力和明确核查的误区。']
         report += ['', *p['warnings'], '']
     (destination / '明日建议.md').write_text('\n'.join(report), encoding='utf-8')
     manifest = {'version': VERSION, 'target_date': day['target_date'], 'input_digest': day['input_digest'],
@@ -787,11 +921,23 @@ def main():
             p.add_argument('--feedback', type=Path, action='append', default=[])
     check = sub.add_parser('check')
     check.add_argument('--output', type=Path, required=True)
+    validate = sub.add_parser('validate-feedback')
+    validate.add_argument('--feedback', type=Path, action='append', required=True)
     args = parser.parse_args()
     try:
         project = args.project.resolve()
         if args.command == 'check':
             result = {'status': 'PASS', 'manifest': verify_frozen(args.output.resolve())}
+        elif args.command == 'validate-feedback':
+            records, current, _, _, _ = load_inputs(project)
+            supplied = [r for p in args.feedback for r in lr.jsonl(p.read_text(encoding='utf-8'))]
+            existing = {r['attempt_id']: r for r in current}
+            for row in supplied:
+                if row['attempt_id'] in existing and existing[row['attempt_id']] != row:
+                    raise ValueError('已有attempt_id的反馈内容不同')
+                existing[row['attempt_id']] = row
+            validate_attempts(project, list(existing.values()), records)
+            result = {'status': 'PASS', 'supplied_attempts': len(supplied), 'writes': 0}
         else:
             feedback = [r for p in getattr(args, 'feedback', []) for r in lr.jsonl(p.read_text(encoding='utf-8'))]
             teacher = lr.read(args.teacher_plan) if args.teacher_plan else None

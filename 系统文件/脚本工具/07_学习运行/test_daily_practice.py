@@ -130,7 +130,7 @@ class RecommendationTests(unittest.TestCase):
         records = {qid: question(qid) for qid in ('Q1', 'Q2')}
         row = attempt('Q1', next_review_at='2026-10-05T09:00:00+08:00')
         cs = self.candidates(records, [row])
-        self.assertEqual(cs[0]['question_id'], 'Q1')
+        self.assertEqual(cs[0]['question_id'], 'Q2')  # a fresh probe of the same due ability
         self.assertEqual(cs[0]['reason'], '到期复习')
         self.assertNotIn('Q1', {c['question_id'] for c in self.candidates(records, [attempt('Q1')])})
 
@@ -175,12 +175,13 @@ class RecommendationTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 dp.validate_teacher_plan({'version': 'daily-teacher-plan-v1', 'subjects': subjects}, records)
 
-    def test_real_catalog_papers_fit_budget_and_use_all_types(self):
+    def test_real_catalog_repair_papers_fit_budget_and_preserve_sources(self):
         day, _, _ = dp.build_day(PROJECT, DAY)
         for track, paper in day['papers'].items():
             self.assertEqual(paper['status'], 'ready')
             self.assertLessEqual(paper['estimated_minutes'], paper['budget']['practice_minutes'])
-            self.assertTrue(all(paper['counts'].values()))
+            self.assertEqual(paper['mode'], 'repair')
+            self.assertGreater(sum(paper['counts'].values()), 0)
             self.assertEqual(len({q['question_id'] for q in paper['questions']}), len(paper['questions']))
             for q in paper['questions']:
                 self.assertNotIn('参考答案', q['body_html'])
